@@ -1,0 +1,44 @@
+{
+  "events": [
+    {
+      "event_id": "ridgecrest_2019",
+      "name": "2019 M7.1 Ridgecrest Earthquake",
+      "magnitude": 7.1,
+      "date": "2019-07-06",
+      "location": "Southern California, USA",
+      "epicenter": {
+        "lat": 35.77,
+        "lon": -117.599
+      },
+      "bounds": {
+        "lon_min": -119.465,
+        "lon_max": -116.216,
+        "lat_min": 35.005,
+        "lat_max": 36.885
+      },
+      "datasets": [
+        {
+          "dataset_id": "ridgecrest_asc_064",
+          "name": "Ascending Track 064",
+          "url": "https://d1z62tir4fw0q0.cloudfront.net/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_71_ridgecrest_earthquake_sequence/S1-COSEIS_SAR-A-R-064-tops-20190710_20190704-015012-00119W_00035N-PP-6e22-v1_0_0/S1-COSEIS_SAR-A-R-064-tops-20190710_20190704-015012-00119W_00035N-PP-6e22-v1_0_0.nc",
+          "satellite": "Sentinel-1",
+          "track": "064",
+          "orbit_direction": "Ascending",
+          "date_range": "20190704 - 20190710",
+          "description": "Ascending track covering the full rupture"
+        }
+      ],
+      "metadata": {
+        "depth_km": 8.0,
+        "fault_type": "Strike-slip",
+        "references": [
+          "Ross et al. 2019",
+          "USGS Event Page"
+        ]
+      },
+      "has_model": true
+    }
+  ],
+  "total_events": 1,
+  "total_datasets": 1
+}

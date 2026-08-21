@@ -843,8 +843,13 @@
         // scripts/build_static_catalog.py + scripts/generate_pngs_from_catalog.py)
         // are actually hosted -- e.g. an S3 bucket or CloudFront distribution.
         const DEFORMHUB_CONFIG = {
-            catalogUrl: 'https://YOUR-BUCKET.s3.amazonaws.com/catalog.json',
-            dataBaseUrl: 'https://YOUR-BUCKET.s3.amazonaws.com/pngs',
+            // Temporary test case: just the Ridgecrest ascending track, hosted
+            // directly in this repo via GitHub Pages. Once the full dataset is
+            // uploaded to S3, point these at the bucket instead, e.g.:
+            //   catalogUrl: 'https://YOUR-BUCKET.s3.amazonaws.com/catalog.json',
+            //   dataBaseUrl: 'https://YOUR-BUCKET.s3.amazonaws.com/pngs',
+            catalogUrl: 'https://gracebato.github.io/deformhub-viewer/catalog.json',
+            dataBaseUrl: 'https://gracebato.github.io/deformhub-viewer/pngs',
         };
         let fullCatalog = null;  // populated once from catalogUrl, reused for all lookups
 
