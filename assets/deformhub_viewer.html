@@ -1,0 +1,1718 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeformHub - One Stop Shop of Coseismic Displacement Products</title>
+
+    <!-- MapLibre GL CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" />
+
+    <!-- Turf.js for geospatial calculations -->
+    <script src="https://unpkg.com/@turf/turf@6/turf.min.js"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg: #f8f9fa;
+            --panel: #ffffff;
+            --panel2: #f1f3f5;
+            --inset: #e9ecef;
+            --border: #dee2e6;
+            --text: #212529;
+            --text-muted: #6c757d;
+            --accent: #4dabf7;
+            --accent-dark: #339af0;
+            --accent-text: #1a1a1a;
+            --success: #51cf66;
+            --warning: #fcc419;
+            --radius: 6px;
+            --radius-lg: 10px;
+            --shadow: 0 1px 3px rgba(0,0,0,0.08);
+            --shadow-lg: 0 4px 12px rgba(0,0,0,0.1);
+            --transition: 0.15s ease;
+            --sidebar-width: 340px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            font-size: 13px;
+            line-height: 1.5;
+            color: var(--text);
+            background: var(--bg);
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        /* Layout */
+        .app-container {
+            display: flex;
+            height: 100vh;
+        }
+
+        /* Sidebar */
+        #sidebar {
+            width: var(--sidebar-width);
+            min-width: var(--sidebar-width);
+            background: var(--panel);
+            border-right: 1px solid var(--border);
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        .sidebar-header {
+            padding: 16px 14px;
+            border-bottom: 1px solid var(--border);
+            background: var(--panel);
+        }
+
+        .sidebar-header h1 {
+            font-size: 15px;
+            font-weight: 700;
+            color: var(--text);
+            margin-bottom: 4px;
+        }
+
+        .sidebar-header p {
+            font-size: 11px;
+            color: var(--text-muted);
+        }
+
+        #sidebar-scroll {
+            flex: 1;
+            overflow-y: auto;
+            padding: 0;
+        }
+
+        /* Section styling */
+        .section {
+            border-bottom: 1px solid var(--border);
+        }
+
+        .section:last-child {
+            border-bottom: none;
+        }
+
+        .section-head {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 14px;
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-muted);
+            cursor: pointer;
+            user-select: none;
+            background: var(--panel2);
+            transition: background var(--transition);
+        }
+
+        .section-head:hover {
+            background: var(--inset);
+        }
+
+        .section-head .chev {
+            width: 16px;
+            height: 16px;
+            transition: transform var(--transition);
+            opacity: 0.5;
+        }
+
+        .section.collapsed .chev {
+            transform: rotate(-90deg);
+        }
+
+        .section.collapsed .section-body {
+            display: none;
+        }
+
+        .section-body {
+            padding: 12px 14px;
+        }
+
+        /* Form elements */
+        .form-group {
+            margin-bottom: 12px;
+        }
+
+        .form-group:last-child {
+            margin-bottom: 0;
+        }
+
+        .form-label {
+            display: block;
+            font-size: 11px;
+            font-weight: 500;
+            color: var(--text-muted);
+            margin-bottom: 6px;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+        }
+
+        select, input[type="text"] {
+            width: 100%;
+            padding: 8px 10px;
+            font-size: 12.5px;
+            font-family: inherit;
+            background: var(--inset);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            color: var(--text);
+            transition: border-color var(--transition), box-shadow var(--transition);
+        }
+
+        select:focus, input[type="text"]:focus {
+            outline: none;
+            border-color: var(--accent);
+            box-shadow: 0 0 0 3px rgba(77, 171, 247, 0.15);
+        }
+
+        select {
+            cursor: pointer;
+            appearance: none;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%236c757d' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 10px center;
+            padding-right: 30px;
+        }
+
+        /* Info display */
+        .info-grid {
+            display: grid;
+            gap: 6px;
+        }
+
+        .info-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            font-size: 12px;
+        }
+
+        .info-label {
+            color: var(--text-muted);
+            font-weight: 500;
+        }
+
+        .info-value {
+            color: var(--text);
+            text-align: right;
+        }
+
+        /* Chips */
+        .chip-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .chip {
+            display: inline-flex;
+            align-items: center;
+            padding: 4px 10px;
+            font-size: 11px;
+            font-weight: 500;
+            background: var(--inset);
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all var(--transition);
+            user-select: none;
+        }
+
+        .chip:hover {
+            border-color: var(--accent);
+            color: var(--accent-dark);
+        }
+
+        .chip.active {
+            background: var(--accent);
+            border-color: var(--accent);
+            color: var(--accent-text);
+        }
+
+        /* Buttons */
+        .btn-group {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            padding: 8px 12px;
+            font-size: 12px;
+            font-weight: 500;
+            font-family: inherit;
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            background: var(--inset);
+            color: var(--text);
+            cursor: pointer;
+            transition: all var(--transition);
+            text-decoration: none;
+        }
+
+        .btn:hover:not(:disabled) {
+            border-color: var(--accent);
+            color: var(--accent-dark);
+        }
+
+        .btn-primary {
+            background: var(--accent);
+            border-color: var(--accent);
+            color: var(--accent-text);
+            font-weight: 600;
+        }
+
+        .btn-primary:hover:not(:disabled) {
+            background: var(--accent-dark);
+            border-color: var(--accent-dark);
+            color: var(--accent-text);
+        }
+
+        .btn:disabled {
+            opacity: 0.45;
+            cursor: not-allowed;
+        }
+
+        .btn-icon {
+            width: 14px;
+            height: 14px;
+        }
+
+        /* Warning */
+        .warning-box {
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+            padding: 10px 12px;
+            font-size: 11.5px;
+            background: #fff9db;
+            border: 1px solid #ffe066;
+            border-radius: var(--radius);
+            color: #664d03;
+        }
+
+        .warning-box svg {
+            flex-shrink: 0;
+            width: 14px;
+            height: 14px;
+            margin-top: 1px;
+        }
+
+        /* Main content */
+        .main-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            min-width: 0;
+            height: 100vh;
+        }
+
+        /* Map container */
+        .map-wrapper {
+            flex: 1;
+            position: relative;
+            min-height: 0;
+        }
+
+        #map {
+            width: 100%;
+            height: 100%;
+            background: #000000;
+        }
+
+        /* Map controls */
+        .map-controls {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            z-index: 10;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            gap: 6px;
+        }
+
+        .map-control-btn {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 10px;
+            font-size: 11px;
+            font-weight: 500;
+            background: var(--panel);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            cursor: pointer;
+            transition: all var(--transition);
+        }
+
+        .map-control-btn:hover {
+            background: var(--panel2);
+        }
+
+        .map-control-btn input[type="checkbox"] {
+            margin: 0;
+            cursor: pointer;
+        }
+
+        /* Basemap selector */
+        .basemap-selector {
+            display: flex;
+            align-items: center;
+            gap: 0;
+            padding: 4px;
+            background: rgba(33, 37, 41, 0.85);
+            border-radius: 20px;
+            box-shadow: var(--shadow-lg);
+            backdrop-filter: blur(8px);
+        }
+
+        .basemap-option {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 12px;
+            font-size: 11px;
+            font-weight: 500;
+            color: rgba(255, 255, 255, 0.7);
+            background: transparent;
+            border: none;
+            border-radius: 16px;
+            cursor: pointer;
+            transition: all var(--transition);
+            white-space: nowrap;
+        }
+
+        .basemap-option:hover {
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        .basemap-option.active {
+            background: var(--accent);
+            color: var(--accent-text);
+        }
+
+        .basemap-option .radio-dot {
+            width: 14px;
+            height: 14px;
+            border: 2px solid currentColor;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .basemap-option.active .radio-dot::after {
+            content: '';
+            width: 6px;
+            height: 6px;
+            background: currentColor;
+            border-radius: 50%;
+        }
+
+        /* Visualization panel */
+        .viz-panel {
+            height: 280px;
+            min-height: 280px;
+            background: var(--panel);
+            border-top: 1px solid var(--border);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .viz-tabs {
+            display: flex;
+            gap: 0;
+            padding: 0 14px;
+            background: var(--panel2);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .viz-tab {
+            padding: 10px 16px;
+            font-size: 12px;
+            font-weight: 500;
+            font-family: inherit;
+            color: var(--text-muted);
+            background: none;
+            border: none;
+            border-bottom: 2px solid transparent;
+            cursor: pointer;
+            transition: all var(--transition);
+            margin-bottom: -1px;
+        }
+
+        .viz-tab:hover {
+            color: var(--text);
+        }
+
+        .viz-tab.active {
+            color: var(--accent-dark);
+            border-bottom-color: var(--accent);
+            background: var(--panel);
+        }
+
+        .viz-content-wrapper {
+            flex: 1;
+            overflow: hidden;
+            padding: 14px;
+        }
+
+        .viz-acknowledgement {
+            padding: 8px 14px;
+            font-size: 11px;
+            line-height: 1.5;
+            color: var(--text-muted, #888);
+            border-top: 1px solid var(--border);
+            background: var(--panel2);
+        }
+
+        .viz-acknowledgement a {
+            color: inherit;
+        }
+
+        .viz-content {
+            display: none;
+            height: 100%;
+        }
+
+        .viz-content.active {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .viz-content img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+            border-radius: var(--radius);
+        }
+
+        /* Loading state */
+        .loading {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            color: var(--text-muted);
+            font-size: 12px;
+        }
+
+        .loading-spinner {
+            width: 16px;
+            height: 16px;
+            border: 2px solid var(--border);
+            border-top-color: var(--accent);
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        /* Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--border);
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--text-muted);
+        }
+
+        /* MapLibre overrides */
+        .maplibregl-ctrl-group {
+            background: var(--panel) !important;
+            border: 1px solid var(--border) !important;
+            box-shadow: var(--shadow) !important;
+        }
+
+        .maplibregl-ctrl-group button {
+            border-color: var(--border) !important;
+        }
+
+        .maplibregl-popup-content {
+            font-family: inherit;
+            font-size: 12px;
+            padding: 10px 12px;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow-lg);
+        }
+    </style>
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar -->
+        <div id="sidebar">
+            <div class="sidebar-header">
+                <h1>DeformHub</h1>
+                <p>One Stop Shop of Coseismic Displacement Products</p>
+            </div>
+
+            <div id="sidebar-scroll">
+                <!-- Event Selection -->
+                <div class="section">
+                    <div class="section-head" onclick="toggleSection(this)">
+                        <span>Event Selection</span>
+                        <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </div>
+                    <div class="section-body">
+                        <div class="form-group">
+                            <label class="form-label">Earthquake Event</label>
+                            <select id="event-select" onchange="onEventChange()">
+                                <option value="">Loading events...</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Dataset</label>
+                            <select id="dataset-select" onchange="onDatasetChange()">
+                                <option value="">Select event first...</option>
+                            </select>
+                        </div>
+                        <div id="placeholder-warning" class="warning-box" style="display: none;">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
+                            </svg>
+                            <span>Placeholder event. Add real data URLs to visualize.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Event Information -->
+                <div class="section">
+                    <div class="section-head" onclick="toggleSection(this)">
+                        <span>Event Information</span>
+                        <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </div>
+                    <div class="section-body">
+                        <div class="info-grid" id="event-info">
+                            <div class="loading">
+                                <div class="loading-spinner"></div>
+                                <span>Loading...</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dataset Information -->
+                <div class="section">
+                    <div class="section-head" onclick="toggleSection(this)">
+                        <span>Dataset Information</span>
+                        <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </div>
+                    <div class="section-body">
+                        <div class="info-grid" id="dataset-info">
+                            <div class="loading">
+                                <div class="loading-spinner"></div>
+                                <span>Select dataset...</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary" id="download-btn" onclick="downloadDataset()" disabled style="margin-top: 8px; width: 100%;">
+                            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/>
+                            </svg>
+                            Download Dataset
+                        </button>
+                    </div>
+                </div>
+
+                <!-- USGS Earthquakes -->
+                <div class="section">
+                    <div class="section-head" onclick="toggleSection(this)">
+                        <span>USGS Earthquakes</span>
+                        <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </div>
+                    <div class="section-body">
+                        <div class="form-group">
+                            <label class="map-control-btn" style="width: 100%; justify-content: flex-start;">
+                                <input type="checkbox" id="usgs-toggle" checked onchange="toggleUSGSEarthquakes()">
+                                <span>Show USGS Events (<span id="usgs-count">0</span>)</span>
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Min Magnitude: <span id="mag-value">5.5</span></label>
+                            <input type="range" id="mag-slider" min="4" max="8" step="0.5" value="5.5"
+                                   style="width: 100%;" onchange="updateUSGSFilters()" oninput="document.getElementById('mag-value').textContent = this.value">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Max Depth: <span id="depth-value">30</span> km</label>
+                            <input type="range" id="depth-slider" min="10" max="300" step="10" value="30"
+                                   style="width: 100%;" onchange="updateUSGSFilters()" oninput="document.getElementById('depth-value').textContent = this.value">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Start Year</label>
+                            <select id="year-select" onchange="updateUSGSFilters()">
+                                <option value="2026" selected>2026</option>
+                                <option value="2025">2025</option>
+                                <option value="2024">2024</option>
+                                <option value="2023">2023</option>
+                                <option value="2022">2022</option>
+                                <option value="2021">2021</option>
+                                <option value="2020">2020</option>
+                                <option value="2019">2019</option>
+                                <option value="2018">2018</option>
+                                <option value="2017">2017</option>
+                                <option value="2016">2016</option>
+                                <option value="2015">2015</option>
+                                <option value="2014">2014</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="map-control-btn" style="width: 100%; justify-content: flex-start;">
+                                <input type="checkbox" id="land-buffer-toggle" checked onchange="updateUSGSFilters()">
+                                <span>Near land only</span>
+                            </label>
+                        </div>
+                        <div class="form-group" id="land-buffer-slider-group">
+                            <label class="form-label">Land Buffer: <span id="buffer-value">50</span> km</label>
+                            <input type="range" id="buffer-slider" min="10" max="200" step="10" value="50"
+                                   style="width: 100%;" onchange="updateUSGSFilters()" oninput="document.getElementById('buffer-value').textContent = this.value">
+                        </div>
+                        <div id="usgs-loading" class="loading" style="display: none; margin-top: 8px;">
+                            <div class="loading-spinner"></div>
+                            <span>Loading earthquakes...</span>
+                        </div>
+                        <button class="btn" onclick="exportUSGSToCSV()" style="margin-top: 8px; width: 100%;">
+                            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                                <polyline points="7 10 12 15 17 10"/>
+                                <line x1="12" y1="15" x2="12" y2="3"/>
+                            </svg>
+                            Export CSV
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Actions -->
+                <div class="section">
+                    <div class="section-head" onclick="toggleSection(this)">
+                        <span>Actions</span>
+                        <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </div>
+                    <div class="section-body">
+                        <div class="btn-group">
+                            <button class="btn" onclick="refreshData()">
+                                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M23 4v6h-6M1 20v-6h6"/>
+                                    <path d="M3.51 9a9 9 0 0114.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0020.49 15"/>
+                                </svg>
+                                Refresh Data
+                            </button>
+                            <a class="btn" href="https://aria.caltech.edu/" target="_blank" rel="noopener noreferrer">
+                                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/>
+                                    <path d="M15 3h6v6"/>
+                                    <path d="M10 14L21 3"/>
+                                </svg>
+                                Go to ARIA Website
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Map -->
+            <div class="map-wrapper">
+                <div id="map"></div>
+                <div class="map-controls">
+                    <div class="basemap-selector">
+                        <button class="basemap-option" data-basemap="light" onclick="setBasemap('light', this)">
+                            <span class="radio-dot"></span>
+                            <span>Light</span>
+                        </button>
+                        <button class="basemap-option active" data-basemap="dark" onclick="setBasemap('dark', this)">
+                            <span class="radio-dot"></span>
+                            <span>Dark</span>
+                        </button>
+                        <button class="basemap-option" data-basemap="satellite" onclick="setBasemap('satellite', this)">
+                            <span class="radio-dot"></span>
+                            <span>Satellite</span>
+                        </button>
+                        <button class="basemap-option" data-basemap="satellite-hybrid" onclick="setBasemap('satellite-hybrid', this)">
+                            <span class="radio-dot"></span>
+                            <span>Satellite-H</span>
+                        </button>
+                    </div>
+                    <label class="map-control-btn">
+                        <input type="checkbox" id="wrapped-toggle" checked onchange="toggleWrappedOverlay()">
+                        <span>Wrapped Phase</span>
+                    </label>
+                </div>
+            </div>
+
+            <!-- Visualization Panel -->
+            <div class="viz-panel">
+                <div class="viz-tabs">
+                    <button class="viz-tab active" onclick="showViz('los', this)">LOS Displacement</button>
+                    <button class="viz-tab" onclick="showViz('wrapped', this)">Wrapped Phase</button>
+                    <button class="viz-tab" onclick="showViz('range', this)">Range Offset</button>
+                    <button class="viz-tab" onclick="showViz('azimuth', this)">Azimuth Offset</button>
+                    <button class="viz-tab" onclick="showViz('model', this)">Model</button>
+                </div>
+                <div class="viz-content-wrapper">
+                    <div id="viz-los" class="viz-content active">
+                        <div class="loading">
+                            <div class="loading-spinner"></div>
+                            <span>Select an event and dataset</span>
+                        </div>
+                    </div>
+                    <div id="viz-wrapped" class="viz-content">
+                        <div class="loading">
+                            <div class="loading-spinner"></div>
+                            <span>Select an event and dataset</span>
+                        </div>
+                    </div>
+                    <div id="viz-range" class="viz-content">
+                        <div class="loading">
+                            <div class="loading-spinner"></div>
+                            <span>Select an event and dataset</span>
+                        </div>
+                    </div>
+                    <div id="viz-azimuth" class="viz-content">
+                        <div class="loading">
+                            <div class="loading-spinner"></div>
+                            <span>Select an event and dataset</span>
+                        </div>
+                    </div>
+                    <div id="viz-model" class="viz-content">
+                        <div class="loading">
+                            <div class="loading-spinner"></div>
+                            <span>Select an event and dataset</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="viz-acknowledgement">
+                    This work is developed as part of the One-Stop-Shop of Coseismic Products Project funded by NASA ESI grant 23-ESI23-0012.
+                    Contact Dr. Grace Bato (<a href="mailto:bato@jpl.nasa.gov">bato@jpl.nasa.gov</a>) and
+                    Dr. Cole Speed (<a href="mailto:cole.speed@jpl.nasa.gov">cole.speed@jpl.nasa.gov</a>) for product-specific inquiries.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MapLibre GL JS -->
+    <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+
+    <script>
+        // Static-hosting config: this page has no backend. Point these at wherever
+        // catalog.json and the pngs/ directory (as produced by
+        // scripts/build_static_catalog.py + scripts/generate_pngs_from_catalog.py)
+        // are actually hosted -- e.g. an S3 bucket or CloudFront distribution.
+        const DEFORMHUB_CONFIG = {
+            catalogUrl: 'https://YOUR-BUCKET.s3.amazonaws.com/catalog.json',
+            dataBaseUrl: 'https://YOUR-BUCKET.s3.amazonaws.com/pngs',
+        };
+        let fullCatalog = null;  // populated once from catalogUrl, reused for all lookups
+
+        function plotUrl(eventId, datasetId, type, overlay) {
+            const filename = (type === 'wrapped' && overlay) ? 'wrapped_overlay.png' : `${type}.png`;
+            return `${DEFORMHUB_CONFIG.dataBaseUrl}/${eventId}/${datasetId}/${filename}`;
+        }
+
+        // Global state
+        let map = null;
+        let currentEvent = null;
+        let currentDataset = null;
+        let currentEventId = '';  // Empty = show all USGS events
+        let currentDatasetId = '';
+        let epicenterMarker = null;
+        let wrappedOverlayId = 'wrapped-overlay';
+        let coverageBoxId = 'coverage-box';
+        let currentDataBounds = null;
+        let currentBasemap = 'dark';
+
+        // Basemap tile URLs
+        const basemapTiles = {
+            'light': {
+                tiles: ['https://tile.openstreetmap.org/{z}/{x}/{y}.png'],
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+            },
+            'dark': {
+                tiles: ['https://cartodb-basemaps-a.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png'],
+                attribution: '&copy; <a href="https://carto.com/">CARTO</a>'
+            },
+            'satellite': {
+                tiles: ['https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'],
+                attribution: '&copy; <a href="https://www.esri.com/">Esri</a>'
+            },
+            'satellite-hybrid': {
+                tiles: ['https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'],
+                labels: ['https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}'],
+                attribution: '&copy; <a href="https://www.esri.com/">Esri</a>'
+            }
+        };
+
+        // Toggle section collapse
+        function toggleSection(header) {
+            header.parentElement.classList.toggle('collapsed');
+        }
+
+        // Set basemap - swaps tiles in-place without recreating map
+        function setBasemap(basemapId, btn) {
+            if (currentBasemap === basemapId) return;
+            currentBasemap = basemapId;
+
+            // Update button states
+            document.querySelectorAll('.basemap-option').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+
+            const config = basemapTiles[basemapId];
+
+            // Update main basemap source tiles
+            const basemapSource = map.getSource('basemap');
+            if (basemapSource) {
+                basemapSource.setTiles(config.tiles);
+            }
+
+            // Handle labels layer for satellite-hybrid
+            if (basemapId === 'satellite-hybrid') {
+                // Add labels if not present
+                if (!map.getSource('labels')) {
+                    map.addSource('labels', {
+                        type: 'raster',
+                        tiles: config.labels,
+                        tileSize: 256
+                    });
+                    // Find the first overlay layer to insert before, or add on top
+                    const beforeLayer = map.getLayer(coverageBoxId + '-fill') ? coverageBoxId + '-fill' : undefined;
+                    map.addLayer({
+                        id: 'labels-layer',
+                        type: 'raster',
+                        source: 'labels',
+                        minzoom: 0,
+                        maxzoom: 19
+                    }, beforeLayer);
+                }
+            } else {
+                // Remove labels layer if present
+                if (map.getLayer('labels-layer')) {
+                    map.removeLayer('labels-layer');
+                }
+                if (map.getSource('labels')) {
+                    map.removeSource('labels');
+                }
+            }
+        }
+
+        // Initialize map
+        function initMap(basemapId = 'dark') {
+            if (map) {
+                map.remove();
+            }
+
+            const config = basemapTiles[basemapId];
+            const sources = {
+                'basemap': {
+                    type: 'raster',
+                    tiles: config.tiles,
+                    tileSize: 256,
+                    attribution: config.attribution
+                }
+            };
+            const layers = [
+                { id: 'basemap-layer', type: 'raster', source: 'basemap', minzoom: 0, maxzoom: 19 }
+            ];
+
+            // Add labels for satellite-hybrid
+            if (basemapId === 'satellite-hybrid' && config.labels) {
+                sources['labels'] = {
+                    type: 'raster',
+                    tiles: config.labels,
+                    tileSize: 256
+                };
+                layers.push({ id: 'labels-layer', type: 'raster', source: 'labels', minzoom: 0, maxzoom: 19 });
+            }
+
+            map = new maplibregl.Map({
+                container: 'map',
+                style: {
+                    version: 8,
+                    sources: sources,
+                    layers: layers
+                },
+                center: [0, 20],
+                zoom: 1.5,
+                pitch: 0,
+                maxZoom: 18,
+                minZoom: 0.5
+            });
+
+
+            map.addControl(new maplibregl.NavigationControl({ showCompass: true }), 'bottom-right');
+            map.addControl(new maplibregl.ScaleControl({ maxWidth: 100, unit: 'metric' }), 'bottom-left');
+        }
+
+        // Load events list
+        async function loadEvents() {
+            try {
+                if (!fullCatalog) {
+                    const response = await fetch(DEFORMHUB_CONFIG.catalogUrl);
+                    fullCatalog = await response.json();
+                }
+                const events = fullCatalog.events.map(e => ({
+                    event_id: e.event_id, name: e.name, magnitude: e.magnitude
+                }));
+
+                const select = document.getElementById('event-select');
+                select.innerHTML = '';
+
+                // Add "Latest Large and Shallow Earthquake Events" as default option
+                const allOption = document.createElement('option');
+                allOption.value = '';
+                allOption.textContent = 'Latest Large and Shallow Earthquake Events';
+                allOption.selected = !currentEventId;
+                select.appendChild(allOption);
+
+                events.forEach(event => {
+                    const option = document.createElement('option');
+                    option.value = event.event_id;
+                    option.textContent = `${event.name} (M${event.magnitude})`;
+                    if (event.event_id === currentEventId) {
+                        option.selected = true;
+                    }
+                    select.appendChild(option);
+                });
+
+                if (currentEventId) {
+                    await onEventChange();
+                } else {
+                    // Show default state for "All Earthquake Events"
+                    showAllEventsState();
+                }
+            } catch (error) {
+                console.error('Error loading events:', error);
+            }
+        }
+
+        // Show state when "All Earthquake Events" is selected
+        function showAllEventsState() {
+            // Clear event info
+            document.getElementById('event-info').innerHTML = `
+                <div class="info-row">
+                    <span class="info-label">View</span>
+                    <span class="info-value">Global Earthquake Map</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Source</span>
+                    <span class="info-value">USGS Earthquake Catalog</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Tip</span>
+                    <span class="info-value" style="font-size: 11px;">Select an event to view displacement data</span>
+                </div>
+            `;
+
+            // Clear dataset info
+            document.getElementById('dataset-info').innerHTML = `
+                <span style="color: var(--text-muted); font-size: 12px;">Select an event to view datasets</span>
+            `;
+
+            // Reset dataset select
+            const datasetSelect = document.getElementById('dataset-select');
+            datasetSelect.innerHTML = '<option value="">Select event first...</option>';
+            datasetSelect.disabled = true;
+
+            // Hide placeholder warning and disable download
+            document.getElementById('placeholder-warning').style.display = 'none';
+            document.getElementById('download-btn').disabled = true;
+
+            // Clear map overlays
+            clearMapOverlays();
+
+            // Clear visualizations
+            const types = ['los', 'wrapped', 'range', 'azimuth', 'model'];
+            types.forEach(type => {
+                const container = document.getElementById(`viz-${type}`);
+                container.innerHTML = `
+                    <div class="loading">
+                        <span style="color: var(--text-muted);">Select an event to view</span>
+                    </div>
+                `;
+            });
+        }
+
+        // Clear map overlays (epicenter, coverage box, wrapped overlay)
+        function clearMapOverlays() {
+            if (epicenterMarker) {
+                epicenterMarker.remove();
+                epicenterMarker = null;
+            }
+            if (map.getLayer(wrappedOverlayId)) map.removeLayer(wrappedOverlayId);
+            if (map.getSource(wrappedOverlayId)) map.removeSource(wrappedOverlayId);
+            if (map.getLayer(coverageBoxId)) map.removeLayer(coverageBoxId);
+            if (map.getLayer(coverageBoxId + '-fill')) map.removeLayer(coverageBoxId + '-fill');
+            if (map.getSource(coverageBoxId)) map.removeSource(coverageBoxId);
+
+            currentEvent = null;
+            currentDataset = null;
+            currentDataBounds = null;
+        }
+
+        // Event selection changed
+        async function onEventChange() {
+            const select = document.getElementById('event-select');
+            currentEventId = select.value;
+
+            // If "All Earthquake Events" is selected, show global view
+            if (!currentEventId) {
+                showAllEventsState();
+                return;
+            }
+
+            try {
+                currentEvent = fullCatalog.events.find(e => e.event_id === currentEventId);
+
+                updateEventInfo();
+
+                const datasetsData = { datasets: currentEvent.datasets };
+
+                const datasetSelect = document.getElementById('dataset-select');
+                datasetSelect.innerHTML = '';
+
+                datasetsData.datasets.forEach((ds, index) => {
+                    const option = document.createElement('option');
+                    option.value = ds.dataset_id;
+                    option.textContent = ds.name;
+                    if (index === 0 || ds.dataset_id === currentDatasetId) {
+                        option.selected = true;
+                        currentDatasetId = ds.dataset_id;
+                    }
+                    datasetSelect.appendChild(option);
+                });
+
+                datasetSelect.disabled = false;
+                updateMap();
+                await onDatasetChange();
+
+            } catch (error) {
+                console.error('Error loading event:', error);
+            }
+        }
+
+        // Dataset selection changed
+        async function onDatasetChange() {
+            const select = document.getElementById('dataset-select');
+            currentDatasetId = select.value;
+
+            if (!currentDatasetId) return;
+
+            currentDataset = currentEvent.datasets.find(ds => ds.dataset_id === currentDatasetId);
+
+            const isPlaceholder = currentDataset.url === '#';
+            document.getElementById('placeholder-warning').style.display = isPlaceholder ? 'flex' : 'none';
+            document.getElementById('download-btn').disabled = isPlaceholder;
+
+            updateDatasetInfo();
+
+            if (!isPlaceholder) {
+                // Load visualizations immediately for faster display
+                updateVisualizations();
+                // Load stats for map bounds (needs to complete for wrapped phase overlay)
+                await loadStats();
+            }
+        }
+
+        // Update event info display
+        function updateEventInfo() {
+            const container = document.getElementById('event-info');
+            const latDir = currentEvent.epicenter.lat >= 0 ? 'N' : 'S';
+            const lonDir = currentEvent.epicenter.lon >= 0 ? 'E' : 'W';
+
+            container.innerHTML = `
+                <div class="info-row">
+                    <span class="info-label">Event</span>
+                    <span class="info-value">${currentEvent.name}</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Magnitude</span>
+                    <span class="info-value">M${currentEvent.magnitude}</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Date</span>
+                    <span class="info-value">${currentEvent.date}</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Location</span>
+                    <span class="info-value">${currentEvent.location}</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Epicenter</span>
+                    <span class="info-value">${Math.abs(currentEvent.epicenter.lat).toFixed(3)}°${latDir}, ${Math.abs(currentEvent.epicenter.lon).toFixed(3)}°${lonDir}</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Datasets</span>
+                    <span class="info-value">${currentEvent.datasets.length}</span>
+                </div>
+            `;
+        }
+
+        // Update dataset info display
+        function updateDatasetInfo() {
+            const container = document.getElementById('dataset-info');
+
+            let dateHTML = '';
+            if (currentDataset.date_range) {
+                const dates = currentDataset.date_range.split('-').map(d => d.trim());
+                if (dates.length === 2) {
+                    dateHTML = `
+                        <div class="info-row">
+                            <span class="info-label">Reference</span>
+                            <span class="info-value">${dates[0]}</span>
+                        </div>
+                        <div class="info-row">
+                            <span class="info-label">Secondary</span>
+                            <span class="info-value">${dates[1]}</span>
+                        </div>
+                    `;
+                }
+            }
+
+            container.innerHTML = `
+                <div class="info-row">
+                    <span class="info-label">Dataset</span>
+                    <span class="info-value">${currentDataset.name}</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-label">Satellite</span>
+                    <span class="info-value">${currentDataset.satellite}</span>
+                </div>
+                ${currentDataset.track ? `
+                <div class="info-row">
+                    <span class="info-label">Track</span>
+                    <span class="info-value">${currentDataset.track}</span>
+                </div>
+                ` : ''}
+                ${currentDataset.orbit_direction ? `
+                <div class="info-row">
+                    <span class="info-label">Orbit</span>
+                    <span class="info-value">${currentDataset.orbit_direction}</span>
+                </div>
+                ` : ''}
+                ${dateHTML}
+            `;
+        }
+
+        // Update map with event location
+        function updateMap() {
+            if (!currentEvent || !map) return;
+
+            if (epicenterMarker) {
+                epicenterMarker.remove();
+                epicenterMarker = null;
+            }
+
+            if (map.getLayer(wrappedOverlayId)) map.removeLayer(wrappedOverlayId);
+            if (map.getSource(wrappedOverlayId)) map.removeSource(wrappedOverlayId);
+            if (map.getLayer(coverageBoxId)) map.removeLayer(coverageBoxId);
+            if (map.getLayer(coverageBoxId + '-fill')) map.removeLayer(coverageBoxId + '-fill');
+            if (map.getSource(coverageBoxId)) map.removeSource(coverageBoxId);
+
+            const dataBounds = currentDataBounds || currentEvent.bounds;
+            const boundsCoords = [
+                [dataBounds.lon_min, dataBounds.lat_min],
+                [dataBounds.lon_max, dataBounds.lat_max]
+            ];
+
+            const wrappedToggle = document.getElementById('wrapped-toggle');
+            if (wrappedToggle && wrappedToggle.checked && currentEventId && currentDatasetId && currentDataset && currentDataset.url !== '#') {
+                const imageUrl = plotUrl(currentEventId, currentDatasetId, 'wrapped', true);
+
+                map.addSource(wrappedOverlayId, {
+                    type: 'image',
+                    url: imageUrl,
+                    coordinates: [
+                        [dataBounds.lon_min, dataBounds.lat_max],
+                        [dataBounds.lon_max, dataBounds.lat_max],
+                        [dataBounds.lon_max, dataBounds.lat_min],
+                        [dataBounds.lon_min, dataBounds.lat_min]
+                    ]
+                });
+
+                map.addLayer({
+                    id: wrappedOverlayId,
+                    type: 'raster',
+                    source: wrappedOverlayId,
+                    paint: {
+                        'raster-opacity': 0.7
+                    }
+                });
+            }
+
+            const boxCoords = [
+                [dataBounds.lon_min, dataBounds.lat_min],
+                [dataBounds.lon_max, dataBounds.lat_min],
+                [dataBounds.lon_max, dataBounds.lat_max],
+                [dataBounds.lon_min, dataBounds.lat_max],
+                [dataBounds.lon_min, dataBounds.lat_min]
+            ];
+
+            map.addSource(coverageBoxId, {
+                type: 'geojson',
+                data: {
+                    type: 'Feature',
+                    properties: {
+                        name: currentEvent.name,
+                        dataset: currentDataset ? currentDataset.name : 'Data Coverage Area'
+                    },
+                    geometry: {
+                        type: 'Polygon',
+                        coordinates: [boxCoords]
+                    }
+                }
+            });
+
+            map.addLayer({
+                id: coverageBoxId + '-fill',
+                type: 'fill',
+                source: coverageBoxId,
+                paint: {
+                    'fill-color': '#4dabf7',
+                    'fill-opacity': 0.08
+                }
+            });
+
+            map.addLayer({
+                id: coverageBoxId,
+                type: 'line',
+                source: coverageBoxId,
+                paint: {
+                    'line-color': '#4dabf7',
+                    'line-width': 2
+                }
+            });
+
+            const epicenterEl = document.createElement('div');
+            epicenterEl.style.cssText = 'background: #fcc419; border: 2px solid #212529; border-radius: 50%; width: 16px; height: 16px; cursor: pointer; box-shadow: 0 2px 4px rgba(0,0,0,0.2);';
+
+            epicenterMarker = new maplibregl.Marker({ element: epicenterEl })
+                .setLngLat([currentEvent.epicenter.lon, currentEvent.epicenter.lat])
+                .setPopup(new maplibregl.Popup({ offset: 10 }).setHTML(
+                    `<strong>${currentEvent.name}</strong><br>M${currentEvent.magnitude}<br>${currentEvent.date}`
+                ))
+                .addTo(map);
+
+            map.fitBounds(boundsCoords, { padding: 50 });
+        }
+
+        // Load data bounds for map overlay
+        async function loadStats() {
+            try {
+                const metadataUrl = `${DEFORMHUB_CONFIG.dataBaseUrl}/${currentEventId}/${currentDatasetId}/metadata.json`;
+                const response = await fetch(metadataUrl);
+                if (!response.ok) {
+                    console.error('Error loading stats: metadata not found at', metadataUrl);
+                    currentDataBounds = null;
+                    return;
+                }
+                const metadata = await response.json();
+
+                if (metadata.bounds) {
+                    currentDataBounds = metadata.bounds;
+                }
+
+                updateMap();
+            } catch (error) {
+                console.error('Error loading stats:', error);
+                currentDataBounds = null;
+            }
+        }
+
+        // Update visualizations
+        function updateVisualizations() {
+            const types = ['los', 'wrapped', 'range', 'azimuth', 'model'];
+            types.forEach(type => {
+                const container = document.getElementById(`viz-${type}`);
+                container.innerHTML = `<img src="${plotUrl(currentEventId, currentDatasetId, type, false)}" alt="${type} visualization">`;
+            });
+        }
+
+        // Show visualization tab
+        function showViz(vizType, btn) {
+            document.querySelectorAll('.viz-tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            btn.classList.add('active');
+
+            document.querySelectorAll('.viz-content').forEach(content => {
+                content.classList.remove('active');
+            });
+            document.getElementById(`viz-${vizType}`).classList.add('active');
+        }
+
+        // Toggle wrapped phase overlay
+        function toggleWrappedOverlay() {
+            updateMap();
+        }
+
+        // Toggle USGS earthquakes layer
+        function toggleUSGSEarthquakes() {
+            const toggle = document.getElementById('usgs-toggle');
+            const layer = map.getLayer('usgs-earthquakes-circles');
+            if (layer) {
+                map.setLayoutProperty('usgs-earthquakes-circles', 'visibility', toggle.checked ? 'visible' : 'none');
+            }
+        }
+
+        // Refresh data
+        function refreshData() {
+            location.reload();
+        }
+
+        // Download the source dataset (NetCDF product)
+        function downloadDataset() {
+            if (!currentDataset || !currentDataset.url || currentDataset.url === '#') return;
+            window.location.href = currentDataset.url;
+        }
+
+        // Load USGS earthquakes with current filter settings
+        let usgsLayerInitialized = false;
+        let usgsHoverPopup = null;
+        let landPolygons = null;
+        let currentUSGSData = null;  // Store current filtered USGS data for export
+
+        // Load simplified land boundaries from Natural Earth (110m resolution)
+        async function loadLandBoundaries() {
+            if (landPolygons) return landPolygons;
+
+            try {
+                const response = await fetch('https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_land.geojson');
+                landPolygons = await response.json();
+                console.log('Loaded land boundaries:', landPolygons.features.length, 'polygons');
+                return landPolygons;
+            } catch (error) {
+                console.error('Error loading land boundaries:', error);
+                return null;
+            }
+        }
+
+        // Check if a point is within buffer distance of any land polygon
+        function isNearLand(point, bufferKm) {
+            if (!landPolygons) return true; // If land data not loaded, include all
+
+            const pt = turf.point(point);
+
+            for (const feature of landPolygons.features) {
+                try {
+                    // Check if point is inside land polygon
+                    if (turf.booleanPointInPolygon(pt, feature)) {
+                        return true;
+                    }
+
+                    // Get polygon boundary as line and find nearest point
+                    const polygonToLine = turf.polygonToLine(feature);
+
+                    // Handle MultiLineString (from MultiPolygon) or LineString
+                    let lines = [];
+                    if (polygonToLine.type === 'FeatureCollection') {
+                        lines = polygonToLine.features;
+                    } else if (polygonToLine.geometry.type === 'MultiLineString') {
+                        polygonToLine.geometry.coordinates.forEach(coords => {
+                            lines.push(turf.lineString(coords));
+                        });
+                    } else {
+                        lines = [polygonToLine];
+                    }
+
+                    for (const line of lines) {
+                        const nearestPt = turf.nearestPointOnLine(line, pt, { units: 'kilometers' });
+                        if (nearestPt.properties.dist <= bufferKm) {
+                            return true;
+                        }
+                    }
+                } catch (e) {
+                    // Skip problematic geometries
+                    continue;
+                }
+            }
+            return false;
+        }
+
+        // Filter earthquakes by land proximity
+        function filterByLandProximity(geojson, bufferKm) {
+            const filtered = {
+                type: 'FeatureCollection',
+                features: geojson.features.filter(feature => {
+                    const coords = feature.geometry.coordinates;
+                    return isNearLand([coords[0], coords[1]], bufferKm);
+                })
+            };
+            return filtered;
+        }
+
+        async function loadUSGSEarthquakes() {
+            const minMag = parseFloat(document.getElementById('mag-slider').value);
+            const maxDepth = parseInt(document.getElementById('depth-slider').value);
+            const startYear = document.getElementById('year-select').value;
+            const landBufferEnabled = document.getElementById('land-buffer-toggle').checked;
+
+            const startDate = `${startYear}-01-01`;
+            const endDate = new Date().toISOString().split('T')[0];
+
+            // Show loading indicator
+            document.getElementById('usgs-loading').style.display = 'flex';
+
+            try {
+                // Load land boundaries if needed and not already loaded
+                if (landBufferEnabled && !landPolygons) {
+                    await loadLandBoundaries();
+                }
+
+                const url = `https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=${startDate}&endtime=${endDate}&minmagnitude=${minMag}&maxdepth=${maxDepth}&orderby=time`;
+
+                const response = await fetch(url);
+                let data = await response.json();
+
+                // Apply land buffer filter if enabled
+                if (landBufferEnabled && landPolygons) {
+                    const bufferKm = parseInt(document.getElementById('buffer-slider').value);
+                    const originalCount = data.features.length;
+                    data = filterByLandProximity(data, bufferKm);
+                    console.log(`Land buffer filter (${bufferKm}km): ${originalCount} -> ${data.features.length} earthquakes`);
+                }
+
+                // Store filtered data for export
+                currentUSGSData = data;
+
+                // Update count display
+                document.getElementById('usgs-count').textContent = data.features.length;
+
+                // Remove existing layer and source if they exist
+                if (map.getLayer('usgs-earthquakes-circles')) {
+                    map.removeLayer('usgs-earthquakes-circles');
+                }
+                if (map.getSource('usgs-earthquakes')) {
+                    map.removeSource('usgs-earthquakes');
+                }
+
+                // Add source for USGS earthquakes
+                map.addSource('usgs-earthquakes', {
+                    type: 'geojson',
+                    data: data
+                });
+
+                // Add circle layer for earthquakes - size by magnitude, color by PAGER alert level
+                map.addLayer({
+                    id: 'usgs-earthquakes-circles',
+                    type: 'circle',
+                    source: 'usgs-earthquakes',
+                    paint: {
+                        'circle-radius': [
+                            'interpolate', ['linear'], ['get', 'mag'],
+                            4.0, 3,
+                            5.0, 4,
+                            6.0, 6,
+                            7.0, 9,
+                            8.0, 14,
+                            9.0, 20
+                        ],
+                        'circle-color': [
+                            'match', ['get', 'alert'],
+                            'green', '#00e600',
+                            'yellow', '#ffff00',
+                            'orange', '#ff9900',
+                            'red', '#ff0000',
+                            '#888888'  // default gray for no alert
+                        ],
+                        'circle-stroke-color': '#ffffff',
+                        'circle-stroke-width': 1.5,
+                        'circle-opacity': 0.8
+                    }
+                });
+
+                // Only add event handlers once
+                if (!usgsLayerInitialized) {
+                    // Add click interaction for USGS earthquakes
+                    map.on('click', 'usgs-earthquakes-circles', (e) => {
+                        const props = e.features[0].properties;
+                        const coords = e.features[0].geometry.coordinates;
+                        const mag = parseFloat(props.mag) || 0;
+                        const depth = parseFloat(coords[2]) || 0;
+                        const date = new Date(props.time).toISOString().split('T')[0];
+                        const alertColor = props.alert || 'none';
+
+                        // Remove hover popup when clicking
+                        if (usgsHoverPopup) {
+                            usgsHoverPopup.remove();
+                            usgsHoverPopup = null;
+                        }
+
+                        new maplibregl.Popup({ offset: 10 })
+                            .setLngLat([coords[0], coords[1]])
+                            .setHTML(`
+                                <strong>M${mag.toFixed(1)}</strong> - ${props.place}<br>
+                                <span style="color: var(--text-muted);">${date}</span><br>
+                                Depth: ${depth.toFixed(1)} km<br>
+                                PAGER: <span style="color: ${alertColor === 'none' ? '#888' : alertColor}; font-weight: 600;">${alertColor.toUpperCase()}</span><br>
+                                <a href="${props.url}" target="_blank" style="color: var(--accent);">USGS Details</a>
+                            `)
+                            .addTo(map);
+                    });
+
+                    // Hover tooltip
+                    map.on('mousemove', 'usgs-earthquakes-circles', (e) => {
+                        map.getCanvas().style.cursor = 'pointer';
+
+                        if (e.features && e.features.length > 0) {
+                            const feature = e.features[0];
+                            const props = feature.properties;
+                            const coords = feature.geometry.coordinates;
+                            const depth = parseFloat(coords[2]) || 0;
+                            const mag = parseFloat(props.mag) || 0;
+                            const date = new Date(props.time).toISOString().split('T')[0];
+
+                            // Remove existing hover popup
+                            if (usgsHoverPopup) {
+                                usgsHoverPopup.remove();
+                            }
+
+                            usgsHoverPopup = new maplibregl.Popup({
+                                closeButton: false,
+                                closeOnClick: false,
+                                offset: [0, -10],
+                                className: 'usgs-hover-popup'
+                            })
+                                .setLngLat([coords[0], coords[1]])
+                                .setHTML(`<strong>M${mag.toFixed(1)}</strong> | ${date} | ${depth.toFixed(0)} km`)
+                                .addTo(map);
+                        }
+                    });
+                    map.on('mouseleave', 'usgs-earthquakes-circles', () => {
+                        map.getCanvas().style.cursor = '';
+                        if (usgsHoverPopup) {
+                            usgsHoverPopup.remove();
+                            usgsHoverPopup = null;
+                        }
+                    });
+
+                    usgsLayerInitialized = true;
+                }
+
+                // Apply visibility based on toggle
+                const toggle = document.getElementById('usgs-toggle');
+                map.setLayoutProperty('usgs-earthquakes-circles', 'visibility', toggle.checked ? 'visible' : 'none');
+
+                const bufferKm = parseInt(document.getElementById('buffer-slider').value);
+                console.log(`Loaded ${data.features.length} USGS earthquakes (M>=${minMag}, depth<=${maxDepth}km, ${startYear}-present${landBufferEnabled ? `, <${bufferKm}km from land` : ''})`);
+            } catch (error) {
+                console.error('Error loading USGS earthquakes:', error);
+            } finally {
+                // Hide loading indicator
+                document.getElementById('usgs-loading').style.display = 'none';
+            }
+        }
+
+        // Update USGS filters - debounced to avoid too many API calls
+        let usgsFilterTimeout = null;
+        function updateUSGSFilters() {
+            if (usgsFilterTimeout) {
+                clearTimeout(usgsFilterTimeout);
+            }
+            usgsFilterTimeout = setTimeout(() => {
+                loadUSGSEarthquakes();
+            }, 500);
+        }
+
+        // Export USGS earthquakes to CSV
+        function exportUSGSToCSV() {
+            if (!currentUSGSData || !currentUSGSData.features || currentUSGSData.features.length === 0) {
+                alert('No earthquake data to export');
+                return;
+            }
+
+            // CSV header
+            const headers = ['magnitude', 'depth_km', 'date', 'place', 'latitude', 'longitude', 'pager_alert', 'usgs_link'];
+            const rows = [headers.join(',')];
+
+            // Process each earthquake
+            currentUSGSData.features.forEach(feature => {
+                const props = feature.properties;
+                const coords = feature.geometry.coordinates;
+                const mag = parseFloat(props.mag) || 0;
+                const depth = parseFloat(coords[2]) || 0;
+                const date = new Date(props.time).toISOString().split('T')[0];
+                const place = (props.place || '').replace(/,/g, ';');  // Replace commas to avoid CSV issues
+                const lat = coords[1];
+                const lon = coords[0];
+                const alert = props.alert || 'none';
+                const url = props.url || '';
+
+                rows.push([
+                    mag.toFixed(1),
+                    depth.toFixed(1),
+                    date,
+                    `"${place}"`,
+                    lat.toFixed(4),
+                    lon.toFixed(4),
+                    alert,
+                    url
+                ].join(','));
+            });
+
+            // Create and download CSV
+            const csvContent = rows.join('\n');
+            const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+            const link = document.createElement('a');
+            const url = URL.createObjectURL(blob);
+
+            const today = new Date().toISOString().split('T')[0];
+            link.setAttribute('href', url);
+            link.setAttribute('download', `usgs_earthquakes_${today}.csv`);
+            link.style.visibility = 'hidden';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+
+        // Initialize on page load
+        initMap();
+        map.on('load', () => {
+            loadUSGSEarthquakes();
+            loadEvents();
+        });
+    </script>
+</body>
+</html>
