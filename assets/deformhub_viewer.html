@@ -569,6 +569,41 @@
             border-radius: var(--radius);
             box-shadow: var(--shadow-lg);
         }
+
+        /* Phone layout: stack sidebar above the map instead of side-by-side,
+           since the sidebar's fixed desktop width would otherwise eat the
+           whole screen. */
+        @media (max-width: 768px) {
+            .app-container {
+                flex-direction: column;
+                height: 100dvh;
+            }
+
+            #sidebar {
+                width: 100%;
+                min-width: 0;
+                height: auto;
+                max-height: 42vh;
+                flex: 0 0 auto;
+                border-right: none;
+                border-bottom: 1px solid var(--border);
+            }
+
+            .main-content {
+                height: auto;
+                flex: 1;
+                min-height: 0;
+            }
+
+            .viz-panel {
+                height: 200px;
+                min-height: 200px;
+            }
+
+            .basemap-selector {
+                flex-wrap: wrap;
+            }
+        }
     </style>
 </head>
 <body>
