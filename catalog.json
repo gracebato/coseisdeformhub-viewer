@@ -26,6 +26,16 @@
           "orbit_direction": "Ascending",
           "date_range": "20190704 - 20190710",
           "description": "Ascending track covering the full rupture"
+        },
+        {
+          "dataset_id": "ridgecrest_desc_071",
+          "name": "Descending Track 071",
+          "url": "https://d1z62tir4fw0q0.cloudfront.net/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_71_ridgecrest_earthquake_sequence/S1-COSEIS_SAR-D-R-071-tops-20190716_20190704-135200-00119W_00034N-PP-ef5b-v1_0_0/S1-COSEIS_SAR-D-R-071-tops-20190716_20190704-135200-00119W_00034N-PP-ef5b-v1_0_0.nc",
+          "satellite": "Sentinel-1",
+          "track": "071",
+          "orbit_direction": "Descending",
+          "date_range": "20190704 - 20190716",
+          "description": "Descending track covering the full rupture"
         }
       ],
       "metadata": {
@@ -40,5 +50,5 @@
     }
   ],
   "total_events": 1,
-  "total_datasets": 1
+  "total_datasets": 2
 }

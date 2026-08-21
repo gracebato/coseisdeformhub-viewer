@@ -1,0 +1,40 @@
+{
+  "event_id": "ridgecrest_2019",
+  "dataset_id": "ridgecrest_desc_071",
+  "event_name": "2019 M7.1 Ridgecrest Earthquake",
+  "dataset_name": "Descending Track 071",
+  "plots": {
+    "los": {
+      "filename": "los.png",
+      "size_kb": 280.9140625
+    },
+    "wrapped": {
+      "filename": "wrapped.png",
+      "size_kb": 458.4306640625
+    },
+    "wrapped_overlay": {
+      "filename": "wrapped_overlay.png",
+      "size_kb": 106542.3095703125
+    },
+    "range": {
+      "filename": "range.png",
+      "size_kb": 147.810546875
+    },
+    "azimuth": {
+      "filename": "azimuth.png",
+      "size_kb": 131.1484375
+    }
+  },
+  "stats": {
+    "min": -0.9074282646179199,
+    "max": 1.0587191581726074,
+    "mean": -0.017853524535894394,
+    "std": 0.058874234557151794
+  },
+  "bounds": {
+    "lon_min": -119.074860371,
+    "lon_max": -115.525968643,
+    "lat_min": 34.472179711,
+    "lat_max": 37.942182487000004
+  }
+}
