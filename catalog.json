@@ -24,7 +24,7 @@
           "satellite": "Sentinel-1A",
           "track": "055",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20141102 - 20141009",
           "description": "Descending Track 055"
         }
       ],
@@ -58,7 +58,7 @@
           "satellite": "Sentinel-1A",
           "track": "170",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20141122 - 20141029",
           "description": "Ascending Track 170"
         },
         {
@@ -68,7 +68,7 @@
           "satellite": "Sentinel-1A",
           "track": "017",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20141205 - 20141111",
           "description": "Descending Track 017"
         },
         {
@@ -78,7 +78,7 @@
           "satellite": "Sentinel-1A",
           "track": "090",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20141210 - 20141116",
           "description": "Descending Track 090"
         }
       ],
@@ -112,7 +112,7 @@
           "satellite": "Sentinel-1A",
           "track": "026",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20141218 - 20141124",
           "description": "Descending Track 026"
         },
         {
@@ -122,7 +122,7 @@
           "satellite": "Sentinel-1A",
           "track": "099",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20141211 - 20141024",
           "description": "Descending Track 099"
         }
       ],
@@ -156,7 +156,7 @@
           "satellite": "Sentinel-1A",
           "track": "092",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20141210 - 20141023",
           "description": "Ascending Track 092"
         },
         {
@@ -166,7 +166,7 @@
           "satellite": "Sentinel-1A",
           "track": "011",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20141217 - 20141123",
           "description": "Descending Track 011"
         },
         {
@@ -176,7 +176,7 @@
           "satellite": "Sentinel-1A",
           "track": "084",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20141222 - 20141128",
           "description": "Descending Track 084"
         }
       ],
@@ -210,7 +210,7 @@
           "satellite": "Sentinel-1A",
           "track": "069",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20150315 - 20150207",
           "description": "Ascending Track 069"
         },
         {
@@ -220,7 +220,7 @@
           "satellite": "Sentinel-1A",
           "track": "105",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20150305 - 20150116",
           "description": "Descending Track 105"
         }
       ],
@@ -254,7 +254,7 @@
           "satellite": "Sentinel-1A",
           "track": "148",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20150224 - 20150212",
           "description": "Descending Track 148"
         }
       ],
@@ -288,7 +288,7 @@
           "satellite": "Sentinel-1A",
           "track": "091",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20150409 - 20150316",
           "description": "Ascending Track 091"
         },
         {
@@ -298,7 +298,7 @@
           "satellite": "Sentinel-1A",
           "track": "164",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20150321 - 20150225",
           "description": "Ascending Track 164"
         },
         {
@@ -308,7 +308,7 @@
           "satellite": "Sentinel-1A",
           "track": "156",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20150402 - 20150309",
           "description": "Descending Track 156"
         }
       ],
@@ -342,7 +342,7 @@
           "satellite": "Sentinel-1A",
           "track": "029",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20150417 - 20150405",
           "description": "Ascending Track 029"
         },
         {
@@ -352,7 +352,7 @@
           "satellite": "Sentinel-1A",
           "track": "131",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20150424 - 20150412",
           "description": "Ascending Track 131"
         },
         {
@@ -362,7 +362,7 @@
           "satellite": "Sentinel-1A",
           "track": "036",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20150418 - 20150325",
           "description": "Descending Track 036"
         },
         {
@@ -372,7 +372,7 @@
           "satellite": "Sentinel-1A",
           "track": "138",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20150425 - 20150413",
           "description": "Descending Track 138"
         }
       ],
@@ -406,7 +406,7 @@
           "satellite": "Sentinel-1A",
           "track": "069",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20150502 - 20150408",
           "description": "Ascending Track 069"
         },
         {
@@ -416,7 +416,7 @@
           "satellite": "Sentinel-1A",
           "track": "105",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20150422 - 20150329",
           "description": "Descending Track 105"
         }
       ],
@@ -450,7 +450,7 @@
           "satellite": "Sentinel-1A",
           "track": "085",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20150503 - 20150316",
           "description": "Ascending Track 085"
         },
         {
@@ -460,7 +460,7 @@
           "satellite": "Sentinel-1A",
           "track": "158",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20150508 - 20150225",
           "description": "Ascending Track 158"
         },
         {
@@ -470,7 +470,7 @@
           "satellite": "Sentinel-1A",
           "track": "019",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20150429 - 20150417",
           "description": "Descending Track 019"
         },
         {
@@ -480,7 +480,7 @@
           "satellite": "Sentinel-1A",
           "track": "092",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20150504 - 20150422",
           "description": "Descending Track 092"
         },
         {
@@ -490,7 +490,7 @@
           "satellite": "Sentinel-1A",
           "track": "121",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20150506 - 20150424",
           "description": "Descending Track 121"
         }
       ],
@@ -524,7 +524,7 @@
           "satellite": "Sentinel-1A",
           "track": "085",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20150503 - 20150409",
           "description": "Ascending Track 085"
         },
         {
@@ -534,7 +534,7 @@
           "satellite": "Sentinel-1A",
           "track": "019",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20150523 - 20150417",
           "description": "Descending Track 019"
         },
         {
@@ -544,7 +544,7 @@
           "satellite": "Sentinel-1A",
           "track": "121",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20150506 - 20150424",
           "description": "Descending Track 121"
         }
       ],
@@ -578,7 +578,7 @@
           "satellite": "Sentinel-1A",
           "track": "085",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20150503 - 20150409",
           "description": "Ascending Track 085"
         },
         {
@@ -588,7 +588,7 @@
           "satellite": "Sentinel-1A",
           "track": "019",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20150429 - 20150417",
           "description": "Descending Track 019"
         },
         {
@@ -598,7 +598,7 @@
           "satellite": "Sentinel-1A",
           "track": "121",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20150506 - 20150424",
           "description": "Descending Track 121"
         }
       ],
@@ -632,7 +632,7 @@
           "satellite": "Sentinel-1A",
           "track": "016",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20150510 - 20150428",
           "description": "Descending Track 016"
         }
       ],
@@ -666,7 +666,7 @@
           "satellite": "Sentinel-1A",
           "track": "012",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20150522 - 20150428",
           "description": "Ascending Track 012"
         },
         {
@@ -676,7 +676,7 @@
           "satellite": "Sentinel-1A",
           "track": "085",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20150515 - 20150503",
           "description": "Ascending Track 085"
         },
         {
@@ -686,7 +686,7 @@
           "satellite": "Sentinel-1A",
           "track": "019",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20150604 - 20150511",
           "description": "Descending Track 019"
         },
         {
@@ -696,7 +696,7 @@
           "satellite": "Sentinel-1A",
           "track": "121",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20150518 - 20150506",
           "description": "Descending Track 121"
         }
       ],
@@ -730,7 +730,7 @@
           "satellite": "Sentinel-1A",
           "track": "068",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20150526 - 20150502",
           "description": "Ascending Track 068"
         },
         {
@@ -740,7 +740,7 @@
           "satellite": "Sentinel-1A",
           "track": "141",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20150531 - 20150507",
           "description": "Ascending Track 141"
         },
         {
@@ -750,7 +750,7 @@
           "satellite": "Sentinel-1A",
           "track": "046",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20150605 - 20150512",
           "description": "Descending Track 046"
         },
         {
@@ -760,7 +760,7 @@
           "satellite": "Sentinel-1A",
           "track": "148",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20150519 - 20150425",
           "description": "Descending Track 148"
         }
       ],
@@ -794,7 +794,7 @@
           "satellite": "Sentinel-1A",
           "track": "003",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20150626 - 20150602",
           "description": "Descending Track 003"
         }
       ],
@@ -828,7 +828,7 @@
           "satellite": "Sentinel-1A",
           "track": "056",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20150724 - 20150630",
           "description": "Ascending Track 056"
         },
         {
@@ -838,7 +838,7 @@
           "satellite": "Sentinel-1A",
           "track": "129",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20150705 - 20150611",
           "description": "Ascending Track 129"
         },
         {
@@ -848,7 +848,7 @@
           "satellite": "Sentinel-1A",
           "track": "034",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20150711 - 20150617",
           "description": "Descending Track 034"
         },
         {
@@ -858,7 +858,7 @@
           "satellite": "Sentinel-1A",
           "track": "136",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20150718 - 20150624",
           "description": "Descending Track 136"
         }
       ],
@@ -892,7 +892,7 @@
           "satellite": "Sentinel-1A",
           "track": "171",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20150720 - 20150626",
           "description": "Ascending Track 171"
         },
         {
@@ -902,7 +902,7 @@
           "satellite": "Sentinel-1A",
           "track": "061",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20150724 - 20150630",
           "description": "Descending Track 061"
         },
         {
@@ -912,7 +912,7 @@
           "satellite": "Sentinel-1A",
           "track": "163",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20150731 - 20150520",
           "description": "Descending Track 163"
         }
       ],
@@ -946,7 +946,7 @@
           "satellite": "Sentinel-1A",
           "track": "093",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20151007 - 20150913",
           "description": "Ascending Track 093"
         },
         {
@@ -956,7 +956,7 @@
           "satellite": "Sentinel-1A",
           "track": "056",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20150922 - 20150829",
           "description": "Descending Track 056"
         },
         {
@@ -966,7 +966,7 @@
           "satellite": "Sentinel-1A",
           "track": "129",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20150927 - 20150903",
           "description": "Descending Track 129"
         }
       ],
@@ -1000,7 +1000,7 @@
           "satellite": "Sentinel-1A",
           "track": "067",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20151005 - 20150911",
           "description": "Ascending Track 067"
         },
         {
@@ -1010,7 +1010,7 @@
           "satellite": "Sentinel-1A",
           "track": "140",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20151010 - 20150916",
           "description": "Ascending Track 140"
         },
         {
@@ -1020,7 +1020,7 @@
           "satellite": "Sentinel-1A",
           "track": "016",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20150919 - 20150826",
           "description": "Descending Track 016"
         }
       ],
@@ -1054,7 +1054,7 @@
           "satellite": "Sentinel-1A",
           "track": "018",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20150919 - 20150826",
           "description": "Ascending Track 018"
         },
         {
@@ -1064,7 +1064,7 @@
           "satellite": "Sentinel-1A",
           "track": "120",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20150926 - 20150902",
           "description": "Ascending Track 120"
         },
         {
@@ -1074,7 +1074,7 @@
           "satellite": "Sentinel-1A",
           "track": "083",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20151006 - 20150912",
           "description": "Descending Track 083"
         },
         {
@@ -1084,7 +1084,7 @@
           "satellite": "Sentinel-1A",
           "track": "156",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20150917 - 20150824",
           "description": "Descending Track 156"
         }
       ],
@@ -1118,7 +1118,7 @@
           "satellite": "Sentinel-1A",
           "track": "018",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20150919 - 20150826",
           "description": "Ascending Track 018"
         },
         {
@@ -1128,7 +1128,7 @@
           "satellite": "Sentinel-1A",
           "track": "120",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20150926 - 20150902",
           "description": "Ascending Track 120"
         },
         {
@@ -1138,7 +1138,7 @@
           "satellite": "Sentinel-1A",
           "track": "156",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20150917 - 20150824",
           "description": "Descending Track 156"
         }
       ],
@@ -1172,7 +1172,7 @@
           "satellite": "Sentinel-1A",
           "track": "018",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20150919 - 20150826",
           "description": "Ascending Track 018"
         },
         {
@@ -1182,7 +1182,7 @@
           "satellite": "Sentinel-1A",
           "track": "156",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20151011 - 20150917",
           "description": "Descending Track 156"
         }
       ],
@@ -1216,7 +1216,7 @@
           "satellite": "Sentinel-1A",
           "track": "120",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20150926 - 20150902",
           "description": "Ascending Track 120"
         },
         {
@@ -1226,7 +1226,7 @@
           "satellite": "Sentinel-1A",
           "track": "156",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20151011 - 20150917",
           "description": "Descending Track 156"
         }
       ],
@@ -1260,7 +1260,7 @@
           "satellite": "Sentinel-1A",
           "track": "018",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20151001 - 20150919",
           "description": "Ascending Track 018"
         },
         {
@@ -1270,7 +1270,7 @@
           "satellite": "Sentinel-1A",
           "track": "120",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20150926 - 20150902",
           "description": "Ascending Track 120"
         },
         {
@@ -1280,7 +1280,7 @@
           "satellite": "Sentinel-1A",
           "track": "156",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20151011 - 20150917",
           "description": "Descending Track 156"
         }
       ],
@@ -1314,7 +1314,7 @@
           "satellite": "Sentinel-1A",
           "track": "024",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20151002 - 20150908",
           "description": "Ascending Track 024"
         },
         {
@@ -1324,7 +1324,7 @@
           "satellite": "Sentinel-1A",
           "track": "097",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20151007 - 20150913",
           "description": "Ascending Track 097"
         },
         {
@@ -1334,7 +1334,7 @@
           "satellite": "Sentinel-1A",
           "track": "046",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20151015 - 20150921",
           "description": "Descending Track 046"
         },
         {
@@ -1344,7 +1344,7 @@
           "satellite": "Sentinel-1A",
           "track": "119",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20150926 - 20150902",
           "description": "Descending Track 119"
         }
       ],
@@ -1378,7 +1378,7 @@
           "satellite": "Sentinel-1A",
           "track": "018",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20151118 - 20151106",
           "description": "Ascending Track 018"
         },
         {
@@ -1388,7 +1388,7 @@
           "satellite": "Sentinel-1A",
           "track": "120",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20151125 - 20151101",
           "description": "Ascending Track 120"
         },
         {
@@ -1398,7 +1398,7 @@
           "satellite": "Sentinel-1A",
           "track": "156",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20151128 - 20151104",
           "description": "Descending Track 156"
         }
       ],
@@ -1432,7 +1432,7 @@
           "satellite": "Sentinel-1A",
           "track": "018",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20151118 - 20151025",
           "description": "Ascending Track 018"
         },
         {
@@ -1442,7 +1442,7 @@
           "satellite": "Sentinel-1A",
           "track": "120",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20151125 - 20151101",
           "description": "Ascending Track 120"
         },
         {
@@ -1452,7 +1452,7 @@
           "satellite": "Sentinel-1A",
           "track": "156",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20151116 - 20151104",
           "description": "Descending Track 156"
         }
       ],
@@ -1486,7 +1486,7 @@
           "satellite": "Sentinel-1A",
           "track": "175",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20151117 - 20151105",
           "description": "Ascending Track 175"
         },
         {
@@ -1496,7 +1496,7 @@
           "satellite": "Sentinel-1A",
           "track": "080",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20151123 - 20151111",
           "description": "Descending Track 080"
         },
         {
@@ -1506,7 +1506,7 @@
           "satellite": "Sentinel-1A",
           "track": "153",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20151128 - 20151116",
           "description": "Descending Track 153"
         }
       ],
@@ -1540,7 +1540,7 @@
           "satellite": "Sentinel-1A",
           "track": "047",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20151202 - 20151108",
           "description": "Ascending Track 047"
         },
         {
@@ -1550,7 +1550,7 @@
           "satellite": "Sentinel-1A",
           "track": "054",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20151215 - 20151121",
           "description": "Descending Track 054"
         },
         {
@@ -1560,7 +1560,7 @@
           "satellite": "Sentinel-1A",
           "track": "156",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20151128 - 20151104",
           "description": "Descending Track 156"
         }
       ],
@@ -1594,7 +1594,7 @@
           "satellite": "Sentinel-1A",
           "track": "100",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20151230 - 20151206",
           "description": "Ascending Track 100"
         },
         {
@@ -1604,7 +1604,7 @@
           "satellite": "Sentinel-1A",
           "track": "005",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20151212 - 20151118",
           "description": "Descending Track 005"
         },
         {
@@ -1614,7 +1614,7 @@
           "satellite": "Sentinel-1A",
           "track": "107",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20151231 - 20151207",
           "description": "Descending Track 107"
         }
       ],
@@ -1648,7 +1648,7 @@
           "satellite": "Sentinel-1A",
           "track": "097",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20151230 - 20151206",
           "description": "Ascending Track 097"
         }
       ],
@@ -1682,7 +1682,7 @@
           "satellite": "Sentinel-1A",
           "track": "001",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20160128 - 20160104",
           "description": "Ascending Track 001"
         },
         {
@@ -1692,7 +1692,7 @@
           "satellite": "Sentinel-1A",
           "track": "074",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20160202 - 20160121",
           "description": "Ascending Track 074"
         },
         {
@@ -1702,7 +1702,7 @@
           "satellite": "Sentinel-1A",
           "track": "008",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20160129 - 20160117",
           "description": "Descending Track 008"
         },
         {
@@ -1712,7 +1712,7 @@
           "satellite": "Sentinel-1A",
           "track": "081",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20160215 - 20160110",
           "description": "Descending Track 081"
         }
       ],
@@ -1746,7 +1746,7 @@
           "satellite": "Sentinel-1A",
           "track": "067",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20160202 - 20160109",
           "description": "Ascending Track 067"
         },
         {
@@ -1756,7 +1756,7 @@
           "satellite": "Sentinel-1A",
           "track": "169",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20160209 - 20160116",
           "description": "Ascending Track 169"
         },
         {
@@ -1766,7 +1766,7 @@
           "satellite": "Sentinel-1A",
           "track": "016",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20160210 - 20160117",
           "description": "Descending Track 016"
         }
       ],
@@ -1800,7 +1800,7 @@
           "satellite": "Sentinel-1A",
           "track": "069",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20160214 - 20160202",
           "description": "Ascending Track 069"
         },
         {
@@ -1810,7 +1810,7 @@
           "satellite": "Sentinel-1A",
           "track": "142",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20160207 - 20160126",
           "description": "Ascending Track 142"
         },
         {
@@ -1820,7 +1820,7 @@
           "satellite": "Sentinel-1A",
           "track": "105",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20160228 - 20160204",
           "description": "Descending Track 105"
         }
       ],
@@ -1854,7 +1854,7 @@
           "satellite": "Sentinel-1A",
           "track": "120",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20160217 - 20160124",
           "description": "Ascending Track 120"
         },
         {
@@ -1864,7 +1864,7 @@
           "satellite": "Sentinel-1A",
           "track": "156",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20160303 - 20160115",
           "description": "Descending Track 156"
         }
       ],
@@ -1898,7 +1898,7 @@
           "satellite": "Sentinel-1A",
           "track": "010",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20160305 - 20160210",
           "description": "Ascending Track 010"
         },
         {
@@ -1908,7 +1908,7 @@
           "satellite": "Sentinel-1A",
           "track": "061",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20160225 - 20160201",
           "description": "Descending Track 061"
         },
         {
@@ -1918,7 +1918,7 @@
           "satellite": "Sentinel-1A",
           "track": "134",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20160301 - 20160206",
           "description": "Descending Track 134"
         }
       ],
@@ -1952,7 +1952,7 @@
           "satellite": "Sentinel-1A",
           "track": "170",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20160221 - 20160128",
           "description": "Ascending Track 170"
         },
         {
@@ -1962,7 +1962,7 @@
           "satellite": "Sentinel-1A",
           "track": "017",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20160222 - 20160129",
           "description": "Descending Track 017"
         },
         {
@@ -1972,7 +1972,7 @@
           "satellite": "Sentinel-1A",
           "track": "119",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20160312 - 20160124",
           "description": "Descending Track 119"
         }
       ],
@@ -2006,7 +2006,7 @@
           "satellite": "Sentinel-1A",
           "track": "018",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20160305 - 20160210",
           "description": "Ascending Track 018"
         },
         {
@@ -2016,7 +2016,7 @@
           "satellite": "Sentinel-1A",
           "track": "156",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20160303 - 20160115",
           "description": "Descending Track 156"
         }
       ],
@@ -2050,7 +2050,7 @@
           "satellite": "Sentinel-1A",
           "track": "140",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20160326 - 20160302",
           "description": "Ascending Track 140"
         },
         {
@@ -2060,7 +2060,7 @@
           "satellite": "Sentinel-1A",
           "track": "089",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20160403 - 20160310",
           "description": "Descending Track 089"
         },
         {
@@ -2070,7 +2070,7 @@
           "satellite": "Sentinel-1A",
           "track": "162",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20160408 - 20160315",
           "description": "Descending Track 162"
         }
       ],
@@ -2104,7 +2104,7 @@
           "satellite": "Sentinel-1A",
           "track": "009",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20160410 - 20160317",
           "description": "Ascending Track 009"
         },
         {
@@ -2114,7 +2114,7 @@
           "satellite": "Sentinel-1A",
           "track": "111",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20160417 - 20160324",
           "description": "Ascending Track 111"
         },
         {
@@ -2124,7 +2124,7 @@
           "satellite": "Sentinel-1A",
           "track": "133",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20160406 - 20160313",
           "description": "Descending Track 133"
         }
       ],
@@ -2158,7 +2158,7 @@
           "satellite": "Sentinel-1A",
           "track": "007",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20160410 - 20160317",
           "description": "Ascending Track 007"
         },
         {
@@ -2168,7 +2168,7 @@
           "satellite": "Sentinel-1A",
           "track": "153",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20160420 - 20160327",
           "description": "Ascending Track 153"
         },
         {
@@ -2178,7 +2178,7 @@
           "satellite": "Sentinel-1A",
           "track": "102",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20160404 - 20160311",
           "description": "Descending Track 102"
         }
       ],
@@ -2212,7 +2212,7 @@
           "satellite": "Sentinel-1A",
           "track": "098",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20160428 - 20160404",
           "description": "Ascending Track 098"
         }
       ],
@@ -2246,7 +2246,7 @@
           "satellite": "Sentinel-1A",
           "track": "142",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20160501 - 20160407",
           "description": "Ascending Track 142"
         },
         {
@@ -2256,7 +2256,7 @@
           "satellite": "Sentinel-1A",
           "track": "061",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20160413 - 20160401",
           "description": "Descending Track 061"
         },
         {
@@ -2266,7 +2266,7 @@
           "satellite": "Sentinel-1A",
           "track": "134",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20160418 - 20160406",
           "description": "Descending Track 134"
         }
       ],
@@ -2300,7 +2300,7 @@
           "satellite": "Sentinel-1A",
           "track": "136",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20160419 - 20160326",
           "description": "Ascending Track 136"
         },
         {
@@ -2310,7 +2310,7 @@
           "satellite": "Sentinel-1A",
           "track": "026",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20160423 - 20160330",
           "description": "Descending Track 026"
         }
       ],
@@ -2344,7 +2344,7 @@
           "satellite": "Sentinel-1A",
           "track": "054",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20160425 - 20160401",
           "description": "Ascending Track 054"
         },
         {
@@ -2354,7 +2354,7 @@
           "satellite": "Sentinel-1A",
           "track": "156",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20160420 - 20160408",
           "description": "Ascending Track 156"
         },
         {
@@ -2364,7 +2364,7 @@
           "satellite": "Sentinel-1A",
           "track": "163",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20160420 - 20160327",
           "description": "Descending Track 163"
         }
       ],
@@ -2398,7 +2398,7 @@
           "satellite": "Sentinel-1A",
           "track": "034",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20160506 - 20160412",
           "description": "Ascending Track 034"
         },
         {
@@ -2408,7 +2408,7 @@
           "satellite": "Sentinel-1A",
           "track": "099",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20160428 - 20160404",
           "description": "Descending Track 099"
         }
       ],
@@ -2442,7 +2442,7 @@
           "satellite": "Sentinel-1A",
           "track": "049",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20160612 - 20160531",
           "description": "Ascending Track 049"
         },
         {
@@ -2452,7 +2452,7 @@
           "satellite": "Sentinel-1A",
           "track": "012",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20160609 - 20160516",
           "description": "Descending Track 012"
         }
       ],
@@ -2486,7 +2486,7 @@
           "satellite": "Sentinel-1A",
           "track": "055",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20160612 - 20160519",
           "description": "Descending Track 055"
         }
       ],
@@ -2520,7 +2520,7 @@
           "satellite": "Sentinel-1A",
           "track": "027",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20160716 - 20160529",
           "description": "Ascending Track 027"
         },
         {
@@ -2530,7 +2530,7 @@
           "satellite": "Sentinel-1A",
           "track": "100",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20160709 - 20160615",
           "description": "Ascending Track 100"
         },
         {
@@ -2540,7 +2540,7 @@
           "satellite": "Sentinel-1A",
           "track": "005",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20160715 - 20160528",
           "description": "Descending Track 005"
         },
         {
@@ -2550,7 +2550,7 @@
           "satellite": "Sentinel-1A",
           "track": "107",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20160710 - 20160616",
           "description": "Descending Track 107"
         }
       ],
@@ -2584,7 +2584,7 @@
           "satellite": "Sentinel-1B",
           "track": "044",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20160828 - 20160822",
           "description": "Ascending Track 044"
         },
         {
@@ -2594,7 +2594,7 @@
           "satellite": "Sentinel-1A",
           "track": "117",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20160908 - 20160821",
           "description": "Ascending Track 117"
         },
         {
@@ -2604,7 +2604,7 @@
           "satellite": "Sentinel-1B",
           "track": "022",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20160827 - 20160821",
           "description": "Descending Track 022"
         },
         {
@@ -2614,7 +2614,7 @@
           "satellite": "Sentinel-1A",
           "track": "095",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20160826 - 20160820",
           "description": "Descending Track 095"
         }
       ],
@@ -2648,7 +2648,7 @@
           "satellite": "Sentinel-1A",
           "track": "008",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20160913 - 20160820",
           "description": "Ascending Track 008"
         },
         {
@@ -2658,7 +2658,7 @@
           "satellite": "Sentinel-1A",
           "track": "175",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20160912 - 20160819",
           "description": "Descending Track 175"
         }
       ],
@@ -2692,7 +2692,7 @@
           "satellite": "Sentinel-1A",
           "track": "008",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20160913 - 20160820",
           "description": "Ascending Track 008"
         },
         {
@@ -2702,7 +2702,7 @@
           "satellite": "Sentinel-1A",
           "track": "175",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20160912 - 20160819",
           "description": "Descending Track 175"
         }
       ],
@@ -2736,7 +2736,7 @@
           "satellite": "Sentinel-1A",
           "track": "048",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20160927 - 20160903",
           "description": "Ascending Track 048"
         },
         {
@@ -2746,7 +2746,7 @@
           "satellite": "Sentinel-1B",
           "track": "150",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20160928 - 20160910",
           "description": "Ascending Track 150"
         },
         {
@@ -2756,7 +2756,7 @@
           "satellite": "Sentinel-1A",
           "track": "040",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20160915 - 20160729",
           "description": "Descending Track 040"
         },
         {
@@ -2766,7 +2766,7 @@
           "satellite": "Sentinel-1A",
           "track": "142",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20160922 - 20160829",
           "description": "Descending Track 142"
         }
       ],
@@ -2800,7 +2800,7 @@
           "satellite": "Sentinel-1A",
           "track": "082",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20160930 - 20160813",
           "description": "Ascending Track 082"
         },
         {
@@ -2810,7 +2810,7 @@
           "satellite": "Sentinel-1A",
           "track": "155",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20161005 - 20160818",
           "description": "Ascending Track 155"
         },
         {
@@ -2820,7 +2820,7 @@
           "satellite": "Sentinel-1A",
           "track": "031",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20161008 - 20160914",
           "description": "Descending Track 031"
         },
         {
@@ -2830,7 +2830,7 @@
           "satellite": "Sentinel-1A",
           "track": "104",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20160919 - 20160826",
           "description": "Descending Track 104"
         }
       ],
@@ -2864,7 +2864,7 @@
           "satellite": "Sentinel-1A",
           "track": "083",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20161105 - 20161012",
           "description": "Ascending Track 083"
         },
         {
@@ -2874,7 +2874,7 @@
           "satellite": "Sentinel-1A",
           "track": "017",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20161112 - 20161019",
           "description": "Descending Track 017"
         },
         {
@@ -2884,7 +2884,7 @@
           "satellite": "Sentinel-1A",
           "track": "090",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20161024 - 20160930",
           "description": "Descending Track 090"
         }
       ],
@@ -2918,7 +2918,7 @@
           "satellite": "Sentinel-1B",
           "track": "044",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20161027 - 20161021",
           "description": "Ascending Track 044"
         },
         {
@@ -2928,7 +2928,7 @@
           "satellite": "Sentinel-1B",
           "track": "117",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20161101 - 20161026",
           "description": "Ascending Track 117"
         },
         {
@@ -2938,7 +2938,7 @@
           "satellite": "Sentinel-1A",
           "track": "022",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20161101 - 20161026",
           "description": "Descending Track 022"
         },
         {
@@ -2948,7 +2948,7 @@
           "satellite": "Sentinel-1B",
           "track": "095",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20161031 - 20161025",
           "description": "Descending Track 095"
         }
       ],
@@ -2982,7 +2982,7 @@
           "satellite": "Sentinel-1A",
           "track": "091",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20161105 - 20161012",
           "description": "Ascending Track 091"
         },
         {
@@ -2992,7 +2992,7 @@
           "satellite": "Sentinel-1B",
           "track": "156",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20161104 - 20161011",
           "description": "Descending Track 156"
         }
       ],
@@ -3026,7 +3026,7 @@
           "satellite": "Sentinel-1A",
           "track": "044",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20161102 - 20161027",
           "description": "Ascending Track 044"
         },
         {
@@ -3036,7 +3036,7 @@
           "satellite": "Sentinel-1B",
           "track": "117",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20161101 - 20161026",
           "description": "Ascending Track 117"
         },
         {
@@ -3046,7 +3046,7 @@
           "satellite": "Sentinel-1A",
           "track": "022",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20161101 - 20161026",
           "description": "Descending Track 022"
         },
         {
@@ -3056,7 +3056,7 @@
           "satellite": "Sentinel-1B",
           "track": "095",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20161031 - 20161025",
           "description": "Descending Track 095"
         }
       ],
@@ -3090,7 +3090,7 @@
           "satellite": "Sentinel-1A",
           "track": "091",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20161129 - 20161105",
           "description": "Ascending Track 091"
         },
         {
@@ -3100,7 +3100,7 @@
           "satellite": "Sentinel-1A",
           "track": "164",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20161110 - 20161017",
           "description": "Ascending Track 164"
         },
         {
@@ -3110,7 +3110,7 @@
           "satellite": "Sentinel-1B",
           "track": "156",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20161128 - 20161104",
           "description": "Descending Track 156"
         }
       ],
@@ -3144,7 +3144,7 @@
           "satellite": "Sentinel-1A",
           "track": "052",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20161115 - 20161103",
           "description": "Ascending Track 052"
         },
         {
@@ -3154,7 +3154,7 @@
           "satellite": "Sentinel-1B",
           "track": "081",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20161123 - 20161105",
           "description": "Ascending Track 081"
         },
         {
@@ -3164,7 +3164,7 @@
           "satellite": "Sentinel-1A",
           "track": "125",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20161120 - 20160921",
           "description": "Ascending Track 125"
         },
         {
@@ -3174,7 +3174,7 @@
           "satellite": "Sentinel-1B",
           "track": "154",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20161116 - 20161110",
           "description": "Ascending Track 154"
         },
         {
@@ -3184,7 +3184,7 @@
           "satellite": "Sentinel-1A",
           "track": "073",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20161116 - 20160905",
           "description": "Descending Track 073"
         },
         {
@@ -3194,7 +3194,7 @@
           "satellite": "Sentinel-1B",
           "track": "146",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20161115 - 20160910",
           "description": "Descending Track 146"
         },
         {
@@ -3204,7 +3204,7 @@
           "satellite": "Sentinel-1B",
           "track": "175",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20161117 - 20161030",
           "description": "Descending Track 175"
         }
       ],
@@ -3238,7 +3238,7 @@
           "satellite": "Sentinel-1A",
           "track": "052",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20161115 - 20161103",
           "description": "Ascending Track 052"
         },
         {
@@ -3248,7 +3248,7 @@
           "satellite": "Sentinel-1A",
           "track": "125",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20161120 - 20160921",
           "description": "Ascending Track 125"
         },
         {
@@ -3258,7 +3258,7 @@
           "satellite": "Sentinel-1B",
           "track": "154",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20161116 - 20161110",
           "description": "Ascending Track 154"
         },
         {
@@ -3268,7 +3268,7 @@
           "satellite": "Sentinel-1A",
           "track": "073",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20161116 - 20160905",
           "description": "Descending Track 073"
         },
         {
@@ -3278,7 +3278,7 @@
           "satellite": "Sentinel-1B",
           "track": "146",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20161115 - 20160910",
           "description": "Descending Track 146"
         }
       ],
@@ -3312,7 +3312,7 @@
           "satellite": "Sentinel-1B",
           "track": "141",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20161127 - 20161115",
           "description": "Ascending Track 141"
         },
         {
@@ -3322,7 +3322,7 @@
           "satellite": "Sentinel-1A",
           "track": "046",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20161208 - 20161114",
           "description": "Descending Track 046"
         }
       ],
@@ -3356,7 +3356,7 @@
           "satellite": "Sentinel-1A",
           "track": "027",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20161207 - 20161113",
           "description": "Ascending Track 027"
         },
         {
@@ -3366,7 +3366,7 @@
           "satellite": "Sentinel-1A",
           "track": "100",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20161130 - 20161118",
           "description": "Ascending Track 100"
         },
         {
@@ -3376,7 +3376,7 @@
           "satellite": "Sentinel-1A",
           "track": "005",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20161206 - 20161112",
           "description": "Descending Track 005"
         },
         {
@@ -3386,7 +3386,7 @@
           "satellite": "Sentinel-1B",
           "track": "107",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20161219 - 20161125",
           "description": "Descending Track 107"
         }
       ],
@@ -3420,7 +3420,7 @@
           "satellite": "Sentinel-1B",
           "track": "047",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20161202 - 20161108",
           "description": "Ascending Track 047"
         },
         {
@@ -3430,7 +3430,7 @@
           "satellite": "Sentinel-1B",
           "track": "149",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20161209 - 20161115",
           "description": "Ascending Track 149"
         },
         {
@@ -3440,7 +3440,7 @@
           "satellite": "Sentinel-1B",
           "track": "127",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20161220 - 20161126",
           "description": "Descending Track 127"
         }
       ],
@@ -3474,7 +3474,7 @@
           "satellite": "Sentinel-1A",
           "track": "041",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20161220 - 20161126",
           "description": "Ascending Track 041"
         },
         {
@@ -3484,7 +3484,7 @@
           "satellite": "Sentinel-1A",
           "track": "033",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20161207 - 20161113",
           "description": "Descending Track 033"
         },
         {
@@ -3494,7 +3494,7 @@
           "satellite": "Sentinel-1A",
           "track": "135",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20161214 - 20161120",
           "description": "Descending Track 135"
         }
       ],
@@ -3528,7 +3528,7 @@
           "satellite": "Sentinel-1A",
           "track": "041",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20161208 - 20161114",
           "description": "Ascending Track 041"
         },
         {
@@ -3538,7 +3538,7 @@
           "satellite": "Sentinel-1A",
           "track": "114",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20161213 - 20161119",
           "description": "Ascending Track 114"
         },
         {
@@ -3548,7 +3548,7 @@
           "satellite": "Sentinel-1B",
           "track": "019",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20161225 - 20161201",
           "description": "Descending Track 019"
         },
         {
@@ -3558,7 +3558,7 @@
           "satellite": "Sentinel-1B",
           "track": "092",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20161218 - 20161124",
           "description": "Descending Track 092"
         }
       ],
@@ -3592,7 +3592,7 @@
           "satellite": "Sentinel-1B",
           "track": "125",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20161220 - 20161126",
           "description": "Ascending Track 125"
         }
       ],
@@ -3626,7 +3626,7 @@
           "satellite": "Sentinel-1A",
           "track": "135",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20161226 - 20161202",
           "description": "Ascending Track 135"
         }
       ],
@@ -3660,7 +3660,7 @@
           "satellite": "Sentinel-1B",
           "track": "125",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20170113 - 20161220",
           "description": "Ascending Track 125"
         }
       ],
@@ -3694,7 +3694,7 @@
           "satellite": "Sentinel-1B",
           "track": "125",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20170206 - 20170113",
           "description": "Ascending Track 125"
         }
       ],
@@ -3728,7 +3728,7 @@
           "satellite": "Sentinel-1A",
           "track": "013",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20170216 - 20170204",
           "description": "Ascending Track 013"
         },
         {
@@ -3738,7 +3738,7 @@
           "satellite": "Sentinel-1A",
           "track": "049",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20170219 - 20170126",
           "description": "Descending Track 049"
         },
         {
@@ -3748,7 +3748,7 @@
           "satellite": "Sentinel-1A",
           "track": "122",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20170224 - 20170131",
           "description": "Descending Track 122"
         }
       ],
@@ -3782,7 +3782,7 @@
           "satellite": "Sentinel-1B",
           "track": "069",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20170214 - 20170121",
           "description": "Ascending Track 069"
         },
         {
@@ -3792,7 +3792,7 @@
           "satellite": "Sentinel-1B",
           "track": "171",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20170221 - 20170128",
           "description": "Ascending Track 171"
         },
         {
@@ -3802,7 +3802,7 @@
           "satellite": "Sentinel-1A",
           "track": "061",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20170219 - 20170207",
           "description": "Descending Track 061"
         },
         {
@@ -3812,7 +3812,7 @@
           "satellite": "Sentinel-1A",
           "track": "163",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20170214 - 20170202",
           "description": "Descending Track 163"
         }
       ],
@@ -3846,7 +3846,7 @@
           "satellite": "Sentinel-1B",
           "track": "096",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20170312 - 20170228",
           "description": "Ascending Track 096"
         }
       ],
@@ -3880,7 +3880,7 @@
           "satellite": "Sentinel-1A",
           "track": "038",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20170314 - 20170302",
           "description": "Ascending Track 038"
         },
         {
@@ -3890,7 +3890,7 @@
           "satellite": "Sentinel-1A",
           "track": "140",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20170309 - 20170225",
           "description": "Ascending Track 140"
         },
         {
@@ -3900,7 +3900,7 @@
           "satellite": "Sentinel-1A",
           "track": "089",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20170317 - 20170305",
           "description": "Descending Track 089"
         }
       ],
@@ -3934,7 +3934,7 @@
           "satellite": "Sentinel-1B",
           "track": "125",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20170326 - 20170314",
           "description": "Ascending Track 125"
         }
       ],
@@ -3968,7 +3968,7 @@
           "satellite": "Sentinel-1A",
           "track": "140",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20170402 - 20170321",
           "description": "Ascending Track 140"
         },
         {
@@ -3978,7 +3978,7 @@
           "satellite": "Sentinel-1A",
           "track": "169",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20170404 - 20170323",
           "description": "Ascending Track 169"
         },
         {
@@ -3988,7 +3988,7 @@
           "satellite": "Sentinel-1A",
           "track": "089",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20170329 - 20170317",
           "description": "Descending Track 089"
         }
       ],
@@ -4022,7 +4022,7 @@
           "satellite": "Sentinel-1B",
           "track": "014",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20170411 - 20170330",
           "description": "Ascending Track 014"
         },
         {
@@ -4032,7 +4032,7 @@
           "satellite": "Sentinel-1B",
           "track": "116",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20170406 - 20170325",
           "description": "Ascending Track 116"
         }
       ],
@@ -4066,7 +4066,7 @@
           "satellite": "Sentinel-1A",
           "track": "013",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20170405 - 20170324",
           "description": "Ascending Track 013"
         },
         {
@@ -4076,7 +4076,7 @@
           "satellite": "Sentinel-1A",
           "track": "086",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20170410 - 20170329",
           "description": "Ascending Track 086"
         },
         {
@@ -4086,7 +4086,7 @@
           "satellite": "Sentinel-1A",
           "track": "020",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20170406 - 20170325",
           "description": "Descending Track 020"
         },
         {
@@ -4096,7 +4096,7 @@
           "satellite": "Sentinel-1A",
           "track": "093",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20170411 - 20170330",
           "description": "Descending Track 093"
         }
       ],
@@ -4130,7 +4130,7 @@
           "satellite": "Sentinel-1B",
           "track": "091",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20170522 - 20170209",
           "description": "Ascending Track 091"
         },
         {
@@ -4140,7 +4140,7 @@
           "satellite": "Sentinel-1A",
           "track": "156",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20170427 - 20170421",
           "description": "Descending Track 156"
         }
       ],
@@ -4174,7 +4174,7 @@
           "satellite": "Sentinel-1A",
           "track": "163",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20170509 - 20170427",
           "description": "Descending Track 163"
         }
       ],
@@ -4208,7 +4208,7 @@
           "satellite": "Sentinel-1A",
           "track": "050",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20170502 - 20170408",
           "description": "Ascending Track 050"
         },
         {
@@ -4218,7 +4218,7 @@
           "satellite": "Sentinel-1A",
           "track": "079",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20170516 - 20170422",
           "description": "Ascending Track 079"
         },
         {
@@ -4228,7 +4228,7 @@
           "satellite": "Sentinel-1B",
           "track": "145",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20170502 - 20170420",
           "description": "Descending Track 145"
         }
       ],
@@ -4262,7 +4262,7 @@
           "satellite": "Sentinel-1A",
           "track": "100",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20170505 - 20170423",
           "description": "Ascending Track 100"
         },
         {
@@ -4272,7 +4272,7 @@
           "satellite": "Sentinel-1A",
           "track": "173",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20170510 - 20170428",
           "description": "Ascending Track 173"
         },
         {
@@ -4282,7 +4282,7 @@
           "satellite": "Sentinel-1A",
           "track": "005",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20170511 - 20170429",
           "description": "Descending Track 005"
         },
         {
@@ -4292,7 +4292,7 @@
           "satellite": "Sentinel-1A",
           "track": "078",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20170504 - 20170422",
           "description": "Descending Track 078"
         }
       ],
@@ -4326,7 +4326,7 @@
           "satellite": "Sentinel-1A",
           "track": "063",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20170515 - 20170503",
           "description": "Ascending Track 063"
         },
         {
@@ -4336,7 +4336,7 @@
           "satellite": "Sentinel-1A",
           "track": "136",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20170520 - 20170508",
           "description": "Ascending Track 136"
         },
         {
@@ -4346,7 +4346,7 @@
           "satellite": "Sentinel-1A",
           "track": "026",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20170512 - 20170430",
           "description": "Descending Track 026"
         },
         {
@@ -4356,7 +4356,7 @@
           "satellite": "Sentinel-1A",
           "track": "128",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20170519 - 20170507",
           "description": "Descending Track 128"
         }
       ],
@@ -4390,7 +4390,7 @@
           "satellite": "Sentinel-1A",
           "track": "067",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20170527 - 20170515",
           "description": "Ascending Track 067"
         },
         {
@@ -4400,7 +4400,7 @@
           "satellite": "Sentinel-1A",
           "track": "169",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20170522 - 20170510",
           "description": "Ascending Track 169"
         },
         {
@@ -4410,7 +4410,7 @@
           "satellite": "Sentinel-1A",
           "track": "016",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20170523 - 20170511",
           "description": "Descending Track 016"
         }
       ],
@@ -4444,7 +4444,7 @@
           "satellite": "Sentinel-1A",
           "track": "061",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20170607 - 20170526",
           "description": "Descending Track 061"
         },
         {
@@ -4454,7 +4454,7 @@
           "satellite": "Sentinel-1A",
           "track": "134",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20170531 - 20170519",
           "description": "Descending Track 134"
         }
       ],
@@ -4488,7 +4488,7 @@
           "satellite": "Sentinel-1A",
           "track": "029",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20170617 - 20170611",
           "description": "Ascending Track 029"
         },
         {
@@ -4498,7 +4498,7 @@
           "satellite": "Sentinel-1A",
           "track": "131",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20170612 - 20170606",
           "description": "Ascending Track 131"
         },
         {
@@ -4508,7 +4508,7 @@
           "satellite": "Sentinel-1A",
           "track": "036",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20170618 - 20170612",
           "description": "Descending Track 036"
         },
         {
@@ -4518,7 +4518,7 @@
           "satellite": "Sentinel-1B",
           "track": "109",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20170617 - 20170611",
           "description": "Descending Track 109"
         }
       ],
@@ -4552,7 +4552,7 @@
           "satellite": "Sentinel-1A",
           "track": "034",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20170630 - 20170618",
           "description": "Ascending Track 034"
         },
         {
@@ -4562,7 +4562,7 @@
           "satellite": "Sentinel-1A",
           "track": "136",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20170625 - 20170613",
           "description": "Ascending Track 136"
         },
         {
@@ -4572,7 +4572,7 @@
           "satellite": "Sentinel-1A",
           "track": "026",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20170629 - 20170605",
           "description": "Descending Track 026"
         }
       ],
@@ -4606,7 +4606,7 @@
           "satellite": "Sentinel-1B",
           "track": "061",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20170707 - 20170701",
           "description": "Descending Track 061"
         }
       ],
@@ -4640,7 +4640,7 @@
           "satellite": "Sentinel-1A",
           "track": "067",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20170714 - 20170702",
           "description": "Ascending Track 067"
         },
         {
@@ -4650,7 +4650,7 @@
           "satellite": "Sentinel-1A",
           "track": "169",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20170721 - 20170709",
           "description": "Ascending Track 169"
         },
         {
@@ -4660,7 +4660,7 @@
           "satellite": "Sentinel-1A",
           "track": "016",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20170722 - 20170710",
           "description": "Descending Track 016"
         }
       ],
@@ -4694,7 +4694,7 @@
           "satellite": "Sentinel-1A",
           "track": "029",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20170723 - 20170717",
           "description": "Ascending Track 029"
         },
         {
@@ -4704,7 +4704,7 @@
           "satellite": "Sentinel-1B",
           "track": "131",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20170724 - 20170718",
           "description": "Ascending Track 131"
         },
         {
@@ -4714,7 +4714,7 @@
           "satellite": "Sentinel-1A",
           "track": "036",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20170724 - 20170718",
           "description": "Descending Track 036"
         },
         {
@@ -4724,7 +4724,7 @@
           "satellite": "Sentinel-1B",
           "track": "138",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20170725 - 20170719",
           "description": "Descending Track 138"
         }
       ],
@@ -4758,7 +4758,7 @@
           "satellite": "Sentinel-1A",
           "track": "055",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20170818 - 20170806",
           "description": "Ascending Track 055"
         },
         {
@@ -4768,7 +4768,7 @@
           "satellite": "Sentinel-1A",
           "track": "128",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20170811 - 20170730",
           "description": "Ascending Track 128"
         },
         {
@@ -4778,7 +4778,7 @@
           "satellite": "Sentinel-1A",
           "track": "062",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20170818 - 20170806",
           "description": "Descending Track 062"
         },
         {
@@ -4788,7 +4788,7 @@
           "satellite": "Sentinel-1A",
           "track": "135",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20170811 - 20170730",
           "description": "Descending Track 135"
         }
       ],
@@ -4822,7 +4822,7 @@
           "satellite": "Sentinel-1A",
           "track": "012",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20170815 - 20170803",
           "description": "Ascending Track 012"
         },
         {
@@ -4832,7 +4832,7 @@
           "satellite": "Sentinel-1B",
           "track": "085",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20170814 - 20170808",
           "description": "Ascending Track 085"
         },
         {
@@ -4842,7 +4842,7 @@
           "satellite": "Sentinel-1B",
           "track": "063",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20170813 - 20170807",
           "description": "Descending Track 063"
         },
         {
@@ -4852,7 +4852,7 @@
           "satellite": "Sentinel-1A",
           "track": "165",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20170814 - 20170808",
           "description": "Descending Track 165"
         }
       ],
@@ -4886,7 +4886,7 @@
           "satellite": "Sentinel-1A",
           "track": "069",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20170819 - 20170807",
           "description": "Ascending Track 069"
         },
         {
@@ -4896,7 +4896,7 @@
           "satellite": "Sentinel-1A",
           "track": "142",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20170824 - 20170812",
           "description": "Ascending Track 142"
         },
         {
@@ -4906,7 +4906,7 @@
           "satellite": "Sentinel-1A",
           "track": "018",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20170815 - 20170803",
           "description": "Descending Track 018"
         },
         {
@@ -4916,7 +4916,7 @@
           "satellite": "Sentinel-1A",
           "track": "091",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20170901 - 20170808",
           "description": "Descending Track 091"
         }
       ],
@@ -4950,7 +4950,7 @@
           "satellite": "Sentinel-1A",
           "track": "156",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20170906 - 20170825",
           "description": "Ascending Track 156"
         },
         {
@@ -4960,7 +4960,7 @@
           "satellite": "Sentinel-1B",
           "track": "061",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20170905 - 20170824",
           "description": "Descending Track 061"
         },
         {
@@ -4970,7 +4970,7 @@
           "satellite": "Sentinel-1B",
           "track": "134",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20170910 - 20170829",
           "description": "Descending Track 134"
         }
       ],
@@ -5004,7 +5004,7 @@
           "satellite": "Sentinel-1B",
           "track": "034",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20170928 - 20170916",
           "description": "Ascending Track 034"
         },
         {
@@ -5014,7 +5014,7 @@
           "satellite": "Sentinel-1B",
           "track": "107",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20171003 - 20170921",
           "description": "Ascending Track 107"
         },
         {
@@ -5024,7 +5024,7 @@
           "satellite": "Sentinel-1A",
           "track": "070",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20170924 - 20170912",
           "description": "Descending Track 070"
         },
         {
@@ -5034,7 +5034,7 @@
           "satellite": "Sentinel-1B",
           "track": "172",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20170925 - 20170919",
           "description": "Descending Track 172"
         }
       ],
@@ -5068,7 +5068,7 @@
           "satellite": "Sentinel-1A",
           "track": "068",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20171111 - 20171030",
           "description": "Ascending Track 068"
         },
         {
@@ -5078,7 +5078,7 @@
           "satellite": "Sentinel-1A",
           "track": "170",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20171106 - 20171013",
           "description": "Ascending Track 170"
         },
         {
@@ -5088,7 +5088,7 @@
           "satellite": "Sentinel-1A",
           "track": "017",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20171107 - 20171026",
           "description": "Descending Track 017"
         }
       ],
@@ -5122,7 +5122,7 @@
           "satellite": "Sentinel-1B",
           "track": "072",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20171117 - 20171111",
           "description": "Ascending Track 072"
         },
         {
@@ -5132,7 +5132,7 @@
           "satellite": "Sentinel-1A",
           "track": "174",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20171118 - 20171106",
           "description": "Ascending Track 174"
         },
         {
@@ -5142,7 +5142,7 @@
           "satellite": "Sentinel-1A",
           "track": "006",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20171119 - 20171107",
           "description": "Descending Track 006"
         },
         {
@@ -5152,7 +5152,7 @@
           "satellite": "Sentinel-1B",
           "track": "079",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20171118 - 20171112",
           "description": "Descending Track 079"
         }
       ],
@@ -5186,7 +5186,7 @@
           "satellite": "Sentinel-1A",
           "track": "092",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20171124 - 20171112",
           "description": "Ascending Track 092"
         },
         {
@@ -5196,7 +5196,7 @@
           "satellite": "Sentinel-1A",
           "track": "165",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20171117 - 20171105",
           "description": "Ascending Track 165"
         },
         {
@@ -5206,7 +5206,7 @@
           "satellite": "Sentinel-1A",
           "track": "084",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20171124 - 20171112",
           "description": "Descending Track 084"
         },
         {
@@ -5216,7 +5216,7 @@
           "satellite": "Sentinel-1A",
           "track": "157",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20171117 - 20171105",
           "description": "Descending Track 157"
         }
       ],
@@ -5250,7 +5250,7 @@
           "satellite": "Sentinel-1A",
           "track": "070",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20171123 - 20171111",
           "description": "Ascending Track 070"
         },
         {
@@ -5260,7 +5260,7 @@
           "satellite": "Sentinel-1A",
           "track": "143",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20171128 - 20171116",
           "description": "Ascending Track 143"
         },
         {
@@ -5270,7 +5270,7 @@
           "satellite": "Sentinel-1A",
           "track": "004",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20171118 - 20171106",
           "description": "Descending Track 004"
         },
         {
@@ -5280,7 +5280,7 @@
           "satellite": "Sentinel-1A",
           "track": "077",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20171123 - 20171111",
           "description": "Descending Track 077"
         }
       ],
@@ -5314,7 +5314,7 @@
           "satellite": "Sentinel-1A",
           "track": "057",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20171204 - 20171122",
           "description": "Ascending Track 057"
         },
         {
@@ -5324,7 +5324,7 @@
           "satellite": "Sentinel-1A",
           "track": "093",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20171207 - 20171125",
           "description": "Descending Track 093"
         },
         {
@@ -5334,7 +5334,7 @@
           "satellite": "Sentinel-1A",
           "track": "166",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20171212 - 20171130",
           "description": "Descending Track 166"
         }
       ],
@@ -5368,7 +5368,7 @@
           "satellite": "Sentinel-1A",
           "track": "038",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20171203 - 20171121",
           "description": "Ascending Track 038"
         },
         {
@@ -5378,7 +5378,7 @@
           "satellite": "Sentinel-1A",
           "track": "111",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20171208 - 20171126",
           "description": "Ascending Track 111"
         },
         {
@@ -5388,7 +5388,7 @@
           "satellite": "Sentinel-1A",
           "track": "162",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20171211 - 20171129",
           "description": "Descending Track 162"
         }
       ],
@@ -5422,7 +5422,7 @@
           "satellite": "Sentinel-1A",
           "track": "057",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20171216 - 20171210",
           "description": "Ascending Track 057"
         },
         {
@@ -5432,7 +5432,7 @@
           "satellite": "Sentinel-1B",
           "track": "093",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20171213 - 20171207",
           "description": "Descending Track 093"
         },
         {
@@ -5442,7 +5442,7 @@
           "satellite": "Sentinel-1A",
           "track": "166",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20171224 - 20171212",
           "description": "Descending Track 166"
         }
       ],
@@ -5476,7 +5476,7 @@
           "satellite": "Sentinel-1A",
           "track": "070",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20180122 - 20180110",
           "description": "Ascending Track 070"
         },
         {
@@ -5486,7 +5486,7 @@
           "satellite": "Sentinel-1A",
           "track": "143",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20180115 - 20180103",
           "description": "Ascending Track 143"
         },
         {
@@ -5496,7 +5496,7 @@
           "satellite": "Sentinel-1A",
           "track": "106",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20180112 - 20171231",
           "description": "Descending Track 106"
         }
       ],
@@ -5530,7 +5530,7 @@
           "satellite": "Sentinel-1B",
           "track": "120",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20180119 - 20180107",
           "description": "Ascending Track 120"
         },
         {
@@ -5540,7 +5540,7 @@
           "satellite": "Sentinel-1B",
           "track": "025",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20180125 - 20180113",
           "description": "Descending Track 025"
         },
         {
@@ -5550,7 +5550,7 @@
           "satellite": "Sentinel-1B",
           "track": "098",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20180118 - 20180106",
           "description": "Descending Track 098"
         }
       ],
@@ -5584,7 +5584,7 @@
           "satellite": "Sentinel-1B",
           "track": "020",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20180125 - 20180113",
           "description": "Ascending Track 020"
         },
         {
@@ -5594,7 +5594,7 @@
           "satellite": "Sentinel-1A",
           "track": "129",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20180126 - 20180114",
           "description": "Descending Track 129"
         }
       ],
@@ -5628,7 +5628,7 @@
           "satellite": "Sentinel-1B",
           "track": "068",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20180128 - 20180116",
           "description": "Ascending Track 068"
         },
         {
@@ -5638,7 +5638,7 @@
           "satellite": "Sentinel-1A",
           "track": "046",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20180201 - 20180120",
           "description": "Descending Track 046"
         },
         {
@@ -5648,7 +5648,7 @@
           "satellite": "Sentinel-1A",
           "track": "148",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20180127 - 20180115",
           "description": "Descending Track 148"
         }
       ],
@@ -5682,7 +5682,7 @@
           "satellite": "Sentinel-1B",
           "track": "069",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20180209 - 20180203",
           "description": "Ascending Track 069"
         },
         {
@@ -5692,7 +5692,7 @@
           "satellite": "Sentinel-1B",
           "track": "171",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20180216 - 20180204",
           "description": "Ascending Track 171"
         },
         {
@@ -5702,7 +5702,7 @@
           "satellite": "Sentinel-1A",
           "track": "105",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20180205 - 20180124",
           "description": "Descending Track 105"
         }
       ],
@@ -5736,7 +5736,7 @@
           "satellite": "Sentinel-1A",
           "track": "069",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20180215 - 20180203",
           "description": "Ascending Track 069"
         },
         {
@@ -5746,7 +5746,7 @@
           "satellite": "Sentinel-1B",
           "track": "171",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20180216 - 20180204",
           "description": "Ascending Track 171"
         },
         {
@@ -5756,7 +5756,7 @@
           "satellite": "Sentinel-1B",
           "track": "105",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20180211 - 20180205",
           "description": "Descending Track 105"
         }
       ],
@@ -5790,7 +5790,7 @@
           "satellite": "Sentinel-1B",
           "track": "005",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20180217 - 20180205",
           "description": "Ascending Track 005"
         },
         {
@@ -5800,7 +5800,7 @@
           "satellite": "Sentinel-1B",
           "track": "070",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20180221 - 20180215",
           "description": "Descending Track 070"
         },
         {
@@ -5810,7 +5810,7 @@
           "satellite": "Sentinel-1A",
           "track": "143",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20180220 - 20180214",
           "description": "Descending Track 143"
         }
       ],
@@ -5844,7 +5844,7 @@
           "satellite": "Sentinel-1A",
           "track": "009",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20180307 - 20180223",
           "description": "Ascending Track 009"
         },
         {
@@ -5854,7 +5854,7 @@
           "satellite": "Sentinel-1A",
           "track": "082",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20180228 - 20180216",
           "description": "Ascending Track 082"
         },
         {
@@ -5864,7 +5864,7 @@
           "satellite": "Sentinel-1A",
           "track": "031",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20180308 - 20180224",
           "description": "Descending Track 031"
         },
         {
@@ -5874,7 +5874,7 @@
           "satellite": "Sentinel-1A",
           "track": "133",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20180303 - 20180219",
           "description": "Descending Track 133"
         }
       ],
@@ -5908,7 +5908,7 @@
           "satellite": "Sentinel-1A",
           "track": "068",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20180227 - 20180215",
           "description": "Ascending Track 068"
         },
         {
@@ -5918,7 +5918,7 @@
           "satellite": "Sentinel-1A",
           "track": "017",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20180307 - 20180223",
           "description": "Descending Track 017"
         },
         {
@@ -5928,7 +5928,7 @@
           "satellite": "Sentinel-1A",
           "track": "090",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20180228 - 20180216",
           "description": "Descending Track 090"
         }
       ],
@@ -5962,7 +5962,7 @@
           "satellite": "Sentinel-1A",
           "track": "009",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20180307 - 20180223",
           "description": "Ascending Track 009"
         },
         {
@@ -5972,7 +5972,7 @@
           "satellite": "Sentinel-1A",
           "track": "082",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20180228 - 20180216",
           "description": "Ascending Track 082"
         },
         {
@@ -5982,7 +5982,7 @@
           "satellite": "Sentinel-1A",
           "track": "133",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20180303 - 20180219",
           "description": "Descending Track 133"
         }
       ],
@@ -6016,7 +6016,7 @@
           "satellite": "Sentinel-1A",
           "track": "009",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20180307 - 20180223",
           "description": "Ascending Track 009"
         },
         {
@@ -6026,7 +6026,7 @@
           "satellite": "Sentinel-1A",
           "track": "082",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20180312 - 20180228",
           "description": "Ascending Track 082"
         },
         {
@@ -6036,7 +6036,7 @@
           "satellite": "Sentinel-1A",
           "track": "031",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20180308 - 20180224",
           "description": "Descending Track 031"
         },
         {
@@ -6046,7 +6046,7 @@
           "satellite": "Sentinel-1A",
           "track": "133",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20180327 - 20180303",
           "description": "Descending Track 133"
         }
       ],
@@ -6080,7 +6080,7 @@
           "satellite": "Sentinel-1A",
           "track": "067",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20180311 - 20180227",
           "description": "Ascending Track 067"
         },
         {
@@ -6090,7 +6090,7 @@
           "satellite": "Sentinel-1A",
           "track": "169",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20180318 - 20180306",
           "description": "Ascending Track 169"
         },
         {
@@ -6100,7 +6100,7 @@
           "satellite": "Sentinel-1A",
           "track": "016",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20180331 - 20180307",
           "description": "Descending Track 016"
         }
       ],
@@ -6134,7 +6134,7 @@
           "satellite": "Sentinel-1A",
           "track": "067",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20180404 - 20180323",
           "description": "Ascending Track 067"
         },
         {
@@ -6144,7 +6144,7 @@
           "satellite": "Sentinel-1A",
           "track": "140",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20180328 - 20180304",
           "description": "Ascending Track 140"
         },
         {
@@ -6154,7 +6154,7 @@
           "satellite": "Sentinel-1A",
           "track": "016",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20180412 - 20180307",
           "description": "Descending Track 016"
         },
         {
@@ -6164,7 +6164,7 @@
           "satellite": "Sentinel-1A",
           "track": "089",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20180405 - 20180324",
           "description": "Descending Track 089"
         }
       ],
@@ -6198,7 +6198,7 @@
           "satellite": "Sentinel-1A",
           "track": "067",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20180404 - 20180323",
           "description": "Ascending Track 067"
         },
         {
@@ -6208,7 +6208,7 @@
           "satellite": "Sentinel-1A",
           "track": "140",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20180409 - 20180328",
           "description": "Ascending Track 140"
         },
         {
@@ -6218,7 +6218,7 @@
           "satellite": "Sentinel-1A",
           "track": "016",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20180331 - 20180307",
           "description": "Descending Track 016"
         },
         {
@@ -6228,7 +6228,7 @@
           "satellite": "Sentinel-1A",
           "track": "089",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20180405 - 20180324",
           "description": "Descending Track 089"
         }
       ],
@@ -6262,7 +6262,7 @@
           "satellite": "Sentinel-1A",
           "track": "009",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20180412 - 20180331",
           "description": "Ascending Track 009"
         },
         {
@@ -6272,7 +6272,7 @@
           "satellite": "Sentinel-1A",
           "track": "082",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20180417 - 20180405",
           "description": "Ascending Track 082"
         },
         {
@@ -6282,7 +6282,7 @@
           "satellite": "Sentinel-1A",
           "track": "031",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20180413 - 20180401",
           "description": "Descending Track 031"
         },
         {
@@ -6292,7 +6292,7 @@
           "satellite": "Sentinel-1A",
           "track": "133",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20180408 - 20180327",
           "description": "Descending Track 133"
         }
       ],
@@ -6326,7 +6326,7 @@
           "satellite": "Sentinel-1A",
           "track": "170",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20180423 - 20180411",
           "description": "Ascending Track 170"
         },
         {
@@ -6336,7 +6336,7 @@
           "satellite": "Sentinel-1A",
           "track": "017",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20180424 - 20180412",
           "description": "Descending Track 017"
         },
         {
@@ -6346,7 +6346,7 @@
           "satellite": "Sentinel-1A",
           "track": "090",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20180417 - 20180405",
           "description": "Descending Track 090"
         }
       ],
@@ -6380,7 +6380,7 @@
           "satellite": "Sentinel-1A",
           "track": "051",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20180509 - 20180503",
           "description": "Ascending Track 051"
         },
         {
@@ -6390,7 +6390,7 @@
           "satellite": "Sentinel-1B",
           "track": "124",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20180508 - 20180502",
           "description": "Ascending Track 124"
         },
         {
@@ -6400,7 +6400,7 @@
           "satellite": "Sentinel-1B",
           "track": "087",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20180505 - 20180423",
           "description": "Descending Track 087"
         }
       ],
@@ -6434,7 +6434,7 @@
           "satellite": "Sentinel-1B",
           "track": "069",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20180516 - 20180504",
           "description": "Ascending Track 069"
         },
         {
@@ -6444,7 +6444,7 @@
           "satellite": "Sentinel-1A",
           "track": "061",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20180509 - 20180427",
           "description": "Descending Track 061"
         },
         {
@@ -6454,7 +6454,7 @@
           "satellite": "Sentinel-1A",
           "track": "134",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20180514 - 20180502",
           "description": "Descending Track 134"
         }
       ],
@@ -6488,7 +6488,7 @@
           "satellite": "Sentinel-1A",
           "track": "067",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20180510 - 20180428",
           "description": "Ascending Track 067"
         },
         {
@@ -6498,7 +6498,7 @@
           "satellite": "Sentinel-1A",
           "track": "016",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20180518 - 20180506",
           "description": "Descending Track 016"
         }
       ],
@@ -6532,7 +6532,7 @@
           "satellite": "Sentinel-1A",
           "track": "038",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20180731 - 20180719",
           "description": "Ascending Track 038"
         },
         {
@@ -6542,7 +6542,7 @@
           "satellite": "Sentinel-1A",
           "track": "140",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20180726 - 20180714",
           "description": "Ascending Track 140"
         },
         {
@@ -6552,7 +6552,7 @@
           "satellite": "Sentinel-1A",
           "track": "089",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20180722 - 20180710",
           "description": "Descending Track 089"
         },
         {
@@ -6562,7 +6562,7 @@
           "satellite": "Sentinel-1A",
           "track": "162",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20180727 - 20180715",
           "description": "Descending Track 162"
         }
       ],
@@ -6596,7 +6596,7 @@
           "satellite": "Sentinel-1A",
           "track": "083",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20180803 - 20180722",
           "description": "Ascending Track 083"
         },
         {
@@ -6606,7 +6606,7 @@
           "satellite": "Sentinel-1B",
           "track": "156",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20180802 - 20180727",
           "description": "Ascending Track 156"
         },
         {
@@ -6616,7 +6616,7 @@
           "satellite": "Sentinel-1A",
           "track": "032",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20180730 - 20180724",
           "description": "Descending Track 032"
         }
       ],
@@ -6650,7 +6650,7 @@
           "satellite": "Sentinel-1A",
           "track": "083",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20180815 - 20180803",
           "description": "Ascending Track 083"
         },
         {
@@ -6660,7 +6660,7 @@
           "satellite": "Sentinel-1A",
           "track": "156",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20180808 - 20180802",
           "description": "Ascending Track 156"
         },
         {
@@ -6670,7 +6670,7 @@
           "satellite": "Sentinel-1B",
           "track": "032",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20180805 - 20180730",
           "description": "Descending Track 032"
         }
       ],
@@ -6704,7 +6704,7 @@
           "satellite": "Sentinel-1B",
           "track": "050",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20180831 - 20180720",
           "description": "Ascending Track 050"
         },
         {
@@ -6714,7 +6714,7 @@
           "satellite": "Sentinel-1A",
           "track": "131",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20180818 - 20180806",
           "description": "Descending Track 131"
         },
         {
@@ -6724,7 +6724,7 @@
           "satellite": "Sentinel-1A",
           "track": "160",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20180820 - 20180808",
           "description": "Descending Track 160"
         }
       ],
@@ -6758,7 +6758,7 @@
           "satellite": "Sentinel-1A",
           "track": "092",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20180827 - 20180815",
           "description": "Ascending Track 092"
         },
         {
@@ -6768,7 +6768,7 @@
           "satellite": "Sentinel-1A",
           "track": "011",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20180822 - 20180810",
           "description": "Descending Track 011"
         },
         {
@@ -6778,7 +6778,7 @@
           "satellite": "Sentinel-1A",
           "track": "084",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20180827 - 20180815",
           "description": "Descending Track 084"
         }
       ],
@@ -6812,7 +6812,7 @@
           "satellite": "Sentinel-1A",
           "track": "083",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20180827 - 20180815",
           "description": "Ascending Track 083"
         },
         {
@@ -6822,7 +6822,7 @@
           "satellite": "Sentinel-1A",
           "track": "156",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20180820 - 20180814",
           "description": "Ascending Track 156"
         },
         {
@@ -6832,7 +6832,7 @@
           "satellite": "Sentinel-1A",
           "track": "032",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20180823 - 20180817",
           "description": "Descending Track 032"
         }
       ],
@@ -6866,7 +6866,7 @@
           "satellite": "Sentinel-1A",
           "track": "081",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20180827 - 20180815",
           "description": "Ascending Track 081"
         }
       ],
@@ -6900,7 +6900,7 @@
           "satellite": "Sentinel-1A",
           "track": "072",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20180826 - 20180820",
           "description": "Ascending Track 072"
         },
         {
@@ -6910,7 +6910,7 @@
           "satellite": "Sentinel-1B",
           "track": "174",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20180827 - 20180821",
           "description": "Ascending Track 174"
         },
         {
@@ -6920,7 +6920,7 @@
           "satellite": "Sentinel-1B",
           "track": "006",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20180828 - 20180822",
           "description": "Descending Track 006"
         },
         {
@@ -6930,7 +6930,7 @@
           "satellite": "Sentinel-1B",
           "track": "079",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20180902 - 20180821",
           "description": "Descending Track 079"
         }
       ],
@@ -6964,7 +6964,7 @@
           "satellite": "Sentinel-1A",
           "track": "039",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20180905 - 20180824",
           "description": "Ascending Track 039"
         },
         {
@@ -6974,7 +6974,7 @@
           "satellite": "Sentinel-1A",
           "track": "090",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20180908 - 20180827",
           "description": "Descending Track 090"
         }
       ],
@@ -7008,7 +7008,7 @@
           "satellite": "Sentinel-1B",
           "track": "068",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20180913 - 20180901",
           "description": "Ascending Track 068"
         },
         {
@@ -7018,7 +7018,7 @@
           "satellite": "Sentinel-1B",
           "track": "141",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20180906 - 20180825",
           "description": "Ascending Track 141"
         },
         {
@@ -7028,7 +7028,7 @@
           "satellite": "Sentinel-1A",
           "track": "046",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20180905 - 20180824",
           "description": "Descending Track 046"
         },
         {
@@ -7038,7 +7038,7 @@
           "satellite": "Sentinel-1A",
           "track": "148",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20180912 - 20180831",
           "description": "Descending Track 148"
         }
       ],
@@ -7072,7 +7072,7 @@
           "satellite": "Sentinel-1B",
           "track": "171",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20180908 - 20180827",
           "description": "Ascending Track 171"
         },
         {
@@ -7082,7 +7082,7 @@
           "satellite": "Sentinel-1A",
           "track": "163",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20180913 - 20180901",
           "description": "Descending Track 163"
         }
       ],
@@ -7116,7 +7116,7 @@
           "satellite": "Sentinel-1A",
           "track": "010",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20181009 - 20180927",
           "description": "Ascending Track 010"
         },
         {
@@ -7126,7 +7126,7 @@
           "satellite": "Sentinel-1A",
           "track": "061",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20181012 - 20180930",
           "description": "Descending Track 061"
         },
         {
@@ -7136,7 +7136,7 @@
           "satellite": "Sentinel-1A",
           "track": "163",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20181007 - 20180925",
           "description": "Descending Track 163"
         }
       ],
@@ -7170,7 +7170,7 @@
           "satellite": "Sentinel-1A",
           "track": "054",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20181012 - 20180930",
           "description": "Ascending Track 054"
         },
         {
@@ -7180,7 +7180,7 @@
           "satellite": "Sentinel-1A",
           "track": "156",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20181019 - 20181007",
           "description": "Ascending Track 156"
         },
         {
@@ -7190,7 +7190,7 @@
           "satellite": "Sentinel-1A",
           "track": "105",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20181015 - 20181003",
           "description": "Descending Track 105"
         }
       ],
@@ -7224,7 +7224,7 @@
           "satellite": "Sentinel-1A",
           "track": "067",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20181013 - 20181001",
           "description": "Ascending Track 067"
         },
         {
@@ -7234,7 +7234,7 @@
           "satellite": "Sentinel-1A",
           "track": "140",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20181018 - 20181006",
           "description": "Ascending Track 140"
         },
         {
@@ -7244,7 +7244,7 @@
           "satellite": "Sentinel-1A",
           "track": "016",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20181021 - 20181009",
           "description": "Descending Track 016"
         },
         {
@@ -7254,7 +7254,7 @@
           "satellite": "Sentinel-1A",
           "track": "089",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20181014 - 20181002",
           "description": "Descending Track 089"
         }
       ],
@@ -7288,7 +7288,7 @@
           "satellite": "Sentinel-1B",
           "track": "073",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20181031 - 20181025",
           "description": "Ascending Track 073"
         },
         {
@@ -7298,7 +7298,7 @@
           "satellite": "Sentinel-1B",
           "track": "175",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20181026 - 20181020",
           "description": "Ascending Track 175"
         },
         {
@@ -7308,7 +7308,7 @@
           "satellite": "Sentinel-1A",
           "track": "080",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20181026 - 20181020",
           "description": "Descending Track 080"
         },
         {
@@ -7318,7 +7318,7 @@
           "satellite": "Sentinel-1A",
           "track": "153",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20181031 - 20181019",
           "description": "Descending Track 153"
         }
       ],
@@ -7352,7 +7352,7 @@
           "satellite": "Sentinel-1A",
           "track": "136",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20181030 - 20181024",
           "description": "Ascending Track 136"
         },
         {
@@ -7362,7 +7362,7 @@
           "satellite": "Sentinel-1B",
           "track": "026",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20181109 - 20181028",
           "description": "Descending Track 026"
         },
         {
@@ -7372,7 +7372,7 @@
           "satellite": "Sentinel-1A",
           "track": "128",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20181029 - 20181017",
           "description": "Descending Track 128"
         }
       ],
@@ -7406,7 +7406,7 @@
           "satellite": "Sentinel-1A",
           "track": "072",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20181130 - 20181118",
           "description": "Ascending Track 072"
         },
         {
@@ -7416,7 +7416,7 @@
           "satellite": "Sentinel-1B",
           "track": "174",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20181201 - 20181125",
           "description": "Ascending Track 174"
         },
         {
@@ -7426,7 +7426,7 @@
           "satellite": "Sentinel-1A",
           "track": "006",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20181126 - 20181120",
           "description": "Descending Track 006"
         },
         {
@@ -7436,7 +7436,7 @@
           "satellite": "Sentinel-1A",
           "track": "079",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20181201 - 20181125",
           "description": "Descending Track 079"
         }
       ],
@@ -7470,7 +7470,7 @@
           "satellite": "Sentinel-1B",
           "track": "156",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20190117 - 20190105",
           "description": "Ascending Track 156"
         },
         {
@@ -7480,7 +7480,7 @@
           "satellite": "Sentinel-1A",
           "track": "163",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20190111 - 20181230",
           "description": "Descending Track 163"
         }
       ],
@@ -7514,7 +7514,7 @@
           "satellite": "Sentinel-1A",
           "track": "010",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20190125 - 20190113",
           "description": "Ascending Track 010"
         },
         {
@@ -7524,7 +7524,7 @@
           "satellite": "Sentinel-1A",
           "track": "061",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20190128 - 20190116",
           "description": "Descending Track 061"
         }
       ],
@@ -7558,7 +7558,7 @@
           "satellite": "Sentinel-1B",
           "track": "171",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20190319 - 20190307",
           "description": "Ascending Track 171"
         },
         {
@@ -7568,7 +7568,7 @@
           "satellite": "Sentinel-1B",
           "track": "061",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20190311 - 20190227",
           "description": "Descending Track 061"
         },
         {
@@ -7578,7 +7578,7 @@
           "satellite": "Sentinel-1A",
           "track": "163",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20190312 - 20190228",
           "description": "Descending Track 163"
         }
       ],
@@ -7612,7 +7612,7 @@
           "satellite": "Sentinel-1B",
           "track": "018",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20190401 - 20190326",
           "description": "Ascending Track 018"
         },
         {
@@ -7622,7 +7622,7 @@
           "satellite": "Sentinel-1B",
           "track": "091",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20190406 - 20190325",
           "description": "Ascending Track 091"
         },
         {
@@ -7632,7 +7632,7 @@
           "satellite": "Sentinel-1A",
           "track": "040",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20190409 - 20190328",
           "description": "Descending Track 040"
         }
       ],
@@ -7666,7 +7666,7 @@
           "satellite": "Sentinel-1B",
           "track": "039",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20190415 - 20190403",
           "description": "Ascending Track 039"
         },
         {
@@ -7676,7 +7676,7 @@
           "satellite": "Sentinel-1A",
           "track": "061",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20190422 - 20190410",
           "description": "Descending Track 061"
         },
         {
@@ -7686,7 +7686,7 @@
           "satellite": "Sentinel-1A",
           "track": "163",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20190429 - 20190405",
           "description": "Descending Track 163"
         }
       ],
@@ -7720,7 +7720,7 @@
           "satellite": "Sentinel-1A",
           "track": "038",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20190421 - 20190409",
           "description": "Ascending Track 038"
         },
         {
@@ -7730,7 +7730,7 @@
           "satellite": "Sentinel-1A",
           "track": "140",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20190416 - 20190404",
           "description": "Ascending Track 140"
         },
         {
@@ -7740,7 +7740,7 @@
           "satellite": "Sentinel-1A",
           "track": "089",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20190412 - 20190331",
           "description": "Descending Track 089"
         },
         {
@@ -7750,7 +7750,7 @@
           "satellite": "Sentinel-1A",
           "track": "162",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20190417 - 20190405",
           "description": "Descending Track 162"
         }
       ],
@@ -7784,7 +7784,7 @@
           "satellite": "Sentinel-1A",
           "track": "069",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20190423 - 20190417",
           "description": "Ascending Track 069"
         },
         {
@@ -7794,7 +7794,7 @@
           "satellite": "Sentinel-1B",
           "track": "105",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20190419 - 20190413",
           "description": "Descending Track 105"
         }
       ],
@@ -7828,7 +7828,7 @@
           "satellite": "Sentinel-1B",
           "track": "142",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20190422 - 20190410",
           "description": "Ascending Track 142"
         },
         {
@@ -7838,7 +7838,7 @@
           "satellite": "Sentinel-1A",
           "track": "032",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20190502 - 20190420",
           "description": "Descending Track 032"
         },
         {
@@ -7848,7 +7848,7 @@
           "satellite": "Sentinel-1A",
           "track": "105",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20190425 - 20190413",
           "description": "Descending Track 105"
         }
       ],
@@ -7882,7 +7882,7 @@
           "satellite": "Sentinel-1B",
           "track": "156",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20190517 - 20190505",
           "description": "Ascending Track 156"
         },
         {
@@ -7892,7 +7892,7 @@
           "satellite": "Sentinel-1A",
           "track": "090",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20190518 - 20190506",
           "description": "Descending Track 090"
         },
         {
@@ -7902,7 +7902,7 @@
           "satellite": "Sentinel-1A",
           "track": "163",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20190511 - 20190429",
           "description": "Descending Track 163"
         }
       ],
@@ -7936,7 +7936,7 @@
           "satellite": "Sentinel-1A",
           "track": "092",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20190518 - 20190506",
           "description": "Ascending Track 092"
         },
         {
@@ -7946,7 +7946,7 @@
           "satellite": "Sentinel-1A",
           "track": "011",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20190513 - 20190501",
           "description": "Descending Track 011"
         },
         {
@@ -7956,7 +7956,7 @@
           "satellite": "Sentinel-1A",
           "track": "084",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20190518 - 20190506",
           "description": "Descending Track 084"
         }
       ],
@@ -7990,7 +7990,7 @@
           "satellite": "Sentinel-1A",
           "track": "067",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20190517 - 20190505",
           "description": "Ascending Track 067"
         },
         {
@@ -8000,7 +8000,7 @@
           "satellite": "Sentinel-1A",
           "track": "169",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20190524 - 20190512",
           "description": "Ascending Track 169"
         },
         {
@@ -8010,7 +8010,7 @@
           "satellite": "Sentinel-1A",
           "track": "016",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20190525 - 20190513",
           "description": "Descending Track 016"
         }
       ],
@@ -8044,7 +8044,7 @@
           "satellite": "Sentinel-1A",
           "track": "018",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20190618 - 20190606",
           "description": "Ascending Track 018"
         },
         {
@@ -8054,7 +8054,7 @@
           "satellite": "Sentinel-1B",
           "track": "120",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20190619 - 20190526",
           "description": "Ascending Track 120"
         },
         {
@@ -8064,7 +8064,7 @@
           "satellite": "Sentinel-1B",
           "track": "054",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20190615 - 20190603",
           "description": "Descending Track 054"
         },
         {
@@ -8074,7 +8074,7 @@
           "satellite": "Sentinel-1B",
           "track": "156",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20190622 - 20190610",
           "description": "Descending Track 156"
         }
       ],
@@ -8108,7 +8108,7 @@
           "satellite": "Sentinel-1B",
           "track": "039",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20190626 - 20190427",
           "description": "Ascending Track 039"
         },
         {
@@ -8118,7 +8118,7 @@
           "satellite": "Sentinel-1B",
           "track": "141",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20190621 - 20190609",
           "description": "Ascending Track 141"
         },
         {
@@ -8128,7 +8128,7 @@
           "satellite": "Sentinel-1A",
           "track": "046",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20190620 - 20190608",
           "description": "Descending Track 046"
         },
         {
@@ -8138,7 +8138,7 @@
           "satellite": "Sentinel-1A",
           "track": "119",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20190625 - 20190613",
           "description": "Descending Track 119"
         }
       ],
@@ -8172,7 +8172,7 @@
           "satellite": "Sentinel-1A",
           "track": "053",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20190621 - 20190609",
           "description": "Ascending Track 053"
         },
         {
@@ -8182,7 +8182,7 @@
           "satellite": "Sentinel-1A",
           "track": "155",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20190628 - 20190616",
           "description": "Ascending Track 155"
         },
         {
@@ -8192,7 +8192,7 @@
           "satellite": "Sentinel-1A",
           "track": "002",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20190629 - 20190617",
           "description": "Descending Track 002"
         },
         {
@@ -8202,7 +8202,7 @@
           "satellite": "Sentinel-1A",
           "track": "104",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20190624 - 20190612",
           "description": "Descending Track 104"
         }
       ],
@@ -8236,7 +8236,7 @@
           "satellite": "Sentinel-1A",
           "track": "053",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20190703 - 20190621",
           "description": "Ascending Track 053"
         },
         {
@@ -8246,7 +8246,7 @@
           "satellite": "Sentinel-1A",
           "track": "155",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20190628 - 20190616",
           "description": "Ascending Track 155"
         },
         {
@@ -8256,7 +8256,7 @@
           "satellite": "Sentinel-1A",
           "track": "002",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20190629 - 20190617",
           "description": "Descending Track 002"
         },
         {
@@ -8266,7 +8266,7 @@
           "satellite": "Sentinel-1A",
           "track": "104",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20190624 - 20190612",
           "description": "Descending Track 104"
         }
       ],
@@ -8300,7 +8300,7 @@
           "satellite": "Sentinel-1A",
           "track": "092",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20190705 - 20190623",
           "description": "Ascending Track 092"
         },
         {
@@ -8310,7 +8310,7 @@
           "satellite": "Sentinel-1A",
           "track": "011",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20190630 - 20190618",
           "description": "Descending Track 011"
         },
         {
@@ -8320,7 +8320,7 @@
           "satellite": "Sentinel-1A",
           "track": "084",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20190705 - 20190611",
           "description": "Descending Track 084"
         }
       ],
@@ -8354,7 +8354,7 @@
           "satellite": "Sentinel-1B",
           "track": "064",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20190710 - 20190704",
           "description": "Ascending Track 064"
         },
         {
@@ -8364,7 +8364,7 @@
           "satellite": "Sentinel-1B",
           "track": "166",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20190705 - 20190623",
           "description": "Ascending Track 166"
         },
         {
@@ -8374,7 +8374,7 @@
           "satellite": "Sentinel-1A",
           "track": "071",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20190716 - 20190704",
           "description": "Descending Track 071"
         },
         {
@@ -8384,7 +8384,7 @@
           "satellite": "Sentinel-1A",
           "track": "144",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20190709 - 20190627",
           "description": "Descending Track 144"
         }
       ],
@@ -8418,7 +8418,7 @@
           "satellite": "Sentinel-1B",
           "track": "064",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20190710 - 20190704",
           "description": "Ascending Track 064"
         },
         {
@@ -8428,7 +8428,7 @@
           "satellite": "Sentinel-1B",
           "track": "166",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20190717 - 20190705",
           "description": "Ascending Track 166"
         },
         {
@@ -8438,7 +8438,7 @@
           "satellite": "Sentinel-1A",
           "track": "071",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20190716 - 20190704",
           "description": "Descending Track 071"
         },
         {
@@ -8448,7 +8448,7 @@
           "satellite": "Sentinel-1A",
           "track": "144",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20190709 - 20190627",
           "description": "Descending Track 144"
         }
       ],
@@ -8482,7 +8482,7 @@
           "satellite": "Sentinel-1A",
           "track": "017",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20190724 - 20190712",
           "description": "Descending Track 017"
         }
       ],
@@ -8516,7 +8516,7 @@
           "satellite": "Sentinel-1A",
           "track": "018",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20190805 - 20190724",
           "description": "Ascending Track 018"
         },
         {
@@ -8526,7 +8526,7 @@
           "satellite": "Sentinel-1B",
           "track": "156",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20190809 - 20190728",
           "description": "Descending Track 156"
         }
       ],
@@ -8560,7 +8560,7 @@
           "satellite": "Sentinel-1B",
           "track": "068",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20190815 - 20190803",
           "description": "Ascending Track 068"
         },
         {
@@ -8570,7 +8570,7 @@
           "satellite": "Sentinel-1B",
           "track": "141",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20190808 - 20190727",
           "description": "Ascending Track 141"
         },
         {
@@ -8580,7 +8580,7 @@
           "satellite": "Sentinel-1A",
           "track": "046",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20190807 - 20190726",
           "description": "Descending Track 046"
         }
       ],
@@ -8614,7 +8614,7 @@
           "satellite": "Sentinel-1A",
           "track": "135",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20190930 - 20190918",
           "description": "Ascending Track 135"
         },
         {
@@ -8624,7 +8624,7 @@
           "satellite": "Sentinel-1A",
           "track": "098",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20190928 - 20190916",
           "description": "Descending Track 098"
         }
       ],
@@ -8658,7 +8658,7 @@
           "satellite": "Sentinel-1A",
           "track": "068",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20190926 - 20190902",
           "description": "Ascending Track 068"
         },
         {
@@ -8668,7 +8668,7 @@
           "satellite": "Sentinel-1A",
           "track": "017",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20191016 - 20190922",
           "description": "Descending Track 017"
         },
         {
@@ -8678,7 +8678,7 @@
           "satellite": "Sentinel-1A",
           "track": "119",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20190929 - 20190917",
           "description": "Descending Track 119"
         }
       ],
@@ -8712,7 +8712,7 @@
           "satellite": "Sentinel-1B",
           "track": "156",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20191008 - 20190926",
           "description": "Descending Track 156"
         }
       ],
@@ -8746,7 +8746,7 @@
           "satellite": "Sentinel-1B",
           "track": "069",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20191026 - 20191014",
           "description": "Ascending Track 069"
         },
         {
@@ -8756,7 +8756,7 @@
           "satellite": "Sentinel-1B",
           "track": "171",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20191021 - 20191009",
           "description": "Ascending Track 171"
         },
         {
@@ -8766,7 +8766,7 @@
           "satellite": "Sentinel-1A",
           "track": "061",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20191019 - 20191007",
           "description": "Descending Track 061"
         },
         {
@@ -8776,7 +8776,7 @@
           "satellite": "Sentinel-1A",
           "track": "163",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20191026 - 20191014",
           "description": "Descending Track 163"
         }
       ],
@@ -8810,7 +8810,7 @@
           "satellite": "Sentinel-1B",
           "track": "069",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20191107 - 20191026",
           "description": "Ascending Track 069"
         },
         {
@@ -8820,7 +8820,7 @@
           "satellite": "Sentinel-1B",
           "track": "171",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20191102 - 20191021",
           "description": "Ascending Track 171"
         },
         {
@@ -8830,7 +8830,7 @@
           "satellite": "Sentinel-1A",
           "track": "061",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20191031 - 20191019",
           "description": "Descending Track 061"
         },
         {
@@ -8840,7 +8840,7 @@
           "satellite": "Sentinel-1A",
           "track": "163",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20191107 - 20191026",
           "description": "Descending Track 163"
         }
       ],
@@ -8874,7 +8874,7 @@
           "satellite": "Sentinel-1B",
           "track": "069",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20191107 - 20191026",
           "description": "Ascending Track 069"
         },
         {
@@ -8884,7 +8884,7 @@
           "satellite": "Sentinel-1B",
           "track": "171",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20191102 - 20191021",
           "description": "Ascending Track 171"
         },
         {
@@ -8894,7 +8894,7 @@
           "satellite": "Sentinel-1A",
           "track": "061",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20191031 - 20191019",
           "description": "Descending Track 061"
         },
         {
@@ -8904,7 +8904,7 @@
           "satellite": "Sentinel-1A",
           "track": "163",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20191107 - 20191026",
           "description": "Descending Track 163"
         }
       ],
@@ -8938,7 +8938,7 @@
           "satellite": "Sentinel-1A",
           "track": "099",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20191127 - 20191115",
           "description": "Ascending Track 099"
         },
         {
@@ -8948,7 +8948,7 @@
           "satellite": "Sentinel-1A",
           "track": "062",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20191124 - 20191118",
           "description": "Descending Track 062"
         }
       ],
@@ -8982,7 +8982,7 @@
           "satellite": "Sentinel-1B",
           "track": "073",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20191201 - 20191125",
           "description": "Ascending Track 073"
         },
         {
@@ -8992,7 +8992,7 @@
           "satellite": "Sentinel-1B",
           "track": "175",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20191126 - 20191120",
           "description": "Ascending Track 175"
         },
         {
@@ -9002,7 +9002,7 @@
           "satellite": "Sentinel-1B",
           "track": "051",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20191130 - 20191124",
           "description": "Descending Track 051"
         },
         {
@@ -9012,7 +9012,7 @@
           "satellite": "Sentinel-1A",
           "track": "153",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20191201 - 20191125",
           "description": "Descending Track 153"
         }
       ],
@@ -9046,7 +9046,7 @@
           "satellite": "Sentinel-1A",
           "track": "047",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20191205 - 20191129",
           "description": "Ascending Track 047"
         },
         {
@@ -9056,7 +9056,7 @@
           "satellite": "Sentinel-1B",
           "track": "149",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20191206 - 20191130",
           "description": "Ascending Track 149"
         },
         {
@@ -9066,7 +9066,7 @@
           "satellite": "Sentinel-1A",
           "track": "054",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20191206 - 20191130",
           "description": "Descending Track 054"
         },
         {
@@ -9076,7 +9076,7 @@
           "satellite": "Sentinel-1B",
           "track": "127",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20191205 - 20191123",
           "description": "Descending Track 127"
         }
       ],
@@ -9110,7 +9110,7 @@
           "satellite": "Sentinel-1A",
           "track": "081",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20191220 - 20191208",
           "description": "Ascending Track 081"
         },
         {
@@ -9120,7 +9120,7 @@
           "satellite": "Sentinel-1B",
           "track": "059",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20191224 - 20191212",
           "description": "Descending Track 059"
         }
       ],
@@ -9154,7 +9154,7 @@
           "satellite": "Sentinel-1B",
           "track": "069",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20191225 - 20191213",
           "description": "Ascending Track 069"
         },
         {
@@ -9164,7 +9164,7 @@
           "satellite": "Sentinel-1B",
           "track": "171",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20191220 - 20191208",
           "description": "Ascending Track 171"
         },
         {
@@ -9174,7 +9174,7 @@
           "satellite": "Sentinel-1A",
           "track": "061",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20191218 - 20191206",
           "description": "Descending Track 061"
         },
         {
@@ -9184,7 +9184,7 @@
           "satellite": "Sentinel-1B",
           "track": "163",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20191219 - 20191213",
           "description": "Descending Track 163"
         }
       ],
@@ -9218,7 +9218,7 @@
           "satellite": "Sentinel-1B",
           "track": "150",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20191230 - 20191218",
           "description": "Ascending Track 150"
         },
         {
@@ -9228,7 +9228,7 @@
           "satellite": "Sentinel-1B",
           "track": "069",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20191225 - 20191213",
           "description": "Descending Track 069"
         }
       ],
@@ -9262,7 +9262,7 @@
           "satellite": "Sentinel-1A",
           "track": "135",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20200116 - 20200104",
           "description": "Ascending Track 135"
         },
         {
@@ -9272,7 +9272,7 @@
           "satellite": "Sentinel-1A",
           "track": "025",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20200109 - 20191228",
           "description": "Descending Track 025"
         },
         {
@@ -9282,7 +9282,7 @@
           "satellite": "Sentinel-1A",
           "track": "098",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20200114 - 20200102",
           "description": "Descending Track 098"
         }
       ],
@@ -9316,7 +9316,7 @@
           "satellite": "Sentinel-1A",
           "track": "125",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20200116 - 20191223",
           "description": "Ascending Track 125"
         },
         {
@@ -9326,7 +9326,7 @@
           "satellite": "Sentinel-1A",
           "track": "154",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20200118 - 20200106",
           "description": "Ascending Track 154"
         },
         {
@@ -9336,7 +9336,7 @@
           "satellite": "Sentinel-1A",
           "track": "118",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20200115 - 20200103",
           "description": "Descending Track 118"
         },
         {
@@ -9346,7 +9346,7 @@
           "satellite": "Sentinel-1A",
           "track": "147",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20200117 - 20200105",
           "description": "Descending Track 147"
         }
       ],
@@ -9380,7 +9380,7 @@
           "satellite": "Sentinel-1A",
           "track": "056",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20200123 - 20200111",
           "description": "Ascending Track 056"
         },
         {
@@ -9390,7 +9390,7 @@
           "satellite": "Sentinel-1A",
           "track": "129",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20200128 - 20200116",
           "description": "Ascending Track 129"
         },
         {
@@ -9400,7 +9400,7 @@
           "satellite": "Sentinel-1A",
           "track": "034",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20200122 - 20200110",
           "description": "Descending Track 034"
         },
         {
@@ -9410,7 +9410,7 @@
           "satellite": "Sentinel-1A",
           "track": "136",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20200129 - 20200117",
           "description": "Descending Track 136"
         }
       ],
@@ -9444,7 +9444,7 @@
           "satellite": "Sentinel-1B",
           "track": "043",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20200128 - 20200122",
           "description": "Ascending Track 043"
         },
         {
@@ -9454,7 +9454,7 @@
           "satellite": "Sentinel-1A",
           "track": "116",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20200127 - 20200121",
           "description": "Ascending Track 116"
         },
         {
@@ -9464,7 +9464,7 @@
           "satellite": "Sentinel-1B",
           "track": "021",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20200127 - 20200121",
           "description": "Descending Track 021"
         },
         {
@@ -9474,7 +9474,7 @@
           "satellite": "Sentinel-1A",
           "track": "123",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20200128 - 20200122",
           "description": "Descending Track 123"
         }
       ],
@@ -9508,7 +9508,7 @@
           "satellite": "Sentinel-1B",
           "track": "125",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20200203 - 20200122",
           "description": "Ascending Track 125"
         }
       ],
@@ -9542,7 +9542,7 @@
           "satellite": "Sentinel-1B",
           "track": "069",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20200211 - 20200130",
           "description": "Ascending Track 069"
         },
         {
@@ -9552,7 +9552,7 @@
           "satellite": "Sentinel-1B",
           "track": "171",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20200218 - 20200206",
           "description": "Ascending Track 171"
         },
         {
@@ -9562,7 +9562,7 @@
           "satellite": "Sentinel-1A",
           "track": "090",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20200206 - 20200125",
           "description": "Descending Track 090"
         },
         {
@@ -9572,7 +9572,7 @@
           "satellite": "Sentinel-1A",
           "track": "163",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20200211 - 20200130",
           "description": "Descending Track 163"
         }
       ],
@@ -9606,7 +9606,7 @@
           "satellite": "Sentinel-1A",
           "track": "067",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20200217 - 20200205",
           "description": "Ascending Track 067"
         },
         {
@@ -9616,7 +9616,7 @@
           "satellite": "Sentinel-1A",
           "track": "016",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20200213 - 20200201",
           "description": "Descending Track 016"
         }
       ],
@@ -9650,7 +9650,7 @@
           "satellite": "Sentinel-1B",
           "track": "072",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20200306 - 20200223",
           "description": "Ascending Track 072"
         },
         {
@@ -9660,7 +9660,7 @@
           "satellite": "Sentinel-1A",
           "track": "174",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20200224 - 20200212",
           "description": "Ascending Track 174"
         },
         {
@@ -9670,7 +9670,7 @@
           "satellite": "Sentinel-1A",
           "track": "079",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20200301 - 20200218",
           "description": "Descending Track 079"
         },
         {
@@ -9680,7 +9680,7 @@
           "satellite": "Sentinel-1B",
           "track": "152",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20200229 - 20200223",
           "description": "Descending Track 152"
         }
       ],
@@ -9714,7 +9714,7 @@
           "satellite": "Sentinel-1B",
           "track": "020",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20200408 - 20200327",
           "description": "Ascending Track 020"
         },
         {
@@ -9724,7 +9724,7 @@
           "satellite": "Sentinel-1B",
           "track": "093",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20200401 - 20200326",
           "description": "Ascending Track 093"
         },
         {
@@ -9734,7 +9734,7 @@
           "satellite": "Sentinel-1A",
           "track": "071",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20200405 - 20200330",
           "description": "Descending Track 071"
         }
       ],
@@ -9768,7 +9768,7 @@
           "satellite": "Sentinel-1A",
           "track": "092",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20200418 - 20200406",
           "description": "Ascending Track 092"
         },
         {
@@ -9778,7 +9778,7 @@
           "satellite": "Sentinel-1A",
           "track": "165",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20200423 - 20200411",
           "description": "Ascending Track 165"
         },
         {
@@ -9788,7 +9788,7 @@
           "satellite": "Sentinel-1A",
           "track": "055",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20200416 - 20200404",
           "description": "Descending Track 055"
         },
         {
@@ -9798,7 +9798,7 @@
           "satellite": "Sentinel-1A",
           "track": "157",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20200423 - 20200411",
           "description": "Descending Track 157"
         }
       ],
@@ -9832,7 +9832,7 @@
           "satellite": "Sentinel-1B",
           "track": "068",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20200423 - 20200411",
           "description": "Ascending Track 068"
         },
         {
@@ -9842,7 +9842,7 @@
           "satellite": "Sentinel-1B",
           "track": "141",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20200428 - 20200416",
           "description": "Ascending Track 141"
         },
         {
@@ -9852,7 +9852,7 @@
           "satellite": "Sentinel-1A",
           "track": "046",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20200427 - 20200415",
           "description": "Descending Track 046"
         }
       ],
@@ -9886,7 +9886,7 @@
           "satellite": "Sentinel-1A",
           "track": "169",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20200506 - 20200424",
           "description": "Ascending Track 169"
         }
       ],
@@ -9920,7 +9920,7 @@
           "satellite": "Sentinel-1B",
           "track": "029",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20200502 - 20200426",
           "description": "Ascending Track 029"
         },
         {
@@ -9930,7 +9930,7 @@
           "satellite": "Sentinel-1B",
           "track": "102",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20200507 - 20200501",
           "description": "Ascending Track 102"
         },
         {
@@ -9940,7 +9940,7 @@
           "satellite": "Sentinel-1B",
           "track": "036",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20200503 - 20200427",
           "description": "Descending Track 036"
         },
         {
@@ -9950,7 +9950,7 @@
           "satellite": "Sentinel-1B",
           "track": "109",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20200508 - 20200502",
           "description": "Descending Track 109"
         }
       ],
@@ -9984,7 +9984,7 @@
           "satellite": "Sentinel-1B",
           "track": "064",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20200517 - 20200511",
           "description": "Ascending Track 064"
         },
         {
@@ -9994,7 +9994,7 @@
           "satellite": "Sentinel-1B",
           "track": "166",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20200524 - 20200512",
           "description": "Ascending Track 166"
         },
         {
@@ -10004,7 +10004,7 @@
           "satellite": "Sentinel-1B",
           "track": "071",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20200517 - 20200511",
           "description": "Descending Track 071"
         },
         {
@@ -10014,7 +10014,7 @@
           "satellite": "Sentinel-1A",
           "track": "144",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20200516 - 20200510",
           "description": "Descending Track 144"
         }
       ],
@@ -10048,7 +10048,7 @@
           "satellite": "Sentinel-1B",
           "track": "081",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20200530 - 20200524",
           "description": "Ascending Track 081"
         },
         {
@@ -10058,7 +10058,7 @@
           "satellite": "Sentinel-1B",
           "track": "059",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20200528 - 20200516",
           "description": "Descending Track 059"
         }
       ],
@@ -10092,7 +10092,7 @@
           "satellite": "Sentinel-1A",
           "track": "045",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20200626 - 20200614",
           "description": "Ascending Track 045"
         },
         {
@@ -10102,7 +10102,7 @@
           "satellite": "Sentinel-1B",
           "track": "118",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20200625 - 20200619",
           "description": "Ascending Track 118"
         },
         {
@@ -10112,7 +10112,7 @@
           "satellite": "Sentinel-1B",
           "track": "147",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20200627 - 20200621",
           "description": "Ascending Track 147"
         },
         {
@@ -10122,7 +10122,7 @@
           "satellite": "Sentinel-1A",
           "track": "009",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20200624 - 20200618",
           "description": "Descending Track 009"
         },
         {
@@ -10132,7 +10132,7 @@
           "satellite": "Sentinel-1B",
           "track": "111",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20200625 - 20200619",
           "description": "Descending Track 111"
         },
         {
@@ -10142,7 +10142,7 @@
           "satellite": "Sentinel-1A",
           "track": "155",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20200622 - 20200616",
           "description": "Descending Track 155"
         }
       ],
@@ -10176,7 +10176,7 @@
           "satellite": "Sentinel-1A",
           "track": "005",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20200624 - 20200618",
           "description": "Ascending Track 005"
         },
         {
@@ -10186,7 +10186,7 @@
           "satellite": "Sentinel-1B",
           "track": "107",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20200625 - 20200619",
           "description": "Ascending Track 107"
         },
         {
@@ -10196,7 +10196,7 @@
           "satellite": "Sentinel-1A",
           "track": "070",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20200628 - 20200622",
           "description": "Descending Track 070"
         },
         {
@@ -10206,7 +10206,7 @@
           "satellite": "Sentinel-1B",
           "track": "172",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20200629 - 20200623",
           "description": "Descending Track 172"
         }
       ],
@@ -10240,7 +10240,7 @@
           "satellite": "Sentinel-1A",
           "track": "085",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20200629 - 20200617",
           "description": "Ascending Track 085"
         },
         {
@@ -10250,7 +10250,7 @@
           "satellite": "Sentinel-1A",
           "track": "158",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20200704 - 20200622",
           "description": "Ascending Track 158"
         },
         {
@@ -10260,7 +10260,7 @@
           "satellite": "Sentinel-1B",
           "track": "092",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20200706 - 20200624",
           "description": "Descending Track 092"
         },
         {
@@ -10270,7 +10270,7 @@
           "satellite": "Sentinel-1B",
           "track": "165",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20200629 - 20200617",
           "description": "Descending Track 165"
         }
       ],
@@ -10304,7 +10304,7 @@
           "satellite": "Sentinel-1B",
           "track": "007",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20200724 - 20200712",
           "description": "Ascending Track 007"
         },
         {
@@ -10314,7 +10314,7 @@
           "satellite": "Sentinel-1A",
           "track": "073",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20200722 - 20200710",
           "description": "Descending Track 073"
         },
         {
@@ -10324,7 +10324,7 @@
           "satellite": "Sentinel-1A",
           "track": "102",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20200724 - 20200712",
           "description": "Descending Track 102"
         }
       ],
@@ -10358,7 +10358,7 @@
           "satellite": "Sentinel-1A",
           "track": "012",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20200730 - 20200718",
           "description": "Ascending Track 012"
         },
         {
@@ -10368,7 +10368,7 @@
           "satellite": "Sentinel-1A",
           "track": "114",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20200725 - 20200713",
           "description": "Ascending Track 114"
         },
         {
@@ -10378,7 +10378,7 @@
           "satellite": "Sentinel-1B",
           "track": "019",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20200725 - 20200713",
           "description": "Descending Track 019"
         },
         {
@@ -10388,7 +10388,7 @@
           "satellite": "Sentinel-1A",
           "track": "121",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20200726 - 20200714",
           "description": "Descending Track 121"
         }
       ],
@@ -10422,7 +10422,7 @@
           "satellite": "Sentinel-1A",
           "track": "073",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20200803 - 20200722",
           "description": "Descending Track 073"
         }
       ],
@@ -10456,7 +10456,7 @@
           "satellite": "Sentinel-1A",
           "track": "057",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20200814 - 20200802",
           "description": "Ascending Track 057"
         },
         {
@@ -10466,7 +10466,7 @@
           "satellite": "Sentinel-1B",
           "track": "006",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20200817 - 20200805",
           "description": "Descending Track 006"
         },
         {
@@ -10476,7 +10476,7 @@
           "satellite": "Sentinel-1B",
           "track": "108",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20200824 - 20200812",
           "description": "Descending Track 108"
         }
       ],
@@ -10510,7 +10510,7 @@
           "satellite": "Sentinel-1B",
           "track": "069",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20200821 - 20200815",
           "description": "Ascending Track 069"
         },
         {
@@ -10520,7 +10520,7 @@
           "satellite": "Sentinel-1B",
           "track": "171",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20200828 - 20200816",
           "description": "Ascending Track 171"
         },
         {
@@ -10530,7 +10530,7 @@
           "satellite": "Sentinel-1B",
           "track": "061",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20200820 - 20200814",
           "description": "Descending Track 061"
         },
         {
@@ -10540,7 +10540,7 @@
           "satellite": "Sentinel-1A",
           "track": "134",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20200819 - 20200807",
           "description": "Descending Track 134"
         }
       ],
@@ -10574,7 +10574,7 @@
           "satellite": "Sentinel-1A",
           "track": "092",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20200828 - 20200816",
           "description": "Ascending Track 092"
         },
         {
@@ -10584,7 +10584,7 @@
           "satellite": "Sentinel-1A",
           "track": "165",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20200902 - 20200821",
           "description": "Ascending Track 165"
         },
         {
@@ -10594,7 +10594,7 @@
           "satellite": "Sentinel-1A",
           "track": "084",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20200828 - 20200816",
           "description": "Descending Track 084"
         },
         {
@@ -10604,7 +10604,7 @@
           "satellite": "Sentinel-1A",
           "track": "157",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20200902 - 20200821",
           "description": "Descending Track 157"
         }
       ],
@@ -10638,7 +10638,7 @@
           "satellite": "Sentinel-1A",
           "track": "067",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20200827 - 20200815",
           "description": "Ascending Track 067"
         },
         {
@@ -10648,7 +10648,7 @@
           "satellite": "Sentinel-1A",
           "track": "016",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20200904 - 20200823",
           "description": "Descending Track 016"
         }
       ],
@@ -10682,7 +10682,7 @@
           "satellite": "Sentinel-1B",
           "track": "120",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20200905 - 20200824",
           "description": "Ascending Track 120"
         },
         {
@@ -10692,7 +10692,7 @@
           "satellite": "Sentinel-1B",
           "track": "156",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20200908 - 20200827",
           "description": "Descending Track 156"
         }
       ],
@@ -10726,7 +10726,7 @@
           "satellite": "Sentinel-1A",
           "track": "018",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20200916 - 20200904",
           "description": "Ascending Track 018"
         },
         {
@@ -10736,7 +10736,7 @@
           "satellite": "Sentinel-1B",
           "track": "120",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20200917 - 20200905",
           "description": "Ascending Track 120"
         },
         {
@@ -10746,7 +10746,7 @@
           "satellite": "Sentinel-1B",
           "track": "156",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20200908 - 20200827",
           "description": "Descending Track 156"
         }
       ],
@@ -10780,7 +10780,7 @@
           "satellite": "Sentinel-1A",
           "track": "081",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20200909 - 20200828",
           "description": "Ascending Track 081"
         },
         {
@@ -10790,7 +10790,7 @@
           "satellite": "Sentinel-1A",
           "track": "154",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20200914 - 20200902",
           "description": "Ascending Track 154"
         },
         {
@@ -10800,7 +10800,7 @@
           "satellite": "Sentinel-1B",
           "track": "059",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20200913 - 20200901",
           "description": "Descending Track 059"
         }
       ],
@@ -10834,7 +10834,7 @@
           "satellite": "Sentinel-1A",
           "track": "081",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20200909 - 20200903",
           "description": "Ascending Track 081"
         },
         {
@@ -10844,7 +10844,7 @@
           "satellite": "Sentinel-1A",
           "track": "154",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20200914 - 20200902",
           "description": "Ascending Track 154"
         },
         {
@@ -10854,7 +10854,7 @@
           "satellite": "Sentinel-1B",
           "track": "059",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20200913 - 20200901",
           "description": "Descending Track 059"
         }
       ],
@@ -10888,7 +10888,7 @@
           "satellite": "Sentinel-1B",
           "track": "068",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20200914 - 20200902",
           "description": "Ascending Track 068"
         },
         {
@@ -10898,7 +10898,7 @@
           "satellite": "Sentinel-1B",
           "track": "141",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20200919 - 20200907",
           "description": "Ascending Track 141"
         },
         {
@@ -10908,7 +10908,7 @@
           "satellite": "Sentinel-1A",
           "track": "046",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20200918 - 20200906",
           "description": "Descending Track 046"
         }
       ],
@@ -10942,7 +10942,7 @@
           "satellite": "Sentinel-1B",
           "track": "153",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20201107 - 20201014",
           "description": "Ascending Track 153"
         },
         {
@@ -10952,7 +10952,7 @@
           "satellite": "Sentinel-1A",
           "track": "073",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20201026 - 20201014",
           "description": "Descending Track 073"
         },
         {
@@ -10962,7 +10962,7 @@
           "satellite": "Sentinel-1A",
           "track": "102",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20201028 - 20201016",
           "description": "Descending Track 102"
         }
       ],
@@ -10996,7 +10996,7 @@
           "satellite": "Sentinel-1A",
           "track": "029",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20201104 - 20201029",
           "description": "Ascending Track 029"
         },
         {
@@ -11006,7 +11006,7 @@
           "satellite": "Sentinel-1A",
           "track": "131",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20201030 - 20201024",
           "description": "Ascending Track 131"
         },
         {
@@ -11016,7 +11016,7 @@
           "satellite": "Sentinel-1A",
           "track": "036",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20201105 - 20201030",
           "description": "Descending Track 036"
         },
         {
@@ -11026,7 +11026,7 @@
           "satellite": "Sentinel-1B",
           "track": "109",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20201104 - 20201029",
           "description": "Descending Track 109"
         }
       ],
@@ -11060,7 +11060,7 @@
           "satellite": "Sentinel-1B",
           "track": "156",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20201201 - 20201119",
           "description": "Descending Track 156"
         }
       ],
@@ -11094,7 +11094,7 @@
           "satellite": "Sentinel-1B",
           "track": "069",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20201219 - 20201207",
           "description": "Ascending Track 069"
         },
         {
@@ -11104,7 +11104,7 @@
           "satellite": "Sentinel-1B",
           "track": "171",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20201226 - 20201214",
           "description": "Ascending Track 171"
         },
         {
@@ -11114,7 +11114,7 @@
           "satellite": "Sentinel-1A",
           "track": "163",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20201219 - 20201207",
           "description": "Descending Track 163"
         }
       ],
@@ -11148,7 +11148,7 @@
           "satellite": "Sentinel-1B",
           "track": "068",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20201231 - 20201219",
           "description": "Ascending Track 068"
         },
         {
@@ -11158,7 +11158,7 @@
           "satellite": "Sentinel-1A",
           "track": "046",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20201223 - 20201211",
           "description": "Descending Track 046"
         },
         {
@@ -11168,7 +11168,7 @@
           "satellite": "Sentinel-1A",
           "track": "148",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20201230 - 20201218",
           "description": "Descending Track 148"
         }
       ],
@@ -11202,7 +11202,7 @@
           "satellite": "Sentinel-1A",
           "track": "164",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20201231 - 20201225",
           "description": "Ascending Track 164"
         }
       ],
@@ -11236,7 +11236,7 @@
           "satellite": "Sentinel-1B",
           "track": "073",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20201231 - 20201225",
           "description": "Ascending Track 073"
         },
         {
@@ -11246,7 +11246,7 @@
           "satellite": "Sentinel-1A",
           "track": "146",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20201230 - 20201224",
           "description": "Ascending Track 146"
         }
       ],
@@ -11280,7 +11280,7 @@
           "satellite": "Sentinel-1B",
           "track": "004",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20210119 - 20210107",
           "description": "Descending Track 004"
         },
         {
@@ -11290,7 +11290,7 @@
           "satellite": "Sentinel-1B",
           "track": "077",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20210112 - 20201231",
           "description": "Descending Track 077"
         },
         {
@@ -11300,7 +11300,7 @@
           "satellite": "Sentinel-1B",
           "track": "106",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20210114 - 20210102",
           "description": "Descending Track 106"
         }
       ],
@@ -11334,7 +11334,7 @@
           "satellite": "Sentinel-1B",
           "track": "010",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20210120 - 20210114",
           "description": "Ascending Track 010"
         },
         {
@@ -11344,7 +11344,7 @@
           "satellite": "Sentinel-1B",
           "track": "112",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20210115 - 20210109",
           "description": "Ascending Track 112"
         },
         {
@@ -11354,7 +11354,7 @@
           "satellite": "Sentinel-1A",
           "track": "032",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20210115 - 20210103",
           "description": "Descending Track 032"
         },
         {
@@ -11364,7 +11364,7 @@
           "satellite": "Sentinel-1B",
           "track": "134",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20210116 - 20210110",
           "description": "Descending Track 134"
         }
       ],
@@ -11398,7 +11398,7 @@
           "satellite": "Sentinel-1B",
           "track": "047",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20210122 - 20210110",
           "description": "Ascending Track 047"
         },
         {
@@ -11408,7 +11408,7 @@
           "satellite": "Sentinel-1B",
           "track": "120",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20210208 - 20210115",
           "description": "Ascending Track 120"
         },
         {
@@ -11418,7 +11418,7 @@
           "satellite": "Sentinel-1A",
           "track": "083",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20210119 - 20210113",
           "description": "Descending Track 083"
         }
       ],
@@ -11452,7 +11452,7 @@
           "satellite": "Sentinel-1B",
           "track": "069",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20210217 - 20210124",
           "description": "Ascending Track 069"
         },
         {
@@ -11462,7 +11462,7 @@
           "satellite": "Sentinel-1B",
           "track": "171",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20210212 - 20210131",
           "description": "Ascending Track 171"
         },
         {
@@ -11472,7 +11472,7 @@
           "satellite": "Sentinel-1A",
           "track": "061",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20210210 - 20210129",
           "description": "Descending Track 061"
         },
         {
@@ -11482,7 +11482,7 @@
           "satellite": "Sentinel-1A",
           "track": "163",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20210217 - 20210205",
           "description": "Descending Track 163"
         }
       ],
@@ -11516,7 +11516,7 @@
           "satellite": "Sentinel-1B",
           "track": "102",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20210303 - 20210225",
           "description": "Ascending Track 102"
         },
         {
@@ -11526,7 +11526,7 @@
           "satellite": "Sentinel-1B",
           "track": "175",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20210308 - 20210302",
           "description": "Ascending Track 175"
         },
         {
@@ -11536,7 +11536,7 @@
           "satellite": "Sentinel-1B",
           "track": "007",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20210309 - 20210303",
           "description": "Descending Track 007"
         },
         {
@@ -11546,7 +11546,7 @@
           "satellite": "Sentinel-1A",
           "track": "080",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20210308 - 20210302",
           "description": "Descending Track 080"
         }
       ],
@@ -11580,7 +11580,7 @@
           "satellite": "Sentinel-1B",
           "track": "008",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20210309 - 20210225",
           "description": "Ascending Track 008"
         },
         {
@@ -11590,7 +11590,7 @@
           "satellite": "Sentinel-1A",
           "track": "175",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20210314 - 20210302",
           "description": "Descending Track 175"
         }
       ],
@@ -11624,7 +11624,7 @@
           "satellite": "Sentinel-1A",
           "track": "059",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20210318 - 20210312",
           "description": "Ascending Track 059"
         },
         {
@@ -11634,7 +11634,7 @@
           "satellite": "Sentinel-1B",
           "track": "132",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20210329 - 20210317",
           "description": "Ascending Track 132"
         },
         {
@@ -11644,7 +11644,7 @@
           "satellite": "Sentinel-1A",
           "track": "066",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20210319 - 20210313",
           "description": "Descending Track 066"
         },
         {
@@ -11654,7 +11654,7 @@
           "satellite": "Sentinel-1B",
           "track": "139",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20210318 - 20210312",
           "description": "Descending Track 139"
         }
       ],
@@ -11688,7 +11688,7 @@
           "satellite": "Sentinel-1A",
           "track": "111",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20210509 - 20210415",
           "description": "Ascending Track 111"
         },
         {
@@ -11698,7 +11698,7 @@
           "satellite": "Sentinel-1A",
           "track": "060",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20210505 - 20210411",
           "description": "Descending Track 060"
         },
         {
@@ -11708,7 +11708,7 @@
           "satellite": "Sentinel-1A",
           "track": "133",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20210428 - 20210416",
           "description": "Descending Track 133"
         }
       ],
@@ -11742,7 +11742,7 @@
           "satellite": "Sentinel-1A",
           "track": "041",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20210504 - 20210422",
           "description": "Ascending Track 041"
         },
         {
@@ -11752,7 +11752,7 @@
           "satellite": "Sentinel-1A",
           "track": "143",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20210429 - 20210417",
           "description": "Ascending Track 143"
         },
         {
@@ -11762,7 +11762,7 @@
           "satellite": "Sentinel-1A",
           "track": "077",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20210506 - 20210424",
           "description": "Descending Track 077"
         }
       ],
@@ -11796,7 +11796,7 @@
           "satellite": "Sentinel-1A",
           "track": "063",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20210518 - 20210506",
           "description": "Ascending Track 063"
         },
         {
@@ -11806,7 +11806,7 @@
           "satellite": "Sentinel-1B",
           "track": "136",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20210517 - 20210511",
           "description": "Ascending Track 136"
         },
         {
@@ -11816,7 +11816,7 @@
           "satellite": "Sentinel-1A",
           "track": "026",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20210515 - 20210509",
           "description": "Descending Track 026"
         },
         {
@@ -11826,7 +11826,7 @@
           "satellite": "Sentinel-1A",
           "track": "128",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20210603 - 20210510",
           "description": "Descending Track 128"
         }
       ],
@@ -11860,7 +11860,7 @@
           "satellite": "Sentinel-1B",
           "track": "068",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20210524 - 20210512",
           "description": "Ascending Track 068"
         },
         {
@@ -11870,7 +11870,7 @@
           "satellite": "Sentinel-1B",
           "track": "141",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20210517 - 20210505",
           "description": "Ascending Track 141"
         },
         {
@@ -11880,7 +11880,7 @@
           "satellite": "Sentinel-1A",
           "track": "046",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20210516 - 20210504",
           "description": "Descending Track 046"
         }
       ],
@@ -11914,7 +11914,7 @@
           "satellite": "Sentinel-1A",
           "track": "099",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20210601 - 20210520",
           "description": "Ascending Track 099"
         },
         {
@@ -11924,7 +11924,7 @@
           "satellite": "Sentinel-1A",
           "track": "172",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20210525 - 20210513",
           "description": "Ascending Track 172"
         },
         {
@@ -11934,7 +11934,7 @@
           "satellite": "Sentinel-1A",
           "track": "033",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20210527 - 20210515",
           "description": "Descending Track 033"
         },
         {
@@ -11944,7 +11944,7 @@
           "satellite": "Sentinel-1A",
           "track": "135",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20210522 - 20210510",
           "description": "Descending Track 135"
         }
       ],
@@ -11978,7 +11978,7 @@
           "satellite": "Sentinel-1A",
           "track": "026",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20210527 - 20210515",
           "description": "Ascending Track 026"
         },
         {
@@ -11988,7 +11988,7 @@
           "satellite": "Sentinel-1B",
           "track": "099",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20210526 - 20210520",
           "description": "Ascending Track 099"
         },
         {
@@ -11998,7 +11998,7 @@
           "satellite": "Sentinel-1A",
           "track": "172",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20210525 - 20210513",
           "description": "Ascending Track 172"
         },
         {
@@ -12008,7 +12008,7 @@
           "satellite": "Sentinel-1A",
           "track": "004",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20210525 - 20210513",
           "description": "Descending Track 004"
         },
         {
@@ -12018,7 +12018,7 @@
           "satellite": "Sentinel-1A",
           "track": "033",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20210527 - 20210515",
           "description": "Descending Track 033"
         },
         {
@@ -12028,7 +12028,7 @@
           "satellite": "Sentinel-1A",
           "track": "106",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20210601 - 20210520",
           "description": "Descending Track 106"
         }
       ],
@@ -12062,7 +12062,7 @@
           "satellite": "Sentinel-1B",
           "track": "156",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20210705 - 20210623",
           "description": "Descending Track 156"
         }
       ],
@@ -12096,7 +12096,7 @@
           "satellite": "Sentinel-1B",
           "track": "064",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20210711 - 20210705",
           "description": "Ascending Track 064"
         },
         {
@@ -12106,7 +12106,7 @@
           "satellite": "Sentinel-1A",
           "track": "137",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20210710 - 20210628",
           "description": "Ascending Track 137"
         },
         {
@@ -12116,7 +12116,7 @@
           "satellite": "Sentinel-1B",
           "track": "042",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20210709 - 20210703",
           "description": "Descending Track 042"
         },
         {
@@ -12126,7 +12126,7 @@
           "satellite": "Sentinel-1A",
           "track": "144",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20210710 - 20210704",
           "description": "Descending Track 144"
         }
       ],
@@ -12160,7 +12160,7 @@
           "satellite": "Sentinel-1A",
           "track": "092",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20210730 - 20210718",
           "description": "Ascending Track 092"
         },
         {
@@ -12170,7 +12170,7 @@
           "satellite": "Sentinel-1A",
           "track": "011",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20210725 - 20210713",
           "description": "Descending Track 011"
         },
         {
@@ -12180,7 +12180,7 @@
           "satellite": "Sentinel-1A",
           "track": "084",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20210730 - 20210718",
           "description": "Descending Track 084"
         }
       ],
@@ -12214,7 +12214,7 @@
           "satellite": "Sentinel-1B",
           "track": "039",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20210802 - 20210721",
           "description": "Ascending Track 039"
         },
         {
@@ -12224,7 +12224,7 @@
           "satellite": "Sentinel-1A",
           "track": "061",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20210728 - 20210716",
           "description": "Descending Track 061"
         }
       ],
@@ -12258,7 +12258,7 @@
           "satellite": "Sentinel-1A",
           "track": "024",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20210807 - 20210726",
           "description": "Ascending Track 024"
         },
         {
@@ -12268,7 +12268,7 @@
           "satellite": "Sentinel-1A",
           "track": "126",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20210802 - 20210721",
           "description": "Ascending Track 126"
         },
         {
@@ -12278,7 +12278,7 @@
           "satellite": "Sentinel-1A",
           "track": "075",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20210810 - 20210729",
           "description": "Descending Track 075"
         },
         {
@@ -12288,7 +12288,7 @@
           "satellite": "Sentinel-1A",
           "track": "148",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20210803 - 20210722",
           "description": "Descending Track 148"
         }
       ],
@@ -12322,7 +12322,7 @@
           "satellite": "Sentinel-1A",
           "track": "004",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20210817 - 20210805",
           "description": "Ascending Track 004"
         },
         {
@@ -12332,7 +12332,7 @@
           "satellite": "Sentinel-1A",
           "track": "077",
           "orbit_direction": "ascending",
-          "date_range": null,
+          "date_range": "20210822 - 20210810",
           "description": "Ascending Track 077"
         },
         {
@@ -12342,7 +12342,7 @@
           "satellite": "Sentinel-1A",
           "track": "142",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20210815 - 20210803",
           "description": "Descending Track 142"
         }
       ],
@@ -12364,11 +12364,21 @@
       },
       "bounds": {
         "lon_min": -101.966804729,
-        "lon_max": -99.251802557,
-        "lat_min": 16.689125929,
+        "lon_max": -97.345413743,
+        "lat_min": 15.029680157,
         "lat_max": 18.536349629
       },
       "datasets": [
+        {
+          "dataset_id": "m_70_acapulco_mexico-A078",
+          "name": "Ascending Track 078",
+          "url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_70_acapulco_mexico/S1-COSEIS_SAR-A-R-078-tops-20210910_20210904-004737-00101W_00015N-PP-71ad-v1_0_0/S1-COSEIS_SAR-A-R-078-tops-20210910_20210904-004737-00101W_00015N-PP-71ad-v1_0_0.nc",
+          "satellite": "Sentinel-1B",
+          "track": "078",
+          "orbit_direction": "ascending",
+          "date_range": "20210910 - 20210904",
+          "description": "Ascending Track 078"
+        },
         {
           "dataset_id": "m_70_acapulco_mexico-D041",
           "name": "Descending Track 041",
@@ -12376,8 +12386,18 @@
           "satellite": "Sentinel-1A",
           "track": "041",
           "orbit_direction": "descending",
-          "date_range": null,
+          "date_range": "20210913 - 20210907",
           "description": "Descending Track 041"
+        },
+        {
+          "dataset_id": "m_70_acapulco_mexico-D143",
+          "name": "Descending Track 143",
+          "url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_70_acapulco_mexico/S1-COSEIS_SAR-D-R-143-tops-20210908_20210902-122705-00100W_00016N-PP-b2cc-v1_0_0/S1-COSEIS_SAR-D-R-143-tops-20210908_20210902-122705-00100W_00016N-PP-b2cc-v1_0_0.nc",
+          "satellite": "Sentinel-1A",
+          "track": "143",
+          "orbit_direction": "descending",
+          "date_range": "20210908 - 20210902",
+          "description": "Descending Track 143"
         }
       ],
       "metadata": {
@@ -12385,8 +12405,42 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000f93v"
       },
       "has_model": false
+    },
+    {
+      "event_id": "us7000fd4k",
+      "name": "2021 M 6.4 - 73 km W of Talcahuano, Chile",
+      "magnitude": 6.4,
+      "date": "2021-09-21",
+      "location": "M 6.4 - 73 km W of Talcahuano, Chile",
+      "epicenter": {
+        "lat": -36.7771,
+        "lon": -73.9329
+      },
+      "bounds": {
+        "lon_min": -74.937461861,
+        "lon_max": -70.871625275,
+        "lat_min": -38.83087608699999,
+        "lat_max": -35.102539771
+      },
+      "datasets": [
+        {
+          "dataset_id": "m_64_73_km_w_of_talcahuano_chile-D156",
+          "name": "Descending Track 156",
+          "url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_64_73_km_w_of_talcahuano_chile/S1-COSEIS_SAR-D-R-156-tops-20210927_20210915-100459-00075W_00039S-PP-050a-v1_0_0/S1-COSEIS_SAR-D-R-156-tops-20210927_20210915-100459-00075W_00039S-PP-050a-v1_0_0.nc",
+          "satellite": "Sentinel-1B",
+          "track": "156",
+          "orbit_direction": "descending",
+          "date_range": "20210927 - 20210915",
+          "description": "Descending Track 156"
+        }
+      ],
+      "metadata": {
+        "depth_km": 18.8,
+        "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fd4k"
+      },
+      "has_model": false
     }
   ],
-  "total_events": 229,
-  "total_datasets": 689
+  "total_events": 230,
+  "total_datasets": 692
 }
