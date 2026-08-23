@@ -1123,7 +1123,7 @@
                     const option = document.createElement('option');
                     option.value = event.event_id;
                     option.textContent = event.depth_km != null
-                        ? `${event.name} (${event.depth_km} km depth)`
+                        ? `${event.name} (D=${event.depth_km}km)`
                         : event.name;
                     if (event.event_id === currentEventId) {
                         option.selected = true;
