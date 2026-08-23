@@ -1104,7 +1104,8 @@
                 }
                 const events = fullCatalog.events
                     .map(e => ({
-                        event_id: e.event_id, name: e.name, magnitude: e.magnitude, date: e.date
+                        event_id: e.event_id, name: e.name, date: e.date,
+                        depth_km: e.metadata ? e.metadata.depth_km : null
                     }))
                     .sort((a, b) => (b.date || '').localeCompare(a.date || ''));
 
@@ -1121,7 +1122,9 @@
                 events.forEach(event => {
                     const option = document.createElement('option');
                     option.value = event.event_id;
-                    option.textContent = `${event.name} (M${event.magnitude})`;
+                    option.textContent = event.depth_km != null
+                        ? `${event.name} (${event.depth_km} km depth)`
+                        : event.name;
                     if (event.event_id === currentEventId) {
                         option.selected = true;
                     }
