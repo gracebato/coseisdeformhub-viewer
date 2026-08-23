@@ -1073,7 +1073,7 @@
 
         // Show state when "All Earthquake Events" is selected
         function showAllEventsState() {
-            setUSGSLayerEnabled(true);
+            setUSGSVisible(true);
 
             // Clear event info
             document.getElementById('event-info').innerHTML = `
@@ -1148,7 +1148,7 @@
                 return;
             }
 
-            setUSGSLayerEnabled(false);
+            setUSGSVisible(false);
 
             try {
                 currentEvent = fullCatalog.events.find(e => e.event_id === currentEventId);
@@ -1453,17 +1453,14 @@
         }
 
         // USGS earthquakes only make sense in the global "Latest Large and
-        // Shallow Earthquake Events" view -- disable the layer (and its
-        // toggle) whenever a specific event is selected instead.
-        function setUSGSLayerEnabled(enabled) {
+        // Shallow Earthquake Events" view -- auto-uncheck (and hide) the
+        // layer when a specific event is selected, and restore it when
+        // returning to the global view. The checkbox itself stays
+        // interactive throughout, so the user can still override it.
+        function setUSGSVisible(visible) {
             const toggle = document.getElementById('usgs-toggle');
-            toggle.disabled = !enabled;
-
-            const layer = map.getLayer('usgs-earthquakes-circles');
-            if (layer) {
-                const visible = enabled && toggle.checked;
-                map.setLayoutProperty('usgs-earthquakes-circles', 'visibility', visible ? 'visible' : 'none');
-            }
+            toggle.checked = visible;
+            toggleUSGSEarthquakes();
         }
 
         // Refresh data
