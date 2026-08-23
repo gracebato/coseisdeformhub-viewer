@@ -1290,6 +1290,12 @@
                     <span class="info-label">Magnitude</span>
                     <span class="info-value">M${currentEvent.magnitude}</span>
                 </div>
+                ${currentEvent.metadata && currentEvent.metadata.depth_km != null ? `
+                <div class="info-row">
+                    <span class="info-label">Depth</span>
+                    <span class="info-value">${currentEvent.metadata.depth_km} km</span>
+                </div>
+                ` : ''}
                 <div class="info-row">
                     <span class="info-label">Date</span>
                     <span class="info-value">${currentEvent.date}</span>
