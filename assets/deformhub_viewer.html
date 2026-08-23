@@ -351,6 +351,57 @@
             gap: 6px;
         }
 
+        /* USGS earthquakes legend */
+        .map-legend {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 10;
+            background: var(--panel);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-lg);
+            padding: 10px 12px;
+            font-size: 11px;
+            color: var(--text);
+        }
+
+        .map-legend-title {
+            font-weight: 600;
+            margin-bottom: 6px;
+        }
+
+        .map-legend-row {
+            display: flex;
+            align-items: flex-end;
+            gap: 5px;
+            margin-bottom: 4px;
+        }
+
+        .map-legend-row:last-child {
+            margin-bottom: 0;
+        }
+
+        .map-legend-dot {
+            background: #ffffff;
+            border: 1px solid #212529;
+            border-radius: 50%;
+            flex-shrink: 0;
+        }
+
+        .map-legend-swatch {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            flex-shrink: 0;
+        }
+
+        .map-legend-caption {
+            color: var(--text-muted);
+            margin-left: 4px;
+        }
+
         .map-control-btn {
             display: flex;
             align-items: center;
@@ -793,6 +844,23 @@
             <!-- Map -->
             <div class="map-wrapper">
                 <div id="map"></div>
+                <div class="map-legend" id="usgs-legend">
+                    <div class="map-legend-title">USGS Earthquakes</div>
+                    <div class="map-legend-row">
+                        <span class="map-legend-dot" style="width: 6px; height: 6px;"></span>
+                        <span class="map-legend-dot" style="width: 12px; height: 12px;"></span>
+                        <span class="map-legend-dot" style="width: 22px; height: 22px;"></span>
+                        <span class="map-legend-caption">Magnitude (M4&ndash;M8+)</span>
+                    </div>
+                    <div class="map-legend-row">
+                        <span class="map-legend-swatch" style="background: #00e600;"></span>
+                        <span class="map-legend-swatch" style="background: #ffff00;"></span>
+                        <span class="map-legend-swatch" style="background: #ff9900;"></span>
+                        <span class="map-legend-swatch" style="background: #ff0000;"></span>
+                        <span class="map-legend-swatch" style="background: #888888;"></span>
+                        <span class="map-legend-caption">PAGER Alert</span>
+                    </div>
+                </div>
                 <div class="map-controls">
                     <div class="basemap-selector">
                         <button class="basemap-option" data-basemap="light" onclick="setBasemap('light', this)">
@@ -1446,10 +1514,14 @@
         // Toggle USGS earthquakes layer
         function toggleUSGSEarthquakes() {
             const toggle = document.getElementById('usgs-toggle');
+            const visible = toggle.checked;
+
             const layer = map.getLayer('usgs-earthquakes-circles');
             if (layer) {
-                map.setLayoutProperty('usgs-earthquakes-circles', 'visibility', toggle.checked ? 'visible' : 'none');
+                map.setLayoutProperty('usgs-earthquakes-circles', 'visibility', visible ? 'visible' : 'none');
             }
+
+            document.getElementById('usgs-legend').style.display = visible ? 'block' : 'none';
         }
 
         // USGS earthquakes only make sense in the global "Latest Large and
@@ -1697,9 +1769,8 @@
                     usgsLayerInitialized = true;
                 }
 
-                // Apply visibility based on toggle
-                const toggle = document.getElementById('usgs-toggle');
-                map.setLayoutProperty('usgs-earthquakes-circles', 'visibility', toggle.checked ? 'visible' : 'none');
+                // Apply visibility (and legend) based on toggle
+                toggleUSGSEarthquakes();
 
                 const bufferKm = parseInt(document.getElementById('buffer-slider').value);
                 console.log(`Loaded ${data.features.length} USGS earthquakes (M>=${minMag}, depth<=${maxDepth}km, ${startYear}-present${landBufferEnabled ? `, <${bufferKm}km from land` : ''})`);
