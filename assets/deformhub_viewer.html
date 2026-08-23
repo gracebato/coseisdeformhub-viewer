@@ -734,7 +734,7 @@
                             <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                 <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/>
                             </svg>
-                            Download Dataset
+                            Download COSEIS Data
                         </button>
                     </div>
                 </div>
@@ -825,13 +825,6 @@
                     </div>
                     <div class="section-body">
                         <div class="btn-group">
-                            <button class="btn" onclick="refreshData()">
-                                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M23 4v6h-6M1 20v-6h6"/>
-                                    <path d="M3.51 9a9 9 0 0114.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0020.49 15"/>
-                                </svg>
-                                Refresh Data
-                            </button>
                             <a class="btn" href="https://aria.caltech.edu/" target="_blank" rel="noopener noreferrer">
                                 <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                     <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/>
@@ -1217,9 +1210,10 @@
             const select = document.getElementById('event-select');
             currentEventId = select.value;
 
-            // If "All Earthquake Events" is selected, show global view
+            // If "Latest Large and Shallow Earthquake Events" is selected,
+            // reload to revert everything (including USGS filters) to default.
             if (!currentEventId) {
-                showAllEventsState();
+                location.reload();
                 return;
             }
 
@@ -1540,11 +1534,6 @@
             const toggle = document.getElementById('usgs-toggle');
             toggle.checked = visible;
             toggleUSGSEarthquakes();
-        }
-
-        // Refresh data
-        function refreshData() {
-            location.reload();
         }
 
         // Download the source dataset (NetCDF product)
