@@ -783,6 +783,13 @@
                             </select>
                         </div>
                         <div class="form-group">
+                            <label class="form-label">Custom Date Range</label>
+                            <div style="display: flex; gap: 6px;">
+                                <input type="date" id="start-date" style="width: 50%;" onchange="onUSGSDateRangeChange()">
+                                <input type="date" id="end-date" style="width: 50%;" onchange="onUSGSDateRangeChange()">
+                            </div>
+                        </div>
+                        <div class="form-group">
                             <label class="map-control-btn" style="width: 100%; justify-content: flex-start;">
                                 <input type="checkbox" id="land-buffer-toggle" checked onchange="updateUSGSFilters()">
                                 <span>Near land only</span>
@@ -1621,14 +1628,30 @@
             return filtered;
         }
 
+        // A custom start/end date range takes over from the Start Year dropdown
+        // once both fields are filled in; clearing either one hands control
+        // back to Start Year.
+        function onUSGSDateRangeChange() {
+            const startDateInput = document.getElementById('start-date').value;
+            const endDateInput = document.getElementById('end-date').value;
+            const useCustomRange = !!(startDateInput && endDateInput);
+
+            document.getElementById('year-select').disabled = useCustomRange;
+            updateUSGSFilters();
+        }
+
         async function loadUSGSEarthquakes() {
             const minMag = parseFloat(document.getElementById('mag-slider').value);
             const maxDepth = parseInt(document.getElementById('depth-slider').value);
             const startYear = document.getElementById('year-select').value;
             const landBufferEnabled = document.getElementById('land-buffer-toggle').checked;
 
-            const startDate = `${startYear}-01-01`;
-            const endDate = new Date().toISOString().split('T')[0];
+            const startDateInput = document.getElementById('start-date').value;
+            const endDateInput = document.getElementById('end-date').value;
+            const useCustomRange = !!(startDateInput && endDateInput);
+
+            const startDate = useCustomRange ? startDateInput : `${startYear}-01-01`;
+            const endDate = useCustomRange ? endDateInput : new Date().toISOString().split('T')[0];
 
             // Show loading indicator
             document.getElementById('usgs-loading').style.display = 'flex';
@@ -1773,7 +1796,7 @@
                 toggleUSGSEarthquakes();
 
                 const bufferKm = parseInt(document.getElementById('buffer-slider').value);
-                console.log(`Loaded ${data.features.length} USGS earthquakes (M>=${minMag}, depth<=${maxDepth}km, ${startYear}-present${landBufferEnabled ? `, <${bufferKm}km from land` : ''})`);
+                console.log(`Loaded ${data.features.length} USGS earthquakes (M>=${minMag}, depth<=${maxDepth}km, ${startDate} to ${endDate}${landBufferEnabled ? `, <${bufferKm}km from land` : ''})`);
             } catch (error) {
                 console.error('Error loading USGS earthquakes:', error);
             } finally {
