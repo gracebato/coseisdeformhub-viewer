@@ -1034,9 +1034,11 @@
                     const response = await fetch(DEFORMHUB_CONFIG.catalogUrl);
                     fullCatalog = await response.json();
                 }
-                const events = fullCatalog.events.map(e => ({
-                    event_id: e.event_id, name: e.name, magnitude: e.magnitude
-                }));
+                const events = fullCatalog.events
+                    .map(e => ({
+                        event_id: e.event_id, name: e.name, magnitude: e.magnitude, date: e.date
+                    }))
+                    .sort((a, b) => (b.date || '').localeCompare(a.date || ''));
 
                 const select = document.getElementById('event-select');
                 select.innerHTML = '';
