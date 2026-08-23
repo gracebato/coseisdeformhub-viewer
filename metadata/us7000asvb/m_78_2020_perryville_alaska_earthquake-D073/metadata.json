@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000asvb",
+  "job_id": "m_78_2020_perryville_alaska_earthquake-D073",
+  "event_title": "M 7.8 - 2020 Perryville, Alaska Earthquake",
+  "orbit": "descending",
+  "track": "073",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_78_2020_perryville_alaska_earthquake/S1-COSEIS_SAR-D-R-073-tops-20200722_20200710-170423-00164W_00053N-PP-3504-v1_0_0/S1-COSEIS_SAR-D-R-073-tops-20200722_20200710-170423-00164W_00053N-PP-3504-v1_0_0.nc",
+  "stats": {
+    "min": -0.308019757270813,
+    "max": 0.06370089203119278,
+    "mean": -0.04927528649568558,
+    "std": 0.04766305908560753
+  },
+  "bounds": {
+    "lon_min": -164.362638379,
+    "lon_max": -159.436523327,
+    "lat_min": 53.476902737,
+    "lat_max": 56.596905233
+  }
+}

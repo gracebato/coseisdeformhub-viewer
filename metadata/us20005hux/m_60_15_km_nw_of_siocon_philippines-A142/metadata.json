@@ -1,0 +1,20 @@
+{
+  "event_id": "us20005hux",
+  "job_id": "m_60_15_km_nw_of_siocon_philippines-A142",
+  "event_title": "M 6.0 - 15 km NW of Siocon, Philippines",
+  "orbit": "ascending",
+  "track": "142",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_60_15_km_nw_of_siocon_philippines/S1-COSEIS_SAR-A-R-142-tops-20160501_20160407-100447-00121E_00006N-PP-1463-v1_0_0/S1-COSEIS_SAR-A-R-142-tops-20160501_20160407-100447-00121E_00006N-PP-1463-v1_0_0.nc",
+  "stats": {
+    "min": -0.11011338233947754,
+    "max": 0.4572502672672272,
+    "mean": 0.18845441937446594,
+    "std": 0.21053794026374817
+  },
+  "bounds": {
+    "lon_min": 120.937361861,
+    "lon_max": 123.778753023,
+    "lat_min": 6.457179698999998,
+    "lat_max": 9.727737870999999
+  }
+}

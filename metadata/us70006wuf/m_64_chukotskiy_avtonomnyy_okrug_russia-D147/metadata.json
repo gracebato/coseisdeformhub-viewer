@@ -1,0 +1,20 @@
+{
+  "event_id": "us70006wuf",
+  "job_id": "m_64_chukotskiy_avtonomnyy_okrug_russia-D147",
+  "event_title": "M 6.4 - Chukotskiy Avtonomnyy Okrug, Russia",
+  "orbit": "descending",
+  "track": "147",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_64_chukotskiy_avtonomnyy_okrug_russia/S1-COSEIS_SAR-D-R-147-tops-20200117_20200105-184909-00171E_00062N-PP-ce8a-v1_0_0/S1-COSEIS_SAR-D-R-147-tops-20200117_20200105-184909-00171E_00062N-PP-ce8a-v1_0_0.nc",
+  "stats": {
+    "min": 0.0649198442697525,
+    "max": 0.19739101827144623,
+    "mean": 0.13452622294425964,
+    "std": 0.011452545411884785
+  },
+  "bounds": {
+    "lon_min": 171.236528767,
+    "lon_max": 176.83236657700002,
+    "lat_min": 61.623570321,
+    "lat_max": 63.448571781000005
+  }
+}

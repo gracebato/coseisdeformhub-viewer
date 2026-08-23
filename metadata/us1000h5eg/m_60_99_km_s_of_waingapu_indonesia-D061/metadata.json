@@ -1,0 +1,20 @@
+{
+  "event_id": "us1000h5eg",
+  "job_id": "m_60_99_km_s_of_waingapu_indonesia-D061",
+  "event_title": "M 6.0 - 99 km S of Waingapu, Indonesia",
+  "orbit": "descending",
+  "track": "061",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_60_99_km_s_of_waingapu_indonesia/S1-COSEIS_SAR-D-R-061-tops-20181012_20180930-213726-00118E_00012S-PP-ef4b-v1_0_0/S1-COSEIS_SAR-D-R-061-tops-20181012_20180930-213726-00118E_00012S-PP-ef4b-v1_0_0.nc",
+  "stats": {
+    "min": -0.11438611149787903,
+    "max": -0.00039238177123479545,
+    "mean": -0.05729018524289131,
+    "std": 0.008300536312162876
+  },
+  "bounds": {
+    "lon_min": 118.402639211,
+    "lon_max": 121.17375253899999,
+    "lat_min": -11.571668413000001,
+    "lat_max": -9.468611175000001
+  }
+}

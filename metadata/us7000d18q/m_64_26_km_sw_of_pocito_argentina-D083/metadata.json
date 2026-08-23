@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000d18q",
+  "job_id": "m_64_26_km_sw_of_pocito_argentina-D083",
+  "event_title": "M 6.4 - 26 km SW of Pocito, Argentina",
+  "orbit": "descending",
+  "track": "083",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_64_26_km_sw_of_pocito_argentina/S1-COSEIS_SAR-D-R-083-tops-20210119_20210113-095549-00071W_00033S-PP-68dd-v1_0_0/S1-COSEIS_SAR-D-R-083-tops-20210119_20210113-095549-00071W_00033S-PP-68dd-v1_0_0.nc",
+  "stats": {
+    "min": -0.2229802906513214,
+    "max": 0.007769275456666946,
+    "mean": -0.1203165277838707,
+    "std": 0.051810067147016525
+  },
+  "bounds": {
+    "lon_min": -70.767182347,
+    "lon_max": -67.524401975,
+    "lat_min": -33.022819085,
+    "lat_max": -30.988095235
+  }
+}

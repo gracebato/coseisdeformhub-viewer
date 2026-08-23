@@ -1,0 +1,20 @@
+{
+  "event_id": "us20009p1a",
+  "job_id": "m_68_28_km_sw_of_puerto_san_jose_guatemala-D026",
+  "event_title": "M 6.8 - 28 km SW of Puerto San Jos\u00e9, Guatemala",
+  "orbit": "descending",
+  "track": "026",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_68_28_km_sw_of_puerto_san_jose_guatemala/S1-COSEIS_SAR-D-R-026-tops-20170629_20170605-115426-00092W_00013N-PP-b241-v1_0_0/S1-COSEIS_SAR-D-R-026-tops-20170629_20170605-115426-00092W_00013N-PP-b241-v1_0_0.nc",
+  "stats": {
+    "min": -0.10143790394067764,
+    "max": 0.07805558294057846,
+    "mean": 0.006189790088683367,
+    "std": 0.02551122196018696
+  },
+  "bounds": {
+    "lon_min": -92.354405039,
+    "lon_max": -89.65245843299999,
+    "lat_min": 13.200792204999999,
+    "lat_max": 15.223016045
+  }
+}

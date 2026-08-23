@@ -1,0 +1,20 @@
+{
+  "event_id": "us10007e55",
+  "job_id": "m_62_22_km_sw_of_vilavila_peru-D127",
+  "event_title": "M 6.2 - 22 km SW of Vilavila, Peru",
+  "orbit": "descending",
+  "track": "127",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_62_22_km_sw_of_vilavila_peru/S1-COSEIS_SAR-D-R-127-tops-20161220_20161126-101452-00072W_00017S-PP-2ea2-v1_0_0/S1-COSEIS_SAR-D-R-127-tops-20161220_20161126-101452-00072W_00017S-PP-2ea2-v1_0_0.nc",
+  "stats": {
+    "min": -0.25376033782958984,
+    "max": 0.07013493031263351,
+    "mean": -0.03134133294224739,
+    "std": 0.02328113652765751
+  },
+  "bounds": {
+    "lon_min": -72.193571577,
+    "lon_max": -69.086624647,
+    "lat_min": -17.179208899,
+    "lat_max": -13.568650455
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "event_id": "usb000slwn",
+  "job_id": "m_73_74_km_s_of_intipuca_el_salvador-D055",
+  "event_title": "M 7.3 - 74 km S of Intipuc\u00e1, El Salvador",
+  "orbit": "descending",
+  "track": "055",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2014/m_73_74_km_s_of_intipuca_el_salvador/S1-COSEIS_SAR-D-R-055-tops-20141102_20141009-113806-00089W_00011N-PP-36b2-v1_0_0/S1-COSEIS_SAR-D-R-055-tops-20141102_20141009-113806-00089W_00011N-PP-36b2-v1_0_0.nc",
+  "stats": {
+    "min": -0.736312985420227,
+    "max": -0.3024584650993347,
+    "mean": -0.4034772217273712,
+    "std": 0.060803644359111786
+  },
+  "bounds": {
+    "lon_min": -88.66579417700001,
+    "lon_max": -85.61051395500002,
+    "lat_min": 11.016901568999998,
+    "lat_max": 14.708015632999999
+  }
+}

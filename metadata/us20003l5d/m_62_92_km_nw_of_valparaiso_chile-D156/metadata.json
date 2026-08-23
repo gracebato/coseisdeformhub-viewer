@@ -1,0 +1,20 @@
+{
+  "event_id": "us20003l5d",
+  "job_id": "m_62_92_km_nw_of_valparaiso_chile-D156",
+  "event_title": "M 6.2 - 92 km NW of Valpara\u00edso, Chile",
+  "orbit": "descending",
+  "track": "156",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_62_92_km_nw_of_valparaiso_chile/S1-COSEIS_SAR-D-R-156-tops-20151011_20150917-100352-00073W_00034S-PP-1552-v1_0_0/S1-COSEIS_SAR-D-R-156-tops-20151011_20150917-100352-00073W_00034S-PP-1552-v1_0_0.nc",
+  "stats": {
+    "min": -0.062314484268426895,
+    "max": 0.1388748586177826,
+    "mean": 0.044920142740011215,
+    "std": 0.030177263543009758
+  },
+  "bounds": {
+    "lon_min": -73.071072279,
+    "lon_max": -69.73412516500001,
+    "lat_min": -33.739763303000004,
+    "lat_max": -31.521983751
+  }
+}

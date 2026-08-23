@@ -1,0 +1,20 @@
+{
+  "event_id": "us700061e9",
+  "job_id": "m_65_2_km_ene_of_bulatukan_philippines-D061",
+  "event_title": "M 6.5 - 2 km ENE of Bulatukan, Philippines",
+  "orbit": "descending",
+  "track": "061",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_65_2_km_ene_of_bulatukan_philippines/S1-COSEIS_SAR-D-R-061-tops-20191031_20191019-213244-00122E_00005N-PP-196d-v1_0_0/S1-COSEIS_SAR-D-R-061-tops-20191031_20191019-213244-00122E_00005N-PP-196d-v1_0_0.nc",
+  "stats": {
+    "min": -0.04429046809673309,
+    "max": 0.11414679139852524,
+    "mean": 0.0262752752751112,
+    "std": 0.02902788482606411
+  },
+  "bounds": {
+    "lon_min": 122.053750843,
+    "lon_max": 124.988475413,
+    "lat_min": 5.1030127489999995,
+    "lat_max": 8.649126697
+  }
+}

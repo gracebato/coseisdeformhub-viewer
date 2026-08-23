@@ -1,0 +1,20 @@
+{
+  "event_id": "us100041t7",
+  "job_id": "m_62_65_km_n_of_taltal_chile-D156",
+  "event_title": "M 6.2 - 65 km N of Taltal, Chile",
+  "orbit": "descending",
+  "track": "156",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_62_65_km_n_of_taltal_chile/S1-COSEIS_SAR-D-R-156-tops-20151128_20151104-100153-00071W_00026S-PP-a4dd-v1_0_0/S1-COSEIS_SAR-D-R-156-tops-20151128_20151104-100153-00071W_00026S-PP-a4dd-v1_0_0.nc",
+  "stats": {
+    "min": -0.0311427004635334,
+    "max": 0.08032231777906418,
+    "mean": 0.019544154405593872,
+    "std": 0.016481705009937286
+  },
+  "bounds": {
+    "lon_min": -70.626627479,
+    "lon_max": -67.616347293,
+    "lat_min": -26.314763763000002,
+    "lat_max": -24.141150913
+  }
+}

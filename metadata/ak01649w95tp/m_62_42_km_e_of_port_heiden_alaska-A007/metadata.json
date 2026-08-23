@@ -1,0 +1,20 @@
+{
+  "event_id": "ak01649w95tp",
+  "job_id": "m_62_42_km_e_of_port_heiden_alaska-A007",
+  "event_title": "M 6.2 - 42 km E of Port Heiden, Alaska",
+  "orbit": "ascending",
+  "track": "007",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_62_42_km_e_of_port_heiden_alaska/S1-COSEIS_SAR-A-R-007-tops-20160410_20160317-040804-00159W_00056N-PP-ebe4-v1_0_0/S1-COSEIS_SAR-A-R-007-tops-20160410_20160317-040804-00159W_00056N-PP-ebe4-v1_0_0.nc",
+  "stats": {
+    "min": -0.22198572754859924,
+    "max": 0.12971146404743195,
+    "mean": -0.10312496870756149,
+    "std": 0.01933092251420021
+  },
+  "bounds": {
+    "lon_min": -158.667082267,
+    "lon_max": -153.88902288900002,
+    "lat_min": 55.983847587,
+    "lat_max": 58.180516011
+  }
+}

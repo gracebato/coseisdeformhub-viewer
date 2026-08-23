@@ -1,0 +1,20 @@
+{
+  "event_id": "us20007fta",
+  "job_id": "m_62_6_km_s_of_kurayoshi_japan-D090",
+  "event_title": "M 6.2 - 6 km S of Kurayoshi, Japan",
+  "orbit": "descending",
+  "track": "090",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_62_6_km_s_of_kurayoshi_japan/S1-COSEIS_SAR-D-R-090-tops-20161024_20160930-210810-00132E_00033N-PP-55f3-v1_0_0/S1-COSEIS_SAR-D-R-090-tops-20161024_20160930-210810-00132E_00033N-PP-55f3-v1_0_0.nc",
+  "stats": {
+    "min": -0.5782880187034607,
+    "max": -0.171733096241951,
+    "mean": -0.3668863773345947,
+    "std": 0.05926654860377312
+  },
+  "bounds": {
+    "lon_min": 131.665417199,
+    "lon_max": 135.214586705,
+    "lat_min": 33.250512867000005,
+    "lat_max": 36.885237997000004
+  }
+}

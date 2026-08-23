@@ -1,0 +1,20 @@
+{
+  "event_id": "us2000aert",
+  "job_id": "m_63_nuclear_explosion_21_km_ene_of_sngjibaegam_north_korea-D061",
+  "event_title": "M 6.3 Nuclear Explosion - 21 km ENE of S?ngjibaegam, North Korea",
+  "orbit": "descending",
+  "track": "061",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_63_nuclear_explosion_21_km_ene_of_sngjibaegam_north_korea/S1-COSEIS_SAR-D-R-061-tops-20170905_20170824-212217-00129E_00040N-PP-62d5-v1_0_0/S1-COSEIS_SAR-D-R-061-tops-20170905_20170824-212217-00129E_00040N-PP-62d5-v1_0_0.nc",
+  "stats": {
+    "min": -0.08685460686683655,
+    "max": 0.1582617610692978,
+    "mean": 0.029929039999842644,
+    "std": 0.040853507816791534
+  },
+  "bounds": {
+    "lon_min": 128.91152850699999,
+    "lon_max": 132.432642435,
+    "lat_min": 40.399125697,
+    "lat_max": 42.206627143000006
+  }
+}

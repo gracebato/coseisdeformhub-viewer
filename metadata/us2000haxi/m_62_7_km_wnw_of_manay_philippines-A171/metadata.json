@@ -1,0 +1,20 @@
+{
+  "event_id": "us2000haxi",
+  "job_id": "m_62_7_km_wnw_of_manay_philippines-A171",
+  "event_title": "M 6.2 - 7 km WNW of Manay, Philippines",
+  "orbit": "ascending",
+  "track": "171",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_62_7_km_wnw_of_manay_philippines/S1-COSEIS_SAR-A-R-171-tops-20180908_20180827-094737-00125E_00005N-PP-c293-v1_0_0/S1-COSEIS_SAR-A-R-171-tops-20180908_20180827-094737-00125E_00005N-PP-c293-v1_0_0.nc",
+  "stats": {
+    "min": -0.2550548017024994,
+    "max": -0.016106201335787773,
+    "mean": -0.1408228725194931,
+    "std": 0.041901346296072006
+  },
+  "bounds": {
+    "lon_min": 125.219862087,
+    "lon_max": 128.194308911,
+    "lat_min": 4.971068198999999,
+    "lat_max": 8.745515662999999
+  }
+}

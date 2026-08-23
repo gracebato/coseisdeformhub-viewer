@@ -1,0 +1,20 @@
+{
+  "event_id": "us1000778i",
+  "job_id": "m_78_53_km_nne_of_amberley_new_zealand-A081",
+  "event_title": "M 7.8 - 53 km NNE of Amberley, New Zealand",
+  "orbit": "ascending",
+  "track": "081",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_78_53_km_nne_of_amberley_new_zealand/S1-COSEIS_SAR-A-R-081-tops-20161123_20161105-070607-00175E_00042S-PP-7b2b-v1_0_0/S1-COSEIS_SAR-A-R-081-tops-20161123_20161105-070607-00175E_00042S-PP-7b2b-v1_0_0.nc",
+  "stats": {
+    "min": -0.10173164308071136,
+    "max": 0.059385593980550766,
+    "mean": -0.013187458738684654,
+    "std": 0.019853295758366585
+  },
+  "bounds": {
+    "lon_min": 174.672083871,
+    "lon_max": 178.279864535,
+    "lat_min": -41.796430814999994,
+    "lat_max": -39.32142883499999
+  }
+}

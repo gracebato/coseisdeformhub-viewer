@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000birm",
+  "job_id": "m_62_104_km_nw_of_portvila_vanuatu-D059",
+  "event_title": "M 6.2 - 104 km NW of Port-Vila, Vanuatu",
+  "orbit": "descending",
+  "track": "059",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_62_104_km_nw_of_portvila_vanuatu/S1-COSEIS_SAR-D-R-059-tops-20200913_20200901-182109-00166E_00018S-PP-f55c-v1_0_0/S1-COSEIS_SAR-D-R-059-tops-20200913_20200901-182109-00166E_00018S-PP-f55c-v1_0_0.nc",
+  "stats": {
+    "min": -0.688818097114563,
+    "max": -0.22953033447265625,
+    "mean": -0.42952799797058105,
+    "std": 0.08866128325462341
+  },
+  "bounds": {
+    "lon_min": 166.263750211,
+    "lon_max": 169.092919141,
+    "lat_min": -17.690041041,
+    "lat_max": -15.571428235
+  }
+}

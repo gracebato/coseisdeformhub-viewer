@@ -1,0 +1,20 @@
+{
+  "event_id": "us700038c1",
+  "job_id": "m_61_8_km_ne_of_hualien_city_taiwan-D105",
+  "event_title": "M 6.1 - 8 km NE of Hualien City, Taiwan",
+  "orbit": "descending",
+  "track": "105",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_61_8_km_ne_of_hualien_city_taiwan/S1-COSEIS_SAR-D-R-105-tops-20190419_20190413-215144-00119E_00023N-PP-cab2-v1_0_0/S1-COSEIS_SAR-D-R-105-tops-20190419_20190413-215144-00119E_00023N-PP-cab2-v1_0_0.nc",
+  "stats": {
+    "min": -0.8444284200668335,
+    "max": -0.3013869524002075,
+    "mean": -0.3881836533546448,
+    "std": 0.04982401058077812
+  },
+  "bounds": {
+    "lon_min": 119.350416947,
+    "lon_max": 122.379586037,
+    "lat_min": 22.921068959000003,
+    "lat_max": 25.583015533
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "event_id": "us70003a63",
+  "job_id": "m_61_3_km_wsw_of_san_francisco_philippines-D105",
+  "event_title": "M 6.1 - 3 km WSW of San Francisco, Philippines",
+  "orbit": "descending",
+  "track": "105",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_61_3_km_wsw_of_san_francisco_philippines/S1-COSEIS_SAR-D-R-105-tops-20190425_20190413-215500-00118E_00014N-PP-4806-v1_0_0/S1-COSEIS_SAR-D-R-105-tops-20190425_20190413-215500-00118E_00014N-PP-4806-v1_0_0.nc",
+  "stats": {
+    "min": -0.0814378634095192,
+    "max": 0.13468585908412933,
+    "mean": 0.02383926883339882,
+    "std": 0.021059159189462662
+  },
+  "bounds": {
+    "lon_min": 117.664583865,
+    "lon_max": 120.354586017,
+    "lat_min": 14.085792113,
+    "lat_max": 16.108293731
+  }
+}

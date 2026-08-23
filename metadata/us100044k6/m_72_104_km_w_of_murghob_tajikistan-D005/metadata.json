@@ -1,0 +1,20 @@
+{
+  "event_id": "us100044k6",
+  "job_id": "m_72_104_km_w_of_murghob_tajikistan-D005",
+  "event_title": "M 7.2 - 104 km W of Murghob, Tajikistan",
+  "orbit": "descending",
+  "track": "005",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_72_104_km_w_of_murghob_tajikistan/S1-COSEIS_SAR-D-R-005-tops-20151212_20151118-011403-00071E_00036N-PP-f0d5-v1_0_0/S1-COSEIS_SAR-D-R-005-tops-20151212_20151118-011403-00071E_00036N-PP-f0d5-v1_0_0.nc",
+  "stats": {
+    "min": -0.393900603055954,
+    "max": 0.30108559131622314,
+    "mean": -0.07083504647016525,
+    "std": 0.09499162435531616
+  },
+  "bounds": {
+    "lon_min": 70.56948378899999,
+    "lon_max": 74.22337560099999,
+    "lat_min": 36.422735227000004,
+    "lat_max": 39.891904669000006
+  }
+}

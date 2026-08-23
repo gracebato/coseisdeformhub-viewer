@@ -1,0 +1,20 @@
+{
+  "event_id": "us70007v9g",
+  "job_id": "m_60_37_km_ese_of_ozalp_turkey-A072",
+  "event_title": "M 6.0 - 37 km ESE of \u00d6zalp, Turkey",
+  "orbit": "ascending",
+  "track": "072",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_60_37_km_ese_of_ozalp_turkey/S1-COSEIS_SAR-A-R-072-tops-20200306_20200223-150050-00042E_00037N-PP-7ca8-v1_0_0/S1-COSEIS_SAR-A-R-072-tops-20200306_20200223-150050-00042E_00037N-PP-7ca8-v1_0_0.nc",
+  "stats": {
+    "min": -0.045275866985321045,
+    "max": 0.2645891010761261,
+    "mean": 0.06536254286766052,
+    "std": 0.022247914224863052
+  },
+  "bounds": {
+    "lon_min": 42.455039252999995,
+    "lon_max": 45.779208579,
+    "lat_min": 37.424703495,
+    "lat_max": 39.295816103
+  }
+}

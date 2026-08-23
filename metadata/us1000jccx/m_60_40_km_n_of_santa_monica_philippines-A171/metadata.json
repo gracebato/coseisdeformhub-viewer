@@ -1,0 +1,20 @@
+{
+  "event_id": "us1000jccx",
+  "job_id": "m_60_40_km_n_of_santa_monica_philippines-A171",
+  "event_title": "M 6.0 - 40 km N of Santa Monica, Philippines",
+  "orbit": "ascending",
+  "track": "171",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_60_40_km_n_of_santa_monica_philippines/S1-COSEIS_SAR-A-R-171-tops-20190319_20190307-094826-00125E_00008N-PP-1743-v1_0_0/S1-COSEIS_SAR-A-R-171-tops-20190319_20190307-094826-00125E_00008N-PP-1743-v1_0_0.nc",
+  "stats": {
+    "min": -0.12543801963329315,
+    "max": 0.21283823251724243,
+    "mean": 0.03592608869075775,
+    "std": 0.08428927510976791
+  },
+  "bounds": {
+    "lon_min": 124.60291714899999,
+    "lon_max": 127.55736395699999,
+    "lat_min": 8.308290691,
+    "lat_max": 11.740515659
+  }
+}

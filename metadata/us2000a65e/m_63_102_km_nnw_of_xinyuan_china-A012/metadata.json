@@ -1,0 +1,20 @@
+{
+  "event_id": "us2000a65e",
+  "job_id": "m_63_102_km_nnw_of_xinyuan_china-A012",
+  "event_title": "M 6.3 - 102 km NNW of Xinyuan, China",
+  "orbit": "ascending",
+  "track": "012",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_63_102_km_nnw_of_xinyuan_china/S1-COSEIS_SAR-A-R-012-tops-20170815_20170803-121831-00082E_00043N-PP-21f6-v1_0_0/S1-COSEIS_SAR-A-R-012-tops-20170815_20170803-121831-00082E_00043N-PP-21f6-v1_0_0.nc",
+  "stats": {
+    "min": -0.19186200201511383,
+    "max": 0.08077426999807358,
+    "mean": -0.04632048308849335,
+    "std": 0.05167602375149727
+  },
+  "bounds": {
+    "lon_min": 81.691706109,
+    "lon_max": 85.77365381899999,
+    "lat_min": 42.834957779,
+    "lat_max": 46.358016153
+  }
+}

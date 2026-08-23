@@ -1,0 +1,20 @@
+{
+  "event_id": "us2000a5x1",
+  "job_id": "m_65_168_km_sw_of_mawu_china-A055",
+  "event_title": "M 6.5 - 168 km SW of Mawu, China",
+  "orbit": "ascending",
+  "track": "055",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_65_168_km_sw_of_mawu_china/S1-COSEIS_SAR-A-R-055-tops-20170818_20170806-110120-00103E_00032N-PP-8495-v1_0_0/S1-COSEIS_SAR-A-R-055-tops-20170818_20170806-110120-00103E_00032N-PP-8495-v1_0_0.nc",
+  "stats": {
+    "min": -0.15988735854625702,
+    "max": 0.13666550815105438,
+    "mean": 0.007362786214798689,
+    "std": 0.026976197957992554
+  },
+  "bounds": {
+    "lon_min": 103.144028693,
+    "lon_max": 106.568753655,
+    "lat_min": 31.572457569000008,
+    "lat_max": 35.11384929100001
+  }
+}

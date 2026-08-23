@@ -1,0 +1,20 @@
+{
+  "event_id": "us2000d855",
+  "job_id": "m_61_194_km_wnw_of_ambon_indonesia-D017",
+  "event_title": "M 6.1 - 194 km WNW of Ambon, Indonesia",
+  "orbit": "descending",
+  "track": "017",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_61_194_km_wnw_of_ambon_indonesia/S1-COSEIS_SAR-D-R-017-tops-20180307_20180223-211037-00126E_00005S-PP-47f0-v1_0_0/S1-COSEIS_SAR-D-R-017-tops-20180307_20180223-211037-00126E_00005S-PP-47f0-v1_0_0.nc",
+  "stats": {
+    "min": 0.11166242510080338,
+    "max": 0.450556218624115,
+    "mean": 0.3505963087081909,
+    "std": 0.08273281902074814
+  },
+  "bounds": {
+    "lon_min": 126.05791751299999,
+    "lon_max": 129.008197651,
+    "lat_min": -5.209447701,
+    "lat_max": -1.634444841
+  }
+}

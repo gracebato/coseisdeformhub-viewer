@@ -1,0 +1,20 @@
+{
+  "event_id": "us20003lql",
+  "job_id": "m_61_79_km_wnw_of_coquimbo_chile-D156",
+  "event_title": "M 6.1 - 79 km WNW of Coquimbo, Chile",
+  "orbit": "descending",
+  "track": "156",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_61_79_km_wnw_of_coquimbo_chile/S1-COSEIS_SAR-D-R-156-tops-20151011_20150917-100314-00072W_00032S-PP-0ca9-v1_0_0/S1-COSEIS_SAR-D-R-156-tops-20151011_20150917-100314-00072W_00032S-PP-0ca9-v1_0_0.nc",
+  "stats": {
+    "min": -0.1244489848613739,
+    "max": 0.047603268176317215,
+    "mean": -0.02942436747252941,
+    "std": 0.02189594693481922
+  },
+  "bounds": {
+    "lon_min": -72.505517071,
+    "lon_max": -68.852458593,
+    "lat_min": -32.258375629,
+    "lat_max": -28.575317126999998
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "event_id": "usb000syhz",
+  "job_id": "m_65_123_km_wnw_of_tobelo_indonesia-A170",
+  "event_title": "M 6.5 - 123 km WNW of Tobelo, Indonesia",
+  "orbit": "ascending",
+  "track": "170",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2014/m_65_123_km_wnw_of_tobelo_indonesia/S1-COSEIS_SAR-A-R-170-tops-20141122_20141029-094627-00126E_00000N-PP-5072-v1_0_0/S1-COSEIS_SAR-A-R-170-tops-20141122_20141029-094627-00126E_00000N-PP-5072-v1_0_0.nc",
+  "stats": {
+    "min": 0.051722075790166855,
+    "max": 0.7102938294410706,
+    "mean": 0.3325943052768707,
+    "std": 0.17935699224472046
+  },
+  "bounds": {
+    "lon_min": 126.501250401,
+    "lon_max": 129.124585833,
+    "lat_min": 0.4677760630000001,
+    "lat_max": 2.7558334490000003
+  }
+}

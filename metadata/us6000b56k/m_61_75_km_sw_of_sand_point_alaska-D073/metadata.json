@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000b56k",
+  "job_id": "m_61_75_km_sw_of_sand_point_alaska-D073",
+  "event_title": "M 6.1 - 75 km SW of Sand Point, Alaska",
+  "orbit": "descending",
+  "track": "073",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_61_75_km_sw_of_sand_point_alaska/S1-COSEIS_SAR-D-R-073-tops-20200803_20200722-170424-00164W_00053N-PP-da2a-v1_0_0/S1-COSEIS_SAR-D-R-073-tops-20200803_20200722-170424-00164W_00053N-PP-da2a-v1_0_0.nc",
+  "stats": {
+    "min": -0.03676218166947365,
+    "max": 0.28511202335357666,
+    "mean": 0.06836406141519547,
+    "std": 0.042236264795064926
+  },
+  "bounds": {
+    "lon_min": -164.363749491,
+    "lon_max": -159.437912217,
+    "lat_min": 53.476069403000004,
+    "lat_max": 56.596627455000004
+  }
+}

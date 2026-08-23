@@ -1,0 +1,20 @@
+{
+  "event_id": "usb000tp6y",
+  "job_id": "m_62_taiwan_region-A069",
+  "event_title": "M 6.2 - Taiwan region",
+  "orbit": "ascending",
+  "track": "069",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_62_taiwan_region/S1-COSEIS_SAR-A-R-069-tops-20150315_20150207-100034-00120E_00022N-PP-b4d2-v1_0_0/S1-COSEIS_SAR-A-R-069-tops-20150315_20150207-100034-00120E_00022N-PP-b4d2-v1_0_0.nc",
+  "stats": {
+    "min": -0.301555871963501,
+    "max": -0.1102716475725174,
+    "mean": -0.2193705141544342,
+    "std": 0.026751358062028885
+  },
+  "bounds": {
+    "lon_min": 119.991806349,
+    "lon_max": 122.820419723,
+    "lat_min": 21.915791977,
+    "lat_max": 24.166627111
+  }
+}

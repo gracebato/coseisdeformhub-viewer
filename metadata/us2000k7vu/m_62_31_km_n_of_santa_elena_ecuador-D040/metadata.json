@@ -1,0 +1,20 @@
+{
+  "event_id": "us2000k7vu",
+  "job_id": "m_62_31_km_n_of_santa_elena_ecuador-D040",
+  "event_title": "M 6.2 - 31 km N of Santa Elena, Ecuador",
+  "orbit": "descending",
+  "track": "040",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_62_31_km_n_of_santa_elena_ecuador/S1-COSEIS_SAR-D-R-040-tops-20190409_20190328-110117-00081W_00003S-PP-c299-v1_0_0/S1-COSEIS_SAR-D-R-040-tops-20190409_20190328-110117-00081W_00003S-PP-c299-v1_0_0.nc",
+  "stats": {
+    "min": -0.05685383081436157,
+    "max": 0.10384213179349899,
+    "mean": 8.835899643599987e-05,
+    "std": 0.0243630800396204
+  },
+  "bounds": {
+    "lon_min": -81.14551598300001,
+    "lon_max": -78.46829161900001,
+    "lat_min": -2.483335009,
+    "lat_max": -0.41638891100000003
+  }
+}

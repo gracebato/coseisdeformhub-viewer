@@ -1,0 +1,20 @@
+{
+  "event_id": "us2000bqsn",
+  "job_id": "m_64_156_km_nne_of_shi_yomi_india-A143",
+  "event_title": "M 6.4 - 156 km NNE of Shi Yomi, India",
+  "orbit": "ascending",
+  "track": "143",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_64_156_km_nne_of_shi_yomi_india/S1-COSEIS_SAR-A-R-143-tops-20171128_20171116-114951-00092E_00028N-PP-fc3a-v1_0_0/S1-COSEIS_SAR-A-R-143-tops-20171128_20171116-114951-00092E_00028N-PP-fc3a-v1_0_0.nc",
+  "stats": {
+    "min": -0.11526399850845337,
+    "max": 0.06279147416353226,
+    "mean": -0.01707964949309826,
+    "std": 0.012377812527120113
+  },
+  "bounds": {
+    "lon_min": 91.515594857,
+    "lon_max": 94.875041989,
+    "lat_min": 28.470790821,
+    "lat_max": 31.855793529000003
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000e2xd",
+  "job_id": "m_60_76_km_ene_of_namie_japan-A141",
+  "event_title": "M 6.0 - 76 km ENE of Namie, Japan",
+  "orbit": "ascending",
+  "track": "141",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_60_76_km_ene_of_namie_japan/S1-COSEIS_SAR-A-R-141-tops-20210517_20210505-083402-00139E_00037N-PP-4c16-v1_0_0/S1-COSEIS_SAR-A-R-141-tops-20210517_20210505-083402-00139E_00037N-PP-4c16-v1_0_0.nc",
+  "stats": {
+    "min": -0.1522730439901352,
+    "max": 0.08978591859340668,
+    "mean": 0.018086522817611694,
+    "std": 0.028274046257138252
+  },
+  "bounds": {
+    "lon_min": 139.317362165,
+    "lon_max": 142.604309239,
+    "lat_min": 36.592736163000005,
+    "lat_max": 38.62940445900001
+  }
+}

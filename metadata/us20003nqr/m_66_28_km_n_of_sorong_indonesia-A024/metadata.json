@@ -1,0 +1,20 @@
+{
+  "event_id": "us20003nqr",
+  "job_id": "m_66_28_km_n_of_sorong_indonesia-A024",
+  "event_title": "M 6.6 - 28 km N of Sorong, Indonesia",
+  "orbit": "ascending",
+  "track": "024",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_66_28_km_n_of_sorong_indonesia/S1-COSEIS_SAR-A-R-024-tops-20151002_20150908-092933-00131E_00001S-PP-b755-v1_0_0/S1-COSEIS_SAR-A-R-024-tops-20151002_20150908-092933-00131E_00001S-PP-b755-v1_0_0.nc",
+  "stats": {
+    "min": -0.3888394236564636,
+    "max": -0.06769824028015137,
+    "mean": -0.19318196177482605,
+    "std": 0.07046935707330704
+  },
+  "bounds": {
+    "lon_min": 131.018195259,
+    "lon_max": 133.646252917,
+    "lat_min": -1.4563905430000001,
+    "lat_max": 0.6733333829999999
+  }
+}

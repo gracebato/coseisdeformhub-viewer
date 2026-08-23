@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000df40",
+  "job_id": "m_63_9_km_w_of_tyrnavos_greece-D080",
+  "event_title": "M 6.3 - 9 km W of T\u00fdrnavos, Greece",
+  "orbit": "descending",
+  "track": "080",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_63_9_km_w_of_tyrnavos_greece/S1-COSEIS_SAR-D-R-080-tops-20210308_20210302-043953-00020E_00039N-PP-9d2c-v1_0_0/S1-COSEIS_SAR-D-R-080-tops-20210308_20210302-043953-00020E_00039N-PP-9d2c-v1_0_0.nc",
+  "stats": {
+    "min": -0.23626090586185455,
+    "max": 0.11277947574853897,
+    "mean": 0.030978452414274216,
+    "std": 0.022105546668171883
+  },
+  "bounds": {
+    "lon_min": 19.643928293,
+    "lon_max": 23.063097695,
+    "lat_min": 39.009958719000004,
+    "lat_max": 40.986071411000005
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "event_id": "us2000d867",
+  "job_id": "m_63_59_km_sw_of_mendi_papua_new_guinea-A009",
+  "event_title": "M 6.3 - 59 km SW of Mendi, Papua New Guinea",
+  "orbit": "ascending",
+  "track": "009",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_63_59_km_sw_of_mendi_papua_new_guinea/S1-COSEIS_SAR-A-R-009-tops-20180307_20180223-084655-00143E_00007S-PP-836e-v1_0_0/S1-COSEIS_SAR-A-R-009-tops-20180307_20180223-084655-00143E_00007S-PP-836e-v1_0_0.nc",
+  "stats": {
+    "min": -0.5354208946228027,
+    "max": -0.3406989276409149,
+    "mean": -0.4514800012111664,
+    "std": 0.03112107515335083
+  },
+  "bounds": {
+    "lon_min": 142.591806029,
+    "lon_max": 145.249585933,
+    "lat_min": -7.470834999,
+    "lat_max": -5.322222169
+  }
+}

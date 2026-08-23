@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000e532",
+  "job_id": "m_61_25_km_nw_of_dali_china-A099",
+  "event_title": "M 6.1 - 25 km NW of Dali, China",
+  "orbit": "ascending",
+  "track": "099",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_61_25_km_nw_of_dali_china/S1-COSEIS_SAR-A-R-099-tops-20210601_20210520-112408-00099E_00024N-PP-adc1-v1_0_0/S1-COSEIS_SAR-A-R-099-tops-20210601_20210520-112408-00099E_00024N-PP-adc1-v1_0_0.nc",
+  "stats": {
+    "min": -0.10638909786939621,
+    "max": 0.2539554238319397,
+    "mean": 0.08440908789634705,
+    "std": 0.05419310927391052
+  },
+  "bounds": {
+    "lon_min": 98.766983947,
+    "lon_max": 101.961153169,
+    "lat_min": 23.614679825,
+    "lat_max": 27.006626983
+  }
+}

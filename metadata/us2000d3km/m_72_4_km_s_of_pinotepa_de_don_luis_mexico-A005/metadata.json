@@ -1,0 +1,20 @@
+{
+  "event_id": "us2000d3km",
+  "job_id": "m_72_4_km_s_of_pinotepa_de_don_luis_mexico-A005",
+  "event_title": "M 7.2 - 4 km S of Pinotepa de Don Luis, Mexico",
+  "orbit": "ascending",
+  "track": "005",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_72_4_km_s_of_pinotepa_de_don_luis_mexico/S1-COSEIS_SAR-A-R-005-tops-20180217_20180205-003851-00099W_00015N-PP-f1de-v1_0_0/S1-COSEIS_SAR-A-R-005-tops-20180217_20180205-003851-00099W_00015N-PP-f1de-v1_0_0.nc",
+  "stats": {
+    "min": -0.20967018604278564,
+    "max": 0.32764753699302673,
+    "mean": -0.04490005597472191,
+    "std": 0.05449093505740166
+  },
+  "bounds": {
+    "lon_min": -98.770971239,
+    "lon_max": -96.052913509,
+    "lat_min": 15.485791633,
+    "lat_max": 17.734404543
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "event_id": "us10008npq",
+  "job_id": "m_60_29_km_nnw_of_karakenja_tajikistan-A100",
+  "event_title": "M 6.0 - 29 km NNW of Karakenja, Tajikistan",
+  "orbit": "ascending",
+  "track": "100",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_60_29_km_nnw_of_karakenja_tajikistan/S1-COSEIS_SAR-A-R-100-tops-20170505_20170423-130629-00071E_00038N-PP-8ebd-v1_0_0/S1-COSEIS_SAR-A-R-100-tops-20170505_20170423-130629-00071E_00038N-PP-8ebd-v1_0_0.nc",
+  "stats": {
+    "min": -0.06156822293996811,
+    "max": 0.21679465472698212,
+    "mean": 0.090638667345047,
+    "std": 0.02799144573509693
+  },
+  "bounds": {
+    "lon_min": 70.655317191,
+    "lon_max": 74.411709085,
+    "lat_min": 38.256068427,
+    "lat_max": 41.617737783
+  }
+}

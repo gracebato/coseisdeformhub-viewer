@@ -1,0 +1,20 @@
+{
+  "event_id": "us2000e0mq",
+  "job_id": "m_60_88_km_nw_of_ternate_indonesia-D017",
+  "event_title": "M 6.0 - 88 km NW of Ternate, Indonesia",
+  "orbit": "descending",
+  "track": "017",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_60_88_km_nw_of_ternate_indonesia/S1-COSEIS_SAR-D-R-017-tops-20180424_20180412-210936-00127E_00001S-PP-919f-v1_0_0/S1-COSEIS_SAR-D-R-017-tops-20180424_20180412-210936-00127E_00001S-PP-919f-v1_0_0.nc",
+  "stats": {
+    "min": 0.28253498673439026,
+    "max": 0.6588935256004333,
+    "mean": 0.46964746713638306,
+    "std": 0.08945801109075546
+  },
+  "bounds": {
+    "lon_min": 127.026250821,
+    "lon_max": 129.675141829,
+    "lat_min": -0.7055566090000003,
+    "lat_max": 1.3586117089999998
+  }
+}

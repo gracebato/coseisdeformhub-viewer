@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000bcbv",
+  "job_id": "m_60_4_km_ssw_of_jaco_costa_rica-A165",
+  "event_title": "M 6.0 - 4 km SSW of Jac\u00f3, Costa Rica",
+  "orbit": "ascending",
+  "track": "165",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_60_4_km_ssw_of_jaco_costa_rica/S1-COSEIS_SAR-A-R-165-tops-20200902_20200821-235643-00087W_00008N-PP-f129-v1_0_0/S1-COSEIS_SAR-A-R-165-tops-20200902_20200821-235643-00087W_00008N-PP-f129-v1_0_0.nc",
+  "stats": {
+    "min": 0.06053626537322998,
+    "max": 0.2306690216064453,
+    "mean": 0.14005602896213531,
+    "std": 0.024489160627126694
+  },
+  "bounds": {
+    "lon_min": -86.957461877,
+    "lon_max": -84.284959739,
+    "lat_min": 8.068847654999999,
+    "lat_max": 10.341905029
+  }
+}

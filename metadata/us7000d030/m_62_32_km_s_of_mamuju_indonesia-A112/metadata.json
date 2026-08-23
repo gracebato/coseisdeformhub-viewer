@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000d030",
+  "job_id": "m_62_32_km_s_of_mamuju_indonesia-A112",
+  "event_title": "M 6.2 - 32 km S of Mamuju, Indonesia",
+  "orbit": "ascending",
+  "track": "112",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_62_32_km_s_of_mamuju_indonesia/S1-COSEIS_SAR-A-R-112-tops-20210115_20210109-101813-00119E_00003S-PP-64e2-v1_0_0/S1-COSEIS_SAR-A-R-112-tops-20210115_20210109-101813-00119E_00003S-PP-64e2-v1_0_0.nc",
+  "stats": {
+    "min": -0.5225961208343506,
+    "max": 0.34000757336616516,
+    "mean": 0.01605430617928505,
+    "std": 0.20433495938777924
+  },
+  "bounds": {
+    "lon_min": 119.083195311,
+    "lon_max": 121.722641867,
+    "lat_min": -3.23333592,
+    "lat_max": -1.264167678
+  }
+}

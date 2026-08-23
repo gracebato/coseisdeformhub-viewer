@@ -1,0 +1,20 @@
+{
+  "event_id": "us200062i1",
+  "job_id": "m_63_106_km_ssw_of_barra_de_navidad_mexico-D012",
+  "event_title": "M 6.3 - 106 km SSW of Barra de Navidad, Mexico",
+  "orbit": "descending",
+  "track": "012",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_63_106_km_ssw_of_barra_de_navidad_mexico/S1-COSEIS_SAR-D-R-012-tops-20160609_20160516-125036-00106W_00018N-PP-04bd-v1_0_0/S1-COSEIS_SAR-D-R-012-tops-20160609_20160516-125036-00106W_00018N-PP-04bd-v1_0_0.nc",
+  "stats": {
+    "min": -0.09786077588796616,
+    "max": 0.09824280440807343,
+    "mean": -0.005157848354429007,
+    "std": 0.029745329171419144
+  },
+  "bounds": {
+    "lon_min": -105.785138717,
+    "lon_max": -103.12069214099999,
+    "lat_min": 18.205236653,
+    "lat_max": 19.716626751
+  }
+}

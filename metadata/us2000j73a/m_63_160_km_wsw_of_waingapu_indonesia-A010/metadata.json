@@ -1,0 +1,20 @@
+{
+  "event_id": "us2000j73a",
+  "job_id": "m_63_160_km_wsw_of_waingapu_indonesia-A010",
+  "event_title": "M 6.3 - 160 km WSW of Waingapu, Indonesia",
+  "orbit": "ascending",
+  "track": "010",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_63_160_km_wsw_of_waingapu_indonesia/S1-COSEIS_SAR-A-R-010-tops-20190125_20190113-102447-00119E_00011S-PP-2de0-v1_0_0/S1-COSEIS_SAR-A-R-010-tops-20190125_20190113-102447-00119E_00011S-PP-2de0-v1_0_0.nc",
+  "stats": {
+    "min": -0.5513768196105957,
+    "max": -0.23566050827503204,
+    "mean": -0.307719349861145,
+    "std": 0.022002868354320526
+  },
+  "bounds": {
+    "lon_min": 118.717639463,
+    "lon_max": 121.400974943,
+    "lat_min": -11.121112497,
+    "lat_max": -8.795832859
+  }
+}

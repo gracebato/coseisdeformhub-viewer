@@ -1,0 +1,20 @@
+{
+  "event_id": "us2000272b",
+  "job_id": "m_60_26_km_ssw_of_fry_greece-D036",
+  "event_title": "M 6.0 - 26 km SSW of Fry, Greece",
+  "orbit": "descending",
+  "track": "036",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_60_26_km_ssw_of_fry_greece/S1-COSEIS_SAR-D-R-036-tops-20150418_20150325-041532-00025E_00035N-PP-ec2e-v1_0_0/S1-COSEIS_SAR-D-R-036-tops-20150418_20150325-041532-00025E_00035N-PP-ec2e-v1_0_0.nc",
+  "stats": {
+    "min": -0.7607535719871521,
+    "max": 0.2399211972951889,
+    "mean": -0.07795420289039612,
+    "std": 0.24268561601638794
+  },
+  "bounds": {
+    "lon_min": 25.022817484999997,
+    "lon_max": 28.282542314999997,
+    "lat_min": 35.22551444700001,
+    "lat_max": 37.038293675000006
+  }
+}

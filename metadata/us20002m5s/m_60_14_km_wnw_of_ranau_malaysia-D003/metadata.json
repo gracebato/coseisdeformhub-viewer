@@ -1,0 +1,20 @@
+{
+  "event_id": "us20002m5s",
+  "job_id": "m_60_14_km_wnw_of_ranau_malaysia-D003",
+  "event_title": "M 6.0 - 14 km WNW of Ranau, Malaysia",
+  "orbit": "descending",
+  "track": "003",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_60_14_km_wnw_of_ranau_malaysia/S1-COSEIS_SAR-D-R-003-tops-20150626_20150602-220531-00114E_00005N-PP-2f69-v1_0_0/S1-COSEIS_SAR-D-R-003-tops-20150626_20150602-220531-00114E_00005N-PP-2f69-v1_0_0.nc",
+  "stats": {
+    "min": -0.37421610951423645,
+    "max": 0.009911925531923771,
+    "mean": -0.15752017498016357,
+    "std": 0.12266182154417038
+  },
+  "bounds": {
+    "lon_min": 113.705417231,
+    "lon_max": 116.385697153,
+    "lat_min": 4.635276197,
+    "lat_max": 6.681944501
+  }
+}

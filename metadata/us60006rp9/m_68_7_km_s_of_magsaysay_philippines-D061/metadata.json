@@ -1,0 +1,20 @@
+{
+  "event_id": "us60006rp9",
+  "job_id": "m_68_7_km_s_of_magsaysay_philippines-D061",
+  "event_title": "M 6.8 - 7 km S of Magsaysay, Philippines",
+  "orbit": "descending",
+  "track": "061",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_68_7_km_s_of_magsaysay_philippines/S1-COSEIS_SAR-D-R-061-tops-20191218_20191206-213243-00122E_00005N-PP-cd49-v1_0_0/S1-COSEIS_SAR-D-R-061-tops-20191218_20191206-213243-00122E_00005N-PP-cd49-v1_0_0.nc",
+  "stats": {
+    "min": -0.07814142853021622,
+    "max": 0.16108350455760956,
+    "mean": 0.04282866790890694,
+    "std": 0.03648630902171135
+  },
+  "bounds": {
+    "lon_min": 122.053750843,
+    "lon_max": 124.988753191,
+    "lat_min": 5.102179415,
+    "lat_max": 8.649126697
+  }
+}

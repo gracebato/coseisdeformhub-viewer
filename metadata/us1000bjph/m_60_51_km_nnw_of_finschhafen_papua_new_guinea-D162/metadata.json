@@ -1,0 +1,20 @@
+{
+  "event_id": "us1000bjph",
+  "job_id": "m_60_51_km_nnw_of_finschhafen_papua_new_guinea-D162",
+  "event_title": "M 6.0 - 51 km NNW of Finschhafen, Papua New Guinea",
+  "orbit": "descending",
+  "track": "162",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_60_51_km_nnw_of_finschhafen_papua_new_guinea/S1-COSEIS_SAR-D-R-162-tops-20171211_20171129-194917-00146E_00009S-PP-ab55-v1_0_0/S1-COSEIS_SAR-D-R-162-tops-20171211_20171129-194917-00146E_00009S-PP-ab55-v1_0_0.nc",
+  "stats": {
+    "min": -0.03116575814783573,
+    "max": 0.2989174425601959,
+    "mean": 0.14361298084259033,
+    "std": 0.0975654348731041
+  },
+  "bounds": {
+    "lon_min": 145.850417347,
+    "lon_max": 148.90930868299998,
+    "lat_min": -8.615280359,
+    "lat_max": -4.862499579
+  }
+}

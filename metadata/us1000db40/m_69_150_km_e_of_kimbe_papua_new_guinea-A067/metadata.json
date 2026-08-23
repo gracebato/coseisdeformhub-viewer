@@ -1,0 +1,20 @@
+{
+  "event_id": "us1000db40",
+  "job_id": "m_69_150_km_e_of_kimbe_papua_new_guinea-A067",
+  "event_title": "M 6.9 - 150 km E of Kimbe, Papua New Guinea",
+  "orbit": "ascending",
+  "track": "067",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_69_150_km_e_of_kimbe_papua_new_guinea/S1-COSEIS_SAR-A-R-067-tops-20180404_20180323-081415-00151E_00007S-PP-1e31-v1_0_0/S1-COSEIS_SAR-A-R-067-tops-20180404_20180323-081415-00151E_00007S-PP-1e31-v1_0_0.nc",
+  "stats": {
+    "min": -0.10852209478616714,
+    "max": 0.25466015934944153,
+    "mean": -0.00295827048830688,
+    "std": 0.049308519810438156
+  },
+  "bounds": {
+    "lon_min": 150.634583841,
+    "lon_max": 153.292085967,
+    "lat_min": -6.439167507,
+    "lat_max": -4.459165923
+  }
+}

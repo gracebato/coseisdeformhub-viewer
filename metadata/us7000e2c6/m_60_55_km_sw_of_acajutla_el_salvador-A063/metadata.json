@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000e2c6",
+  "job_id": "m_60_55_km_sw_of_acajutla_el_salvador-A063",
+  "event_title": "M 6.0 - 55 km SW of Acajutla, El Salvador",
+  "orbit": "ascending",
+  "track": "063",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_60_55_km_sw_of_acajutla_el_salvador/S1-COSEIS_SAR-A-R-063-tops-20210518_20210506-000613-00090W_00012N-PP-d715-v1_0_0/S1-COSEIS_SAR-A-R-063-tops-20210518_20210506-000613-00090W_00012N-PP-d715-v1_0_0.nc",
+  "stats": {
+    "min": -0.4900830090045929,
+    "max": -0.1257259100675583,
+    "mean": -0.32427978515625,
+    "std": 0.033075522631406784
+  },
+  "bounds": {
+    "lon_min": -90.13496041900001,
+    "lon_max": -87.12384689900001,
+    "lat_min": 12.180235032999999,
+    "lat_max": 15.606071107
+  }
+}

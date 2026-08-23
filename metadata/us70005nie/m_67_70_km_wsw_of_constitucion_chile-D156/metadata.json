@@ -1,0 +1,20 @@
+{
+  "event_id": "us70005nie",
+  "job_id": "m_67_70_km_wsw_of_constitucion_chile-D156",
+  "event_title": "M 6.7 - 70 km WSW of Constituci\u00f3n, Chile",
+  "orbit": "descending",
+  "track": "156",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_67_70_km_wsw_of_constitucion_chile/S1-COSEIS_SAR-D-R-156-tops-20191008_20190926-100421-00074W_00037S-PP-f342-v1_0_0/S1-COSEIS_SAR-D-R-156-tops-20191008_20190926-100421-00074W_00037S-PP-f342-v1_0_0.nc",
+  "stats": {
+    "min": -0.07802364975214005,
+    "max": 0.12671595811843872,
+    "mean": 0.03697066381573677,
+    "std": 0.017183873802423477
+  },
+  "bounds": {
+    "lon_min": -74.359961399,
+    "lon_max": -70.336624847,
+    "lat_min": -37.35643126299999,
+    "lat_max": -33.63726162099999
+  }
+}

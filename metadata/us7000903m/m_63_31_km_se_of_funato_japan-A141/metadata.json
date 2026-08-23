@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000903m",
+  "job_id": "m_63_31_km_se_of_funato_japan-A141",
+  "event_title": "M 6.3 - 31 km SE of ?funato, Japan",
+  "orbit": "ascending",
+  "track": "141",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_63_31_km_se_of_funato_japan/S1-COSEIS_SAR-A-R-141-tops-20200428_20200416-083408-00139E_00037N-PP-b056-v1_0_0/S1-COSEIS_SAR-A-R-141-tops-20200428_20200416-083408-00139E_00037N-PP-b056-v1_0_0.nc",
+  "stats": {
+    "min": -0.2352505624294281,
+    "max": 0.07471837848424911,
+    "mean": -0.0052347141318023205,
+    "std": 0.015137969516217709
+  },
+  "bounds": {
+    "lon_min": 138.944028533,
+    "lon_max": 142.604031461,
+    "lat_min": 36.592457585000005,
+    "lat_max": 40.120238185000005
+  }
+}

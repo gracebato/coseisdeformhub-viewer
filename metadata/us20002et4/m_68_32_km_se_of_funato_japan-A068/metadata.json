@@ -1,0 +1,20 @@
+{
+  "event_id": "us20002et4",
+  "job_id": "m_68_32_km_se_of_funato_japan-A068",
+  "event_title": "M 6.8 - 32 km SE of ?funato, Japan",
+  "orbit": "ascending",
+  "track": "068",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_68_32_km_se_of_funato_japan/S1-COSEIS_SAR-A-R-068-tops-20150526_20150502-082622-00141E_00038N-PP-6524-v1_0_0/S1-COSEIS_SAR-A-R-068-tops-20150526_20150502-082622-00141E_00038N-PP-6524-v1_0_0.nc",
+  "stats": {
+    "min": -0.044665709137916565,
+    "max": 0.13750343024730682,
+    "mean": 0.05185906961560249,
+    "std": 0.027359185740351677
+  },
+  "bounds": {
+    "lon_min": 140.982084119,
+    "lon_max": 144.332086799,
+    "lat_min": 38.209403323000004,
+    "lat_max": 40.408016193
+  }
+}

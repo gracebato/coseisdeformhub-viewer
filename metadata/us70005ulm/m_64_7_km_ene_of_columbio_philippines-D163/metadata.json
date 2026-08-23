@@ -1,0 +1,20 @@
+{
+  "event_id": "us70005ulm",
+  "job_id": "m_64_7_km_ene_of_columbio_philippines-D163",
+  "event_title": "M 6.4 - 7 km ENE of Columbio, Philippines",
+  "orbit": "descending",
+  "track": "163",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_64_7_km_ene_of_columbio_philippines/S1-COSEIS_SAR-D-R-163-tops-20191026_20191014-212435-00124E_00006N-PP-25a0-v1_0_0/S1-COSEIS_SAR-D-R-163-tops-20191026_20191014-212435-00124E_00006N-PP-25a0-v1_0_0.nc",
+  "stats": {
+    "min": -0.09098514914512634,
+    "max": 0.0542834997177124,
+    "mean": -0.009435979649424553,
+    "std": 0.017144672572612762
+  },
+  "bounds": {
+    "lon_min": 124.199584293,
+    "lon_max": 126.828475285,
+    "lat_min": 5.544720569000001,
+    "lat_max": 7.591666651000001
+  }
+}

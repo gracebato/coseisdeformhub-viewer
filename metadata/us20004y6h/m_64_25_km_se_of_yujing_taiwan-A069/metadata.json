@@ -1,0 +1,20 @@
+{
+  "event_id": "us20004y6h",
+  "job_id": "m_64_25_km_se_of_yujing_taiwan-A069",
+  "event_title": "M 6.4 - 25 km SE of Yujing, Taiwan",
+  "orbit": "ascending",
+  "track": "069",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_64_25_km_se_of_yujing_taiwan/S1-COSEIS_SAR-A-R-069-tops-20160214_20160202-100042-00120E_00022N-PP-8adf-v1_0_0/S1-COSEIS_SAR-A-R-069-tops-20160214_20160202-100042-00120E_00022N-PP-8adf-v1_0_0.nc",
+  "stats": {
+    "min": -0.09794686734676361,
+    "max": 0.4736744165420532,
+    "mean": 0.17868413031101227,
+    "std": 0.11209910362958908
+  },
+  "bounds": {
+    "lon_min": 119.851528459,
+    "lon_max": 122.88208643899999,
+    "lat_min": 21.590235361,
+    "lat_max": 24.820237945000002
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000dffl",
+  "job_id": "m_73_182_km_ne_of_gisborne_new_zealand-A008",
+  "event_title": "M 7.3 - 182 km NE of Gisborne, New Zealand",
+  "orbit": "ascending",
+  "track": "008",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_73_182_km_ne_of_gisborne_new_zealand/S1-COSEIS_SAR-A-R-008-tops-20210309_20210225-065842-00176E_00040S-PP-a30b-v1_0_0/S1-COSEIS_SAR-A-R-008-tops-20210309_20210225-065842-00176E_00040S-PP-a30b-v1_0_0.nc",
+  "stats": {
+    "min": -0.1842835247516632,
+    "max": 0.08287589251995087,
+    "mean": -0.008327353745698929,
+    "std": 0.015982111915946007
+  },
+  "bounds": {
+    "lon_min": 176.163473153,
+    "lon_max": 179.65069816500002,
+    "lat_min": -40.204485897,
+    "lat_max": -37.748928377
+  }
+}

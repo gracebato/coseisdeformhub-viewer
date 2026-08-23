@@ -1,0 +1,20 @@
+{
+  "event_id": "us2000dcx1",
+  "job_id": "m_67_62_km_sw_of_tari_papua_new_guinea-D031",
+  "event_title": "M 6.7 - 62 km SW of Tari, Papua New Guinea",
+  "orbit": "descending",
+  "track": "031",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_67_62_km_sw_of_tari_papua_new_guinea/S1-COSEIS_SAR-D-R-031-tops-20180308_20180224-201342-00140E_00008S-PP-65dc-v1_0_0/S1-COSEIS_SAR-D-R-031-tops-20180308_20180224-201342-00140E_00008S-PP-65dc-v1_0_0.nc",
+  "stats": {
+    "min": -0.12913177907466888,
+    "max": 0.38518136739730835,
+    "mean": 0.12841375172138214,
+    "std": 0.12526266276836395
+  },
+  "bounds": {
+    "lon_min": 139.880139593,
+    "lon_max": 142.903197567,
+    "lat_min": -7.708891545,
+    "lat_max": -4.123055343
+  }
+}

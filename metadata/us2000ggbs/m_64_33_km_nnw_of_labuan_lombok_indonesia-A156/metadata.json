@@ -1,0 +1,20 @@
+{
+  "event_id": "us2000ggbs",
+  "job_id": "m_64_33_km_nnw_of_labuan_lombok_indonesia-A156",
+  "event_title": "M 6.4 - 33 km NNW of Labuan Lombok, Indonesia",
+  "orbit": "ascending",
+  "track": "156",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_64_33_km_nnw_of_labuan_lombok_indonesia/S1-COSEIS_SAR-A-R-156-tops-20180802_20180727-104104-00114E_00010S-PP-93ed-v1_0_0/S1-COSEIS_SAR-A-R-156-tops-20180802_20180727-104104-00114E_00010S-PP-93ed-v1_0_0.nc",
+  "stats": {
+    "min": -0.8593783378601074,
+    "max": 0.014010357670485973,
+    "mean": -0.2840166389942169,
+    "std": 0.15389324724674225
+  },
+  "bounds": {
+    "lon_min": 113.994584129,
+    "lon_max": 117.03319767100001,
+    "lat_min": -10.034169582999999,
+    "lat_max": -6.052777508999999
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "event_id": "usc000t4iq",
+  "job_id": "m_66_22_km_ese_of_punta_de_burica_panama-A092",
+  "event_title": "M 6.6 - 22 km ESE of Punta de Burica, Panama",
+  "orbit": "ascending",
+  "track": "092",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2014/m_66_22_km_ese_of_punta_de_burica_panama/S1-COSEIS_SAR-A-R-092-tops-20141210_20141023-234747-00085W_00008N-PP-b54e-v1_0_0/S1-COSEIS_SAR-A-R-092-tops-20141210_20141023-234747-00085W_00008N-PP-b54e-v1_0_0.nc",
+  "stats": {
+    "min": -0.23031404614448547,
+    "max": 1.8627138137817383,
+    "mean": 0.7621378302574158,
+    "std": 0.6737024188041687
+  },
+  "bounds": {
+    "lon_min": -84.85746019700001,
+    "lon_max": -82.212735859,
+    "lat_min": 7.858569708999999,
+    "lat_max": 10.126349301
+  }
+}

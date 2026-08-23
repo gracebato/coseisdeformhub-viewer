@@ -1,0 +1,20 @@
+{
+  "event_id": "us2000cnnl",
+  "job_id": "m_63_99_km_ene_of_misawa_japan-D148",
+  "event_title": "M 6.3 - 99 km ENE of Misawa, Japan",
+  "orbit": "descending",
+  "track": "148",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_63_99_km_ene_of_misawa_japan/S1-COSEIS_SAR-D-R-148-tops-20180127_20180115-203324-00142E_00041N-PP-dcf7-v1_0_0/S1-COSEIS_SAR-D-R-148-tops-20180127_20180115-203324-00142E_00041N-PP-dcf7-v1_0_0.nc",
+  "stats": {
+    "min": 0.24835234880447388,
+    "max": 0.5041261315345764,
+    "mean": 0.4247191846370697,
+    "std": 0.02180466055870056
+  },
+  "bounds": {
+    "lon_min": 141.425694785,
+    "lon_max": 144.96014205699998,
+    "lat_min": 41.018569837,
+    "lat_max": 42.983293631
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "event_id": "us70006ara",
+  "job_id": "m_62_43_km_wnw_of_sainyabuli_laos-A099",
+  "event_title": "M 6.2 - 43 km WNW of Sainyabuli, Laos",
+  "orbit": "ascending",
+  "track": "099",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_62_43_km_wnw_of_sainyabuli_laos/S1-COSEIS_SAR-A-R-099-tops-20191127_20191115-112222-00100E_00017N-PP-db8d-v1_0_0/S1-COSEIS_SAR-A-R-099-tops-20191127_20191115-112222-00100E_00017N-PP-db8d-v1_0_0.nc",
+  "stats": {
+    "min": -0.11868000775575638,
+    "max": 0.10037727653980255,
+    "mean": 0.0020656795240938663,
+    "std": 0.023989958688616753
+  },
+  "bounds": {
+    "lon_min": 100.046150837,
+    "lon_max": 103.132542195,
+    "lat_min": 17.449957470999998,
+    "lat_max": 21.027182555
+  }
+}

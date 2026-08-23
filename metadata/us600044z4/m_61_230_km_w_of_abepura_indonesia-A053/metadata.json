@@ -1,0 +1,20 @@
+{
+  "event_id": "us600044z4",
+  "job_id": "m_61_230_km_w_of_abepura_indonesia-A053",
+  "event_title": "M 6.1 - 230 km W of Abepura, Indonesia",
+  "orbit": "ascending",
+  "track": "053",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_61_230_km_w_of_abepura_indonesia/S1-COSEIS_SAR-A-R-053-tops-20190703_20190621-091244-00136E_00005S-PP-b55d-v1_0_0/S1-COSEIS_SAR-A-R-053-tops-20190703_20190621-091244-00136E_00005S-PP-b55d-v1_0_0.nc",
+  "stats": {
+    "min": -0.02936151623725891,
+    "max": 0.309455931186676,
+    "mean": 0.08099179714918137,
+    "std": 0.061099812388420105
+  },
+  "bounds": {
+    "lon_min": 135.519861527,
+    "lon_max": 138.476808337,
+    "lat_min": -4.775003820000001,
+    "lat_max": -1.14027869
+  }
+}

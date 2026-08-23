@@ -1,0 +1,20 @@
+{
+  "event_id": "us2000j1d4",
+  "job_id": "m_63_16_km_sse_of_nishinoomote_japan-D163",
+  "event_title": "M 6.3 - 16 km SSE of Nishinoomote, Japan",
+  "orbit": "descending",
+  "track": "163",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_63_16_km_sse_of_nishinoomote_japan/S1-COSEIS_SAR-D-R-163-tops-20190111_20181230-211751-00129E_00029N-PP-9055-v1_0_0/S1-COSEIS_SAR-D-R-163-tops-20190111_20181230-211751-00129E_00029N-PP-9055-v1_0_0.nc",
+  "stats": {
+    "min": -0.08326049894094467,
+    "max": 0.14938469231128693,
+    "mean": 0.07641348242759705,
+    "std": 0.023608261719346046
+  },
+  "bounds": {
+    "lon_min": 128.721528355,
+    "lon_max": 132.029308779,
+    "lat_min": 28.715513239000007,
+    "lat_max": 32.19579380100001
+  }
+}

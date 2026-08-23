@@ -1,0 +1,20 @@
+{
+  "event_id": "us20005ih9",
+  "job_id": "m_61_110_km_ssw_of_champerico_guatemala-A136",
+  "event_title": "M 6.1 - 110 km SSW of Champerico, Guatemala",
+  "orbit": "ascending",
+  "track": "136",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_61_110_km_ssw_of_champerico_guatemala/S1-COSEIS_SAR-A-R-136-tops-20160419_20160326-001355-00092W_00013N-PP-3905-v1_0_0/S1-COSEIS_SAR-A-R-136-tops-20160419_20160326-001355-00092W_00013N-PP-3905-v1_0_0.nc",
+  "stats": {
+    "min": 0.1795440912246704,
+    "max": 0.36384207010269165,
+    "mean": 0.2772143483161926,
+    "std": 0.022043395787477493
+  },
+  "bounds": {
+    "lon_min": -92.029404779,
+    "lon_max": -89.344958187,
+    "lat_min": 12.724680713,
+    "lat_max": 14.979404739
+  }
+}

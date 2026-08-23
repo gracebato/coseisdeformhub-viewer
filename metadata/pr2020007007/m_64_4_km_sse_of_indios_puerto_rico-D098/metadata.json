@@ -1,0 +1,20 @@
+{
+  "event_id": "pr2020007007",
+  "job_id": "m_64_4_km_sse_of_indios_puerto_rico-D098",
+  "event_title": "M 6.4 - 4 km SSE of Indios, Puerto Rico",
+  "orbit": "descending",
+  "track": "098",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_64_4_km_sse_of_indios_puerto_rico/S1-COSEIS_SAR-D-R-098-tops-20200114_20200102-102306-00069W_00017N-PP-2699-v1_0_0/S1-COSEIS_SAR-D-R-098-tops-20200114_20200102-102306-00069W_00017N-PP-2699-v1_0_0.nc",
+  "stats": {
+    "min": -0.4433257579803467,
+    "max": 0.05308472365140915,
+    "mean": -0.09465032815933228,
+    "std": 0.09650411456823349
+  },
+  "bounds": {
+    "lon_min": -68.954960275,
+    "lon_max": -66.236902545,
+    "lat_min": 17.004403159000002,
+    "lat_max": 19.017460325000002
+  }
+}

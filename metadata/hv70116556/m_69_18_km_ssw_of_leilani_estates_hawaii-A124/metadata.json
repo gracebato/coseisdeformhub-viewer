@@ -1,0 +1,20 @@
+{
+  "event_id": "hv70116556",
+  "job_id": "m_69_18_km_ssw_of_leilani_estates_hawaii-A124",
+  "event_title": "M 6.9 - 18 km SSW of Leilani Estates, Hawaii",
+  "orbit": "ascending",
+  "track": "124",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_69_18_km_ssw_of_leilani_estates_hawaii/S1-COSEIS_SAR-A-R-124-tops-20180508_20180502-043005-00157W_00018N-PP-154c-v1_0_0/S1-COSEIS_SAR-A-R-124-tops-20180508_20180502-043005-00157W_00018N-PP-154c-v1_0_0.nc",
+  "stats": {
+    "min": -1.0936553478240967,
+    "max": -0.2972991168498993,
+    "mean": -0.4811161160469055,
+    "std": 0.08770086616277695
+  },
+  "bounds": {
+    "lon_min": -156.907360237,
+    "lon_max": -154.187635839,
+    "lat_min": 18.252736691000003,
+    "lat_max": 20.159682661
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000bdg8",
+  "job_id": "m_60_66_km_nne_of_kilindoni_tanzania-A057",
+  "event_title": "M 6.0 - 66 km NNE of Kilindoni, Tanzania",
+  "orbit": "ascending",
+  "track": "057",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_60_66_km_nne_of_kilindoni_tanzania/S1-COSEIS_SAR-A-R-057-tops-20200814_20200802-154630-00038E_00010S-PP-678d-v1_0_0/S1-COSEIS_SAR-A-R-057-tops-20200814_20200802-154630-00038E_00010S-PP-678d-v1_0_0.nc",
+  "stats": {
+    "min": -0.10329888761043549,
+    "max": 0.0799412727355957,
+    "mean": -0.023519324138760567,
+    "std": 0.020463429391384125
+  },
+  "bounds": {
+    "lon_min": 37.826428439,
+    "lon_max": 40.849486412999994,
+    "lat_min": -9.729169339,
+    "lat_max": -6.074444193
+  }
+}

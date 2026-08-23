@@ -1,0 +1,20 @@
+{
+  "event_id": "us70006d0m",
+  "job_id": "m_64_15_km_wsw_of_mamurras_albania-D051",
+  "event_title": "M 6.4 - 15 km WSW of Mamurras, Albania",
+  "orbit": "descending",
+  "track": "051",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_64_15_km_wsw_of_mamurras_albania/S1-COSEIS_SAR-D-R-051-tops-20191130_20191124-045507-00016E_00041N-PP-721a-v1_0_0/S1-COSEIS_SAR-D-R-051-tops-20191130_20191124-045507-00016E_00041N-PP-721a-v1_0_0.nc",
+  "stats": {
+    "min": -0.29369255900382996,
+    "max": 0.04500566050410271,
+    "mean": -0.19734321534633636,
+    "std": 0.08504626899957657
+  },
+  "bounds": {
+    "lon_min": 15.850872903,
+    "lon_max": 19.380042393,
+    "lat_min": 40.68245845700001,
+    "lat_max": 42.65440447900001
+  }
+}

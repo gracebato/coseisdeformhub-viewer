@@ -1,0 +1,20 @@
+{
+  "event_id": "us60009zv5",
+  "job_id": "m_62_51_km_wnw_of_portvila_vanuatu-D059",
+  "event_title": "M 6.2 - 51 km WNW of Port-Vila, Vanuatu",
+  "orbit": "descending",
+  "track": "059",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_62_51_km_wnw_of_portvila_vanuatu/S1-COSEIS_SAR-D-R-059-tops-20200528_20200516-182103-00166E_00018S-PP-7b60-v1_0_0/S1-COSEIS_SAR-D-R-059-tops-20200528_20200516-182103-00166E_00018S-PP-7b60-v1_0_0.nc",
+  "stats": {
+    "min": -0.7226594090461731,
+    "max": -0.21577684581279755,
+    "mean": -0.38884732127189636,
+    "std": 0.11248260736465454
+  },
+  "bounds": {
+    "lon_min": 166.264583545,
+    "lon_max": 169.093752475,
+    "lat_min": -17.688929929,
+    "lat_max": -15.570594901000002
+  }
+}

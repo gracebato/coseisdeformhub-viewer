@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000455l",
+  "job_id": "m_62_4_km_se_of_aserrio_de_gariche_panama-A092",
+  "event_title": "M 6.2 - 4 km SE of Aserr\u00edo de Garich\u00e9, Panama",
+  "orbit": "ascending",
+  "track": "092",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_62_4_km_se_of_aserrio_de_gariche_panama/S1-COSEIS_SAR-A-R-092-tops-20190705_20190623-234802-00085W_00007N-PP-1c95-v1_0_0/S1-COSEIS_SAR-A-R-092-tops-20190705_20190623-234802-00085W_00007N-PP-1c95-v1_0_0.nc",
+  "stats": {
+    "min": -0.5830975770950317,
+    "max": -0.21957391500473022,
+    "mean": -0.3984588086605072,
+    "std": 0.07168927043676376
+  },
+  "bounds": {
+    "lon_min": -84.686904505,
+    "lon_max": -82.046624615,
+    "lat_min": 7.023292062999998,
+    "lat_max": 9.293293878999998
+  }
+}

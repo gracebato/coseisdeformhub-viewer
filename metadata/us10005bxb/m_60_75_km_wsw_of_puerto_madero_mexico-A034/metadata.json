@@ -1,0 +1,20 @@
+{
+  "event_id": "us10005bxb",
+  "job_id": "m_60_75_km_wsw_of_puerto_madero_mexico-A034",
+  "event_title": "M 6.0 - 75 km WSW of Puerto Madero, Mexico",
+  "orbit": "ascending",
+  "track": "034",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_60_75_km_wsw_of_puerto_madero_mexico/S1-COSEIS_SAR-A-R-034-tops-20160506_20160412-002218-00094W_00014N-PP-d89d-v1_0_0/S1-COSEIS_SAR-A-R-034-tops-20160506_20160412-002218-00094W_00014N-PP-d89d-v1_0_0.nc",
+  "stats": {
+    "min": 0.021496698260307312,
+    "max": 0.3284032940864563,
+    "mean": 0.14191848039627075,
+    "std": 0.045662831515073776
+  },
+  "bounds": {
+    "lon_min": -94.24579384100001,
+    "lon_max": -91.55329168700001,
+    "lat_min": 13.499124976999997,
+    "lat_max": 15.751626778999999
+  }
+}

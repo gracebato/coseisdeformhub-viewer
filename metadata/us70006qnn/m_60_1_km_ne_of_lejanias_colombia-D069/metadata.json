@@ -1,0 +1,20 @@
+{
+  "event_id": "us70006qnn",
+  "job_id": "m_60_1_km_ne_of_lejanias_colombia-D069",
+  "event_title": "M 6.0 - 1 km NE of Lejan\u00edas, Colombia",
+  "orbit": "descending",
+  "track": "069",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_60_1_km_ne_of_lejanias_colombia/S1-COSEIS_SAR-D-R-069-tops-20191225_20191213-104251-00076W_00002N-PP-c63d-v1_0_0/S1-COSEIS_SAR-D-R-069-tops-20191225_20191213-104251-00076W_00002N-PP-c63d-v1_0_0.nc",
+  "stats": {
+    "min": -0.09585388749837875,
+    "max": 0.0978761836886406,
+    "mean": 0.01900768280029297,
+    "std": 0.019901957362890244
+  },
+  "bounds": {
+    "lon_min": -76.09996039100001,
+    "lon_max": -73.16662471100001,
+    "lat_min": 1.837220003,
+    "lat_max": 5.392778403
+  }
+}

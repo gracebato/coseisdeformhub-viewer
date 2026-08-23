@@ -1,0 +1,20 @@
+{
+  "event_id": "us10008rtu",
+  "job_id": "m_62_78_km_ssw_of_acajutla_el_salvador-D128",
+  "event_title": "M 6.2 - 78 km SSW of Acajutla, El Salvador",
+  "orbit": "descending",
+  "track": "128",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_62_78_km_ssw_of_acajutla_el_salvador/S1-COSEIS_SAR-D-R-128-tops-20170519_20170507-114622-00090W_00013N-PP-d0fe-v1_0_0/S1-COSEIS_SAR-D-R-128-tops-20170519_20170507-114622-00090W_00013N-PP-d0fe-v1_0_0.nc",
+  "stats": {
+    "min": -0.1395454704761505,
+    "max": 0.04785749316215515,
+    "mean": -0.031829532235860825,
+    "std": 0.02824782021343708
+  },
+  "bounds": {
+    "lon_min": -90.407182859,
+    "lon_max": -87.77968075700001,
+    "lat_min": 12.640514778999998,
+    "lat_max": 14.331905020999999
+  }
+}

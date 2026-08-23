@@ -1,0 +1,20 @@
+{
+  "event_id": "us1000gc0k",
+  "job_id": "m_61_19_km_nnw_of_golfito_costa_rica-A092",
+  "event_title": "M 6.1 - 19 km NNW of Golfito, Costa Rica",
+  "orbit": "ascending",
+  "track": "092",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_61_19_km_nnw_of_golfito_costa_rica/S1-COSEIS_SAR-A-R-092-tops-20180827_20180815-234812-00085W_00007N-PP-fb2f-v1_0_0/S1-COSEIS_SAR-A-R-092-tops-20180827_20180815-234812-00085W_00007N-PP-fb2f-v1_0_0.nc",
+  "stats": {
+    "min": -0.7435787916183472,
+    "max": -0.5377625226974487,
+    "mean": -0.637653648853302,
+    "std": 0.031339131295681
+  },
+  "bounds": {
+    "lon_min": -85.029960335,
+    "lon_max": -82.046902393,
+    "lat_min": 7.023846018999999,
+    "lat_max": 10.792182366999999
+  }
+}

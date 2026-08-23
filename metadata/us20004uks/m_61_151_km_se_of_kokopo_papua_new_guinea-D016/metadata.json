@@ -1,0 +1,20 @@
+{
+  "event_id": "us20004uks",
+  "job_id": "m_61_151_km_se_of_kokopo_papua_new_guinea-D016",
+  "event_title": "M 6.1 - 151 km SE of Kokopo, Papua New Guinea",
+  "orbit": "descending",
+  "track": "016",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_61_151_km_se_of_kokopo_papua_new_guinea/S1-COSEIS_SAR-D-R-016-tops-20160210_20160117-193215-00150E_00007S-PP-4080-v1_0_0/S1-COSEIS_SAR-D-R-016-tops-20160210_20160117-193215-00150E_00007S-PP-4080-v1_0_0.nc",
+  "stats": {
+    "min": 0.28402620553970337,
+    "max": 1.2598742246627808,
+    "mean": 0.7380872964859009,
+    "std": 0.33351147174835205
+  },
+  "bounds": {
+    "lon_min": 150.26652879099998,
+    "lon_max": 153.26375341099998,
+    "lat_min": -7.361669045,
+    "lat_max": -3.782499515
+  }
+}

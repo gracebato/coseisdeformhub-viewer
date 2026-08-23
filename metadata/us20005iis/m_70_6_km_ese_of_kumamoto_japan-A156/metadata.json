@@ -1,0 +1,20 @@
+{
+  "event_id": "us20005iis",
+  "job_id": "m_70_6_km_ese_of_kumamoto_japan-A156",
+  "event_title": "M 7.0 - 6 km ESE of Kumamoto, Japan",
+  "orbit": "ascending",
+  "track": "156",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_70_6_km_ese_of_kumamoto_japan/S1-COSEIS_SAR-A-R-156-tops-20160420_20160408-091355-00130E_00031N-PP-43cb-v1_0_0/S1-COSEIS_SAR-A-R-156-tops-20160420_20160408-091355-00130E_00031N-PP-43cb-v1_0_0.nc",
+  "stats": {
+    "min": -0.45317018032073975,
+    "max": 0.7097005844116211,
+    "mean": 0.10922642052173615,
+    "std": 0.06258499622344971
+  },
+  "bounds": {
+    "lon_min": 130.053473065,
+    "lon_max": 133.487642479,
+    "lat_min": 30.625790945000002,
+    "lat_max": 34.330516131
+  }
+}

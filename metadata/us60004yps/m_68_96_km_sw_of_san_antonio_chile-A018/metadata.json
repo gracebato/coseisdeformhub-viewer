@@ -1,0 +1,20 @@
+{
+  "event_id": "us60004yps",
+  "job_id": "m_68_96_km_sw_of_san_antonio_chile-A018",
+  "event_title": "M 6.8 - 96 km SW of San Antonio, Chile",
+  "orbit": "ascending",
+  "track": "018",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_68_96_km_sw_of_san_antonio_chile/S1-COSEIS_SAR-A-R-018-tops-20190805_20190724-232819-00073W_00035S-PP-6b20-v1_0_0/S1-COSEIS_SAR-A-R-018-tops-20190805_20190724-232819-00073W_00035S-PP-6b20-v1_0_0.nc",
+  "stats": {
+    "min": -0.07193838804960251,
+    "max": 0.0857357457280159,
+    "mean": 0.0030272798612713814,
+    "std": 0.013175838626921177
+  },
+  "bounds": {
+    "lon_min": -72.84801654500001,
+    "lon_max": -69.078013529,
+    "lat_min": -35.184764459,
+    "lat_max": -31.603928261
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "event_id": "us1000hhb1",
+  "job_id": "m_68_32_km_sw_of_lithakia_greece-D153",
+  "event_title": "M 6.8 - 32 km SW of Lithaki\u00e1, Greece",
+  "orbit": "descending",
+  "track": "153",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_68_32_km_sw_of_lithakia_greece/S1-COSEIS_SAR-D-R-153-tops-20181031_20181019-044835-00017E_00036N-PP-f279-v1_0_0/S1-COSEIS_SAR-D-R-153-tops-20181031_20181019-044835-00017E_00036N-PP-f279-v1_0_0.nc",
+  "stats": {
+    "min": 0.09941305965185165,
+    "max": 0.32900017499923706,
+    "mean": 0.1859322488307953,
+    "std": 0.062029238790273666
+  },
+  "bounds": {
+    "lon_min": 17.005317470999998,
+    "lon_max": 20.329486796999998,
+    "lat_min": 36.312181183,
+    "lat_max": 38.125793745
+  }
+}

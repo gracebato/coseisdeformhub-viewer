@@ -1,0 +1,20 @@
+{
+  "event_id": "us10008sjn",
+  "job_id": "m_62_40_km_ene_of_rabaul_papua_new_guinea-D016",
+  "event_title": "M 6.2 - 40 km ENE of Rabaul, Papua New Guinea",
+  "orbit": "descending",
+  "track": "016",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_62_40_km_ene_of_rabaul_papua_new_guinea/S1-COSEIS_SAR-D-R-016-tops-20170523_20170511-193201-00151E_00006S-PP-79f6-v1_0_0/S1-COSEIS_SAR-D-R-016-tops-20170523_20170511-193201-00151E_00006S-PP-79f6-v1_0_0.nc",
+  "stats": {
+    "min": 0.6168646216392517,
+    "max": 2.5153517723083496,
+    "mean": 1.4741405248641968,
+    "std": 0.5336779952049255
+  },
+  "bounds": {
+    "lon_min": 150.562917117,
+    "lon_max": 153.58375286700002,
+    "lat_min": -6.028892801,
+    "lat_max": -2.286389807
+  }
+}

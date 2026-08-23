@@ -1,0 +1,20 @@
+{
+  "event_id": "us10002n4w",
+  "job_id": "m_64_57_km_wnw_of_zangguy_china-D136",
+  "event_title": "M 6.4 - 57 km WNW of Zangguy, China",
+  "orbit": "descending",
+  "track": "136",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_64_57_km_wnw_of_zangguy_china/S1-COSEIS_SAR-D-R-136-tops-20150718_20150624-004931-00077E_00036N-PP-5a01-v1_0_0/S1-COSEIS_SAR-D-R-136-tops-20150718_20150624-004931-00077E_00036N-PP-5a01-v1_0_0.nc",
+  "stats": {
+    "min": 0.02825084701180458,
+    "max": 0.5972114205360413,
+    "mean": 0.3822338879108429,
+    "std": 0.08478543162345886
+  },
+  "bounds": {
+    "lon_min": 76.600872703,
+    "lon_max": 80.22782004899999,
+    "lat_min": 35.687457661,
+    "lat_max": 39.151627099
+  }
+}

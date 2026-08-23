@@ -1,0 +1,20 @@
+{
+  "event_id": "us20008ixa",
+  "job_id": "m_65_11_km_n_of_mabua_philippines-D061",
+  "event_title": "M 6.5 - 11 km N of Mabua, Philippines",
+  "orbit": "descending",
+  "track": "061",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_65_11_km_n_of_mabua_philippines/S1-COSEIS_SAR-D-R-061-tops-20170219_20170207-213131-00123E_00008N-PP-490c-v1_0_0/S1-COSEIS_SAR-D-R-061-tops-20170219_20170207-213131-00123E_00008N-PP-490c-v1_0_0.nc",
+  "stats": {
+    "min": -0.671004056930542,
+    "max": -0.00559471920132637,
+    "mean": -0.1570805013179779,
+    "std": 0.17093858122825623
+  },
+  "bounds": {
+    "lon_min": 122.673750539,
+    "lon_max": 125.605697329,
+    "lat_min": 8.106901640999999,
+    "lat_max": 11.640515578999999
+  }
+}

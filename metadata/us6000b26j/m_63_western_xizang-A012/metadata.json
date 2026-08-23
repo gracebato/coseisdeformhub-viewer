@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000b26j",
+  "job_id": "m_63_western_xizang-A012",
+  "event_title": "M 6.3 - western Xizang",
+  "orbit": "ascending",
+  "track": "012",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_63_western_xizang/S1-COSEIS_SAR-A-R-012-tops-20200730_20200718-121530-00085E_00031N-PP-2588-v1_0_0/S1-COSEIS_SAR-A-R-012-tops-20200730_20200718-121530-00085E_00031N-PP-2588-v1_0_0.nc",
+  "stats": {
+    "min": -0.2810894548892975,
+    "max": 0.10376019775867462,
+    "mean": 0.02353106439113617,
+    "std": 0.016562242060899734
+  },
+  "bounds": {
+    "lon_min": 84.789761743,
+    "lon_max": 88.231708941,
+    "lat_min": 30.891346713000008,
+    "lat_max": 34.27023830500001
+  }
+}

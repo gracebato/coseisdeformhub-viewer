@@ -1,0 +1,20 @@
+{
+  "event_id": "us20004zp9",
+  "job_id": "m_63_94_km_w_of_waingapu_indonesia-D134",
+  "event_title": "M 6.3 - 94 km W of Waingapu, Indonesia",
+  "orbit": "descending",
+  "track": "134",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_63_94_km_w_of_waingapu_indonesia/S1-COSEIS_SAR-D-R-134-tops-20160301_20160206-214446-00117E_00010S-PP-1c52-v1_0_0/S1-COSEIS_SAR-D-R-134-tops-20160301_20160206-214446-00117E_00010S-PP-1c52-v1_0_0.nc",
+  "stats": {
+    "min": -0.20380741357803345,
+    "max": -0.04286976158618927,
+    "mean": -0.09972634166479111,
+    "std": 0.018134035170078278
+  },
+  "bounds": {
+    "lon_min": 116.805139533,
+    "lon_max": 119.521530595,
+    "lat_min": -9.609167643,
+    "lat_max": -7.521110417
+  }
+}

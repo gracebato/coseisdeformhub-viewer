@@ -1,0 +1,20 @@
+{
+  "event_id": "us200066x9",
+  "job_id": "m_64_92_km_e_of_kyzyleshme_kyrgyzstan-D107",
+  "event_title": "M 6.4 - 92 km E of Kyzyl-Eshme, Kyrgyzstan",
+  "orbit": "descending",
+  "track": "107",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_64_92_km_e_of_kyzyleshme_kyrgyzstan/S1-COSEIS_SAR-D-R-107-tops-20160710_20160616-010532-00073E_00038N-PP-0e5b-v1_0_0/S1-COSEIS_SAR-D-R-107-tops-20160710_20160616-010532-00073E_00038N-PP-0e5b-v1_0_0.nc",
+  "stats": {
+    "min": -0.4724067449569702,
+    "max": 0.14798106253147125,
+    "mean": 0.01280232984572649,
+    "std": 0.01747998595237732
+  },
+  "bounds": {
+    "lon_min": 72.88476181899999,
+    "lon_max": 76.57087587899998,
+    "lat_min": 37.69523544500001,
+    "lat_max": 41.15634932500001
+  }
+}

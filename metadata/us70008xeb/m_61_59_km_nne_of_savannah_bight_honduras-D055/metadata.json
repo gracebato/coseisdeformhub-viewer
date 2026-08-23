@@ -1,0 +1,20 @@
+{
+  "event_id": "us70008xeb",
+  "job_id": "m_61_59_km_nne_of_savannah_bight_honduras-D055",
+  "event_title": "M 6.1 - 59 km NNE of Savannah Bight, Honduras",
+  "orbit": "descending",
+  "track": "055",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_61_59_km_nne_of_savannah_bight_honduras/S1-COSEIS_SAR-D-R-055-tops-20200416_20200404-113735-00088W_00015N-PP-278c-v1_0_0/S1-COSEIS_SAR-D-R-055-tops-20200416_20200404-113735-00088W_00015N-PP-278c-v1_0_0.nc",
+  "stats": {
+    "min": 0.19532155990600586,
+    "max": 0.4720105230808258,
+    "mean": 0.4014861285686493,
+    "std": 0.03744516521692276
+  },
+  "bounds": {
+    "lon_min": -87.785793473,
+    "lon_max": -85.024402375,
+    "lat_min": 15.519402771,
+    "lat_max": 17.536071051
+  }
+}

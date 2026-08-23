@@ -1,0 +1,20 @@
+{
+  "event_id": "us60007anp",
+  "job_id": "m_60_104_km_ene_of_kashgar_china-A056",
+  "event_title": "M 6.0 - 104 km ENE of Kashgar, China",
+  "orbit": "ascending",
+  "track": "056",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_60_104_km_ene_of_kashgar_china/S1-COSEIS_SAR-A-R-056-tops-20200123_20200111-124204-00077E_00038N-PP-29a6-v1_0_0/S1-COSEIS_SAR-A-R-056-tops-20200123_20200111-124204-00077E_00038N-PP-29a6-v1_0_0.nc",
+  "stats": {
+    "min": -0.16056305170059204,
+    "max": 0.056368548423051834,
+    "mean": -0.027752308174967766,
+    "std": 0.00947924517095089
+  },
+  "bounds": {
+    "lon_min": 76.868928473,
+    "lon_max": 80.629764815,
+    "lat_min": 38.059680181000004,
+    "lat_max": 41.423571761000005
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "event_id": "us200050wc",
+  "job_id": "m_60_151_km_se_of_tobelo_indonesia-D119",
+  "event_title": "M 6.0 - 151 km SE of Tobelo, Indonesia",
+  "orbit": "descending",
+  "track": "119",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_60_151_km_se_of_tobelo_indonesia/S1-COSEIS_SAR-D-R-119-tops-20160312_20160124-210124-00129E_00002S-PP-8640-v1_0_0/S1-COSEIS_SAR-D-R-119-tops-20160312_20160124-210124-00129E_00002S-PP-8640-v1_0_0.nc",
+  "stats": {
+    "min": -0.32519811391830444,
+    "max": -0.018468063324689865,
+    "mean": -0.1294735074043274,
+    "std": 0.06343546509742737
+  },
+  "bounds": {
+    "lon_min": 128.835417335,
+    "lon_max": 131.57791952899998,
+    "lat_min": -1.764168567,
+    "lat_max": 0.632777795
+  }
+}

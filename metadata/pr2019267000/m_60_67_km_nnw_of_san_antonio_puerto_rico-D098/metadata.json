@@ -1,0 +1,20 @@
+{
+  "event_id": "pr2019267000",
+  "job_id": "m_60_67_km_nnw_of_san_antonio_puerto_rico-D098",
+  "event_title": "M 6.0 - 67 km NNW of San Antonio, Puerto Rico",
+  "orbit": "descending",
+  "track": "098",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_60_67_km_nnw_of_san_antonio_puerto_rico/S1-COSEIS_SAR-D-R-098-tops-20190928_20190916-102256-00069W_00017N-PP-37d2-v1_0_0/S1-COSEIS_SAR-D-R-098-tops-20190928_20190916-102256-00069W_00017N-PP-37d2-v1_0_0.nc",
+  "stats": {
+    "min": -0.6361811757087708,
+    "max": 0.037908561527729034,
+    "mean": -0.19279611110687256,
+    "std": 0.23891299962997437
+  },
+  "bounds": {
+    "lon_min": -68.955515831,
+    "lon_max": -65.924124517,
+    "lat_min": 17.003569825,
+    "lat_max": 20.513017077
+  }
+}

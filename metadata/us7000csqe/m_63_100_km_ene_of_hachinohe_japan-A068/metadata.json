@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000csqe",
+  "job_id": "m_63_100_km_ene_of_hachinohe_japan-A068",
+  "event_title": "M 6.3 - 100 km ENE of Hachinohe, Japan",
+  "orbit": "ascending",
+  "track": "068",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_63_100_km_ene_of_hachinohe_japan/S1-COSEIS_SAR-A-R-068-tops-20201231_20201219-082638-00140E_00039N-PP-66b6-v1_0_0/S1-COSEIS_SAR-A-R-068-tops-20201231_20201219-082638-00140E_00039N-PP-66b6-v1_0_0.nc",
+  "stats": {
+    "min": -0.04044453799724579,
+    "max": 0.7007033824920654,
+    "mean": 0.2427884340286255,
+    "std": 0.2187550812959671
+  },
+  "bounds": {
+    "lon_min": 140.422917005,
+    "lon_max": 144.20042002699998,
+    "lat_min": 38.872180031000006,
+    "lat_max": 42.39523840500001
+  }
+}

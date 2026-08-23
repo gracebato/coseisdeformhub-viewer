@@ -1,0 +1,20 @@
+{
+  "event_id": "us2000cl83",
+  "job_id": "m_63_79_km_nne_of_loreto_mexico-A020",
+  "event_title": "M 6.3 - 79 km NNE of Loreto, Mexico",
+  "orbit": "ascending",
+  "track": "020",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_63_79_km_nne_of_loreto_mexico/S1-COSEIS_SAR-A-R-020-tops-20180125_20180113-012250-00111W_00026N-PP-7128-v1_0_0/S1-COSEIS_SAR-A-R-020-tops-20180125_20180113-012250-00111W_00026N-PP-7128-v1_0_0.nc",
+  "stats": {
+    "min": 0.025991380214691162,
+    "max": 0.1894277185201645,
+    "mean": 0.12884095311164856,
+    "std": 0.012312453240156174
+  },
+  "bounds": {
+    "lon_min": -111.243471617,
+    "lon_max": -108.288747031,
+    "lat_min": 25.997736487,
+    "lat_max": 27.895238005
+  }
+}

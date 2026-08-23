@@ -1,0 +1,20 @@
+{
+  "event_id": "us1000dym9",
+  "job_id": "m_61_64_km_nnw_of_pandan_philippines-A069",
+  "event_title": "M 6.1 - 64 km NNW of Pandan, Philippines",
+  "orbit": "ascending",
+  "track": "069",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_61_64_km_nnw_of_pandan_philippines/S1-COSEIS_SAR-A-R-069-tops-20180516_20180504-095747-00122E_00012N-PP-4f05-v1_0_0/S1-COSEIS_SAR-A-R-069-tops-20180516_20180504-095747-00122E_00012N-PP-4f05-v1_0_0.nc",
+  "stats": {
+    "min": -0.08066938072443008,
+    "max": 0.1994212120771408,
+    "mean": 0.08213229477405548,
+    "std": 0.0203249529004097
+  },
+  "bounds": {
+    "lon_min": 121.665694977,
+    "lon_max": 124.65736403700001,
+    "lat_min": 12.586346468999999,
+    "lat_max": 16.006349205
+  }
+}

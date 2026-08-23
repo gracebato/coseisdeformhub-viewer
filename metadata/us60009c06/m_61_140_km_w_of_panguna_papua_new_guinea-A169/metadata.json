@@ -1,0 +1,20 @@
+{
+  "event_id": "us60009c06",
+  "job_id": "m_61_140_km_w_of_panguna_papua_new_guinea-A169",
+  "event_title": "M 6.1 - 140 km W of Panguna, Papua New Guinea",
+  "orbit": "ascending",
+  "track": "169",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_61_140_km_w_of_panguna_papua_new_guinea/S1-COSEIS_SAR-A-R-169-tops-20200506_20200424-080603-00153E_00007S-PP-a819-v1_0_0/S1-COSEIS_SAR-A-R-169-tops-20200506_20200424-080603-00153E_00007S-PP-a819-v1_0_0.nc",
+  "stats": {
+    "min": -0.5396385788917542,
+    "max": -0.08711301535367966,
+    "mean": -0.4100058972835541,
+    "std": 0.09820564836263657
+  },
+  "bounds": {
+    "lon_min": 152.858750687,
+    "lon_max": 155.513475033,
+    "lat_min": -7.380279371,
+    "lat_max": -5.065833075
+  }
+}

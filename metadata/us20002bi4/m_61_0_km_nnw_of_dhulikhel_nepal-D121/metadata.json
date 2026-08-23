@@ -1,0 +1,20 @@
+{
+  "event_id": "us20002bi4",
+  "job_id": "m_61_0_km_nnw_of_dhulikhel_nepal-D121",
+  "event_title": "M 6.1 - 0 km NNW of Dhulikhel, Nepal",
+  "orbit": "descending",
+  "track": "121",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_61_0_km_nnw_of_dhulikhel_nepal/S1-COSEIS_SAR-D-R-121-tops-20150506_20150424-001058-00085E_00026N-PP-0ea4-v1_0_0/S1-COSEIS_SAR-D-R-121-tops-20150506_20150424-001058-00085E_00026N-PP-0ea4-v1_0_0.nc",
+  "stats": {
+    "min": -0.3381897211074829,
+    "max": 0.6959022879600525,
+    "mean": -0.15378639101982117,
+    "std": 0.07735633850097656
+  },
+  "bounds": {
+    "lon_min": 84.989761903,
+    "lon_max": 87.985042077,
+    "lat_min": 26.224403335,
+    "lat_max": 28.219960487
+  }
+}

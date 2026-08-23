@@ -1,0 +1,20 @@
+{
+  "event_id": "us2000a7q2",
+  "job_id": "m_64_71_km_w_of_bengkulu_indonesia-D091",
+  "event_title": "M 6.4 - 71 km W of Bengkulu, Indonesia",
+  "orbit": "descending",
+  "track": "091",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_64_71_km_w_of_bengkulu_indonesia/S1-COSEIS_SAR-D-R-091-tops-20170901_20170808-225734-00100E_00004S-PP-b583-v1_0_0/S1-COSEIS_SAR-D-R-091-tops-20170901_20170808-225734-00100E_00004S-PP-b583-v1_0_0.nc",
+  "stats": {
+    "min": -0.1354541927576065,
+    "max": 0.19578421115875244,
+    "mean": 0.0310404933989048,
+    "std": 0.09153983741998672
+  },
+  "bounds": {
+    "lon_min": 99.531983759,
+    "lon_max": 102.153930301,
+    "lat_min": -4.099446813,
+    "lat_max": -2.191389731
+  }
+}

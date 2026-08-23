@@ -1,0 +1,20 @@
+{
+  "event_id": "us10008ei0",
+  "job_id": "m_61_61_km_nnw_of_torbate_jm_iran-A086",
+  "event_title": "M 6.1 - 61 km NNW of Torbat-e J?m, Iran",
+  "orbit": "ascending",
+  "track": "086",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_61_61_km_nnw_of_torbate_jm_iran/S1-COSEIS_SAR-A-R-086-tops-20170410_20170329-140259-00057E_00034N-PP-5c64-v1_0_0/S1-COSEIS_SAR-A-R-086-tops-20170410_20170329-140259-00057E_00034N-PP-5c64-v1_0_0.nc",
+  "stats": {
+    "min": -0.07580624520778656,
+    "max": 0.13480831682682037,
+    "mean": 0.0008604367030784488,
+    "std": 0.024553310126066208
+  },
+  "bounds": {
+    "lon_min": 57.246706552999996,
+    "lon_max": 60.817542743,
+    "lat_min": 34.271068439000004,
+    "lat_max": 37.641348913
+  }
+}

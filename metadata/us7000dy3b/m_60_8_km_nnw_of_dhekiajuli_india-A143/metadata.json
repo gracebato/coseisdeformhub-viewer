@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000dy3b",
+  "job_id": "m_60_8_km_nnw_of_dhekiajuli_india-A143",
+  "event_title": "M 6.0 - 8 km NNW of Dhekiajuli, India",
+  "orbit": "ascending",
+  "track": "143",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_60_8_km_nnw_of_dhekiajuli_india/S1-COSEIS_SAR-A-R-143-tops-20210429_20210417-114919-00092E_00025N-PP-2baa-v1_0_0/S1-COSEIS_SAR-A-R-143-tops-20210429_20210417-114919-00092E_00025N-PP-2baa-v1_0_0.nc",
+  "stats": {
+    "min": -0.07726224511861801,
+    "max": 0.42176514863967896,
+    "mean": 0.08703506737947464,
+    "std": 0.09756676107645035
+  },
+  "bounds": {
+    "lon_min": 92.188650951,
+    "lon_max": 95.456709121,
+    "lat_min": 25.475513047000003,
+    "lat_max": 28.866904649000002
+  }
+}

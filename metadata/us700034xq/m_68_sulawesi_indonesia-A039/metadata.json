@@ -1,0 +1,20 @@
+{
+  "event_id": "us700034xq",
+  "job_id": "m_68_sulawesi_indonesia-A039",
+  "event_title": "M 6.8 - Sulawesi, Indonesia",
+  "orbit": "ascending",
+  "track": "039",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_68_sulawesi_indonesia/S1-COSEIS_SAR-A-R-039-tops-20190415_20190403-100949-00121E_00004S-PP-eef3-v1_0_0/S1-COSEIS_SAR-A-R-039-tops-20190415_20190403-100949-00121E_00004S-PP-eef3-v1_0_0.nc",
+  "stats": {
+    "min": -0.1162981316447258,
+    "max": 0.07121145725250244,
+    "mean": -0.03168395534157753,
+    "std": 0.023147422820329666
+  },
+  "bounds": {
+    "lon_min": 120.937084083,
+    "lon_max": 123.897642007,
+    "lat_min": -3.778336045,
+    "lat_max": -0.310555493
+  }
+}

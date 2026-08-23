@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000dker",
+  "job_id": "m_60_21_km_nne_of_bejaia_algeria-D139",
+  "event_title": "M 6.0 - 21 km NNE of Beja\u00efa, Algeria",
+  "orbit": "descending",
+  "track": "139",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_60_21_km_nne_of_bejaia_algeria/S1-COSEIS_SAR-D-R-139-tops-20210318_20210312-054543-00003E_00036N-PP-d7ff-v1_0_0/S1-COSEIS_SAR-D-R-139-tops-20210318_20210312-054543-00003E_00036N-PP-d7ff-v1_0_0.nc",
+  "stats": {
+    "min": -0.11859167367219925,
+    "max": 0.35670006275177,
+    "mean": -0.03474951162934303,
+    "std": 0.012806186452507973
+  },
+  "bounds": {
+    "lon_min": 2.554999333,
+    "lon_max": 5.862501979,
+    "lat_min": 35.980515051000005,
+    "lat_max": 37.965794417000005
+  }
+}

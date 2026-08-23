@@ -1,0 +1,20 @@
+{
+  "event_id": "ak018aap2cqu",
+  "job_id": "m_64_89_km_sw_of_kaktovik_alaska-A050",
+  "event_title": "M 6.4 - 89 km SW of Kaktovik, Alaska",
+  "orbit": "ascending",
+  "track": "050",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_64_89_km_sw_of_kaktovik_alaska/S1-COSEIS_SAR-A-R-050-tops-20180831_20180720-025708-00148W_00068N-PP-6bb4-v1_0_0/S1-COSEIS_SAR-A-R-050-tops-20180831_20180720-025708-00148W_00068N-PP-6bb4-v1_0_0.nc",
+  "stats": {
+    "min": -0.1601632684469223,
+    "max": 0.17140106856822968,
+    "mean": -0.028926996514201164,
+    "std": 0.017101706936955452
+  },
+  "bounds": {
+    "lon_min": -147.668471157,
+    "lon_max": -139.26151998699999,
+    "lat_min": 67.589402827,
+    "lat_max": 71.159683461
+  }
+}

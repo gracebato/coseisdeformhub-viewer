@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000ah9t",
+  "job_id": "m_74_9_km_se_of_santa_maria_xadani_mexico-A107",
+  "event_title": "M 7.4 - 9 km SE of Santa Mar\u00eda Xadani, Mexico",
+  "orbit": "ascending",
+  "track": "107",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_74_9_km_se_of_santa_maria_xadani_mexico/S1-COSEIS_SAR-A-R-107-tops-20200625_20200619-003041-00097W_00015N-PP-35f2-v1_0_0/S1-COSEIS_SAR-A-R-107-tops-20200625_20200619-003041-00097W_00015N-PP-35f2-v1_0_0.nc",
+  "stats": {
+    "min": -0.5950121879577637,
+    "max": 0.11679879575967789,
+    "mean": -0.4503280520439148,
+    "std": 0.07260432094335556
+  },
+  "bounds": {
+    "lon_min": -96.552738531,
+    "lon_max": -93.909125305,
+    "lat_min": 15.044680969,
+    "lat_max": 16.794682369
+  }
+}

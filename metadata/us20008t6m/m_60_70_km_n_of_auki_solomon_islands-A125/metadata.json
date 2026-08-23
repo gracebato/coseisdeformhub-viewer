@@ -1,0 +1,20 @@
+{
+  "event_id": "us20008t6m",
+  "job_id": "m_60_70_km_n_of_auki_solomon_islands-A125",
+  "event_title": "M 6.0 - 70 km N of Auki, Solomon Islands",
+  "orbit": "ascending",
+  "track": "125",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_60_70_km_n_of_auki_solomon_islands/S1-COSEIS_SAR-A-R-125-tops-20170326_20170314-073940-00159E_00010S-PP-f24e-v1_0_0/S1-COSEIS_SAR-A-R-125-tops-20170326_20170314-073940-00159E_00010S-PP-f24e-v1_0_0.nc",
+  "stats": {
+    "min": 0.11627014726400375,
+    "max": 0.7791997194290161,
+    "mean": 0.4326357841491699,
+    "std": 0.1869128942489624
+  },
+  "bounds": {
+    "lon_min": 159.444583689,
+    "lon_max": 162.34041933900002,
+    "lat_min": -10.238612590999999,
+    "lat_max": -6.919165490999999
+  }
+}

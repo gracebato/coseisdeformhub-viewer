@@ -1,0 +1,20 @@
+{
+  "event_id": "us10001nj1",
+  "job_id": "m_62_75_km_nw_of_tome_chile-D156",
+  "event_title": "M 6.2 - 75 km NW of Tom\u00e9, Chile",
+  "orbit": "descending",
+  "track": "156",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_62_75_km_nw_of_tome_chile/S1-COSEIS_SAR-D-R-156-tops-20150402_20150309-100440-00075W_00038S-PP-dc2a-v1_0_0/S1-COSEIS_SAR-D-R-156-tops-20150402_20150309-100440-00075W_00038S-PP-dc2a-v1_0_0.nc",
+  "stats": {
+    "min": -0.18181602656841278,
+    "max": 0.12459447979927063,
+    "mean": -0.0008693383424542844,
+    "std": 0.0505288764834404
+  },
+  "bounds": {
+    "lon_min": -74.611072711,
+    "lon_max": -70.56273613900001,
+    "lat_min": -37.844209430999996,
+    "lat_max": -34.28865103099999
+  }
+}

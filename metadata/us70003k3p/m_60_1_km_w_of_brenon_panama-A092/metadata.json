@@ -1,0 +1,20 @@
+{
+  "event_id": "us70003k3p",
+  "job_id": "m_60_1_km_w_of_brenon_panama-A092",
+  "event_title": "M 6.0 - 1 km W of Bre\u00f1\u00f3n, Panama",
+  "orbit": "ascending",
+  "track": "092",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_60_1_km_w_of_brenon_panama/S1-COSEIS_SAR-A-R-092-tops-20190518_20190506-234812-00085W_00007N-PP-2e37-v1_0_0/S1-COSEIS_SAR-A-R-092-tops-20190518_20190506-234812-00085W_00007N-PP-2e37-v1_0_0.nc",
+  "stats": {
+    "min": -0.35652270913124084,
+    "max": 0.15215584635734558,
+    "mean": -0.19834326207637787,
+    "std": 0.09690088778734207
+  },
+  "bounds": {
+    "lon_min": -85.03023811300001,
+    "lon_max": -82.04718017100001,
+    "lat_min": 7.022457128999999,
+    "lat_max": 10.791349033
+  }
+}

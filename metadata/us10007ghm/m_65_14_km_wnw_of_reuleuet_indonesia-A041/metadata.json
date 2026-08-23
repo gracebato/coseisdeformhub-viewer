@@ -1,0 +1,20 @@
+{
+  "event_id": "us10007ghm",
+  "job_id": "m_65_14_km_wnw_of_reuleuet_indonesia-A041",
+  "event_title": "M 6.5 - 14 km WNW of Reuleuet, Indonesia",
+  "orbit": "ascending",
+  "track": "041",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_65_14_km_wnw_of_reuleuet_indonesia/S1-COSEIS_SAR-A-R-041-tops-20161220_20161126-115059-00095E_00003N-PP-e62d-v1_0_0/S1-COSEIS_SAR-A-R-041-tops-20161220_20161126-115059-00095E_00003N-PP-e62d-v1_0_0.nc",
+  "stats": {
+    "min": -1.2218844890594482,
+    "max": -0.2240198701620102,
+    "mean": -0.8778747320175171,
+    "std": 0.3246300518512726
+  },
+  "bounds": {
+    "lon_min": 94.856149885,
+    "lon_max": 97.690041041,
+    "lat_min": 3.239998103,
+    "lat_max": 6.519167393
+  }
+}

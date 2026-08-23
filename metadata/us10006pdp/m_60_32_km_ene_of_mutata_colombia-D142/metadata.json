@@ -1,0 +1,20 @@
+{
+  "event_id": "us10006pdp",
+  "job_id": "m_60_32_km_ene_of_mutata_colombia-D142",
+  "event_title": "M 6.0 - 32 km ENE of Mutat\u00e1, Colombia",
+  "orbit": "descending",
+  "track": "142",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_60_32_km_ene_of_mutata_colombia/S1-COSEIS_SAR-D-R-142-tops-20160922_20160829-105029-00077W_00005N-PP-b093-v1_0_0/S1-COSEIS_SAR-D-R-142-tops-20160922_20160829-105029-00077W_00005N-PP-b093-v1_0_0.nc",
+  "stats": {
+    "min": -0.2891762852668762,
+    "max": -0.019687838852405548,
+    "mean": -0.08662239462137222,
+    "std": 0.02172347716987133
+  },
+  "bounds": {
+    "lon_min": -77.40051618700001,
+    "lon_max": -74.476902737,
+    "lat_min": 5.462735258999999,
+    "lat_max": 9.004126980999999
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "event_id": "us10008w1z",
+  "job_id": "m_66_37_km_wnw_of_poso_indonesia-D061",
+  "event_title": "M 6.6 - 37 km WNW of Poso, Indonesia",
+  "orbit": "descending",
+  "track": "061",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_66_37_km_wnw_of_poso_indonesia/S1-COSEIS_SAR-D-R-061-tops-20170607_20170526-213442-00121E_00002S-PP-cf33-v1_0_0/S1-COSEIS_SAR-D-R-061-tops-20170607_20170526-213442-00121E_00002S-PP-cf33-v1_0_0.nc",
+  "stats": {
+    "min": -0.9569206237792969,
+    "max": -0.008081600069999695,
+    "mean": -0.4750714898109436,
+    "std": 0.2719298303127289
+  },
+  "bounds": {
+    "lon_min": 120.492639283,
+    "lon_max": 123.118752495,
+    "lat_min": -2.404168279,
+    "lat_max": -0.3330555109999999
+  }
+}

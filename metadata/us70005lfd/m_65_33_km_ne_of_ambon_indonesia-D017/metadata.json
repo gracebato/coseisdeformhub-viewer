@@ -1,0 +1,20 @@
+{
+  "event_id": "us70005lfd",
+  "job_id": "m_65_33_km_ne_of_ambon_indonesia-D017",
+  "event_title": "M 6.5 - 33 km NE of Ambon, Indonesia",
+  "orbit": "descending",
+  "track": "017",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_65_33_km_ne_of_ambon_indonesia/S1-COSEIS_SAR-D-R-017-tops-20191016_20190922-211053-00126E_00005S-PP-4198-v1_0_0/S1-COSEIS_SAR-D-R-017-tops-20191016_20190922-211053-00126E_00005S-PP-4198-v1_0_0.nc",
+  "stats": {
+    "min": 0.4989643096923828,
+    "max": 1.170823097229004,
+    "mean": 0.8673851490020752,
+    "std": 0.18879744410514832
+  },
+  "bounds": {
+    "lon_min": 126.039306387,
+    "lon_max": 129.00875320699998,
+    "lat_min": -5.208614367,
+    "lat_max": -1.630278171
+  }
+}

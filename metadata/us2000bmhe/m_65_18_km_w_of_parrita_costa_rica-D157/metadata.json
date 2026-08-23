@@ -1,0 +1,20 @@
+{
+  "event_id": "us2000bmhe",
+  "job_id": "m_65_18_km_w_of_parrita_costa_rica-D157",
+  "event_title": "M 6.5 - 18 km W of Parrita, Costa Rica",
+  "orbit": "descending",
+  "track": "157",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_65_18_km_w_of_parrita_costa_rica/S1-COSEIS_SAR-D-R-157-tops-20171117_20171105-113053-00087W_00009N-PP-461f-v1_0_0/S1-COSEIS_SAR-D-R-157-tops-20171117_20171105-113053-00087W_00009N-PP-461f-v1_0_0.nc",
+  "stats": {
+    "min": -0.0770784243941307,
+    "max": 0.07894778251647949,
+    "mean": -0.015022899955511093,
+    "std": 0.0179462730884552
+  },
+  "bounds": {
+    "lon_min": -87.082738155,
+    "lon_max": -84.148291363,
+    "lat_min": 8.619957607,
+    "lat_max": 11.986349189
+  }
+}

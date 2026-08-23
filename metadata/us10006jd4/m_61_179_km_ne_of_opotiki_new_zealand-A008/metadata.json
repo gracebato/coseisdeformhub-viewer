@@ -1,0 +1,20 @@
+{
+  "event_id": "us10006jd4",
+  "job_id": "m_61_179_km_ne_of_opotiki_new_zealand-A008",
+  "event_title": "M 6.1 - 179 km NE of Opotiki, New Zealand",
+  "orbit": "ascending",
+  "track": "008",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_61_179_km_ne_of_opotiki_new_zealand/S1-COSEIS_SAR-A-R-008-tops-20160913_20160820-065926-00176E_00039S-PP-0a7f-v1_0_0/S1-COSEIS_SAR-A-R-008-tops-20160913_20160820-065926-00176E_00039S-PP-0a7f-v1_0_0.nc",
+  "stats": {
+    "min": -0.08386823534965515,
+    "max": 0.0747746154665947,
+    "mean": 0.00022017832088749856,
+    "std": 0.009814954362809658
+  },
+  "bounds": {
+    "lon_min": 175.635694953,
+    "lon_max": 179.051531019,
+    "lat_min": -38.734207743,
+    "lat_max": -36.449761470999995
+  }
+}

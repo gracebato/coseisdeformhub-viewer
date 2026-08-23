@@ -1,0 +1,20 @@
+{
+  "event_id": "us1000725y",
+  "job_id": "m_61_2_km_nnw_of_visso_italy-A117",
+  "event_title": "M 6.1 - 2 km NNW of Visso, Italy",
+  "orbit": "ascending",
+  "track": "117",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_61_2_km_nnw_of_visso_italy/S1-COSEIS_SAR-A-R-117-tops-20161101_20161026-170511-00010E_00041N-PP-a688-v1_0_0/S1-COSEIS_SAR-A-R-117-tops-20161101_20161026-170511-00010E_00041N-PP-a688-v1_0_0.nc",
+  "stats": {
+    "min": -0.3495649993419647,
+    "max": 0.4048615097999573,
+    "mean": 0.052005209028720856,
+    "std": 0.02633654512465
+  },
+  "bounds": {
+    "lon_min": 10.313611051,
+    "lon_max": 14.198891937,
+    "lat_min": 40.949402315,
+    "lat_max": 44.303293887
+  }
+}

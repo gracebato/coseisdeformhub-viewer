@@ -1,0 +1,20 @@
+{
+  "event_id": "us70007jwn",
+  "job_id": "m_60_109_km_sse_of_pondaguitan_philippines-A171",
+  "event_title": "M 6.0 - 109 km SSE of Pondaguitan, Philippines",
+  "orbit": "ascending",
+  "track": "171",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_60_109_km_sse_of_pondaguitan_philippines/S1-COSEIS_SAR-A-R-171-tops-20200218_20200206-094728-00126E_00005N-PP-4288-v1_0_0/S1-COSEIS_SAR-A-R-171-tops-20200218_20200206-094728-00126E_00005N-PP-4288-v1_0_0.nc",
+  "stats": {
+    "min": 0.6803920865058899,
+    "max": 0.8448134064674377,
+    "mean": 0.7865508794784546,
+    "std": 0.014286523684859276
+  },
+  "bounds": {
+    "lon_min": 125.562361561,
+    "lon_max": 128.194308111,
+    "lat_min": 4.972220911,
+    "lat_max": 7.248333843
+  }
+}

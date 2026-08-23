@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000d3i9",
+  "job_id": "m_67_146_km_wnw_of_corral_chile-A164",
+  "event_title": "M 6.7 - 146 km WNW of Corral, Chile",
+  "orbit": "ascending",
+  "track": "164",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_67_146_km_wnw_of_corral_chile/S1-COSEIS_SAR-A-R-164-tops-20201231_20201225-234316-00075W_00040S-PP-34a6-v1_0_0/S1-COSEIS_SAR-A-R-164-tops-20201231_20201225-234316-00075W_00040S-PP-34a6-v1_0_0.nc",
+  "stats": {
+    "min": 0.019864335656166077,
+    "max": 0.20715360343456268,
+    "mean": 0.09696350991725922,
+    "std": 0.021457180380821228
+  },
+  "bounds": {
+    "lon_min": -74.769128393,
+    "lon_max": -71.239681125,
+    "lat_min": -40.165041421,
+    "lat_max": -38.024206375
+  }
+}

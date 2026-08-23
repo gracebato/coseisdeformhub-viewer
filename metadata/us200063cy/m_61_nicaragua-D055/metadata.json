@@ -1,0 +1,20 @@
+{
+  "event_id": "us200063cy",
+  "job_id": "m_61_nicaragua-D055",
+  "event_title": "M 6.1 - Nicaragua",
+  "orbit": "descending",
+  "track": "055",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_61_nicaragua/S1-COSEIS_SAR-D-R-055-tops-20160612_20160519-113808-00089W_00011N-PP-8594-v1_0_0/S1-COSEIS_SAR-D-R-055-tops-20160612_20160519-113808-00089W_00011N-PP-8594-v1_0_0.nc",
+  "stats": {
+    "min": -0.12808705866336823,
+    "max": 0.12951892614364624,
+    "mean": -0.038016851991415024,
+    "std": 0.033984798938035965
+  },
+  "bounds": {
+    "lon_min": -88.600238569,
+    "lon_max": -85.541625011,
+    "lat_min": 11.349679613,
+    "lat_max": 15.040793677
+  }
+}

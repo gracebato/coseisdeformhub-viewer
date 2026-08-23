@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000645n",
+  "job_id": "m_66_10_km_ne_of_columbio_philippines-D061",
+  "event_title": "M 6.6 - 10 km NE of Columbio, Philippines",
+  "orbit": "descending",
+  "track": "061",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_66_10_km_ne_of_columbio_philippines/S1-COSEIS_SAR-D-R-061-tops-20191031_20191019-213244-00122E_00005N-PP-196d-v1_0_0/S1-COSEIS_SAR-D-R-061-tops-20191031_20191019-213244-00122E_00005N-PP-196d-v1_0_0.nc",
+  "stats": {
+    "min": -0.04429047554731369,
+    "max": 0.11414692550897598,
+    "mean": 0.026274969801306725,
+    "std": 0.029027896001935005
+  },
+  "bounds": {
+    "lon_min": 122.053750843,
+    "lon_max": 124.988475413,
+    "lat_min": 5.1030127489999995,
+    "lat_max": 8.649126697
+  }
+}

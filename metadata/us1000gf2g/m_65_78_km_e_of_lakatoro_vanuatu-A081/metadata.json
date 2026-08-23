@@ -1,0 +1,20 @@
+{
+  "event_id": "us1000gf2g",
+  "job_id": "m_65_78_km_e_of_lakatoro_vanuatu-A081",
+  "event_title": "M 6.5 - 78 km E of Lakatoro, Vanuatu",
+  "orbit": "ascending",
+  "track": "081",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_65_78_km_e_of_lakatoro_vanuatu/S1-COSEIS_SAR-A-R-081-tops-20180827_20180815-071349-00167E_00018S-PP-5871-v1_0_0/S1-COSEIS_SAR-A-R-081-tops-20180827_20180815-071349-00167E_00018S-PP-5871-v1_0_0.nc",
+  "stats": {
+    "min": -0.012126392684876919,
+    "max": 0.633397102355957,
+    "mean": 0.3163268566131592,
+    "std": 0.22592070698738098
+  },
+  "bounds": {
+    "lon_min": 167.290139921,
+    "lon_max": 170.44014244099998,
+    "lat_min": -17.916431711,
+    "lat_max": -14.403928901
+  }
+}

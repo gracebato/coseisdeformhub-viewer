@@ -1,0 +1,20 @@
+{
+  "event_id": "us2000c3mi",
+  "job_id": "m_60_63_km_nne_of_kerman_iran-D093",
+  "event_title": "M 6.0 - 63 km NNE of Kerman, Iran",
+  "orbit": "descending",
+  "track": "093",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_60_63_km_nne_of_kerman_iran/S1-COSEIS_SAR-D-R-093-tops-20171213_20171207-020457-00057E_00030N-PP-0722-v1_0_0/S1-COSEIS_SAR-D-R-093-tops-20171213_20171207-020457-00057E_00030N-PP-0722-v1_0_0.nc",
+  "stats": {
+    "min": -0.18012581765651703,
+    "max": 0.8213496804237366,
+    "mean": -0.040860287845134735,
+    "std": 0.016362393274903297
+  },
+  "bounds": {
+    "lon_min": 56.927261853,
+    "lon_max": 59.996708753,
+    "lat_min": 29.889403067000003,
+    "lat_max": 31.871626875000004
+  }
+}

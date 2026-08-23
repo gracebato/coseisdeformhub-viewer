@@ -1,0 +1,20 @@
+{
+  "event_id": "us2000bmcg",
+  "job_id": "m_73_29_km_s_of_alabja_iraq-D006",
+  "event_title": "M 7.3 - 29 km S of ?alabja, Iraq",
+  "orbit": "descending",
+  "track": "006",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_73_29_km_s_of_alabja_iraq/S1-COSEIS_SAR-D-R-006-tops-20171119_20171107-025401-00045E_00034N-PP-4977-v1_0_0/S1-COSEIS_SAR-D-R-006-tops-20171119_20171107-025401-00045E_00034N-PP-4977-v1_0_0.nc",
+  "stats": {
+    "min": -0.3757256865501404,
+    "max": 0.5629733800888062,
+    "mean": 0.02505742572247982,
+    "std": 0.06902934610843658
+  },
+  "bounds": {
+    "lon_min": 45.320039945,
+    "lon_max": 48.466431351,
+    "lat_min": 33.591625851,
+    "lat_max": 35.570238545
+  }
+}

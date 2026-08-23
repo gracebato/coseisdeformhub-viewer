@@ -1,0 +1,20 @@
+{
+  "event_id": "us1000gii0",
+  "job_id": "m_62_92_km_se_of_kupang_indonesia-D090",
+  "event_title": "M 6.2 - 92 km SE of Kupang, Indonesia",
+  "orbit": "descending",
+  "track": "090",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_62_92_km_se_of_kupang_indonesia/S1-COSEIS_SAR-D-R-090-tops-20180908_20180827-212048-00123E_00012S-PP-308f-v1_0_0/S1-COSEIS_SAR-D-R-090-tops-20180908_20180827-212048-00123E_00012S-PP-308f-v1_0_0.nc",
+  "stats": {
+    "min": -0.5708829164505005,
+    "max": 0.22122400999069214,
+    "mean": 0.02997210994362831,
+    "std": 0.09587396681308746
+  },
+  "bounds": {
+    "lon_min": 122.554028221,
+    "lon_max": 125.503752803,
+    "lat_min": -11.419724647,
+    "lat_max": -8.322777725
+  }
+}

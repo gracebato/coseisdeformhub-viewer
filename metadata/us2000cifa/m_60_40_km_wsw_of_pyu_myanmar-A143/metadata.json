@@ -1,0 +1,20 @@
+{
+  "event_id": "us2000cifa",
+  "job_id": "m_60_40_km_wsw_of_pyu_myanmar-A143",
+  "event_title": "M 6.0 - 40 km WSW of Pyu, Myanmar",
+  "orbit": "ascending",
+  "track": "143",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_60_40_km_wsw_of_pyu_myanmar/S1-COSEIS_SAR-A-R-143-tops-20180115_20180103-114629-00094E_00016N-PP-f663-v1_0_0/S1-COSEIS_SAR-A-R-143-tops-20180115_20180103-114629-00094E_00016N-PP-f663-v1_0_0.nc",
+  "stats": {
+    "min": -0.0739416554570198,
+    "max": 0.18833887577056885,
+    "mean": 0.0684257298707962,
+    "std": 0.04142327606678009
+  },
+  "bounds": {
+    "lon_min": 94.11226200099999,
+    "lon_max": 97.18976446299999,
+    "lat_min": 16.312179583,
+    "lat_max": 19.895238005
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "event_id": "us2000h8ty",
+  "job_id": "m_66_27_km_ese_of_chitose_japan-A068",
+  "event_title": "M 6.6 - 27 km ESE of Chitose, Japan",
+  "orbit": "ascending",
+  "track": "068",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_66_27_km_ese_of_chitose_japan/S1-COSEIS_SAR-A-R-068-tops-20180913_20180901-082700-00140E_00041N-PP-c8b7-v1_0_0/S1-COSEIS_SAR-A-R-068-tops-20180913_20180901-082700-00140E_00041N-PP-c8b7-v1_0_0.nc",
+  "stats": {
+    "min": -0.23584555089473724,
+    "max": 0.021002836525440216,
+    "mean": -0.12747284770011902,
+    "std": 0.028186265379190445
+  },
+  "bounds": {
+    "lon_min": 139.896250717,
+    "lon_max": 143.78569827299998,
+    "lat_min": 40.86134668900001,
+    "lat_max": 44.38079394900001
+  }
+}

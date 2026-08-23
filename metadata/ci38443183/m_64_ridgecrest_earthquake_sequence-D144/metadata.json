@@ -1,0 +1,20 @@
+{
+  "event_id": "ci38443183",
+  "job_id": "m_64_ridgecrest_earthquake_sequence-D144",
+  "event_title": "M 6.4 - Ridgecrest Earthquake Sequence",
+  "orbit": "descending",
+  "track": "144",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_64_ridgecrest_earthquake_sequence/S1-COSEIS_SAR-D-R-144-tops-20190709_20190627-140013-00121W_00035N-PP-446a-v1_0_0/S1-COSEIS_SAR-D-R-144-tops-20190709_20190627-140013-00121W_00035N-PP-446a-v1_0_0.nc",
+  "stats": {
+    "min": -0.09656543284654617,
+    "max": 0.07779602706432343,
+    "mean": 0.003198358928784728,
+    "std": 0.020581340417265892
+  },
+  "bounds": {
+    "lon_min": -120.98458252100001,
+    "lon_max": -117.75707993900001,
+    "lat_min": 35.258292251,
+    "lat_max": 37.236627167
+  }
+}

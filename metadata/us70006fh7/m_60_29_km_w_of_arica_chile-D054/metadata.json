@@ -1,0 +1,20 @@
+{
+  "event_id": "us70006fh7",
+  "job_id": "m_60_29_km_w_of_arica_chile-D054",
+  "event_title": "M 6.0 - 29 km W of Arica, Chile",
+  "orbit": "descending",
+  "track": "054",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_60_29_km_w_of_arica_chile/S1-COSEIS_SAR-D-R-054-tops-20191206_20191130-100835-00071W_00020S-PP-7898-v1_0_0/S1-COSEIS_SAR-D-R-054-tops-20191206_20191130-100835-00071W_00020S-PP-7898-v1_0_0.nc",
+  "stats": {
+    "min": -0.0956229418516159,
+    "max": 0.3209267258644104,
+    "mean": 0.0047232042998075485,
+    "std": 0.024259531870484352
+  },
+  "bounds": {
+    "lon_min": -70.824960171,
+    "lon_max": -67.989124569,
+    "lat_min": -19.787263341,
+    "lat_max": -17.658372748999998
+  }
+}

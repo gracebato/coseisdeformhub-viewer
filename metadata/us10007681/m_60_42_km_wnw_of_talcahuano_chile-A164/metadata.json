@@ -1,0 +1,20 @@
+{
+  "event_id": "us10007681",
+  "job_id": "m_60_42_km_wnw_of_talcahuano_chile-A164",
+  "event_title": "M 6.0 - 42 km WNW of Talcahuano, Chile",
+  "orbit": "ascending",
+  "track": "164",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_60_42_km_wnw_of_talcahuano_chile/S1-COSEIS_SAR-A-R-164-tops-20161110_20161017-234317-00075W_00039S-PP-cd42-v1_0_0/S1-COSEIS_SAR-A-R-164-tops-20161110_20161017-234317-00075W_00039S-PP-cd42-v1_0_0.nc",
+  "stats": {
+    "min": -0.438355952501297,
+    "max": -0.31199076771736145,
+    "mean": -0.3775078356266022,
+    "std": 0.011916955932974815
+  },
+  "bounds": {
+    "lon_min": -75.23107320700001,
+    "lon_max": -71.83968160500001,
+    "lat_min": -38.692818820999996,
+    "lat_max": -36.563650450999994
+  }
+}

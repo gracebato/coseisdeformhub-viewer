@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000crcq",
+  "job_id": "m_61_100_km_nw_of_constitucion_chile-D156",
+  "event_title": "M 6.1 - 100 km NW of Constituci\u00f3n, Chile",
+  "orbit": "descending",
+  "track": "156",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_61_100_km_nw_of_constitucion_chile/S1-COSEIS_SAR-D-R-156-tops-20201201_20201119-100415-00074W_00036S-PP-d80a-v1_0_0/S1-COSEIS_SAR-D-R-156-tops-20201201_20201119-100415-00074W_00036S-PP-d80a-v1_0_0.nc",
+  "stats": {
+    "min": -0.02829570136964321,
+    "max": 0.3183903694152832,
+    "mean": 0.037833403795957565,
+    "std": 0.018868185579776764
+  },
+  "bounds": {
+    "lon_min": -73.804683177,
+    "lon_max": -70.336347069,
+    "lat_min": -35.879485637,
+    "lat_max": -33.636706065
+  }
+}

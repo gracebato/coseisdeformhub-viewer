@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000d7ix",
+  "job_id": "m_67_29_km_ssw_of_turt_mongolia-D004",
+  "event_title": "M 6.7 - 29 km SSW of Turt, Mongolia",
+  "orbit": "descending",
+  "track": "004",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_67_29_km_ssw_of_turt_mongolia/S1-COSEIS_SAR-D-R-004-tops-20210119_20210107-233127-00098E_00050N-PP-22f7-v1_0_0/S1-COSEIS_SAR-D-R-004-tops-20210119_20210107-233127-00098E_00050N-PP-22f7-v1_0_0.nc",
+  "stats": {
+    "min": -0.25125232338905334,
+    "max": 0.05639497935771942,
+    "mean": -0.02771127223968506,
+    "std": 0.016116341575980186
+  },
+  "bounds": {
+    "lon_min": 98.02132859499999,
+    "lon_max": 102.68466565899999,
+    "lat_min": 49.67940209900001,
+    "lat_max": 52.96829361900001
+  }
+}

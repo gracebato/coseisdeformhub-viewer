@@ -1,0 +1,20 @@
+{
+  "event_id": "us10008kce",
+  "job_id": "m_69_40_km_w_of_valparaiso_chile-D156",
+  "event_title": "M 6.9 - 40 km W of Valpara\u00edso, Chile",
+  "orbit": "descending",
+  "track": "156",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_69_40_km_w_of_valparaiso_chile/S1-COSEIS_SAR-D-R-156-tops-20170427_20170421-100358-00073W_00035S-PP-cbc1-v1_0_0/S1-COSEIS_SAR-D-R-156-tops-20170427_20170421-100358-00073W_00035S-PP-cbc1-v1_0_0.nc",
+  "stats": {
+    "min": -0.054632946848869324,
+    "max": 0.24088510870933533,
+    "mean": 0.11182384192943573,
+    "std": 0.04143965616822243
+  },
+  "bounds": {
+    "lon_min": -73.346072499,
+    "lon_max": -69.86773638300001,
+    "lat_min": -34.706430743,
+    "lat_max": -31.852817349
+  }
+}

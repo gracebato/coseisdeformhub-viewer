@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000abmk",
+  "job_id": "m_63_278_km_se_of_hotan_china-D092",
+  "event_title": "M 6.3 - 278 km SE of Hotan, China",
+  "orbit": "descending",
+  "track": "092",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_63_278_km_se_of_hotan_china/S1-COSEIS_SAR-D-R-092-tops-20200706_20200624-002509-00082E_00034N-PP-3226-v1_0_0/S1-COSEIS_SAR-D-R-092-tops-20200706_20200624-002509-00082E_00034N-PP-3226-v1_0_0.nc",
+  "stats": {
+    "min": -0.10573462396860123,
+    "max": 0.08312270045280457,
+    "mean": 0.007978643290698528,
+    "std": 0.017553048208355904
+  },
+  "bounds": {
+    "lon_min": 82.41615033299999,
+    "lon_max": 85.920875359,
+    "lat_min": 33.89079115700001,
+    "lat_max": 37.35884948700001
+  }
+}

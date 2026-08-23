@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000e54r",
+  "job_id": "m_73_southern_qinghai_china-D033",
+  "event_title": "M 7.3 - Southern Qinghai, China",
+  "orbit": "descending",
+  "track": "033",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_73_southern_qinghai_china/S1-COSEIS_SAR-D-R-033-tops-20210527_20210515-232024-00099E_00033N-PP-e3eb-v1_0_0/S1-COSEIS_SAR-D-R-033-tops-20210527_20210515-232024-00099E_00033N-PP-e3eb-v1_0_0.nc",
+  "stats": {
+    "min": -0.24627509713172913,
+    "max": 0.9933913350105286,
+    "mean": -0.004770818166434765,
+    "std": 0.05971183255314827
+  },
+  "bounds": {
+    "lon_min": 98.778928401,
+    "lon_max": 101.934764259,
+    "lat_min": 33.431347945000006,
+    "lat_max": 35.413016197000005
+  }
+}

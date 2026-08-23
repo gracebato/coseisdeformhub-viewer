@@ -878,14 +878,20 @@
         // scripts/build_static_catalog.py + scripts/generate_pngs_from_catalog.py)
         // are actually hosted -- e.g. an S3 bucket or CloudFront distribution.
         const DEFORMHUB_CONFIG = {
-            catalogUrl: 'https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/deformhub-viewer/catalog.json',
-            dataBaseUrl: 'https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/deformhub-viewer/pngs',
+            // catalog.json and per-dataset metadata.json are loaded via fetch(),
+            // which requires CORS -- hosted here on GitHub Pages since it sends
+            // permissive CORS headers by default.
+            catalogUrl: 'https://gracebato.github.io/deformhub-viewer/catalog.json',
+            metadataBaseUrl: 'https://gracebato.github.io/deformhub-viewer/metadata',
+            // PNGs are loaded via plain <img> tags, which don't need CORS, so
+            // these can stay on the production data host.
+            imageBaseUrl: 'https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/deformhub-viewer/pngs',
         };
         let fullCatalog = null;  // populated once from catalogUrl, reused for all lookups
 
         function plotUrl(eventId, datasetId, type, overlay) {
             const filename = (type === 'wrapped' && overlay) ? 'wrapped_overlay.png' : `${type}.png`;
-            return `${DEFORMHUB_CONFIG.dataBaseUrl}/${eventId}/${datasetId}/${filename}`;
+            return `${DEFORMHUB_CONFIG.imageBaseUrl}/${eventId}/${datasetId}/${filename}`;
         }
 
         // Global state
@@ -1376,7 +1382,7 @@
         // Load data bounds for map overlay
         async function loadStats() {
             try {
-                const metadataUrl = `${DEFORMHUB_CONFIG.dataBaseUrl}/${currentEventId}/${currentDatasetId}/metadata.json`;
+                const metadataUrl = `${DEFORMHUB_CONFIG.metadataBaseUrl}/${currentEventId}/${currentDatasetId}/metadata.json`;
                 const response = await fetch(metadataUrl);
                 if (!response.ok) {
                     console.error('Error loading stats: metadata not found at', metadataUrl);

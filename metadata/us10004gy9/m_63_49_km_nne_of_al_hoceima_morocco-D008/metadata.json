@@ -1,0 +1,20 @@
+{
+  "event_id": "us10004gy9",
+  "job_id": "m_63_49_km_nne_of_al_hoceima_morocco-D008",
+  "event_title": "M 6.3 - 49 km NNE of Al Hoce\u00efma, Morocco",
+  "orbit": "descending",
+  "track": "008",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_63_49_km_nne_of_al_hoceima_morocco/S1-COSEIS_SAR-D-R-008-tops-20160129_20160117-061056-00004W_00034N-PP-679e-v1_0_0/S1-COSEIS_SAR-D-R-008-tops-20160129_20160117-061056-00004W_00034N-PP-679e-v1_0_0.nc",
+  "stats": {
+    "min": -0.08702408522367477,
+    "max": 1.3094600439071655,
+    "mean": 0.984639048576355,
+    "std": 0.5233758687973022
+  },
+  "bounds": {
+    "lon_min": -4.0061114270000004,
+    "lon_max": -0.42805300900000054,
+    "lat_min": 34.065791297000004,
+    "lat_max": 37.372738387000005
+  }
+}

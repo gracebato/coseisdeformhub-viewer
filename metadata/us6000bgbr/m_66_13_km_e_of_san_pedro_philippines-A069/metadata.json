@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000bgbr",
+  "job_id": "m_66_13_km_e_of_san_pedro_philippines-A069",
+  "event_title": "M 6.6 - 13 km E of San Pedro, Philippines",
+  "orbit": "ascending",
+  "track": "069",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_66_13_km_e_of_san_pedro_philippines/S1-COSEIS_SAR-A-R-069-tops-20200821_20200815-095727-00122E_00011N-PP-df2e-v1_0_0/S1-COSEIS_SAR-A-R-069-tops-20200821_20200815-095727-00122E_00011N-PP-df2e-v1_0_0.nc",
+  "stats": {
+    "min": -0.37880074977874756,
+    "max": 0.09900380671024323,
+    "mean": -0.14995333552360535,
+    "std": 0.10203946381807327
+  },
+  "bounds": {
+    "lon_min": 122.284306583,
+    "lon_max": 124.952642051,
+    "lat_min": 11.084958778999999,
+    "lat_max": 13.010793652999999
+  }
+}

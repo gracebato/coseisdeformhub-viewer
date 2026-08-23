@@ -1,0 +1,20 @@
+{
+  "event_id": "us200029bt",
+  "job_id": "m_67_21_km_sse_of_kodri_nepal-A085",
+  "event_title": "M 6.7 - 21 km SSE of Kod?ri??, Nepal",
+  "orbit": "ascending",
+  "track": "085",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_67_21_km_sse_of_kodri_nepal/S1-COSEIS_SAR-A-R-085-tops-20150503_20150409-122144-00084E_00026N-PP-9eff-v1_0_0/S1-COSEIS_SAR-A-R-085-tops-20150503_20150409-122144-00084E_00026N-PP-9eff-v1_0_0.nc",
+  "stats": {
+    "min": -0.16741828620433807,
+    "max": 0.37788745760917664,
+    "mean": 0.06952109932899475,
+    "std": 0.0727471187710762
+  },
+  "bounds": {
+    "lon_min": 83.861706245,
+    "lon_max": 86.979764295,
+    "lat_min": 26.445791601,
+    "lat_max": 29.330793909
+  }
+}

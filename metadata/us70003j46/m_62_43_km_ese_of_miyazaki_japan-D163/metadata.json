@@ -1,0 +1,20 @@
+{
+  "event_id": "us70003j46",
+  "job_id": "m_62_43_km_ese_of_miyazaki_japan-D163",
+  "event_title": "M 6.2 - 43 km ESE of Miyazaki, Japan",
+  "orbit": "descending",
+  "track": "163",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_62_43_km_ese_of_miyazaki_japan/S1-COSEIS_SAR-D-R-163-tops-20190511_20190429-211726-00129E_00030N-PP-1737-v1_0_0/S1-COSEIS_SAR-D-R-163-tops-20190511_20190429-211726-00129E_00030N-PP-1737-v1_0_0.nc",
+  "stats": {
+    "min": 0.30971473455429077,
+    "max": 0.7535252571105957,
+    "mean": 0.5239808559417725,
+    "std": 0.07998592406511307
+  },
+  "bounds": {
+    "lon_min": 129.013750811,
+    "lon_max": 132.411531307,
+    "lat_min": 30.213846171000004,
+    "lat_max": 33.689682285
+  }
+}

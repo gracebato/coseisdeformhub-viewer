@@ -1,0 +1,20 @@
+{
+  "event_id": "us20002ejl",
+  "job_id": "m_73_nepal-A012",
+  "event_title": "M 7.3 - Nepal",
+  "orbit": "ascending",
+  "track": "012",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_73_nepal/S1-COSEIS_SAR-A-R-012-tops-20150522_20150428-121333-00086E_00026N-PP-f06b-v1_0_0/S1-COSEIS_SAR-A-R-012-tops-20150522_20150428-121333-00086E_00026N-PP-f06b-v1_0_0.nc",
+  "stats": {
+    "min": -0.3950437009334564,
+    "max": 0.10276107490062714,
+    "mean": -0.23520320653915405,
+    "std": 0.09461769461631775
+  },
+  "bounds": {
+    "lon_min": 85.892817381,
+    "lon_max": 89.143097759,
+    "lat_min": 25.901346721,
+    "lat_max": 29.452460673
+  }
+}

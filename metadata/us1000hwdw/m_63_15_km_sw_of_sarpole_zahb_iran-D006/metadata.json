@@ -1,0 +1,20 @@
+{
+  "event_id": "us1000hwdw",
+  "job_id": "m_63_15_km_sw_of_sarpole_zahb_iran-D006",
+  "event_title": "M 6.3 - 15 km SW of Sarpol-e Z?ah?b, Iran",
+  "orbit": "descending",
+  "track": "006",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_63_15_km_sw_of_sarpole_zahb_iran/S1-COSEIS_SAR-D-R-006-tops-20181126_20181120-025420-00045E_00032N-PP-66eb-v1_0_0/S1-COSEIS_SAR-D-R-006-tops-20181126_20181120-025420-00045E_00032N-PP-66eb-v1_0_0.nc",
+  "stats": {
+    "min": -0.10339370369911194,
+    "max": 0.07353272289037704,
+    "mean": -0.01719840057194233,
+    "std": 0.015741446986794472
+  },
+  "bounds": {
+    "lon_min": 45.090595316999995,
+    "lon_max": 48.466709128999995,
+    "lat_min": 32.428847143000006,
+    "lat_max": 35.569960767000005
+  }
+}

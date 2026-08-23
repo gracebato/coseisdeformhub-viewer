@@ -1,0 +1,20 @@
+{
+  "event_id": "us20007z2r",
+  "job_id": "m_60_58_km_sse_of_shihezi_china-D019",
+  "event_title": "M 6.0 - 58 km SSE of Shihezi, China",
+  "orbit": "descending",
+  "track": "019",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_60_58_km_sse_of_shihezi_china/S1-COSEIS_SAR-D-R-019-tops-20161225_20161201-001426-00086E_00042N-PP-0275-v1_0_0/S1-COSEIS_SAR-D-R-019-tops-20161225_20161201-001426-00086E_00042N-PP-0275-v1_0_0.nc",
+  "stats": {
+    "min": -0.07701581716537476,
+    "max": 0.1636800318956375,
+    "mean": 0.013094429858028889,
+    "std": 0.024165140464901924
+  },
+  "bounds": {
+    "lon_min": 86.020873039,
+    "lon_max": 89.97254286699999,
+    "lat_min": 41.56023533700001,
+    "lat_max": 45.01996032700001
+  }
+}

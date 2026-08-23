@@ -1,0 +1,20 @@
+{
+  "event_id": "us1000ha6q",
+  "job_id": "m_60_49_km_ne_of_panji_indonesia-D105",
+  "event_title": "M 6.0 - 49 km NE of Panji, Indonesia",
+  "orbit": "descending",
+  "track": "105",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_60_49_km_ne_of_panji_indonesia/S1-COSEIS_SAR-D-R-105-tops-20181015_20181003-220118-00113E_00009S-PP-5845-v1_0_0/S1-COSEIS_SAR-D-R-105-tops-20181015_20181003-220118-00113E_00009S-PP-5845-v1_0_0.nc",
+  "stats": {
+    "min": -0.7032514214515686,
+    "max": 0.026156827807426453,
+    "mean": -0.5116843581199646,
+    "std": 0.14331573247909546
+  },
+  "bounds": {
+    "lon_min": 112.957639655,
+    "lon_max": 115.65625292499999,
+    "lat_min": -8.602500971,
+    "lat_max": -6.5108326309999995
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "event_id": "us10007b88",
+  "job_id": "m_69_35_km_ese_of_namie_japan-D046",
+  "event_title": "M 6.9 - 35 km ESE of Namie, Japan",
+  "orbit": "descending",
+  "track": "046",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_69_35_km_ese_of_namie_japan/S1-COSEIS_SAR-D-R-046-tops-20161208_20161114-204240-00139E_00036N-PP-f89f-v1_0_0/S1-COSEIS_SAR-D-R-046-tops-20161208_20161114-204240-00139E_00036N-PP-f89f-v1_0_0.nc",
+  "stats": {
+    "min": -0.059067122638225555,
+    "max": 0.18924745917320251,
+    "mean": 0.033698901534080505,
+    "std": 0.029057061299681664
+  },
+  "bounds": {
+    "lon_min": 138.424028117,
+    "lon_max": 142.04125323300002,
+    "lat_min": 36.266346213000006,
+    "lat_max": 39.730515651000005
+  }
+}

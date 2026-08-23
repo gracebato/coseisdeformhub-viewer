@@ -1,0 +1,20 @@
+{
+  "event_id": "us20005bbh",
+  "job_id": "m_64_216_km_s_of_ustkamchatsk_staryy_russia-D162",
+  "event_title": "M 6.4 - 216 km S of Ust\u2019-Kamchatsk Staryy, Russia",
+  "orbit": "descending",
+  "track": "162",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_64_216_km_s_of_ustkamchatsk_staryy_russia/S1-COSEIS_SAR-D-R-162-tops-20160408_20160315-193156-00159E_00054N-PP-034e-v1_0_0/S1-COSEIS_SAR-D-R-162-tops-20160408_20160315-193156-00159E_00054N-PP-034e-v1_0_0.nc",
+  "stats": {
+    "min": -0.4028783440589905,
+    "max": -0.12878020107746124,
+    "mean": -0.29930058121681213,
+    "std": 0.035245366394519806
+  },
+  "bounds": {
+    "lon_min": 158.835417335,
+    "lon_max": 163.44347657699998,
+    "lat_min": 54.232736675000005,
+    "lat_max": 56.196349357
+  }
+}

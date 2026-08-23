@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000biqb",
+  "job_id": "m_63_40_km_nw_of_ovalle_chile-A120",
+  "event_title": "M 6.3 - 40 km NW of Ovalle, Chile",
+  "orbit": "ascending",
+  "track": "120",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_63_40_km_nw_of_ovalle_chile/S1-COSEIS_SAR-A-R-120-tops-20200917_20200905-232028-00072W_00031S-PP-6269-v1_0_0/S1-COSEIS_SAR-A-R-120-tops-20200917_20200905-232028-00072W_00031S-PP-6269-v1_0_0.nc",
+  "stats": {
+    "min": -0.15179234743118286,
+    "max": 0.07779373973608017,
+    "mean": -0.0059568812139332294,
+    "std": 0.013989096507430077
+  },
+  "bounds": {
+    "lon_min": -71.626627479,
+    "lon_max": -68.49912497700001,
+    "lat_min": -31.183374769,
+    "lat_max": -28.936428527
+  }
+}

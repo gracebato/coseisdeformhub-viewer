@@ -1,0 +1,20 @@
+{
+  "event_id": "us10006g7d",
+  "job_id": "m_62_5_km_wnw_of_accumoli_italy-A117",
+  "event_title": "M 6.2 - 5 km WNW of Accumoli, Italy",
+  "orbit": "ascending",
+  "track": "117",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_62_5_km_wnw_of_accumoli_italy/S1-COSEIS_SAR-A-R-117-tops-20160908_20160821-170553-00010E_00041N-PP-a4af-v1_0_0/S1-COSEIS_SAR-A-R-117-tops-20160908_20160821-170553-00010E_00041N-PP-a4af-v1_0_0.nc",
+  "stats": {
+    "min": -0.5018047094345093,
+    "max": -0.1479087918996811,
+    "mean": -0.2937283217906952,
+    "std": 0.03302023932337761
+  },
+  "bounds": {
+    "lon_min": 10.291388811000001,
+    "lon_max": 14.224725291,
+    "lat_min": 40.947180091,
+    "lat_max": 44.308571669
+  }
+}

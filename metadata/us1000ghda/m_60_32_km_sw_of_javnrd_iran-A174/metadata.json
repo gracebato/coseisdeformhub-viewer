@@ -1,0 +1,20 @@
+{
+  "event_id": "us1000ghda",
+  "job_id": "m_60_32_km_sw_of_javnrd_iran-A174",
+  "event_title": "M 6.0 - 32 km SW of Jav?nr?d, Iran",
+  "orbit": "ascending",
+  "track": "174",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_60_32_km_sw_of_javnrd_iran/S1-COSEIS_SAR-A-R-174-tops-20180827_20180821-145133-00045E_00033N-PP-e5d1-v1_0_0/S1-COSEIS_SAR-A-R-174-tops-20180827_20180821-145133-00045E_00033N-PP-e5d1-v1_0_0.nc",
+  "stats": {
+    "min": -0.07114972174167633,
+    "max": 0.12162601202726364,
+    "mean": 0.013910396955907345,
+    "std": 0.027254946529865265
+  },
+  "bounds": {
+    "lon_min": 45.188928729,
+    "lon_max": 48.646709273,
+    "lat_min": 33.168846935000005,
+    "lat_max": 36.536627407000005
+  }
+}

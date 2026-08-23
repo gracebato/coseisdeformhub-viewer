@@ -1,0 +1,20 @@
+{
+  "event_id": "us20009ly0",
+  "job_id": "m_63_5_km_s_of_plomari_greece-A029",
+  "event_title": "M 6.3 - 5 km S of Plom\u00e1ri, Greece",
+  "orbit": "ascending",
+  "track": "029",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_63_5_km_s_of_plomari_greece/S1-COSEIS_SAR-A-R-029-tops-20170617_20170611-161519-00024E_00036N-PP-273f-v1_0_0/S1-COSEIS_SAR-A-R-029-tops-20170617_20170611-161519-00024E_00036N-PP-273f-v1_0_0.nc",
+  "stats": {
+    "min": -0.12970107793807983,
+    "max": 1.8020960092544556,
+    "mean": 1.131141185760498,
+    "std": 0.4867997467517853
+  },
+  "bounds": {
+    "lon_min": 23.816706209,
+    "lon_max": 27.485875811,
+    "lat_min": 36.577735351,
+    "lat_max": 39.783849027
+  }
+}

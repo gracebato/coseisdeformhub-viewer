@@ -1,0 +1,20 @@
+{
+  "event_id": "us20003j4u",
+  "job_id": "m_67_95_km_sw_of_topolobampo_mexico-A093",
+  "event_title": "M 6.7 - 95 km SW of Topolobampo, Mexico",
+  "orbit": "ascending",
+  "track": "093",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_67_95_km_sw_of_topolobampo_mexico/S1-COSEIS_SAR-A-R-093-tops-20151007_20150913-013042-00113W_00023N-PP-0447-v1_0_0/S1-COSEIS_SAR-A-R-093-tops-20151007_20150913-013042-00113W_00023N-PP-0447-v1_0_0.nc",
+  "stats": {
+    "min": 0.7019152045249939,
+    "max": 0.9319588541984558,
+    "mean": 0.8062179088592529,
+    "std": 0.030188176780939102
+  },
+  "bounds": {
+    "lon_min": -112.589027449,
+    "lon_max": -109.747636287,
+    "lat_min": 22.546069459,
+    "lat_max": 24.777182355
+  }
+}

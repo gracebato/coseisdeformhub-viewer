@@ -1,0 +1,20 @@
+{
+  "event_id": "us2000atjv",
+  "job_id": "m_61_7_km_nne_of_ixtepec_mexico-A107",
+  "event_title": "M 6.1 - 7 km NNE of Ixtepec, Mexico",
+  "orbit": "ascending",
+  "track": "107",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_61_7_km_nne_of_ixtepec_mexico/S1-COSEIS_SAR-A-R-107-tops-20171003_20170921-003033-00097W_00014N-PP-8c66-v1_0_0/S1-COSEIS_SAR-A-R-107-tops-20171003_20170921-003033-00097W_00014N-PP-8c66-v1_0_0.nc",
+  "stats": {
+    "min": -0.15986114740371704,
+    "max": 0.07363718003034592,
+    "mean": -0.0404762402176857,
+    "std": 0.0194949172437191
+  },
+  "bounds": {
+    "lon_min": -96.795515703,
+    "lon_max": -93.78023551300001,
+    "lat_min": 14.378290747000001,
+    "lat_max": 17.960238057
+  }
+}

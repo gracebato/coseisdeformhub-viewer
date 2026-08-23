@@ -1,0 +1,20 @@
+{
+  "event_id": "us20009ynd",
+  "job_id": "m_66_11_km_ene_of_kos_greece-A029",
+  "event_title": "M 6.6 - 11 km ENE of Kos, Greece",
+  "orbit": "ascending",
+  "track": "029",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_66_11_km_ene_of_kos_greece/S1-COSEIS_SAR-A-R-029-tops-20170723_20170717-161456-00024E_00035N-PP-e197-v1_0_0/S1-COSEIS_SAR-A-R-029-tops-20170723_20170717-161456-00024E_00035N-PP-e197-v1_0_0.nc",
+  "stats": {
+    "min": -0.4231207072734833,
+    "max": 1.1887785196304321,
+    "mean": 0.45343470573425293,
+    "std": 0.4248811900615692
+  },
+  "bounds": {
+    "lon_min": 24.189762063,
+    "lon_max": 27.786153829,
+    "lat_min": 35.084680201000005,
+    "lat_max": 38.292738323
+  }
+}

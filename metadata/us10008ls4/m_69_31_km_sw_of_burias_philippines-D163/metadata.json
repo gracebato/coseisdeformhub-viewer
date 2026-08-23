@@ -1,0 +1,20 @@
+{
+  "event_id": "us10008ls4",
+  "job_id": "m_69_31_km_sw_of_burias_philippines-D163",
+  "event_title": "M 6.9 - 31 km SW of Burias, Philippines",
+  "orbit": "descending",
+  "track": "163",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_69_31_km_sw_of_burias_philippines/S1-COSEIS_SAR-D-R-163-tops-20170509_20170427-212427-00124E_00004N-PP-6477-v1_0_0/S1-COSEIS_SAR-D-R-163-tops-20170509_20170427-212427-00124E_00004N-PP-6477-v1_0_0.nc",
+  "stats": {
+    "min": -0.7984997034072876,
+    "max": -0.23478524386882782,
+    "mean": -0.6589391231536865,
+    "std": 0.1034688949584961
+  },
+  "bounds": {
+    "lon_min": 123.893195159,
+    "lon_max": 126.827086395,
+    "lat_min": 4.0424971450000005,
+    "lat_max": 7.591944429000001
+  }
+}

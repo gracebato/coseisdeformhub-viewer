@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000c7y0",
+  "job_id": "m_70_13_km_nne_of_neon_karlovasion_greece-A029",
+  "event_title": "M 7.0 - 13 km NNE of N\u00e9on Karlov\u00e1sion, Greece",
+  "orbit": "ascending",
+  "track": "029",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_70_13_km_nne_of_neon_karlovasion_greece/S1-COSEIS_SAR-A-R-029-tops-20201104_20201029-161531-00024E_00036N-PP-b6c3-v1_0_0/S1-COSEIS_SAR-A-R-029-tops-20201104_20201029-161531-00024E_00036N-PP-b6c3-v1_0_0.nc",
+  "stats": {
+    "min": -0.1734156310558319,
+    "max": 0.25243237614631653,
+    "mean": 0.039705175906419754,
+    "std": 0.08282049745321274
+  },
+  "bounds": {
+    "lon_min": 24.187817617,
+    "lon_max": 27.486153589,
+    "lat_min": 36.577736951000006,
+    "lat_max": 38.29218276700001
+  }
+}

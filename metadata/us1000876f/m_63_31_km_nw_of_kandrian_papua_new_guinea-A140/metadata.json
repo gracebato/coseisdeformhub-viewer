@@ -1,0 +1,20 @@
+{
+  "event_id": "us1000876f",
+  "job_id": "m_63_31_km_nw_of_kandrian_papua_new_guinea-A140",
+  "event_title": "M 6.3 - 31 km NW of Kandrian, Papua New Guinea",
+  "orbit": "ascending",
+  "track": "140",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_63_31_km_nw_of_kandrian_papua_new_guinea/S1-COSEIS_SAR-A-R-140-tops-20170309_20170225-082211-00149E_00008S-PP-cd34-v1_0_0/S1-COSEIS_SAR-A-R-140-tops-20170309_20170225-082211-00149E_00008S-PP-cd34-v1_0_0.nc",
+  "stats": {
+    "min": 0.7496628165245056,
+    "max": 1.7058223485946655,
+    "mean": 1.4866955280303955,
+    "std": 0.27061375975608826
+  },
+  "bounds": {
+    "lon_min": 148.570694901,
+    "lon_max": 151.558197291,
+    "lat_min": -7.893891693,
+    "lat_max": -4.249722111
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "event_id": "us60006rem",
+  "job_id": "m_60_56_km_sse_of_sola_vanuatu-D059",
+  "event_title": "M 6.0 - 56 km SSE of Sola, Vanuatu",
+  "orbit": "descending",
+  "track": "059",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_60_56_km_sse_of_sola_vanuatu/S1-COSEIS_SAR-D-R-059-tops-20191224_20191212-182034-00167E_00016S-PP-3a72-v1_0_0/S1-COSEIS_SAR-D-R-059-tops-20191224_20191212-182034-00167E_00016S-PP-3a72-v1_0_0.nc",
+  "stats": {
+    "min": -0.03096907213330269,
+    "max": 0.18580232560634613,
+    "mean": 0.0733044445514679,
+    "std": 0.03984064236283302
+  },
+  "bounds": {
+    "lon_min": 166.684306103,
+    "lon_max": 169.48319723100002,
+    "lat_min": -16.027263533,
+    "lat_max": -13.916150733
+  }
+}

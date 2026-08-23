@@ -1,0 +1,20 @@
+{
+  "event_id": "us20004z5b",
+  "job_id": "m_63_37_km_w_of_ovalle_chile-A120",
+  "event_title": "M 6.3 - 37 km W of Ovalle, Chile",
+  "orbit": "ascending",
+  "track": "120",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_63_37_km_w_of_ovalle_chile/S1-COSEIS_SAR-A-R-120-tops-20160217_20160124-232033-00072W_00032S-PP-70ca-v1_0_0/S1-COSEIS_SAR-A-R-120-tops-20160217_20160124-232033-00072W_00032S-PP-70ca-v1_0_0.nc",
+  "stats": {
+    "min": -0.08535273373126984,
+    "max": 0.21133610606193542,
+    "mean": 0.0541984997689724,
+    "std": 0.054791152477264404
+  },
+  "bounds": {
+    "lon_min": -71.761905365,
+    "lon_max": -68.13495801900001,
+    "lat_min": -32.004487337,
+    "lat_max": -28.434484481
+  }
+}

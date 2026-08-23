@@ -1,0 +1,20 @@
+{
+  "event_id": "us600050if",
+  "job_id": "m_63_61_km_ene_of_namie_japan-A068",
+  "event_title": "M 6.3 - 61 km ENE of Namie, Japan",
+  "orbit": "ascending",
+  "track": "068",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_63_61_km_ene_of_namie_japan/S1-COSEIS_SAR-A-R-068-tops-20190815_20190803-082553-00141E_00037N-PP-da38-v1_0_0/S1-COSEIS_SAR-A-R-068-tops-20190815_20190803-082553-00141E_00037N-PP-da38-v1_0_0.nc",
+  "stats": {
+    "min": -0.14434021711349487,
+    "max": -0.015764081850647926,
+    "mean": -0.0797601044178009,
+    "std": 0.014216389507055283
+  },
+  "bounds": {
+    "lon_min": 141.230417651,
+    "lon_max": 144.539864743,
+    "lat_min": 37.213569993,
+    "lat_max": 39.414682865
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "event_id": "us100086x7",
+  "job_id": "m_61_115_km_sse_of_panguna_papua_new_guinea-A096",
+  "event_title": "M 6.1 - 115 km SSE of Panguna, Papua New Guinea",
+  "orbit": "ascending",
+  "track": "096",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_61_115_km_sse_of_panguna_papua_new_guinea/S1-COSEIS_SAR-A-R-096-tops-20170312_20170228-075621-00155E_00010S-PP-496c-v1_0_0/S1-COSEIS_SAR-A-R-096-tops-20170312_20170228-075621-00155E_00010S-PP-496c-v1_0_0.nc",
+  "stats": {
+    "min": -2.1934280395507812,
+    "max": -0.03243812918663025,
+    "mean": -0.9014402031898499,
+    "std": 0.7356351613998413
+  },
+  "bounds": {
+    "lon_min": 155.07541752699998,
+    "lon_max": 158.077086595,
+    "lat_min": -9.588891449,
+    "lat_max": -5.938888529
+  }
+}

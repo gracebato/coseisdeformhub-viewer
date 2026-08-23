@@ -1,0 +1,20 @@
+{
+  "event_id": "us20003mi0",
+  "job_id": "m_66_22_km_wsw_of_illapel_chile-A018",
+  "event_title": "M 6.6 - 22 km WSW of Illapel, Chile",
+  "orbit": "ascending",
+  "track": "018",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_66_22_km_wsw_of_illapel_chile/S1-COSEIS_SAR-A-R-018-tops-20151001_20150919-232827-00073W_00033S-PP-d6a0-v1_0_0/S1-COSEIS_SAR-A-R-018-tops-20151001_20150919-232827-00073W_00033S-PP-d6a0-v1_0_0.nc",
+  "stats": {
+    "min": -0.4705352187156677,
+    "max": -0.17381732165813446,
+    "mean": -0.3071643114089966,
+    "std": 0.04612341150641441
+  },
+  "bounds": {
+    "lon_min": -73.368295539,
+    "lon_max": -69.807181579,
+    "lat_min": -33.380597949,
+    "lat_max": -29.811150649
+  }
+}

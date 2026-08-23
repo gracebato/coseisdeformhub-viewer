@@ -1,0 +1,20 @@
+{
+  "event_id": "us600042fx",
+  "job_id": "m_64_31_km_wsw_of_tsuruoka_japan-D119",
+  "event_title": "M 6.4 - 31 km WSW of Tsuruoka, Japan",
+  "orbit": "descending",
+  "track": "119",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_64_31_km_wsw_of_tsuruoka_japan/S1-COSEIS_SAR-D-R-119-tops-20190625_20190613-205113-00137E_00037N-PP-faf9-v1_0_0/S1-COSEIS_SAR-D-R-119-tops-20190625_20190613-205113-00137E_00037N-PP-faf9-v1_0_0.nc",
+  "stats": {
+    "min": -0.1449103206396103,
+    "max": 0.03642452880740166,
+    "mean": -0.036142218858003616,
+    "std": 0.023891553282737732
+  },
+  "bounds": {
+    "lon_min": 136.437917017,
+    "lon_max": 139.76653079099998,
+    "lat_min": 36.721902933,
+    "lat_max": 38.692737843
+  }
+}
