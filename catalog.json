@@ -1,54 +1,6 @@
 {
   "events": [
     {
-      "event_id": "ridgecrest_2019",
-      "name": "2019 M7.1 Ridgecrest Earthquake",
-      "magnitude": 7.1,
-      "date": "2019-07-06",
-      "location": "Southern California, USA",
-      "epicenter": {
-        "lat": 35.77,
-        "lon": -117.599
-      },
-      "bounds": {
-        "lon_min": -119.465,
-        "lon_max": -116.216,
-        "lat_min": 35.005,
-        "lat_max": 36.885
-      },
-      "datasets": [
-        {
-          "dataset_id": "ridgecrest_asc_064",
-          "name": "Ascending Track 064",
-          "url": "https://d1z62tir4fw0q0.cloudfront.net/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_71_ridgecrest_earthquake_sequence/S1-COSEIS_SAR-A-R-064-tops-20190710_20190704-015012-00119W_00035N-PP-6e22-v1_0_0/S1-COSEIS_SAR-A-R-064-tops-20190710_20190704-015012-00119W_00035N-PP-6e22-v1_0_0.nc",
-          "satellite": "Sentinel-1",
-          "track": "064",
-          "orbit_direction": "Ascending",
-          "date_range": "20190704 - 20190710",
-          "description": "Ascending track covering the full rupture"
-        },
-        {
-          "dataset_id": "ridgecrest_desc_071",
-          "name": "Descending Track 071",
-          "url": "https://d1z62tir4fw0q0.cloudfront.net/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_71_ridgecrest_earthquake_sequence/S1-COSEIS_SAR-D-R-071-tops-20190716_20190704-135200-00119W_00034N-PP-ef5b-v1_0_0/S1-COSEIS_SAR-D-R-071-tops-20190716_20190704-135200-00119W_00034N-PP-ef5b-v1_0_0.nc",
-          "satellite": "Sentinel-1",
-          "track": "071",
-          "orbit_direction": "Descending",
-          "date_range": "20190704 - 20190716",
-          "description": "Descending track covering the full rupture"
-        }
-      ],
-      "metadata": {
-        "depth_km": 8.0,
-        "fault_type": "Strike-slip",
-        "references": [
-          "Ross et al. 2019",
-          "USGS Event Page"
-        ]
-      },
-      "has_model": true
-    },
-    {
       "event_id": "usb000slwn",
       "name": "2014 M 7.3 - 74 km S of Intipuc\u00e1, El Salvador",
       "magnitude": 7.3,
@@ -12015,8 +11967,8 @@
       "bounds": {
         "lon_min": 94.76365061099999,
         "lon_max": 102.06504214099999,
-        "lat_min": 33.431347945000006,
-        "lat_max": 35.92662691900001
+        "lat_min": 32.60190203700001,
+        "lat_max": 36.13662708700001
       },
       "datasets": [
         {
@@ -12028,6 +11980,26 @@
           "orbit_direction": "ascending",
           "date_range": null,
           "description": "Ascending Track 026"
+        },
+        {
+          "dataset_id": "m_73_southern_qinghai_china-A099",
+          "name": "Ascending Track 099",
+          "url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_73_southern_qinghai_china/S1-COSEIS_SAR-A-R-099-tops-20210526_20210520-112556-00097E_00033N-PP-e1ec-v1_0_0/S1-COSEIS_SAR-A-R-099-tops-20210526_20210520-112556-00097E_00033N-PP-e1ec-v1_0_0.nc",
+          "satellite": "Sentinel-1B",
+          "track": "099",
+          "orbit_direction": "ascending",
+          "date_range": null,
+          "description": "Ascending Track 099"
+        },
+        {
+          "dataset_id": "m_73_southern_qinghai_china-A172",
+          "name": "Ascending Track 172",
+          "url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_73_southern_qinghai_china/S1-COSEIS_SAR-A-R-172-tops-20210525_20210513-113450-00095E_00033N-PP-afc9-v1_0_0/S1-COSEIS_SAR-A-R-172-tops-20210525_20210513-113450-00095E_00033N-PP-afc9-v1_0_0.nc",
+          "satellite": "Sentinel-1A",
+          "track": "172",
+          "orbit_direction": "ascending",
+          "date_range": null,
+          "description": "Ascending Track 172"
         },
         {
           "dataset_id": "m_73_southern_qinghai_china-D004",
@@ -12065,8 +12037,356 @@
         "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000e54r"
       },
       "has_model": false
+    },
+    {
+      "event_id": "us7000eijt",
+      "name": "2021 M 6.0 - 72 km WSW of Vallenar, Chile",
+      "magnitude": 6.0,
+      "date": "2021-07-04",
+      "location": "M 6.0 - 72 km WSW of Vallenar, Chile",
+      "epicenter": {
+        "lat": -28.7361,
+        "lon": -71.4818
+      },
+      "bounds": {
+        "lon_min": -72.253572425,
+        "lon_max": -68.554125021,
+        "lat_min": -31.272264528999997,
+        "lat_max": -27.748928377
+      },
+      "datasets": [
+        {
+          "dataset_id": "m_60_72_km_wsw_of_vallenar_chile-D156",
+          "name": "Descending Track 156",
+          "url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_60_72_km_wsw_of_vallenar_chile/S1-COSEIS_SAR-D-R-156-tops-20210705_20210623-100250-00072W_00031S-PP-ff4e-v1_0_0/S1-COSEIS_SAR-D-R-156-tops-20210705_20210623-100250-00072W_00031S-PP-ff4e-v1_0_0.nc",
+          "satellite": "Sentinel-1B",
+          "track": "156",
+          "orbit_direction": "descending",
+          "date_range": null,
+          "description": "Descending Track 156"
+        }
+      ],
+      "metadata": {
+        "depth_km": 22,
+        "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000eijt"
+      },
+      "has_model": false
+    },
+    {
+      "event_id": "nc73584926",
+      "name": "2021 M 6.0 - Antelope Valley, CA",
+      "magnitude": 6.0,
+      "date": "2021-07-08",
+      "location": "M 6.0 - Antelope Valley, CA",
+      "epicenter": {
+        "lat": 38.5075,
+        "lon": -119.499833
+      },
+      "bounds": {
+        "lon_min": -122.74486010700001,
+        "lon_max": -116.815413319,
+        "lat_min": 36.646624295,
+        "lat_max": 40.109682621000005
+      },
+      "datasets": [
+        {
+          "dataset_id": "m_60_antelope_valley_ca-A064",
+          "name": "Ascending Track 064",
+          "url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_60_antelope_valley_ca/S1-COSEIS_SAR-A-R-064-tops-20210711_20210705-015115-00120W_00038N-PP-8c39-v1_0_0/S1-COSEIS_SAR-A-R-064-tops-20210711_20210705-015115-00120W_00038N-PP-8c39-v1_0_0.nc",
+          "satellite": "Sentinel-1B",
+          "track": "064",
+          "orbit_direction": "ascending",
+          "date_range": null,
+          "description": "Ascending Track 064"
+        },
+        {
+          "dataset_id": "m_60_antelope_valley_ca-A137",
+          "name": "Ascending Track 137",
+          "url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_60_antelope_valley_ca/S1-COSEIS_SAR-A-R-137-tops-20210710_20210628-020001-00122W_00037N-PP-ff5d-v1_0_0/S1-COSEIS_SAR-A-R-137-tops-20210710_20210628-020001-00122W_00037N-PP-ff5d-v1_0_0.nc",
+          "satellite": "Sentinel-1A",
+          "track": "137",
+          "orbit_direction": "ascending",
+          "date_range": null,
+          "description": "Ascending Track 137"
+        },
+        {
+          "dataset_id": "m_60_antelope_valley_ca-D042",
+          "name": "Descending Track 042",
+          "url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_60_antelope_valley_ca/S1-COSEIS_SAR-D-R-042-tops-20210709_20210703-140719-00123W_00037N-PP-280f-v1_0_0/S1-COSEIS_SAR-D-R-042-tops-20210709_20210703-140719-00123W_00037N-PP-280f-v1_0_0.nc",
+          "satellite": "Sentinel-1B",
+          "track": "042",
+          "orbit_direction": "descending",
+          "date_range": null,
+          "description": "Descending Track 042"
+        },
+        {
+          "dataset_id": "m_60_antelope_valley_ca-D144",
+          "name": "Descending Track 144",
+          "url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_60_antelope_valley_ca/S1-COSEIS_SAR-D-R-144-tops-20210710_20210704-135948-00120W_00038N-PP-1e7d-v1_0_0/S1-COSEIS_SAR-D-R-144-tops-20210710_20210704-135948-00120W_00038N-PP-1e7d-v1_0_0.nc",
+          "satellite": "Sentinel-1A",
+          "track": "144",
+          "orbit_direction": "descending",
+          "date_range": null,
+          "description": "Descending Track 144"
+        }
+      ],
+      "metadata": {
+        "depth_km": 7.45,
+        "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73584926"
+      },
+      "has_model": false
+    },
+    {
+      "event_id": "us6000exs5",
+      "name": "2021 M 6.7 - 71 km S of Burica, Panama",
+      "magnitude": 6.7,
+      "date": "2021-07-21",
+      "location": "M 6.7 - 71 km S of Burica, Panama",
+      "epicenter": {
+        "lat": 7.3926,
+        "lon": -82.779
+      },
+      "bounds": {
+        "lon_min": -85.18190490100001,
+        "lon_max": -80.73495849900002,
+        "lat_min": 7.023014284999999,
+        "lat_max": 9.701626739
+      },
+      "datasets": [
+        {
+          "dataset_id": "m_67_71_km_s_of_burica_panama-A092",
+          "name": "Ascending Track 092",
+          "url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_67_71_km_s_of_burica_panama/S1-COSEIS_SAR-A-R-092-tops-20210730_20210718-234816-00085W_00007N-PP-38db-v1_0_0/S1-COSEIS_SAR-A-R-092-tops-20210730_20210718-234816-00085W_00007N-PP-38db-v1_0_0.nc",
+          "satellite": "Sentinel-1A",
+          "track": "092",
+          "orbit_direction": "ascending",
+          "date_range": null,
+          "description": "Ascending Track 092"
+        },
+        {
+          "dataset_id": "m_67_71_km_s_of_burica_panama-D011",
+          "name": "Descending Track 011",
+          "url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_67_71_km_s_of_burica_panama/S1-COSEIS_SAR-D-R-011-tops-20210725_20210713-111528-00083W_00007N-PP-843f-v1_0_0/S1-COSEIS_SAR-D-R-011-tops-20210725_20210713-111528-00083W_00007N-PP-843f-v1_0_0.nc",
+          "satellite": "Sentinel-1A",
+          "track": "011",
+          "orbit_direction": "descending",
+          "date_range": null,
+          "description": "Descending Track 011"
+        },
+        {
+          "dataset_id": "m_67_71_km_s_of_burica_panama-D084",
+          "name": "Descending Track 084",
+          "url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_67_71_km_s_of_burica_panama/S1-COSEIS_SAR-D-R-084-tops-20210730_20210718-112328-00085W_00008N-PP-1ccc-v1_0_0/S1-COSEIS_SAR-D-R-084-tops-20210730_20210718-112328-00085W_00008N-PP-1ccc-v1_0_0.nc",
+          "satellite": "Sentinel-1A",
+          "track": "084",
+          "orbit_direction": "descending",
+          "date_range": null,
+          "description": "Descending Track 084"
+        }
+      ],
+      "metadata": {
+        "depth_km": 10,
+        "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000exs5"
+      },
+      "has_model": false
+    },
+    {
+      "event_id": "us6000ez5x",
+      "name": "2021 M 6.3 - 99 km WNW of Luwuk, Indonesia",
+      "magnitude": 6.3,
+      "date": "2021-07-26",
+      "location": "M 6.3 - 99 km WNW of Luwuk, Indonesia",
+      "epicenter": {
+        "lat": -0.7679,
+        "lon": 121.9083
+      },
+      "bounds": {
+        "lon_min": 120.450417027,
+        "lon_max": 123.503752803,
+        "lat_min": -2.404446857,
+        "lat_max": 2.182779035
+      },
+      "datasets": [
+        {
+          "dataset_id": "m_63_99_km_wnw_of_luwuk_indonesia-A039",
+          "name": "Ascending Track 039",
+          "url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_63_99_km_wnw_of_luwuk_indonesia/S1-COSEIS_SAR-A-R-039-tops-20210802_20210721-101042-00120E_00002S-PP-1c29-v1_0_0/S1-COSEIS_SAR-A-R-039-tops-20210802_20210721-101042-00120E_00002S-PP-1c29-v1_0_0.nc",
+          "satellite": "Sentinel-1B",
+          "track": "039",
+          "orbit_direction": "ascending",
+          "date_range": null,
+          "description": "Ascending Track 039"
+        },
+        {
+          "dataset_id": "m_63_99_km_wnw_of_luwuk_indonesia-D061",
+          "name": "Descending Track 061",
+          "url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_63_99_km_wnw_of_luwuk_indonesia/S1-COSEIS_SAR-D-R-061-tops-20210728_20210716-213458-00121E_00002S-PP-6d85-v1_0_0/S1-COSEIS_SAR-D-R-061-tops-20210728_20210716-213458-00121E_00002S-PP-6d85-v1_0_0.nc",
+          "satellite": "Sentinel-1A",
+          "track": "061",
+          "orbit_direction": "descending",
+          "date_range": null,
+          "description": "Descending Track 061"
+        }
+      ],
+      "metadata": {
+        "depth_km": 11,
+        "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ez5x"
+      },
+      "has_model": false
+    },
+    {
+      "event_id": "us6000f1ea",
+      "name": "2021 M 6.0 - 182 km NE of Tual, Indonesia",
+      "magnitude": 6.0,
+      "date": "2021-08-02",
+      "location": "M 6.0 - 182 km NE of Tual, Indonesia",
+      "epicenter": {
+        "lat": -4.499,
+        "lon": 133.958
+      },
+      "bounds": {
+        "lon_min": 131.68708388299999,
+        "lon_max": 136.799864151,
+        "lat_min": -6.7822249370000005,
+        "lat_max": -2.484999277
+      },
+      "datasets": [
+        {
+          "dataset_id": "m_60_182_km_ne_of_tual_indonesia-A024",
+          "name": "Ascending Track 024",
+          "url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_60_182_km_ne_of_tual_indonesia/S1-COSEIS_SAR-A-R-024-tops-20210807_20210726-092904-00132E_00006S-PP-0d01-v1_0_0/S1-COSEIS_SAR-A-R-024-tops-20210807_20210726-092904-00132E_00006S-PP-0d01-v1_0_0.nc",
+          "satellite": "Sentinel-1A",
+          "track": "024",
+          "orbit_direction": "ascending",
+          "date_range": null,
+          "description": "Ascending Track 024"
+        },
+        {
+          "dataset_id": "m_60_182_km_ne_of_tual_indonesia-A126",
+          "name": "Ascending Track 126",
+          "url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_60_182_km_ne_of_tual_indonesia/S1-COSEIS_SAR-A-R-126-tops-20210802_20210721-092052-00134E_00005S-PP-6c06-v1_0_0/S1-COSEIS_SAR-A-R-126-tops-20210802_20210721-092052-00134E_00005S-PP-6c06-v1_0_0.nc",
+          "satellite": "Sentinel-1A",
+          "track": "126",
+          "orbit_direction": "ascending",
+          "date_range": null,
+          "description": "Ascending Track 126"
+        },
+        {
+          "dataset_id": "m_60_182_km_ne_of_tual_indonesia-D075",
+          "name": "Descending Track 075",
+          "url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_60_182_km_ne_of_tual_indonesia/S1-COSEIS_SAR-D-R-075-tops-20210810_20210729-203829-00134E_00006S-PP-fc98-v1_0_0/S1-COSEIS_SAR-D-R-075-tops-20210810_20210729-203829-00134E_00006S-PP-fc98-v1_0_0.nc",
+          "satellite": "Sentinel-1A",
+          "track": "075",
+          "orbit_direction": "descending",
+          "date_range": null,
+          "description": "Descending Track 075"
+        },
+        {
+          "dataset_id": "m_60_182_km_ne_of_tual_indonesia-D148",
+          "name": "Descending Track 148",
+          "url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_60_182_km_ne_of_tual_indonesia/S1-COSEIS_SAR-D-R-148-tops-20210803_20210722-204648-00132E_00007S-PP-ea40-v1_0_0/S1-COSEIS_SAR-D-R-148-tops-20210803_20210722-204648-00132E_00007S-PP-ea40-v1_0_0.nc",
+          "satellite": "Sentinel-1A",
+          "track": "148",
+          "orbit_direction": "descending",
+          "date_range": null,
+          "description": "Descending Track 148"
+        }
+      ],
+      "metadata": {
+        "depth_km": 10,
+        "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000f1ea"
+      },
+      "has_model": false
+    },
+    {
+      "event_id": "us6000f65h",
+      "name": "2021 M 7.2 - Nippes, Haiti",
+      "magnitude": 7.2,
+      "date": "2021-08-14",
+      "location": "M 7.2 - Nippes, Haiti",
+      "epicenter": {
+        "lat": 18.4335,
+        "lon": -73.4822
+      },
+      "bounds": {
+        "lon_min": -76.67246004900001,
+        "lon_max": -71.727180715,
+        "lat_min": 16.685513215,
+        "lat_max": 20.099682613000002
+      },
+      "datasets": [
+        {
+          "dataset_id": "m_72_nippes_haiti-A004",
+          "name": "Ascending Track 004",
+          "url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_72_nippes_haiti/S1-COSEIS_SAR-A-R-004-tops-20210817_20210805-230147-00075W_00018N-PP-c3a7-v1_0_0/S1-COSEIS_SAR-A-R-004-tops-20210817_20210805-230147-00075W_00018N-PP-c3a7-v1_0_0.nc",
+          "satellite": "Sentinel-1A",
+          "track": "004",
+          "orbit_direction": "ascending",
+          "date_range": null,
+          "description": "Ascending Track 004"
+        },
+        {
+          "dataset_id": "m_72_nippes_haiti-A077",
+          "name": "Ascending Track 077",
+          "url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_72_nippes_haiti/S1-COSEIS_SAR-A-R-077-tops-20210822_20210810-230957-00077W_00017N-PP-de05-v1_0_0/S1-COSEIS_SAR-A-R-077-tops-20210822_20210810-230957-00077W_00017N-PP-de05-v1_0_0.nc",
+          "satellite": "Sentinel-1A",
+          "track": "077",
+          "orbit_direction": "ascending",
+          "date_range": null,
+          "description": "Ascending Track 077"
+        },
+        {
+          "dataset_id": "m_72_nippes_haiti-D142",
+          "name": "Descending Track 142",
+          "url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_72_nippes_haiti/S1-COSEIS_SAR-D-R-142-tops-20210815_20210803-104749-00075W_00018N-PP-8bb8-v1_0_0/S1-COSEIS_SAR-D-R-142-tops-20210815_20210803-104749-00075W_00018N-PP-8bb8-v1_0_0.nc",
+          "satellite": "Sentinel-1A",
+          "track": "142",
+          "orbit_direction": "descending",
+          "date_range": null,
+          "description": "Descending Track 142"
+        }
+      ],
+      "metadata": {
+        "depth_km": 10,
+        "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000f65h"
+      },
+      "has_model": false
+    },
+    {
+      "event_id": "us7000f93v",
+      "name": "2021 M 7.0 - Acapulco, Mexico",
+      "magnitude": 7.0,
+      "date": "2021-09-08",
+      "location": "M 7.0 - Acapulco, Mexico",
+      "epicenter": {
+        "lat": 16.9465,
+        "lon": -99.753
+      },
+      "bounds": {
+        "lon_min": -101.966804729,
+        "lon_max": -99.251802557,
+        "lat_min": 16.689125929,
+        "lat_max": 18.536349629
+      },
+      "datasets": [
+        {
+          "dataset_id": "m_70_acapulco_mexico-D041",
+          "name": "Descending Track 041",
+          "url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_70_acapulco_mexico/S1-COSEIS_SAR-D-R-041-tops-20210913_20210907-123507-00102W_00017N-PP-1b48-v1_0_0/S1-COSEIS_SAR-D-R-041-tops-20210913_20210907-123507-00102W_00017N-PP-1b48-v1_0_0.nc",
+          "satellite": "Sentinel-1A",
+          "track": "041",
+          "orbit_direction": "descending",
+          "date_range": null,
+          "description": "Descending Track 041"
+        }
+      ],
+      "metadata": {
+        "depth_km": 20,
+        "usgs_event_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000f93v"
+      },
+      "has_model": false
     }
   ],
-  "total_events": 223,
-  "total_datasets": 671
+  "total_events": 229,
+  "total_datasets": 689
 }
