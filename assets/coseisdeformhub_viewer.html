@@ -975,6 +975,10 @@
         };
         let fullCatalog = null;  // populated once from catalogUrl, reused for all lookups
 
+        // Showcased event/dataset, pinned to the top of the dropdown.
+        const FEATURED_EVENT_ID = 'us7000e54r';  // 2021 M7.3 Southern Qinghai, China
+        const FEATURED_DATASET_ID = 'm_73_southern_qinghai_china-D106';  // Descending Track 106
+
         function plotUrl(eventId, datasetId, type, overlay) {
             const filename = (type === 'wrapped' && overlay) ? 'wrapped_overlay.png' : `${type}.png`;
             return `${DEFORMHUB_CONFIG.imageBaseUrl}/${eventId}/${datasetId}/${filename}`;
@@ -1137,12 +1141,31 @@
                 allOption.selected = !currentEventId;
                 select.appendChild(allOption);
 
+                const eventLabel = (event) => event.depth_km != null
+                    ? `${event.name} (depth=${event.depth_km}km)`
+                    : event.name;
+
+                // Showcased event pinned right below the default option, then
+                // a separator, then the rest sorted by date as usual.
+                const featured = events.find(e => e.event_id === FEATURED_EVENT_ID);
+
+                if (featured) {
+                    const featuredOption = document.createElement('option');
+                    featuredOption.value = featured.event_id;
+                    featuredOption.textContent = eventLabel(featured);
+                    if (featured.event_id === currentEventId) featuredOption.selected = true;
+                    select.appendChild(featuredOption);
+
+                    const separator = document.createElement('option');
+                    separator.disabled = true;
+                    separator.textContent = '------';
+                    select.appendChild(separator);
+                }
+
                 events.forEach(event => {
                     const option = document.createElement('option');
                     option.value = event.event_id;
-                    option.textContent = event.depth_km != null
-                        ? `${event.name} (depth=${event.depth_km}km)`
-                        : event.name;
+                    option.textContent = eventLabel(event);
                     if (event.event_id === currentEventId) {
                         option.selected = true;
                     }
@@ -1244,6 +1267,16 @@
                 currentEvent = fullCatalog.events.find(e => e.event_id === currentEventId);
 
                 updateEventInfo();
+
+                // For the featured event, default to the showcased dataset
+                // rather than whichever one happens to be listed first.
+                if (currentEvent.event_id === FEATURED_EVENT_ID) {
+                    const featuredIdx = currentEvent.datasets.findIndex(ds => ds.dataset_id === FEATURED_DATASET_ID);
+                    if (featuredIdx > 0) {
+                        const [featuredDs] = currentEvent.datasets.splice(featuredIdx, 1);
+                        currentEvent.datasets.unshift(featuredDs);
+                    }
+                }
 
                 const datasetsData = { datasets: currentEvent.datasets };
 
