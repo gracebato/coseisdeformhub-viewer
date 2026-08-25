@@ -1036,9 +1036,15 @@
         };
         let fullCatalog = null;  // populated once from catalogUrl, reused for all lookups
 
-        // Showcased event/dataset, pinned to the top of the dropdown.
-        const FEATURED_EVENT_ID = 'us7000e54r';  // 2021 M7.3 Southern Qinghai, China
-        const FEATURED_DATASET_ID = 'm_73_southern_qinghai_china-D106';  // Descending Track 106
+        // Featured events pinned to the top of the dropdown: all PAGER "red"
+        // alert events, most recent first.
+        const FEATURED_EVENT_IDS = [
+            'us6000t7zp', 'us6000t7zc', 'us6000qw60', 'us7000qdyl', 'us7000pn9s',
+            'us7000pn9z', 'us6000pi9w', 'us7000lsze', 'us6000m0xl', 'us6000len8',
+            'us7000kufc', 'us6000jqcn', 'us6000jllz', 'us6000jlqa', 'us7000fu12',
+            'us7000f93v', 'us6000f65h', 'us7000dy3b', 'us2000bmcg', 'us1000731j',
+            'us1000725y', 'us10006g7d', 'us20005iis', 'us20002926'
+        ];
 
         function plotUrl(eventId, datasetId, type, overlay) {
             const filename = (type === 'wrapped' && overlay) ? 'wrapped_overlay.png' : `${type}.png`;
@@ -1279,16 +1285,20 @@
                     ? `${event.name} (depth=${event.depth_km}km)`
                     : event.name;
 
-                // Showcased event pinned right below the default option, then
-                // a separator, then the rest sorted by date as usual.
-                const featured = events.find(e => e.event_id === FEATURED_EVENT_ID);
+                // Featured events (PAGER red-alert) pinned right below the default
+                // option in FEATURED_EVENT_IDS order, then a separator, then the
+                // rest sorted by date as usual.
+                const featuredById = new Map(events.map(e => [e.event_id, e]));
+                const featured = FEATURED_EVENT_IDS.map(id => featuredById.get(id)).filter(Boolean);
 
-                if (featured) {
-                    const featuredOption = document.createElement('option');
-                    featuredOption.value = featured.event_id;
-                    featuredOption.textContent = eventLabel(featured);
-                    if (featured.event_id === currentEventId) featuredOption.selected = true;
-                    select.appendChild(featuredOption);
+                if (featured.length) {
+                    featured.forEach(event => {
+                        const option = document.createElement('option');
+                        option.value = event.event_id;
+                        option.textContent = eventLabel(event);
+                        if (event.event_id === currentEventId) option.selected = true;
+                        select.appendChild(option);
+                    });
 
                     const separator = document.createElement('option');
                     separator.disabled = true;
@@ -1402,16 +1412,6 @@
 
                 updateEventInfo();
 
-                // For the featured event, default to the showcased dataset
-                // rather than whichever one happens to be listed first.
-                if (currentEvent.event_id === FEATURED_EVENT_ID) {
-                    const featuredIdx = currentEvent.datasets.findIndex(ds => ds.dataset_id === FEATURED_DATASET_ID);
-                    if (featuredIdx > 0) {
-                        const [featuredDs] = currentEvent.datasets.splice(featuredIdx, 1);
-                        currentEvent.datasets.unshift(featuredDs);
-                    }
-                }
-
                 const datasetsData = { datasets: currentEvent.datasets };
 
                 const datasetSelect = document.getElementById('dataset-select');
@@ -1501,13 +1501,13 @@
                 <div class="info-row">
                     <span class="info-label">PAGER Alert</span>
                     <span class="info-value">
-                        <span style="display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 5px; background: ${pagerAlertColor(currentEvent.metadata.pager_alert)};"></span>${currentEvent.metadata.pager_alert}
+                        <span style="display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 5px; background: ${pagerAlertColor(currentEvent.metadata.pager_alert)};"></span><span style="color: ${pagerAlertTextColor(currentEvent.metadata.pager_alert)}; font-weight: 600;">${currentEvent.metadata.pager_alert.toUpperCase()}</span>
                     </span>
                 </div>
                 ` : ''}
                 ${currentEvent.metadata && currentEvent.metadata.usgs_event_url ? `
                 <div class="info-row">
-                    <span class="info-label">USGS URL</span>
+                    <span class="info-label">USGS Details</span>
                     <span class="info-value"><a href="${currentEvent.metadata.usgs_event_url}" target="_blank" rel="noopener">link</a></span>
                 </div>
                 ` : ''}
@@ -1516,6 +1516,13 @@
 
         function pagerAlertColor(level) {
             const colors = { green: '#00e600', yellow: '#ffff00', orange: '#ff9900', red: '#ff0000' };
+            return colors[(level || '').toLowerCase()] || '#888888';
+        }
+
+        // Darker/more saturated variants for text, since the legend's bright
+        // swatch colors (esp. yellow) are unreadable as text on a white panel.
+        function pagerAlertTextColor(level) {
+            const colors = { green: '#1a7a1a', yellow: '#b8860b', orange: '#cc6600', red: '#cc0000' };
             return colors[(level || '').toLowerCase()] || '#888888';
         }
 
