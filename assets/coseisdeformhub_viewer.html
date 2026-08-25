@@ -495,11 +495,43 @@
         /* Visualization panel */
         .viz-panel {
             height: 280px;
-            min-height: 280px;
+            min-height: 120px;
             background: var(--panel);
             border-top: 1px solid var(--border);
             display: flex;
             flex-direction: column;
+        }
+
+        .viz-resize-handle {
+            height: 6px;
+            flex-shrink: 0;
+            cursor: ns-resize;
+            background: var(--panel2);
+            border-top: 1px solid var(--border);
+            position: relative;
+        }
+
+        .viz-resize-handle::after {
+            content: '';
+            position: absolute;
+            top: 2px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 32px;
+            height: 2px;
+            border-radius: 1px;
+            background: var(--text-muted, #888);
+            opacity: 0.5;
+        }
+
+        .viz-resize-handle:hover,
+        .viz-resize-handle.dragging {
+            background: var(--accent);
+        }
+
+        .viz-resize-handle:hover::after,
+        .viz-resize-handle.dragging::after {
+            opacity: 0.9;
         }
 
         .viz-tabs {
@@ -659,7 +691,7 @@
 
             .viz-panel {
                 height: 260px;
-                min-height: 260px;
+                min-height: 120px;
             }
 
             .basemap-selector {
@@ -750,6 +782,30 @@
                             </svg>
                             Download COSEIS Data
                         </button>
+                    </div>
+                </div>
+
+                <!-- 3D Terrain -->
+                <div class="section">
+                    <div class="section-head" onclick="toggleSection(this)">
+                        <span>3D Terrain</span>
+                        <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </div>
+                    <div class="section-body">
+                        <div class="form-group">
+                            <label class="map-control-btn" style="width: 100%; justify-content: flex-start;">
+                                <input type="checkbox" id="terrain-toggle" onchange="toggleTerrain()">
+                                <span>Enable 3D Terrain</span>
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Vertical Exaggeration: <span id="terrain-exaggeration-value">1.5</span>&times;</label>
+                            <input type="range" id="terrain-exaggeration-slider" min="1" max="10" step="0.5" value="1.5"
+                                   style="width: 100%;" disabled
+                                   oninput="document.getElementById('terrain-exaggeration-value').textContent = this.value; updateTerrainExaggeration(this.value)">
+                        </div>
                     </div>
                 </div>
 
@@ -905,8 +961,11 @@
                 </div>
             </div>
 
+            <!-- Drag up/down to resize the visualization panel -->
+            <div class="viz-resize-handle" id="viz-resize-handle"></div>
+
             <!-- Visualization Panel -->
-            <div class="viz-panel">
+            <div class="viz-panel" id="viz-panel">
                 <div class="viz-tabs">
                     <button class="viz-tab active" onclick="showViz('los', this)">LOS Displacement</button>
                     <button class="viz-tab" onclick="showViz('wrapped', this)">Wrapped Phase</button>
@@ -1067,6 +1126,79 @@
                     map.removeSource('labels');
                 }
             }
+        }
+
+        // Toggle 3D terrain relief (tilts the map and applies elevation from a
+        // public DEM tile source; independent of basemap choice, so the source
+        // is added lazily on first use rather than in initMap).
+        function toggleTerrain() {
+            const enabled = document.getElementById('terrain-toggle').checked;
+            const slider = document.getElementById('terrain-exaggeration-slider');
+            slider.disabled = !enabled;
+
+            if (enabled) {
+                if (!map.getSource('terrain-dem')) {
+                    map.addSource('terrain-dem', {
+                        type: 'raster-dem',
+                        tiles: ['https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png'],
+                        tileSize: 256,
+                        encoding: 'terrarium',
+                        maxzoom: 15
+                    });
+                }
+                map.setTerrain({ source: 'terrain-dem', exaggeration: parseFloat(slider.value) });
+                map.easeTo({ pitch: 60, duration: 800 });
+            } else {
+                map.setTerrain(null);
+                map.easeTo({ pitch: 0, duration: 800 });
+            }
+        }
+
+        // Live-update exaggeration while dragging the slider, only when terrain is on.
+        function updateTerrainExaggeration(value) {
+            if (!document.getElementById('terrain-toggle').checked) return;
+            map.setTerrain({ source: 'terrain-dem', exaggeration: parseFloat(value) });
+        }
+
+        // Drag the handle above the visualization panel to resize it vertically.
+        // The map sits in a flex:1 sibling, so it grows/shrinks automatically;
+        // MapLibre just needs a resize() nudge once dragging finishes.
+        function initVizPanelResize() {
+            const handle = document.getElementById('viz-resize-handle');
+            const panel = document.getElementById('viz-panel');
+            const MIN_HEIGHT = 120;
+
+            function onPointerDown(e) {
+                e.preventDefault();
+                const startY = e.touches ? e.touches[0].clientY : e.clientY;
+                const startHeight = panel.getBoundingClientRect().height;
+                handle.classList.add('dragging');
+
+                function onPointerMove(e) {
+                    const y = e.touches ? e.touches[0].clientY : e.clientY;
+                    const maxHeight = window.innerHeight * 0.75;
+                    const newHeight = Math.min(maxHeight, Math.max(MIN_HEIGHT, startHeight - (y - startY)));
+                    panel.style.height = `${newHeight}px`;
+                    if (map) map.resize();
+                }
+
+                function onPointerUp() {
+                    handle.classList.remove('dragging');
+                    document.removeEventListener('mousemove', onPointerMove);
+                    document.removeEventListener('mouseup', onPointerUp);
+                    document.removeEventListener('touchmove', onPointerMove);
+                    document.removeEventListener('touchend', onPointerUp);
+                    if (map) map.resize();
+                }
+
+                document.addEventListener('mousemove', onPointerMove);
+                document.addEventListener('mouseup', onPointerUp);
+                document.addEventListener('touchmove', onPointerMove, { passive: false });
+                document.addEventListener('touchend', onPointerUp);
+            }
+
+            handle.addEventListener('mousedown', onPointerDown);
+            handle.addEventListener('touchstart', onPointerDown, { passive: false });
         }
 
         // Initialize map
@@ -1983,6 +2115,7 @@
 
         // Initialize on page load
         initMap();
+        initVizPanelResize();
         map.on('load', () => {
             loadUSGSEarthquakes();
             loadEvents();
