@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000fes8",
+  "job_id": "m_60_6_km_n_of_thrapsanon_greece-D036",
+  "event_title": "M 6.0 - 6 km N of Thrapsan\u00f3n, Greece",
+  "orbit": "descending",
+  "track": "036",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_60_6_km_n_of_thrapsanon_greece/S1-COSEIS_SAR-D-R-036-tops-20211001_20210925-041601-00025E_00034N-PP-0a52-v1_0_0/S1-COSEIS_SAR-D-R-036-tops-20211001_20210925-041601-00025E_00034N-PP-0a52-v1_0_0.nc",
+  "stats": {
+    "min": -0.6848214864730835,
+    "max": 0.202230304479599,
+    "mean": -0.44829070568084717,
+    "std": 0.10742918401956558
+  },
+  "bounds": {
+    "lon_min": 24.741706149,
+    "lon_max": 28.093375497,
+    "lat_min": 33.729125161000006,
+    "lat_max": 36.372738387000005
+  }
+}

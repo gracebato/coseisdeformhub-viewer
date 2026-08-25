@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000spqc",
+  "job_id": "m_60_33_km_nw_of_valparaiso_chile-D156",
+  "event_title": "M 6.0 - 33 km NW of Valpara\u00edso, Chile",
+  "orbit": "descending",
+  "track": "156",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2026/m_60_33_km_nw_of_valparaiso_chile/S1-COSEIS_SAR-D-R-156-tops-20260603_20260528-100430-00073W_00035S-PP-c0bb-v1_0_0/S1-COSEIS_SAR-D-R-156-tops-20260603_20260528-100430-00073W_00035S-PP-c0bb-v1_0_0.nc",
+  "stats": {
+    "min": -0.443911612033844,
+    "max": 0.09474620223045349,
+    "mean": 0.00378050678409636,
+    "std": 0.025352846831083298
+  },
+  "bounds": {
+    "lon_min": -73.544405991,
+    "lon_max": -69.73273627500001,
+    "lat_min": -35.066986587,
+    "lat_max": -31.682817213
+  }
+}

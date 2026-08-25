@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000pn9s",
+  "job_id": "m_77_2025_mandalay_burma_myanmar_earthquake-D106",
+  "event_title": "M 7.7 - 2025 Mandalay, Burma (Myanmar) Earthquake",
+  "orbit": "descending",
+  "track": "106",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_77_2025_mandalay_burma_myanmar_earthquake/S1-COSEIS_SAR-D-R-106-tops-20250417_20250324-233238-00094E_00017N-PP-7d6d-v1_0_0/S1-COSEIS_SAR-D-R-106-tops-20250417_20250324-233238-00094E_00017N-PP-7d6d-v1_0_0.nc",
+  "stats": {
+    "min": -0.5050852298736572,
+    "max": 0.361937552690506,
+    "mean": 0.0014580176211893559,
+    "std": 0.11997281759977341
+  },
+  "bounds": {
+    "lon_min": 93.550039329,
+    "lon_max": 97.272820085,
+    "lat_min": 17.240232681000002,
+    "lat_max": 23.580237753000002
+  }
+}

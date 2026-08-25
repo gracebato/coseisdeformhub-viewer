@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000rjsu",
+  "job_id": "m_60_7_km_se_of_sndrg_turkey-D036",
+  "event_title": "M 6.0 - 7 km SE of S\u0131nd\u0131rg\u0131, Turkey",
+  "orbit": "descending",
+  "track": "036",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_60_7_km_se_of_sndrg_turkey/S1-COSEIS_SAR-D-R-036-tops-20251028_20251022-041419-00026E_00038N-PP-9672-v1_0_0/S1-COSEIS_SAR-D-R-036-tops-20251028_20251022-041419-00026E_00038N-PP-9672-v1_0_0.nc",
+  "stats": {
+    "min": -0.17807653546333313,
+    "max": 0.16787531971931458,
+    "mean": 0.022752802819013596,
+    "std": 0.029653137549757957
+  },
+  "bounds": {
+    "lon_min": 25.661428306999998,
+    "lon_max": 29.076153260999998,
+    "lat_min": 38.37551456700001,
+    "lat_max": 40.35134948100001
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000hj3u",
+  "job_id": "m_60_55_km_sw_of_khst_afghanistan-D078",
+  "event_title": "M 6.0 - 55 km SW of Kh?st, Afghanistan",
+  "orbit": "descending",
+  "track": "078",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_60_55_km_sw_of_khst_afghanistan/S1-COSEIS_SAR-D-R-078-tops-20220701_20220619-012419-00068E_00032N-PP-a38e-v1_0_0/S1-COSEIS_SAR-D-R-078-tops-20220701_20220619-012419-00068E_00032N-PP-a38e-v1_0_0.nc",
+  "stats": {
+    "min": -0.12454099953174591,
+    "max": 0.12815497815608978,
+    "mean": 0.014721362851560116,
+    "std": 0.034400295466184616
+  },
+  "bounds": {
+    "lon_min": 67.679761655,
+    "lon_max": 70.78920858699999,
+    "lat_min": 32.228292227000004,
+    "lat_max": 34.211627147
+  }
+}

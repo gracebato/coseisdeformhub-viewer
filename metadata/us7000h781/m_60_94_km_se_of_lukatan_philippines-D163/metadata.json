@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000h781",
+  "job_id": "m_60_94_km_se_of_lukatan_philippines-D163",
+  "event_title": "M 6.0 - 94 km SE of Lukatan, Philippines",
+  "orbit": "descending",
+  "track": "163",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_60_94_km_se_of_lukatan_philippines/S1-COSEIS_SAR-D-R-163-tops-20220507_20220425-212445-00124E_00006N-PP-efeb-v1_0_0/S1-COSEIS_SAR-D-R-163-tops-20220507_20220425-212445-00124E_00006N-PP-efeb-v1_0_0.nc",
+  "stats": {
+    "min": 0.29974180459976196,
+    "max": 1.1022043228149414,
+    "mean": 0.8356570601463318,
+    "std": 0.18219904601573944
+  },
+  "bounds": {
+    "lon_min": 124.200139849,
+    "lon_max": 126.82903084099999,
+    "lat_min": 5.545831681000001,
+    "lat_max": 7.592499985000001
+  }
+}

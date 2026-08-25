@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000k0xf",
+  "job_id": "m_63_105_km_wsw_of_constitucion_chile-A091",
+  "event_title": "M 6.3 - 105 km WSW of Constituci\u00f3n, Chile",
+  "orbit": "ascending",
+  "track": "091",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_63_105_km_wsw_of_constitucion_chile/S1-COSEIS_SAR-A-R-091-tops-20230403_20230322-233620-00074W_00037S-PP-9c5b-v1_0_0/S1-COSEIS_SAR-A-R-091-tops-20230403_20230322-233620-00074W_00037S-PP-9c5b-v1_0_0.nc",
+  "stats": {
+    "min": -0.35596466064453125,
+    "max": 0.10783887654542923,
+    "mean": 0.03189985454082489,
+    "std": 0.029875358566641808
+  },
+  "bounds": {
+    "lon_min": -74.327461373,
+    "lon_max": -70.472736067,
+    "lat_min": -36.939487285,
+    "lat_max": -33.190595396999996
+  }
+}

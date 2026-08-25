@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000nr0v",
+  "job_id": "m_68_42_km_ssw_of_bartolome_maso_cuba-D113",
+  "event_title": "M 6.8 - 42 km SSW of Bartolom\u00e9 Mas\u00f3, Cuba",
+  "orbit": "descending",
+  "track": "113",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2024/m_68_42_km_ssw_of_bartolome_maso_cuba/S1-COSEIS_SAR-D-R-113-tops-20241113_20241101-110403-00079W_00019N-PP-7b30-v1_0_0/S1-COSEIS_SAR-D-R-113-tops-20241113_20241101-110403-00079W_00019N-PP-7b30-v1_0_0.nc",
+  "stats": {
+    "min": -0.04113873094320297,
+    "max": 0.3770073354244232,
+    "mean": 0.132339745759964,
+    "std": 0.07521630823612213
+  },
+  "bounds": {
+    "lon_min": -78.85718241900001,
+    "lon_max": -76.10745799700001,
+    "lat_min": 18.990514259,
+    "lat_max": 20.998849199000002
+  }
+}

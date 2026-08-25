@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000f65h",
+  "job_id": "m_72_nippes_haiti-A077",
+  "event_title": "M 7.2 - Nippes, Haiti",
+  "orbit": "ascending",
+  "track": "077",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_72_nippes_haiti/S1-COSEIS_SAR-A-R-077-tops-20210822_20210810-230957-00077W_00017N-PP-de05-v1_0_0/S1-COSEIS_SAR-A-R-077-tops-20210822_20210810-230957-00077W_00017N-PP-de05-v1_0_0.nc",
+  "stats": {
+    "min": -0.1781737506389618,
+    "max": 0.3615436553955078,
+    "mean": 0.08101773262023926,
+    "std": 0.07564300298690796
+  },
+  "bounds": {
+    "lon_min": -76.67246004900001,
+    "lon_max": -73.598846479,
+    "lat_min": 16.685513215,
+    "lat_max": 20.099682613000002
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000rdta",
+  "job_id": "m_60_31_km_ese_of_kalianget_indonesia-A156",
+  "event_title": "M 6.0 - 31 km ESE of Kalianget, Indonesia",
+  "orbit": "ascending",
+  "track": "156",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_60_31_km_ese_of_kalianget_indonesia/S1-COSEIS_SAR-A-R-156-tops-20251006_20250924-104219-00114E_00008S-PP-375a-v1_0_0/S1-COSEIS_SAR-A-R-156-tops-20251006_20250924-104219-00114E_00008S-PP-375a-v1_0_0.nc",
+  "stats": {
+    "min": -0.4011853039264679,
+    "max": 0.05513223260641098,
+    "mean": -0.06655887514352798,
+    "std": 0.09033256769180298
+  },
+  "bounds": {
+    "lon_min": 113.993473017,
+    "lon_max": 116.651808477,
+    "lat_min": -8.368612695,
+    "lat_max": -6.051944175
+  }
+}

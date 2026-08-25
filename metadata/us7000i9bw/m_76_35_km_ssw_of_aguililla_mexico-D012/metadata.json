@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000i9bw",
+  "job_id": "m_76_35_km_ssw_of_aguililla_mexico-D012",
+  "event_title": "M 7.6 - 35 km SSW of Aguililla, Mexico",
+  "orbit": "descending",
+  "track": "012",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_76_35_km_ssw_of_aguililla_mexico/S1-COSEIS_SAR-D-R-012-tops-20220930_20220918-125114-00106W_00018N-PP-d8d5-v1_0_0/S1-COSEIS_SAR-D-R-012-tops-20220930_20220918-125114-00106W_00018N-PP-d8d5-v1_0_0.nc",
+  "stats": {
+    "min": -0.40497320890426636,
+    "max": 0.08577362447977066,
+    "mean": -0.009301803074777126,
+    "std": 0.03616783395409584
+  },
+  "bounds": {
+    "lon_min": -105.919026913,
+    "lon_max": -102.876524479,
+    "lat_min": 17.704679897,
+    "lat_max": 20.887182443
+  }
+}

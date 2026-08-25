@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000iikp",
+  "job_id": "m_62_260_km_ese_of_biak_indonesia-A155",
+  "event_title": "M 6.2 - 260 km ESE of Biak, Indonesia",
+  "orbit": "ascending",
+  "track": "155",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_62_260_km_ese_of_biak_indonesia/S1-COSEIS_SAR-A-R-155-tops-20220916_20220904-090501-00137E_00004S-PP-f426-v1_0_0/S1-COSEIS_SAR-A-R-155-tops-20220916_20220904-090501-00137E_00004S-PP-f426-v1_0_0.nc",
+  "stats": {
+    "min": -0.4522845149040222,
+    "max": 0.1148064061999321,
+    "mean": -0.06604050099849701,
+    "std": 0.1210380494594574
+  },
+  "bounds": {
+    "lon_min": 137.493750395,
+    "lon_max": 140.453752763,
+    "lat_min": -4.215002461,
+    "lat_max": -0.579166219
+  }
+}

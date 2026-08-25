@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000r0qc",
+  "job_id": "m_60_124_km_ene_of_ozernovskiy_russia-D060",
+  "event_title": "M 6.0 - 124 km ENE of Ozernovskiy, Russia",
+  "orbit": "descending",
+  "track": "060",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_60_124_km_ene_of_ozernovskiy_russia/S1-COSEIS_SAR-D-R-060-tops-20250731_20250719-194141-00156E_00051N-PP-19e9-v1_0_0/S1-COSEIS_SAR-D-R-060-tops-20250731_20250719-194141-00156E_00051N-PP-19e9-v1_0_0.nc",
+  "stats": {
+    "min": -0.3015247583389282,
+    "max": 0.5506503582000732,
+    "mean": 0.04704730585217476,
+    "std": 0.17267055809497833
+  },
+  "bounds": {
+    "lon_min": 155.950695205,
+    "lon_max": 160.179309699,
+    "lat_min": 50.995514263000004,
+    "lat_max": 52.958293611
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000ktti",
+  "job_id": "m_63_38_km_ssw_of_coquimbo_chile-D156",
+  "event_title": "M 6.3 - 38 km SSW of Coquimbo, Chile",
+  "orbit": "descending",
+  "track": "156",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_63_38_km_ssw_of_coquimbo_chile/S1-COSEIS_SAR-D-R-156-tops-20230911_20230830-100403-00072W_00032S-PP-cb6d-v1_0_0/S1-COSEIS_SAR-D-R-156-tops-20230911_20230830-100403-00072W_00032S-PP-cb6d-v1_0_0.nc",
+  "stats": {
+    "min": -0.17385348677635193,
+    "max": 0.07604005932807922,
+    "mean": -0.047239530831575394,
+    "std": 0.04969802871346474
+  },
+  "bounds": {
+    "lon_min": -72.284128005,
+    "lon_max": -69.110236577,
+    "lat_min": -31.593929853,
+    "lat_max": -29.393928093
+  }
+}

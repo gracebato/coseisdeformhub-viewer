@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000pufs",
+  "job_id": "m_62_24_km_se_of_marmara_ereglisi_turkey-D036",
+  "event_title": "M 6.2 - 24 km SE of Marmara Ere\u011flisi, Turkey",
+  "orbit": "descending",
+  "track": "036",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_62_24_km_se_of_marmara_ereglisi_turkey/S1-COSEIS_SAR-D-R-036-tops-20250425_20250413-041450-00026E_00040N-PP-776b-v1_0_0/S1-COSEIS_SAR-D-R-036-tops-20250425_20250413-041450-00026E_00040N-PP-776b-v1_0_0.nc",
+  "stats": {
+    "min": -0.6311363577842712,
+    "max": -0.3685663938522339,
+    "mean": -0.4817153513431549,
+    "std": 0.05461210012435913
+  },
+  "bounds": {
+    "lon_min": 25.962817436999998,
+    "lon_max": 29.798653838999996,
+    "lat_min": 39.70217989500001,
+    "lat_max": 43.16551599900001
+  }
+}

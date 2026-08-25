@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000k9mb",
+  "job_id": "m_62_49_km_ne_of_anamizu_japan-D119",
+  "event_title": "M 6.2 - 49 km NE of Anamizu, Japan",
+  "orbit": "descending",
+  "track": "119",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_62_49_km_ne_of_anamizu_japan/S1-COSEIS_SAR-D-R-119-tops-20230511_20230429-205147-00136E_00035N-PP-8dde-v1_0_0/S1-COSEIS_SAR-D-R-119-tops-20230511_20230429-205147-00136E_00035N-PP-8dde-v1_0_0.nc",
+  "stats": {
+    "min": -0.04550441354513168,
+    "max": 0.48303839564323425,
+    "mean": 0.16251906752586365,
+    "std": 0.1185612678527832
+  },
+  "bounds": {
+    "lon_min": 136.137917577,
+    "lon_max": 139.766809369,
+    "lat_min": 35.062734939,
+    "lat_max": 38.693293399000005
+  }
+}

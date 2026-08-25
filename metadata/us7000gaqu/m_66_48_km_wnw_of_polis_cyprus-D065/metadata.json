@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000gaqu",
+  "job_id": "m_66_48_km_wnw_of_polis_cyprus-D065",
+  "event_title": "M 6.6 - 48 km WNW of P\u00f3lis, Cyprus",
+  "orbit": "descending",
+  "track": "065",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_66_48_km_wnw_of_polis_cyprus/S1-COSEIS_SAR-D-R-065-tops-20220113_20220101-035957-00029E_00034N-PP-554e-v1_0_0/S1-COSEIS_SAR-D-R-065-tops-20220113_20220101-035957-00029E_00034N-PP-554e-v1_0_0.nc",
+  "stats": {
+    "min": 0.13187560439109802,
+    "max": 0.24864444136619568,
+    "mean": 0.18891337513923645,
+    "std": 0.004774296656250954
+  },
+  "bounds": {
+    "lon_min": 29.043095279,
+    "lon_max": 32.247542287,
+    "lat_min": 34.543570257000006,
+    "lat_max": 36.525238509000005
+  }
+}

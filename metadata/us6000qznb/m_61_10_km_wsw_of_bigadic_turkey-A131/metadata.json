@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000qznb",
+  "job_id": "m_61_10_km_wsw_of_bigadic_turkey-A131",
+  "event_title": "M 6.1 - 10 km WSW of Bigadi\u00e7, Turkey",
+  "orbit": "ascending",
+  "track": "131",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_61_10_km_wsw_of_bigadic_turkey/S1-COSEIS_SAR-A-R-131-tops-20250811_20250805-160645-00026E_00038N-PP-ea66-v1_0_0/S1-COSEIS_SAR-A-R-131-tops-20250811_20250805-160645-00026E_00038N-PP-ea66-v1_0_0.nc",
+  "stats": {
+    "min": -0.15112930536270142,
+    "max": 0.2342699021100998,
+    "mean": 0.03987685590982437,
+    "std": 0.03835244104266167
+  },
+  "bounds": {
+    "lon_min": 25.758650607,
+    "lon_max": 29.196708913000002,
+    "lat_min": 38.29218116700001,
+    "lat_max": 40.172460449000006
+  }
+}

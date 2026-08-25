@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000qxt4",
+  "job_id": "m_68_123_km_e_of_severokurilsk_russia-D133",
+  "event_title": "M 6.8 - 123 km E of Severo-Kuril\u2019sk, Russia",
+  "orbit": "descending",
+  "track": "133",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_68_123_km_e_of_severokurilsk_russia/S1-COSEIS_SAR-D-R-133-tops-20250817_20250712-195010-00154E_00050N-PP-b84d-v1_0_0/S1-COSEIS_SAR-D-R-133-tops-20250817_20250712-195010-00154E_00050N-PP-b84d-v1_0_0.nc",
+  "stats": {
+    "min": -0.2897215485572815,
+    "max": 0.18397828936576843,
+    "mean": -0.08751197904348373,
+    "std": 0.11533011496067047
+  },
+  "bounds": {
+    "lon_min": 153.700138649,
+    "lon_max": 157.786253029,
+    "lat_min": 49.963014237,
+    "lat_max": 51.923849139000005
+  }
+}

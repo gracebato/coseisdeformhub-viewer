@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000nyzk",
+  "job_id": "m_60_19_km_w_of_doganyol_turkey-D021",
+  "event_title": "M 6.0 - 19 km W of Do\u011fanyol, Turkey",
+  "orbit": "descending",
+  "track": "021",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2024/m_60_19_km_w_of_doganyol_turkey/S1-COSEIS_SAR-D-R-021-tops-20241026_20241014-033432-00036E_00037N-PP-04bb-v1_0_0/S1-COSEIS_SAR-D-R-021-tops-20241026_20241014-033432-00036E_00037N-PP-04bb-v1_0_0.nc",
+  "stats": {
+    "min": -0.08752256631851196,
+    "max": 0.19375163316726685,
+    "mean": 0.008376151323318481,
+    "std": 0.035070158541202545
+  },
+  "bounds": {
+    "lon_min": 35.67976165499999,
+    "lon_max": 39.41476464299999,
+    "lat_min": 37.06079129300001,
+    "lat_max": 40.530516291000005
+  }
+}

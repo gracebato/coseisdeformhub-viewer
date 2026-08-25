@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000i59t",
+  "job_id": "m_66_44_km_se_of_kangding_china-D062",
+  "event_title": "M 6.6 - 44 km SE of Kangding, China",
+  "orbit": "descending",
+  "track": "062",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_66_44_km_se_of_kangding_china/S1-COSEIS_SAR-D-R-062-tops-20220909_20220828-230532-00102E_00028N-PP-eff9-v1_0_0/S1-COSEIS_SAR-D-R-062-tops-20220909_20220828-230532-00102E_00028N-PP-eff9-v1_0_0.nc",
+  "stats": {
+    "min": -0.44788622856140137,
+    "max": 0.06402350962162018,
+    "mean": -0.05529288575053215,
+    "std": 0.10437170416116714
+  },
+  "bounds": {
+    "lon_min": 101.920695181,
+    "lon_max": 104.899308675,
+    "lat_min": 28.429681277,
+    "lat_max": 30.418849535
+  }
+}

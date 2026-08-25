@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000jm1y",
+  "job_id": "m_60_12_km_w_of_celikhan_turkey-A116",
+  "event_title": "M 6.0 - 12 km W of \u00c7elikhan, Turkey",
+  "orbit": "ascending",
+  "track": "116",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_60_12_km_w_of_celikhan_turkey/S1-COSEIS_SAR-A-R-116-tops-20230228_20230204-152633-00036E_00037N-PP-9439-v1_0_0/S1-COSEIS_SAR-A-R-116-tops-20230228_20230204-152633-00036E_00037N-PP-9439-v1_0_0.nc",
+  "stats": {
+    "min": -1.751820683479309,
+    "max": 0.05225500464439392,
+    "mean": -1.1108840703964233,
+    "std": 0.5631524324417114
+  },
+  "bounds": {
+    "lon_min": 36.057261956999994,
+    "lon_max": 39.751709356999996,
+    "lat_min": 36.78940218700001,
+    "lat_max": 40.155793769000006
+  }
+}

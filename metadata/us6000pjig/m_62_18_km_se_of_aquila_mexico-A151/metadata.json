@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000pjig",
+  "job_id": "m_62_18_km_se_of_aquila_mexico-A151",
+  "event_title": "M 6.2 - 18 km SE of Aquila, Mexico",
+  "orbit": "ascending",
+  "track": "151",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_62_18_km_se_of_aquila_mexico/S1-COSEIS_SAR-A-R-151-tops-20250115_20250103-005702-00103W_00017N-PP-0dbd-v1_0_0/S1-COSEIS_SAR-A-R-151-tops-20250115_20250103-005702-00103W_00017N-PP-0dbd-v1_0_0.nc",
+  "stats": {
+    "min": -0.3144631087779999,
+    "max": -0.04080891236662865,
+    "mean": -0.14981384575366974,
+    "std": 0.04007890075445175
+  },
+  "bounds": {
+    "lon_min": -103.457638455,
+    "lon_max": -100.387913777,
+    "lat_min": 16.908568949,
+    "lat_max": 20.321071679
+  }
+}

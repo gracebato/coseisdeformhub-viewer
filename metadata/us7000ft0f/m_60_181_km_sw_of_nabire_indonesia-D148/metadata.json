@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000ft0f",
+  "job_id": "m_60_181_km_sw_of_nabire_indonesia-D148",
+  "event_title": "M 6.0 - 181 km SW of Nabire, Indonesia",
+  "orbit": "descending",
+  "track": "148",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_60_181_km_sw_of_nabire_indonesia/S1-COSEIS_SAR-D-R-148-tops-20211119_20211107-204637-00132E_00005S-PP-0b85-v1_0_0/S1-COSEIS_SAR-D-R-148-tops-20211119_20211107-204637-00132E_00005S-PP-0b85-v1_0_0.nc",
+  "stats": {
+    "min": -0.10431867092847824,
+    "max": 0.016063643619418144,
+    "mean": -0.04542270302772522,
+    "std": 0.023241469636559486
+  },
+  "bounds": {
+    "lon_min": 132.193195399,
+    "lon_max": 134.83903084899998,
+    "lat_min": -5.282779293,
+    "lat_max": -3.2002776269999997
+  }
+}

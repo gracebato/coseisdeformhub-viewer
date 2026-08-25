@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000gbu4",
+  "job_id": "m_66_80_km_sw_of_labuan_indonesia-D047",
+  "event_title": "M 6.6 - 80 km SW of Labuan, Indonesia",
+  "orbit": "descending",
+  "track": "047",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_66_80_km_sw_of_labuan_indonesia/S1-COSEIS_SAR-D-R-047-tops-20220123_20211230-223415-00105E_00008S-PP-00fd-v1_0_0/S1-COSEIS_SAR-D-R-047-tops-20220123_20211230-223415-00105E_00008S-PP-00fd-v1_0_0.nc",
+  "stats": {
+    "min": -0.09134522825479507,
+    "max": 0.04008086398243904,
+    "mean": -0.016040533781051636,
+    "std": 0.013211308978497982
+  },
+  "bounds": {
+    "lon_min": 104.891806269,
+    "lon_max": 107.577363973,
+    "lat_min": -7.736667744999999,
+    "lat_max": -5.649443852999999
+  }
+}

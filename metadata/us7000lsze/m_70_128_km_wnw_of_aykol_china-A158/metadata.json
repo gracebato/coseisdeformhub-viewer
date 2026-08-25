@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000lsze",
+  "job_id": "m_70_128_km_wnw_of_aykol_china-A158",
+  "event_title": "M 7.0 - 128 km WNW of Aykol, China",
+  "orbit": "ascending",
+  "track": "158",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2024/m_70_128_km_wnw_of_aykol_china/S1-COSEIS_SAR-A-R-158-tops-20240202_20240121-123444-00079E_00041N-PP-ba2e-v1_0_0/S1-COSEIS_SAR-A-R-158-tops-20240202_20240121-123444-00079E_00041N-PP-ba2e-v1_0_0.nc",
+  "stats": {
+    "min": -0.1316249519586563,
+    "max": 0.13061800599098206,
+    "mean": -0.003280284348875284,
+    "std": 0.009569141082465649
+  },
+  "bounds": {
+    "lon_min": 78.60726159699999,
+    "lon_max": 82.12754219099999,
+    "lat_min": 40.771069639000004,
+    "lat_max": 42.641626691000006
+  }
+}

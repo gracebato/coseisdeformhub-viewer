@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000mkfz",
+  "job_id": "m_64_110_km_n_of_paciran_indonesia-A054",
+  "event_title": "M 6.4 - 110 km N of Paciran, Indonesia",
+  "orbit": "ascending",
+  "track": "054",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2024/m_64_110_km_n_of_paciran_indonesia/S1-COSEIS_SAR-A-R-054-tops-20240326_20240314-105102-00112E_00007S-PP-eca7-v1_0_0/S1-COSEIS_SAR-A-R-054-tops-20240326_20240314-105102-00112E_00007S-PP-eca7-v1_0_0.nc",
+  "stats": {
+    "min": -0.019904546439647675,
+    "max": 1.4232141971588135,
+    "mean": 0.4638693630695343,
+    "std": 0.6128583550453186
+  },
+  "bounds": {
+    "lon_min": 111.694028333,
+    "lon_max": 114.309308203,
+    "lat_min": -6.928890120999999,
+    "lat_max": -4.949166314999999
+  }
+}

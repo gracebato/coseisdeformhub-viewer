@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000ldpm",
+  "job_id": "m_63_25_km_nne_of_zindah_jan_afghanistan-A013",
+  "event_title": "M 6.3 - 25 km NNE of Zindah J\u0101n, Afghanistan",
+  "orbit": "ascending",
+  "track": "013",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_63_25_km_nne_of_zindah_jan_afghanistan/S1-COSEIS_SAR-A-R-013-tops-20231007_20230925-135509-00060E_00033N-PP-07e0-v1_0_0/S1-COSEIS_SAR-A-R-013-tops-20231007_20230925-135509-00060E_00033N-PP-07e0-v1_0_0.nc",
+  "stats": {
+    "min": -0.11694622784852982,
+    "max": 0.3805502653121948,
+    "mean": 0.017135225236415863,
+    "std": 0.013909970410168171
+  },
+  "bounds": {
+    "lon_min": 59.596983810999994,
+    "lon_max": 63.113097735,
+    "lat_min": 33.063846851,
+    "lat_max": 36.436071771
+  }
+}

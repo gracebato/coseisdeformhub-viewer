@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000kp2i",
+  "job_id": "m_61_10_km_e_of_el_calvario_colombia-D171",
+  "event_title": "M 6.1 - 10 km E of El Calvario, Colombia",
+  "orbit": "descending",
+  "track": "171",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_61_10_km_e_of_el_calvario_colombia/S1-COSEIS_SAR-D-R-171-tops-20230819_20230807-103536-00074W_00003N-PP-1968-v1_0_0/S1-COSEIS_SAR-D-R-171-tops-20230819_20230807-103536-00074W_00003N-PP-1968-v1_0_0.nc",
+  "stats": {
+    "min": -0.038736045360565186,
+    "max": 0.11915217339992523,
+    "mean": 0.031112005934119225,
+    "std": 0.01754983700811863
+  },
+  "bounds": {
+    "lon_min": -73.797737927,
+    "lon_max": -71.191346953,
+    "lat_min": 2.944443111,
+    "lat_max": 4.995833641
+  }
+}

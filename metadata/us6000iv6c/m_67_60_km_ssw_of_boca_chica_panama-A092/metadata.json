@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000iv6c",
+  "job_id": "m_67_60_km_ssw_of_boca_chica_panama-A092",
+  "event_title": "M 6.7 - 60 km SSW of Boca Chica, Panama",
+  "orbit": "ascending",
+  "track": "092",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_67_60_km_ssw_of_boca_chica_panama/S1-COSEIS_SAR-A-R-092-tops-20221029_20221005-234825-00085W_00007N-PP-13e3-v1_0_0/S1-COSEIS_SAR-A-R-092-tops-20221029_20221005-234825-00085W_00007N-PP-13e3-v1_0_0.nc",
+  "stats": {
+    "min": -0.567108154296875,
+    "max": 0.12415026128292084,
+    "mean": -0.012926152907311916,
+    "std": 0.1455402672290802
+  },
+  "bounds": {
+    "lon_min": -84.688015617,
+    "lon_max": -82.047735727,
+    "lat_min": 7.0232920629999995,
+    "lat_max": 9.294127213
+  }
+}

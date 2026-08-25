@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000qx2g",
+  "job_id": "m_78_140_km_e_of_petropavlovskkamchatsky_russia-A111",
+  "event_title": "M 7.8 - 140 km E of Petropavlovsk-Kamchatsky, Russia",
+  "orbit": "ascending",
+  "track": "111",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_78_140_km_e_of_petropavlovskkamchatsky_russia/S1-COSEIS_SAR-A-R-111-tops-20250921_20250909-071639-00155E_00051N-PP-a9a5-v1_0_0/S1-COSEIS_SAR-A-R-111-tops-20250921_20250909-071639-00155E_00051N-PP-a9a5-v1_0_0.nc",
+  "stats": {
+    "min": -0.23198504745960236,
+    "max": 0.0450783334672451,
+    "mean": -0.030069880187511444,
+    "std": 0.024077141657471657
+  },
+  "bounds": {
+    "lon_min": 155.390694757,
+    "lon_max": 160.159587461,
+    "lat_min": 50.634124285,
+    "lat_max": 54.310238337
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000sg0y",
+  "job_id": "m_62_71_km_w_of_vallenar_chile-A018",
+  "event_title": "M 6.2 - 71 km W of Vallenar, Chile",
+  "orbit": "ascending",
+  "track": "018",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2026/m_62_71_km_w_of_vallenar_chile/S1-COSEIS_SAR-A-R-018-tops-20260319_20260307-232837-00074W_00030S-PP-bde0-v1_0_0/S1-COSEIS_SAR-A-R-018-tops-20260319_20260307-232837-00074W_00030S-PP-bde0-v1_0_0.nc",
+  "stats": {
+    "min": -0.1402050107717514,
+    "max": 0.2575027048587799,
+    "mean": 0.1644279658794403,
+    "std": 0.01037932001054287
+  },
+  "bounds": {
+    "lon_min": -73.88162928300001,
+    "lon_max": -70.88912688900001,
+    "lat_min": -29.918652334999997,
+    "lat_max": -28.006428582999998
+  }
+}

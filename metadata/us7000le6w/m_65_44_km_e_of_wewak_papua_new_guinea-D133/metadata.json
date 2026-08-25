@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000le6w",
+  "job_id": "m_65_44_km_e_of_wewak_papua_new_guinea-D133",
+  "event_title": "M 6.5 - 44 km E of Wewak, Papua New Guinea",
+  "orbit": "descending",
+  "track": "133",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_65_44_km_e_of_wewak_papua_new_guinea/S1-COSEIS_SAR-D-R-133-tops-20231202_20231120-200534-00143E_00005S-PP-cf40-v1_0_0/S1-COSEIS_SAR-D-R-133-tops-20231202_20231120-200534-00143E_00005S-PP-cf40-v1_0_0.nc",
+  "stats": {
+    "min": 0.3814292550086975,
+    "max": 0.5482097864151001,
+    "mean": 0.47429248690605164,
+    "std": 0.02685890533030033
+  },
+  "bounds": {
+    "lon_min": 142.514861523,
+    "lon_max": 145.22847480500002,
+    "lat_min": -4.9341679030000005,
+    "lat_max": -2.853610683
+  }
+}

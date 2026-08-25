@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000jlqa",
+  "job_id": "m_75_elbistan_earthquake_kahramanmaras_earthquake_sequence-D094",
+  "event_title": "M 7.5 - Elbistan earthquake, Kahramanmaras earthquake sequence",
+  "orbit": "descending",
+  "track": "094",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_75_elbistan_earthquake_kahramanmaras_earthquake_sequence/S1-COSEIS_SAR-D-R-094-tops-20230215_20230203-034247-00034E_00037N-PP-92e2-v1_0_0/S1-COSEIS_SAR-D-R-094-tops-20230215_20230203-034247-00034E_00037N-PP-92e2-v1_0_0.nc",
+  "stats": {
+    "min": -0.41916152834892273,
+    "max": 0.19600674510002136,
+    "mean": 0.010789592750370502,
+    "std": 0.051580604165792465
+  },
+  "bounds": {
+    "lon_min": 33.546150436999994,
+    "lon_max": 37.255875626999995,
+    "lat_min": 36.685790993000005,
+    "lat_max": 40.154682657
+  }
+}

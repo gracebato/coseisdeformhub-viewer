@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000gzyg",
+  "job_id": "m_61_65_km_nnw_of_bukittinggi_indonesia-A069",
+  "event_title": "M 6.1 - 65 km NNW of Bukittinggi, Indonesia",
+  "orbit": "ascending",
+  "track": "069",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_61_65_km_nnw_of_bukittinggi_indonesia/S1-COSEIS_SAR-A-R-069-tops-20220314_20220218-113341-00100E_00002S-PP-4a0c-v1_0_0/S1-COSEIS_SAR-A-R-069-tops-20220314_20220218-113341-00100E_00002S-PP-4a0c-v1_0_0.nc",
+  "stats": {
+    "min": -0.7084918022155762,
+    "max": 0.012183626182377338,
+    "mean": -0.33099856972694397,
+    "std": 0.1872357875108719
+  },
+  "bounds": {
+    "lon_min": 99.89865071899999,
+    "lon_max": 102.87309754299999,
+    "lat_min": -1.585558113,
+    "lat_max": 1.881389105
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000kufc",
+  "job_id": "m_68_al_haouz_morocco-A045",
+  "event_title": "M 6.8 - Al Haouz, Morocco",
+  "orbit": "ascending",
+  "track": "045",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_68_al_haouz_morocco/S1-COSEIS_SAR-A-R-045-tops-20230915_20230903-183359-00009W_00030N-PP-b8e5-v1_0_0/S1-COSEIS_SAR-A-R-045-tops-20230915_20230903-183359-00009W_00030N-PP-b8e5-v1_0_0.nc",
+  "stats": {
+    "min": -0.20616498589515686,
+    "max": 0.1972760260105133,
+    "mean": -0.03813637048006058,
+    "std": 0.06859918683767319
+  },
+  "bounds": {
+    "lon_min": -9.376905057,
+    "lon_max": -6.298291483,
+    "lat_min": 30.291070055000006,
+    "lat_max": 32.343849475000006
+  }
+}

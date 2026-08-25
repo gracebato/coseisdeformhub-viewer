@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000nql2",
+  "job_id": "m_63_239_km_wnw_of_cochrane_chile-A135",
+  "event_title": "M 6.3 - 239 km WNW of Cochrane, Chile",
+  "orbit": "ascending",
+  "track": "135",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2024/m_63_239_km_wnw_of_cochrane_chile/S1-COSEIS_SAR-A-R-135-tops-20241114_20241102-235753-00076W_00048S-PP-8ae0-v1_0_0/S1-COSEIS_SAR-A-R-135-tops-20241114_20241102-235753-00076W_00048S-PP-8ae0-v1_0_0.nc",
+  "stats": {
+    "min": -0.3145776391029358,
+    "max": -0.12013144791126251,
+    "mean": -0.2198038101196289,
+    "std": 0.017675478011369705
+  },
+  "bounds": {
+    "lon_min": -75.89468324900001,
+    "lon_max": -71.89023560100001,
+    "lat_min": -47.482263896999996,
+    "lat_max": -45.28031769099999
+  }
+}

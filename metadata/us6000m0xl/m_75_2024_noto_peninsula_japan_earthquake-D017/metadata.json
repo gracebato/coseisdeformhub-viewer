@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000m0xl",
+  "job_id": "m_75_2024_noto_peninsula_japan_earthquake-D017",
+  "event_title": "M 7.5 - 2024 Noto Peninsula, Japan Earthquake",
+  "orbit": "descending",
+  "track": "017",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2024/m_75_2024_noto_peninsula_japan_earthquake/S1-COSEIS_SAR-D-R-017-tops-20240111_20231230-210002-00134E_00036N-PP-18ee-v1_0_0/S1-COSEIS_SAR-D-R-017-tops-20240111_20231230-210002-00134E_00036N-PP-18ee-v1_0_0.nc",
+  "stats": {
+    "min": 0.4761161208152771,
+    "max": 1.073654294013977,
+    "mean": 0.9653682112693787,
+    "std": 0.04449186474084854
+  },
+  "bounds": {
+    "lon_min": 134.257917673,
+    "lon_max": 137.55986475900002,
+    "lat_min": 36.116904049000006,
+    "lat_max": 38.088016737000004
+  }
+}

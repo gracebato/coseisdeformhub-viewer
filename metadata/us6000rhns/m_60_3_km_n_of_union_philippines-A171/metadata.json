@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000rhns",
+  "job_id": "m_60_3_km_n_of_union_philippines-A171",
+  "event_title": "M 6.0 - 3 km N of Union, Philippines",
+  "orbit": "ascending",
+  "track": "171",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_60_3_km_n_of_union_philippines/S1-COSEIS_SAR-A-R-171-tops-20251025_20251013-094811-00125E_00007N-PP-c4c0-v1_0_0/S1-COSEIS_SAR-A-R-171-tops-20251025_20251013-094811-00125E_00007N-PP-c4c0-v1_0_0.nc",
+  "stats": {
+    "min": -0.09737051278352737,
+    "max": 0.2833841145038605,
+    "mean": 0.07818599790334702,
+    "std": 0.06746108829975128
+  },
+  "bounds": {
+    "lon_min": 124.774028397,
+    "lon_max": 127.724030757,
+    "lat_min": 7.4738463789999985,
+    "lat_max": 10.908015792999999
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000fskw",
+  "job_id": "m_63_62_km_s_of_masachapa_nicaragua-D055",
+  "event_title": "M 6.3 - 62 km S of Masachapa, Nicaragua",
+  "orbit": "descending",
+  "track": "055",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_63_62_km_s_of_masachapa_nicaragua/S1-COSEIS_SAR-D-R-055-tops-20211113_20211020-113906-00089W_00011N-PP-204c-v1_0_0/S1-COSEIS_SAR-D-R-055-tops-20211113_20211020-113906-00089W_00011N-PP-204c-v1_0_0.nc",
+  "stats": {
+    "min": -0.06698942929506302,
+    "max": 0.1384793519973755,
+    "mean": 0.04437682405114174,
+    "std": 0.028862239792943
+  },
+  "bounds": {
+    "lon_min": -88.699126737,
+    "lon_max": -86.022180151,
+    "lat_min": 10.849403035,
+    "lat_max": 12.877182435
+  }
+}

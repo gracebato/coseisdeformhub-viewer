@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000rdrz",
+  "job_id": "m_69_8_km_ese_of_calape_philippines-D134",
+  "event_title": "M 6.9 - 8 km ESE of Calape, Philippines",
+  "orbit": "descending",
+  "track": "134",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_69_8_km_ese_of_calape_philippines/S1-COSEIS_SAR-D-R-134-tops-20251004_20250904-213945-00121E_00010N-PP-d531-v1_0_0/S1-COSEIS_SAR-D-R-134-tops-20251004_20250904-213945-00121E_00010N-PP-d531-v1_0_0.nc",
+  "stats": {
+    "min": -0.8317041993141174,
+    "max": -0.049469850957393646,
+    "mean": -0.5047582983970642,
+    "std": 0.12870141863822937
+  },
+  "bounds": {
+    "lon_min": 120.989861903,
+    "lon_max": 123.917086467,
+    "lat_min": 10.065791296999999,
+    "lat_max": 13.431071766999999
+  }
+}

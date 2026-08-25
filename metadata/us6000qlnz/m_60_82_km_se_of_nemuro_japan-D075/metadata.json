@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000qlnz",
+  "job_id": "m_60_82_km_se_of_nemuro_japan-D075",
+  "event_title": "M 6.0 - 82 km SE of Nemuro, Japan",
+  "orbit": "descending",
+  "track": "075",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_60_82_km_se_of_nemuro_japan/S1-COSEIS_SAR-D-R-075-tops-20250708_20250614-202513-00144E_00041N-PP-7321-v1_0_0/S1-COSEIS_SAR-D-R-075-tops-20250708_20250614-202513-00144E_00041N-PP-7321-v1_0_0.nc",
+  "stats": {
+    "min": -0.33830726146698,
+    "max": -0.03708662837743759,
+    "mean": -0.19148391485214233,
+    "std": 0.0566655769944191
+  },
+  "bounds": {
+    "lon_min": 143.588194915,
+    "lon_max": 147.607642575,
+    "lat_min": 41.560790893000004,
+    "lat_max": 45.178293787
+  }
+}

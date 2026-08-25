@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000n0s8",
+  "job_id": "m_61_99_km_ne_of_norsup_vanuatu-A081",
+  "event_title": "M 6.1 - 99 km NE of Norsup, Vanuatu",
+  "orbit": "ascending",
+  "track": "081",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2024/m_61_99_km_ne_of_norsup_vanuatu/S1-COSEIS_SAR-A-R-081-tops-20240726_20240714-071427-00167E_00017S-PP-0ff0-v1_0_0/S1-COSEIS_SAR-A-R-081-tops-20240726_20240714-071427-00167E_00017S-PP-0ff0-v1_0_0.nc",
+  "stats": {
+    "min": -0.14412523806095123,
+    "max": 0.5249788165092468,
+    "mean": 0.062423791736364365,
+    "std": 0.2323227971792221
+  },
+  "bounds": {
+    "lon_min": 167.291251033,
+    "lon_max": 170.061808805,
+    "lat_min": -16.421708293000002,
+    "lat_max": -14.405595569
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000f1ea",
+  "job_id": "m_60_182_km_ne_of_tual_indonesia-A126",
+  "event_title": "M 6.0 - 182 km NE of Tual, Indonesia",
+  "orbit": "ascending",
+  "track": "126",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_60_182_km_ne_of_tual_indonesia/S1-COSEIS_SAR-A-R-126-tops-20210802_20210721-092052-00134E_00005S-PP-6c06-v1_0_0/S1-COSEIS_SAR-A-R-126-tops-20210802_20210721-092052-00134E_00005S-PP-6c06-v1_0_0.nc",
+  "stats": {
+    "min": -0.15693195164203644,
+    "max": 0.22172166407108307,
+    "mean": 0.07295631617307663,
+    "std": 0.050139255821704865
+  },
+  "bounds": {
+    "lon_min": 133.87819514699999,
+    "lon_max": 136.52125281699998,
+    "lat_min": -5.230279251000001,
+    "lat_max": -3.090555317
+  }
+}

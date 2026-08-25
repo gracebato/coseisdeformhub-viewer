@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000kv90",
+  "job_id": "m_62_69_km_n_of_namuac_philippines-D105",
+  "event_title": "M 6.2 - 69 km N of Namuac, Philippines",
+  "orbit": "descending",
+  "track": "105",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_62_69_km_n_of_namuac_philippines/S1-COSEIS_SAR-D-R-105-tops-20230919_20230907-215419-00118E_00018N-PP-fdb3-v1_0_0/S1-COSEIS_SAR-D-R-105-tops-20230919_20230907-215419-00118E_00018N-PP-fdb3-v1_0_0.nc",
+  "stats": {
+    "min": -2.158902883529663,
+    "max": -2.061469793319702,
+    "mean": -2.107799530029297,
+    "std": 0.007406509015709162
+  },
+  "bounds": {
+    "lon_min": 118.376804257,
+    "lon_max": 121.43069558900001,
+    "lat_min": 17.754124381000004,
+    "lat_max": 21.264960523000003
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000fs08",
+  "job_id": "m_60_150_km_ese_of_gorontalo_indonesia-D163",
+  "event_title": "M 6.0 - 150 km ESE of Gorontalo, Indonesia",
+  "orbit": "descending",
+  "track": "163",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_60_150_km_ese_of_gorontalo_indonesia/S1-COSEIS_SAR-D-R-163-tops-20211108_20211027-212640-00123E_00002S-PP-e238-v1_0_0/S1-COSEIS_SAR-D-R-163-tops-20211108_20211027-212640-00123E_00002S-PP-e238-v1_0_0.nc",
+  "stats": {
+    "min": -0.1526641547679901,
+    "max": 5.617080023512244e-05,
+    "mean": -0.07187436521053314,
+    "std": 0.025628136470913887
+  },
+  "bounds": {
+    "lon_min": 122.64236162499999,
+    "lon_max": 125.58319731099999,
+    "lat_min": -1.9641687270000001,
+    "lat_max": 1.602500793
+  }
+}

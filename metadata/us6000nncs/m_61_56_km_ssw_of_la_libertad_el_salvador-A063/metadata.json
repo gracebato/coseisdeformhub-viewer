@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000nncs",
+  "job_id": "m_61_56_km_ssw_of_la_libertad_el_salvador-A063",
+  "event_title": "M 6.1 - 56 km SSW of La Libertad, El Salvador",
+  "orbit": "ascending",
+  "track": "063",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2024/m_61_56_km_ssw_of_la_libertad_el_salvador/S1-COSEIS_SAR-A-R-063-tops-20240830_20240818-000624-00090W_00012N-PP-60fc-v1_0_0/S1-COSEIS_SAR-A-R-063-tops-20240830_20240818-000624-00090W_00012N-PP-60fc-v1_0_0.nc",
+  "stats": {
+    "min": -0.2001153975725174,
+    "max": -0.00182445184327662,
+    "mean": -0.10762633383274078,
+    "std": 0.025191910564899445
+  },
+  "bounds": {
+    "lon_min": -89.826626839,
+    "lon_max": -87.113846891,
+    "lat_min": 12.180514410999999,
+    "lat_max": 14.110793733
+  }
+}

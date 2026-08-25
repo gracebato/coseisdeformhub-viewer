@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000g9zq",
+  "job_id": "m_66_northern_qinghai_china-D033",
+  "event_title": "M 6.6 - northern Qinghai, China",
+  "orbit": "descending",
+  "track": "033",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_66_northern_qinghai_china/S1-COSEIS_SAR-D-R-033-tops-20220110_20211229-231939-00099E_00036N-PP-c783-v1_0_0/S1-COSEIS_SAR-D-R-033-tops-20220110_20211229-231939-00099E_00036N-PP-c783-v1_0_0.nc",
+  "stats": {
+    "min": -0.6664421558380127,
+    "max": 0.6809131503105164,
+    "mean": -0.016629157587885857,
+    "std": 0.0290910005569458
+  },
+  "bounds": {
+    "lon_min": 99.376983635,
+    "lon_max": 102.656708481,
+    "lat_min": 36.419125713,
+    "lat_max": 38.396627295
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000rl31",
+  "job_id": "m_62_30_km_se_of_mazare_sharif_afghanistan-D049",
+  "event_title": "M 6.2 - 30 km SE of Maz\u0101r-e Shar\u012bf, Afghanistan",
+  "orbit": "descending",
+  "track": "049",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_62_30_km_se_of_mazare_sharif_afghanistan/S1-COSEIS_SAR-D-R-049-tops-20251104_20251023-013943-00064E_00035N-PP-fcfe-v1_0_0/S1-COSEIS_SAR-D-R-049-tops-20251104_20251023-013943-00064E_00035N-PP-fcfe-v1_0_0.nc",
+  "stats": {
+    "min": -0.09139574319124222,
+    "max": 0.08825234323740005,
+    "mean": -0.009922906756401062,
+    "std": 0.023683326318860054
+  },
+  "bounds": {
+    "lon_min": 64.128373125,
+    "lon_max": 67.709487101,
+    "lat_min": 35.06690240900001,
+    "lat_max": 38.53634962900001
+  }
+}

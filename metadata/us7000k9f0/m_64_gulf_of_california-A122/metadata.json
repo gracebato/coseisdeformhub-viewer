@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000k9f0",
+  "job_id": "m_64_gulf_of_california-A122",
+  "event_title": "M 6.4 - Gulf of California",
+  "orbit": "ascending",
+  "track": "122",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_64_gulf_of_california/S1-COSEIS_SAR-A-R-122-tops-20230629_20230617-011439-00108W_00021N-PP-8488-v1_0_0/S1-COSEIS_SAR-A-R-122-tops-20230629_20230617-011439-00108W_00021N-PP-8488-v1_0_0.nc",
+  "stats": {
+    "min": -0.49271461367607117,
+    "max": 0.2825806736946106,
+    "mean": 0.09109024703502655,
+    "std": 0.07089696824550629
+  },
+  "bounds": {
+    "lon_min": -108.233749387,
+    "lon_max": -105.418469357,
+    "lat_min": 21.561069471,
+    "lat_max": 23.627182235
+  }
+}

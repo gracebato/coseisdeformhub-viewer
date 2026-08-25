@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000ppfy",
+  "job_id": "m_61_56_km_ene_of_nishinoomote_japan-D163",
+  "event_title": "M 6.1 - 56 km ENE of Nishinoomote, Japan",
+  "orbit": "descending",
+  "track": "163",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_61_56_km_ene_of_nishinoomote_japan/S1-COSEIS_SAR-D-R-163-tops-20250409_20250328-211759-00129E_00030N-PP-ed5e-v1_0_0/S1-COSEIS_SAR-D-R-163-tops-20250409_20250328-211759-00129E_00030N-PP-ed5e-v1_0_0.nc",
+  "stats": {
+    "min": 0.19364716112613678,
+    "max": 0.6907166838645935,
+    "mean": 0.3228277564048767,
+    "std": 0.08066593110561371
+  },
+  "bounds": {
+    "lon_min": 129.011806365,
+    "lon_max": 132.027364333,
+    "lat_min": 30.213014437000005,
+    "lat_max": 32.196071579000005
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000hf75",
+  "job_id": "m_66_55_km_wsw_of_masachapa_nicaragua-A165",
+  "event_title": "M 6.6 - 55 km WSW of Masachapa, Nicaragua",
+  "orbit": "ascending",
+  "track": "165",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_66_55_km_wsw_of_masachapa_nicaragua/S1-COSEIS_SAR-A-R-165-tops-20220425_20220401-235726-00088W_00010N-PP-f2b4-v1_0_0/S1-COSEIS_SAR-A-R-165-tops-20220425_20220401-235726-00088W_00010N-PP-f2b4-v1_0_0.nc",
+  "stats": {
+    "min": -0.03584400936961174,
+    "max": 0.5606940984725952,
+    "mean": 0.3459860682487488,
+    "std": 0.09468596428632736
+  },
+  "bounds": {
+    "lon_min": -87.610238577,
+    "lon_max": -84.609125065,
+    "lat_min": 9.737179923,
+    "lat_max": 13.338293915
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000qh1r",
+  "job_id": "m_60_78_km_s_of_kushiro_japan-A097",
+  "event_title": "M 6.0 - 78 km S of Kushiro, Japan",
+  "orbit": "ascending",
+  "track": "097",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_60_78_km_s_of_kushiro_japan/S1-COSEIS_SAR-A-R-097-tops-20250610_20250529-081034-00144E_00042N-PP-560e-v1_0_0/S1-COSEIS_SAR-A-R-097-tops-20250610_20250529-081034-00144E_00042N-PP-560e-v1_0_0.nc",
+  "stats": {
+    "min": -0.23091000318527222,
+    "max": 0.04756251350045204,
+    "mean": -0.08496544510126114,
+    "std": 0.03680398687720299
+  },
+  "bounds": {
+    "lon_min": 144.016806369,
+    "lon_max": 147.620142585,
+    "lat_min": 42.201069983000004,
+    "lat_max": 44.395793961
+  }
+}

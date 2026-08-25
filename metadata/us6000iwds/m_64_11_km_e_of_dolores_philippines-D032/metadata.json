@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000iwds",
+  "job_id": "m_64_11_km_e_of_dolores_philippines-D032",
+  "event_title": "M 6.4 - 11 km E of Dolores, Philippines",
+  "orbit": "descending",
+  "track": "032",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_64_11_km_e_of_dolores_philippines/S1-COSEIS_SAR-D-R-032-tops-20221025_20221013-214623-00120E_00016N-PP-a996-v1_0_0/S1-COSEIS_SAR-D-R-032-tops-20221025_20221013-214623-00120E_00016N-PP-a996-v1_0_0.nc",
+  "stats": {
+    "min": -2.2700860500335693,
+    "max": -1.4348400831222534,
+    "mean": -2.0555808544158936,
+    "std": 0.0754375010728836
+  },
+  "bounds": {
+    "lon_min": 120.151250921,
+    "lon_max": 123.252086735,
+    "lat_min": 16.297457349000002,
+    "lat_max": 19.977182515000003
+  }
+}

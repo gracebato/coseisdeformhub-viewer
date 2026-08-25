@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000kulj",
+  "job_id": "m_60_101_km_n_of_palu_indonesia-D134",
+  "event_title": "M 6.0 - 101 km N of Palu, Indonesia",
+  "orbit": "descending",
+  "track": "134",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_60_101_km_n_of_palu_indonesia/S1-COSEIS_SAR-D-R-134-tops-20230909_20230828-214318-00119E_00002S-PP-3bc0-v1_0_0/S1-COSEIS_SAR-D-R-134-tops-20230909_20230828-214318-00119E_00002S-PP-3bc0-v1_0_0.nc",
+  "stats": {
+    "min": -0.7967624068260193,
+    "max": -0.016313230618834496,
+    "mean": -0.4984397888183594,
+    "std": 0.18563541769981384
+  },
+  "bounds": {
+    "lon_min": 118.532639315,
+    "lon_max": 121.472086111,
+    "lat_min": -1.947780625,
+    "lat_max": 1.6183333389999999
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000hz9v",
+  "job_id": "m_60_57_km_ne_of_bandare_lengeh_iran-D064",
+  "event_title": "M 6.0 - 57 km NE of Bandar-e Lengeh, Iran",
+  "orbit": "descending",
+  "track": "064",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_60_57_km_ne_of_bandare_lengeh_iran/S1-COSEIS_SAR-D-R-064-tops-20220712_20220630-022332-00052E_00026N-PP-7b88-v1_0_0/S1-COSEIS_SAR-D-R-064-tops-20220712_20220630-022332-00052E_00026N-PP-7b88-v1_0_0.nc",
+  "stats": {
+    "min": -0.38243067264556885,
+    "max": 0.04089745506644249,
+    "mean": -0.09086451679468155,
+    "std": 0.04541987553238869
+  },
+  "bounds": {
+    "lon_min": 51.987261901,
+    "lon_max": 55.261431187,
+    "lat_min": 25.743846595,
+    "lat_max": 29.235238277
+  }
+}

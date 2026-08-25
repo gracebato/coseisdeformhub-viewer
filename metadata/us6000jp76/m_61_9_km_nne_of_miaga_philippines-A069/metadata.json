@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000jp76",
+  "job_id": "m_61_9_km_nne_of_miaga_philippines-A069",
+  "event_title": "M 6.1 - 9 km NNE of Miaga, Philippines",
+  "orbit": "ascending",
+  "track": "069",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_61_9_km_nne_of_miaga_philippines/S1-COSEIS_SAR-A-R-069-tops-20230225_20230213-095825-00122E_00010N-PP-dfc5-v1_0_0/S1-COSEIS_SAR-A-R-069-tops-20230225_20230213-095825-00122E_00010N-PP-dfc5-v1_0_0.nc",
+  "stats": {
+    "min": -0.1497305929660797,
+    "max": 0.14567923545837402,
+    "mean": -0.014505168423056602,
+    "std": 0.04183148965239525
+  },
+  "bounds": {
+    "lon_min": 122.042917501,
+    "lon_max": 125.047642127,
+    "lat_min": 10.418568556999999,
+    "lat_max": 14.342182806999999
+  }
+}

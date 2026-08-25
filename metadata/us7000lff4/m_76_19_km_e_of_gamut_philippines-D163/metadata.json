@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000lff4",
+  "job_id": "m_76_19_km_e_of_gamut_philippines-D163",
+  "event_title": "M 7.6 - 19 km E of Gamut, Philippines",
+  "orbit": "descending",
+  "track": "163",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_76_19_km_e_of_gamut_philippines/S1-COSEIS_SAR-D-R-163-tops-20231204_20231122-212419-00125E_00007N-PP-2ff5-v1_0_0/S1-COSEIS_SAR-D-R-163-tops-20231204_20231122-212419-00125E_00007N-PP-2ff5-v1_0_0.nc",
+  "stats": {
+    "min": -1.3182896375656128,
+    "max": -0.8565269708633423,
+    "mean": -1.1079307794570923,
+    "std": 0.12972000241279602
+  },
+  "bounds": {
+    "lon_min": 124.500139289,
+    "lon_max": 127.478475005,
+    "lat_min": 7.046346036999999,
+    "lat_max": 10.586348869
+  }
+}

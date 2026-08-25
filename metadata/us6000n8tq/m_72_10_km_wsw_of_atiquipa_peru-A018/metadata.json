@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000n8tq",
+  "job_id": "m_72_10_km_wsw_of_atiquipa_peru-A018",
+  "event_title": "M 7.2 - 10 km WSW of Atiquipa, Peru",
+  "orbit": "ascending",
+  "track": "018",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2024/m_72_10_km_wsw_of_atiquipa_peru/S1-COSEIS_SAR-A-R-018-tops-20240709_20240615-233329-00077W_00017S-PP-6e66-v1_0_0/S1-COSEIS_SAR-A-R-018-tops-20240709_20240615-233329-00077W_00017S-PP-6e66-v1_0_0.nc",
+  "stats": {
+    "min": -0.5436816811561584,
+    "max": 0.659940242767334,
+    "mean": -0.09147391468286514,
+    "std": 0.022014927119016647
+  },
+  "bounds": {
+    "lon_min": -77.405239213,
+    "lon_max": -74.597736967,
+    "lat_min": -17.185596993,
+    "lat_max": -14.995039685
+  }
+}

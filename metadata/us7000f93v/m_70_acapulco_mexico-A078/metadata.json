@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000f93v",
+  "job_id": "m_70_acapulco_mexico-A078",
+  "event_title": "M 7.0 - Acapulco, Mexico",
+  "orbit": "ascending",
+  "track": "078",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_70_acapulco_mexico/S1-COSEIS_SAR-A-R-078-tops-20210910_20210904-004737-00101W_00015N-PP-71ad-v1_0_0/S1-COSEIS_SAR-A-R-078-tops-20210910_20210904-004737-00101W_00015N-PP-71ad-v1_0_0.nc",
+  "stats": {
+    "min": -0.9083071351051331,
+    "max": -0.4849381446838379,
+    "mean": -0.7532879114151001,
+    "std": 0.024529537186026573
+  },
+  "bounds": {
+    "lon_min": -101.00874920700001,
+    "lon_max": -98.02069126100001,
+    "lat_min": 15.029680157,
+    "lat_max": 18.442738443
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000nu90",
+  "job_id": "m_61_38_km_wnw_of_hakui_japan-D017",
+  "event_title": "M 6.1 - 38 km WNW of Hakui, Japan",
+  "orbit": "descending",
+  "track": "017",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2024/m_61_38_km_wnw_of_hakui_japan/S1-COSEIS_SAR-D-R-017-tops-20241212_20241118-205959-00134E_00036N-PP-b145-v1_0_0/S1-COSEIS_SAR-D-R-017-tops-20241212_20241118-205959-00134E_00036N-PP-b145-v1_0_0.nc",
+  "stats": {
+    "min": -0.18101273477077484,
+    "max": -0.07182011753320694,
+    "mean": -0.12523505091667175,
+    "std": 0.009244062937796116
+  },
+  "bounds": {
+    "lon_min": 134.256806561,
+    "lon_max": 137.559031425,
+    "lat_min": 36.117181827,
+    "lat_max": 38.088572293000006
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000mx5c",
+  "job_id": "m_61_101_km_ene_of_luganville_vanuatu-A081",
+  "event_title": "M 6.1 - 101 km ENE of Luganville, Vanuatu",
+  "orbit": "ascending",
+  "track": "081",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2024/m_61_101_km_ene_of_luganville_vanuatu/S1-COSEIS_SAR-A-R-081-tops-20240515_20240503-071442-00167E_00017S-PP-de7e-v1_0_0/S1-COSEIS_SAR-A-R-081-tops-20240515_20240503-071442-00167E_00017S-PP-de7e-v1_0_0.nc",
+  "stats": {
+    "min": -0.06674734503030777,
+    "max": 3.7217843532562256,
+    "mean": 1.0832237005233765,
+    "std": 1.3775920867919922
+  },
+  "bounds": {
+    "lon_min": 166.944306311,
+    "lon_max": 170.062086583,
+    "lat_min": -16.421986871,
+    "lat_max": -12.914761843
+  }
+}

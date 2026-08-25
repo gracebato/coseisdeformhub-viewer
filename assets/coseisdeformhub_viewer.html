@@ -1009,6 +1009,8 @@
                     Developed as part of the One-Stop-Shop of Coseismic Products Project funded by NASA ESI grant <a href="https://ui.adsabs.harvard.edu/abs/2023esi..prop...12B/abstract" target="_blank" rel="noopener">23-ESI23-0012</a>.
                     Contact Dr. Grace Bato (<a href="mailto:bato@jpl.nasa.gov">bato@jpl.nasa.gov</a>) and
                     Dr. Cole Speed (<a href="mailto:cole.speed@jpl.nasa.gov">cole.speed@jpl.nasa.gov</a>) for product-specific inquiries.
+                    <br>
+                    Citation: Speed, C.M., Bato, M.G., et al. (2026). A global archive of accessible, analysis-ready coseismic displacement products for earthquake science applications derived from SAR and optical imagery, ESA FRINGE, Jun. 15&ndash;19, Krak&oacute;w, Poland. <a href="https://doi.org/10.48577/jpl.RZGUGC" target="_blank" rel="noopener">https://doi.org/10.48577/jpl.RZGUGC</a>
                 </div>
             </div>
         </div>
@@ -1495,7 +1497,26 @@
                     <span class="info-label">Datasets</span>
                     <span class="info-value">${currentEvent.datasets.length}</span>
                 </div>
+                ${currentEvent.metadata && currentEvent.metadata.pager_alert ? `
+                <div class="info-row">
+                    <span class="info-label">PAGER Alert</span>
+                    <span class="info-value">
+                        <span style="display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 5px; background: ${pagerAlertColor(currentEvent.metadata.pager_alert)};"></span>${currentEvent.metadata.pager_alert}
+                    </span>
+                </div>
+                ` : ''}
+                ${currentEvent.metadata && currentEvent.metadata.usgs_event_url ? `
+                <div class="info-row">
+                    <span class="info-label">USGS URL</span>
+                    <span class="info-value"><a href="${currentEvent.metadata.usgs_event_url}" target="_blank" rel="noopener">link</a></span>
+                </div>
+                ` : ''}
             `;
+        }
+
+        function pagerAlertColor(level) {
+            const colors = { green: '#00e600', yellow: '#ffff00', orange: '#ff9900', red: '#ff0000' };
+            return colors[(level || '').toLowerCase()] || '#888888';
         }
 
         // Update dataset info display

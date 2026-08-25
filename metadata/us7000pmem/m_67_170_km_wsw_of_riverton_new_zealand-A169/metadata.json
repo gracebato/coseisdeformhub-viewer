@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000pmem",
+  "job_id": "m_67_170_km_wsw_of_riverton_new_zealand-A169",
+  "event_title": "M 6.7 - 170 km WSW of Riverton, New Zealand",
+  "orbit": "ascending",
+  "track": "169",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_67_170_km_wsw_of_riverton_new_zealand/S1-COSEIS_SAR-A-R-169-tops-20250329_20250317-075510-00164E_00048S-PP-bbd8-v1_0_0/S1-COSEIS_SAR-A-R-169-tops-20250329_20250317-075510-00164E_00048S-PP-bbd8-v1_0_0.nc",
+  "stats": {
+    "min": -0.42328712344169617,
+    "max": 0.11976610869169235,
+    "mean": -0.2151205837726593,
+    "std": 0.13223762810230255
+  },
+  "bounds": {
+    "lon_min": 164.270693061,
+    "lon_max": 168.998752399,
+    "lat_min": -48.05032070699999,
+    "lat_max": -43.93226185699999
+  }
+}

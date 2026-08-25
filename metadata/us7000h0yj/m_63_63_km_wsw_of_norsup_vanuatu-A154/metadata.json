@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000h0yj",
+  "job_id": "m_63_63_km_wsw_of_norsup_vanuatu-A154",
+  "event_title": "M 6.3 - 63 km WSW of Norsup, Vanuatu",
+  "orbit": "ascending",
+  "track": "154",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_63_63_km_wsw_of_norsup_vanuatu/S1-COSEIS_SAR-A-R-154-tops-20220413_20220401-072222-00165E_00018S-PP-f6a5-v1_0_0/S1-COSEIS_SAR-A-R-154-tops-20220413_20220401-072222-00165E_00018S-PP-f6a5-v1_0_0.nc",
+  "stats": {
+    "min": -0.4144204556941986,
+    "max": 0.5979989767074585,
+    "mean": -0.005526457913219929,
+    "std": 0.3362731635570526
+  },
+  "bounds": {
+    "lon_min": 165.194582689,
+    "lon_max": 168.36180744499998,
+    "lat_min": -18.038376253000003,
+    "lat_max": -14.033095271
+  }
+}

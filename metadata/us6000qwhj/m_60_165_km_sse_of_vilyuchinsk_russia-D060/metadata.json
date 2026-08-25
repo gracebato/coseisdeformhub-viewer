@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000qwhj",
+  "job_id": "m_60_165_km_sse_of_vilyuchinsk_russia-D060",
+  "event_title": "M 6.0 - 165 km SSE of Vilyuchinsk, Russia",
+  "orbit": "descending",
+  "track": "060",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_60_165_km_sse_of_vilyuchinsk_russia/S1-COSEIS_SAR-D-R-060-tops-20250731_20250719-194141-00156E_00051N-PP-19e9-v1_0_0/S1-COSEIS_SAR-D-R-060-tops-20250731_20250719-194141-00156E_00051N-PP-19e9-v1_0_0.nc",
+  "stats": {
+    "min": -0.3015247881412506,
+    "max": 0.5506501197814941,
+    "mean": 0.047048673033714294,
+    "std": 0.17266958951950073
+  },
+  "bounds": {
+    "lon_min": 155.950695205,
+    "lon_max": 160.179309699,
+    "lat_min": 50.995514263000004,
+    "lat_max": 52.958293611
+  }
+}

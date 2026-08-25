@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000g7v8",
+  "job_id": "m_63_113_km_sse_of_kavieng_papua_new_guinea-D016",
+  "event_title": "M 6.3 - 113 km SSE of Kavieng, Papua New Guinea",
+  "orbit": "descending",
+  "track": "016",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_63_113_km_sse_of_kavieng_papua_new_guinea/S1-COSEIS_SAR-D-R-016-tops-20211204_20211110-193231-00151E_00006S-PP-b029-v1_0_0/S1-COSEIS_SAR-D-R-016-tops-20211204_20211110-193231-00151E_00006S-PP-b029-v1_0_0.nc",
+  "stats": {
+    "min": 0.2879912853240967,
+    "max": 1.6797281503677368,
+    "mean": 1.0854054689407349,
+    "std": 0.3263534903526306
+  },
+  "bounds": {
+    "lon_min": 150.562639339,
+    "lon_max": 153.582919533,
+    "lat_min": -6.0288928010000005,
+    "lat_max": -2.287500919
+  }
+}

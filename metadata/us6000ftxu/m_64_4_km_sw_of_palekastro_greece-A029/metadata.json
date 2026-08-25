@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000ftxu",
+  "job_id": "m_64_4_km_sw_of_palekastro_greece-A029",
+  "event_title": "M 6.4 - 4 km SW of Palekastro, Greece",
+  "orbit": "ascending",
+  "track": "029",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_64_4_km_sw_of_palekastro_greece/S1-COSEIS_SAR-A-R-029-tops-20211012_20211006-161416-00025E_00033N-PP-0f79-v1_0_0/S1-COSEIS_SAR-A-R-029-tops-20211012_20211006-161416-00025E_00033N-PP-0f79-v1_0_0.nc",
+  "stats": {
+    "min": -1.9255348443984985,
+    "max": -0.6878162026405334,
+    "mean": -1.0457935333251953,
+    "std": 0.2023322880268097
+  },
+  "bounds": {
+    "lon_min": 24.535594872999997,
+    "lon_max": 28.079208818999998,
+    "lat_min": 33.587179803000005,
+    "lat_max": 36.79996015100001
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000jlm1",
+  "job_id": "m_67_14_km_e_of_nurda_turkey-D094",
+  "event_title": "M 6.7 - 14 km E of Nurda??, Turkey",
+  "orbit": "descending",
+  "track": "094",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_67_14_km_e_of_nurda_turkey/S1-COSEIS_SAR-D-R-094-tops-20230215_20230203-034312-00033E_00035N-PP-5941-v1_0_0/S1-COSEIS_SAR-D-R-094-tops-20230215_20230203-034312-00033E_00035N-PP-5941-v1_0_0.nc",
+  "stats": {
+    "min": -0.42315560579299927,
+    "max": 0.9354566931724548,
+    "mean": 0.5011192560195923,
+    "std": 0.07057436555624008
+  },
+  "bounds": {
+    "lon_min": 33.246428775,
+    "lon_max": 36.882820573,
+    "lat_min": 35.191901709,
+    "lat_max": 38.664126709
+  }
+}

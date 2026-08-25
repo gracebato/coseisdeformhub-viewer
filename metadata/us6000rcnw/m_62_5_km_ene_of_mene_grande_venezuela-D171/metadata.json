@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000rcnw",
+  "job_id": "m_62_5_km_ene_of_mene_grande_venezuela-D171",
+  "event_title": "M 6.2 - 5 km ENE of Mene Grande, Venezuela",
+  "orbit": "descending",
+  "track": "171",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_62_5_km_ene_of_mene_grande_venezuela/S1-COSEIS_SAR-D-R-171-tops-20250925_20250919-103356-00073W_00009N-PP-3660-v1_0_0/S1-COSEIS_SAR-D-R-171-tops-20250925_20250919-103356-00073W_00009N-PP-3660-v1_0_0.nc",
+  "stats": {
+    "min": -0.13756011426448822,
+    "max": 0.18456661701202393,
+    "mean": -0.020105229690670967,
+    "std": 0.027074454352259636
+  },
+  "bounds": {
+    "lon_min": -72.584683001,
+    "lon_max": -69.954403119,
+    "lat_min": 8.952736451,
+    "lat_max": 10.986626967
+  }
+}

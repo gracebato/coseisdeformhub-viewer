@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000ne51",
+  "job_id": "m_65_271_km_wnw_of_port_mcneill_canada-A079",
+  "event_title": "M 6.5 - 271 km WNW of Port McNeill, Canada",
+  "orbit": "ascending",
+  "track": "079",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2024/m_65_271_km_wnw_of_port_mcneill_canada/S1-COSEIS_SAR-A-R-079-tops-20240924_20240912-023652-00134W_00051N-PP-b302-v1_0_0/S1-COSEIS_SAR-A-R-079-tops-20240924_20240912-023652-00134W_00051N-PP-b302-v1_0_0.nc",
+  "stats": {
+    "min": -0.9438701868057251,
+    "max": -0.46961963176727295,
+    "mean": -0.7536705136299133,
+    "std": 0.10835473239421844
+  },
+  "bounds": {
+    "lon_min": -134.130694549,
+    "lon_max": -129.907635615,
+    "lat_min": 50.74718073100001,
+    "lat_max": 52.94023804100001
+  }
+}

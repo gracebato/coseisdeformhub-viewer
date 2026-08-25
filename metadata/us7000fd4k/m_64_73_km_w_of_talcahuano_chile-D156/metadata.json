@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000fd4k",
+  "job_id": "m_64_73_km_w_of_talcahuano_chile-D156",
+  "event_title": "M 6.4 - 73 km W of Talcahuano, Chile",
+  "orbit": "descending",
+  "track": "156",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_64_73_km_w_of_talcahuano_chile/S1-COSEIS_SAR-D-R-156-tops-20210927_20210915-100459-00075W_00039S-PP-050a-v1_0_0/S1-COSEIS_SAR-D-R-156-tops-20210927_20210915-100459-00075W_00039S-PP-050a-v1_0_0.nc",
+  "stats": {
+    "min": -0.04958555847406387,
+    "max": 0.1221901997923851,
+    "mean": 0.031810034066438675,
+    "std": 0.010483785532414913
+  },
+  "bounds": {
+    "lon_min": -74.937461861,
+    "lon_max": -70.871625275,
+    "lat_min": -38.83087608699999,
+    "lat_max": -35.102539771
+  }
+}

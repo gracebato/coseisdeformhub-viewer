@@ -1,0 +1,20 @@
+{
+  "event_id": "nc75095651",
+  "job_id": "m_70_2024_offshore_cape_mendocino_california_earthquake-A108",
+  "event_title": "M 7.0 - 2024 Offshore Cape Mendocino, California Earthquake",
+  "orbit": "ascending",
+  "track": "108",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2024/m_70_2024_offshore_cape_mendocino_california_earthquake/S1-COSEIS_SAR-A-R-108-tops-20241207_20241125-021706-00127W_00039N-PP-a393-v1_0_0/S1-COSEIS_SAR-A-R-108-tops-20241207_20241125-021706-00127W_00039N-PP-a393-v1_0_0.nc",
+  "stats": {
+    "min": -0.28384968638420105,
+    "max": -0.10447930544614792,
+    "mean": -0.2172437161207199,
+    "std": 0.017898645251989365
+  },
+  "bounds": {
+    "lon_min": -126.659029105,
+    "lon_max": -123.210693013,
+    "lat_min": 39.18329219100001,
+    "lat_max": 41.057460357000004
+  }
+}

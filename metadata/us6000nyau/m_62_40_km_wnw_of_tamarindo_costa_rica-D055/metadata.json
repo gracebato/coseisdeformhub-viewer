@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000nyau",
+  "job_id": "m_62_40_km_wnw_of_tamarindo_costa_rica-D055",
+  "event_title": "M 6.2 - 40 km WNW of Tamarindo, Costa Rica",
+  "orbit": "descending",
+  "track": "055",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2024/m_62_40_km_wnw_of_tamarindo_costa_rica/S1-COSEIS_SAR-D-R-055-tops-20241016_20241004-113914-00089W_00011N-PP-9f48-v1_0_0/S1-COSEIS_SAR-D-R-055-tops-20241016_20241004-113914-00089W_00011N-PP-9f48-v1_0_0.nc",
+  "stats": {
+    "min": -0.061611369252204895,
+    "max": 0.056482959538698196,
+    "mean": 0.0032995324581861496,
+    "std": 0.014744563959538937
+  },
+  "bounds": {
+    "lon_min": -88.69829340300001,
+    "lon_max": -86.02134681700001,
+    "lat_min": 10.849680812999999,
+    "lat_max": 12.878293547
+  }
+}

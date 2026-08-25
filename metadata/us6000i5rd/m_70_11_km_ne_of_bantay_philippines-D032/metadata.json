@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000i5rd",
+  "job_id": "m_70_11_km_ne_of_bantay_philippines-D032",
+  "event_title": "M 7.0 - 11 km NE of Bantay, Philippines",
+  "orbit": "descending",
+  "track": "032",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_70_11_km_ne_of_bantay_philippines/S1-COSEIS_SAR-D-R-032-tops-20220802_20220721-214634-00120E_00016N-PP-9c70-v1_0_0/S1-COSEIS_SAR-D-R-032-tops-20220802_20220721-214634-00120E_00016N-PP-9c70-v1_0_0.nc",
+  "stats": {
+    "min": -0.4025130569934845,
+    "max": -0.05929669365286827,
+    "mean": -0.22763052582740784,
+    "std": 0.04299839213490486
+  },
+  "bounds": {
+    "lon_min": 120.165139821,
+    "lon_max": 122.904586457,
+    "lat_min": 16.298014505,
+    "lat_max": 18.312182783
+  }
+}

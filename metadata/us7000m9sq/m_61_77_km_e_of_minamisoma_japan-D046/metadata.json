@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000m9sq",
+  "job_id": "m_61_77_km_e_of_minamisoma_japan-D046",
+  "event_title": "M 6.1 - 77 km E of Minami-S\u014dma, Japan",
+  "orbit": "descending",
+  "track": "046",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2024/m_61_77_km_e_of_minamisoma_japan/S1-COSEIS_SAR-D-R-046-tops-20240406_20240325-204318-00139E_00037N-PP-8016-v1_0_0/S1-COSEIS_SAR-D-R-046-tops-20240406_20240325-204318-00139E_00037N-PP-8016-v1_0_0.nc",
+  "stats": {
+    "min": -0.21805395185947418,
+    "max": -0.040663279592990875,
+    "mean": -0.11796081066131592,
+    "std": 0.02137725055217743
+  },
+  "bounds": {
+    "lon_min": 138.581806021,
+    "lon_max": 141.873753099,
+    "lat_min": 37.09662545500001,
+    "lat_max": 39.069404811000005
+  }
+}

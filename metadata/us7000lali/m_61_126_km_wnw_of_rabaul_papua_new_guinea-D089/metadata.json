@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000lali",
+  "job_id": "m_61_126_km_wnw_of_rabaul_papua_new_guinea-D089",
+  "event_title": "M 6.1 - 126 km WNW of Rabaul, Papua New Guinea",
+  "orbit": "descending",
+  "track": "089",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_61_126_km_wnw_of_rabaul_papua_new_guinea/S1-COSEIS_SAR-D-R-089-tops-20231129_20231105-194048-00149E_00006S-PP-4fcf-v1_0_0/S1-COSEIS_SAR-D-R-089-tops-20231129_20231105-194048-00149E_00006S-PP-4fcf-v1_0_0.nc",
+  "stats": {
+    "min": 0.497745543718338,
+    "max": 2.1197941303253174,
+    "mean": 0.6952099204063416,
+    "std": 0.3049292266368866
+  },
+  "bounds": {
+    "lon_min": 148.606806041,
+    "lon_max": 151.623475121,
+    "lat_min": -5.573336881,
+    "lat_max": -1.833056111
+  }
+}

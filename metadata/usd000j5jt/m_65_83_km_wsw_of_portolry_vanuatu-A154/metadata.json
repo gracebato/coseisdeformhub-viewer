@@ -1,0 +1,20 @@
+{
+  "event_id": "usd000j5jt",
+  "job_id": "m_65_83_km_wsw_of_portolry_vanuatu-A154",
+  "event_title": "M 6.5 - 83 km WSW of Port-Olry, Vanuatu",
+  "orbit": "ascending",
+  "track": "154",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_65_83_km_wsw_of_portolry_vanuatu/S1-COSEIS_SAR-A-R-154-tops-20230303_20230219-072241-00165E_00016S-PP-2e35-v1_0_0/S1-COSEIS_SAR-A-R-154-tops-20230303_20230219-072241-00165E_00016S-PP-2e35-v1_0_0.nc",
+  "stats": {
+    "min": -2.1512866020202637,
+    "max": 0.13060832023620605,
+    "mean": -0.40107855200767517,
+    "std": 0.459349125623703
+  },
+  "bounds": {
+    "lon_min": 165.193471577,
+    "lon_max": 167.93986266299999,
+    "lat_min": -16.376430479,
+    "lat_max": -14.034206383
+  }
+}

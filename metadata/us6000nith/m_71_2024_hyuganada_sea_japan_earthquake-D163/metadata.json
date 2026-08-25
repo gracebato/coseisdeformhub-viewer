@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000nith",
+  "job_id": "m_71_2024_hyuganada_sea_japan_earthquake-D163",
+  "event_title": "M 7.1 - 2024 Hyuganada Sea, Japan Earthquake",
+  "orbit": "descending",
+  "track": "163",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2024/m_71_2024_hyuganada_sea_japan_earthquake/S1-COSEIS_SAR-D-R-163-tops-20240812_20240731-211752-00129E_00030N-PP-1f77-v1_0_0/S1-COSEIS_SAR-D-R-163-tops-20240812_20240731-211752-00129E_00030N-PP-1f77-v1_0_0.nc",
+  "stats": {
+    "min": 0.11288455128669739,
+    "max": 0.4417094886302948,
+    "mean": 0.23358166217803955,
+    "std": 0.03039051964879036
+  },
+  "bounds": {
+    "lon_min": 129.011806365,
+    "lon_max": 132.409031305,
+    "lat_min": 30.213568393000003,
+    "lat_max": 33.689126729
+  }
+}

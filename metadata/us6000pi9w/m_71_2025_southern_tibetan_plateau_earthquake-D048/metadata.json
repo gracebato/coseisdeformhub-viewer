@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000pi9w",
+  "job_id": "m_71_2025_southern_tibetan_plateau_earthquake-D048",
+  "event_title": "M 7.1 - 2025 Southern Tibetan Plateau Earthquake",
+  "orbit": "descending",
+  "track": "048",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_71_2025_southern_tibetan_plateau_earthquake/S1-COSEIS_SAR-D-R-048-tops-20250108_20241227-000331-00087E_00027N-PP-dfa2-v1_0_0/S1-COSEIS_SAR-D-R-048-tops-20250108_20241227-000331-00087E_00027N-PP-dfa2-v1_0_0.nc",
+  "stats": {
+    "min": -0.23102214932441711,
+    "max": 0.7891218066215515,
+    "mean": 0.016871389001607895,
+    "std": 0.05792054161429405
+  },
+  "bounds": {
+    "lon_min": 87.219206531,
+    "lon_max": 90.167264445,
+    "lat_min": 26.933291991,
+    "lat_max": 28.928015809
+  }
+}

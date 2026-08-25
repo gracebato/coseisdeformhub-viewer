@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000j8lp",
+  "job_id": "m_60_7_km_w_of_corral_falso_mexico-A078",
+  "event_title": "M 6.0 - 7 km W of Corral Falso, Mexico",
+  "orbit": "ascending",
+  "track": "078",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_60_7_km_w_of_corral_falso_mexico/S1-COSEIS_SAR-A-R-078-tops-20221216_20221204-004832-00101W_00016N-PP-92bd-v1_0_0/S1-COSEIS_SAR-A-R-078-tops-20221216_20221204-004832-00101W_00016N-PP-92bd-v1_0_0.nc",
+  "stats": {
+    "min": 0.16813012957572937,
+    "max": 0.320623517036438,
+    "mean": 0.2452712506055832,
+    "std": 0.017271196469664574
+  },
+  "bounds": {
+    "lon_min": -101.009860319,
+    "lon_max": -98.256524783,
+    "lat_min": 16.531070247,
+    "lat_max": 18.448016225
+  }
+}

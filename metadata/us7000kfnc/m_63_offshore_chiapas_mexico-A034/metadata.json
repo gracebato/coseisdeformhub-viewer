@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000kfnc",
+  "job_id": "m_63_offshore_chiapas_mexico-A034",
+  "event_title": "M 6.3 - Offshore Chiapas, Mexico",
+  "orbit": "ascending",
+  "track": "034",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_63_offshore_chiapas_mexico/S1-COSEIS_SAR-A-R-034-tops-20230717_20230705-002309-00094W_00013N-PP-2fe7-v1_0_0/S1-COSEIS_SAR-A-R-034-tops-20230717_20230705-002309-00094W_00013N-PP-2fe7-v1_0_0.nc",
+  "stats": {
+    "min": -0.6430388689041138,
+    "max": -0.4731545150279999,
+    "mean": -0.5602343082427979,
+    "std": 0.023654652759432793
+  },
+  "bounds": {
+    "lon_min": -94.419127313,
+    "lon_max": -91.39745822900001,
+    "lat_min": 12.999680133000002,
+    "lat_max": 16.422738427000002
+  }
+}

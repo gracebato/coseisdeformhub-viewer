@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000rm3k",
+  "job_id": "m_65_0_km_w_of_san_marcos_mexico-A078",
+  "event_title": "M 6.5 - 0 km W of San Marcos, Mexico",
+  "orbit": "ascending",
+  "track": "078",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2026/m_65_0_km_w_of_san_marcos_mexico/S1-COSEIS_SAR-A-R-078-tops-20260105_20251230-004818-00101W_00016N-PP-cf81-v1_0_0/S1-COSEIS_SAR-A-R-078-tops-20260105_20251230-004818-00101W_00016N-PP-cf81-v1_0_0.nc",
+  "stats": {
+    "min": -0.9497664570808411,
+    "max": -0.6463439464569092,
+    "mean": -0.7787809371948242,
+    "std": 0.029016099870204926
+  },
+  "bounds": {
+    "lon_min": -100.905971347,
+    "lon_max": -98.14235802500001,
+    "lat_min": 15.696347357,
+    "lat_max": 17.944682489
+  }
+}

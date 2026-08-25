@@ -1,0 +1,20 @@
+{
+  "event_id": "nc73584926",
+  "job_id": "m_60_antelope_valley_ca-A064",
+  "event_title": "M 6.0 - Antelope Valley, CA",
+  "orbit": "ascending",
+  "track": "064",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_60_antelope_valley_ca/S1-COSEIS_SAR-A-R-064-tops-20210711_20210705-015115-00120W_00038N-PP-8c39-v1_0_0/S1-COSEIS_SAR-A-R-064-tops-20210711_20210705-015115-00120W_00038N-PP-8c39-v1_0_0.nc",
+  "stats": {
+    "min": -0.05897269770503044,
+    "max": 0.11590813845396042,
+    "mean": 0.024666182696819305,
+    "std": 0.025182008743286133
+  },
+  "bounds": {
+    "lon_min": -120.198471581,
+    "lon_max": -116.815413319,
+    "lat_min": 37.991625371000005,
+    "lat_max": 39.866349093000004
+  }
+}

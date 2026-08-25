@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000rsy1",
+  "job_id": "m_70_2025_hubbard_glacier_earthquake-A123",
+  "event_title": "M 7.0 - 2025 Hubbard Glacier Earthquake",
+  "orbit": "ascending",
+  "track": "123",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_70_2025_hubbard_glacier_earthquake/S1-COSEIS_SAR-A-R-123-tops-20251209_20251115-030242-00144W_00059N-PP-b352-v1_0_0/S1-COSEIS_SAR-A-R-123-tops-20251209_20251115-030242-00144W_00059N-PP-b352-v1_0_0.nc",
+  "stats": {
+    "min": -0.6902108788490295,
+    "max": -0.28663378953933716,
+    "mean": -0.45258307456970215,
+    "std": 0.05709797143936157
+  },
+  "bounds": {
+    "lon_min": -144.054304799,
+    "lon_max": -138.126244501,
+    "lat_min": 58.507179739,
+    "lat_max": 62.191627131000004
+  }
+}

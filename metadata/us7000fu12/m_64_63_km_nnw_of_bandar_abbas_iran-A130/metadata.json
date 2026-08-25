@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000fu12",
+  "job_id": "m_64_63_km_nnw_of_bandar_abbas_iran-A130",
+  "event_title": "M 6.4 - 63 km NNW of Bandar Abbas, Iran",
+  "orbit": "ascending",
+  "track": "130",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_64_63_km_nnw_of_bandar_abbas_iran/S1-COSEIS_SAR-A-R-130-tops-20211118_20211106-142555-00053E_00026N-PP-b08b-v1_0_0/S1-COSEIS_SAR-A-R-130-tops-20211118_20211106-142555-00053E_00026N-PP-b08b-v1_0_0.nc",
+  "stats": {
+    "min": 0.09696187824010849,
+    "max": 0.393816739320755,
+    "mean": 0.2686059772968292,
+    "std": 0.02826504595577717
+  },
+  "bounds": {
+    "lon_min": 52.987817457,
+    "lon_max": 56.264764523,
+    "lat_min": 25.987180123,
+    "lat_max": 29.376349501
+  }
+}

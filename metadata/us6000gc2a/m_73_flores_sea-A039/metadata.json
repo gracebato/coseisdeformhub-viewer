@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000gc2a",
+  "job_id": "m_73_flores_sea-A039",
+  "event_title": "M 7.3 - Flores Sea",
+  "orbit": "ascending",
+  "track": "039",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_73_flores_sea/S1-COSEIS_SAR-A-R-039-tops-20211218_20211206-100907-00122E_00009S-PP-a1f0-v1_0_0/S1-COSEIS_SAR-A-R-039-tops-20211218_20211206-100907-00122E_00009S-PP-a1f0-v1_0_0.nc",
+  "stats": {
+    "min": -0.20604462921619415,
+    "max": 0.044748447835445404,
+    "mean": -0.07138927280902863,
+    "std": 0.05401455983519554
+  },
+  "bounds": {
+    "lon_min": 122.45736147699999,
+    "lon_max": 125.126530279,
+    "lat_min": -9.441112753,
+    "lat_max": -7.119999785
+  }
+}

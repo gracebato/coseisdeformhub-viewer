@@ -1,0 +1,20 @@
+{
+  "event_id": "nc73666231",
+  "job_id": "m_62_7km_n_of_petrolia_ca-D013",
+  "event_title": "M 6.2 - 7km N of Petrolia, CA",
+  "orbit": "descending",
+  "track": "013",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_62_7km_n_of_petrolia_ca/S1-COSEIS_SAR-D-R-013-tops-20211222_20211216-142325-00126W_00038N-PP-d77e-v1_0_0/S1-COSEIS_SAR-D-R-013-tops-20211222_20211216-142325-00126W_00038N-PP-d77e-v1_0_0.nc",
+  "stats": {
+    "min": 0.1367885023355484,
+    "max": 0.3061255216598511,
+    "mean": 0.24092811346054077,
+    "std": 0.017622025683522224
+  },
+  "bounds": {
+    "lon_min": -126.557362357,
+    "lon_max": -122.809859359,
+    "lat_min": 38.323568481,
+    "lat_max": 41.621348897000004
+  }
+}

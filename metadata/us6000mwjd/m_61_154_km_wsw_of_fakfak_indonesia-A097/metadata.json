@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000mwjd",
+  "job_id": "m_61_154_km_wsw_of_fakfak_indonesia-A097",
+  "event_title": "M 6.1 - 154 km WSW of Fakfak, Indonesia",
+  "orbit": "ascending",
+  "track": "097",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2024/m_61_154_km_wsw_of_fakfak_indonesia/S1-COSEIS_SAR-A-R-097-tops-20240516_20240504-093744-00130E_00004S-PP-39cc-v1_0_0/S1-COSEIS_SAR-A-R-097-tops-20240516_20240504-093744-00130E_00004S-PP-39cc-v1_0_0.nc",
+  "stats": {
+    "min": -0.5081712007522583,
+    "max": 1.499684453010559,
+    "mean": 1.0639561414718628,
+    "std": 0.4181922972202301
+  },
+  "bounds": {
+    "lon_min": 129.585139357,
+    "lon_max": 132.230141473,
+    "lat_min": -4.246946931,
+    "lat_max": -2.274167575
+  }
+}

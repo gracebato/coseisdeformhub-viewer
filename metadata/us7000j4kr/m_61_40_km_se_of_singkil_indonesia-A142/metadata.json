@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000j4kr",
+  "job_id": "m_61_40_km_se_of_singkil_indonesia-A142",
+  "event_title": "M 6.1 - 40 km SE of Singkil, Indonesia",
+  "orbit": "ascending",
+  "track": "142",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_61_40_km_se_of_singkil_indonesia/S1-COSEIS_SAR-A-R-142-tops-20230125_20230113-114225-00098E_00001N-PP-ba60-v1_0_0/S1-COSEIS_SAR-A-R-142-tops-20230125_20230113-114225-00098E_00001N-PP-ba60-v1_0_0.nc",
+  "stats": {
+    "min": -0.772591769695282,
+    "max": -0.16127191483974457,
+    "mean": -0.37056565284729004,
+    "std": 0.12870573997497559
+  },
+  "bounds": {
+    "lon_min": 97.692817221,
+    "lon_max": 100.32643043899999,
+    "lat_min": 0.6294428590000001,
+    "lat_max": 2.587499981
+  }
+}

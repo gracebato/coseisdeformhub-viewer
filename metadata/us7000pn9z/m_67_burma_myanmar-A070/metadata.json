@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000pn9z",
+  "job_id": "m_67_burma_myanmar-A070",
+  "event_title": "M 6.7 - Burma (Myanmar)",
+  "orbit": "ascending",
+  "track": "070",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_67_burma_myanmar/S1-COSEIS_SAR-A-R-070-tops-20250403_20250322-113935-00096E_00019N-PP-3bea-v1_0_0/S1-COSEIS_SAR-A-R-070-tops-20250403_20250322-113935-00096E_00019N-PP-3bea-v1_0_0.nc",
+  "stats": {
+    "min": -0.29866504669189453,
+    "max": 0.5277526378631592,
+    "mean": -0.030758701264858246,
+    "std": 0.08622895926237106
+  },
+  "bounds": {
+    "lon_min": 95.511150409,
+    "lon_max": 98.635597353,
+    "lat_min": 19.434401903,
+    "lat_max": 23.006904761
+  }
+}

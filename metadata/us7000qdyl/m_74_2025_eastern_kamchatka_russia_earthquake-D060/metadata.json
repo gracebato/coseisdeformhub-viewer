@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000qdyl",
+  "job_id": "m_74_2025_eastern_kamchatka_russia_earthquake-D060",
+  "event_title": "M 7.4 - 2025 Eastern Kamchatka, Russia Earthquake",
+  "orbit": "descending",
+  "track": "060",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_74_2025_eastern_kamchatka_russia_earthquake/S1-COSEIS_SAR-D-R-060-tops-20250731_20250719-194128-00156E_00051N-PP-e1d7-v1_0_0/S1-COSEIS_SAR-D-R-060-tops-20250731_20250719-194128-00156E_00051N-PP-e1d7-v1_0_0.nc",
+  "stats": {
+    "min": -0.052859701216220856,
+    "max": 1.0921874046325684,
+    "mean": 0.4243506193161011,
+    "std": 0.24573306739330292
+  },
+  "bounds": {
+    "lon_min": 155.950695205,
+    "lon_max": 160.69319899899997,
+    "lat_min": 50.99551346300001,
+    "lat_max": 54.442460665000006
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000gdma",
+  "job_id": "m_62_85_km_w_of_labasa_fiji-D044",
+  "event_title": "M 6.2 - 85 km W of Labasa, Fiji",
+  "orbit": "descending",
+  "track": "044",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_62_85_km_w_of_labasa_fiji/S1-COSEIS_SAR-D-R-044-tops-20211230_20211218-174049-00177E_00018S-PP-98ac-v1_0_0/S1-COSEIS_SAR-D-R-044-tops-20211230_20211218-174049-00177E_00018S-PP-98ac-v1_0_0.nc",
+  "stats": {
+    "min": 0.027180884033441544,
+    "max": 0.41356852650642395,
+    "mean": 0.16619648039340973,
+    "std": 0.11611282080411911
+  },
+  "bounds": {
+    "lon_min": 176.509583741,
+    "lon_max": 179.337919337,
+    "lat_min": -17.841707029000002,
+    "lat_max": -15.723927557000001
+  }
+}

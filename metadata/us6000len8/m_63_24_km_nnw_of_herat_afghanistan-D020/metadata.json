@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000len8",
+  "job_id": "m_63_24_km_nnw_of_herat_afghanistan-D020",
+  "event_title": "M 6.3 - 24 km NNW of Her\u0101t, Afghanistan",
+  "orbit": "descending",
+  "track": "020",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_63_24_km_nnw_of_herat_afghanistan/S1-COSEIS_SAR-D-R-020-tops-20231020_20231008-015703-00060E_00033N-PP-7bcf-v1_0_0/S1-COSEIS_SAR-D-R-020-tops-20231020_20231008-015703-00060E_00033N-PP-7bcf-v1_0_0.nc",
+  "stats": {
+    "min": -0.1328234225511551,
+    "max": 0.7893118262290955,
+    "mean": -0.039618026465177536,
+    "std": 0.024480700492858887
+  },
+  "bounds": {
+    "lon_min": 59.554483776999994,
+    "lon_max": 63.03920878699999,
+    "lat_min": 32.757735495000006,
+    "lat_max": 36.23301605300001
+  }
+}

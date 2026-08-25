@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000h6nr",
+  "job_id": "m_67_65_km_s_of_hualien_city_taiwan-A069",
+  "event_title": "M 6.7 - 65 km S of Hualien City, Taiwan",
+  "orbit": "ascending",
+  "track": "069",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_67_65_km_s_of_hualien_city_taiwan/S1-COSEIS_SAR-A-R-069-tops-20220326_20220314-100121-00120E_00021N-PP-b77d-v1_0_0/S1-COSEIS_SAR-A-R-069-tops-20220326_20220314-100121-00120E_00021N-PP-b77d-v1_0_0.nc",
+  "stats": {
+    "min": -0.5371748805046082,
+    "max": -0.26025208830833435,
+    "mean": -0.4548943340778351,
+    "std": 0.04028530418872833
+  },
+  "bounds": {
+    "lon_min": 119.743750595,
+    "lon_max": 122.942086487,
+    "lat_min": 21.422457449000003,
+    "lat_max": 25.156904881000003
+  }
+}

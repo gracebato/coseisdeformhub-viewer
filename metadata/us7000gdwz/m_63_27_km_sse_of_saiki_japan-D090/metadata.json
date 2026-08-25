@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000gdwz",
+  "job_id": "m_63_27_km_sse_of_saiki_japan-D090",
+  "event_title": "M 6.3 - 27 km SSE of Saiki, Japan",
+  "orbit": "descending",
+  "track": "090",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_63_27_km_sse_of_saiki_japan/S1-COSEIS_SAR-D-R-090-tops-20220126_20220114-210916-00131E_00032N-PP-bce3-v1_0_0/S1-COSEIS_SAR-D-R-090-tops-20220126_20220114-210916-00131E_00032N-PP-bce3-v1_0_0.nc",
+  "stats": {
+    "min": -0.1049831286072731,
+    "max": 0.10170228034257889,
+    "mean": -0.032843127846717834,
+    "std": 0.012103989720344543
+  },
+  "bounds": {
+    "lon_min": 131.370694741,
+    "lon_max": 134.430974967,
+    "lat_min": 31.921347537000003,
+    "lat_max": 33.734404543000004
+  }
+}

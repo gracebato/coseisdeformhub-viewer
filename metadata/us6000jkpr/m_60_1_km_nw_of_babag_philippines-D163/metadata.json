@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000jkpr",
+  "job_id": "m_60_1_km_nw_of_babag_philippines-D163",
+  "event_title": "M 6.0 - 1 km NW of Babag, Philippines",
+  "orbit": "descending",
+  "track": "163",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_60_1_km_nw_of_babag_philippines/S1-COSEIS_SAR-D-R-163-tops-20230207_20230126-212437-00124E_00006N-PP-8615-v1_0_0/S1-COSEIS_SAR-D-R-163-tops-20230207_20230126-212437-00124E_00006N-PP-8615-v1_0_0.nc",
+  "stats": {
+    "min": 0.6043503880500793,
+    "max": 1.570438027381897,
+    "mean": 1.3478153944015503,
+    "std": 0.19145682454109192
+  },
+  "bounds": {
+    "lon_min": 124.19902873699999,
+    "lon_max": 127.136531087,
+    "lat_min": 5.543846434999999,
+    "lat_max": 9.088293714999999
+  }
+}

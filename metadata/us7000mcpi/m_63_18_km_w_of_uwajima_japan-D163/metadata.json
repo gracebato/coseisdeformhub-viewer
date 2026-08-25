@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000mcpi",
+  "job_id": "m_63_18_km_w_of_uwajima_japan-D163",
+  "event_title": "M 6.3 - 18 km W of Uwajima, Japan",
+  "orbit": "descending",
+  "track": "163",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2024/m_63_18_km_w_of_uwajima_japan/S1-COSEIS_SAR-D-R-163-tops-20240426_20240414-211728-00129E_00032N-PP-64cd-v1_0_0/S1-COSEIS_SAR-D-R-163-tops-20240426_20240414-211728-00129E_00032N-PP-64cd-v1_0_0.nc",
+  "stats": {
+    "min": -2.5831000804901123,
+    "max": -0.15166731178760529,
+    "mean": -1.7896325588226318,
+    "std": 0.44634246826171875
+  },
+  "bounds": {
+    "lon_min": 129.304862155,
+    "lon_max": 132.79764272699998,
+    "lat_min": 31.709957679000006,
+    "lat_max": 35.34829392300001
+  }
+}

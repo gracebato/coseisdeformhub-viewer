@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000fdds",
+  "job_id": "m_65_80_km_sw_of_jiquilillo_nicaragua-A063",
+  "event_title": "M 6.5 - 80 km SW of Jiquilillo, Nicaragua",
+  "orbit": "ascending",
+  "track": "063",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_65_80_km_sw_of_jiquilillo_nicaragua/S1-COSEIS_SAR-A-R-063-tops-20210927_20210915-000555-00090W_00011N-PP-b12b-v1_0_0/S1-COSEIS_SAR-A-R-063-tops-20210927_20210915-000555-00090W_00011N-PP-b12b-v1_0_0.nc",
+  "stats": {
+    "min": -1.3382469415664673,
+    "max": -0.8833537101745605,
+    "mean": -1.2116611003875732,
+    "std": 0.0731644257903099
+  },
+  "bounds": {
+    "lon_min": -89.826626839,
+    "lon_max": -86.829679997,
+    "lat_min": 10.512735299,
+    "lat_max": 14.108849287
+  }
+}

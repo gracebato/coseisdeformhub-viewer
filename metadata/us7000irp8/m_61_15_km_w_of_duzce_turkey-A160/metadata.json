@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000irp8",
+  "job_id": "m_61_15_km_w_of_duzce_turkey-A160",
+  "event_title": "M 6.1 - 15 km W of D\u00fczce, Turkey",
+  "orbit": "ascending",
+  "track": "160",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_61_15_km_w_of_duzce_turkey/S1-COSEIS_SAR-A-R-160-tops-20221127_20221115-155157-00029E_00039N-PP-b573-v1_0_0/S1-COSEIS_SAR-A-R-160-tops-20221127_20221115-155157-00029E_00039N-PP-b573-v1_0_0.nc",
+  "stats": {
+    "min": -0.082980215549469,
+    "max": 0.06085491180419922,
+    "mean": 0.003864060854539275,
+    "std": 0.010517405346035957
+  },
+  "bounds": {
+    "lon_min": 29.272262128999998,
+    "lon_max": 33.101154081,
+    "lat_min": 39.13829135500001,
+    "lat_max": 42.50218293500001
+  }
+}

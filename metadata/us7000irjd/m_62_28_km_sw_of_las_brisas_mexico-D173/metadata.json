@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000irjd",
+  "job_id": "m_62_28_km_sw_of_las_brisas_mexico-D173",
+  "event_title": "M 6.2 - 28 km SW of Las Brisas, Mexico",
+  "orbit": "descending",
+  "track": "173",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_62_28_km_sw_of_las_brisas_mexico/S1-COSEIS_SAR-D-R-173-tops-20221128_20221116-134544-00118W_00029N-PP-2b77-v1_0_0/S1-COSEIS_SAR-D-R-173-tops-20221128_20221116-134544-00118W_00029N-PP-2b77-v1_0_0.nc",
+  "stats": {
+    "min": -0.9664286971092224,
+    "max": 0.04873858764767647,
+    "mean": -0.016494514420628548,
+    "std": 0.022195447236299515
+  },
+  "bounds": {
+    "lon_min": -118.18930490700001,
+    "lon_max": -114.81013553700001,
+    "lat_min": 28.761624387000005,
+    "lat_max": 32.081627043000005
+  }
+}

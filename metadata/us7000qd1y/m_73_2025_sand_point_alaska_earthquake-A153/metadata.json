@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000qd1y",
+  "job_id": "m_73_2025_sand_point_alaska_earthquake-A153",
+  "event_title": "M 7.3 - 2025 Sand Point, Alaska Earthquake",
+  "orbit": "ascending",
+  "track": "153",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_73_2025_sand_point_alaska_earthquake/S1-COSEIS_SAR-A-R-153-tops-20250720_20250708-042344-00163W_00055N-PP-f822-v1_0_0/S1-COSEIS_SAR-A-R-153-tops-20250720_20250708-042344-00163W_00055N-PP-f822-v1_0_0.nc",
+  "stats": {
+    "min": -0.07433093339204788,
+    "max": 0.08730808645486832,
+    "mean": 0.030625708401203156,
+    "std": 0.014705335721373558
+  },
+  "bounds": {
+    "lon_min": -162.494027373,
+    "lon_max": -157.646245717,
+    "lat_min": 54.591069495000006,
+    "lat_max": 57.443293999000005
+  }
+}

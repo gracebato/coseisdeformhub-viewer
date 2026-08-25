@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000iam0",
+  "job_id": "m_61_156_km_wnw_of_ancud_chile-D156",
+  "event_title": "M 6.1 - 156 km WNW of Ancud, Chile",
+  "orbit": "descending",
+  "track": "156",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_61_156_km_wnw_of_ancud_chile/S1-COSEIS_SAR-D-R-156-tops-20220928_20220916-100657-00076W_00043S-PP-44d4-v1_0_0/S1-COSEIS_SAR-D-R-156-tops-20220928_20220916-100657-00076W_00043S-PP-44d4-v1_0_0.nc",
+  "stats": {
+    "min": -0.05208909884095192,
+    "max": 0.05098956450819969,
+    "mean": -0.00767334271222353,
+    "std": 0.007011469919234514
+  },
+  "bounds": {
+    "lon_min": -76.508017873,
+    "lon_max": -72.524125797,
+    "lat_min": -42.41587495499999,
+    "lat_max": -39.81031731499999
+  }
+}

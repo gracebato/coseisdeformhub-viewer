@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000jqcn",
+  "job_id": "m_63_2_km_nnw_of_uzunba_turkey-A014",
+  "event_title": "M 6.3 - 2 km NNW of Uzunba?, Turkey",
+  "orbit": "ascending",
+  "track": "014",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_63_2_km_nnw_of_uzunba_turkey/S1-COSEIS_SAR-A-R-014-tops-20230221_20230209-153411-00035E_00035N-PP-1aa7-v1_0_0/S1-COSEIS_SAR-A-R-014-tops-20230221_20230209-153411-00035E_00035N-PP-1aa7-v1_0_0.nc",
+  "stats": {
+    "min": -0.29692673683166504,
+    "max": -0.03780202940106392,
+    "mean": -0.16367703676223755,
+    "std": 0.014367962256073952
+  },
+  "bounds": {
+    "lon_min": 34.712817236999996,
+    "lon_max": 37.975319846999994,
+    "lat_min": 35.401625699,
+    "lat_max": 37.279682757
+  }
+}

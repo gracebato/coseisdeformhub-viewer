@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000q0bm",
+  "job_id": "m_65_89_km_ene_of_angoram_papua_new_guinea-D060",
+  "event_title": "M 6.5 - 89 km ENE of Angoram, Papua New Guinea",
+  "orbit": "descending",
+  "track": "060",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_65_89_km_ene_of_angoram_papua_new_guinea/S1-COSEIS_SAR-D-R-060-tops-20250520_20250508-195712-00145E_00005S-PP-9ca3-v1_0_0/S1-COSEIS_SAR-D-R-060-tops-20250520_20250508-195712-00145E_00005S-PP-9ca3-v1_0_0.nc",
+  "stats": {
+    "min": -0.07627931982278824,
+    "max": 0.15632587671279907,
+    "mean": 0.07682179659605026,
+    "std": 0.0613582544028759
+  },
+  "bounds": {
+    "lon_min": 144.583750467,
+    "lon_max": 147.264308167,
+    "lat_min": -5.057223557,
+    "lat_max": -2.974721891
+  }
+}

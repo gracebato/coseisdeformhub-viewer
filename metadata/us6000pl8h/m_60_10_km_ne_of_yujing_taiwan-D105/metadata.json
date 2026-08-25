@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000pl8h",
+  "job_id": "m_60_10_km_ne_of_yujing_taiwan-D105",
+  "event_title": "M 6.0 - 10 km NE of Yujing, Taiwan",
+  "orbit": "descending",
+  "track": "105",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_60_10_km_ne_of_yujing_taiwan/S1-COSEIS_SAR-D-R-105-tops-20250123_20250111-215319-00119E_00021N-PP-1b03-v1_0_0/S1-COSEIS_SAR-D-R-105-tops-20250123_20250111-215319-00119E_00021N-PP-1b03-v1_0_0.nc",
+  "stats": {
+    "min": -0.15717723965644836,
+    "max": 0.183558389544487,
+    "mean": 0.017964091151952744,
+    "std": 0.02037866786122322
+  },
+  "bounds": {
+    "lon_min": 118.955695209,
+    "lon_max": 122.101531059,
+    "lat_min": 20.754124381,
+    "lat_max": 24.255793849
+  }
+}

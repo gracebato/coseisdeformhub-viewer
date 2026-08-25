@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000exs5",
+  "job_id": "m_67_71_km_s_of_burica_panama-D011",
+  "event_title": "M 6.7 - 71 km S of Burica, Panama",
+  "orbit": "descending",
+  "track": "011",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_67_71_km_s_of_burica_panama/S1-COSEIS_SAR-D-R-011-tops-20210725_20210713-111528-00083W_00007N-PP-843f-v1_0_0/S1-COSEIS_SAR-D-R-011-tops-20210725_20210713-111528-00083W_00007N-PP-843f-v1_0_0.nc",
+  "stats": {
+    "min": -0.047825537621974945,
+    "max": 0.3428199589252472,
+    "mean": 0.0012573094572871923,
+    "std": 0.02838928811252117
+  },
+  "bounds": {
+    "lon_min": -83.21523826100001,
+    "lon_max": -80.73495849900002,
+    "lat_min": 7.374722033,
+    "lat_max": 8.415278421
+  }
+}

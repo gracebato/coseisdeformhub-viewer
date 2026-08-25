@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000jqxc",
+  "job_id": "m_69_65_km_wsw_of_murghob_tajikistan-D107",
+  "event_title": "M 6.9 - 65 km WSW of Murghob, Tajikistan",
+  "orbit": "descending",
+  "track": "107",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_69_65_km_wsw_of_murghob_tajikistan/S1-COSEIS_SAR-D-R-107-tops-20230228_20230204-010634-00073E_00036N-PP-10cc-v1_0_0/S1-COSEIS_SAR-D-R-107-tops-20230228_20230204-010634-00073E_00036N-PP-10cc-v1_0_0.nc",
+  "stats": {
+    "min": -0.23517879843711853,
+    "max": 0.18299758434295654,
+    "mean": 0.027051270008087158,
+    "std": 0.017390796914696693
+  },
+  "bounds": {
+    "lon_min": 72.581706021,
+    "lon_max": 76.227264493,
+    "lat_min": 36.196623935000005,
+    "lat_max": 39.665515599
+  }
+}
