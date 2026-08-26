@@ -457,8 +457,31 @@
         }
 
         .map-legend-title {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
             font-weight: 600;
             margin-bottom: 6px;
+            cursor: pointer;
+        }
+
+        .map-legend-title .chev {
+            width: 14px;
+            height: 14px;
+            transition: transform var(--transition);
+            opacity: 0.6;
+        }
+
+        .map-legend.collapsed .map-legend-title {
+            margin-bottom: 0;
+        }
+
+        .map-legend.collapsed .map-legend-title .chev {
+            transform: rotate(-90deg);
+        }
+
+        .map-legend.collapsed .map-legend-row {
+            display: none;
         }
 
         .map-legend-row {
@@ -993,12 +1016,17 @@
                         </div>
                         <div class="map-stat-card">
                             <div class="map-stat-value" id="stat-pager-count">&ndash;</div>
-                            <div class="map-stat-label">USGS PAGER Alerts (Red/Orange/Yellow/Green)</div>
+                            <div class="map-stat-label">USGS PAGER Alerts (<span style="color: #ff5c5c;">Red</span>/<span style="color: #ff9f43;">Orange</span>/<span style="color: #ffd43b;">Yellow</span>/<span style="color: #51cf66;">Green</span>)</div>
                         </div>
                     </div>
                 </div>
                 <div class="map-legend" id="usgs-legend">
-                    <div class="map-legend-title">USGS Earthquakes</div>
+                    <div class="map-legend-title" onclick="this.closest('.map-legend').classList.toggle('collapsed')">
+                        <span>USGS Earthquakes</span>
+                        <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </div>
                     <div class="map-legend-row">
                         <span class="map-legend-dot" style="width: 6px; height: 6px;"></span>
                         <span class="map-legend-dot" style="width: 12px; height: 12px;"></span>
@@ -1119,6 +1147,11 @@
         };
         let fullCatalog = null;  // populated once from catalogUrl, reused for all lookups
 
+        // CARTO retired free/keyless raster basemap tiles -- get a free key (5M
+        // requests/month, no card required) at https://carto.com/basemaps/apikey
+        // and paste it here for the Dark basemap to work.
+        const CARTO_API_KEY = 'REDACTED_CARTO_KEY';
+
         // Featured events pinned to the top of the dropdown: all PAGER "red"
         // alert events, most recent first.
         const FEATURED_EVENT_IDS = [
@@ -1153,8 +1186,11 @@
                 attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
             },
             'dark': {
-                tiles: ['https://cartodb-basemaps-a.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png'],
-                attribution: '&copy; <a href="https://carto.com/">CARTO</a>'
+                // CARTO retired free raster tile access; this endpoint now requires
+                // an API key (see CARTO_API_KEY above) or it serves a watermarked
+                // "API KEY REQUIRED" placeholder instead of real map tiles.
+                tiles: [`https://basemaps.cartocdn.com/rastertiles/dark_all/{z}/{x}/{y}.png?key=${CARTO_API_KEY}`],
+                attribution: '&copy; <a href="https://carto.com/attributions">CARTO</a>, &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
             },
             'satellite': {
                 tiles: ['https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'],
@@ -2250,9 +2286,18 @@
             document.body.removeChild(link);
         }
 
+        // On mobile, start the map overlay boxes collapsed so they don't
+        // dominate the smaller viewport; desktop keeps them expanded.
+        function collapseMapOverlaysOnMobile() {
+            if (window.innerWidth > 768) return;
+            document.getElementById('map-stats-box').classList.add('collapsed');
+            document.getElementById('usgs-legend').classList.add('collapsed');
+        }
+
         // Initialize on page load
         initMap();
         initVizPanelResize();
+        collapseMapOverlaysOnMobile();
         map.on('load', () => {
             loadUSGSEarthquakes();
             loadEvents();
