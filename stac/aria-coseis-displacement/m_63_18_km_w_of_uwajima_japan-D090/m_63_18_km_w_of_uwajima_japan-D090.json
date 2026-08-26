@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_63_18_km_w_of_uwajima_japan-D090",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          131.368750295,
+          31.921068959000003
+        ],
+        [
+          134.81625305300003,
+          31.921068959000003
+        ],
+        [
+          134.81625305300003,
+          35.227460493
+        ],
+        [
+          131.368750295,
+          35.227460493
+        ],
+        [
+          131.368750295,
+          31.921068959000003
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    131.368750295,
+    31.921068959000003,
+    134.81625305300003,
+    35.227460493
+  ],
+  "properties": {
+    "title": "2024 M 6.3 - 18 km W of Uwajima, Japan \u2014 Descending Track 090",
+    "start_datetime": "2024-04-09T00:00:00+00:00",
+    "end_datetime": "2024-04-21T00:00:00+00:00",
+    "coseis:event_id": "us7000mcpi",
+    "coseis:event_name": "2024 M 6.3 - 18 km W of Uwajima, Japan",
+    "coseis:magnitude": 6.3,
+    "coseis:event_date": "2024-04-17",
+    "coseis:pager_alert": "yellow",
+    "coseis:depth_km": 32,
+    "sat:orbit_state": "descending",
+    "coseis:track": "090",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2024-04-21T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000mcpi",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us7000mcpi/m_63_18_km_w_of_uwajima_japan-D090/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2024/m_63_18_km_w_of_uwajima_japan/S1-COSEIS_SAR-D-R-090-tops-20240421_20240409-210915-00131E_00032N-PP-a3aa-v1_0_0/S1-COSEIS_SAR-D-R-090-tops-20240421_20240409-210915-00131E_00032N-PP-a3aa-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

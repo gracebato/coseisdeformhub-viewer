@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_66_13_km_e_of_san_pedro_philippines-A171",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          124.327639951,
+          11.311070071
+        ],
+        [
+          126.961808725,
+          11.311070071
+        ],
+        [
+          126.961808725,
+          13.236904945
+        ],
+        [
+          124.327639951,
+          13.236904945
+        ],
+        [
+          124.327639951,
+          11.311070071
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    124.327639951,
+    11.311070071,
+    126.961808725,
+    13.236904945
+  ],
+  "properties": {
+    "title": "2020 M 6.6 - 13 km E of San Pedro, Philippines \u2014 Ascending Track 171",
+    "start_datetime": "2020-08-16T00:00:00+00:00",
+    "end_datetime": "2020-08-28T00:00:00+00:00",
+    "coseis:event_id": "us6000bgbr",
+    "coseis:event_name": "2020 M 6.6 - 13 km E of San Pedro, Philippines",
+    "coseis:magnitude": 6.6,
+    "coseis:event_date": "2020-08-18",
+    "coseis:pager_alert": "yellow",
+    "coseis:depth_km": 10,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "171",
+    "coseis:satellites": "Sentinel-1B_Sentinel-1B",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2020-08-28T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000bgbr",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us6000bgbr/m_66_13_km_e_of_san_pedro_philippines-A171/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_66_13_km_e_of_san_pedro_philippines/S1-COSEIS_SAR-A-R-171-tops-20200828_20200816-094918-00124E_00011N-PP-16ff-v1_0_0/S1-COSEIS_SAR-A-R-171-tops-20200828_20200816-094918-00124E_00011N-PP-16ff-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

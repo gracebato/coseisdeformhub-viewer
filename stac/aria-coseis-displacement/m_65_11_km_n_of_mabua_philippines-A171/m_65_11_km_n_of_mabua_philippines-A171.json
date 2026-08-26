@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_65_11_km_n_of_mabua_philippines-A171",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          124.602083815,
+          8.309124025
+        ],
+        [
+          127.556530623,
+          8.309124025
+        ],
+        [
+          127.556530623,
+          11.741904549
+        ],
+        [
+          124.602083815,
+          11.741904549
+        ],
+        [
+          124.602083815,
+          8.309124025
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    124.602083815,
+    8.309124025,
+    127.556530623,
+    11.741904549
+  ],
+  "properties": {
+    "title": "2017 M 6.5 - 11 km N of Mabua, Philippines \u2014 Ascending Track 171",
+    "start_datetime": "2017-01-28T00:00:00+00:00",
+    "end_datetime": "2017-02-21T00:00:00+00:00",
+    "coseis:event_id": "us20008ixa",
+    "coseis:event_name": "2017 M 6.5 - 11 km N of Mabua, Philippines",
+    "coseis:magnitude": 6.5,
+    "coseis:event_date": "2017-02-10",
+    "coseis:pager_alert": "yellow",
+    "coseis:depth_km": 15,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "171",
+    "coseis:satellites": "Sentinel-1B_Sentinel-1B",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2017-02-21T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us20008ixa",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us20008ixa/m_65_11_km_n_of_mabua_philippines-A171/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_65_11_km_n_of_mabua_philippines/S1-COSEIS_SAR-A-R-171-tops-20170221_20170128-094813-00125E_00008N-PP-d96a-v1_0_0/S1-COSEIS_SAR-A-R-171-tops-20170221_20170128-094813-00125E_00008N-PP-d96a-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

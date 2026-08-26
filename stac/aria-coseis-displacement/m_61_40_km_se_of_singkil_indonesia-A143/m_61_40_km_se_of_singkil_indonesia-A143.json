@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_61_40_km_se_of_singkil_indonesia-A143",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          97.38087332699999,
+          2.131387705
+        ],
+        [
+          100.01420876699999,
+          2.131387705
+        ],
+        [
+          100.01420876699999,
+          4.084722601
+        ],
+        [
+          97.38087332699999,
+          4.084722601
+        ],
+        [
+          97.38087332699999,
+          2.131387705
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    97.38087332699999,
+    2.131387705,
+    100.01420876699999,
+    4.084722601
+  ],
+  "properties": {
+    "title": "2023 M 6.1 - 40 km SE of Singkil, Indonesia \u2014 Ascending Track 143",
+    "start_datetime": "2023-01-13T00:00:00+00:00",
+    "end_datetime": "2023-01-25T00:00:00+00:00",
+    "coseis:event_id": "us7000j4kr",
+    "coseis:event_name": "2023 M 6.1 - 40 km SE of Singkil, Indonesia",
+    "coseis:magnitude": 6.1,
+    "coseis:event_date": "2023-01-15",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 37,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "143",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2023-01-25T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000j4kr",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us7000j4kr/m_61_40_km_se_of_singkil_indonesia-A143/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_61_40_km_se_of_singkil_indonesia/S1-COSEIS_SAR-A-R-143-tops-20230125_20230113-114250-00097E_00002N-PP-a87d-v1_0_0/S1-COSEIS_SAR-A-R-143-tops-20230125_20230113-114250-00097E_00002N-PP-a87d-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

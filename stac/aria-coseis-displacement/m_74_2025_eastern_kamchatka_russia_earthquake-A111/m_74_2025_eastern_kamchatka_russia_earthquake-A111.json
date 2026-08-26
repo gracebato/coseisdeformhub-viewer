@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_74_2025_eastern_kamchatka_russia_earthquake-A111",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          155.965139661,
+          50.634680641
+        ],
+        [
+          160.148754119,
+          50.634680641
+        ],
+        [
+          160.148754119,
+          52.824404615000006
+        ],
+        [
+          155.965139661,
+          52.824404615000006
+        ],
+        [
+          155.965139661,
+          50.634680641
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    155.965139661,
+    50.634680641,
+    160.148754119,
+    52.824404615000006
+  ],
+  "properties": {
+    "title": "2025 M 7.4 - 2025 Eastern Kamchatka, Russia Earthquake \u2014 Ascending Track 111",
+    "start_datetime": "2025-07-11T00:00:00+00:00",
+    "end_datetime": "2025-07-23T00:00:00+00:00",
+    "coseis:event_id": "us7000qdyl",
+    "coseis:event_name": "2025 M 7.4 - 2025 Eastern Kamchatka, Russia Earthquake",
+    "coseis:magnitude": 7.4,
+    "coseis:event_date": "2025-07-20",
+    "coseis:pager_alert": "red",
+    "coseis:depth_km": 34,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "111",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2025-07-23T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qdyl",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us7000qdyl/m_74_2025_eastern_kamchatka_russia_earthquake-A111/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_74_2025_eastern_kamchatka_russia_earthquake/S1-COSEIS_SAR-A-R-111-tops-20250723_20250711-071626-00156E_00051N-PP-4f1e-v1_0_0/S1-COSEIS_SAR-A-R-111-tops-20250723_20250711-071626-00156E_00051N-PP-4f1e-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

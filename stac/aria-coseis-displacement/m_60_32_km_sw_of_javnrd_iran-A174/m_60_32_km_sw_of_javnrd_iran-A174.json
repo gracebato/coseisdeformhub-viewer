@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_60_32_km_sw_of_javnrd_iran-A174",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          45.188928729,
+          33.168846935000005
+        ],
+        [
+          48.646709273,
+          33.168846935000005
+        ],
+        [
+          48.646709273,
+          36.536627407000005
+        ],
+        [
+          45.188928729,
+          36.536627407000005
+        ],
+        [
+          45.188928729,
+          33.168846935000005
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    45.188928729,
+    33.168846935000005,
+    48.646709273,
+    36.536627407000005
+  ],
+  "properties": {
+    "title": "2018 M 6.0 - 32 km SW of Jav?nr?d, Iran \u2014 Ascending Track 174",
+    "start_datetime": "2018-08-21T00:00:00+00:00",
+    "end_datetime": "2018-08-27T00:00:00+00:00",
+    "coseis:event_id": "us1000ghda",
+    "coseis:event_name": "2018 M 6.0 - 32 km SW of Jav?nr?d, Iran",
+    "coseis:magnitude": 6.0,
+    "coseis:event_date": "2018-08-25",
+    "coseis:pager_alert": "yellow",
+    "coseis:depth_km": 10,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "174",
+    "coseis:satellites": "Sentinel-1B_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2018-08-27T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us1000ghda",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us1000ghda/m_60_32_km_sw_of_javnrd_iran-A174/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_60_32_km_sw_of_javnrd_iran/S1-COSEIS_SAR-A-R-174-tops-20180827_20180821-145133-00045E_00033N-PP-e5d1-v1_0_0/S1-COSEIS_SAR-A-R-174-tops-20180827_20180821-145133-00045E_00033N-PP-e5d1-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_62_5_km_wnw_of_accumoli_italy-D022",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          12.009484141000002,
+          41.855236373000004
+        ],
+        [
+          15.575320327000002,
+          41.855236373000004
+        ],
+        [
+          15.575320327000002,
+          43.825515727
+        ],
+        [
+          12.009484141000002,
+          43.825515727
+        ],
+        [
+          12.009484141000002,
+          41.855236373000004
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    12.009484141000002,
+    41.855236373000004,
+    15.575320327000002,
+    43.825515727
+  ],
+  "properties": {
+    "title": "2016 M 6.2 - 5 km WNW of Accumoli, Italy \u2014 Descending Track 022",
+    "start_datetime": "2016-08-21T00:00:00+00:00",
+    "end_datetime": "2016-08-27T00:00:00+00:00",
+    "coseis:event_id": "us10006g7d",
+    "coseis:event_name": "2016 M 6.2 - 5 km WNW of Accumoli, Italy",
+    "coseis:magnitude": 6.2,
+    "coseis:event_date": "2016-08-24",
+    "coseis:pager_alert": "red",
+    "coseis:depth_km": 4.44,
+    "sat:orbit_state": "descending",
+    "coseis:track": "022",
+    "coseis:satellites": "Sentinel-1B_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2016-08-27T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us10006g7d",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us10006g7d/m_62_5_km_wnw_of_accumoli_italy-D022/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_62_5_km_wnw_of_accumoli_italy/S1-COSEIS_SAR-D-R-022-tops-20160827_20160821-051048-00012E_00042N-PP-7089-v1_0_0/S1-COSEIS_SAR-D-R-022-tops-20160827_20160821-051048-00012E_00042N-PP-7089-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

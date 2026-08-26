@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_60_63_km_nne_of_kerman_iran-D166",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          54.903095167,
+          30.009403163000005
+        ],
+        [
+          57.94059759699999,
+          30.009403163000005
+        ],
+        [
+          57.94059759699999,
+          31.997460309000004
+        ],
+        [
+          54.903095167,
+          31.997460309000004
+        ],
+        [
+          54.903095167,
+          30.009403163000005
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    54.903095167,
+    30.009403163000005,
+    57.94059759699999,
+    31.997460309000004
+  ],
+  "properties": {
+    "title": "2017 M 6.0 - 63 km NNE of Kerman, Iran \u2014 Descending Track 166",
+    "start_datetime": "2017-12-12T00:00:00+00:00",
+    "end_datetime": "2017-12-24T00:00:00+00:00",
+    "coseis:event_id": "us2000c3mi",
+    "coseis:event_name": "2017 M 6.0 - 63 km NNE of Kerman, Iran",
+    "coseis:magnitude": 6.0,
+    "coseis:event_date": "2017-12-12",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 8,
+    "sat:orbit_state": "descending",
+    "coseis:track": "166",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2017-12-24T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us2000c3mi",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us2000c3mi/m_60_63_km_nne_of_kerman_iran-D166/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_60_63_km_nne_of_kerman_iran/S1-COSEIS_SAR-D-R-166-tops-20171224_20171212-021350-00055E_00030N-PP-8c2e-v1_0_0/S1-COSEIS_SAR-D-R-166-tops-20171224_20171212-021350-00055E_00030N-PP-8c2e-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

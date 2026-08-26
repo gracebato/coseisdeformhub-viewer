@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_61_23_km_nw_of_santa_monica_philippines-D061",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          122.806806201,
+          8.775235508999998
+        ],
+        [
+          125.776530799,
+          8.775235508999998
+        ],
+        [
+          125.776530799,
+          12.306905000999999
+        ],
+        [
+          122.806806201,
+          12.306905000999999
+        ],
+        [
+          122.806806201,
+          8.775235508999998
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    122.806806201,
+    8.775235508999998,
+    125.776530799,
+    12.306905000999999
+  ],
+  "properties": {
+    "title": "2015 M 6.1 - 23 km NW of Santa Monica, Philippines \u2014 Descending Track 061",
+    "start_datetime": "2015-06-30T00:00:00+00:00",
+    "end_datetime": "2015-07-24T00:00:00+00:00",
+    "coseis:event_id": "us10002n6s",
+    "coseis:event_name": "2015 M 6.1 - 23 km NW of Santa Monica, Philippines",
+    "coseis:magnitude": 6.1,
+    "coseis:event_date": "2015-07-03",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 32,
+    "sat:orbit_state": "descending",
+    "coseis:track": "061",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2015-07-24T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us10002n6s",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us10002n6s/m_61_23_km_nw_of_santa_monica_philippines-D061/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_61_23_km_nw_of_santa_monica_philippines/S1-COSEIS_SAR-D-R-061-tops-20150724_20150630-213114-00123E_00009N-PP-a9d1-v1_0_0/S1-COSEIS_SAR-D-R-061-tops-20150724_20150630-213114-00123E_00009N-PP-a9d1-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

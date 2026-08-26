@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_61_99_km_ne_of_norsup_vanuatu-A081",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          167.291251033,
+          -16.421708293000002
+        ],
+        [
+          170.061808805,
+          -16.421708293000002
+        ],
+        [
+          170.061808805,
+          -14.405595569
+        ],
+        [
+          167.291251033,
+          -14.405595569
+        ],
+        [
+          167.291251033,
+          -16.421708293000002
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    167.291251033,
+    -16.421708293000002,
+    170.061808805,
+    -14.405595569
+  ],
+  "properties": {
+    "title": "2024 M 6.1 - 99 km NE of Norsup, Vanuatu \u2014 Ascending Track 081",
+    "start_datetime": "2024-07-14T00:00:00+00:00",
+    "end_datetime": "2024-07-26T00:00:00+00:00",
+    "coseis:event_id": "us7000n0s8",
+    "coseis:event_name": "2024 M 6.1 - 99 km NE of Norsup, Vanuatu",
+    "coseis:magnitude": 6.1,
+    "coseis:event_date": "2024-07-22",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 4,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "081",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2024-07-26T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000n0s8",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us7000n0s8/m_61_99_km_ne_of_norsup_vanuatu-A081/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2024/m_61_99_km_ne_of_norsup_vanuatu/S1-COSEIS_SAR-A-R-081-tops-20240726_20240714-071427-00167E_00017S-PP-0ff0-v1_0_0/S1-COSEIS_SAR-A-R-081-tops-20240726_20240714-071427-00167E_00017S-PP-0ff0-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

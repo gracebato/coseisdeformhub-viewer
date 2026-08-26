@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_63_9_km_w_of_tyrnavos_greece-D080",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          19.643928293,
+          39.009958719000004
+        ],
+        [
+          23.063097695,
+          39.009958719000004
+        ],
+        [
+          23.063097695,
+          40.986071411000005
+        ],
+        [
+          19.643928293,
+          40.986071411000005
+        ],
+        [
+          19.643928293,
+          39.009958719000004
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    19.643928293,
+    39.009958719000004,
+    23.063097695,
+    40.986071411000005
+  ],
+  "properties": {
+    "title": "2021 M 6.3 - 9 km W of T\u00fdrnavos, Greece \u2014 Descending Track 080",
+    "start_datetime": "2021-03-02T00:00:00+00:00",
+    "end_datetime": "2021-03-08T00:00:00+00:00",
+    "coseis:event_id": "us7000df40",
+    "coseis:event_name": "2021 M 6.3 - 9 km W of T\u00fdrnavos, Greece",
+    "coseis:magnitude": 6.3,
+    "coseis:event_date": "2021-03-03",
+    "coseis:pager_alert": "yellow",
+    "coseis:depth_km": 8,
+    "sat:orbit_state": "descending",
+    "coseis:track": "080",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1B",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2021-03-08T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000df40",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us7000df40/m_63_9_km_w_of_tyrnavos_greece-D080/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_63_9_km_w_of_tyrnavos_greece/S1-COSEIS_SAR-D-R-080-tops-20210308_20210302-043953-00020E_00039N-PP-9d2c-v1_0_0/S1-COSEIS_SAR-D-R-080-tops-20210308_20210302-043953-00020E_00039N-PP-9d2c-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

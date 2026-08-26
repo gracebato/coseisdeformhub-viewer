@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_64_4_km_sse_of_indios_puerto_rico-A135",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -68.278293867,
+          15.883013372999999
+        ],
+        [
+          -65.242458105,
+          15.883013372999999
+        ],
+        [
+          -65.242458105,
+          19.294127213
+        ],
+        [
+          -68.278293867,
+          19.294127213
+        ],
+        [
+          -68.278293867,
+          15.883013372999999
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -68.278293867,
+    15.883013372999999,
+    -65.242458105,
+    19.294127213
+  ],
+  "properties": {
+    "title": "2020 M 6.4 - 4 km SSE of Indios, Puerto Rico \u2014 Ascending Track 135",
+    "start_datetime": "2020-01-04T00:00:00+00:00",
+    "end_datetime": "2020-01-16T00:00:00+00:00",
+    "coseis:event_id": "pr2020007007",
+    "coseis:event_name": "2020 M 6.4 - 4 km SSE of Indios, Puerto Rico",
+    "coseis:magnitude": 6.4,
+    "coseis:event_date": "2020-01-07",
+    "coseis:pager_alert": "orange",
+    "coseis:depth_km": 6,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "135",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2020-01-16T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2020007007",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/pr2020007007/m_64_4_km_sse_of_indios_puerto_rico-A135/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_64_4_km_sse_of_indios_puerto_rico/S1-COSEIS_SAR-A-R-135-tops-20200116_20200104-223636-00068W_00016N-PP-5969-v1_0_0/S1-COSEIS_SAR-A-R-135-tops-20200116_20200104-223636-00068W_00016N-PP-5969-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

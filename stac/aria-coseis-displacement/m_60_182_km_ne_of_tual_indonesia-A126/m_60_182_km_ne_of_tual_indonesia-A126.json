@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_60_182_km_ne_of_tual_indonesia-A126",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          133.87819514699999,
+          -5.230279251000001
+        ],
+        [
+          136.52125281699998,
+          -5.230279251000001
+        ],
+        [
+          136.52125281699998,
+          -3.090555317
+        ],
+        [
+          133.87819514699999,
+          -3.090555317
+        ],
+        [
+          133.87819514699999,
+          -5.230279251000001
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    133.87819514699999,
+    -5.230279251000001,
+    136.52125281699998,
+    -3.090555317
+  ],
+  "properties": {
+    "title": "2021 M 6.0 - 182 km NE of Tual, Indonesia \u2014 Ascending Track 126",
+    "start_datetime": "2021-07-21T00:00:00+00:00",
+    "end_datetime": "2021-08-02T00:00:00+00:00",
+    "coseis:event_id": "us6000f1ea",
+    "coseis:event_name": "2021 M 6.0 - 182 km NE of Tual, Indonesia",
+    "coseis:magnitude": 6.0,
+    "coseis:event_date": "2021-08-02",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 10,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "126",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2021-08-02T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000f1ea",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us6000f1ea/m_60_182_km_ne_of_tual_indonesia-A126/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_60_182_km_ne_of_tual_indonesia/S1-COSEIS_SAR-A-R-126-tops-20210802_20210721-092052-00134E_00005S-PP-6c06-v1_0_0/S1-COSEIS_SAR-A-R-126-tops-20210802_20210721-092052-00134E_00005S-PP-6c06-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

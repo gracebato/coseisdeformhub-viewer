@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_64_25_km_se_of_yujing_taiwan-D105",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          119.126528679,
+          21.755236293000003
+        ],
+        [
+          122.060975471,
+          21.755236293000003
+        ],
+        [
+          122.060975471,
+          24.088293715000002
+        ],
+        [
+          119.126528679,
+          24.088293715000002
+        ],
+        [
+          119.126528679,
+          21.755236293000003
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    119.126528679,
+    21.755236293000003,
+    122.060975471,
+    24.088293715000002
+  ],
+  "properties": {
+    "title": "2016 M 6.4 - 25 km SE of Yujing, Taiwan \u2014 Descending Track 105",
+    "start_datetime": "2016-02-04T00:00:00+00:00",
+    "end_datetime": "2016-02-28T00:00:00+00:00",
+    "coseis:event_id": "us20004y6h",
+    "coseis:event_name": "2016 M 6.4 - 25 km SE of Yujing, Taiwan",
+    "coseis:magnitude": 6.4,
+    "coseis:event_date": "2016-02-05",
+    "coseis:pager_alert": "yellow",
+    "coseis:depth_km": 23,
+    "sat:orbit_state": "descending",
+    "coseis:track": "105",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2016-02-28T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us20004y6h",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us20004y6h/m_64_25_km_se_of_yujing_taiwan-D105/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_64_25_km_se_of_yujing_taiwan/S1-COSEIS_SAR-D-R-105-tops-20160228_20160204-215231-00119E_00022N-PP-fb82-v1_0_0/S1-COSEIS_SAR-D-R-105-tops-20160228_20160204-215231-00119E_00022N-PP-fb82-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_66_44_km_se_of_kangding_china-D135",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          99.911706285,
+          28.717458485000005
+        ],
+        [
+          102.90781979299999,
+          28.717458485000005
+        ],
+        [
+          102.90781979299999,
+          30.707737855000005
+        ],
+        [
+          99.911706285,
+          30.707737855000005
+        ],
+        [
+          99.911706285,
+          28.717458485000005
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    99.911706285,
+    28.717458485000005,
+    102.90781979299999,
+    30.707737855000005
+  ],
+  "properties": {
+    "title": "2022 M 6.6 - 44 km SE of Kangding, China \u2014 Descending Track 135",
+    "start_datetime": "2022-09-02T00:00:00+00:00",
+    "end_datetime": "2022-09-14T00:00:00+00:00",
+    "coseis:event_id": "us7000i59t",
+    "coseis:event_name": "2022 M 6.6 - 44 km SE of Kangding, China",
+    "coseis:magnitude": 6.6,
+    "coseis:event_date": "2022-09-05",
+    "coseis:pager_alert": "orange",
+    "coseis:depth_km": 12,
+    "sat:orbit_state": "descending",
+    "coseis:track": "135",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2022-09-14T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i59t",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us7000i59t/m_66_44_km_se_of_kangding_china-D135/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_66_44_km_se_of_kangding_china/S1-COSEIS_SAR-D-R-135-tops-20220914_20220902-231342-00100E_00029N-PP-2791-v1_0_0/S1-COSEIS_SAR-D-R-135-tops-20220914_20220902-231342-00100E_00029N-PP-2791-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

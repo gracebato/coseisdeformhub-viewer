@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_67_burma_myanmar-A070",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          95.511150409,
+          19.434401903
+        ],
+        [
+          98.635597353,
+          19.434401903
+        ],
+        [
+          98.635597353,
+          23.006904761
+        ],
+        [
+          95.511150409,
+          23.006904761
+        ],
+        [
+          95.511150409,
+          19.434401903
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    95.511150409,
+    19.434401903,
+    98.635597353,
+    23.006904761
+  ],
+  "properties": {
+    "title": "2025 M 6.7 - Burma (Myanmar) \u2014 Ascending Track 070",
+    "start_datetime": "2025-03-22T00:00:00+00:00",
+    "end_datetime": "2025-04-03T00:00:00+00:00",
+    "coseis:event_id": "us7000pn9z",
+    "coseis:event_name": "2025 M 6.7 - Burma (Myanmar)",
+    "coseis:magnitude": 6.7,
+    "coseis:event_date": "2025-03-28",
+    "coseis:pager_alert": "red",
+    "coseis:depth_km": 10,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "070",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2025-04-03T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pn9z",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us7000pn9z/m_67_burma_myanmar-A070/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_67_burma_myanmar/S1-COSEIS_SAR-A-R-070-tops-20250403_20250322-113935-00096E_00019N-PP-3bea-v1_0_0/S1-COSEIS_SAR-A-R-070-tops-20250403_20250322-113935-00096E_00019N-PP-3bea-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

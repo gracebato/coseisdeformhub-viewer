@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_62_96_km_ese_of_angoram_papua_new_guinea-D060",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          144.250973223,
+          -6.557780313
+        ],
+        [
+          147.262920077,
+          -6.557780313
+        ],
+        [
+          147.262920077,
+          -2.9749996690000002
+        ],
+        [
+          144.250973223,
+          -2.9749996690000002
+        ],
+        [
+          144.250973223,
+          -6.557780313
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    144.250973223,
+    -6.557780313,
+    147.262920077,
+    -2.9749996690000002
+  ],
+  "properties": {
+    "title": "2023 M 6.2 - 96 km ESE of Angoram, Papua New Guinea \u2014 Descending Track 060",
+    "start_datetime": "2023-06-12T00:00:00+00:00",
+    "end_datetime": "2023-06-24T00:00:00+00:00",
+    "coseis:event_id": "us7000k9jv",
+    "coseis:event_name": "2023 M 6.2 - 96 km ESE of Angoram, Papua New Guinea",
+    "coseis:magnitude": 6.2,
+    "coseis:event_date": "2023-06-19",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 23.844,
+    "sat:orbit_state": "descending",
+    "coseis:track": "060",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2023-06-24T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000k9jv",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us7000k9jv/m_62_96_km_ese_of_angoram_papua_new_guinea-D060/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_62_96_km_ese_of_angoram_papua_new_guinea/S1-COSEIS_SAR-D-R-060-tops-20230624_20230612-195730-00144E_00007S-PP-a007-v1_0_0/S1-COSEIS_SAR-D-R-060-tops-20230624_20230612-195730-00144E_00007S-PP-a007-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

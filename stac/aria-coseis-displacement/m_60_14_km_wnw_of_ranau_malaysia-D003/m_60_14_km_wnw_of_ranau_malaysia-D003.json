@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_60_14_km_wnw_of_ranau_malaysia-D003",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          113.705417231,
+          4.635276197
+        ],
+        [
+          116.385697153,
+          4.635276197
+        ],
+        [
+          116.385697153,
+          6.681944501
+        ],
+        [
+          113.705417231,
+          6.681944501
+        ],
+        [
+          113.705417231,
+          4.635276197
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    113.705417231,
+    4.635276197,
+    116.385697153,
+    6.681944501
+  ],
+  "properties": {
+    "title": "2015 M 6.0 - 14 km WNW of Ranau, Malaysia \u2014 Descending Track 003",
+    "start_datetime": "2015-06-02T00:00:00+00:00",
+    "end_datetime": "2015-06-26T00:00:00+00:00",
+    "coseis:event_id": "us20002m5s",
+    "coseis:event_name": "2015 M 6.0 - 14 km WNW of Ranau, Malaysia",
+    "coseis:magnitude": 6.0,
+    "coseis:event_date": "2015-06-04",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 10,
+    "sat:orbit_state": "descending",
+    "coseis:track": "003",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2015-06-26T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us20002m5s",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us20002m5s/m_60_14_km_wnw_of_ranau_malaysia-D003/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_60_14_km_wnw_of_ranau_malaysia/S1-COSEIS_SAR-D-R-003-tops-20150626_20150602-220531-00114E_00005N-PP-2f69-v1_0_0/S1-COSEIS_SAR-D-R-003-tops-20150626_20150602-220531-00114E_00005N-PP-2f69-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

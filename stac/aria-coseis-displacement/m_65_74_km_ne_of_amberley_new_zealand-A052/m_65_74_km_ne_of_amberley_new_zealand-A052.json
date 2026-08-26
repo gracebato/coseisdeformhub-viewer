@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_65_74_km_ne_of_amberley_new_zealand-A052",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          171.034861939,
+          -44.242264504999994
+        ],
+        [
+          175.283754227,
+          -44.242264504999994
+        ],
+        [
+          175.283754227,
+          -40.62753939099999
+        ],
+        [
+          171.034861939,
+          -40.62753939099999
+        ],
+        [
+          171.034861939,
+          -44.242264504999994
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    171.034861939,
+    -44.242264504999994,
+    175.283754227,
+    -40.62753939099999
+  ],
+  "properties": {
+    "title": "2016 M 6.5 - 74 km NE of Amberley, New Zealand \u2014 Ascending Track 052",
+    "start_datetime": "2016-11-03T00:00:00+00:00",
+    "end_datetime": "2016-11-15T00:00:00+00:00",
+    "coseis:event_id": "us100077hw",
+    "coseis:event_name": "2016 M 6.5 - 74 km NE of Amberley, New Zealand",
+    "coseis:magnitude": 6.5,
+    "coseis:event_date": "2016-11-14",
+    "coseis:pager_alert": "yellow",
+    "coseis:depth_km": 9,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "052",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2016-11-15T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us100077hw",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us100077hw/m_65_74_km_ne_of_amberley_new_zealand-A052/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_65_74_km_ne_of_amberley_new_zealand/S1-COSEIS_SAR-A-R-052-tops-20161115_20161103-072242-00171E_00044S-PP-121f-v1_0_0/S1-COSEIS_SAR-A-R-052-tops-20161115_20161103-072242-00171E_00044S-PP-121f-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

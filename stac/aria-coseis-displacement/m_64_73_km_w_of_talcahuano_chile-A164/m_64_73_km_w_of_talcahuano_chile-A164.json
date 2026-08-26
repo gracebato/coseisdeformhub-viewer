@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_64_73_km_w_of_talcahuano_chile-A164",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -75.231628763,
+          -38.694207711
+        ],
+        [
+          -71.840237161,
+          -38.694207711
+        ],
+        [
+          -71.840237161,
+          -36.564761563
+        ],
+        [
+          -75.231628763,
+          -36.564761563
+        ],
+        [
+          -75.231628763,
+          -38.694207711
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -75.231628763,
+    -38.694207711,
+    -71.840237161,
+    -36.564761563
+  ],
+  "properties": {
+    "title": "2021 M 6.4 - 73 km W of Talcahuano, Chile \u2014 Ascending Track 164",
+    "start_datetime": "2021-09-15T00:00:00+00:00",
+    "end_datetime": "2021-09-21T00:00:00+00:00",
+    "coseis:event_id": "us7000fd4k",
+    "coseis:event_name": "2021 M 6.4 - 73 km W of Talcahuano, Chile",
+    "coseis:magnitude": 6.4,
+    "coseis:event_date": "2021-09-21",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 18.8,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "164",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1B",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2021-09-21T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fd4k",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us7000fd4k/m_64_73_km_w_of_talcahuano_chile-A164/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_64_73_km_w_of_talcahuano_chile/S1-COSEIS_SAR-A-R-164-tops-20210921_20210915-234348-00075W_00039S-PP-122d-v1_0_0/S1-COSEIS_SAR-A-R-164-tops-20210921_20210915-234348-00075W_00039S-PP-122d-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

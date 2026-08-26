@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_73_29_km_s_of_alabja_iraq-D006",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          45.320039945,
+          33.591625851
+        ],
+        [
+          48.466431351,
+          33.591625851
+        ],
+        [
+          48.466431351,
+          35.570238545
+        ],
+        [
+          45.320039945,
+          35.570238545
+        ],
+        [
+          45.320039945,
+          33.591625851
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    45.320039945,
+    33.591625851,
+    48.466431351,
+    35.570238545
+  ],
+  "properties": {
+    "title": "2017 M 7.3 - 29 km S of ?alabja, Iraq \u2014 Descending Track 006",
+    "start_datetime": "2017-11-07T00:00:00+00:00",
+    "end_datetime": "2017-11-19T00:00:00+00:00",
+    "coseis:event_id": "us2000bmcg",
+    "coseis:event_name": "2017 M 7.3 - 29 km S of ?alabja, Iraq",
+    "coseis:magnitude": 7.3,
+    "coseis:event_date": "2017-11-12",
+    "coseis:pager_alert": "red",
+    "coseis:depth_km": 19,
+    "sat:orbit_state": "descending",
+    "coseis:track": "006",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2017-11-19T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us2000bmcg",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us2000bmcg/m_73_29_km_s_of_alabja_iraq-D006/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_73_29_km_s_of_alabja_iraq/S1-COSEIS_SAR-D-R-006-tops-20171119_20171107-025401-00045E_00034N-PP-4977-v1_0_0/S1-COSEIS_SAR-D-R-006-tops-20171119_20171107-025401-00045E_00034N-PP-4977-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

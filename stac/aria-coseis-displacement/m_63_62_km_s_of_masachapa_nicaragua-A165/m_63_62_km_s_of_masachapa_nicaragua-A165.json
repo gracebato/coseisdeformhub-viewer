@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_63_62_km_s_of_masachapa_nicaragua-A165",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -87.610794133,
+          9.739124368999999
+        ],
+        [
+          -84.618013961,
+          9.739124368999999
+        ],
+        [
+          -84.618013961,
+          13.337738359
+        ],
+        [
+          -87.610794133,
+          13.337738359
+        ],
+        [
+          -87.610794133,
+          9.739124368999999
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -87.610794133,
+    9.739124368999999,
+    -84.618013961,
+    13.337738359
+  ],
+  "properties": {
+    "title": "2021 M 6.3 - 62 km S of Masachapa, Nicaragua \u2014 Ascending Track 165",
+    "start_datetime": "2021-11-08T00:00:00+00:00",
+    "end_datetime": "2021-11-20T00:00:00+00:00",
+    "coseis:event_id": "us7000fskw",
+    "coseis:event_name": "2021 M 6.3 - 62 km S of Masachapa, Nicaragua",
+    "coseis:magnitude": 6.3,
+    "coseis:event_date": "2021-11-09",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 20,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "165",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2021-11-20T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fskw",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us7000fskw/m_63_62_km_s_of_masachapa_nicaragua-A165/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_63_62_km_s_of_masachapa_nicaragua/S1-COSEIS_SAR-A-R-165-tops-20211120_20211108-235728-00088W_00010N-PP-4253-v1_0_0/S1-COSEIS_SAR-A-R-165-tops-20211120_20211108-235728-00088W_00010N-PP-4253-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

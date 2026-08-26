@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_60_54_km_ene_of_noda_japan-A141",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          138.691250553,
+          39.245514463
+        ],
+        [
+          142.094586609,
+          39.245514463
+        ],
+        [
+          142.094586609,
+          41.113015957
+        ],
+        [
+          138.691250553,
+          41.113015957
+        ],
+        [
+          138.691250553,
+          39.245514463
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    138.691250553,
+    39.245514463,
+    142.094586609,
+    41.113015957
+  ],
+  "properties": {
+    "title": "2026 M 6.0 - 54 km ENE of Noda, Japan \u2014 Ascending Track 141",
+    "start_datetime": "2026-06-27T00:00:00+00:00",
+    "end_datetime": "2026-07-21T00:00:00+00:00",
+    "coseis:event_id": "us6000t9ej",
+    "coseis:event_name": "2026 M 6.0 - 54 km ENE of Noda, Japan",
+    "coseis:magnitude": 6.0,
+    "coseis:event_date": "2026-07-01",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 35,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "141",
+    "coseis:satellites": "Sentinel-1C_Sentinel-1C",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2026-07-21T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t9ej",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us6000t9ej/m_60_54_km_ene_of_noda_japan-A141/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2026/m_60_54_km_ene_of_noda_japan/S1-COSEIS_SAR-A-R-141-tops-20260721_20260627-083427-00139E_00039N-PP-1106-v1_0_0/S1-COSEIS_SAR-A-R-141-tops-20260721_20260627-083427-00139E_00039N-PP-1106-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

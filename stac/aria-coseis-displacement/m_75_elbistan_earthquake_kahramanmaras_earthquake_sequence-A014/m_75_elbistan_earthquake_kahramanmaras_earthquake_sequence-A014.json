@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_75_elbistan_earthquake_kahramanmaras_earthquake_sequence-A014",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          34.346151076999995,
+          36.895236405
+        ],
+        [
+          37.67476485099999,
+          36.895236405
+        ],
+        [
+          37.67476485099999,
+          38.771071239
+        ],
+        [
+          34.346151076999995,
+          38.771071239
+        ],
+        [
+          34.346151076999995,
+          36.895236405
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    34.346151076999995,
+    36.895236405,
+    37.67476485099999,
+    38.771071239
+  ],
+  "properties": {
+    "title": "2023 M 7.5 - Elbistan earthquake, Kahramanmaras earthquake sequence \u2014 Ascending Track 014",
+    "start_datetime": "2023-01-28T00:00:00+00:00",
+    "end_datetime": "2023-02-09T00:00:00+00:00",
+    "coseis:event_id": "us6000jlqa",
+    "coseis:event_name": "2023 M 7.5 - Elbistan earthquake, Kahramanmaras earthquake sequence",
+    "coseis:magnitude": 7.5,
+    "coseis:event_date": "2023-02-06",
+    "coseis:pager_alert": "red",
+    "coseis:depth_km": 7.432,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "014",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2023-02-09T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jlqa",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us6000jlqa/m_75_elbistan_earthquake_kahramanmaras_earthquake_sequence-A014/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_75_elbistan_earthquake_kahramanmaras_earthquake_sequence/S1-COSEIS_SAR-A-R-014-tops-20230209_20230128-153436-00034E_00037N-PP-f46a-v1_0_0/S1-COSEIS_SAR-A-R-014-tops-20230209_20230128-153436-00034E_00037N-PP-f46a-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

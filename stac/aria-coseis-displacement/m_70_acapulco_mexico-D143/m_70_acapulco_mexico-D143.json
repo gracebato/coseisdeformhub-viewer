@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_70_acapulco_mexico-D143",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -100.049027017,
+          15.962458681000003
+        ],
+        [
+          -97.345413743,
+          15.962458681000003
+        ],
+        [
+          -97.345413743,
+          17.811904605000002
+        ],
+        [
+          -100.049027017,
+          17.811904605000002
+        ],
+        [
+          -100.049027017,
+          15.962458681000003
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -100.049027017,
+    15.962458681000003,
+    -97.345413743,
+    17.811904605000002
+  ],
+  "properties": {
+    "title": "2021 M 7.0 - Acapulco, Mexico \u2014 Descending Track 143",
+    "start_datetime": "2021-09-02T00:00:00+00:00",
+    "end_datetime": "2021-09-08T00:00:00+00:00",
+    "coseis:event_id": "us7000f93v",
+    "coseis:event_name": "2021 M 7.0 - Acapulco, Mexico",
+    "coseis:magnitude": 7.0,
+    "coseis:event_date": "2021-09-08",
+    "coseis:pager_alert": "red",
+    "coseis:depth_km": 20,
+    "sat:orbit_state": "descending",
+    "coseis:track": "143",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1B",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2021-09-08T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000f93v",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us7000f93v/m_70_acapulco_mexico-D143/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_70_acapulco_mexico/S1-COSEIS_SAR-D-R-143-tops-20210908_20210902-122705-00100W_00016N-PP-b2cc-v1_0_0/S1-COSEIS_SAR-D-R-143-tops-20210908_20210902-122705-00100W_00016N-PP-b2cc-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

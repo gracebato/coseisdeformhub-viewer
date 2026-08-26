@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_60_19_km_w_of_doganyol_turkey-D123",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          37.688650550999995,
+          36.835513335
+        ],
+        [
+          41.411709085,
+          36.835513335
+        ],
+        [
+          41.411709085,
+          40.305238333000005
+        ],
+        [
+          37.688650550999995,
+          40.305238333000005
+        ],
+        [
+          37.688650550999995,
+          36.835513335
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    37.688650550999995,
+    36.835513335,
+    41.411709085,
+    40.305238333000005
+  ],
+  "properties": {
+    "title": "2024 M 6.0 - 19 km W of Do\u011fanyol, Turkey \u2014 Descending Track 123",
+    "start_datetime": "2024-10-09T00:00:00+00:00",
+    "end_datetime": "2024-10-21T00:00:00+00:00",
+    "coseis:event_id": "us6000nyzk",
+    "coseis:event_name": "2024 M 6.0 - 19 km W of Do\u011fanyol, Turkey",
+    "coseis:magnitude": 6.0,
+    "coseis:event_date": "2024-10-16",
+    "coseis:pager_alert": "yellow",
+    "coseis:depth_km": 10,
+    "sat:orbit_state": "descending",
+    "coseis:track": "123",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2024-10-21T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nyzk",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us6000nyzk/m_60_19_km_w_of_doganyol_turkey-D123/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2024/m_60_19_km_w_of_doganyol_turkey/S1-COSEIS_SAR-D-R-123-tops-20241021_20241009-032623-00038E_00037N-PP-f32f-v1_0_0/S1-COSEIS_SAR-D-R-123-tops-20241021_20241009-032623-00038E_00037N-PP-f32f-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

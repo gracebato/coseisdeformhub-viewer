@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_60_151_km_se_of_tobelo_indonesia-A170",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          126.570972679,
+          -1.534724739
+        ],
+        [
+          129.546530615,
+          -1.534724739
+        ],
+        [
+          129.546530615,
+          2.424722873
+        ],
+        [
+          126.570972679,
+          2.424722873
+        ],
+        [
+          126.570972679,
+          -1.534724739
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    126.570972679,
+    -1.534724739,
+    129.546530615,
+    2.424722873
+  ],
+  "properties": {
+    "title": "2016 M 6.0 - 151 km SE of Tobelo, Indonesia \u2014 Ascending Track 170",
+    "start_datetime": "2016-01-28T00:00:00+00:00",
+    "end_datetime": "2016-02-21T00:00:00+00:00",
+    "coseis:event_id": "us200050wc",
+    "coseis:event_name": "2016 M 6.0 - 151 km SE of Tobelo, Indonesia",
+    "coseis:magnitude": 6.0,
+    "coseis:event_date": "2016-02-17",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 9,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "170",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2016-02-21T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us200050wc",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us200050wc/m_60_151_km_se_of_tobelo_indonesia-A170/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_60_151_km_se_of_tobelo_indonesia/S1-COSEIS_SAR-A-R-170-tops-20160221_20160128-094611-00127E_00002S-PP-11d3-v1_0_0/S1-COSEIS_SAR-A-R-170-tops-20160221_20160128-094611-00127E_00002S-PP-11d3-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

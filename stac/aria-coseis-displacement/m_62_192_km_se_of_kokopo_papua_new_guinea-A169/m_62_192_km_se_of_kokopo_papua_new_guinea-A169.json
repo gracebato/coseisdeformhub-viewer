@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_62_192_km_se_of_kokopo_papua_new_guinea-A169",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          152.499583733,
+          -7.379446837
+        ],
+        [
+          155.512363921,
+          -7.379446837
+        ],
+        [
+          155.512363921,
+          -3.5697215669999998
+        ],
+        [
+          152.499583733,
+          -3.5697215669999998
+        ],
+        [
+          152.499583733,
+          -7.379446837
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    152.499583733,
+    -7.379446837,
+    155.512363921,
+    -3.5697215669999998
+  ],
+  "properties": {
+    "title": "2021 M 6.2 - 192 km SE of Kokopo, Papua New Guinea \u2014 Ascending Track 169",
+    "start_datetime": "2021-11-09T00:00:00+00:00",
+    "end_datetime": "2021-11-21T00:00:00+00:00",
+    "coseis:event_id": "us7000fv37",
+    "coseis:event_name": "2021 M 6.2 - 192 km SE of Kokopo, Papua New Guinea",
+    "coseis:magnitude": 6.2,
+    "coseis:event_date": "2021-11-18",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 34,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "169",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2021-11-21T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fv37",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us7000fv37/m_62_192_km_se_of_kokopo_papua_new_guinea-A169/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_62_192_km_se_of_kokopo_papua_new_guinea/S1-COSEIS_SAR-A-R-169-tops-20211121_20211109-080629-00153E_00007S-PP-03c1-v1_0_0/S1-COSEIS_SAR-A-R-169-tops-20211121_20211109-080629-00153E_00007S-PP-03c1-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

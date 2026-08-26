@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_73_nepal-D121",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          85.014484145,
+          26.224402535
+        ],
+        [
+          88.206708921,
+          26.224402535
+        ],
+        [
+          88.206708921,
+          29.212182703
+        ],
+        [
+          85.014484145,
+          29.212182703
+        ],
+        [
+          85.014484145,
+          26.224402535
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    85.014484145,
+    26.224402535,
+    88.206708921,
+    29.212182703
+  ],
+  "properties": {
+    "title": "2015 M 7.3 - Nepal \u2014 Descending Track 121",
+    "start_datetime": "2015-05-06T00:00:00+00:00",
+    "end_datetime": "2015-05-18T00:00:00+00:00",
+    "coseis:event_id": "us20002ejl",
+    "coseis:event_name": "2015 M 7.3 - Nepal",
+    "coseis:magnitude": 7.3,
+    "coseis:event_date": "2015-05-12",
+    "coseis:pager_alert": "orange",
+    "coseis:depth_km": 15,
+    "sat:orbit_state": "descending",
+    "coseis:track": "121",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2015-05-18T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us20002ejl",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us20002ejl/m_73_nepal-D121/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_73_nepal/S1-COSEIS_SAR-D-R-121-tops-20150518_20150506-001105-00085E_00026N-PP-17e1-v1_0_0/S1-COSEIS_SAR-D-R-121-tops-20150518_20150506-001105-00085E_00026N-PP-17e1-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

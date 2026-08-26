@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_64_57_km_wnw_of_zangguy_china-D034",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          74.69365055499999,
+          36.411625707000006
+        ],
+        [
+          77.97726429299999,
+          36.411625707000006
+        ],
+        [
+          77.97726429299999,
+          38.383293951000006
+        ],
+        [
+          74.69365055499999,
+          38.383293951000006
+        ],
+        [
+          74.69365055499999,
+          36.411625707000006
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    74.69365055499999,
+    36.411625707000006,
+    77.97726429299999,
+    38.383293951000006
+  ],
+  "properties": {
+    "title": "2015 M 6.4 - 57 km WNW of Zangguy, China \u2014 Descending Track 034",
+    "start_datetime": "2015-06-17T00:00:00+00:00",
+    "end_datetime": "2015-07-11T00:00:00+00:00",
+    "coseis:event_id": "us10002n4w",
+    "coseis:event_name": "2015 M 6.4 - 57 km WNW of Zangguy, China",
+    "coseis:magnitude": 6.4,
+    "coseis:event_date": "2015-07-03",
+    "coseis:pager_alert": "yellow",
+    "coseis:depth_km": 20,
+    "sat:orbit_state": "descending",
+    "coseis:track": "034",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2015-07-11T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us10002n4w",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us10002n4w/m_64_57_km_wnw_of_zangguy_china-D034/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_64_57_km_wnw_of_zangguy_china/S1-COSEIS_SAR-D-R-034-tops-20150711_20150617-005745-00075E_00036N-PP-33dc-v1_0_0/S1-COSEIS_SAR-D-R-034-tops-20150711_20150617-005745-00075E_00036N-PP-33dc-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

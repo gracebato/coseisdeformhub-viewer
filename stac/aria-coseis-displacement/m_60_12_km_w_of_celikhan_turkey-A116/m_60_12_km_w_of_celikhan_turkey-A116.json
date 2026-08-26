@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_60_12_km_w_of_celikhan_turkey-A116",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          36.057261956999994,
+          36.78940218700001
+        ],
+        [
+          39.751709356999996,
+          36.78940218700001
+        ],
+        [
+          39.751709356999996,
+          40.155793769000006
+        ],
+        [
+          36.057261956999994,
+          40.155793769000006
+        ],
+        [
+          36.057261956999994,
+          36.78940218700001
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    36.057261956999994,
+    36.78940218700001,
+    39.751709356999996,
+    40.155793769000006
+  ],
+  "properties": {
+    "title": "2023 M 6.0 - 12 km W of \u00c7elikhan, Turkey \u2014 Ascending Track 116",
+    "start_datetime": "2023-02-04T00:00:00+00:00",
+    "end_datetime": "2023-02-28T00:00:00+00:00",
+    "coseis:event_id": "us6000jm1y",
+    "coseis:event_name": "2023 M 6.0 - 12 km W of \u00c7elikhan, Turkey",
+    "coseis:magnitude": 6.0,
+    "coseis:event_date": "2023-02-06",
+    "coseis:pager_alert": "yellow",
+    "coseis:depth_km": 10,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "116",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2023-02-28T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jm1y",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us6000jm1y/m_60_12_km_w_of_celikhan_turkey-A116/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_60_12_km_w_of_celikhan_turkey/S1-COSEIS_SAR-A-R-116-tops-20230228_20230204-152633-00036E_00037N-PP-9439-v1_0_0/S1-COSEIS_SAR-A-R-116-tops-20230228_20230204-152633-00036E_00037N-PP-9439-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

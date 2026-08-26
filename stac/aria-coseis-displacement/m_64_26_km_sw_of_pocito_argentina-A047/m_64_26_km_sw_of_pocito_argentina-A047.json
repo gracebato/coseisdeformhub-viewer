@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_64_26_km_sw_of_pocito_argentina-A047",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -69.376627279,
+          -31.888930089
+        ],
+        [
+          -66.210513635,
+          -31.888930089
+        ],
+        [
+          -66.210513635,
+          -29.471428154999998
+        ],
+        [
+          -69.376627279,
+          -29.471428154999998
+        ],
+        [
+          -69.376627279,
+          -31.888930089
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -69.376627279,
+    -31.888930089,
+    -66.210513635,
+    -29.471428154999998
+  ],
+  "properties": {
+    "title": "2021 M 6.4 - 26 km SW of Pocito, Argentina \u2014 Ascending Track 047",
+    "start_datetime": "2021-01-10T00:00:00+00:00",
+    "end_datetime": "2021-01-22T00:00:00+00:00",
+    "coseis:event_id": "us7000d18q",
+    "coseis:event_name": "2021 M 6.4 - 26 km SW of Pocito, Argentina",
+    "coseis:magnitude": 6.4,
+    "coseis:event_date": "2021-01-19",
+    "coseis:pager_alert": "yellow",
+    "coseis:depth_km": 20.81,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "047",
+    "coseis:satellites": "Sentinel-1B_Sentinel-1B",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2021-01-22T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000d18q",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us7000d18q/m_64_26_km_sw_of_pocito_argentina-A047/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_64_26_km_sw_of_pocito_argentina/S1-COSEIS_SAR-A-R-047-tops-20210122_20210110-231201-00069W_00032S-PP-11df-v1_0_0/S1-COSEIS_SAR-A-R-047-tops-20210122_20210110-231201-00069W_00032S-PP-11df-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_63_99_km_ene_of_misawa_japan-A068",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          140.295973259,
+          39.204401719
+        ],
+        [
+          144.129309659,
+          39.204401719
+        ],
+        [
+          144.129309659,
+          42.891626891
+        ],
+        [
+          140.295973259,
+          42.891626891
+        ],
+        [
+          140.295973259,
+          39.204401719
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    140.295973259,
+    39.204401719,
+    144.129309659,
+    42.891626891
+  ],
+  "properties": {
+    "title": "2018 M 6.3 - 99 km ENE of Misawa, Japan \u2014 Ascending Track 068",
+    "start_datetime": "2018-01-16T00:00:00+00:00",
+    "end_datetime": "2018-01-28T00:00:00+00:00",
+    "coseis:event_id": "us2000cnnl",
+    "coseis:event_name": "2018 M 6.3 - 99 km ENE of Misawa, Japan",
+    "coseis:magnitude": 6.3,
+    "coseis:event_date": "2018-01-24",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 31,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "068",
+    "coseis:satellites": "Sentinel-1B_Sentinel-1B",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2018-01-28T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us2000cnnl",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us2000cnnl/m_63_99_km_ene_of_misawa_japan-A068/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_63_99_km_ene_of_misawa_japan/S1-COSEIS_SAR-A-R-068-tops-20180128_20180116-082625-00140E_00039N-PP-65cc-v1_0_0/S1-COSEIS_SAR-A-R-068-tops-20180128_20180116-082625-00140E_00039N-PP-65cc-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

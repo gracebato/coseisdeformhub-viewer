@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_62_40_km_wnw_of_tamarindo_costa_rica-D157",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -87.08051593100001,
+          8.620513162999998
+        ],
+        [
+          -84.146346917,
+          8.620513162999998
+        ],
+        [
+          -84.146346917,
+          11.985515855
+        ],
+        [
+          -87.08051593100001,
+          11.985515855
+        ],
+        [
+          -87.08051593100001,
+          8.620513162999998
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -87.08051593100001,
+    8.620513162999998,
+    -84.146346917,
+    11.985515855
+  ],
+  "properties": {
+    "title": "2024 M 6.2 - 40 km WNW of Tamarindo, Costa Rica \u2014 Descending Track 157",
+    "start_datetime": "2024-10-11T00:00:00+00:00",
+    "end_datetime": "2024-10-23T00:00:00+00:00",
+    "coseis:event_id": "us6000nyau",
+    "coseis:event_name": "2024 M 6.2 - 40 km WNW of Tamarindo, Costa Rica",
+    "coseis:magnitude": 6.2,
+    "coseis:event_date": "2024-10-12",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 16,
+    "sat:orbit_state": "descending",
+    "coseis:track": "157",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2024-10-23T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nyau",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us6000nyau/m_62_40_km_wnw_of_tamarindo_costa_rica-D157/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2024/m_62_40_km_wnw_of_tamarindo_costa_rica/S1-COSEIS_SAR-D-R-157-tops-20241023_20241011-113125-00087W_00009N-PP-331c-v1_0_0/S1-COSEIS_SAR-D-R-157-tops-20241023_20241011-113125-00087W_00009N-PP-331c-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

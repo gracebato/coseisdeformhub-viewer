@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_60_55_km_sw_of_khst_afghanistan-D078",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          67.679761655,
+          32.228292227000004
+        ],
+        [
+          70.78920858699999,
+          32.228292227000004
+        ],
+        [
+          70.78920858699999,
+          34.211627147
+        ],
+        [
+          67.679761655,
+          34.211627147
+        ],
+        [
+          67.679761655,
+          32.228292227000004
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    67.679761655,
+    32.228292227000004,
+    70.78920858699999,
+    34.211627147
+  ],
+  "properties": {
+    "title": "2022 M 6.0 - 55 km SW of Kh?st, Afghanistan \u2014 Descending Track 078",
+    "start_datetime": "2022-06-19T00:00:00+00:00",
+    "end_datetime": "2022-07-01T00:00:00+00:00",
+    "coseis:event_id": "us7000hj3u",
+    "coseis:event_name": "2022 M 6.0 - 55 km SW of Kh?st, Afghanistan",
+    "coseis:magnitude": 6.0,
+    "coseis:event_date": "2022-06-21",
+    "coseis:pager_alert": "orange",
+    "coseis:depth_km": 4,
+    "sat:orbit_state": "descending",
+    "coseis:track": "078",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2022-07-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000hj3u",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us7000hj3u/m_60_55_km_sw_of_khst_afghanistan-D078/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_60_55_km_sw_of_khst_afghanistan/S1-COSEIS_SAR-D-R-078-tops-20220701_20220619-012419-00068E_00032N-PP-a38e-v1_0_0/S1-COSEIS_SAR-D-R-078-tops-20220701_20220619-012419-00068E_00032N-PP-a38e-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

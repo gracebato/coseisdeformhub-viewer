@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_64_192_km_wnw_of_abepura_indonesia-A155",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          137.493750395,
+          -4.215002461
+        ],
+        [
+          140.453752763,
+          -4.215002461
+        ],
+        [
+          140.453752763,
+          -0.579999553
+        ],
+        [
+          137.493750395,
+          -0.579999553
+        ],
+        [
+          137.493750395,
+          -4.215002461
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    137.493750395,
+    -4.215002461,
+    140.453752763,
+    -0.579999553
+  ],
+  "properties": {
+    "title": "2025 M 6.4 - 192 km WNW of Abepura, Indonesia \u2014 Ascending Track 155",
+    "start_datetime": "2025-10-06T00:00:00+00:00",
+    "end_datetime": "2025-10-18T00:00:00+00:00",
+    "coseis:event_id": "us6000rhg5",
+    "coseis:event_name": "2025 M 6.4 - 192 km WNW of Abepura, Indonesia",
+    "coseis:magnitude": 6.4,
+    "coseis:event_date": "2025-10-16",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 18,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "155",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2025-10-18T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rhg5",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us6000rhg5/m_64_192_km_wnw_of_abepura_indonesia-A155/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_64_192_km_wnw_of_abepura_indonesia/S1-COSEIS_SAR-A-R-155-tops-20251018_20251006-090453-00137E_00004S-PP-b55f-v1_0_0/S1-COSEIS_SAR-A-R-155-tops-20251018_20251006-090453-00137E_00004S-PP-b55f-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

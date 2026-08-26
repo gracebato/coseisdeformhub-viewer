@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_63_102_km_wnw_of_kirakira_solomon_islands-A125",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          159.522639307,
+          -11.571669213
+        ],
+        [
+          162.652086255,
+          -11.571669213
+        ],
+        [
+          162.652086255,
+          -7.253332425
+        ],
+        [
+          159.522639307,
+          -7.253332425
+        ],
+        [
+          159.522639307,
+          -11.571669213
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    159.522639307,
+    -11.571669213,
+    162.652086255,
+    -7.253332425
+  ],
+  "properties": {
+    "title": "2020 M 6.3 - 102 km WNW of Kirakira, Solomon Islands \u2014 Ascending Track 125",
+    "start_datetime": "2020-01-22T00:00:00+00:00",
+    "end_datetime": "2020-02-03T00:00:00+00:00",
+    "coseis:event_id": "us60007gyx",
+    "coseis:event_name": "2020 M 6.3 - 102 km WNW of Kirakira, Solomon Islands",
+    "coseis:magnitude": 6.3,
+    "coseis:event_date": "2020-01-27",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 21,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "125",
+    "coseis:satellites": "Sentinel-1B_Sentinel-1B",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2020-02-03T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us60007gyx",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us60007gyx/m_63_102_km_wnw_of_kirakira_solomon_islands-A125/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_63_102_km_wnw_of_kirakira_solomon_islands/S1-COSEIS_SAR-A-R-125-tops-20200203_20200122-073946-00160E_00012S-PP-01d3-v1_0_0/S1-COSEIS_SAR-A-R-125-tops-20200203_20200122-073946-00160E_00012S-PP-01d3-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

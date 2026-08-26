@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_83_48_km_w_of_illapel_chile-A018",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -73.345239965,
+          -33.540042521000004
+        ],
+        [
+          -69.663292575,
+          -33.540042521000004
+        ],
+        [
+          -69.663292575,
+          -29.803372865
+        ],
+        [
+          -73.345239965,
+          -29.803372865
+        ],
+        [
+          -73.345239965,
+          -33.540042521000004
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -73.345239965,
+    -33.540042521000004,
+    -69.663292575,
+    -29.803372865
+  ],
+  "properties": {
+    "title": "2015 M 8.3 - 48 km W of Illapel, Chile \u2014 Ascending Track 018",
+    "start_datetime": "2015-08-26T00:00:00+00:00",
+    "end_datetime": "2015-09-19T00:00:00+00:00",
+    "coseis:event_id": "us20003k7a",
+    "coseis:event_name": "2015 M 8.3 - 48 km W of Illapel, Chile",
+    "coseis:magnitude": 8.3,
+    "coseis:event_date": "2015-09-16",
+    "coseis:pager_alert": "orange",
+    "coseis:depth_km": 22.44,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "018",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2015-09-19T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us20003k7a",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us20003k7a/m_83_48_km_w_of_illapel_chile-A018/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_83_48_km_w_of_illapel_chile/S1-COSEIS_SAR-A-R-018-tops-20150919_20150826-232823-00073W_00034S-PP-1e7a-v1_0_0/S1-COSEIS_SAR-A-R-018-tops-20150919_20150826-232823-00073W_00034S-PP-1e7a-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

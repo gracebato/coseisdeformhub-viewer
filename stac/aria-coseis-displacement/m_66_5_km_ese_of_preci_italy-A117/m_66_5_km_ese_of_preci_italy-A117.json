@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_66_5_km_ese_of_preci_italy-A117",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          10.313611051,
+          40.949402315
+        ],
+        [
+          14.198891937,
+          40.949402315
+        ],
+        [
+          14.198891937,
+          44.303293887
+        ],
+        [
+          10.313611051,
+          44.303293887
+        ],
+        [
+          10.313611051,
+          40.949402315
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    10.313611051,
+    40.949402315,
+    14.198891937,
+    44.303293887
+  ],
+  "properties": {
+    "title": "2016 M 6.6 - 5 km ESE of Preci, Italy \u2014 Ascending Track 117",
+    "start_datetime": "2016-10-26T00:00:00+00:00",
+    "end_datetime": "2016-11-01T00:00:00+00:00",
+    "coseis:event_id": "us1000731j",
+    "coseis:event_name": "2016 M 6.6 - 5 km ESE of Preci, Italy",
+    "coseis:magnitude": 6.6,
+    "coseis:event_date": "2016-10-30",
+    "coseis:pager_alert": "red",
+    "coseis:depth_km": 8,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "117",
+    "coseis:satellites": "Sentinel-1B_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2016-11-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us1000731j",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us1000731j/m_66_5_km_ese_of_preci_italy-A117/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_66_5_km_ese_of_preci_italy/S1-COSEIS_SAR-A-R-117-tops-20161101_20161026-170511-00010E_00041N-PP-a688-v1_0_0/S1-COSEIS_SAR-A-R-117-tops-20161101_20161026-170511-00010E_00041N-PP-a688-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

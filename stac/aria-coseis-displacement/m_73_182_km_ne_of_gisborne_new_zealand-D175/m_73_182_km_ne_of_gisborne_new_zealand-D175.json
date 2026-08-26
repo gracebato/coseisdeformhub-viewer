@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_73_182_km_ne_of_gisborne_new_zealand-D175",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          175.840695117,
+          -39.181708101
+        ],
+        [
+          179.367086827,
+          -39.181708101
+        ],
+        [
+          179.367086827,
+          -36.958372989
+        ],
+        [
+          175.840695117,
+          -36.958372989
+        ],
+        [
+          175.840695117,
+          -39.181708101
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    175.840695117,
+    -39.181708101,
+    179.367086827,
+    -36.958372989
+  ],
+  "properties": {
+    "title": "2021 M 7.3 - 182 km NE of Gisborne, New Zealand \u2014 Descending Track 175",
+    "start_datetime": "2021-03-02T00:00:00+00:00",
+    "end_datetime": "2021-03-14T00:00:00+00:00",
+    "coseis:event_id": "us7000dffl",
+    "coseis:event_name": "2021 M 7.3 - 182 km NE of Gisborne, New Zealand",
+    "coseis:magnitude": 7.3,
+    "coseis:event_date": "2021-03-04",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 10,
+    "sat:orbit_state": "descending",
+    "coseis:track": "175",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2021-03-14T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000dffl",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us7000dffl/m_73_182_km_ne_of_gisborne_new_zealand-D175/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_73_182_km_ne_of_gisborne_new_zealand/S1-COSEIS_SAR-D-R-175-tops-20210314_20210302-172158-00176E_00039S-PP-7a5c-v1_0_0/S1-COSEIS_SAR-D-R-175-tops-20210314_20210302-172158-00176E_00039S-PP-7a5c-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_65_18_km_w_of_parrita_costa_rica-D084",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -85.18357156900001,
+          7.8294022189999986
+        ],
+        [
+          -82.254124781,
+          7.8294022189999986
+        ],
+        [
+          -82.254124781,
+          11.197738246999998
+        ],
+        [
+          -85.18357156900001,
+          11.197738246999998
+        ],
+        [
+          -85.18357156900001,
+          7.8294022189999986
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -85.18357156900001,
+    7.8294022189999986,
+    -82.254124781,
+    11.197738246999998
+  ],
+  "properties": {
+    "title": "2017 M 6.5 - 18 km W of Parrita, Costa Rica \u2014 Descending Track 084",
+    "start_datetime": "2017-11-12T00:00:00+00:00",
+    "end_datetime": "2017-11-24T00:00:00+00:00",
+    "coseis:event_id": "us2000bmhe",
+    "coseis:event_name": "2017 M 6.5 - 18 km W of Parrita, Costa Rica",
+    "coseis:magnitude": 6.5,
+    "coseis:event_date": "2017-11-13",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 19.36,
+    "sat:orbit_state": "descending",
+    "coseis:track": "084",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2017-11-24T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us2000bmhe",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us2000bmhe/m_65_18_km_w_of_parrita_costa_rica-D084/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_65_18_km_w_of_parrita_costa_rica/S1-COSEIS_SAR-D-R-084-tops-20171124_20171112-112253-00085W_00008N-PP-9cbf-v1_0_0/S1-COSEIS_SAR-D-R-084-tops-20171124_20171112-112253-00085W_00008N-PP-9cbf-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

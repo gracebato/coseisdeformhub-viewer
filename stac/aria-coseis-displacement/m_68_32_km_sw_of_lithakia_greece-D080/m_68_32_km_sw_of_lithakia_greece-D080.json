@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_68_32_km_sw_of_lithakia_greece-D080",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          19.071149257,
+          36.355792329
+        ],
+        [
+          22.396985250999997,
+          36.355792329
+        ],
+        [
+          22.396985250999997,
+          38.169404891000006
+        ],
+        [
+          19.071149257,
+          38.169404891000006
+        ],
+        [
+          19.071149257,
+          36.355792329
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    19.071149257,
+    36.355792329,
+    22.396985250999997,
+    38.169404891000006
+  ],
+  "properties": {
+    "title": "2018 M 6.8 - 32 km SW of Lithaki\u00e1, Greece \u2014 Descending Track 080",
+    "start_datetime": "2018-10-20T00:00:00+00:00",
+    "end_datetime": "2018-10-26T00:00:00+00:00",
+    "coseis:event_id": "us1000hhb1",
+    "coseis:event_name": "2018 M 6.8 - 32 km SW of Lithaki\u00e1, Greece",
+    "coseis:magnitude": 6.8,
+    "coseis:event_date": "2018-10-25",
+    "coseis:pager_alert": "yellow",
+    "coseis:depth_km": 14,
+    "sat:orbit_state": "descending",
+    "coseis:track": "080",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1B",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2018-10-26T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us1000hhb1",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us1000hhb1/m_68_32_km_sw_of_lithakia_greece-D080/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_68_32_km_sw_of_lithakia_greece/S1-COSEIS_SAR-D-R-080-tops-20181026_20181020-044021-00019E_00036N-PP-4b9b-v1_0_0/S1-COSEIS_SAR-D-R-080-tops-20181026_20181020-044021-00019E_00036N-PP-4b9b-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

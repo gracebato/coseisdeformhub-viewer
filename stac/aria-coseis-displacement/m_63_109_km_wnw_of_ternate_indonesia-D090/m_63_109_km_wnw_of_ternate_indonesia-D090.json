@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_63_109_km_wnw_of_ternate_indonesia-D090",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          125.115695337,
+          0.08388766699999994
+        ],
+        [
+          127.750697445,
+          0.08388766699999994
+        ],
+        [
+          127.750697445,
+          2.1508337650000002
+        ],
+        [
+          125.115695337,
+          2.1508337650000002
+        ],
+        [
+          125.115695337,
+          0.08388766699999994
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    125.115695337,
+    0.08388766699999994,
+    127.750697445,
+    2.1508337650000002
+  ],
+  "properties": {
+    "title": "2026 M 6.3 - 109 km WNW of Ternate, Indonesia \u2014 Descending Track 090",
+    "start_datetime": "2026-03-30T00:00:00+00:00",
+    "end_datetime": "2026-04-11T00:00:00+00:00",
+    "coseis:event_id": "us6000slwy",
+    "coseis:event_name": "2026 M 6.3 - 109 km WNW of Ternate, Indonesia",
+    "coseis:magnitude": 6.3,
+    "coseis:event_date": "2026-04-02",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 28,
+    "sat:orbit_state": "descending",
+    "coseis:track": "090",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2026-04-11T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000slwy",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us6000slwy/m_63_109_km_wnw_of_ternate_indonesia-D090/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2026/m_63_109_km_wnw_of_ternate_indonesia/S1-COSEIS_SAR-D-R-090-tops-20260411_20260330-211753-00125E_00000N-PP-881b-v1_0_0/S1-COSEIS_SAR-D-R-090-tops-20260411_20260330-211753-00125E_00000N-PP-881b-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_68_15_km_se_of_miyazaki_japan-D163",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          129.011806365,
+          30.213012837000004
+        ],
+        [
+          132.409586861,
+          30.213012837000004
+        ],
+        [
+          132.409586861,
+          33.689682285
+        ],
+        [
+          129.011806365,
+          33.689682285
+        ],
+        [
+          129.011806365,
+          30.213012837000004
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    129.011806365,
+    30.213012837000004,
+    132.409586861,
+    33.689682285
+  ],
+  "properties": {
+    "title": "2025 M 6.8 - 15 km SE of Miyazaki, Japan \u2014 Descending Track 163",
+    "start_datetime": "2025-01-03T00:00:00+00:00",
+    "end_datetime": "2025-01-15T00:00:00+00:00",
+    "coseis:event_id": "us6000pjny",
+    "coseis:event_name": "2025 M 6.8 - 15 km SE of Miyazaki, Japan",
+    "coseis:magnitude": 6.8,
+    "coseis:event_date": "2025-01-13",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 39,
+    "sat:orbit_state": "descending",
+    "coseis:track": "163",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2025-01-15T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000pjny",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us6000pjny/m_68_15_km_se_of_miyazaki_japan-D163/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_68_15_km_se_of_miyazaki_japan/S1-COSEIS_SAR-D-R-163-tops-20250115_20250103-211747-00129E_00030N-PP-87e0-v1_0_0/S1-COSEIS_SAR-D-R-163-tops-20250115_20250103-211747-00129E_00030N-PP-87e0-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

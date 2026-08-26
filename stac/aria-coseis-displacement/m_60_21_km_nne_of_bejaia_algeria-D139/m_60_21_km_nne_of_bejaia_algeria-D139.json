@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_60_21_km_nne_of_bejaia_algeria-D139",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          2.554999333,
+          35.980515051000005
+        ],
+        [
+          5.862501979,
+          35.980515051000005
+        ],
+        [
+          5.862501979,
+          37.965794417000005
+        ],
+        [
+          2.554999333,
+          37.965794417000005
+        ],
+        [
+          2.554999333,
+          35.980515051000005
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    2.554999333,
+    35.980515051000005,
+    5.862501979,
+    37.965794417000005
+  ],
+  "properties": {
+    "title": "2021 M 6.0 - 21 km NNE of Beja\u00efa, Algeria \u2014 Descending Track 139",
+    "start_datetime": "2021-03-12T00:00:00+00:00",
+    "end_datetime": "2021-03-18T00:00:00+00:00",
+    "coseis:event_id": "us7000dker",
+    "coseis:event_name": "2021 M 6.0 - 21 km NNE of Beja\u00efa, Algeria",
+    "coseis:magnitude": 6.0,
+    "coseis:event_date": "2021-03-18",
+    "coseis:pager_alert": "yellow",
+    "coseis:depth_km": 8,
+    "sat:orbit_state": "descending",
+    "coseis:track": "139",
+    "coseis:satellites": "Sentinel-1B_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2021-03-18T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000dker",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us7000dker/m_60_21_km_nne_of_bejaia_algeria-D139/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_60_21_km_nne_of_bejaia_algeria/S1-COSEIS_SAR-D-R-139-tops-20210318_20210312-054543-00003E_00036N-PP-d7ff-v1_0_0/S1-COSEIS_SAR-D-R-139-tops-20210318_20210312-054543-00003E_00036N-PP-d7ff-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

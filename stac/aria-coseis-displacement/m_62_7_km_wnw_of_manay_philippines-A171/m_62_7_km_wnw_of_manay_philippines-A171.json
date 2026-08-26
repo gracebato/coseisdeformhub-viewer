@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_62_7_km_wnw_of_manay_philippines-A171",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          125.219862087,
+          4.971068198999999
+        ],
+        [
+          128.194308911,
+          4.971068198999999
+        ],
+        [
+          128.194308911,
+          8.745515662999999
+        ],
+        [
+          125.219862087,
+          8.745515662999999
+        ],
+        [
+          125.219862087,
+          4.971068198999999
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    125.219862087,
+    4.971068198999999,
+    128.194308911,
+    8.745515662999999
+  ],
+  "properties": {
+    "title": "2018 M 6.2 - 7 km WNW of Manay, Philippines \u2014 Ascending Track 171",
+    "start_datetime": "2018-08-27T00:00:00+00:00",
+    "end_datetime": "2018-09-08T00:00:00+00:00",
+    "coseis:event_id": "us2000haxi",
+    "coseis:event_name": "2018 M 6.2 - 7 km WNW of Manay, Philippines",
+    "coseis:magnitude": 6.2,
+    "coseis:event_date": "2018-09-08",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 10,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "171",
+    "coseis:satellites": "Sentinel-1B_Sentinel-1B",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2018-09-08T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us2000haxi",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us2000haxi/m_62_7_km_wnw_of_manay_philippines-A171/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_62_7_km_wnw_of_manay_philippines/S1-COSEIS_SAR-A-R-171-tops-20180908_20180827-094737-00125E_00005N-PP-c293-v1_0_0/S1-COSEIS_SAR-A-R-171-tops-20180908_20180827-094737-00125E_00005N-PP-c293-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

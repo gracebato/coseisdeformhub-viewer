@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_78_140_km_e_of_petropavlovskkamchatsky_russia-A111",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          155.390694757,
+          50.634124285
+        ],
+        [
+          160.159587461,
+          50.634124285
+        ],
+        [
+          160.159587461,
+          54.310238337
+        ],
+        [
+          155.390694757,
+          54.310238337
+        ],
+        [
+          155.390694757,
+          50.634124285
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    155.390694757,
+    50.634124285,
+    160.159587461,
+    54.310238337
+  ],
+  "properties": {
+    "title": "2025 M 7.8 - 140 km E of Petropavlovsk-Kamchatsky, Russia \u2014 Ascending Track 111",
+    "start_datetime": "2025-09-09T00:00:00+00:00",
+    "end_datetime": "2025-09-21T00:00:00+00:00",
+    "coseis:event_id": "us7000qx2g",
+    "coseis:event_name": "2025 M 7.8 - 140 km E of Petropavlovsk-Kamchatsky, Russia",
+    "coseis:magnitude": 7.8,
+    "coseis:event_date": "2025-09-18",
+    "coseis:pager_alert": "orange",
+    "coseis:depth_km": 27,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "111",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2025-09-21T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qx2g",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us7000qx2g/m_78_140_km_e_of_petropavlovskkamchatsky_russia-A111/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_78_140_km_e_of_petropavlovskkamchatsky_russia/S1-COSEIS_SAR-A-R-111-tops-20250921_20250909-071639-00155E_00051N-PP-a9a5-v1_0_0/S1-COSEIS_SAR-A-R-111-tops-20250921_20250909-071639-00155E_00051N-PP-a9a5-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

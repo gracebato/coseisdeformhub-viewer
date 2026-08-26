@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_88_2025_kamchatka_peninsula_russia_earthquake-A038",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          157.303473265,
+          52.733291831
+        ],
+        [
+          161.684865659,
+          52.733291831
+        ],
+        [
+          161.684865659,
+          54.923849139000005
+        ],
+        [
+          157.303473265,
+          54.923849139000005
+        ],
+        [
+          157.303473265,
+          52.733291831
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    157.303473265,
+    52.733291831,
+    161.684865659,
+    54.923849139000005
+  ],
+  "properties": {
+    "title": "2025 M 8.8 - 2025 Kamchatka Peninsula, Russia Earthquake \u2014 Ascending Track 038",
+    "start_datetime": "2025-07-18T00:00:00+00:00",
+    "end_datetime": "2025-07-30T00:00:00+00:00",
+    "coseis:event_id": "us6000qw60",
+    "coseis:event_name": "2025 M 8.8 - 2025 Kamchatka Peninsula, Russia Earthquake",
+    "coseis:magnitude": 8.8,
+    "coseis:event_date": "2025-07-29",
+    "coseis:pager_alert": "red",
+    "coseis:depth_km": 35,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "038",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2025-07-30T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qw60",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us6000qw60/m_88_2025_kamchatka_peninsula_russia_earthquake-A038/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_88_2025_kamchatka_peninsula_russia_earthquake/S1-COSEIS_SAR-A-R-038-tops-20250730_20250718-070847-00157E_00053N-PP-bf30-v1_0_0/S1-COSEIS_SAR-A-R-038-tops-20250730_20250718-070847-00157E_00053N-PP-bf30-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_63_61_km_ene_of_namie_japan-A141",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          139.317084387,
+          36.592736163000005
+        ],
+        [
+          142.603753683,
+          36.592736163000005
+        ],
+        [
+          142.603753683,
+          38.629682237000004
+        ],
+        [
+          139.317084387,
+          38.629682237000004
+        ],
+        [
+          139.317084387,
+          36.592736163000005
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    139.317084387,
+    36.592736163000005,
+    142.603753683,
+    38.629682237000004
+  ],
+  "properties": {
+    "title": "2019 M 6.3 - 61 km ENE of Namie, Japan \u2014 Ascending Track 141",
+    "start_datetime": "2019-07-27T00:00:00+00:00",
+    "end_datetime": "2019-08-08T00:00:00+00:00",
+    "coseis:event_id": "us600050if",
+    "coseis:event_name": "2019 M 6.3 - 61 km ENE of Namie, Japan",
+    "coseis:magnitude": 6.3,
+    "coseis:event_date": "2019-08-04",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 38,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "141",
+    "coseis:satellites": "Sentinel-1B_Sentinel-1B",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2019-08-08T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us600050if",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us600050if/m_63_61_km_ene_of_namie_japan-A141/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_63_61_km_ene_of_namie_japan/S1-COSEIS_SAR-A-R-141-tops-20190808_20190727-083355-00139E_00037N-PP-e2a1-v1_0_0/S1-COSEIS_SAR-A-R-141-tops-20190808_20190727-083355-00139E_00037N-PP-e2a1-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

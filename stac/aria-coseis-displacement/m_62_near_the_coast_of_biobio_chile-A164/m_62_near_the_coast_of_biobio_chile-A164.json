@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_62_near_the_coast_of_biobio_chile-A164",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -75.230517651,
+          -38.693374377
+        ],
+        [
+          -71.839403827,
+          -38.693374377
+        ],
+        [
+          -71.839403827,
+          -36.564206006999996
+        ],
+        [
+          -75.230517651,
+          -36.564206006999996
+        ],
+        [
+          -75.230517651,
+          -38.693374377
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -75.230517651,
+    -38.693374377,
+    -71.839403827,
+    -36.564206006999996
+  ],
+  "properties": {
+    "title": "2022 M 6.2 - Near the coast of Bio-Bio, Chile \u2014 Ascending Track 164",
+    "start_datetime": "2022-11-03T00:00:00+00:00",
+    "end_datetime": "2022-11-15T00:00:00+00:00",
+    "coseis:event_id": "us7000ipe4",
+    "coseis:event_name": "2022 M 6.2 - Near the coast of Bio-Bio, Chile",
+    "coseis:magnitude": 6.2,
+    "coseis:event_date": "2022-11-13",
+    "coseis:pager_alert": "yellow",
+    "coseis:depth_km": 18,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "164",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2022-11-15T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ipe4",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us7000ipe4/m_62_near_the_coast_of_biobio_chile-A164/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_62_near_the_coast_of_biobio_chile/S1-COSEIS_SAR-A-R-164-tops-20221115_20221103-234354-00075W_00039S-PP-1a30-v1_0_0/S1-COSEIS_SAR-A-R-164-tops-20221115_20221103-234354-00075W_00039S-PP-1a30-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

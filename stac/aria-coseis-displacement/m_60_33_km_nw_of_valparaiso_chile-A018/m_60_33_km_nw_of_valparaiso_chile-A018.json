@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_60_33_km_nw_of_valparaiso_chile-A018",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -72.850516547,
+          -33.706429942999996
+        ],
+        [
+          -69.608013953,
+          -33.706429942999996
+        ],
+        [
+          -69.608013953,
+          -31.605317150999998
+        ],
+        [
+          -72.850516547,
+          -31.605317150999998
+        ],
+        [
+          -72.850516547,
+          -33.706429942999996
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -72.850516547,
+    -33.706429942999996,
+    -69.608013953,
+    -31.605317150999998
+  ],
+  "properties": {
+    "title": "2026 M 6.0 - 33 km NW of Valpara\u00edso, Chile \u2014 Ascending Track 018",
+    "start_datetime": "2026-05-30T00:00:00+00:00",
+    "end_datetime": "2026-06-05T00:00:00+00:00",
+    "coseis:event_id": "us7000spqc",
+    "coseis:event_name": "2026 M 6.0 - 33 km NW of Valpara\u00edso, Chile",
+    "coseis:magnitude": 6.0,
+    "coseis:event_date": "2026-05-31",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 25,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "018",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1C",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2026-06-05T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000spqc",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us7000spqc/m_60_33_km_nw_of_valparaiso_chile-A018/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2026/m_60_33_km_nw_of_valparaiso_chile/S1-COSEIS_SAR-A-R-018-tops-20260605_20260530-232833-00073W_00034S-PP-c6aa-v1_0_0/S1-COSEIS_SAR-A-R-018-tops-20260605_20260530-232833-00073W_00034S-PP-c6aa-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

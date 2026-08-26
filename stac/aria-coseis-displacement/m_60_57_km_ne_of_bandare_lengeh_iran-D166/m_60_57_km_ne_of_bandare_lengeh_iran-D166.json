@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_60_57_km_ne_of_bandare_lengeh_iran-D166",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          53.999206355,
+          25.517457525
+        ],
+        [
+          57.269486748999995,
+          25.517457525
+        ],
+        [
+          57.269486748999995,
+          29.009404763000003
+        ],
+        [
+          53.999206355,
+          29.009404763000003
+        ],
+        [
+          53.999206355,
+          25.517457525
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    53.999206355,
+    25.517457525,
+    57.269486748999995,
+    29.009404763000003
+  ],
+  "properties": {
+    "title": "2022 M 6.0 - 57 km NE of Bandar-e Lengeh, Iran \u2014 Descending Track 166",
+    "start_datetime": "2022-06-25T00:00:00+00:00",
+    "end_datetime": "2022-07-07T00:00:00+00:00",
+    "coseis:event_id": "us6000hz9v",
+    "coseis:event_name": "2022 M 6.0 - 57 km NE of Bandar-e Lengeh, Iran",
+    "coseis:magnitude": 6.0,
+    "coseis:event_date": "2022-07-01",
+    "coseis:pager_alert": "yellow",
+    "coseis:depth_km": 9,
+    "sat:orbit_state": "descending",
+    "coseis:track": "166",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2022-07-07T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hz9v",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us6000hz9v/m_60_57_km_ne_of_bandare_lengeh_iran-D166/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_60_57_km_ne_of_bandare_lengeh_iran/S1-COSEIS_SAR-D-R-166-tops-20220707_20220625-021521-00054E_00025N-PP-a4b4-v1_0_0/S1-COSEIS_SAR-D-R-166-tops-20220707_20220625-021521-00054E_00025N-PP-a4b4-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_60_9_km_w_of_magsaysay_philippines-A171",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          125.21875097499999,
+          4.971068198999999
+        ],
+        [
+          128.19375335499998,
+          4.971068198999999
+        ],
+        [
+          128.19375335499998,
+          8.745515662999999
+        ],
+        [
+          125.21875097499999,
+          8.745515662999999
+        ],
+        [
+          125.21875097499999,
+          4.971068198999999
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    125.21875097499999,
+    4.971068198999999,
+    128.19375335499998,
+    8.745515662999999
+  ],
+  "properties": {
+    "title": "2021 M 6.0 - 9 km W of Magsaysay, Philippines \u2014 Ascending Track 171",
+    "start_datetime": "2021-01-31T00:00:00+00:00",
+    "end_datetime": "2021-02-12T00:00:00+00:00",
+    "coseis:event_id": "us6000df9r",
+    "coseis:event_name": "2021 M 6.0 - 9 km W of Magsaysay, Philippines",
+    "coseis:magnitude": 6.0,
+    "coseis:event_date": "2021-02-07",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 16,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "171",
+    "coseis:satellites": "Sentinel-1B_Sentinel-1B",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2021-02-12T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000df9r",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us6000df9r/m_60_9_km_w_of_magsaysay_philippines-A171/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_60_9_km_w_of_magsaysay_philippines/S1-COSEIS_SAR-A-R-171-tops-20210212_20210131-094747-00125E_00005N-PP-d44b-v1_0_0/S1-COSEIS_SAR-A-R-171-tops-20210212_20210131-094747-00125E_00005N-PP-d44b-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

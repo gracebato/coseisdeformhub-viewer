@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_63_73_km_s_of_boca_chica_panama-A092",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -84.688571173,
+          7.023014284999999
+        ],
+        [
+          -82.048013505,
+          7.023014284999999
+        ],
+        [
+          -82.048013505,
+          9.293571657
+        ],
+        [
+          -84.688571173,
+          9.293571657
+        ],
+        [
+          -84.688571173,
+          7.023014284999999
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -84.688571173,
+    7.023014284999999,
+    -82.048013505,
+    9.293571657
+  ],
+  "properties": {
+    "title": "2023 M 6.3 - 73 km S of Boca Chica, Panama \u2014 Ascending Track 092",
+    "start_datetime": "2023-04-03T00:00:00+00:00",
+    "end_datetime": "2023-04-15T00:00:00+00:00",
+    "coseis:event_id": "us6000k20g",
+    "coseis:event_name": "2023 M 6.3 - 73 km S of Boca Chica, Panama",
+    "coseis:magnitude": 6.3,
+    "coseis:event_date": "2023-04-04",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 16,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "092",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2023-04-15T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k20g",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us6000k20g/m_63_73_km_s_of_boca_chica_panama-A092/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_63_73_km_s_of_boca_chica_panama/S1-COSEIS_SAR-A-R-092-tops-20230415_20230403-234821-00085W_00007N-PP-5c6f-v1_0_0/S1-COSEIS_SAR-A-R-092-tops-20230415_20230403-234821-00085W_00007N-PP-5c6f-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

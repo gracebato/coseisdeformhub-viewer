@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_64_31_km_wsw_of_tsuruoka_japan-D119",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          136.437917017,
+          36.721902933
+        ],
+        [
+          139.76653079099998,
+          36.721902933
+        ],
+        [
+          139.76653079099998,
+          38.692737843
+        ],
+        [
+          136.437917017,
+          38.692737843
+        ],
+        [
+          136.437917017,
+          36.721902933
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    136.437917017,
+    36.721902933,
+    139.76653079099998,
+    38.692737843
+  ],
+  "properties": {
+    "title": "2019 M 6.4 - 31 km WSW of Tsuruoka, Japan \u2014 Descending Track 119",
+    "start_datetime": "2019-06-13T00:00:00+00:00",
+    "end_datetime": "2019-06-25T00:00:00+00:00",
+    "coseis:event_id": "us600042fx",
+    "coseis:event_name": "2019 M 6.4 - 31 km WSW of Tsuruoka, Japan",
+    "coseis:magnitude": 6.4,
+    "coseis:event_date": "2019-06-18",
+    "coseis:pager_alert": "yellow",
+    "coseis:depth_km": 12,
+    "sat:orbit_state": "descending",
+    "coseis:track": "119",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2019-06-25T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us600042fx",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us600042fx/m_64_31_km_wsw_of_tsuruoka_japan-D119/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_64_31_km_wsw_of_tsuruoka_japan/S1-COSEIS_SAR-D-R-119-tops-20190625_20190613-205113-00137E_00037N-PP-faf9-v1_0_0/S1-COSEIS_SAR-D-R-119-tops-20190625_20190613-205113-00137E_00037N-PP-faf9-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

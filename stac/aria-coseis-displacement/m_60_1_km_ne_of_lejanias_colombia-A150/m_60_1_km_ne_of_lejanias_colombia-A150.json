@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_60_1_km_ne_of_lejanias_colombia-A150",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -75.710793413,
+          2.0469415929999997
+        ],
+        [
+          -72.714402127,
+          2.0469415929999997
+        ],
+        [
+          -72.714402127,
+          5.509166585
+        ],
+        [
+          -75.710793413,
+          5.509166585
+        ],
+        [
+          -75.710793413,
+          2.0469415929999997
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -75.710793413,
+    2.0469415929999997,
+    -72.714402127,
+    5.509166585
+  ],
+  "properties": {
+    "title": "2019 M 6.0 - 1 km NE of Lejan\u00edas, Colombia \u2014 Ascending Track 150",
+    "start_datetime": "2019-12-18T00:00:00+00:00",
+    "end_datetime": "2019-12-30T00:00:00+00:00",
+    "coseis:event_id": "us70006qnn",
+    "coseis:event_name": "2019 M 6.0 - 1 km NE of Lejan\u00edas, Colombia",
+    "coseis:magnitude": 6.0,
+    "coseis:event_date": "2019-12-24",
+    "coseis:pager_alert": "yellow",
+    "coseis:depth_km": 11,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "150",
+    "coseis:satellites": "Sentinel-1B_Sentinel-1B",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2019-12-30T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us70006qnn",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us70006qnn/m_60_1_km_ne_of_lejanias_colombia-A150/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_60_1_km_ne_of_lejanias_colombia/S1-COSEIS_SAR-A-R-150-tops-20191230_20191218-231315-00076W_00002N-PP-cd3d-v1_0_0/S1-COSEIS_SAR-A-R-150-tops-20191230_20191218-231315-00076W_00002N-PP-cd3d-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

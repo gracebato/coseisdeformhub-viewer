@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_63_100_km_ene_of_hachinohe_japan-D148",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          141.424028117,
+          41.018569837
+        ],
+        [
+          144.958475389,
+          41.018569837
+        ],
+        [
+          144.958475389,
+          42.983015853000005
+        ],
+        [
+          141.424028117,
+          42.983015853000005
+        ],
+        [
+          141.424028117,
+          41.018569837
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    141.424028117,
+    41.018569837,
+    144.958475389,
+    42.983015853000005
+  ],
+  "properties": {
+    "title": "2020 M 6.3 - 100 km ENE of Hachinohe, Japan \u2014 Descending Track 148",
+    "start_datetime": "2020-12-18T00:00:00+00:00",
+    "end_datetime": "2020-12-30T00:00:00+00:00",
+    "coseis:event_id": "us7000csqe",
+    "coseis:event_name": "2020 M 6.3 - 100 km ENE of Hachinohe, Japan",
+    "coseis:magnitude": 6.3,
+    "coseis:event_date": "2020-12-20",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 35,
+    "sat:orbit_state": "descending",
+    "coseis:track": "148",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2020-12-30T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000csqe",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us7000csqe/m_63_100_km_ene_of_hachinohe_japan-D148/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_63_100_km_ene_of_hachinohe_japan/S1-COSEIS_SAR-D-R-148-tops-20201230_20201218-203344-00142E_00041N-PP-e889-v1_0_0/S1-COSEIS_SAR-D-R-148-tops-20201230_20201218-203344-00142E_00041N-PP-e889-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

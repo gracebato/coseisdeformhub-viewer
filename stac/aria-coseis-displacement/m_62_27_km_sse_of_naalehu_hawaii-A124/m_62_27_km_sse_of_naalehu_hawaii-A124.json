@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_62_27_km_sse_of_naalehu_hawaii-A124",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -157.083749267,
+          17.419679669000004
+        ],
+        [
+          -154.024024597,
+          17.419679669000004
+        ],
+        [
+          -154.024024597,
+          20.992738083000003
+        ],
+        [
+          -157.083749267,
+          20.992738083000003
+        ],
+        [
+          -157.083749267,
+          17.419679669000004
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -157.083749267,
+    17.419679669000004,
+    -154.024024597,
+    20.992738083000003
+  ],
+  "properties": {
+    "title": "2021 M 6.2 - 27 km SSE of Naalehu, Hawaii \u2014 Ascending Track 124",
+    "start_datetime": "2021-10-07T00:00:00+00:00",
+    "end_datetime": "2021-10-13T00:00:00+00:00",
+    "coseis:event_id": "hv72748782",
+    "coseis:event_name": "2021 M 6.2 - 27 km SSE of Naalehu, Hawaii",
+    "coseis:magnitude": 6.2,
+    "coseis:event_date": "2021-10-10",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 35.06,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "124",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1B",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2021-10-13T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/hv72748782",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/hv72748782/m_62_27_km_sse_of_naalehu_hawaii-A124/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_62_27_km_sse_of_naalehu_hawaii/S1-COSEIS_SAR-A-R-124-tops-20211013_20211007-043107-00157W_00017N-PP-ef08-v1_0_0/S1-COSEIS_SAR-A-R-124-tops-20211013_20211007-043107-00157W_00017N-PP-ef08-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

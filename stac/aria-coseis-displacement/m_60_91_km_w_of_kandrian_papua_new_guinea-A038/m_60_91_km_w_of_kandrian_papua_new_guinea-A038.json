@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_60_91_km_w_of_kandrian_papua_new_guinea-A038",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          146.565417119,
+          -8.119724407
+        ],
+        [
+          149.552363953,
+          -8.119724407
+        ],
+        [
+          149.552363953,
+          -4.4747214909999995
+        ],
+        [
+          146.565417119,
+          -4.4747214909999995
+        ],
+        [
+          146.565417119,
+          -8.119724407
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    146.565417119,
+    -8.119724407,
+    149.552363953,
+    -4.4747214909999995
+  ],
+  "properties": {
+    "title": "2018 M 6.0 - 91 km W of Kandrian, Papua New Guinea \u2014 Ascending Track 038",
+    "start_datetime": "2018-07-19T00:00:00+00:00",
+    "end_datetime": "2018-07-31T00:00:00+00:00",
+    "coseis:event_id": "usd00090uc",
+    "coseis:event_name": "2018 M 6.0 - 91 km W of Kandrian, Papua New Guinea",
+    "coseis:magnitude": 6.0,
+    "coseis:event_date": "2018-07-19",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 29.62,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "038",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2018-07-31T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/usd00090uc",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/usd00090uc/m_60_91_km_w_of_kandrian_papua_new_guinea-A038/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_60_91_km_w_of_kandrian_papua_new_guinea/S1-COSEIS_SAR-A-R-038-tops-20180731_20180719-083034-00147E_00008S-PP-7b69-v1_0_0/S1-COSEIS_SAR-A-R-038-tops-20180731_20180719-083034-00147E_00008S-PP-7b69-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

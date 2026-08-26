@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_61_near_the_coast_of_nicaragua-D055",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -88.698848959,
+          10.849958591
+        ],
+        [
+          -86.021902373,
+          10.849958591
+        ],
+        [
+          -86.021902373,
+          12.878015769
+        ],
+        [
+          -88.698848959,
+          12.878015769
+        ],
+        [
+          -88.698848959,
+          10.849958591
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -88.698848959,
+    10.849958591,
+    -86.021902373,
+    12.878015769
+  ],
+  "properties": {
+    "title": "2022 M 6.1 - near the coast of Nicaragua \u2014 Descending Track 055",
+    "start_datetime": "2021-12-31T00:00:00+00:00",
+    "end_datetime": "2022-01-12T00:00:00+00:00",
+    "coseis:event_id": "us7000g9nb",
+    "coseis:event_name": "2022 M 6.1 - near the coast of Nicaragua",
+    "coseis:magnitude": 6.1,
+    "coseis:event_date": "2022-01-06",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 17,
+    "sat:orbit_state": "descending",
+    "coseis:track": "055",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2022-01-12T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000g9nb",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us7000g9nb/m_61_near_the_coast_of_nicaragua-D055/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_61_near_the_coast_of_nicaragua/S1-COSEIS_SAR-D-R-055-tops-20220112_20211231-113904-00089W_00011N-PP-c621-v1_0_0/S1-COSEIS_SAR-D-R-055-tops-20220112_20211231-113904-00089W_00011N-PP-c621-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

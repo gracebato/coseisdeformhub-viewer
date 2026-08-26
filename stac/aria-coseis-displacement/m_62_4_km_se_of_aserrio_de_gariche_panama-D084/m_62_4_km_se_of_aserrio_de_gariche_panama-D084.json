@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_62_4_km_se_of_aserrio_de_gariche_panama-D084",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -85.182738235,
+          7.830236352999999
+        ],
+        [
+          -82.561902805,
+          7.830236352999999
+        ],
+        [
+          -82.561902805,
+          9.701904517
+        ],
+        [
+          -85.182738235,
+          9.701904517
+        ],
+        [
+          -85.182738235,
+          7.830236352999999
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -85.182738235,
+    7.830236352999999,
+    -82.561902805,
+    9.701904517
+  ],
+  "properties": {
+    "title": "2019 M 6.2 - 4 km SE of Aserr\u00edo de Garich\u00e9, Panama \u2014 Descending Track 084",
+    "start_datetime": "2019-06-11T00:00:00+00:00",
+    "end_datetime": "2019-07-05T00:00:00+00:00",
+    "coseis:event_id": "us7000455l",
+    "coseis:event_name": "2019 M 6.2 - 4 km SE of Aserr\u00edo de Garich\u00e9, Panama",
+    "coseis:magnitude": 6.2,
+    "coseis:event_date": "2019-06-26",
+    "coseis:pager_alert": "yellow",
+    "coseis:depth_km": 32.58,
+    "sat:orbit_state": "descending",
+    "coseis:track": "084",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2019-07-05T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000455l",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us7000455l/m_62_4_km_se_of_aserrio_de_gariche_panama-D084/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_62_4_km_se_of_aserrio_de_gariche_panama/S1-COSEIS_SAR-D-R-084-tops-20190705_20190611-112314-00085W_00008N-PP-1174-v1_0_0/S1-COSEIS_SAR-D-R-084-tops-20190705_20190611-112314-00085W_00008N-PP-1174-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

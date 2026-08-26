@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_61_15_km_w_of_duzce_turkey-A160",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          29.272262128999998,
+          39.13829135500001
+        ],
+        [
+          33.101154081,
+          39.13829135500001
+        ],
+        [
+          33.101154081,
+          42.50218293500001
+        ],
+        [
+          29.272262128999998,
+          42.50218293500001
+        ],
+        [
+          29.272262128999998,
+          39.13829135500001
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    29.272262128999998,
+    39.13829135500001,
+    33.101154081,
+    42.50218293500001
+  ],
+  "properties": {
+    "title": "2022 M 6.1 - 15 km W of D\u00fczce, Turkey \u2014 Ascending Track 160",
+    "start_datetime": "2022-11-15T00:00:00+00:00",
+    "end_datetime": "2022-11-27T00:00:00+00:00",
+    "coseis:event_id": "us7000irp8",
+    "coseis:event_name": "2022 M 6.1 - 15 km W of D\u00fczce, Turkey",
+    "coseis:magnitude": 6.1,
+    "coseis:event_date": "2022-11-23",
+    "coseis:pager_alert": "orange",
+    "coseis:depth_km": 10,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "160",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2022-11-27T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000irp8",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us7000irp8/m_61_15_km_w_of_duzce_turkey-A160/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_61_15_km_w_of_duzce_turkey/S1-COSEIS_SAR-A-R-160-tops-20221127_20221115-155157-00029E_00039N-PP-b573-v1_0_0/S1-COSEIS_SAR-A-R-160-tops-20221127_20221115-155157-00029E_00039N-PP-b573-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

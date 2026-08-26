@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_69_65_km_wsw_of_murghob_tajikistan-A027",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          73.270595461,
+          36.054957955000006
+        ],
+        [
+          76.918653935,
+          36.054957955000006
+        ],
+        [
+          76.918653935,
+          39.421349537000005
+        ],
+        [
+          73.270595461,
+          39.421349537000005
+        ],
+        [
+          73.270595461,
+          36.054957955000006
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    73.270595461,
+    36.054957955000006,
+    76.918653935,
+    39.421349537000005
+  ],
+  "properties": {
+    "title": "2023 M 6.9 - 65 km WSW of Murghob, Tajikistan \u2014 Ascending Track 027",
+    "start_datetime": "2023-02-22T00:00:00+00:00",
+    "end_datetime": "2023-03-06T00:00:00+00:00",
+    "coseis:event_id": "us6000jqxc",
+    "coseis:event_name": "2023 M 6.9 - 65 km WSW of Murghob, Tajikistan",
+    "coseis:magnitude": 6.9,
+    "coseis:event_date": "2023-02-23",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 9,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "027",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2023-03-06T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jqxc",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us6000jqxc/m_69_65_km_wsw_of_murghob_tajikistan-A027/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_69_65_km_wsw_of_murghob_tajikistan/S1-COSEIS_SAR-A-R-027-tops-20230306_20230222-125813-00073E_00036N-PP-1beb-v1_0_0/S1-COSEIS_SAR-A-R-027-tops-20230306_20230222-125813-00073E_00036N-PP-1beb-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

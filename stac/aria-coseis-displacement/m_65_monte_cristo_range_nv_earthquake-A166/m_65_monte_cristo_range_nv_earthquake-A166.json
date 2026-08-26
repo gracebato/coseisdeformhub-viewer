@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_65_monte_cristo_range_nv_earthquake-A166",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -118.288749431,
+          37.055235733
+        ],
+        [
+          -114.579579797,
+          37.055235733
+        ],
+        [
+          -114.579579797,
+          40.421349537000005
+        ],
+        [
+          -118.288749431,
+          40.421349537000005
+        ],
+        [
+          -118.288749431,
+          37.055235733
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -118.288749431,
+    37.055235733,
+    -114.579579797,
+    40.421349537000005
+  ],
+  "properties": {
+    "title": "2020 M 6.5 - Monte Cristo Range, NV Earthquake \u2014 Ascending Track 166",
+    "start_datetime": "2020-05-12T00:00:00+00:00",
+    "end_datetime": "2020-05-24T00:00:00+00:00",
+    "coseis:event_id": "nn00725272",
+    "coseis:event_name": "2020 M 6.5 - Monte Cristo Range, NV Earthquake",
+    "coseis:magnitude": 6.5,
+    "coseis:event_date": "2020-05-15",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 2.7,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "166",
+    "coseis:satellites": "Sentinel-1B_Sentinel-1B",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2020-05-24T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00725272",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/nn00725272/m_65_monte_cristo_range_nv_earthquake-A166/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_65_monte_cristo_range_nv_earthquake/S1-COSEIS_SAR-A-R-166-tops-20200524_20200512-014250-00118W_00037N-PP-edc9-v1_0_0/S1-COSEIS_SAR-A-R-166-tops-20200524_20200512-014250-00118W_00037N-PP-edc9-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

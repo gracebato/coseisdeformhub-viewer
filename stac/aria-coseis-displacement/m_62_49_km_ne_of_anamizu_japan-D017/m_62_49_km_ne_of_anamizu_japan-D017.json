@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_62_49_km_ne_of_anamizu_japan-D017",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          134.256806561,
+          36.118292939
+        ],
+        [
+          137.55847586899998,
+          36.118292939
+        ],
+        [
+          137.55847586899998,
+          38.088850071
+        ],
+        [
+          134.256806561,
+          38.088850071
+        ],
+        [
+          134.256806561,
+          36.118292939
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    134.256806561,
+    36.118292939,
+    137.55847586899998,
+    38.088850071
+  ],
+  "properties": {
+    "title": "2023 M 6.2 - 49 km NE of Anamizu, Japan \u2014 Descending Track 017",
+    "start_datetime": "2023-05-04T00:00:00+00:00",
+    "end_datetime": "2023-05-16T00:00:00+00:00",
+    "coseis:event_id": "us6000k9mb",
+    "coseis:event_name": "2023 M 6.2 - 49 km NE of Anamizu, Japan",
+    "coseis:magnitude": 6.2,
+    "coseis:event_date": "2023-05-05",
+    "coseis:pager_alert": "yellow",
+    "coseis:depth_km": 10,
+    "sat:orbit_state": "descending",
+    "coseis:track": "017",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2023-05-16T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000k9mb",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us6000k9mb/m_62_49_km_ne_of_anamizu_japan-D017/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_62_49_km_ne_of_anamizu_japan/S1-COSEIS_SAR-D-R-017-tops-20230516_20230504-205958-00134E_00036N-PP-fec4-v1_0_0/S1-COSEIS_SAR-D-R-017-tops-20230516_20230504-205958-00134E_00036N-PP-fec4-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

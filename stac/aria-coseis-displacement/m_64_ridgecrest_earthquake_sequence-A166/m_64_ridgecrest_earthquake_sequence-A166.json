@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_64_ridgecrest_earthquake_sequence-A166",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -117.547360749,
+          34.06773574300001
+        ],
+        [
+          -113.982080119,
+          34.06773574300001
+        ],
+        [
+          -113.982080119,
+          37.439405107000006
+        ],
+        [
+          -117.547360749,
+          37.439405107000006
+        ],
+        [
+          -117.547360749,
+          34.06773574300001
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -117.547360749,
+    34.06773574300001,
+    -113.982080119,
+    37.439405107000006
+  ],
+  "properties": {
+    "title": "2019 M 6.4 - Ridgecrest Earthquake Sequence \u2014 Ascending Track 166",
+    "start_datetime": "2019-06-23T00:00:00+00:00",
+    "end_datetime": "2019-07-05T00:00:00+00:00",
+    "coseis:event_id": "ci38443183",
+    "coseis:event_name": "2019 M 6.4 - Ridgecrest Earthquake Sequence",
+    "coseis:magnitude": 6.4,
+    "coseis:event_date": "2019-07-04",
+    "coseis:pager_alert": "yellow",
+    "coseis:depth_km": 10.5,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "166",
+    "coseis:satellites": "Sentinel-1B_Sentinel-1B",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2019-07-05T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/ci38443183",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/ci38443183/m_64_ridgecrest_earthquake_sequence-A166/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_64_ridgecrest_earthquake_sequence/S1-COSEIS_SAR-A-R-166-tops-20190705_20190623-014156-00118W_00034N-PP-73f5-v1_0_0/S1-COSEIS_SAR-A-R-166-tops-20190705_20190623-014156-00118W_00034N-PP-73f5-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

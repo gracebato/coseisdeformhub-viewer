@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_66_80_km_sw_of_labuan_indonesia-D047",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          104.891806269,
+          -7.736667744999999
+        ],
+        [
+          107.577363973,
+          -7.736667744999999
+        ],
+        [
+          107.577363973,
+          -5.649443852999999
+        ],
+        [
+          104.891806269,
+          -5.649443852999999
+        ],
+        [
+          104.891806269,
+          -7.736667744999999
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    104.891806269,
+    -7.736667744999999,
+    107.577363973,
+    -5.649443852999999
+  ],
+  "properties": {
+    "title": "2022 M 6.6 - 80 km SW of Labuan, Indonesia \u2014 Descending Track 047",
+    "start_datetime": "2021-12-30T00:00:00+00:00",
+    "end_datetime": "2022-01-23T00:00:00+00:00",
+    "coseis:event_id": "us7000gbu4",
+    "coseis:event_name": "2022 M 6.6 - 80 km SW of Labuan, Indonesia",
+    "coseis:magnitude": 6.6,
+    "coseis:event_date": "2022-01-14",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 33,
+    "sat:orbit_state": "descending",
+    "coseis:track": "047",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2022-01-23T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gbu4",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us7000gbu4/m_66_80_km_sw_of_labuan_indonesia-D047/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_66_80_km_sw_of_labuan_indonesia/S1-COSEIS_SAR-D-R-047-tops-20220123_20211230-223415-00105E_00008S-PP-00fd-v1_0_0/S1-COSEIS_SAR-D-R-047-tops-20220123_20211230-223415-00105E_00008S-PP-00fd-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_68_28_km_sw_of_puerto_san_jose_guatemala-A136",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -92.26996052700001,
+          12.559679781
+        ],
+        [
+          -89.255513671,
+          12.559679781
+        ],
+        [
+          -89.255513671,
+          15.983015853
+        ],
+        [
+          -92.26996052700001,
+          15.983015853
+        ],
+        [
+          -92.26996052700001,
+          12.559679781
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -92.26996052700001,
+    12.559679781,
+    -89.255513671,
+    15.983015853
+  ],
+  "properties": {
+    "title": "2017 M 6.8 - 28 km SW of Puerto San Jos\u00e9, Guatemala \u2014 Ascending Track 136",
+    "start_datetime": "2017-06-13T00:00:00+00:00",
+    "end_datetime": "2017-06-25T00:00:00+00:00",
+    "coseis:event_id": "us20009p1a",
+    "coseis:event_name": "2017 M 6.8 - 28 km SW of Puerto San Jos\u00e9, Guatemala",
+    "coseis:magnitude": 6.8,
+    "coseis:event_date": "2017-06-22",
+    "coseis:pager_alert": "yellow",
+    "coseis:depth_km": 38.12,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "136",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2017-06-25T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us20009p1a",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us20009p1a/m_68_28_km_sw_of_puerto_san_jose_guatemala-A136/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_68_28_km_sw_of_puerto_san_jose_guatemala/S1-COSEIS_SAR-A-R-136-tops-20170625_20170613-001411-00092W_00012N-PP-fed2-v1_0_0/S1-COSEIS_SAR-A-R-136-tops-20170625_20170613-001411-00092W_00012N-PP-fed2-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

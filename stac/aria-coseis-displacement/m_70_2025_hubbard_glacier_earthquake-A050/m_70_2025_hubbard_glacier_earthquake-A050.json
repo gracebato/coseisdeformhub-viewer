@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_70_2025_hubbard_glacier_earthquake-A050",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -141.989304747,
+          58.789957743
+        ],
+        [
+          -136.102355593,
+          58.789957743
+        ],
+        [
+          -136.102355593,
+          62.147460429000006
+        ],
+        [
+          -141.989304747,
+          62.147460429000006
+        ],
+        [
+          -141.989304747,
+          58.789957743
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -141.989304747,
+    58.789957743,
+    -136.102355593,
+    62.147460429000006
+  ],
+  "properties": {
+    "title": "2025 M 7.0 - 2025 Hubbard Glacier Earthquake \u2014 Ascending Track 050",
+    "start_datetime": "2025-11-28T00:00:00+00:00",
+    "end_datetime": "2025-12-10T00:00:00+00:00",
+    "coseis:event_id": "us6000rsy1",
+    "coseis:event_name": "2025 M 7.0 - 2025 Hubbard Glacier Earthquake",
+    "coseis:magnitude": 7.0,
+    "coseis:event_date": "2025-12-06",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 10.317,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "050",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2025-12-10T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rsy1",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us6000rsy1/m_70_2025_hubbard_glacier_earthquake-A050/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_70_2025_hubbard_glacier_earthquake/S1-COSEIS_SAR-A-R-050-tops-20251210_20251128-025531-00142W_00059N-PP-531b-v1_0_0/S1-COSEIS_SAR-A-R-050-tops-20251210_20251128-025531-00142W_00059N-PP-531b-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

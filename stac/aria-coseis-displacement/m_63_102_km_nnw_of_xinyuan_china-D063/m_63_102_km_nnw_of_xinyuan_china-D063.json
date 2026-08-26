@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_63_102_km_nnw_of_xinyuan_china-D063",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          80.062539739,
+          42.697736247
+        ],
+        [
+          83.88226501700001,
+          42.697736247
+        ],
+        [
+          83.88226501700001,
+          45.487460701
+        ],
+        [
+          80.062539739,
+          45.487460701
+        ],
+        [
+          80.062539739,
+          42.697736247
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    80.062539739,
+    42.697736247,
+    83.88226501700001,
+    45.487460701
+  ],
+  "properties": {
+    "title": "2017 M 6.3 - 102 km NNW of Xinyuan, China \u2014 Descending Track 063",
+    "start_datetime": "2017-08-07T00:00:00+00:00",
+    "end_datetime": "2017-08-13T00:00:00+00:00",
+    "coseis:event_id": "us2000a65e",
+    "coseis:event_name": "2017 M 6.3 - 102 km NNW of Xinyuan, China",
+    "coseis:magnitude": 6.3,
+    "coseis:event_date": "2017-08-08",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 20,
+    "sat:orbit_state": "descending",
+    "coseis:track": "063",
+    "coseis:satellites": "Sentinel-1B_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2017-08-13T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us2000a65e",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us2000a65e/m_63_102_km_nnw_of_xinyuan_china-D063/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_63_102_km_nnw_of_xinyuan_china/S1-COSEIS_SAR-D-R-063-tops-20170813_20170807-003849-00080E_00043N-PP-f694-v1_0_0/S1-COSEIS_SAR-D-R-063-tops-20170813_20170807-003849-00080E_00043N-PP-f694-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

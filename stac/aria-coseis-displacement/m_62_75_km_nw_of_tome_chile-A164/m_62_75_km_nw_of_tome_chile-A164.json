@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_62_75_km_nw_of_tome_chile-A164",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -75.689406907,
+          -37.386152709
+        ],
+        [
+          -72.35968202100001,
+          -37.386152709
+        ],
+        [
+          -72.35968202100001,
+          -35.266151013
+        ],
+        [
+          -75.689406907,
+          -35.266151013
+        ],
+        [
+          -75.689406907,
+          -37.386152709
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -75.689406907,
+    -37.386152709,
+    -72.35968202100001,
+    -35.266151013
+  ],
+  "properties": {
+    "title": "2015 M 6.2 - 75 km NW of Tom\u00e9, Chile \u2014 Ascending Track 164",
+    "start_datetime": "2015-02-25T00:00:00+00:00",
+    "end_datetime": "2015-03-21T00:00:00+00:00",
+    "coseis:event_id": "us10001nj1",
+    "coseis:event_name": "2015 M 6.2 - 75 km NW of Tom\u00e9, Chile",
+    "coseis:magnitude": 6.2,
+    "coseis:event_date": "2015-03-18",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 13,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "164",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2015-03-21T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us10001nj1",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us10001nj1/m_62_75_km_nw_of_tome_chile-A164/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_62_75_km_nw_of_tome_chile/S1-COSEIS_SAR-A-R-164-tops-20150321_20150225-234324-00076W_00037S-PP-0876-v1_0_0/S1-COSEIS_SAR-A-R-164-tops-20150321_20150225-234324-00076W_00037S-PP-0876-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

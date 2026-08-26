@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_67_71_km_s_of_burica_panama-D011",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -83.21523826100001,
+          7.374722033
+        ],
+        [
+          -80.73495849900002,
+          7.374722033
+        ],
+        [
+          -80.73495849900002,
+          8.415278421
+        ],
+        [
+          -83.21523826100001,
+          8.415278421
+        ],
+        [
+          -83.21523826100001,
+          7.374722033
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -83.21523826100001,
+    7.374722033,
+    -80.73495849900002,
+    8.415278421
+  ],
+  "properties": {
+    "title": "2021 M 6.7 - 71 km S of Burica, Panama \u2014 Descending Track 011",
+    "start_datetime": "2021-07-13T00:00:00+00:00",
+    "end_datetime": "2021-07-25T00:00:00+00:00",
+    "coseis:event_id": "us6000exs5",
+    "coseis:event_name": "2021 M 6.7 - 71 km S of Burica, Panama",
+    "coseis:magnitude": 6.7,
+    "coseis:event_date": "2021-07-21",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 10,
+    "sat:orbit_state": "descending",
+    "coseis:track": "011",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2021-07-25T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000exs5",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us6000exs5/m_67_71_km_s_of_burica_panama-D011/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_67_71_km_s_of_burica_panama/S1-COSEIS_SAR-D-R-011-tops-20210725_20210713-111528-00083W_00007N-PP-843f-v1_0_0/S1-COSEIS_SAR-D-R-011-tops-20210725_20210713-111528-00083W_00007N-PP-843f-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

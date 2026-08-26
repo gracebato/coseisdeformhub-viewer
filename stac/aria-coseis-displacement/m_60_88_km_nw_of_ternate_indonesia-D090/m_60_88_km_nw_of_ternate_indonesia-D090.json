@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_60_88_km_nw_of_ternate_indonesia-D090",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          125.135139797,
+          0.08221939899999953
+        ],
+        [
+          128.098197723,
+          0.08221939899999953
+        ],
+        [
+          128.098197723,
+          3.641944469
+        ],
+        [
+          125.135139797,
+          3.641944469
+        ],
+        [
+          125.135139797,
+          0.08221939899999953
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    125.135139797,
+    0.08221939899999953,
+    128.098197723,
+    3.641944469
+  ],
+  "properties": {
+    "title": "2018 M 6.0 - 88 km NW of Ternate, Indonesia \u2014 Descending Track 090",
+    "start_datetime": "2018-04-05T00:00:00+00:00",
+    "end_datetime": "2018-04-17T00:00:00+00:00",
+    "coseis:event_id": "us2000e0mq",
+    "coseis:event_name": "2018 M 6.0 - 88 km NW of Ternate, Indonesia",
+    "coseis:magnitude": 6.0,
+    "coseis:event_date": "2018-04-15",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 34,
+    "sat:orbit_state": "descending",
+    "coseis:track": "090",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2018-04-17T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us2000e0mq",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us2000e0mq/m_60_88_km_nw_of_ternate_indonesia-D090/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_60_88_km_nw_of_ternate_indonesia/S1-COSEIS_SAR-D-R-090-tops-20180417_20180405-211723-00125E_00000N-PP-799b-v1_0_0/S1-COSEIS_SAR-D-R-090-tops-20180417_20180405-211723-00125E_00000N-PP-799b-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

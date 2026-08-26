@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_60_40_km_n_of_santa_monica_philippines-A171",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          124.60291714899999,
+          8.308290691
+        ],
+        [
+          127.55736395699999,
+          8.308290691
+        ],
+        [
+          127.55736395699999,
+          11.740515659
+        ],
+        [
+          124.60291714899999,
+          11.740515659
+        ],
+        [
+          124.60291714899999,
+          8.308290691
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    124.60291714899999,
+    8.308290691,
+    127.55736395699999,
+    11.740515659
+  ],
+  "properties": {
+    "title": "2019 M 6.0 - 40 km N of Santa Monica, Philippines \u2014 Ascending Track 171",
+    "start_datetime": "2019-03-07T00:00:00+00:00",
+    "end_datetime": "2019-03-19T00:00:00+00:00",
+    "coseis:event_id": "us1000jccx",
+    "coseis:event_name": "2019 M 6.0 - 40 km N of Santa Monica, Philippines",
+    "coseis:magnitude": 6.0,
+    "coseis:event_date": "2019-03-08",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 30,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "171",
+    "coseis:satellites": "Sentinel-1B_Sentinel-1B",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2019-03-19T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us1000jccx",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us1000jccx/m_60_40_km_n_of_santa_monica_philippines-A171/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_60_40_km_n_of_santa_monica_philippines/S1-COSEIS_SAR-A-R-171-tops-20190319_20190307-094826-00125E_00008N-PP-1743-v1_0_0/S1-COSEIS_SAR-A-R-171-tops-20190319_20190307-094826-00125E_00008N-PP-1743-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

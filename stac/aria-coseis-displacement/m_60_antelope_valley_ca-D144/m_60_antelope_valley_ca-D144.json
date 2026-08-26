@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_60_antelope_valley_ca-D144",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -120.483749587,
+          37.913569753000004
+        ],
+        [
+          -117.06152462700001,
+          37.913569753000004
+        ],
+        [
+          -117.06152462700001,
+          39.887737999
+        ],
+        [
+          -120.483749587,
+          39.887737999
+        ],
+        [
+          -120.483749587,
+          37.913569753000004
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -120.483749587,
+    37.913569753000004,
+    -117.06152462700001,
+    39.887737999
+  ],
+  "properties": {
+    "title": "2021 M 6.0 - Antelope Valley, CA \u2014 Descending Track 144",
+    "start_datetime": "2021-07-04T00:00:00+00:00",
+    "end_datetime": "2021-07-10T00:00:00+00:00",
+    "coseis:event_id": "nc73584926",
+    "coseis:event_name": "2021 M 6.0 - Antelope Valley, CA",
+    "coseis:magnitude": 6.0,
+    "coseis:event_date": "2021-07-08",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 7.45,
+    "sat:orbit_state": "descending",
+    "coseis:track": "144",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1B",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2021-07-10T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73584926",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/nc73584926/m_60_antelope_valley_ca-D144/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_60_antelope_valley_ca/S1-COSEIS_SAR-D-R-144-tops-20210710_20210704-135948-00120W_00038N-PP-1e7d-v1_0_0/S1-COSEIS_SAR-D-R-144-tops-20210710_20210704-135948-00120W_00038N-PP-1e7d-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

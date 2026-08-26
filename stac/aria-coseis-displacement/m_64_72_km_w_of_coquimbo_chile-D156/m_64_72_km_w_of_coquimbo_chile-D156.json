@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_64_72_km_w_of_coquimbo_chile-D156",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -72.25412798100001,
+          -31.272263729
+        ],
+        [
+          -68.98079202900001,
+          -31.272263729
+        ],
+        [
+          -68.98079202900001,
+          -29.223650979
+        ],
+        [
+          -72.25412798100001,
+          -29.223650979
+        ],
+        [
+          -72.25412798100001,
+          -31.272263729
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -72.25412798100001,
+    -31.272263729,
+    -68.98079202900001,
+    -29.223650979
+  ],
+  "properties": {
+    "title": "2019 M 6.4 - 72 km W of Coquimbo, Chile \u2014 Descending Track 156",
+    "start_datetime": "2019-06-10T00:00:00+00:00",
+    "end_datetime": "2019-06-22T00:00:00+00:00",
+    "coseis:event_id": "us600040ja",
+    "coseis:event_name": "2019 M 6.4 - 72 km W of Coquimbo, Chile",
+    "coseis:magnitude": 6.4,
+    "coseis:event_date": "2019-06-14",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 11,
+    "sat:orbit_state": "descending",
+    "coseis:track": "156",
+    "coseis:satellites": "Sentinel-1B_Sentinel-1B",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2019-06-22T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us600040ja",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us600040ja/m_64_72_km_w_of_coquimbo_chile-D156/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_64_72_km_w_of_coquimbo_chile/S1-COSEIS_SAR-D-R-156-tops-20190622_20190610-100248-00072W_00031S-PP-e33a-v1_0_0/S1-COSEIS_SAR-D-R-156-tops-20190622_20190610-100248-00072W_00031S-PP-e33a-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

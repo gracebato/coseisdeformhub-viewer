@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_60_49_km_nne_of_namuac_philippines-D032",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          120.456250365,
+          17.965236461000003
+        ],
+        [
+          123.252919269,
+          17.965236461000003
+        ],
+        [
+          123.252919269,
+          19.976071403000002
+        ],
+        [
+          120.456250365,
+          19.976071403000002
+        ],
+        [
+          120.456250365,
+          17.965236461000003
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    120.456250365,
+    17.965236461000003,
+    123.252919269,
+    19.976071403000002
+  ],
+  "properties": {
+    "title": "2022 M 6.0 - 49 km NNE of Namuac, Philippines \u2014 Descending Track 032",
+    "start_datetime": "2022-06-27T00:00:00+00:00",
+    "end_datetime": "2022-07-21T00:00:00+00:00",
+    "coseis:event_id": "us6000hywe",
+    "coseis:event_name": "2022 M 6.0 - 49 km NNE of Namuac, Philippines",
+    "coseis:magnitude": 6.0,
+    "coseis:event_date": "2022-06-30",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 30,
+    "sat:orbit_state": "descending",
+    "coseis:track": "032",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2022-07-21T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000hywe",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us6000hywe/m_60_49_km_nne_of_namuac_philippines-D032/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_60_49_km_nne_of_namuac_philippines/S1-COSEIS_SAR-D-R-032-tops-20220721_20220627-214607-00121E_00018N-PP-eb19-v1_0_0/S1-COSEIS_SAR-D-R-032-tops-20220721_20220627-214607-00121E_00018N-PP-eb19-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

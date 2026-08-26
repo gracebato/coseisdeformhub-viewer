@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_64_156_km_nne_of_shi_yomi_india-D004",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          93.591428251,
+          27.959957879000005
+        ],
+        [
+          96.902542011,
+          27.959957879000005
+        ],
+        [
+          96.902542011,
+          31.446349557000005
+        ],
+        [
+          93.591428251,
+          31.446349557000005
+        ],
+        [
+          93.591428251,
+          27.959957879000005
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    93.591428251,
+    27.959957879000005,
+    96.902542011,
+    31.446349557000005
+  ],
+  "properties": {
+    "title": "2017 M 6.4 - 156 km NNE of Shi Yomi, India \u2014 Descending Track 004",
+    "start_datetime": "2017-11-06T00:00:00+00:00",
+    "end_datetime": "2017-11-18T00:00:00+00:00",
+    "coseis:event_id": "us2000bqsn",
+    "coseis:event_name": "2017 M 6.4 - 156 km NNE of Shi Yomi, India",
+    "coseis:magnitude": 6.4,
+    "coseis:event_date": "2017-11-17",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 8,
+    "sat:orbit_state": "descending",
+    "coseis:track": "004",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2017-11-18T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us2000bqsn",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us2000bqsn/m_64_156_km_nne_of_shi_yomi_india-D004/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_64_156_km_nne_of_shi_yomi_india/S1-COSEIS_SAR-D-R-004-tops-20171118_20171106-233753-00094E_00028N-PP-6f3c-v1_0_0/S1-COSEIS_SAR-D-R-004-tops-20171118_20171106-233753-00094E_00028N-PP-6f3c-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

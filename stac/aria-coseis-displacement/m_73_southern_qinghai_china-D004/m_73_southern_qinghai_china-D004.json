@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_73_southern_qinghai_china-D004",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          94.76365061099999,
+          33.945236445000006
+        ],
+        [
+          97.940597597,
+          33.945236445000006
+        ],
+        [
+          97.940597597,
+          35.92662691900001
+        ],
+        [
+          94.76365061099999,
+          35.92662691900001
+        ],
+        [
+          94.76365061099999,
+          33.945236445000006
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    94.76365061099999,
+    33.945236445000006,
+    97.940597597,
+    35.92662691900001
+  ],
+  "properties": {
+    "title": "2021 M 7.3 - Southern Qinghai, China \u2014 Descending Track 004",
+    "start_datetime": "2021-05-13T00:00:00+00:00",
+    "end_datetime": "2021-05-25T00:00:00+00:00",
+    "coseis:event_id": "us7000e54r",
+    "coseis:event_name": "2021 M 7.3 - Southern Qinghai, China",
+    "coseis:magnitude": 7.3,
+    "coseis:event_date": "2021-05-21",
+    "coseis:pager_alert": "orange",
+    "coseis:depth_km": 10,
+    "sat:orbit_state": "descending",
+    "coseis:track": "004",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2021-05-25T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000e54r",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us7000e54r/m_73_southern_qinghai_china-D004/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_73_southern_qinghai_china/S1-COSEIS_SAR-D-R-004-tops-20210525_20210513-233643-00095E_00034N-PP-1b05-v1_0_0/S1-COSEIS_SAR-D-R-004-tops-20210525_20210513-233643-00095E_00034N-PP-1b05-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

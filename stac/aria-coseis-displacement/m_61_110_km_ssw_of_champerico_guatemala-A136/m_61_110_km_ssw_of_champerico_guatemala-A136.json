@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_61_110_km_ssw_of_champerico_guatemala-A136",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -92.029404779,
+          12.724680713
+        ],
+        [
+          -89.344958187,
+          12.724680713
+        ],
+        [
+          -89.344958187,
+          14.979404739
+        ],
+        [
+          -92.029404779,
+          14.979404739
+        ],
+        [
+          -92.029404779,
+          12.724680713
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -92.029404779,
+    12.724680713,
+    -89.344958187,
+    14.979404739
+  ],
+  "properties": {
+    "title": "2016 M 6.1 - 110 km SSW of Champerico, Guatemala \u2014 Ascending Track 136",
+    "start_datetime": "2016-03-26T00:00:00+00:00",
+    "end_datetime": "2016-04-19T00:00:00+00:00",
+    "coseis:event_id": "us20005ih9",
+    "coseis:event_name": "2016 M 6.1 - 110 km SSW of Champerico, Guatemala",
+    "coseis:magnitude": 6.1,
+    "coseis:event_date": "2016-04-15",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 22.41,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "136",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2016-04-19T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us20005ih9",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us20005ih9/m_61_110_km_ssw_of_champerico_guatemala-A136/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_61_110_km_ssw_of_champerico_guatemala/S1-COSEIS_SAR-A-R-136-tops-20160419_20160326-001355-00092W_00013N-PP-3905-v1_0_0/S1-COSEIS_SAR-A-R-136-tops-20160419_20160326-001355-00092W_00013N-PP-3905-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

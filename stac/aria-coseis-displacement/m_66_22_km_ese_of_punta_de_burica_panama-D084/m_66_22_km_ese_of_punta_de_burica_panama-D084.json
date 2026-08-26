@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_66_22_km_ese_of_punta_de_burica_panama-D084",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -85.04996035100001,
+          8.331070086999999
+        ],
+        [
+          -82.425236029,
+          8.331070086999999
+        ],
+        [
+          -82.425236029,
+          10.366627270999999
+        ],
+        [
+          -85.04996035100001,
+          10.366627270999999
+        ],
+        [
+          -85.04996035100001,
+          8.331070086999999
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -85.04996035100001,
+    8.331070086999999,
+    -82.425236029,
+    10.366627270999999
+  ],
+  "properties": {
+    "title": "2014 M 6.6 - 22 km ESE of Punta de Burica, Panama \u2014 Descending Track 084",
+    "start_datetime": "2014-11-28T00:00:00+00:00",
+    "end_datetime": "2014-12-22T00:00:00+00:00",
+    "coseis:event_id": "usc000t4iq",
+    "coseis:event_name": "2014 M 6.6 - 22 km ESE of Punta de Burica, Panama",
+    "coseis:magnitude": 6.6,
+    "coseis:event_date": "2014-12-08",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 20,
+    "sat:orbit_state": "descending",
+    "coseis:track": "084",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2014-12-22T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/usc000t4iq",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/usc000t4iq/m_66_22_km_ese_of_punta_de_burica_panama-D084/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2014/m_66_22_km_ese_of_punta_de_burica_panama/S1-COSEIS_SAR-D-R-084-tops-20141222_20141128-112235-00085W_00008N-PP-4d3d-v1_0_0/S1-COSEIS_SAR-D-R-084-tops-20141222_20141128-112235-00085W_00008N-PP-4d3d-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

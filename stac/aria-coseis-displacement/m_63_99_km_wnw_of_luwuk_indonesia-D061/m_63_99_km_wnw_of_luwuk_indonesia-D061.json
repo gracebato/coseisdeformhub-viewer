@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_63_99_km_wnw_of_luwuk_indonesia-D061",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          120.494028173,
+          -2.404446857
+        ],
+        [
+          123.435419415,
+          -2.404446857
+        ],
+        [
+          123.435419415,
+          1.163611553
+        ],
+        [
+          120.494028173,
+          1.163611553
+        ],
+        [
+          120.494028173,
+          -2.404446857
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    120.494028173,
+    -2.404446857,
+    123.435419415,
+    1.163611553
+  ],
+  "properties": {
+    "title": "2021 M 6.3 - 99 km WNW of Luwuk, Indonesia \u2014 Descending Track 061",
+    "start_datetime": "2021-07-16T00:00:00+00:00",
+    "end_datetime": "2021-07-28T00:00:00+00:00",
+    "coseis:event_id": "us6000ez5x",
+    "coseis:event_name": "2021 M 6.3 - 99 km WNW of Luwuk, Indonesia",
+    "coseis:magnitude": 6.3,
+    "coseis:event_date": "2021-07-26",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 11,
+    "sat:orbit_state": "descending",
+    "coseis:track": "061",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2021-07-28T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ez5x",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us6000ez5x/m_63_99_km_wnw_of_luwuk_indonesia-D061/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_63_99_km_wnw_of_luwuk_indonesia/S1-COSEIS_SAR-D-R-061-tops-20210728_20210716-213458-00121E_00002S-PP-6d85-v1_0_0/S1-COSEIS_SAR-D-R-061-tops-20210728_20210716-213458-00121E_00002S-PP-6d85-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

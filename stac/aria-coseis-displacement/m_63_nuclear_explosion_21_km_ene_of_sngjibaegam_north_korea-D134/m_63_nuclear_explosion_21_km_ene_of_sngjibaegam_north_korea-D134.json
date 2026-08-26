@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_63_nuclear_explosion_21_km_ene_of_sngjibaegam_north_korea-D134",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          126.791806189,
+          39.856346685000005
+        ],
+        [
+          130.631531483,
+          39.856346685000005
+        ],
+        [
+          130.631531483,
+          43.318849455000006
+        ],
+        [
+          126.791806189,
+          43.318849455000006
+        ],
+        [
+          126.791806189,
+          39.856346685000005
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    126.791806189,
+    39.856346685000005,
+    130.631531483,
+    43.318849455000006
+  ],
+  "properties": {
+    "title": "2017 M 6.3 Nuclear Explosion - 21 km ENE of S?ngjibaegam, North Korea \u2014 Descending Track 134",
+    "start_datetime": "2017-08-29T00:00:00+00:00",
+    "end_datetime": "2017-09-10T00:00:00+00:00",
+    "coseis:event_id": "us2000aert",
+    "coseis:event_name": "2017 M 6.3 Nuclear Explosion - 21 km ENE of S?ngjibaegam, North Korea",
+    "coseis:magnitude": 6.3,
+    "coseis:event_date": "2017-09-03",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 0,
+    "sat:orbit_state": "descending",
+    "coseis:track": "134",
+    "coseis:satellites": "Sentinel-1B_Sentinel-1B",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2017-09-10T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us2000aert",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us2000aert/m_63_nuclear_explosion_21_km_ene_of_sngjibaegam_north_korea-D134/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_63_nuclear_explosion_21_km_ene_of_sngjibaegam_north_korea/S1-COSEIS_SAR-D-R-134-tops-20170910_20170829-213027-00127E_00040N-PP-ba0b-v1_0_0/S1-COSEIS_SAR-D-R-134-tops-20170910_20170829-213027-00127E_00040N-PP-ba0b-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

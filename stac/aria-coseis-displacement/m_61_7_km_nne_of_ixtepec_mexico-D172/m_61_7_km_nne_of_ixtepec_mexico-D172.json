@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_61_7_km_nne_of_ixtepec_mexico-D172",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -96.063293695,
+          15.280235912999999
+        ],
+        [
+          -93.234124765,
+          15.280235912999999
+        ],
+        [
+          -93.234124765,
+          17.795515703
+        ],
+        [
+          -96.063293695,
+          17.795515703
+        ],
+        [
+          -96.063293695,
+          15.280235912999999
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -96.063293695,
+    15.280235912999999,
+    -93.234124765,
+    17.795515703
+  ],
+  "properties": {
+    "title": "2017 M 6.1 - 7 km NNE of Ixtepec, Mexico \u2014 Descending Track 172",
+    "start_datetime": "2017-09-19T00:00:00+00:00",
+    "end_datetime": "2017-09-25T00:00:00+00:00",
+    "coseis:event_id": "us2000atjv",
+    "coseis:event_name": "2017 M 6.1 - 7 km NNE of Ixtepec, Mexico",
+    "coseis:magnitude": 6.1,
+    "coseis:event_date": "2017-09-23",
+    "coseis:pager_alert": "yellow",
+    "coseis:depth_km": 10,
+    "sat:orbit_state": "descending",
+    "coseis:track": "172",
+    "coseis:satellites": "Sentinel-1B_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2017-09-25T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us2000atjv",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us2000atjv/m_61_7_km_nne_of_ixtepec_mexico-D172/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_61_7_km_nne_of_ixtepec_mexico/S1-COSEIS_SAR-D-R-172-tops-20170925_20170919-120944-00096W_00015N-PP-2525-v1_0_0/S1-COSEIS_SAR-D-R-172-tops-20170925_20170919-120944-00096W_00015N-PP-2525-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_60_8_km_nnw_of_dhekiajuli_india-D077",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          91.011428587,
+          25.254123981000003
+        ],
+        [
+          94.241431171,
+          25.254123981000003
+        ],
+        [
+          94.241431171,
+          28.746626775000003
+        ],
+        [
+          91.011428587,
+          28.746626775000003
+        ],
+        [
+          91.011428587,
+          25.254123981000003
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    91.011428587,
+    25.254123981000003,
+    94.241431171,
+    28.746626775000003
+  ],
+  "properties": {
+    "title": "2021 M 6.0 - 8 km NNW of Dhekiajuli, India \u2014 Descending Track 077",
+    "start_datetime": "2021-04-24T00:00:00+00:00",
+    "end_datetime": "2021-05-06T00:00:00+00:00",
+    "coseis:event_id": "us7000dy3b",
+    "coseis:event_name": "2021 M 6.0 - 8 km NNW of Dhekiajuli, India",
+    "coseis:magnitude": 6.0,
+    "coseis:event_date": "2021-04-28",
+    "coseis:pager_alert": "red",
+    "coseis:depth_km": 34,
+    "sat:orbit_state": "descending",
+    "coseis:track": "077",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2021-05-06T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000dy3b",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us7000dy3b/m_60_8_km_nnw_of_dhekiajuli_india-D077/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_60_8_km_nnw_of_dhekiajuli_india/S1-COSEIS_SAR-D-R-077-tops-20210506_20210424-234709-00091E_00025N-PP-0ca5-v1_0_0/S1-COSEIS_SAR-D-R-077-tops-20210506_20210424-234709-00091E_00025N-PP-0ca5-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

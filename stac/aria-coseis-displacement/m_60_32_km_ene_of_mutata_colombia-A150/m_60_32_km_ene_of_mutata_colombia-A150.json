@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_60_32_km_ene_of_mutata_colombia-A150",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -76.56884965500001,
+          6.3863463089999986
+        ],
+        [
+          -73.652736211,
+          6.3863463089999986
+        ],
+        [
+          -73.652736211,
+          9.658571148999998
+        ],
+        [
+          -76.56884965500001,
+          9.658571148999998
+        ],
+        [
+          -76.56884965500001,
+          6.3863463089999986
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -76.56884965500001,
+    6.3863463089999986,
+    -73.652736211,
+    9.658571148999998
+  ],
+  "properties": {
+    "title": "2016 M 6.0 - 32 km ENE of Mutat\u00e1, Colombia \u2014 Ascending Track 150",
+    "start_datetime": "2016-09-10T00:00:00+00:00",
+    "end_datetime": "2016-09-28T00:00:00+00:00",
+    "coseis:event_id": "us10006pdp",
+    "coseis:event_name": "2016 M 6.0 - 32 km ENE of Mutat\u00e1, Colombia",
+    "coseis:magnitude": 6.0,
+    "coseis:event_date": "2016-09-14",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 18,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "150",
+    "coseis:satellites": "Sentinel-1B_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2016-09-28T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us10006pdp",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us10006pdp/m_60_32_km_ene_of_mutata_colombia-A150/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_60_32_km_ene_of_mutata_colombia/S1-COSEIS_SAR-A-R-150-tops-20160928_20160910-231407-00077W_00006N-PP-c489-v1_0_0/S1-COSEIS_SAR-A-R-150-tops-20160928_20160910-231407-00077W_00006N-PP-c489-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_60_26_km_ssw_of_fry_greece-A131",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          26.628650503,
+          34.810514115000004
+        ],
+        [
+          29.871708653,
+          34.810514115000004
+        ],
+        [
+          29.871708653,
+          36.690237841000005
+        ],
+        [
+          26.628650503,
+          36.690237841000005
+        ],
+        [
+          26.628650503,
+          34.810514115000004
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    26.628650503,
+    34.810514115000004,
+    29.871708653,
+    36.690237841000005
+  ],
+  "properties": {
+    "title": "2015 M 6.0 - 26 km SSW of Fry, Greece \u2014 Ascending Track 131",
+    "start_datetime": "2015-04-12T00:00:00+00:00",
+    "end_datetime": "2015-04-24T00:00:00+00:00",
+    "coseis:event_id": "us2000272b",
+    "coseis:event_name": "2015 M 6.0 - 26 km SSW of Fry, Greece",
+    "coseis:magnitude": 6.0,
+    "coseis:event_date": "2015-04-16",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 20,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "131",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2015-04-24T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us2000272b",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us2000272b/m_60_26_km_ssw_of_fry_greece-A131/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_60_26_km_ssw_of_fry_greece/S1-COSEIS_SAR-A-R-131-tops-20150424_20150412-160608-00027E_00035N-PP-fb53-v1_0_0/S1-COSEIS_SAR-A-R-131-tops-20150424_20150412-160608-00027E_00035N-PP-fb53-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_61_38_km_wnw_of_hakui_japan-D119",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          136.136806465,
+          35.061901605
+        ],
+        [
+          139.765976035,
+          35.061901605
+        ],
+        [
+          139.765976035,
+          38.69162673100001
+        ],
+        [
+          136.136806465,
+          38.69162673100001
+        ],
+        [
+          136.136806465,
+          35.061901605
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    136.136806465,
+    35.061901605,
+    139.765976035,
+    38.69162673100001
+  ],
+  "properties": {
+    "title": "2024 M 6.1 - 38 km WNW of Hakui, Japan \u2014 Descending Track 119",
+    "start_datetime": "2024-11-25T00:00:00+00:00",
+    "end_datetime": "2024-12-07T00:00:00+00:00",
+    "coseis:event_id": "us7000nu90",
+    "coseis:event_name": "2024 M 6.1 - 38 km WNW of Hakui, Japan",
+    "coseis:magnitude": 6.1,
+    "coseis:event_date": "2024-11-26",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 8,
+    "sat:orbit_state": "descending",
+    "coseis:track": "119",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2024-12-07T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000nu90",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us7000nu90/m_61_38_km_wnw_of_hakui_japan-D119/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2024/m_61_38_km_wnw_of_hakui_japan/S1-COSEIS_SAR-D-R-119-tops-20241207_20241125-205148-00136E_00035N-PP-430c-v1_0_0/S1-COSEIS_SAR-D-R-119-tops-20241207_20241125-205148-00136E_00035N-PP-430c-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

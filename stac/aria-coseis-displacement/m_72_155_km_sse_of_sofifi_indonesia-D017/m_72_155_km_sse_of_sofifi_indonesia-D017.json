@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_72_155_km_sse_of_sofifi_indonesia-D017",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          126.688472773,
+          -2.206946699
+        ],
+        [
+          129.67486405100001,
+          -2.206946699
+        ],
+        [
+          129.67486405100001,
+          1.363611713
+        ],
+        [
+          126.688472773,
+          1.363611713
+        ],
+        [
+          126.688472773,
+          -2.206946699
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    126.688472773,
+    -2.206946699,
+    129.67486405100001,
+    1.363611713
+  ],
+  "properties": {
+    "title": "2019 M 7.2 - 155 km SSE of Sofifi, Indonesia \u2014 Descending Track 017",
+    "start_datetime": "2019-07-12T00:00:00+00:00",
+    "end_datetime": "2019-07-24T00:00:00+00:00",
+    "coseis:event_id": "us70004jyv",
+    "coseis:event_name": "2019 M 7.2 - 155 km SSE of Sofifi, Indonesia",
+    "coseis:magnitude": 7.2,
+    "coseis:event_date": "2019-07-14",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 18.98,
+    "sat:orbit_state": "descending",
+    "coseis:track": "017",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2019-07-24T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us70004jyv",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us70004jyv/m_72_155_km_sse_of_sofifi_indonesia-D017/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_72_155_km_sse_of_sofifi_indonesia/S1-COSEIS_SAR-D-R-017-tops-20190724_20190712-210959-00127E_00002S-PP-9fba-v1_0_0/S1-COSEIS_SAR-D-R-017-tops-20190724_20190712-210959-00127E_00002S-PP-9fba-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

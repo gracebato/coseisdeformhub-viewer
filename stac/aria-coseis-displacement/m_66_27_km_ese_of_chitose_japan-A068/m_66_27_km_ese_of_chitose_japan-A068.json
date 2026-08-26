@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_66_27_km_ese_of_chitose_japan-A068",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          139.896250717,
+          40.86134668900001
+        ],
+        [
+          143.78569827299998,
+          40.86134668900001
+        ],
+        [
+          143.78569827299998,
+          44.38079394900001
+        ],
+        [
+          139.896250717,
+          44.38079394900001
+        ],
+        [
+          139.896250717,
+          40.86134668900001
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    139.896250717,
+    40.86134668900001,
+    143.78569827299998,
+    44.38079394900001
+  ],
+  "properties": {
+    "title": "2018 M 6.6 - 27 km ESE of Chitose, Japan \u2014 Ascending Track 068",
+    "start_datetime": "2018-09-01T00:00:00+00:00",
+    "end_datetime": "2018-09-13T00:00:00+00:00",
+    "coseis:event_id": "us2000h8ty",
+    "coseis:event_name": "2018 M 6.6 - 27 km ESE of Chitose, Japan",
+    "coseis:magnitude": 6.6,
+    "coseis:event_date": "2018-09-05",
+    "coseis:pager_alert": "orange",
+    "coseis:depth_km": 35,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "068",
+    "coseis:satellites": "Sentinel-1B_Sentinel-1B",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2018-09-13T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us2000h8ty",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us2000h8ty/m_66_27_km_ese_of_chitose_japan-A068/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_66_27_km_ese_of_chitose_japan/S1-COSEIS_SAR-A-R-068-tops-20180913_20180901-082700-00140E_00041N-PP-c8b7-v1_0_0/S1-COSEIS_SAR-A-R-068-tops-20180913_20180901-082700-00140E_00041N-PP-c8b7-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

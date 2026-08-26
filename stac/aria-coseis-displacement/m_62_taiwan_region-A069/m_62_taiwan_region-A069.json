@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_62_taiwan_region-A069",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          119.991806349,
+          21.915791977
+        ],
+        [
+          122.820419723,
+          21.915791977
+        ],
+        [
+          122.820419723,
+          24.166627111
+        ],
+        [
+          119.991806349,
+          24.166627111
+        ],
+        [
+          119.991806349,
+          21.915791977
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    119.991806349,
+    21.915791977,
+    122.820419723,
+    24.166627111
+  ],
+  "properties": {
+    "title": "2015 M 6.2 - Taiwan region \u2014 Ascending Track 069",
+    "start_datetime": "2015-02-07T00:00:00+00:00",
+    "end_datetime": "2015-03-15T00:00:00+00:00",
+    "coseis:event_id": "usb000tp6y",
+    "coseis:event_name": "2015 M 6.2 - Taiwan region",
+    "coseis:magnitude": 6.2,
+    "coseis:event_date": "2015-02-13",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 30,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "069",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2015-03-15T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/usb000tp6y",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/usb000tp6y/m_62_taiwan_region-A069/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_62_taiwan_region/S1-COSEIS_SAR-A-R-069-tops-20150315_20150207-100034-00120E_00022N-PP-b4d2-v1_0_0/S1-COSEIS_SAR-A-R-069-tops-20150315_20150207-100034-00120E_00022N-PP-b4d2-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

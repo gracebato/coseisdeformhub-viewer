@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_63_5_km_s_of_plomari_greece-D109",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          23.541428211,
+          37.835514135000004
+        ],
+        [
+          27.042542123,
+          37.835514135000004
+        ],
+        [
+          27.042542123,
+          40.472182911000004
+        ],
+        [
+          23.541428211,
+          40.472182911000004
+        ],
+        [
+          23.541428211,
+          37.835514135000004
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    23.541428211,
+    37.835514135000004,
+    27.042542123,
+    40.472182911000004
+  ],
+  "properties": {
+    "title": "2017 M 6.3 - 5 km S of Plom\u00e1ri, Greece \u2014 Descending Track 109",
+    "start_datetime": "2017-06-11T00:00:00+00:00",
+    "end_datetime": "2017-06-17T00:00:00+00:00",
+    "coseis:event_id": "us20009ly0",
+    "coseis:event_name": "2017 M 6.3 - 5 km S of Plom\u00e1ri, Greece",
+    "coseis:magnitude": 6.3,
+    "coseis:event_date": "2017-06-12",
+    "coseis:pager_alert": "yellow",
+    "coseis:depth_km": 12,
+    "sat:orbit_state": "descending",
+    "coseis:track": "109",
+    "coseis:satellites": "Sentinel-1B_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2017-06-17T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us20009ly0",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us20009ly0/m_63_5_km_s_of_plomari_greece-D109/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_63_5_km_s_of_plomari_greece/S1-COSEIS_SAR-D-R-109-tops-20170617_20170611-042221-00024E_00038N-PP-4225-v1_0_0/S1-COSEIS_SAR-D-R-109-tops-20170617_20170611-042221-00024E_00038N-PP-4225-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

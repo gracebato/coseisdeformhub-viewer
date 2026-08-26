@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_60_181_km_sw_of_nabire_indonesia-A126",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          133.877639591,
+          -5.231390363
+        ],
+        [
+          136.52069726099998,
+          -5.231390363
+        ],
+        [
+          136.52069726099998,
+          -3.089999761
+        ],
+        [
+          133.877639591,
+          -3.089999761
+        ],
+        [
+          133.877639591,
+          -5.231390363
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    133.877639591,
+    -5.231390363,
+    136.52069726099998,
+    -3.089999761
+  ],
+  "properties": {
+    "title": "2021 M 6.0 - 181 km SW of Nabire, Indonesia \u2014 Ascending Track 126",
+    "start_datetime": "2021-11-06T00:00:00+00:00",
+    "end_datetime": "2021-11-18T00:00:00+00:00",
+    "coseis:event_id": "us7000ft0f",
+    "coseis:event_name": "2021 M 6.0 - 181 km SW of Nabire, Indonesia",
+    "coseis:magnitude": 6.0,
+    "coseis:event_date": "2021-11-10",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 10,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "126",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2021-11-18T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ft0f",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us7000ft0f/m_60_181_km_sw_of_nabire_indonesia-A126/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_60_181_km_sw_of_nabire_indonesia/S1-COSEIS_SAR-A-R-126-tops-20211118_20211106-092055-00134E_00005S-PP-4899-v1_0_0/S1-COSEIS_SAR-A-R-126-tops-20211118_20211106-092055-00134E_00005S-PP-4899-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

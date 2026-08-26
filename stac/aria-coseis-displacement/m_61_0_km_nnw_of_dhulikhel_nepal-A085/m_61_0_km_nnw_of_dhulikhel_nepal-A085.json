@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_61_0_km_nnw_of_dhulikhel_nepal-A085",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          83.861706245,
+          26.445791601
+        ],
+        [
+          86.979764295,
+          26.445791601
+        ],
+        [
+          86.979764295,
+          29.330793909
+        ],
+        [
+          83.861706245,
+          29.330793909
+        ],
+        [
+          83.861706245,
+          26.445791601
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    83.861706245,
+    26.445791601,
+    86.979764295,
+    29.330793909
+  ],
+  "properties": {
+    "title": "2015 M 6.1 - 0 km NNW of Dhulikhel, Nepal \u2014 Ascending Track 085",
+    "start_datetime": "2015-04-09T00:00:00+00:00",
+    "end_datetime": "2015-05-03T00:00:00+00:00",
+    "coseis:event_id": "us20002bi4",
+    "coseis:event_name": "2015 M 6.1 - 0 km NNW of Dhulikhel, Nepal",
+    "coseis:magnitude": 6.1,
+    "coseis:event_date": "2015-04-25",
+    "coseis:pager_alert": "yellow",
+    "coseis:depth_km": 10,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "085",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2015-05-03T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us20002bi4",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us20002bi4/m_61_0_km_nnw_of_dhulikhel_nepal-A085/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_61_0_km_nnw_of_dhulikhel_nepal/S1-COSEIS_SAR-A-R-085-tops-20150503_20150409-122144-00084E_00026N-PP-9eff-v1_0_0/S1-COSEIS_SAR-A-R-085-tops-20150503_20150409-122144-00084E_00026N-PP-9eff-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

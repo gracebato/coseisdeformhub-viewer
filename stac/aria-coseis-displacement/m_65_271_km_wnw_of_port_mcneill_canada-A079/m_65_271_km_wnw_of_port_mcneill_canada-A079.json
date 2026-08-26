@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_65_271_km_wnw_of_port_mcneill_canada-A079",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -134.130694549,
+          50.74718073100001
+        ],
+        [
+          -129.907635615,
+          50.74718073100001
+        ],
+        [
+          -129.907635615,
+          52.94023804100001
+        ],
+        [
+          -134.130694549,
+          52.94023804100001
+        ],
+        [
+          -134.130694549,
+          50.74718073100001
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -134.130694549,
+    50.74718073100001,
+    -129.907635615,
+    52.94023804100001
+  ],
+  "properties": {
+    "title": "2024 M 6.5 - 271 km WNW of Port McNeill, Canada \u2014 Ascending Track 079",
+    "start_datetime": "2024-09-12T00:00:00+00:00",
+    "end_datetime": "2024-09-24T00:00:00+00:00",
+    "coseis:event_id": "us7000ne51",
+    "coseis:event_name": "2024 M 6.5 - 271 km WNW of Port McNeill, Canada",
+    "coseis:magnitude": 6.5,
+    "coseis:event_date": "2024-09-15",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 3.766,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "079",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2024-09-24T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ne51",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us7000ne51/m_65_271_km_wnw_of_port_mcneill_canada-A079/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2024/m_65_271_km_wnw_of_port_mcneill_canada/S1-COSEIS_SAR-A-R-079-tops-20240924_20240912-023652-00134W_00051N-PP-b302-v1_0_0/S1-COSEIS_SAR-A-R-079-tops-20240924_20240912-023652-00134W_00051N-PP-b302-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_61_61_km_ssw_of_nueva_concepcion_guatemala-D026",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -92.38662728700001,
+          13.033847627
+        ],
+        [
+          -89.58412504500001,
+          13.033847627
+        ],
+        [
+          -89.58412504500001,
+          15.556349645
+        ],
+        [
+          -92.38662728700001,
+          15.556349645
+        ],
+        [
+          -92.38662728700001,
+          13.033847627
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -92.38662728700001,
+    13.033847627,
+    -89.58412504500001,
+    15.556349645
+  ],
+  "properties": {
+    "title": "2014 M 6.1 - 61 km SSW of Nueva Concepci\u00f3n, Guatemala \u2014 Descending Track 026",
+    "start_datetime": "2014-11-24T00:00:00+00:00",
+    "end_datetime": "2014-12-18T00:00:00+00:00",
+    "coseis:event_id": "usc000t4gc",
+    "coseis:event_name": "2014 M 6.1 - 61 km SSW of Nueva Concepci\u00f3n, Guatemala",
+    "coseis:magnitude": 6.1,
+    "coseis:event_date": "2014-12-07",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 32,
+    "sat:orbit_state": "descending",
+    "coseis:track": "026",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2014-12-18T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/usc000t4gc",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/usc000t4gc/m_61_61_km_ssw_of_nueva_concepcion_guatemala-D026/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2014/m_61_61_km_ssw_of_nueva_concepcion_guatemala/S1-COSEIS_SAR-D-R-026-tops-20141218_20141124-115409-00092W_00013N-PP-5ac7-v1_0_0/S1-COSEIS_SAR-D-R-026-tops-20141218_20141124-115409-00092W_00013N-PP-5ac7-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_60_7_km_se_of_sndrg_turkey-A058",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          27.784761739,
+          38.414681265000006
+        ],
+        [
+          31.227542271,
+          38.414681265000006
+        ],
+        [
+          31.227542271,
+          40.294682769000005
+        ],
+        [
+          27.784761739,
+          40.294682769000005
+        ],
+        [
+          27.784761739,
+          38.414681265000006
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    27.784761739,
+    38.414681265000006,
+    31.227542271,
+    40.294682769000005
+  ],
+  "properties": {
+    "title": "2025 M 6.0 - 7 km SE of S\u0131nd\u0131rg\u0131, Turkey \u2014 Ascending Track 058",
+    "start_datetime": "2025-10-23T00:00:00+00:00",
+    "end_datetime": "2025-10-29T00:00:00+00:00",
+    "coseis:event_id": "us6000rjsu",
+    "coseis:event_name": "2025 M 6.0 - 7 km SE of S\u0131nd\u0131rg\u0131, Turkey",
+    "coseis:magnitude": 6.0,
+    "coseis:event_date": "2025-10-27",
+    "coseis:pager_alert": "yellow",
+    "coseis:depth_km": 8,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "058",
+    "coseis:satellites": "Sentinel-1C_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2025-10-29T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rjsu",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us6000rjsu/m_60_7_km_se_of_sndrg_turkey-A058/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_60_7_km_se_of_sndrg_turkey/S1-COSEIS_SAR-A-R-058-tops-20251029_20251023-155841-00028E_00038N-PP-806a-v1_0_0/S1-COSEIS_SAR-A-R-058-tops-20251029_20251023-155841-00028E_00038N-PP-806a-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

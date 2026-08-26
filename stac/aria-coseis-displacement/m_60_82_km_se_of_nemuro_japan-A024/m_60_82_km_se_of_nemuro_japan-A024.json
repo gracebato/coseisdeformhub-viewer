@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_60_82_km_se_of_nemuro_japan-A024",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          145.679583877,
+          43.151346921
+        ],
+        [
+          149.472920245,
+          43.151346921
+        ],
+        [
+          149.472920245,
+          46.003849203
+        ],
+        [
+          145.679583877,
+          46.003849203
+        ],
+        [
+          145.679583877,
+          43.151346921
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    145.679583877,
+    43.151346921,
+    149.472920245,
+    46.003849203
+  ],
+  "properties": {
+    "title": "2025 M 6.0 - 82 km SE of Nemuro, Japan \u2014 Ascending Track 024",
+    "start_datetime": "2025-06-17T00:00:00+00:00",
+    "end_datetime": "2025-06-29T00:00:00+00:00",
+    "coseis:event_id": "us6000qlnz",
+    "coseis:event_name": "2025 M 6.0 - 82 km SE of Nemuro, Japan",
+    "coseis:magnitude": 6.0,
+    "coseis:event_date": "2025-06-21",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 18,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "024",
+    "coseis:satellites": "Sentinel-1C_Sentinel-1C",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2025-06-29T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qlnz",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us6000qlnz/m_60_82_km_se_of_nemuro_japan-A024/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_60_82_km_se_of_nemuro_japan/S1-COSEIS_SAR-A-R-024-tops-20250629_20250617-080242-00146E_00043N-PP-668d-v1_0_0/S1-COSEIS_SAR-A-R-024-tops-20250629_20250617-080242-00146E_00043N-PP-668d-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_60_6_km_n_of_thrapsanon_greece-D036",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          24.741706149,
+          33.729125161000006
+        ],
+        [
+          28.093375497,
+          33.729125161000006
+        ],
+        [
+          28.093375497,
+          36.372738387000005
+        ],
+        [
+          24.741706149,
+          36.372738387000005
+        ],
+        [
+          24.741706149,
+          33.729125161000006
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    24.741706149,
+    33.729125161000006,
+    28.093375497,
+    36.372738387000005
+  ],
+  "properties": {
+    "title": "2021 M 6.0 - 6 km N of Thrapsan\u00f3n, Greece \u2014 Descending Track 036",
+    "start_datetime": "2021-09-25T00:00:00+00:00",
+    "end_datetime": "2021-10-01T00:00:00+00:00",
+    "coseis:event_id": "us7000fes8",
+    "coseis:event_name": "2021 M 6.0 - 6 km N of Thrapsan\u00f3n, Greece",
+    "coseis:magnitude": 6.0,
+    "coseis:event_date": "2021-09-27",
+    "coseis:pager_alert": "yellow",
+    "coseis:depth_km": 6,
+    "sat:orbit_state": "descending",
+    "coseis:track": "036",
+    "coseis:satellites": "Sentinel-1B_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2021-10-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fes8",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us7000fes8/m_60_6_km_n_of_thrapsanon_greece-D036/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_60_6_km_n_of_thrapsanon_greece/S1-COSEIS_SAR-D-R-036-tops-20211001_20210925-041601-00025E_00034N-PP-0a52-v1_0_0/S1-COSEIS_SAR-D-R-036-tops-20211001_20210925-041601-00025E_00034N-PP-0a52-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

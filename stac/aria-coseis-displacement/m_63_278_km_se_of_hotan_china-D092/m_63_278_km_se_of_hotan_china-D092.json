@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_63_278_km_se_of_hotan_china-D092",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          82.41615033299999,
+          33.89079115700001
+        ],
+        [
+          85.920875359,
+          33.89079115700001
+        ],
+        [
+          85.920875359,
+          37.35884948700001
+        ],
+        [
+          82.41615033299999,
+          37.35884948700001
+        ],
+        [
+          82.41615033299999,
+          33.89079115700001
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    82.41615033299999,
+    33.89079115700001,
+    85.920875359,
+    37.35884948700001
+  ],
+  "properties": {
+    "title": "2020 M 6.3 - 278 km SE of Hotan, China \u2014 Descending Track 092",
+    "start_datetime": "2020-06-24T00:00:00+00:00",
+    "end_datetime": "2020-07-06T00:00:00+00:00",
+    "coseis:event_id": "us7000abmk",
+    "coseis:event_name": "2020 M 6.3 - 278 km SE of Hotan, China",
+    "coseis:magnitude": 6.3,
+    "coseis:event_date": "2020-06-25",
+    "coseis:pager_alert": "yellow",
+    "coseis:depth_km": 10,
+    "sat:orbit_state": "descending",
+    "coseis:track": "092",
+    "coseis:satellites": "Sentinel-1B_Sentinel-1B",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2020-07-06T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000abmk",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us7000abmk/m_63_278_km_se_of_hotan_china-D092/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_63_278_km_se_of_hotan_china/S1-COSEIS_SAR-D-R-092-tops-20200706_20200624-002509-00082E_00034N-PP-3226-v1_0_0/S1-COSEIS_SAR-D-R-092-tops-20200706_20200624-002509-00082E_00034N-PP-3226-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

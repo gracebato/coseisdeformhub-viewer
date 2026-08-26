@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_62_24_km_se_of_marmara_ereglisi_turkey-D138",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          27.944761867,
+          39.311624027
+        ],
+        [
+          31.751987135,
+          39.311624027
+        ],
+        [
+          31.751987135,
+          42.774682353
+        ],
+        [
+          27.944761867,
+          42.774682353
+        ],
+        [
+          27.944761867,
+          39.311624027
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    27.944761867,
+    39.311624027,
+    31.751987135,
+    42.774682353
+  ],
+  "properties": {
+    "title": "2025 M 6.2 - 24 km SE of Marmara Ere\u011flisi, Turkey \u2014 Descending Track 138",
+    "start_datetime": "2025-04-20T00:00:00+00:00",
+    "end_datetime": "2025-05-02T00:00:00+00:00",
+    "coseis:event_id": "us7000pufs",
+    "coseis:event_name": "2025 M 6.2 - 24 km SE of Marmara Ere\u011flisi, Turkey",
+    "coseis:magnitude": 6.2,
+    "coseis:event_date": "2025-04-23",
+    "coseis:pager_alert": "orange",
+    "coseis:depth_km": 12.736,
+    "sat:orbit_state": "descending",
+    "coseis:track": "138",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2025-05-02T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000pufs",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us7000pufs/m_62_24_km_se_of_marmara_ereglisi_turkey-D138/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_62_24_km_se_of_marmara_ereglisi_turkey/S1-COSEIS_SAR-D-R-138-tops-20250502_20250420-040643-00028E_00039N-PP-ef59-v1_0_0/S1-COSEIS_SAR-D-R-138-tops-20250502_20250420-040643-00028E_00039N-PP-ef59-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

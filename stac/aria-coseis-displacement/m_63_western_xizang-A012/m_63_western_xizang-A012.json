@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_63_western_xizang-A012",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          84.789761743,
+          30.891346713000008
+        ],
+        [
+          88.231708941,
+          30.891346713000008
+        ],
+        [
+          88.231708941,
+          34.27023830500001
+        ],
+        [
+          84.789761743,
+          34.27023830500001
+        ],
+        [
+          84.789761743,
+          30.891346713000008
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    84.789761743,
+    30.891346713000008,
+    88.231708941,
+    34.27023830500001
+  ],
+  "properties": {
+    "title": "2020 M 6.3 - western Xizang \u2014 Ascending Track 012",
+    "start_datetime": "2020-07-18T00:00:00+00:00",
+    "end_datetime": "2020-07-30T00:00:00+00:00",
+    "coseis:event_id": "us6000b26j",
+    "coseis:event_name": "2020 M 6.3 - western Xizang",
+    "coseis:magnitude": 6.3,
+    "coseis:event_date": "2020-07-22",
+    "coseis:pager_alert": "yellow",
+    "coseis:depth_km": 10,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "012",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2020-07-30T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000b26j",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us6000b26j/m_63_western_xizang-A012/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_63_western_xizang/S1-COSEIS_SAR-A-R-012-tops-20200730_20200718-121530-00085E_00031N-PP-2588-v1_0_0/S1-COSEIS_SAR-A-R-012-tops-20200730_20200718-121530-00085E_00031N-PP-2588-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

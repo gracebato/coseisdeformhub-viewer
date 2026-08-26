@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_60_7_km_w_of_corral_falso_mexico-A078",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -101.009860319,
+          16.531070247
+        ],
+        [
+          -98.256524783,
+          16.531070247
+        ],
+        [
+          -98.256524783,
+          18.448016225
+        ],
+        [
+          -101.009860319,
+          18.448016225
+        ],
+        [
+          -101.009860319,
+          16.531070247
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -101.009860319,
+    16.531070247,
+    -98.256524783,
+    18.448016225
+  ],
+  "properties": {
+    "title": "2022 M 6.0 - 7 km W of Corral Falso, Mexico \u2014 Ascending Track 078",
+    "start_datetime": "2022-12-04T00:00:00+00:00",
+    "end_datetime": "2022-12-16T00:00:00+00:00",
+    "coseis:event_id": "us6000j8lp",
+    "coseis:event_name": "2022 M 6.0 - 7 km W of Corral Falso, Mexico",
+    "coseis:magnitude": 6.0,
+    "coseis:event_date": "2022-12-11",
+    "coseis:pager_alert": "yellow",
+    "coseis:depth_km": 18,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "078",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2022-12-16T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000j8lp",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us6000j8lp/m_60_7_km_w_of_corral_falso_mexico-A078/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_60_7_km_w_of_corral_falso_mexico/S1-COSEIS_SAR-A-R-078-tops-20221216_20221204-004832-00101W_00016N-PP-92bd-v1_0_0/S1-COSEIS_SAR-A-R-078-tops-20221216_20221204-004832-00101W_00016N-PP-92bd-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

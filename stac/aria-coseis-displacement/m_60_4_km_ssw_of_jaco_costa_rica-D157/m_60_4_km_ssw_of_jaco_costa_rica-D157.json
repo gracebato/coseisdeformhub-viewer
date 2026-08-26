@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_60_4_km_ssw_of_jaco_costa_rica-D157",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -87.083015933,
+          8.619124272999999
+        ],
+        [
+          -84.148291363,
+          8.619124272999999
+        ],
+        [
+          -84.148291363,
+          11.985793632999998
+        ],
+        [
+          -87.083015933,
+          11.985793632999998
+        ],
+        [
+          -87.083015933,
+          8.619124272999999
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -87.083015933,
+    8.619124272999999,
+    -84.148291363,
+    11.985793632999998
+  ],
+  "properties": {
+    "title": "2020 M 6.0 - 4 km SSW of Jac\u00f3, Costa Rica \u2014 Descending Track 157",
+    "start_datetime": "2020-08-21T00:00:00+00:00",
+    "end_datetime": "2020-09-02T00:00:00+00:00",
+    "coseis:event_id": "us7000bcbv",
+    "coseis:event_name": "2020 M 6.0 - 4 km SSW of Jac\u00f3, Costa Rica",
+    "coseis:magnitude": 6.0,
+    "coseis:event_date": "2020-08-24",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 20,
+    "sat:orbit_state": "descending",
+    "coseis:track": "157",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2020-09-02T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000bcbv",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us7000bcbv/m_60_4_km_ssw_of_jaco_costa_rica-D157/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_60_4_km_ssw_of_jaco_costa_rica/S1-COSEIS_SAR-D-R-157-tops-20200902_20200821-113112-00087W_00009N-PP-3274-v1_0_0/S1-COSEIS_SAR-D-R-157-tops-20200902_20200821-113112-00087W_00009N-PP-3274-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

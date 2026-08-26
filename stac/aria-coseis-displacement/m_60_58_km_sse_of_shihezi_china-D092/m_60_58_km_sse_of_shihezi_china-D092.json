@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_60_58_km_sse_of_shihezi_china-D092",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          84.06226196099999,
+          42.01384681100001
+        ],
+        [
+          88.038654031,
+          42.01384681100001
+        ],
+        [
+          88.038654031,
+          45.472182911000004
+        ],
+        [
+          84.06226196099999,
+          45.472182911000004
+        ],
+        [
+          84.06226196099999,
+          42.01384681100001
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    84.06226196099999,
+    42.01384681100001,
+    88.038654031,
+    45.472182911000004
+  ],
+  "properties": {
+    "title": "2016 M 6.0 - 58 km SSE of Shihezi, China \u2014 Descending Track 092",
+    "start_datetime": "2016-11-24T00:00:00+00:00",
+    "end_datetime": "2016-12-18T00:00:00+00:00",
+    "coseis:event_id": "us20007z2r",
+    "coseis:event_name": "2016 M 6.0 - 58 km SSE of Shihezi, China",
+    "coseis:magnitude": 6.0,
+    "coseis:event_date": "2016-12-08",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 17.55,
+    "sat:orbit_state": "descending",
+    "coseis:track": "092",
+    "coseis:satellites": "Sentinel-1B_Sentinel-1B",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2016-12-18T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us20007z2r",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us20007z2r/m_60_58_km_sse_of_shihezi_china-D092/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_60_58_km_sse_of_shihezi_china/S1-COSEIS_SAR-D-R-092-tops-20161218_20161124-002232-00084E_00042N-PP-c216-v1_0_0/S1-COSEIS_SAR-D-R-092-tops-20161218_20161124-002232-00084E_00042N-PP-c216-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

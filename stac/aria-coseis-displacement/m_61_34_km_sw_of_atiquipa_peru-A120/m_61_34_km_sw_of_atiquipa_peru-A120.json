@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_61_34_km_sw_of_atiquipa_peru-A120",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -75.422460649,
+          -16.789485565
+        ],
+        [
+          -72.641069535,
+          -16.789485565
+        ],
+        [
+          -72.641069535,
+          -14.605317151000001
+        ],
+        [
+          -75.422460649,
+          -14.605317151000001
+        ],
+        [
+          -75.422460649,
+          -16.789485565
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -75.422460649,
+    -16.789485565,
+    -72.641069535,
+    -14.605317151000001
+  ],
+  "properties": {
+    "title": "2024 M 6.1 - 34 km SW of Atiquipa, Peru \u2014 Ascending Track 120",
+    "start_datetime": "2024-06-10T00:00:00+00:00",
+    "end_datetime": "2024-07-28T00:00:00+00:00",
+    "coseis:event_id": "us6000n948",
+    "coseis:event_name": "2024 M 6.1 - 34 km SW of Atiquipa, Peru",
+    "coseis:magnitude": 6.1,
+    "coseis:event_date": "2024-06-29",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 18,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "120",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2024-07-28T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000n948",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us6000n948/m_61_34_km_sw_of_atiquipa_peru-A120/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2024/m_61_34_km_sw_of_atiquipa_peru/S1-COSEIS_SAR-A-R-120-tops-20240728_20240610-232522-00075W_00017S-PP-3c0e-v1_0_0/S1-COSEIS_SAR-A-R-120-tops-20240728_20240610-232522-00075W_00017S-PP-3c0e-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

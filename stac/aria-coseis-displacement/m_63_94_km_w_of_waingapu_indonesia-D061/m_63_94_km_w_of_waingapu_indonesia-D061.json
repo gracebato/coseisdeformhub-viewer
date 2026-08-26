@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_63_94_km_w_of_waingapu_indonesia-D061",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          118.757361717,
+          -10.065279119
+        ],
+        [
+          121.551808397,
+          -10.065279119
+        ],
+        [
+          121.551808397,
+          -7.644166071
+        ],
+        [
+          118.757361717,
+          -7.644166071
+        ],
+        [
+          118.757361717,
+          -10.065279119
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    118.757361717,
+    -10.065279119,
+    121.551808397,
+    -7.644166071
+  ],
+  "properties": {
+    "title": "2016 M 6.3 - 94 km W of Waingapu, Indonesia \u2014 Descending Track 061",
+    "start_datetime": "2016-02-01T00:00:00+00:00",
+    "end_datetime": "2016-02-25T00:00:00+00:00",
+    "coseis:event_id": "us20004zp9",
+    "coseis:event_name": "2016 M 6.3 - 94 km W of Waingapu, Indonesia",
+    "coseis:magnitude": 6.3,
+    "coseis:event_date": "2016-02-12",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 28,
+    "sat:orbit_state": "descending",
+    "coseis:track": "061",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2016-02-25T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us20004zp9",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us20004zp9/m_63_94_km_w_of_waingapu_indonesia-D061/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_63_94_km_w_of_waingapu_indonesia/S1-COSEIS_SAR-D-R-061-tops-20160225_20160201-213636-00119E_00010S-PP-fdc3-v1_0_0/S1-COSEIS_SAR-D-R-061-tops-20160225_20160201-213636-00119E_00010S-PP-fdc3-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

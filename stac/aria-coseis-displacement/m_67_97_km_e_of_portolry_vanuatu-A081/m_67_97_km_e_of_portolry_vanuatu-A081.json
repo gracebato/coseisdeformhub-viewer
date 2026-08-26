@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_67_97_km_e_of_portolry_vanuatu-A081",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          166.944028533,
+          -16.420875759
+        ],
+        [
+          170.061531027,
+          -16.420875759
+        ],
+        [
+          170.061531027,
+          -12.913650731
+        ],
+        [
+          166.944028533,
+          -12.913650731
+        ],
+        [
+          166.944028533,
+          -16.420875759
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    166.944028533,
+    -16.420875759,
+    170.061531027,
+    -12.913650731
+  ],
+  "properties": {
+    "title": "2023 M 6.7 - 97 km E of Port-Olry, Vanuatu \u2014 Ascending Track 081",
+    "start_datetime": "2023-11-17T00:00:00+00:00",
+    "end_datetime": "2023-11-29T00:00:00+00:00",
+    "coseis:event_id": "us6000lq00",
+    "coseis:event_name": "2023 M 6.7 - 97 km E of Port-Olry, Vanuatu",
+    "coseis:magnitude": 6.7,
+    "coseis:event_date": "2023-11-22",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 13,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "081",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2023-11-29T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lq00",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us6000lq00/m_67_97_km_e_of_portolry_vanuatu-A081/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_67_97_km_e_of_portolry_vanuatu/S1-COSEIS_SAR-A-R-081-tops-20231129_20231117-071444-00167E_00017S-PP-3d10-v1_0_0/S1-COSEIS_SAR-A-R-081-tops-20231129_20231117-071444-00167E_00017S-PP-3d10-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

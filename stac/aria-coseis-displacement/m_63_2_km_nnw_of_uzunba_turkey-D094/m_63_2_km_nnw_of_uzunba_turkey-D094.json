@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_63_2_km_nnw_of_uzunba_turkey-D094",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          33.245039885,
+          35.19245726500001
+        ],
+        [
+          36.881431682999995,
+          35.19245726500001
+        ],
+        [
+          36.881431682999995,
+          38.664404487000006
+        ],
+        [
+          33.245039885,
+          38.664404487000006
+        ],
+        [
+          33.245039885,
+          35.19245726500001
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    33.245039885,
+    35.19245726500001,
+    36.881431682999995,
+    38.664404487000006
+  ],
+  "properties": {
+    "title": "2023 M 6.3 - 2 km NNW of Uzunba?, Turkey \u2014 Descending Track 094",
+    "start_datetime": "2023-02-15T00:00:00+00:00",
+    "end_datetime": "2023-02-27T00:00:00+00:00",
+    "coseis:event_id": "us6000jqcn",
+    "coseis:event_name": "2023 M 6.3 - 2 km NNW of Uzunba?, Turkey",
+    "coseis:magnitude": 6.3,
+    "coseis:event_date": "2023-02-20",
+    "coseis:pager_alert": "red",
+    "coseis:depth_km": 16,
+    "sat:orbit_state": "descending",
+    "coseis:track": "094",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2023-02-27T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jqcn",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us6000jqcn/m_63_2_km_nnw_of_uzunba_turkey-D094/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_63_2_km_nnw_of_uzunba_turkey/S1-COSEIS_SAR-D-R-094-tops-20230227_20230215-034312-00033E_00035N-PP-cd3c-v1_0_0/S1-COSEIS_SAR-D-R-094-tops-20230227_20230215-034312-00033E_00035N-PP-cd3c-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

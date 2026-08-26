@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_63_160_km_wsw_of_waingapu_indonesia-A010",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          118.717639463,
+          -11.121112497
+        ],
+        [
+          121.400974943,
+          -11.121112497
+        ],
+        [
+          121.400974943,
+          -8.795832859
+        ],
+        [
+          118.717639463,
+          -8.795832859
+        ],
+        [
+          118.717639463,
+          -11.121112497
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    118.717639463,
+    -11.121112497,
+    121.400974943,
+    -8.795832859
+  ],
+  "properties": {
+    "title": "2019 M 6.3 - 160 km WSW of Waingapu, Indonesia \u2014 Ascending Track 010",
+    "start_datetime": "2019-01-13T00:00:00+00:00",
+    "end_datetime": "2019-01-25T00:00:00+00:00",
+    "coseis:event_id": "us2000j73a",
+    "coseis:event_name": "2019 M 6.3 - 160 km WSW of Waingapu, Indonesia",
+    "coseis:magnitude": 6.3,
+    "coseis:event_date": "2019-01-22",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 24,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "010",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2019-01-25T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us2000j73a",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us2000j73a/m_63_160_km_wsw_of_waingapu_indonesia-A010/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_63_160_km_wsw_of_waingapu_indonesia/S1-COSEIS_SAR-A-R-010-tops-20190125_20190113-102447-00119E_00011S-PP-2de0-v1_0_0/S1-COSEIS_SAR-A-R-010-tops-20190125_20190113-102447-00119E_00011S-PP-2de0-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

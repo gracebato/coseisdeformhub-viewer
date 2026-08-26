@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_63_59_km_sw_of_mendi_papua_new_guinea-A082",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          140.344028853,
+          -7.925835362999999
+        ],
+        [
+          143.337920137,
+          -7.925835362999999
+        ],
+        [
+          143.337920137,
+          -4.445554800999999
+        ],
+        [
+          140.344028853,
+          -4.445554800999999
+        ],
+        [
+          140.344028853,
+          -7.925835362999999
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    140.344028853,
+    -7.925835362999999,
+    143.337920137,
+    -4.445554800999999
+  ],
+  "properties": {
+    "title": "2018 M 6.3 - 59 km SW of Mendi, Papua New Guinea \u2014 Ascending Track 082",
+    "start_datetime": "2018-02-16T00:00:00+00:00",
+    "end_datetime": "2018-02-28T00:00:00+00:00",
+    "coseis:event_id": "us2000d867",
+    "coseis:event_name": "2018 M 6.3 - 59 km SW of Mendi, Papua New Guinea",
+    "coseis:magnitude": 6.3,
+    "coseis:event_date": "2018-02-26",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 19,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "082",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2018-02-28T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us2000d867",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us2000d867/m_63_59_km_sw_of_mendi_papua_new_guinea-A082/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_63_59_km_sw_of_mendi_papua_new_guinea/S1-COSEIS_SAR-A-R-082-tops-20180228_20180216-085511-00140E_00008S-PP-2e83-v1_0_0/S1-COSEIS_SAR-A-R-082-tops-20180228_20180216-085511-00140E_00008S-PP-2e83-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

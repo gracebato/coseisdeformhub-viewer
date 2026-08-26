@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_60_29_km_w_of_arica_chile-A149",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -70.744404551,
+          -20.268653415
+        ],
+        [
+          -67.551068663,
+          -20.268653415
+        ],
+        [
+          -67.551068663,
+          -17.063095295
+        ],
+        [
+          -70.744404551,
+          -17.063095295
+        ],
+        [
+          -70.744404551,
+          -20.268653415
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -70.744404551,
+    -20.268653415,
+    -67.551068663,
+    -17.063095295
+  ],
+  "properties": {
+    "title": "2019 M 6.0 - 29 km W of Arica, Chile \u2014 Ascending Track 149",
+    "start_datetime": "2019-11-30T00:00:00+00:00",
+    "end_datetime": "2019-12-06T00:00:00+00:00",
+    "coseis:event_id": "us70006fh7",
+    "coseis:event_name": "2019 M 6.0 - 29 km W of Arica, Chile",
+    "coseis:magnitude": 6.0,
+    "coseis:event_date": "2019-12-03",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 38,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "149",
+    "coseis:satellites": "Sentinel-1B_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2019-12-06T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us70006fh7",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us70006fh7/m_60_29_km_w_of_arica_chile-A149/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_60_29_km_w_of_arica_chile/S1-COSEIS_SAR-A-R-149-tops-20191206_20191130-230702-00071W_00020S-PP-65c1-v1_0_0/S1-COSEIS_SAR-A-R-149-tops-20191206_20191130-230702-00071W_00020S-PP-65c1-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

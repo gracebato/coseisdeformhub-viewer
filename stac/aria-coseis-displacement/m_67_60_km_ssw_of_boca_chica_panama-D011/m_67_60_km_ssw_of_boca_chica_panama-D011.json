@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_67_60_km_ssw_of_boca_chica_panama-D011",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -83.418016201,
+          6.372735187
+        ],
+        [
+          -80.393291559,
+          6.372735187
+        ],
+        [
+          -80.393291559,
+          10.076627039
+        ],
+        [
+          -83.418016201,
+          10.076627039
+        ],
+        [
+          -83.418016201,
+          6.372735187
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -83.418016201,
+    6.372735187,
+    -80.393291559,
+    10.076627039
+  ],
+  "properties": {
+    "title": "2022 M 6.7 - 60 km SSW of Boca Chica, Panama \u2014 Descending Track 011",
+    "start_datetime": "2022-10-12T00:00:00+00:00",
+    "end_datetime": "2022-10-24T00:00:00+00:00",
+    "coseis:event_id": "us6000iv6c",
+    "coseis:event_name": "2022 M 6.7 - 60 km SSW of Boca Chica, Panama",
+    "coseis:magnitude": 6.7,
+    "coseis:event_date": "2022-10-20",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 20,
+    "sat:orbit_state": "descending",
+    "coseis:track": "011",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2022-10-24T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000iv6c",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us6000iv6c/m_67_60_km_ssw_of_boca_chica_panama-D011/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_67_60_km_ssw_of_boca_chica_panama/S1-COSEIS_SAR-D-R-011-tops-20221024_20221012-111532-00083W_00006N-PP-6be0-v1_0_0/S1-COSEIS_SAR-D-R-011-tops-20221024_20221012-111532-00083W_00006N-PP-6be0-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

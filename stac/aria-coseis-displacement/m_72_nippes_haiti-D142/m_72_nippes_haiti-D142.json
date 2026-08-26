@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_72_nippes_haiti-D142",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -75.00162697900001,
+          17.808569669
+        ],
+        [
+          -72.27606924300001,
+          17.808569669
+        ],
+        [
+          -72.27606924300001,
+          19.653848923
+        ],
+        [
+          -75.00162697900001,
+          19.653848923
+        ],
+        [
+          -75.00162697900001,
+          17.808569669
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -75.00162697900001,
+    17.808569669,
+    -72.27606924300001,
+    19.653848923
+  ],
+  "properties": {
+    "title": "2021 M 7.2 - Nippes, Haiti \u2014 Descending Track 142",
+    "start_datetime": "2021-08-03T00:00:00+00:00",
+    "end_datetime": "2021-08-15T00:00:00+00:00",
+    "coseis:event_id": "us6000f65h",
+    "coseis:event_name": "2021 M 7.2 - Nippes, Haiti",
+    "coseis:magnitude": 7.2,
+    "coseis:event_date": "2021-08-14",
+    "coseis:pager_alert": "red",
+    "coseis:depth_km": 10,
+    "sat:orbit_state": "descending",
+    "coseis:track": "142",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2021-08-15T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000f65h",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us6000f65h/m_72_nippes_haiti-D142/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_72_nippes_haiti/S1-COSEIS_SAR-D-R-142-tops-20210815_20210803-104749-00075W_00018N-PP-8bb8-v1_0_0/S1-COSEIS_SAR-D-R-142-tops-20210815_20210803-104749-00075W_00018N-PP-8bb8-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

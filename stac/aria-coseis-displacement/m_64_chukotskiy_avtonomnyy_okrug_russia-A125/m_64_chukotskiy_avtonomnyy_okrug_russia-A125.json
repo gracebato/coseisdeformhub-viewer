@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_64_chukotskiy_avtonomnyy_okrug_russia-A125",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          166.141806469,
+          60.984125365000004
+        ],
+        [
+          171.716810929,
+          60.984125365000004
+        ],
+        [
+          171.716810929,
+          63.034960339
+        ],
+        [
+          166.141806469,
+          63.034960339
+        ],
+        [
+          166.141806469,
+          60.984125365000004
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    166.141806469,
+    60.984125365000004,
+    171.716810929,
+    63.034960339
+  ],
+  "properties": {
+    "title": "2020 M 6.4 - Chukotskiy Avtonomnyy Okrug, Russia \u2014 Ascending Track 125",
+    "start_datetime": "2019-12-23T00:00:00+00:00",
+    "end_datetime": "2020-01-16T00:00:00+00:00",
+    "coseis:event_id": "us70006wuf",
+    "coseis:event_name": "2020 M 6.4 - Chukotskiy Avtonomnyy Okrug, Russia",
+    "coseis:magnitude": 6.4,
+    "coseis:event_date": "2020-01-09",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 10,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "125",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2020-01-16T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us70006wuf",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us70006wuf/m_64_chukotskiy_avtonomnyy_okrug_russia-A125/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_64_chukotskiy_avtonomnyy_okrug_russia/S1-COSEIS_SAR-A-R-125-tops-20200116_20191223-062131-00166E_00061N-PP-c4e4-v1_0_0/S1-COSEIS_SAR-A-R-125-tops-20200116_20191223-062131-00166E_00061N-PP-c4e4-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

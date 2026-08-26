@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_61_154_km_wsw_of_fakfak_indonesia-D046",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          130.223473201,
+          -4.889448356000001
+        ],
+        [
+          133.223475601,
+          -4.889448356000001
+        ],
+        [
+          133.223475601,
+          -1.311667716
+        ],
+        [
+          130.223473201,
+          -1.311667716
+        ],
+        [
+          130.223473201,
+          -4.889448356000001
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    130.223473201,
+    -4.889448356000001,
+    133.223475601,
+    -1.311667716
+  ],
+  "properties": {
+    "title": "2024 M 6.1 - 154 km WSW of Fakfak, Indonesia \u2014 Descending Track 046",
+    "start_datetime": "2024-04-30T00:00:00+00:00",
+    "end_datetime": "2024-05-12T00:00:00+00:00",
+    "coseis:event_id": "us6000mwjd",
+    "coseis:event_name": "2024 M 6.1 - 154 km WSW of Fakfak, Indonesia",
+    "coseis:magnitude": 6.1,
+    "coseis:event_date": "2024-05-05",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 16,
+    "sat:orbit_state": "descending",
+    "coseis:track": "046",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2024-05-12T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000mwjd",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us6000mwjd/m_61_154_km_wsw_of_fakfak_indonesia-D046/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2024/m_61_154_km_wsw_of_fakfak_indonesia/S1-COSEIS_SAR-D-R-046-tops-20240512_20240430-205440-00130E_00005S-PP-f1fe-v1_0_0/S1-COSEIS_SAR-D-R-046-tops-20240512_20240430-205440-00130E_00005S-PP-f1fe-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

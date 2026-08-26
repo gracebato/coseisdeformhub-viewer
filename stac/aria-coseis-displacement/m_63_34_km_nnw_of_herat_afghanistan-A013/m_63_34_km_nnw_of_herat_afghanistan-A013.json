@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_63_34_km_nnw_of_herat_afghanistan-A013",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          59.596983810999994,
+          33.063569073000004
+        ],
+        [
+          63.113375512999994,
+          33.063569073000004
+        ],
+        [
+          63.113375512999994,
+          36.436071771
+        ],
+        [
+          59.596983810999994,
+          36.436071771
+        ],
+        [
+          59.596983810999994,
+          33.063569073000004
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    59.596983810999994,
+    33.063569073000004,
+    63.113375512999994,
+    36.436071771
+  ],
+  "properties": {
+    "title": "2023 M 6.3 - 34 km NNW of Her\u0101t, Afghanistan \u2014 Ascending Track 013",
+    "start_datetime": "2023-10-07T00:00:00+00:00",
+    "end_datetime": "2023-10-19T00:00:00+00:00",
+    "coseis:event_id": "us6000lfn5",
+    "coseis:event_name": "2023 M 6.3 - 34 km NNW of Her\u0101t, Afghanistan",
+    "coseis:magnitude": 6.3,
+    "coseis:event_date": "2023-10-15",
+    "coseis:pager_alert": "orange",
+    "coseis:depth_km": 9,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "013",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2023-10-19T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000lfn5",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us6000lfn5/m_63_34_km_nnw_of_herat_afghanistan-A013/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_63_34_km_nnw_of_herat_afghanistan/S1-COSEIS_SAR-A-R-013-tops-20231019_20231007-135509-00060E_00033N-PP-72bc-v1_0_0/S1-COSEIS_SAR-A-R-013-tops-20231019_20231007-135509-00060E_00033N-PP-72bc-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

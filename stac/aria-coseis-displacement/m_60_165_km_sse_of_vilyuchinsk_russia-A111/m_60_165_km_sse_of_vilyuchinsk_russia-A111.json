@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_60_165_km_sse_of_vilyuchinsk_russia-A111",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          155.962084103,
+          50.634402863000005
+        ],
+        [
+          160.145976339,
+          50.634402863000005
+        ],
+        [
+          160.145976339,
+          52.82496017100001
+        ],
+        [
+          155.962084103,
+          52.82496017100001
+        ],
+        [
+          155.962084103,
+          50.634402863000005
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    155.962084103,
+    50.634402863000005,
+    160.145976339,
+    52.82496017100001
+  ],
+  "properties": {
+    "title": "2025 M 6.0 - 165 km SSE of Vilyuchinsk, Russia \u2014 Ascending Track 111",
+    "start_datetime": "2025-07-23T00:00:00+00:00",
+    "end_datetime": "2025-08-04T00:00:00+00:00",
+    "coseis:event_id": "us6000qwhj",
+    "coseis:event_name": "2025 M 6.0 - 165 km SSE of Vilyuchinsk, Russia",
+    "coseis:magnitude": 6.0,
+    "coseis:event_date": "2025-07-29",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 35,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "111",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2025-08-04T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qwhj",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us6000qwhj/m_60_165_km_sse_of_vilyuchinsk_russia-A111/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_60_165_km_sse_of_vilyuchinsk_russia/S1-COSEIS_SAR-A-R-111-tops-20250804_20250723-071626-00156E_00051N-PP-1569-v1_0_0/S1-COSEIS_SAR-A-R-111-tops-20250804_20250723-071626-00156E_00051N-PP-1569-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

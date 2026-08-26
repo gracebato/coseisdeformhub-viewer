@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_60_42_km_wnw_of_talcahuano_chile-D156",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -74.781072847,
+          -38.501986935
+        ],
+        [
+          -70.713847371,
+          -38.501986935
+        ],
+        [
+          -70.713847371,
+          -34.783928405
+        ],
+        [
+          -74.781072847,
+          -34.783928405
+        ],
+        [
+          -74.781072847,
+          -38.501986935
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -74.781072847,
+    -38.501986935,
+    -70.713847371,
+    -34.783928405
+  ],
+  "properties": {
+    "title": "2016 M 6.0 - 42 km WNW of Talcahuano, Chile \u2014 Descending Track 156",
+    "start_datetime": "2016-11-04T00:00:00+00:00",
+    "end_datetime": "2016-11-28T00:00:00+00:00",
+    "coseis:event_id": "us10007681",
+    "coseis:event_name": "2016 M 6.0 - 42 km WNW of Talcahuano, Chile",
+    "coseis:magnitude": 6.0,
+    "coseis:event_date": "2016-11-08",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 20,
+    "sat:orbit_state": "descending",
+    "coseis:track": "156",
+    "coseis:satellites": "Sentinel-1B_Sentinel-1B",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2016-11-28T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us10007681",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us10007681/m_60_42_km_wnw_of_talcahuano_chile-D156/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_60_42_km_wnw_of_talcahuano_chile/S1-COSEIS_SAR-D-R-156-tops-20161128_20161104-100421-00075W_00038S-PP-f27b-v1_0_0/S1-COSEIS_SAR-D-R-156-tops-20161128_20161104-100421-00075W_00038S-PP-f27b-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

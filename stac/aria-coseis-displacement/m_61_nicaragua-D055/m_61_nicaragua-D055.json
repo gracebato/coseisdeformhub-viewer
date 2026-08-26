@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_61_nicaragua-D055",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -88.600238569,
+          11.349679613
+        ],
+        [
+          -85.541625011,
+          11.349679613
+        ],
+        [
+          -85.541625011,
+          15.040793677
+        ],
+        [
+          -88.600238569,
+          15.040793677
+        ],
+        [
+          -88.600238569,
+          11.349679613
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -88.600238569,
+    11.349679613,
+    -85.541625011,
+    15.040793677
+  ],
+  "properties": {
+    "title": "2016 M 6.1 - Nicaragua \u2014 Descending Track 055",
+    "start_datetime": "2016-05-19T00:00:00+00:00",
+    "end_datetime": "2016-06-12T00:00:00+00:00",
+    "coseis:event_id": "us200063cy",
+    "coseis:event_name": "2016 M 6.1 - Nicaragua",
+    "coseis:magnitude": 6.1,
+    "coseis:event_date": "2016-06-10",
+    "coseis:pager_alert": "yellow",
+    "coseis:depth_km": 10,
+    "sat:orbit_state": "descending",
+    "coseis:track": "055",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2016-06-12T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us200063cy",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us200063cy/m_61_nicaragua-D055/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_61_nicaragua/S1-COSEIS_SAR-D-R-055-tops-20160612_20160519-113808-00089W_00011N-PP-8594-v1_0_0/S1-COSEIS_SAR-D-R-055-tops-20160612_20160519-113808-00089W_00011N-PP-8594-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

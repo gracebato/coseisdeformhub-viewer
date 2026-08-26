@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_68_7_km_s_of_magsaysay_philippines-D061",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          122.053750843,
+          5.102179415
+        ],
+        [
+          124.988753191,
+          5.102179415
+        ],
+        [
+          124.988753191,
+          8.649126697
+        ],
+        [
+          122.053750843,
+          8.649126697
+        ],
+        [
+          122.053750843,
+          5.102179415
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    122.053750843,
+    5.102179415,
+    124.988753191,
+    8.649126697
+  ],
+  "properties": {
+    "title": "2019 M 6.8 - 7 km S of Magsaysay, Philippines \u2014 Descending Track 061",
+    "start_datetime": "2019-12-06T00:00:00+00:00",
+    "end_datetime": "2019-12-18T00:00:00+00:00",
+    "coseis:event_id": "us60006rp9",
+    "coseis:event_name": "2019 M 6.8 - 7 km S of Magsaysay, Philippines",
+    "coseis:magnitude": 6.8,
+    "coseis:event_date": "2019-12-15",
+    "coseis:pager_alert": "yellow",
+    "coseis:depth_km": 18,
+    "sat:orbit_state": "descending",
+    "coseis:track": "061",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2019-12-18T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us60006rp9",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us60006rp9/m_68_7_km_s_of_magsaysay_philippines-D061/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_68_7_km_s_of_magsaysay_philippines/S1-COSEIS_SAR-D-R-061-tops-20191218_20191206-213243-00122E_00005N-PP-cd49-v1_0_0/S1-COSEIS_SAR-D-R-061-tops-20191218_20191206-213243-00122E_00005N-PP-cd49-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

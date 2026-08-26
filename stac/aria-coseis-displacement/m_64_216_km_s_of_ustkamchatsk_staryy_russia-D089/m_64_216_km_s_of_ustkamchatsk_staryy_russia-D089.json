@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_64_216_km_s_of_ustkamchatsk_staryy_russia-D089",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          160.840695117,
+          54.111069911
+        ],
+        [
+          165.330420931,
+          54.111069911
+        ],
+        [
+          165.330420931,
+          55.911904685
+        ],
+        [
+          160.840695117,
+          55.911904685
+        ],
+        [
+          160.840695117,
+          54.111069911
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    160.840695117,
+    54.111069911,
+    165.330420931,
+    55.911904685
+  ],
+  "properties": {
+    "title": "2016 M 6.4 - 216 km S of Ust\u2019-Kamchatsk Staryy, Russia \u2014 Descending Track 089",
+    "start_datetime": "2016-03-10T00:00:00+00:00",
+    "end_datetime": "2016-04-03T00:00:00+00:00",
+    "coseis:event_id": "us20005bbh",
+    "coseis:event_name": "2016 M 6.4 - 216 km S of Ust\u2019-Kamchatsk Staryy, Russia",
+    "coseis:magnitude": 6.4,
+    "coseis:event_date": "2016-03-20",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 30,
+    "sat:orbit_state": "descending",
+    "coseis:track": "089",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2016-04-03T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us20005bbh",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us20005bbh/m_64_216_km_s_of_ustkamchatsk_staryy_russia-D089/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_64_216_km_s_of_ustkamchatsk_staryy_russia/S1-COSEIS_SAR-D-R-089-tops-20160403_20160310-192346-00161E_00054N-PP-c33e-v1_0_0/S1-COSEIS_SAR-D-R-089-tops-20160403_20160310-192346-00161E_00054N-PP-c33e-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

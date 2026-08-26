@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_70_128_km_wnw_of_aykol_china-A056",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          76.47698371499999,
+          39.551901997
+        ],
+        [
+          80.32282012499999,
+          39.551901997
+        ],
+        [
+          80.32282012499999,
+          42.913293575000004
+        ],
+        [
+          76.47698371499999,
+          42.913293575000004
+        ],
+        [
+          76.47698371499999,
+          39.551901997
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    76.47698371499999,
+    39.551901997,
+    80.32282012499999,
+    42.913293575000004
+  ],
+  "properties": {
+    "title": "2024 M 7.0 - 128 km WNW of Aykol, China \u2014 Ascending Track 056",
+    "start_datetime": "2024-01-14T00:00:00+00:00",
+    "end_datetime": "2024-01-26T00:00:00+00:00",
+    "coseis:event_id": "us7000lsze",
+    "coseis:event_name": "2024 M 7.0 - 128 km WNW of Aykol, China",
+    "coseis:magnitude": 7.0,
+    "coseis:event_date": "2024-01-22",
+    "coseis:pager_alert": "red",
+    "coseis:depth_km": 13,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "056",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2024-01-26T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lsze",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us7000lsze/m_70_128_km_wnw_of_aykol_china-A056/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2024/m_70_128_km_wnw_of_aykol_china/S1-COSEIS_SAR-A-R-056-tops-20240126_20240114-124250-00077E_00040N-PP-c6a4-v1_0_0/S1-COSEIS_SAR-A-R-056-tops-20240126_20240114-124250-00077E_00040N-PP-c6a4-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

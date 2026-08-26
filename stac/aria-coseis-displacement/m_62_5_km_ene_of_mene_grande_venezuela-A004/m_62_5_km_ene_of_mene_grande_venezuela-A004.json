@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_62_5_km_ene_of_mene_grande_venezuela-A004",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -72.84829352300001,
+          8.299401795
+        ],
+        [
+          -69.929124521,
+          8.299401795
+        ],
+        [
+          -69.929124521,
+          11.571071079
+        ],
+        [
+          -72.84829352300001,
+          11.571071079
+        ],
+        [
+          -72.84829352300001,
+          8.299401795
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -72.84829352300001,
+    8.299401795,
+    -69.929124521,
+    11.571071079
+  ],
+  "properties": {
+    "title": "2025 M 6.2 - 5 km ENE of Mene Grande, Venezuela \u2014 Ascending Track 004",
+    "start_datetime": "2025-09-19T00:00:00+00:00",
+    "end_datetime": "2025-09-25T00:00:00+00:00",
+    "coseis:event_id": "us6000rcnw",
+    "coseis:event_name": "2025 M 6.2 - 5 km ENE of Mene Grande, Venezuela",
+    "coseis:magnitude": 6.2,
+    "coseis:event_date": "2025-09-24",
+    "coseis:pager_alert": "yellow",
+    "coseis:depth_km": 9,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "004",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1C",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2025-09-25T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rcnw",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us6000rcnw/m_62_5_km_ene_of_mene_grande_venezuela-A004/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_62_5_km_ene_of_mene_grande_venezuela/S1-COSEIS_SAR-A-R-004-tops-20250925_20250919-225927-00073W_00008N-PP-778b-v1_0_0/S1-COSEIS_SAR-A-R-004-tops-20250925_20250919-225927-00073W_00008N-PP-778b-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

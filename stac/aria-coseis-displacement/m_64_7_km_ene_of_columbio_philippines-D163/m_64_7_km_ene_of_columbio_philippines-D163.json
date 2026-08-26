@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_64_7_km_ene_of_columbio_philippines-D163",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          124.199584293,
+          5.544720569000001
+        ],
+        [
+          126.828475285,
+          5.544720569000001
+        ],
+        [
+          126.828475285,
+          7.591666651000001
+        ],
+        [
+          124.199584293,
+          7.591666651000001
+        ],
+        [
+          124.199584293,
+          5.544720569000001
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    124.199584293,
+    5.544720569000001,
+    126.828475285,
+    7.591666651000001
+  ],
+  "properties": {
+    "title": "2019 M 6.4 - 7 km ENE of Columbio, Philippines \u2014 Descending Track 163",
+    "start_datetime": "2019-10-14T00:00:00+00:00",
+    "end_datetime": "2019-10-26T00:00:00+00:00",
+    "coseis:event_id": "us70005ulm",
+    "coseis:event_name": "2019 M 6.4 - 7 km ENE of Columbio, Philippines",
+    "coseis:magnitude": 6.4,
+    "coseis:event_date": "2019-10-16",
+    "coseis:pager_alert": "yellow",
+    "coseis:depth_km": 16.12,
+    "sat:orbit_state": "descending",
+    "coseis:track": "163",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2019-10-26T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us70005ulm",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us70005ulm/m_64_7_km_ene_of_columbio_philippines-D163/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_64_7_km_ene_of_columbio_philippines/S1-COSEIS_SAR-D-R-163-tops-20191026_20191014-212435-00124E_00006N-PP-25a0-v1_0_0/S1-COSEIS_SAR-D-R-163-tops-20191026_20191014-212435-00124E_00006N-PP-25a0-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

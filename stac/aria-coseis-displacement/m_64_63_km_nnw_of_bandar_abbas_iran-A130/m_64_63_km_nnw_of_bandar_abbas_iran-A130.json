@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_64_63_km_nnw_of_bandar_abbas_iran-A130",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          52.987817457,
+          25.987180123
+        ],
+        [
+          56.264764523,
+          25.987180123
+        ],
+        [
+          56.264764523,
+          29.376349501
+        ],
+        [
+          52.987817457,
+          29.376349501
+        ],
+        [
+          52.987817457,
+          25.987180123
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    52.987817457,
+    25.987180123,
+    56.264764523,
+    29.376349501
+  ],
+  "properties": {
+    "title": "2021 M 6.4 - 63 km NNW of Bandar Abbas, Iran \u2014 Ascending Track 130",
+    "start_datetime": "2021-11-06T00:00:00+00:00",
+    "end_datetime": "2021-11-18T00:00:00+00:00",
+    "coseis:event_id": "us7000fu12",
+    "coseis:event_name": "2021 M 6.4 - 63 km NNW of Bandar Abbas, Iran",
+    "coseis:magnitude": 6.4,
+    "coseis:event_date": "2021-11-14",
+    "coseis:pager_alert": "red",
+    "coseis:depth_km": 10,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "130",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2021-11-18T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000fu12",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us7000fu12/m_64_63_km_nnw_of_bandar_abbas_iran-A130/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_64_63_km_nnw_of_bandar_abbas_iran/S1-COSEIS_SAR-A-R-130-tops-20211118_20211106-142555-00053E_00026N-PP-b08b-v1_0_0/S1-COSEIS_SAR-A-R-130-tops-20211118_20211106-142555-00053E_00026N-PP-b08b-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

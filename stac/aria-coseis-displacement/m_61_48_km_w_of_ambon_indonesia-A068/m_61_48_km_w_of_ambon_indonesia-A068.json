@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_61_48_km_w_of_ambon_indonesia-A068",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          125.513750411,
+          -4.595002765
+        ],
+        [
+          128.14986363100002,
+          -4.595002765
+        ],
+        [
+          128.14986363100002,
+          -2.290556477
+        ],
+        [
+          125.513750411,
+          -2.290556477
+        ],
+        [
+          125.513750411,
+          -4.595002765
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    125.513750411,
+    -4.595002765,
+    128.14986363100002,
+    -2.290556477
+  ],
+  "properties": {
+    "title": "2017 M 6.1 - 48 km W of Ambon, Indonesia \u2014 Ascending Track 068",
+    "start_datetime": "2017-10-30T00:00:00+00:00",
+    "end_datetime": "2017-11-11T00:00:00+00:00",
+    "coseis:event_id": "us1000ayz8",
+    "coseis:event_name": "2017 M 6.1 - 48 km W of Ambon, Indonesia",
+    "coseis:magnitude": 6.1,
+    "coseis:event_date": "2017-10-31",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 6,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "068",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2017-11-11T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us1000ayz8",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us1000ayz8/m_61_48_km_w_of_ambon_indonesia-A068/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_61_48_km_w_of_ambon_indonesia/S1-COSEIS_SAR-A-R-068-tops-20171111_20171030-095336-00126E_00005S-PP-b0bb-v1_0_0/S1-COSEIS_SAR-A-R-068-tops-20171111_20171030-095336-00126E_00005S-PP-b0bb-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

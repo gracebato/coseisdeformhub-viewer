@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_61_230_km_w_of_abepura_indonesia-A053",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          135.519861527,
+          -4.775003820000001
+        ],
+        [
+          138.476808337,
+          -4.775003820000001
+        ],
+        [
+          138.476808337,
+          -1.14027869
+        ],
+        [
+          135.519861527,
+          -1.14027869
+        ],
+        [
+          135.519861527,
+          -4.775003820000001
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    135.519861527,
+    -4.775003820000001,
+    138.476808337,
+    -1.14027869
+  ],
+  "properties": {
+    "title": "2019 M 6.1 - 230 km W of Abepura, Indonesia \u2014 Ascending Track 053",
+    "start_datetime": "2019-06-21T00:00:00+00:00",
+    "end_datetime": "2019-07-03T00:00:00+00:00",
+    "coseis:event_id": "us600044z4",
+    "coseis:event_name": "2019 M 6.1 - 230 km W of Abepura, Indonesia",
+    "coseis:magnitude": 6.1,
+    "coseis:event_date": "2019-06-24",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 28,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "053",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2019-07-03T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us600044z4",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us600044z4/m_61_230_km_w_of_abepura_indonesia-A053/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_61_230_km_w_of_abepura_indonesia/S1-COSEIS_SAR-A-R-053-tops-20190703_20190621-091244-00136E_00005S-PP-b55d-v1_0_0/S1-COSEIS_SAR-A-R-053-tops-20190703_20190621-091244-00136E_00005S-PP-b55d-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_60_5_km_ssw_of_pangyan_philippines-D163",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          123.89263960299999,
+          4.0427749230000005
+        ],
+        [
+          126.82597528299999,
+          4.0427749230000005
+        ],
+        [
+          126.82597528299999,
+          7.592222207000001
+        ],
+        [
+          123.89263960299999,
+          7.592222207000001
+        ],
+        [
+          123.89263960299999,
+          4.0427749230000005
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    123.89263960299999,
+    4.0427749230000005,
+    126.82597528299999,
+    7.592222207000001
+  ],
+  "properties": {
+    "title": "2026 M 6.0 - 5 km SSW of Pangyan, Philippines \u2014 Descending Track 163",
+    "start_datetime": "2026-06-03T00:00:00+00:00",
+    "end_datetime": "2026-06-15T00:00:00+00:00",
+    "coseis:event_id": "us7000src3",
+    "coseis:event_name": "2026 M 6.0 - 5 km SSW of Pangyan, Philippines",
+    "coseis:magnitude": 6.0,
+    "coseis:event_date": "2026-06-07",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 35,
+    "sat:orbit_state": "descending",
+    "coseis:track": "163",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2026-06-15T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000src3",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us7000src3/m_60_5_km_ssw_of_pangyan_philippines-D163/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2026/m_60_5_km_ssw_of_pangyan_philippines/S1-COSEIS_SAR-D-R-163-tops-20260615_20260603-212447-00124E_00004N-PP-f654-v1_0_0/S1-COSEIS_SAR-D-R-163-tops-20260615_20260603-212447-00124E_00004N-PP-f654-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

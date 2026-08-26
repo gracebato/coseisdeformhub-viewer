@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_63_83_km_nw_of_portvila_vanuatu-A081",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          167.641806069,
+          -17.917541223
+        ],
+        [
+          170.438752751,
+          -17.917541223
+        ],
+        [
+          170.438752751,
+          -15.895039605000001
+        ],
+        [
+          167.641806069,
+          -15.895039605000001
+        ],
+        [
+          167.641806069,
+          -17.917541223
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    167.641806069,
+    -17.917541223,
+    170.438752751,
+    -15.895039605000001
+  ],
+  "properties": {
+    "title": "2024 M 6.3 - 83 km NW of Port-Vila, Vanuatu \u2014 Ascending Track 081",
+    "start_datetime": "2024-05-15T00:00:00+00:00",
+    "end_datetime": "2024-05-27T00:00:00+00:00",
+    "coseis:event_id": "us6000n102",
+    "coseis:event_name": "2024 M 6.3 - 83 km NW of Port-Vila, Vanuatu",
+    "coseis:magnitude": 6.3,
+    "coseis:event_date": "2024-05-25",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 22,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "081",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2024-05-27T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000n102",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us6000n102/m_63_83_km_nw_of_portvila_vanuatu-A081/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2024/m_63_83_km_nw_of_portvila_vanuatu/S1-COSEIS_SAR-A-R-081-tops-20240527_20240515-071405-00168E_00018S-PP-c407-v1_0_0/S1-COSEIS_SAR-A-R-081-tops-20240527_20240515-071405-00168E_00018S-PP-c407-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

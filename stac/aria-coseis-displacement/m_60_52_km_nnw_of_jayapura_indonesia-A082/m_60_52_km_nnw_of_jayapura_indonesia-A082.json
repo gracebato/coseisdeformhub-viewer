@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_60_52_km_nnw_of_jayapura_indonesia-A082",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          139.701528339,
+          -3.5911130730000003
+        ],
+        [
+          142.375697145,
+          -3.5911130730000003
+        ],
+        [
+          142.375697145,
+          -1.2875001190000002
+        ],
+        [
+          139.701528339,
+          -1.2875001190000002
+        ],
+        [
+          139.701528339,
+          -3.5911130730000003
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    139.701528339,
+    -3.5911130730000003,
+    142.375697145,
+    -1.2875001190000002
+  ],
+  "properties": {
+    "title": "2016 M 6.0 - 52 km NNW of Jayapura, Indonesia \u2014 Ascending Track 082",
+    "start_datetime": "2016-08-13T00:00:00+00:00",
+    "end_datetime": "2016-09-30T00:00:00+00:00",
+    "coseis:event_id": "us10006qas",
+    "coseis:event_name": "2016 M 6.0 - 52 km NNW of Jayapura, Indonesia",
+    "coseis:magnitude": 6.0,
+    "coseis:event_date": "2016-09-17",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 9,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "082",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2016-09-30T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us10006qas",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us10006qas/m_60_52_km_nnw_of_jayapura_indonesia-A082/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_60_52_km_nnw_of_jayapura_indonesia/S1-COSEIS_SAR-A-R-082-tops-20160930_20160813-085610-00140E_00004S-PP-ef46-v1_0_0/S1-COSEIS_SAR-A-R-082-tops-20160930_20160813-085610-00140E_00004S-PP-ef46-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

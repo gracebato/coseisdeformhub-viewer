@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_69_8_km_ese_of_calape_philippines-A069",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          122.385973331,
+          9.916903088999998
+        ],
+        [
+          125.180420011,
+          9.916903088999998
+        ],
+        [
+          125.180420011,
+          12.512182943
+        ],
+        [
+          122.385973331,
+          12.512182943
+        ],
+        [
+          122.385973331,
+          9.916903088999998
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    122.385973331,
+    9.916903088999998,
+    125.180420011,
+    12.512182943
+  ],
+  "properties": {
+    "title": "2025 M 6.9 - 8 km ESE of Calape, Philippines \u2014 Ascending Track 069",
+    "start_datetime": "2025-09-30T00:00:00+00:00",
+    "end_datetime": "2025-10-06T00:00:00+00:00",
+    "coseis:event_id": "us6000rdrz",
+    "coseis:event_name": "2025 M 6.9 - 8 km ESE of Calape, Philippines",
+    "coseis:magnitude": 6.9,
+    "coseis:event_date": "2025-09-30",
+    "coseis:pager_alert": "orange",
+    "coseis:depth_km": 10,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "069",
+    "coseis:satellites": "Sentinel-1C_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2025-10-06T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rdrz",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us6000rdrz/m_69_8_km_ese_of_calape_philippines-A069/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_69_8_km_ese_of_calape_philippines/S1-COSEIS_SAR-A-R-069-tops-20251006_20250930-095705-00122E_00010N-PP-6448-v1_0_0/S1-COSEIS_SAR-A-R-069-tops-20251006_20250930-095705-00122E_00010N-PP-6448-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

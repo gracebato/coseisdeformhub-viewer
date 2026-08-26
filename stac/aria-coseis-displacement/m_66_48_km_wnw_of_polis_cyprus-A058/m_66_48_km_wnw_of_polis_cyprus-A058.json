@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_66_48_km_wnw_of_polis_cyprus-A058",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          28.886706264999997,
+          33.934680881
+        ],
+        [
+          32.128375524999996,
+          33.934680881
+        ],
+        [
+          32.128375524999996,
+          35.821071279
+        ],
+        [
+          28.886706264999997,
+          35.821071279
+        ],
+        [
+          28.886706264999997,
+          33.934680881
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    28.886706264999997,
+    33.934680881,
+    32.128375524999996,
+    35.821071279
+  ],
+  "properties": {
+    "title": "2022 M 6.6 - 48 km WNW of P\u00f3lis, Cyprus \u2014 Ascending Track 058",
+    "start_datetime": "2021-12-31T00:00:00+00:00",
+    "end_datetime": "2022-01-12T00:00:00+00:00",
+    "coseis:event_id": "us7000gaqu",
+    "coseis:event_name": "2022 M 6.6 - 48 km WNW of P\u00f3lis, Cyprus",
+    "coseis:magnitude": 6.6,
+    "coseis:event_date": "2022-01-11",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 21,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "058",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2022-01-12T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000gaqu",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us7000gaqu/m_66_48_km_wnw_of_polis_cyprus-A058/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_66_48_km_wnw_of_polis_cyprus/S1-COSEIS_SAR-A-R-058-tops-20220112_20211231-155823-00029E_00034N-PP-56a1-v1_0_0/S1-COSEIS_SAR-A-R-058-tops-20220112_20211231-155823-00029E_00034N-PP-56a1-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

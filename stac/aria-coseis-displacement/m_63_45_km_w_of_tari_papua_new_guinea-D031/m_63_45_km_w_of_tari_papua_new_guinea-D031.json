@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_63_45_km_w_of_tari_papua_new_guinea-D031",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          139.879584037,
+          -7.709169322999999
+        ],
+        [
+          142.902642011,
+          -7.709169322999999
+        ],
+        [
+          142.902642011,
+          -4.123055343
+        ],
+        [
+          139.879584037,
+          -4.123055343
+        ],
+        [
+          139.879584037,
+          -7.709169322999999
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    139.879584037,
+    -7.709169322999999,
+    142.902642011,
+    -4.123055343
+  ],
+  "properties": {
+    "title": "2018 M 6.3 - 45 km W of Tari, Papua New Guinea \u2014 Descending Track 031",
+    "start_datetime": "2018-04-01T00:00:00+00:00",
+    "end_datetime": "2018-04-13T00:00:00+00:00",
+    "coseis:event_id": "us2000dvwq",
+    "coseis:event_name": "2018 M 6.3 - 45 km W of Tari, Papua New Guinea",
+    "coseis:magnitude": 6.3,
+    "coseis:event_date": "2018-04-07",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 18.07,
+    "sat:orbit_state": "descending",
+    "coseis:track": "031",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2018-04-13T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us2000dvwq",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us2000dvwq/m_63_45_km_w_of_tari_papua_new_guinea-D031/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_63_45_km_w_of_tari_papua_new_guinea/S1-COSEIS_SAR-D-R-031-tops-20180413_20180401-201343-00140E_00008S-PP-6a98-v1_0_0/S1-COSEIS_SAR-D-R-031-tops-20180413_20180401-201343-00140E_00008S-PP-6a98-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

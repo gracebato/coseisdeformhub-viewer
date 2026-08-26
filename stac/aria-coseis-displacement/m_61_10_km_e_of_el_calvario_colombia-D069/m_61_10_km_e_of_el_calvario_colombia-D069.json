@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_61_10_km_e_of_el_calvario_colombia-D069",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -75.79051569900001,
+          3.338052937
+        ],
+        [
+          -72.85690224100001,
+          3.338052937
+        ],
+        [
+          -72.85690224100001,
+          6.889166889
+        ],
+        [
+          -75.79051569900001,
+          6.889166889
+        ],
+        [
+          -75.79051569900001,
+          3.338052937
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -75.79051569900001,
+    3.338052937,
+    -72.85690224100001,
+    6.889166889
+  ],
+  "properties": {
+    "title": "2023 M 6.1 - 10 km E of El Calvario, Colombia \u2014 Descending Track 069",
+    "start_datetime": "2023-08-12T00:00:00+00:00",
+    "end_datetime": "2023-08-24T00:00:00+00:00",
+    "coseis:event_id": "us7000kp2i",
+    "coseis:event_name": "2023 M 6.1 - 10 km E of El Calvario, Colombia",
+    "coseis:magnitude": 6.1,
+    "coseis:event_date": "2023-08-17",
+    "coseis:pager_alert": "yellow",
+    "coseis:depth_km": 10,
+    "sat:orbit_state": "descending",
+    "coseis:track": "069",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2023-08-24T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kp2i",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us7000kp2i/m_61_10_km_e_of_el_calvario_colombia-D069/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_61_10_km_e_of_el_calvario_colombia/S1-COSEIS_SAR-D-R-069-tops-20230824_20230812-104331-00076W_00003N-PP-b279-v1_0_0/S1-COSEIS_SAR-D-R-069-tops-20230824_20230812-104331-00076W_00003N-PP-b279-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_64_4_km_sw_of_palekastro_greece-D036",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          24.741706149,
+          33.729125161000006
+        ],
+        [
+          28.093653274999998,
+          33.729125161000006
+        ],
+        [
+          28.093653274999998,
+          36.371905053000006
+        ],
+        [
+          24.741706149,
+          36.371905053000006
+        ],
+        [
+          24.741706149,
+          33.729125161000006
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    24.741706149,
+    33.729125161000006,
+    28.093653274999998,
+    36.371905053000006
+  ],
+  "properties": {
+    "title": "2021 M 6.4 - 4 km SW of Palekastro, Greece \u2014 Descending Track 036",
+    "start_datetime": "2021-10-07T00:00:00+00:00",
+    "end_datetime": "2021-10-13T00:00:00+00:00",
+    "coseis:event_id": "us6000ftxu",
+    "coseis:event_name": "2021 M 6.4 - 4 km SW of Palekastro, Greece",
+    "coseis:magnitude": 6.4,
+    "coseis:event_date": "2021-10-12",
+    "coseis:pager_alert": "yellow",
+    "coseis:depth_km": 20,
+    "sat:orbit_state": "descending",
+    "coseis:track": "036",
+    "coseis:satellites": "Sentinel-1B_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2021-10-13T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ftxu",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us6000ftxu/m_64_4_km_sw_of_palekastro_greece-D036/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_64_4_km_sw_of_palekastro_greece/S1-COSEIS_SAR-D-R-036-tops-20211013_20211007-041601-00025E_00034N-PP-519b-v1_0_0/S1-COSEIS_SAR-D-R-036-tops-20211013_20211007-041601-00025E_00034N-PP-519b-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

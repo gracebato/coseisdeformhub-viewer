@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_61_65_km_nnw_of_bukittinggi_indonesia-D091",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          100.17615094099999,
+          -1.263057855
+        ],
+        [
+          103.10087550299998,
+          -1.263057855
+        ],
+        [
+          103.10087550299998,
+          2.297778327
+        ],
+        [
+          100.17615094099999,
+          2.297778327
+        ],
+        [
+          100.17615094099999,
+          -1.263057855
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    100.17615094099999,
+    -1.263057855,
+    103.10087550299998,
+    2.297778327
+  ],
+  "properties": {
+    "title": "2022 M 6.1 - 65 km NNW of Bukittinggi, Indonesia \u2014 Descending Track 091",
+    "start_datetime": "2022-02-19T00:00:00+00:00",
+    "end_datetime": "2022-03-03T00:00:00+00:00",
+    "coseis:event_id": "us6000gzyg",
+    "coseis:event_name": "2022 M 6.1 - 65 km NNW of Bukittinggi, Indonesia",
+    "coseis:magnitude": 6.1,
+    "coseis:event_date": "2022-02-25",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 4,
+    "sat:orbit_state": "descending",
+    "coseis:track": "091",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2022-03-03T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000gzyg",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us6000gzyg/m_61_65_km_nnw_of_bukittinggi_indonesia-D091/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_61_65_km_nnw_of_bukittinggi_indonesia/S1-COSEIS_SAR-D-R-091-tops-20220303_20220219-225654-00100E_00001S-PP-f2a7-v1_0_0/S1-COSEIS_SAR-D-R-091-tops-20220303_20220219-225654-00100E_00001S-PP-f2a7-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

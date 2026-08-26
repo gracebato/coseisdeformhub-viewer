@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_65_91_km_s_of_nea_anatoli_greece-A102",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          22.826150661,
+          31.969957887000003
+        ],
+        [
+          26.316431231,
+          31.969957887000003
+        ],
+        [
+          26.316431231,
+          35.348016145
+        ],
+        [
+          22.826150661,
+          35.348016145
+        ],
+        [
+          22.826150661,
+          31.969957887000003
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    22.826150661,
+    31.969957887000003,
+    26.316431231,
+    35.348016145
+  ],
+  "properties": {
+    "title": "2020 M 6.5 - 91 km S of N\u00e9a Anatol\u00ed, Greece \u2014 Ascending Track 102",
+    "start_datetime": "2020-05-01T00:00:00+00:00",
+    "end_datetime": "2020-05-07T00:00:00+00:00",
+    "coseis:event_id": "us700098qd",
+    "coseis:event_name": "2020 M 6.5 - 91 km S of N\u00e9a Anatol\u00ed, Greece",
+    "coseis:magnitude": 6.5,
+    "coseis:event_date": "2020-05-02",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 10,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "102",
+    "coseis:satellites": "Sentinel-1B_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2020-05-07T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us700098qd",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us700098qd/m_65_91_km_s_of_nea_anatoli_greece-A102/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_65_91_km_s_of_nea_anatoli_greece/S1-COSEIS_SAR-A-R-102-tops-20200507_20200501-162152-00023E_00032N-PP-a5bb-v1_0_0/S1-COSEIS_SAR-A-R-102-tops-20200507_20200501-162152-00023E_00032N-PP-a5bb-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

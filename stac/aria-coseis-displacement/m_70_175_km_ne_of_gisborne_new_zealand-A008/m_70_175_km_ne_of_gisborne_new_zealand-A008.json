@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_70_175_km_ne_of_gisborne_new_zealand-A008",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          175.635694953,
+          -40.368931272999994
+        ],
+        [
+          179.71819821900002,
+          -40.368931272999994
+        ],
+        [
+          179.71819821900002,
+          -36.449761470999995
+        ],
+        [
+          175.635694953,
+          -36.449761470999995
+        ],
+        [
+          175.635694953,
+          -40.368931272999994
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    175.635694953,
+    -40.368931272999994,
+    179.71819821900002,
+    -36.449761470999995
+  ],
+  "properties": {
+    "title": "2016 M 7.0 - 175 km NE of Gisborne, New Zealand \u2014 Ascending Track 008",
+    "start_datetime": "2016-08-20T00:00:00+00:00",
+    "end_datetime": "2016-09-13T00:00:00+00:00",
+    "coseis:event_id": "us10006jbi",
+    "coseis:event_name": "2016 M 7.0 - 175 km NE of Gisborne, New Zealand",
+    "coseis:magnitude": 7.0,
+    "coseis:event_date": "2016-09-01",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 19,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "008",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2016-09-13T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us10006jbi",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us10006jbi/m_70_175_km_ne_of_gisborne_new_zealand-A008/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_70_175_km_ne_of_gisborne_new_zealand/S1-COSEIS_SAR-A-R-008-tops-20160913_20160820-065912-00176E_00040S-PP-fde5-v1_0_0/S1-COSEIS_SAR-A-R-008-tops-20160913_20160820-065912-00176E_00040S-PP-fde5-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_63_106_km_ssw_of_barra_de_navidad_mexico-A049",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -105.362916157,
+          17.516902768999998
+        ],
+        [
+          -102.609025065,
+          17.516902768999998
+        ],
+        [
+          -102.609025065,
+          19.761349009
+        ],
+        [
+          -105.362916157,
+          19.761349009
+        ],
+        [
+          -105.362916157,
+          17.516902768999998
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -105.362916157,
+    17.516902768999998,
+    -102.609025065,
+    19.761349009
+  ],
+  "properties": {
+    "title": "2016 M 6.3 - 106 km SSW of Barra de Navidad, Mexico \u2014 Ascending Track 049",
+    "start_datetime": "2016-05-31T00:00:00+00:00",
+    "end_datetime": "2016-06-12T00:00:00+00:00",
+    "coseis:event_id": "us200062i1",
+    "coseis:event_name": "2016 M 6.3 - 106 km SSW of Barra de Navidad, Mexico",
+    "coseis:magnitude": 6.3,
+    "coseis:event_date": "2016-06-07",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 10,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "049",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2016-06-12T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us200062i1",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us200062i1/m_63_106_km_ssw_of_barra_de_navidad_mexico-A049/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_63_106_km_ssw_of_barra_de_navidad_mexico/S1-COSEIS_SAR-A-R-049-tops-20160612_20160531-010439-00105W_00018N-PP-c236-v1_0_0/S1-COSEIS_SAR-A-R-049-tops-20160612_20160531-010439-00105W_00018N-PP-c236-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

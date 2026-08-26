@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_62_30_km_se_of_mazare_sharif_afghanistan-A144",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          65.307262157,
+          34.96523566100001
+        ],
+        [
+          68.907820593,
+          34.96523566100001
+        ],
+        [
+          68.907820593,
+          38.334127245000005
+        ],
+        [
+          65.307262157,
+          38.334127245000005
+        ],
+        [
+          65.307262157,
+          34.96523566100001
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    65.307262157,
+    34.96523566100001,
+    68.907820593,
+    38.334127245000005
+  ],
+  "properties": {
+    "title": "2025 M 6.2 - 30 km SE of Maz\u0101r-e Shar\u012bf, Afghanistan \u2014 Ascending Track 144",
+    "start_datetime": "2025-10-29T00:00:00+00:00",
+    "end_datetime": "2025-11-10T00:00:00+00:00",
+    "coseis:event_id": "us6000rl31",
+    "coseis:event_name": "2025 M 6.2 - 30 km SE of Maz\u0101r-e Shar\u012bf, Afghanistan",
+    "coseis:magnitude": 6.2,
+    "coseis:event_date": "2025-11-02",
+    "coseis:pager_alert": "orange",
+    "coseis:depth_km": 28,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "144",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2025-11-10T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000rl31",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us6000rl31/m_62_30_km_se_of_mazare_sharif_afghanistan-A144/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_62_30_km_se_of_mazare_sharif_afghanistan/S1-COSEIS_SAR-A-R-144-tops-20251110_20251029-133046-00065E_00035N-PP-9396-v1_0_0/S1-COSEIS_SAR-A-R-144-tops-20251110_20251029-133046-00065E_00035N-PP-9396-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

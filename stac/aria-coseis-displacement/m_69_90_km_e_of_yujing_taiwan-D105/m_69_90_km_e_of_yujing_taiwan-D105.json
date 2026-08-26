@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_69_90_km_e_of_yujing_taiwan-D105",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          119.246528775,
+          22.253570025
+        ],
+        [
+          122.103475505,
+          22.253570025
+        ],
+        [
+          122.103475505,
+          24.255793849
+        ],
+        [
+          119.246528775,
+          24.255793849
+        ],
+        [
+          119.246528775,
+          22.253570025
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    119.246528775,
+    22.253570025,
+    122.103475505,
+    24.255793849
+  ],
+  "properties": {
+    "title": "2022 M 6.9 - 90 km E of Yujing, Taiwan \u2014 Descending Track 105",
+    "start_datetime": "2022-09-12T00:00:00+00:00",
+    "end_datetime": "2022-09-24T00:00:00+00:00",
+    "coseis:event_id": "us7000i90q",
+    "coseis:event_name": "2022 M 6.9 - 90 km E of Yujing, Taiwan",
+    "coseis:magnitude": 6.9,
+    "coseis:event_date": "2022-09-18",
+    "coseis:pager_alert": "yellow",
+    "coseis:depth_km": 10,
+    "sat:orbit_state": "descending",
+    "coseis:track": "105",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2022-09-24T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i90q",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us7000i90q/m_69_90_km_e_of_yujing_taiwan-D105/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_69_90_km_e_of_yujing_taiwan/S1-COSEIS_SAR-D-R-105-tops-20220924_20220912-215311-00119E_00022N-PP-853e-v1_0_0/S1-COSEIS_SAR-D-R-105-tops-20220924_20220912-215311-00119E_00022N-PP-853e-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

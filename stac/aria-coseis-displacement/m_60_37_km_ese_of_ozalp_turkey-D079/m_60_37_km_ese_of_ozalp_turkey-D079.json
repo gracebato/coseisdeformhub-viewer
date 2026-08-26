@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_60_37_km_ese_of_ozalp_turkey-D079",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          44.019761927,
+          37.366092337000005
+        ],
+        [
+          47.317820121,
+          37.366092337000005
+        ],
+        [
+          47.317820121,
+          39.338038359
+        ],
+        [
+          44.019761927,
+          39.338038359
+        ],
+        [
+          44.019761927,
+          37.366092337000005
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    44.019761927,
+    37.366092337000005,
+    47.317820121,
+    39.338038359
+  ],
+  "properties": {
+    "title": "2020 M 6.0 - 37 km ESE of \u00d6zalp, Turkey \u2014 Descending Track 079",
+    "start_datetime": "2020-02-18T00:00:00+00:00",
+    "end_datetime": "2020-03-01T00:00:00+00:00",
+    "coseis:event_id": "us70007v9g",
+    "coseis:event_name": "2020 M 6.0 - 37 km ESE of \u00d6zalp, Turkey",
+    "coseis:magnitude": 6.0,
+    "coseis:event_date": "2020-02-23",
+    "coseis:pager_alert": "yellow",
+    "coseis:depth_km": 10,
+    "sat:orbit_state": "descending",
+    "coseis:track": "079",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2020-03-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us70007v9g",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us70007v9g/m_60_37_km_ese_of_ozalp_turkey-D079/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_60_37_km_ese_of_ozalp_turkey/S1-COSEIS_SAR-D-R-079-tops-20200301_20200218-030121-00044E_00037N-PP-5995-v1_0_0/S1-COSEIS_SAR-D-R-079-tops-20200301_20200218-030121-00044E_00037N-PP-5995-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

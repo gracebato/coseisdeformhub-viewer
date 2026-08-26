@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_70_119_km_e_of_kimbe_papua_new_guinea-D089",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          148.272639907,
+          -7.072780724999999
+        ],
+        [
+          151.267364525,
+          -7.072780724999999
+        ],
+        [
+          151.267364525,
+          -3.494722307
+        ],
+        [
+          148.272639907,
+          -3.494722307
+        ],
+        [
+          148.272639907,
+          -7.072780724999999
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    148.272639907,
+    -7.072780724999999,
+    151.267364525,
+    -3.494722307
+  ],
+  "properties": {
+    "title": "2018 M 7.0 - 119 km E of Kimbe, Papua New Guinea \u2014 Descending Track 089",
+    "start_datetime": "2018-10-02T00:00:00+00:00",
+    "end_datetime": "2018-10-14T00:00:00+00:00",
+    "coseis:event_id": "us1000haa3",
+    "coseis:event_name": "2018 M 7.0 - 119 km E of Kimbe, Papua New Guinea",
+    "coseis:magnitude": 7.0,
+    "coseis:event_date": "2018-10-10",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 39,
+    "sat:orbit_state": "descending",
+    "coseis:track": "089",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2018-10-14T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us1000haa3",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us1000haa3/m_70_119_km_e_of_kimbe_papua_new_guinea-D089/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_70_119_km_e_of_kimbe_papua_new_guinea/S1-COSEIS_SAR-D-R-089-tops-20181014_20181002-194046-00148E_00007S-PP-4242-v1_0_0/S1-COSEIS_SAR-D-R-089-tops-20181014_20181002-194046-00148E_00007S-PP-4242-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

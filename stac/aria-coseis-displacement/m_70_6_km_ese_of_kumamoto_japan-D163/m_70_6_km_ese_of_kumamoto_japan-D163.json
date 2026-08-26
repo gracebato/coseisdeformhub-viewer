@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_70_6_km_ese_of_kumamoto_japan-D163",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          129.143195359,
+          30.880513371000003
+        ],
+        [
+          132.558475869,
+          30.880513371000003
+        ],
+        [
+          132.558475869,
+          34.354127261
+        ],
+        [
+          129.143195359,
+          34.354127261
+        ],
+        [
+          129.143195359,
+          30.880513371000003
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    129.143195359,
+    30.880513371000003,
+    132.558475869,
+    34.354127261
+  ],
+  "properties": {
+    "title": "2016 M 7.0 - 6 km ESE of Kumamoto, Japan \u2014 Descending Track 163",
+    "start_datetime": "2016-03-27T00:00:00+00:00",
+    "end_datetime": "2016-04-20T00:00:00+00:00",
+    "coseis:event_id": "us20005iis",
+    "coseis:event_name": "2016 M 7.0 - 6 km ESE of Kumamoto, Japan",
+    "coseis:magnitude": 7.0,
+    "coseis:event_date": "2016-04-15",
+    "coseis:pager_alert": "red",
+    "coseis:depth_km": 10,
+    "sat:orbit_state": "descending",
+    "coseis:track": "163",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2016-04-20T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us20005iis",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us20005iis/m_70_6_km_ese_of_kumamoto_japan-D163/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_70_6_km_ese_of_kumamoto_japan/S1-COSEIS_SAR-D-R-163-tops-20160420_20160327-211656-00129E_00031N-PP-c9ef-v1_0_0/S1-COSEIS_SAR-D-R-163-tops-20160420_20160327-211656-00129E_00031N-PP-c9ef-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

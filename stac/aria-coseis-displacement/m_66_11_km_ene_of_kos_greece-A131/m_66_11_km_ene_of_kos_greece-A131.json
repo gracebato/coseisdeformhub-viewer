@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_66_11_km_ene_of_kos_greece-A131",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          26.175317607,
+          35.30634624500001
+        ],
+        [
+          29.796987171,
+          35.30634624500001
+        ],
+        [
+          29.796987171,
+          38.51634881300001
+        ],
+        [
+          26.175317607,
+          38.51634881300001
+        ],
+        [
+          26.175317607,
+          35.30634624500001
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    26.175317607,
+    35.30634624500001,
+    29.796987171,
+    38.51634881300001
+  ],
+  "properties": {
+    "title": "2017 M 6.6 - 11 km ENE of Kos, Greece \u2014 Ascending Track 131",
+    "start_datetime": "2017-07-18T00:00:00+00:00",
+    "end_datetime": "2017-07-24T00:00:00+00:00",
+    "coseis:event_id": "us20009ynd",
+    "coseis:event_name": "2017 M 6.6 - 11 km ENE of Kos, Greece",
+    "coseis:magnitude": 6.6,
+    "coseis:event_date": "2017-07-20",
+    "coseis:pager_alert": "yellow",
+    "coseis:depth_km": 7,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "131",
+    "coseis:satellites": "Sentinel-1B_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2017-07-24T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us20009ynd",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us20009ynd/m_66_11_km_ene_of_kos_greece-A131/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_66_11_km_ene_of_kos_greece/S1-COSEIS_SAR-A-R-131-tops-20170724_20170718-160603-00026E_00035N-PP-db4e-v1_0_0/S1-COSEIS_SAR-A-R-131-tops-20170724_20170718-160603-00026E_00035N-PP-db4e-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

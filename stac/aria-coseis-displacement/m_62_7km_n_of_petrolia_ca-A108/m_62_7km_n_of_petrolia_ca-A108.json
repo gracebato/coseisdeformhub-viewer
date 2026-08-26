@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_62_7km_n_of_petrolia_ca-A108",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -126.745140285,
+          39.515514679
+        ],
+        [
+          -123.328193107,
+          39.515514679
+        ],
+        [
+          -123.328193107,
+          41.383016173
+        ],
+        [
+          -126.745140285,
+          41.383016173
+        ],
+        [
+          -126.745140285,
+          39.515514679
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -126.745140285,
+    39.515514679,
+    -123.328193107,
+    41.383016173
+  ],
+  "properties": {
+    "title": "2021 M 6.2 - 7km N of Petrolia, CA \u2014 Ascending Track 108",
+    "start_datetime": "2021-12-17T00:00:00+00:00",
+    "end_datetime": "2021-12-23T00:00:00+00:00",
+    "coseis:event_id": "nc73666231",
+    "coseis:event_name": "2021 M 6.2 - 7km N of Petrolia, CA",
+    "coseis:magnitude": 6.2,
+    "coseis:event_date": "2021-12-20",
+    "coseis:pager_alert": "yellow",
+    "coseis:depth_km": 27.04,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "108",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1B",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2021-12-23T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73666231",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/nc73666231/m_62_7km_n_of_petrolia_ca-A108/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_62_7km_n_of_petrolia_ca/S1-COSEIS_SAR-A-R-108-tops-20211223_20211217-021712-00127W_00039N-PP-4ba2-v1_0_0/S1-COSEIS_SAR-A-R-108-tops-20211223_20211217-021712-00127W_00039N-PP-4ba2-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

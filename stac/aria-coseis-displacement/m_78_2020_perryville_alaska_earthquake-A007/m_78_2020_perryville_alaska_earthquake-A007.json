@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_78_2020_perryville_alaska_earthquake-A007",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -158.342916141,
+          55.160792173000004
+        ],
+        [
+          -153.64791238499998,
+          55.160792173000004
+        ],
+        [
+          -153.64791238499998,
+          57.359405043
+        ],
+        [
+          -158.342916141,
+          57.359405043
+        ],
+        [
+          -158.342916141,
+          55.160792173000004
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -158.342916141,
+    55.160792173000004,
+    -153.64791238499998,
+    57.359405043
+  ],
+  "properties": {
+    "title": "2020 M 7.8 - 2020 Perryville, Alaska Earthquake \u2014 Ascending Track 007",
+    "start_datetime": "2020-07-12T00:00:00+00:00",
+    "end_datetime": "2020-07-24T00:00:00+00:00",
+    "coseis:event_id": "us7000asvb",
+    "coseis:event_name": "2020 M 7.8 - 2020 Perryville, Alaska Earthquake",
+    "coseis:magnitude": 7.8,
+    "coseis:event_date": "2020-07-22",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 28,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "007",
+    "coseis:satellites": "Sentinel-1B_Sentinel-1B",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2020-07-24T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000asvb",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us7000asvb/m_78_2020_perryville_alaska_earthquake-A007/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_78_2020_perryville_alaska_earthquake/S1-COSEIS_SAR-A-R-007-tops-20200724_20200712-040739-00158W_00055N-PP-c718-v1_0_0/S1-COSEIS_SAR-A-R-007-tops-20200724_20200712-040739-00158W_00055N-PP-c718-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

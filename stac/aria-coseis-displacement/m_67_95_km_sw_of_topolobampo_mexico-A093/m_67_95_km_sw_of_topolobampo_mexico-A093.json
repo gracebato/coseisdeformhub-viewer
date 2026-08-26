@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_67_95_km_sw_of_topolobampo_mexico-A093",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -112.589027449,
+          22.546069459
+        ],
+        [
+          -109.747636287,
+          22.546069459
+        ],
+        [
+          -109.747636287,
+          24.777182355
+        ],
+        [
+          -112.589027449,
+          24.777182355
+        ],
+        [
+          -112.589027449,
+          22.546069459
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -112.589027449,
+    22.546069459,
+    -109.747636287,
+    24.777182355
+  ],
+  "properties": {
+    "title": "2015 M 6.7 - 95 km SW of Topolobampo, Mexico \u2014 Ascending Track 093",
+    "start_datetime": "2015-09-13T00:00:00+00:00",
+    "end_datetime": "2015-10-07T00:00:00+00:00",
+    "coseis:event_id": "us20003j4u",
+    "coseis:event_name": "2015 M 6.7 - 95 km SW of Topolobampo, Mexico",
+    "coseis:magnitude": 6.7,
+    "coseis:event_date": "2015-09-13",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 10,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "093",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2015-10-07T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us20003j4u",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us20003j4u/m_67_95_km_sw_of_topolobampo_mexico-A093/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_67_95_km_sw_of_topolobampo_mexico/S1-COSEIS_SAR-A-R-093-tops-20151007_20150913-013042-00113W_00023N-PP-0447-v1_0_0/S1-COSEIS_SAR-A-R-093-tops-20151007_20150913-013042-00113W_00023N-PP-0447-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

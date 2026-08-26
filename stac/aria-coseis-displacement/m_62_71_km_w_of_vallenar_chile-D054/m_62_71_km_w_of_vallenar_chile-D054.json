@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_62_71_km_w_of_vallenar_chile-D054",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -73.75551807100001,
+          -29.874209455
+        ],
+        [
+          -70.213293015,
+          -29.874209455
+        ],
+        [
+          -70.213293015,
+          -26.061428626999998
+        ],
+        [
+          -73.75551807100001,
+          -26.061428626999998
+        ],
+        [
+          -73.75551807100001,
+          -29.874209455
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -73.75551807100001,
+    -29.874209455,
+    -70.213293015,
+    -26.061428626999998
+  ],
+  "properties": {
+    "title": "2026 M 6.2 - 71 km W of Vallenar, Chile \u2014 Descending Track 054",
+    "start_datetime": "2026-03-10T00:00:00+00:00",
+    "end_datetime": "2026-03-22T00:00:00+00:00",
+    "coseis:event_id": "us6000sg0y",
+    "coseis:event_name": "2026 M 6.2 - 71 km W of Vallenar, Chile",
+    "coseis:magnitude": 6.2,
+    "coseis:event_date": "2026-03-13",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 24,
+    "sat:orbit_state": "descending",
+    "coseis:track": "054",
+    "coseis:satellites": "Sentinel-1C_Sentinel-1C",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2026-03-22T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sg0y",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us6000sg0y/m_62_71_km_w_of_vallenar_chile-D054/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2026/m_62_71_km_w_of_vallenar_chile/S1-COSEIS_SAR-D-R-054-tops-20260322_20260310-101013-00074W_00030S-PP-d292-v1_0_0/S1-COSEIS_SAR-D-R-054-tops-20260322_20260310-101013-00074W_00030S-PP-d292-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_64_15_km_wsw_of_mamurras_albania-D051",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          15.850872903,
+          40.68245845700001
+        ],
+        [
+          19.380042393,
+          40.68245845700001
+        ],
+        [
+          19.380042393,
+          42.65440447900001
+        ],
+        [
+          15.850872903,
+          42.65440447900001
+        ],
+        [
+          15.850872903,
+          40.68245845700001
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    15.850872903,
+    40.68245845700001,
+    19.380042393,
+    42.65440447900001
+  ],
+  "properties": {
+    "title": "2019 M 6.4 - 15 km WSW of Mamurras, Albania \u2014 Descending Track 051",
+    "start_datetime": "2019-11-24T00:00:00+00:00",
+    "end_datetime": "2019-11-30T00:00:00+00:00",
+    "coseis:event_id": "us70006d0m",
+    "coseis:event_name": "2019 M 6.4 - 15 km WSW of Mamurras, Albania",
+    "coseis:magnitude": 6.4,
+    "coseis:event_date": "2019-11-26",
+    "coseis:pager_alert": "orange",
+    "coseis:depth_km": 22,
+    "sat:orbit_state": "descending",
+    "coseis:track": "051",
+    "coseis:satellites": "Sentinel-1B_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2019-11-30T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us70006d0m",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us70006d0m/m_64_15_km_wsw_of_mamurras_albania-D051/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_64_15_km_wsw_of_mamurras_albania/S1-COSEIS_SAR-D-R-051-tops-20191130_20191124-045507-00016E_00041N-PP-721a-v1_0_0/S1-COSEIS_SAR-D-R-051-tops-20191130_20191124-045507-00016E_00041N-PP-721a-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

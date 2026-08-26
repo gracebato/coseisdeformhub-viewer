@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_78_pazarcik_earthquake_kahramanmaras_earthquake_sequence-D021",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          35.378372524999996,
+          35.568013121
+        ],
+        [
+          39.038097674999996,
+          35.568013121
+        ],
+        [
+          39.038097674999996,
+          39.039404787
+        ],
+        [
+          35.378372524999996,
+          39.039404787
+        ],
+        [
+          35.378372524999996,
+          35.568013121
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    35.378372524999996,
+    35.568013121,
+    39.038097674999996,
+    39.039404787
+  ],
+  "properties": {
+    "title": "2023 M 7.8 - Pazarcik earthquake, Kahramanmaras earthquake sequence \u2014 Descending Track 021",
+    "start_datetime": "2023-01-29T00:00:00+00:00",
+    "end_datetime": "2023-02-10T00:00:00+00:00",
+    "coseis:event_id": "us6000jllz",
+    "coseis:event_name": "2023 M 7.8 - Pazarcik earthquake, Kahramanmaras earthquake sequence",
+    "coseis:magnitude": 7.8,
+    "coseis:event_date": "2023-02-06",
+    "coseis:pager_alert": "red",
+    "coseis:depth_km": 10,
+    "sat:orbit_state": "descending",
+    "coseis:track": "021",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2023-02-10T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000jllz",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us6000jllz/m_78_pazarcik_earthquake_kahramanmaras_earthquake_sequence-D021/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_78_pazarcik_earthquake_kahramanmaras_earthquake_sequence/S1-COSEIS_SAR-D-R-021-tops-20230210_20230129-033452-00035E_00035N-PP-d956-v1_0_0/S1-COSEIS_SAR-D-R-021-tops-20230210_20230129-033452-00035E_00035N-PP-d956-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

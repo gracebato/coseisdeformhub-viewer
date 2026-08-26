@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_61_194_km_wnw_of_ambon_indonesia-A068",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          125.159862039,
+          -4.595003676
+        ],
+        [
+          128.149308875,
+          -4.595003676
+        ],
+        [
+          128.149308875,
+          -0.628333836
+        ],
+        [
+          125.159862039,
+          -0.628333836
+        ],
+        [
+          125.159862039,
+          -4.595003676
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    125.159862039,
+    -4.595003676,
+    128.149308875,
+    -0.628333836
+  ],
+  "properties": {
+    "title": "2018 M 6.1 - 194 km WNW of Ambon, Indonesia \u2014 Ascending Track 068",
+    "start_datetime": "2018-02-15T00:00:00+00:00",
+    "end_datetime": "2018-02-27T00:00:00+00:00",
+    "coseis:event_id": "us2000d855",
+    "coseis:event_name": "2018 M 6.1 - 194 km WNW of Ambon, Indonesia",
+    "coseis:magnitude": 6.1,
+    "coseis:event_date": "2018-02-26",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 9,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "068",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2018-02-27T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us2000d855",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us2000d855/m_61_194_km_wnw_of_ambon_indonesia-A068/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_61_194_km_wnw_of_ambon_indonesia/S1-COSEIS_SAR-A-R-068-tops-20180227_20180215-095347-00125E_00005S-PP-cb0f-v1_0_0/S1-COSEIS_SAR-A-R-068-tops-20180227_20180215-095347-00125E_00005S-PP-cb0f-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

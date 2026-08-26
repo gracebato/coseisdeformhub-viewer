@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_60_76_km_ene_of_namie_japan-A068",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          141.229862095,
+          37.21356999300001
+        ],
+        [
+          144.539309187,
+          37.21356999300001
+        ],
+        [
+          144.539309187,
+          39.414405087000006
+        ],
+        [
+          141.229862095,
+          39.414405087000006
+        ],
+        [
+          141.229862095,
+          37.21356999300001
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    141.229862095,
+    37.21356999300001,
+    144.539309187,
+    39.414405087000006
+  ],
+  "properties": {
+    "title": "2021 M 6.0 - 76 km ENE of Namie, Japan \u2014 Ascending Track 068",
+    "start_datetime": "2021-05-12T00:00:00+00:00",
+    "end_datetime": "2021-05-24T00:00:00+00:00",
+    "coseis:event_id": "us7000e2xd",
+    "coseis:event_name": "2021 M 6.0 - 76 km ENE of Namie, Japan",
+    "coseis:magnitude": 6.0,
+    "coseis:event_date": "2021-05-13",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 32,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "068",
+    "coseis:satellites": "Sentinel-1B_Sentinel-1B",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2021-05-24T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000e2xd",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us7000e2xd/m_60_76_km_ene_of_namie_japan-A068/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_60_76_km_ene_of_namie_japan/S1-COSEIS_SAR-A-R-068-tops-20210524_20210512-082600-00141E_00037N-PP-058e-v1_0_0/S1-COSEIS_SAR-A-R-068-tops-20210524_20210512-082600-00141E_00037N-PP-058e-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

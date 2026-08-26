@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_64_15km_wsw_of_ferndale_ca-A035",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -124.987638879,
+          39.138569133000004
+        ],
+        [
+          -121.173746939,
+          39.138569133000004
+        ],
+        [
+          -121.173746939,
+          42.499682933
+        ],
+        [
+          -124.987638879,
+          42.499682933
+        ],
+        [
+          -124.987638879,
+          39.138569133000004
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -124.987638879,
+    39.138569133000004,
+    -121.173746939,
+    42.499682933
+  ],
+  "properties": {
+    "title": "2022 M 6.4 - 15km WSW of Ferndale, CA \u2014 Ascending Track 035",
+    "start_datetime": "2022-12-13T00:00:00+00:00",
+    "end_datetime": "2022-12-25T00:00:00+00:00",
+    "coseis:event_id": "nc73821036",
+    "coseis:event_name": "2022 M 6.4 - 15km WSW of Ferndale, CA",
+    "coseis:magnitude": 6.4,
+    "coseis:event_date": "2022-12-20",
+    "coseis:pager_alert": "orange",
+    "coseis:depth_km": 17.91,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "035",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2022-12-25T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/nc73821036",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/nc73821036/m_64_15km_wsw_of_ferndale_ca-A035/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_64_15km_wsw_of_ferndale_ca/S1-COSEIS_SAR-A-R-035-tops-20221225_20221213-020903-00125W_00039N-PP-e0c5-v1_0_0/S1-COSEIS_SAR-A-R-035-tops-20221225_20221213-020903-00125W_00039N-PP-e0c5-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

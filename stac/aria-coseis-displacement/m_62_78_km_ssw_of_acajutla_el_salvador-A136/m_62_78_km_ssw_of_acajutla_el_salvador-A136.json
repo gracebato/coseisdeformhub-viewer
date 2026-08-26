@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_62_78_km_ssw_of_acajutla_el_salvador-A136",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -91.961626947,
+          10.890791156999999
+        ],
+        [
+          -88.961346769,
+          10.890791156999999
+        ],
+        [
+          -88.961346769,
+          14.487182922999999
+        ],
+        [
+          -91.961626947,
+          14.487182922999999
+        ],
+        [
+          -91.961626947,
+          10.890791156999999
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -91.961626947,
+    10.890791156999999,
+    -88.961346769,
+    14.487182922999999
+  ],
+  "properties": {
+    "title": "2017 M 6.2 - 78 km SSW of Acajutla, El Salvador \u2014 Ascending Track 136",
+    "start_datetime": "2017-05-08T00:00:00+00:00",
+    "end_datetime": "2017-05-20T00:00:00+00:00",
+    "coseis:event_id": "us10008rtu",
+    "coseis:event_name": "2017 M 6.2 - 78 km SSW of Acajutla, El Salvador",
+    "coseis:magnitude": 6.2,
+    "coseis:event_date": "2017-05-12",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 16,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "136",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2017-05-20T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us10008rtu",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us10008rtu/m_62_78_km_ssw_of_acajutla_el_salvador-A136/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_62_78_km_ssw_of_acajutla_el_salvador/S1-COSEIS_SAR-A-R-136-tops-20170520_20170508-001343-00092W_00011N-PP-835f-v1_0_0/S1-COSEIS_SAR-A-R-136-tops-20170520_20170508-001343-00092W_00011N-PP-835f-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_76_35_km_ssw_of_aguililla_mexico-A049",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -105.603194127,
+          17.015790457
+        ],
+        [
+          -102.510136097,
+          17.015790457
+        ],
+        [
+          -102.510136097,
+          20.757182339
+        ],
+        [
+          -105.603194127,
+          20.757182339
+        ],
+        [
+          -105.603194127,
+          17.015790457
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -105.603194127,
+    17.015790457,
+    -102.510136097,
+    20.757182339
+  ],
+  "properties": {
+    "title": "2022 M 7.6 - 35 km SSW of Aguililla, Mexico \u2014 Ascending Track 049",
+    "start_datetime": "2022-08-28T00:00:00+00:00",
+    "end_datetime": "2022-09-21T00:00:00+00:00",
+    "coseis:event_id": "us7000i9bw",
+    "coseis:event_name": "2022 M 7.6 - 35 km SSW of Aguililla, Mexico",
+    "coseis:magnitude": 7.6,
+    "coseis:event_date": "2022-09-19",
+    "coseis:pager_alert": "yellow",
+    "coseis:depth_km": 26.943,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "049",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2022-09-21T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000i9bw",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us7000i9bw/m_76_35_km_ssw_of_aguililla_mexico-A049/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_76_35_km_ssw_of_aguililla_mexico/S1-COSEIS_SAR-A-R-049-tops-20220921_20220828-010525-00106W_00017N-PP-3550-v1_0_0/S1-COSEIS_SAR-A-R-049-tops-20220921_20220828-010525-00106W_00017N-PP-3550-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

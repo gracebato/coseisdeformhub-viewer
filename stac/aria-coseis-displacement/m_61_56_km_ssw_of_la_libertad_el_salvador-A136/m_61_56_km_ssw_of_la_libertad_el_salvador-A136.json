@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_61_56_km_ssw_of_la_libertad_el_salvador-A136",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -91.960238057,
+          10.890235600999999
+        ],
+        [
+          -88.959680101,
+          10.890235600999999
+        ],
+        [
+          -88.959680101,
+          14.485794033
+        ],
+        [
+          -91.960238057,
+          14.485794033
+        ],
+        [
+          -91.960238057,
+          10.890235600999999
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -91.960238057,
+    10.890235600999999,
+    -88.959680101,
+    14.485794033
+  ],
+  "properties": {
+    "title": "2024 M 6.1 - 56 km SSW of La Libertad, El Salvador \u2014 Ascending Track 136",
+    "start_datetime": "2024-08-11T00:00:00+00:00",
+    "end_datetime": "2024-09-04T00:00:00+00:00",
+    "coseis:event_id": "us6000nncs",
+    "coseis:event_name": "2024 M 6.1 - 56 km SSW of La Libertad, El Salvador",
+    "coseis:magnitude": 6.1,
+    "coseis:event_date": "2024-08-28",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 26.358,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "136",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2024-09-04T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000nncs",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us6000nncs/m_61_56_km_ssw_of_la_libertad_el_salvador-A136/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2024/m_61_56_km_ssw_of_la_libertad_el_salvador/S1-COSEIS_SAR-A-R-136-tops-20240904_20240811-001421-00092W_00011N-PP-8430-v1_0_0/S1-COSEIS_SAR-A-R-136-tops-20240904_20240811-001421-00092W_00011N-PP-8430-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

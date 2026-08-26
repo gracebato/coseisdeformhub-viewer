@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_67_13_km_n_of_doanyol_turkey-A116",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          36.224762090999995,
+          36.788847431
+        ],
+        [
+          39.752264913,
+          36.788847431
+        ],
+        [
+          39.752264913,
+          39.492738483000004
+        ],
+        [
+          36.224762090999995,
+          39.492738483000004
+        ],
+        [
+          36.224762090999995,
+          36.788847431
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    36.224762090999995,
+    36.788847431,
+    39.752264913,
+    39.492738483000004
+  ],
+  "properties": {
+    "title": "2020 M 6.7 - 13 km N of Do?anyol, Turkey \u2014 Ascending Track 116",
+    "start_datetime": "2020-01-21T00:00:00+00:00",
+    "end_datetime": "2020-01-27T00:00:00+00:00",
+    "coseis:event_id": "us60007ewc",
+    "coseis:event_name": "2020 M 6.7 - 13 km N of Do?anyol, Turkey",
+    "coseis:magnitude": 6.7,
+    "coseis:event_date": "2020-01-24",
+    "coseis:pager_alert": "orange",
+    "coseis:depth_km": 10,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "116",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1B",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2020-01-27T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us60007ewc",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us60007ewc/m_67_13_km_n_of_doanyol_turkey-A116/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_67_13_km_n_of_doanyol_turkey/S1-COSEIS_SAR-A-R-116-tops-20200127_20200121-152616-00036E_00037N-PP-bef8-v1_0_0/S1-COSEIS_SAR-A-R-116-tops-20200127_20200121-152616-00036E_00037N-PP-bef8-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

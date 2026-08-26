@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_72_4_km_s_of_pinotepa_de_don_luis_mexico-A005",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -98.770971239,
+          15.485791633
+        ],
+        [
+          -96.052913509,
+          15.485791633
+        ],
+        [
+          -96.052913509,
+          17.734404543
+        ],
+        [
+          -98.770971239,
+          17.734404543
+        ],
+        [
+          -98.770971239,
+          15.485791633
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -98.770971239,
+    15.485791633,
+    -96.052913509,
+    17.734404543
+  ],
+  "properties": {
+    "title": "2018 M 7.2 - 4 km S of Pinotepa de Don Luis, Mexico \u2014 Ascending Track 005",
+    "start_datetime": "2018-02-05T00:00:00+00:00",
+    "end_datetime": "2018-02-17T00:00:00+00:00",
+    "coseis:event_id": "us2000d3km",
+    "coseis:event_name": "2018 M 7.2 - 4 km S of Pinotepa de Don Luis, Mexico",
+    "coseis:magnitude": 7.2,
+    "coseis:event_date": "2018-02-16",
+    "coseis:pager_alert": "yellow",
+    "coseis:depth_km": 22,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "005",
+    "coseis:satellites": "Sentinel-1B_Sentinel-1B",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2018-02-17T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us2000d3km",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us2000d3km/m_72_4_km_s_of_pinotepa_de_don_luis_mexico-A005/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_72_4_km_s_of_pinotepa_de_don_luis_mexico/S1-COSEIS_SAR-A-R-005-tops-20180217_20180205-003851-00099W_00015N-PP-f1de-v1_0_0/S1-COSEIS_SAR-A-R-005-tops-20180217_20180205-003851-00099W_00015N-PP-f1de-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

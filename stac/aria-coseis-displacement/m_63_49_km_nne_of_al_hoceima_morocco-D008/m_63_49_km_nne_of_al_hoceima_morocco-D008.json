@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_63_49_km_nne_of_al_hoceima_morocco-D008",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -4.0061114270000004,
+          34.065791297000004
+        ],
+        [
+          -0.42805300900000054,
+          34.065791297000004
+        ],
+        [
+          -0.42805300900000054,
+          37.372738387000005
+        ],
+        [
+          -4.0061114270000004,
+          37.372738387000005
+        ],
+        [
+          -4.0061114270000004,
+          34.065791297000004
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -4.0061114270000004,
+    34.065791297000004,
+    -0.42805300900000054,
+    37.372738387000005
+  ],
+  "properties": {
+    "title": "2016 M 6.3 - 49 km NNE of Al Hoce\u00efma, Morocco \u2014 Descending Track 008",
+    "start_datetime": "2016-01-17T00:00:00+00:00",
+    "end_datetime": "2016-01-29T00:00:00+00:00",
+    "coseis:event_id": "us10004gy9",
+    "coseis:event_name": "2016 M 6.3 - 49 km NNE of Al Hoce\u00efma, Morocco",
+    "coseis:magnitude": 6.3,
+    "coseis:event_date": "2016-01-25",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 12,
+    "sat:orbit_state": "descending",
+    "coseis:track": "008",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2016-01-29T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us10004gy9",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us10004gy9/m_63_49_km_nne_of_al_hoceima_morocco-D008/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_63_49_km_nne_of_al_hoceima_morocco/S1-COSEIS_SAR-D-R-008-tops-20160129_20160117-061056-00004W_00034N-PP-679e-v1_0_0/S1-COSEIS_SAR-D-R-008-tops-20160129_20160117-061056-00004W_00034N-PP-679e-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_64_11_km_e_of_dolores_philippines-D105",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          118.085695313,
+          16.253290647
+        ],
+        [
+          121.115975515,
+          16.253290647
+        ],
+        [
+          121.115975515,
+          19.767460125
+        ],
+        [
+          118.085695313,
+          19.767460125
+        ],
+        [
+          118.085695313,
+          16.253290647
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    118.085695313,
+    16.253290647,
+    121.115975515,
+    19.767460125
+  ],
+  "properties": {
+    "title": "2022 M 6.4 - 11 km E of Dolores, Philippines \u2014 Descending Track 105",
+    "start_datetime": "2022-10-18T00:00:00+00:00",
+    "end_datetime": "2022-10-30T00:00:00+00:00",
+    "coseis:event_id": "us6000iwds",
+    "coseis:event_name": "2022 M 6.4 - 11 km E of Dolores, Philippines",
+    "coseis:magnitude": 6.4,
+    "coseis:event_date": "2022-10-25",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 6,
+    "sat:orbit_state": "descending",
+    "coseis:track": "105",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2022-10-30T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000iwds",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us6000iwds/m_64_11_km_e_of_dolores_philippines-D105/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_64_11_km_e_of_dolores_philippines/S1-COSEIS_SAR-D-R-105-tops-20221030_20221018-215439-00118E_00016N-PP-8c38-v1_0_0/S1-COSEIS_SAR-D-R-105-tops-20221030_20221018-215439-00118E_00016N-PP-8c38-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

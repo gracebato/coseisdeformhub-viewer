@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_67_29_km_ssw_of_turt_mongolia-D106",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          100.29132881099999,
+          50.279681157
+        ],
+        [
+          104.44216546499999,
+          50.279681157
+        ],
+        [
+          104.44216546499999,
+          52.244960507
+        ],
+        [
+          100.29132881099999,
+          52.244960507
+        ],
+        [
+          100.29132881099999,
+          50.279681157
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    100.29132881099999,
+    50.279681157,
+    104.44216546499999,
+    52.244960507
+  ],
+  "properties": {
+    "title": "2021 M 6.7 - 29 km SSW of Turt, Mongolia \u2014 Descending Track 106",
+    "start_datetime": "2021-01-02T00:00:00+00:00",
+    "end_datetime": "2021-01-14T00:00:00+00:00",
+    "coseis:event_id": "us6000d7ix",
+    "coseis:event_name": "2021 M 6.7 - 29 km SSW of Turt, Mongolia",
+    "coseis:magnitude": 6.7,
+    "coseis:event_date": "2021-01-11",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 10,
+    "sat:orbit_state": "descending",
+    "coseis:track": "106",
+    "coseis:satellites": "Sentinel-1B_Sentinel-1B",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2021-01-14T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000d7ix",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us6000d7ix/m_67_29_km_ssw_of_turt_mongolia-D106/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_67_29_km_ssw_of_turt_mongolia/S1-COSEIS_SAR-D-R-106-tops-20210114_20210102-232314-00100E_00050N-PP-e751-v1_0_0/S1-COSEIS_SAR-D-R-106-tops-20210114_20210102-232314-00100E_00050N-PP-e751-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

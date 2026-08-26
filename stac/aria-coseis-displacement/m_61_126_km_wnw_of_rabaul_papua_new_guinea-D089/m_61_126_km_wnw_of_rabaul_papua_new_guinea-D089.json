@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_61_126_km_wnw_of_rabaul_papua_new_guinea-D089",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          148.606806041,
+          -5.573336881
+        ],
+        [
+          151.623475121,
+          -5.573336881
+        ],
+        [
+          151.623475121,
+          -1.833056111
+        ],
+        [
+          148.606806041,
+          -1.833056111
+        ],
+        [
+          148.606806041,
+          -5.573336881
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    148.606806041,
+    -5.573336881,
+    151.623475121,
+    -1.833056111
+  ],
+  "properties": {
+    "title": "2023 M 6.1 - 126 km WNW of Rabaul, Papua New Guinea \u2014 Descending Track 089",
+    "start_datetime": "2023-11-05T00:00:00+00:00",
+    "end_datetime": "2023-11-29T00:00:00+00:00",
+    "coseis:event_id": "us7000lali",
+    "coseis:event_name": "2023 M 6.1 - 126 km WNW of Rabaul, Papua New Guinea",
+    "coseis:magnitude": 6.1,
+    "coseis:event_date": "2023-11-13",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 10,
+    "sat:orbit_state": "descending",
+    "coseis:track": "089",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2023-11-29T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000lali",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us7000lali/m_61_126_km_wnw_of_rabaul_papua_new_guinea-D089/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_61_126_km_wnw_of_rabaul_papua_new_guinea/S1-COSEIS_SAR-D-R-089-tops-20231129_20231105-194048-00149E_00006S-PP-4fcf-v1_0_0/S1-COSEIS_SAR-D-R-089-tops-20231129_20231105-194048-00149E_00006S-PP-4fcf-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

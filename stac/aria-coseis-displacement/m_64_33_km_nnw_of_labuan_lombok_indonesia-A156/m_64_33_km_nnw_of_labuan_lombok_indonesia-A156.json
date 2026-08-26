@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_64_33_km_nnw_of_labuan_lombok_indonesia-A156",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          113.994584129,
+          -10.034169582999999
+        ],
+        [
+          117.03319767100001,
+          -10.034169582999999
+        ],
+        [
+          117.03319767100001,
+          -6.052777508999999
+        ],
+        [
+          113.994584129,
+          -6.052777508999999
+        ],
+        [
+          113.994584129,
+          -10.034169582999999
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    113.994584129,
+    -10.034169582999999,
+    117.03319767100001,
+    -6.052777508999999
+  ],
+  "properties": {
+    "title": "2018 M 6.4 - 33 km NNW of Labuan Lombok, Indonesia \u2014 Ascending Track 156",
+    "start_datetime": "2018-07-27T00:00:00+00:00",
+    "end_datetime": "2018-08-02T00:00:00+00:00",
+    "coseis:event_id": "us2000ggbs",
+    "coseis:event_name": "2018 M 6.4 - 33 km NNW of Labuan Lombok, Indonesia",
+    "coseis:magnitude": 6.4,
+    "coseis:event_date": "2018-07-28",
+    "coseis:pager_alert": "yellow",
+    "coseis:depth_km": 14,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "156",
+    "coseis:satellites": "Sentinel-1B_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2018-08-02T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us2000ggbs",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us2000ggbs/m_64_33_km_nnw_of_labuan_lombok_indonesia-A156/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_64_33_km_nnw_of_labuan_lombok_indonesia/S1-COSEIS_SAR-A-R-156-tops-20180802_20180727-104104-00114E_00010S-PP-93ed-v1_0_0/S1-COSEIS_SAR-A-R-156-tops-20180802_20180727-104104-00114E_00010S-PP-93ed-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

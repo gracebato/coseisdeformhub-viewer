@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_61_156_km_ese_of_kimbe_papua_new_guinea-D016",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          150.190973175,
+          -7.694724867
+        ],
+        [
+          153.191531131,
+          -7.694724867
+        ],
+        [
+          153.191531131,
+          -4.114999781
+        ],
+        [
+          150.190973175,
+          -4.114999781
+        ],
+        [
+          150.190973175,
+          -7.694724867
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    150.190973175,
+    -7.694724867,
+    153.191531131,
+    -4.114999781
+  ],
+  "properties": {
+    "title": "2015 M 6.1 - 156 km ESE of Kimbe, Papua New Guinea \u2014 Descending Track 016",
+    "start_datetime": "2015-08-26T00:00:00+00:00",
+    "end_datetime": "2015-09-19T00:00:00+00:00",
+    "coseis:event_id": "us20003jyz",
+    "coseis:event_name": "2015 M 6.1 - 156 km ESE of Kimbe, Papua New Guinea",
+    "coseis:magnitude": 6.1,
+    "coseis:event_date": "2015-09-16",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 6,
+    "sat:orbit_state": "descending",
+    "coseis:track": "016",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2015-09-19T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us20003jyz",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us20003jyz/m_61_156_km_ese_of_kimbe_papua_new_guinea-D016/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_61_156_km_ese_of_kimbe_papua_new_guinea/S1-COSEIS_SAR-D-R-016-tops-20150919_20150826-193223-00150E_00008S-PP-035a-v1_0_0/S1-COSEIS_SAR-D-R-016-tops-20150919_20150826-193223-00150E_00008S-PP-035a-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

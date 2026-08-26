@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_69_107_km_se_of_amahai_indonesia-A097",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          129.662639419,
+          -4.412500819
+        ],
+        [
+          132.224308135,
+          -4.412500819
+        ],
+        [
+          132.224308135,
+          -2.441665909
+        ],
+        [
+          129.662639419,
+          -2.441665909
+        ],
+        [
+          129.662639419,
+          -4.412500819
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    129.662639419,
+    -4.412500819,
+    132.224308135,
+    -2.441665909
+  ],
+  "properties": {
+    "title": "2015 M 6.9 - 107 km SE of Amahai, Indonesia \u2014 Ascending Track 097",
+    "start_datetime": "2015-12-06T00:00:00+00:00",
+    "end_datetime": "2015-12-30T00:00:00+00:00",
+    "coseis:event_id": "us20004ft7",
+    "coseis:event_name": "2015 M 6.9 - 107 km SE of Amahai, Indonesia",
+    "coseis:magnitude": 6.9,
+    "coseis:event_date": "2015-12-09",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 21,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "097",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2015-12-30T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us20004ft7",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us20004ft7/m_69_107_km_se_of_amahai_indonesia-A097/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_69_107_km_se_of_amahai_indonesia/S1-COSEIS_SAR-A-R-097-tops-20151230_20151206-093655-00130E_00004S-PP-80d3-v1_0_0/S1-COSEIS_SAR-A-R-097-tops-20151230_20151206-093655-00130E_00004S-PP-80d3-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

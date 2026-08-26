@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_61_30_km_sse_of_hualien_city_taiwan-D105",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          119.243195439,
+          22.252457313
+        ],
+        [
+          122.457086899,
+          22.252457313
+        ],
+        [
+          122.457086899,
+          25.916626911
+        ],
+        [
+          119.243195439,
+          25.916626911
+        ],
+        [
+          119.243195439,
+          22.252457313
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    119.243195439,
+    22.252457313,
+    122.457086899,
+    25.916626911
+  ],
+  "properties": {
+    "title": "2024 M 6.1 - 30 km SSE of Hualien City, Taiwan \u2014 Descending Track 105",
+    "start_datetime": "2024-08-08T00:00:00+00:00",
+    "end_datetime": "2024-08-20T00:00:00+00:00",
+    "coseis:event_id": "us7000n7b8",
+    "coseis:event_name": "2024 M 6.1 - 30 km SSE of Hualien City, Taiwan",
+    "coseis:magnitude": 6.1,
+    "coseis:event_date": "2024-08-15",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 14,
+    "sat:orbit_state": "descending",
+    "coseis:track": "105",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2024-08-20T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000n7b8",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us7000n7b8/m_61_30_km_sse_of_hualien_city_taiwan-D105/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2024/m_61_30_km_sse_of_hualien_city_taiwan/S1-COSEIS_SAR-D-R-105-tops-20240820_20240808-215257-00119E_00022N-PP-eadd-v1_0_0/S1-COSEIS_SAR-D-R-105-tops-20240820_20240808-215257-00119E_00022N-PP-eadd-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}
