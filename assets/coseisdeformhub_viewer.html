@@ -1147,10 +1147,12 @@
         };
         let fullCatalog = null;  // populated once from catalogUrl, reused for all lookups
 
-        // CARTO retired free/keyless raster basemap tiles -- get a free key (5M
-        // requests/month, no card required) at https://carto.com/basemaps/apikey
-        // and paste it here for the Dark basemap to work.
-        const CARTO_API_KEY = 'REDACTED_CARTO_KEY';
+        // CARTO retired free/keyless raster basemap tiles, so this needs a key
+        // (5M requests/month free, https://carto.com/basemaps/apikey). The real
+        // value is injected here at deploy time (see .github/workflows/deploy.yml
+        // in coseisdeformhub-viewer) from a repo secret -- never committed as
+        // plaintext.
+        const CARTO_API_KEY = '__CARTO_API_KEY__';
 
         // Featured events pinned to the top of the dropdown: all PAGER "red"
         // alert events, most recent first.
