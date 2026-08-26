@@ -362,6 +362,85 @@
             gap: 6px;
         }
 
+        /* Catalog-wide stat counters, boxed, upper-left of the map */
+        .map-stats-box {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 10;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            width: 360px;
+            padding: 10px;
+            background: rgba(20, 22, 27, 0.94);
+            border: 1px solid #2e333d;
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .map-stats-title {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 10px;
+            font-weight: 700;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+            color: #9aa4b2;
+            cursor: pointer;
+        }
+
+        .map-stats-title .chev {
+            width: 14px;
+            height: 14px;
+            transition: transform var(--transition);
+            opacity: 0.7;
+        }
+
+        .map-stats-box.collapsed .map-stats-title .chev {
+            transform: rotate(-90deg);
+        }
+
+        .map-stats-box.collapsed .map-stats-row {
+            display: none;
+        }
+
+        .map-stats-row {
+            display: flex;
+            flex-direction: row;
+            align-items: stretch;
+            gap: 6px;
+        }
+
+        .map-stat-card {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background: #1a1d24;
+            border: 1px solid #2e333d;
+            border-radius: 6px;
+            padding: 8px 10px;
+        }
+
+        .map-stat-value {
+            font-size: 20px;
+            font-weight: 700;
+            color: #ffffff;
+            line-height: 1.1;
+        }
+
+        .map-stat-label {
+            margin-top: 2px;
+            font-size: 9px;
+            font-weight: 600;
+            letter-spacing: 0.02em;
+            text-transform: uppercase;
+            color: #9aa4b2;
+            line-height: 1.25;
+        }
+
         /* USGS earthquakes legend */
         .map-legend {
             position: absolute;
@@ -914,6 +993,28 @@
             <!-- Map -->
             <div class="map-wrapper">
                 <div id="map"></div>
+                <div class="map-stats-box" id="map-stats-box">
+                    <div class="map-stats-title" onclick="this.closest('.map-stats-box').classList.toggle('collapsed')">
+                        <span>Catalog Summary</span>
+                        <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </div>
+                    <div class="map-stats-row">
+                        <div class="map-stat-card">
+                            <div class="map-stat-value" id="stat-event-count">&ndash;</div>
+                            <div class="map-stat-label">Earthquakes (2014-now)</div>
+                        </div>
+                        <div class="map-stat-card">
+                            <div class="map-stat-value" id="stat-dataset-count">&ndash;</div>
+                            <div class="map-stat-label">COSEIS Datasets</div>
+                        </div>
+                        <div class="map-stat-card">
+                            <div class="map-stat-value" id="stat-pager-count">&ndash;</div>
+                            <div class="map-stat-label">PAGER Alerts (Red/Orange/Yellow/Green)</div>
+                        </div>
+                    </div>
+                </div>
                 <div class="map-legend" id="usgs-legend">
                     <div class="map-legend-title">USGS Earthquakes</div>
                     <div class="map-legend-row">
@@ -1264,6 +1365,21 @@
                     const response = await fetch(DEFORMHUB_CONFIG.catalogUrl);
                     fullCatalog = await response.json();
                 }
+
+                document.getElementById('stat-event-count').textContent = fullCatalog.total_events;
+                document.getElementById('stat-dataset-count').textContent = fullCatalog.total_datasets;
+                const pagerCounts = { red: 0, orange: 0, yellow: 0, green: 0 };
+                fullCatalog.events.forEach(e => {
+                    const level = e.metadata && e.metadata.pager_alert;
+                    if (level in pagerCounts) pagerCounts[level]++;
+                });
+                const pagerSlash = '<span style="color: #9aa4b2;">/</span>';
+                document.getElementById('stat-pager-count').innerHTML =
+                    `<span style="color: #ff5c5c;">${pagerCounts.red}</span>` + pagerSlash +
+                    `<span style="color: #ff9f43;">${pagerCounts.orange}</span>` + pagerSlash +
+                    `<span style="color: #ffd43b;">${pagerCounts.yellow}</span>` + pagerSlash +
+                    `<span style="color: #51cf66;">${pagerCounts.green}</span>`;
+
                 const events = fullCatalog.events
                     .map(e => ({
                         event_id: e.event_id, name: e.name, date: e.date,
