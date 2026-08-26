@@ -993,7 +993,7 @@
                         </div>
                         <div class="map-stat-card">
                             <div class="map-stat-value" id="stat-pager-count">&ndash;</div>
-                            <div class="map-stat-label">PAGER Alerts (Red/Orange/Yellow/Green)</div>
+                            <div class="map-stat-label">USGS PAGER Alerts (Red/Orange/Yellow/Green)</div>
                         </div>
                     </div>
                 </div>
@@ -1011,7 +1011,7 @@
                         <span class="map-legend-swatch" style="background: #ff9900;"></span>
                         <span class="map-legend-swatch" style="background: #ff0000;"></span>
                         <span class="map-legend-swatch" style="background: #888888;"></span>
-                        <span class="map-legend-caption">PAGER Alert</span>
+                        <span class="map-legend-caption">USGS PAGER Alert</span>
                     </div>
                 </div>
                 <div class="map-controls">
@@ -1597,7 +1597,7 @@
                 </div>
                 ${currentEvent.metadata && currentEvent.metadata.pager_alert ? `
                 <div class="info-row">
-                    <span class="info-label">PAGER Alert</span>
+                    <span class="info-label">USGS PAGER Alert</span>
                     <span class="info-value">
                         <span style="display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 5px; background: ${pagerAlertColor(currentEvent.metadata.pager_alert)};"></span><span style="color: ${pagerAlertTextColor(currentEvent.metadata.pager_alert)}; font-weight: 600;">${currentEvent.metadata.pager_alert.toUpperCase()}</span>
                     </span>
@@ -2114,7 +2114,7 @@
                                 <strong>M${mag.toFixed(1)}</strong> - ${props.place}<br>
                                 <span style="color: var(--text-muted);">${date}</span><br>
                                 Depth: ${depth.toFixed(1)} km<br>
-                                PAGER: <span style="color: ${alertColor === 'none' ? '#888' : alertColor}; font-weight: 600;">${alertColor.toUpperCase()}</span><br>
+                                USGS PAGER: <span style="color: ${alertColor === 'none' ? '#888' : alertColor}; font-weight: 600;">${alertColor.toUpperCase()}</span><br>
                                 <a href="${props.url}" target="_blank" style="color: var(--accent);">USGS Details</a>
                             `)
                             .addTo(map);
