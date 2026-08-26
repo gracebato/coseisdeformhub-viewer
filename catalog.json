@@ -6487,21 +6487,11 @@
       },
       "bounds": {
         "lon_min": -157.131249305,
-        "lon_max": -152.086802425,
-        "lat_min": 18.041903189000003,
-        "lat_max": 21.613294935000003
+        "lon_max": -154.187635839,
+        "lat_min": 18.252736691000003,
+        "lat_max": 20.479960695000003
       },
       "datasets": [
-        {
-          "dataset_id": "m_69_18_km_ssw_of_leilani_estates_hawaii-A051",
-          "name": "Ascending Track 051",
-          "url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_69_18_km_ssw_of_leilani_estates_hawaii/S1-COSEIS_SAR-A-R-051-tops-20180509_20180503-042238-00155W_00018N-PP-0ca3-v1_0_0/S1-COSEIS_SAR-A-R-051-tops-20180509_20180503-042238-00155W_00018N-PP-0ca3-v1_0_0.nc",
-          "satellite": "Sentinel-1A_Sentinel-1B",
-          "track": "051",
-          "orbit_direction": "ascending",
-          "date_range": "20180509 - 20180503",
-          "description": "Ascending Track 051"
-        },
         {
           "dataset_id": "m_69_18_km_ssw_of_leilani_estates_hawaii-A124",
           "name": "Ascending Track 124",
@@ -20732,5 +20722,5 @@
     }
   ],
   "total_events": 386,
-  "total_datasets": 1108
+  "total_datasets": 1107
 }
