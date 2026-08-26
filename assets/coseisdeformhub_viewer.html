@@ -904,32 +904,14 @@
                             </label>
                         </div>
                         <div class="form-group">
-                            <label class="form-label">Min Magnitude: <span id="mag-value">5.5</span></label>
-                            <input type="range" id="mag-slider" min="1" max="8" step="0.5" value="5.5"
+                            <label class="form-label">Min Magnitude: <span id="mag-value">6.0</span></label>
+                            <input type="range" id="mag-slider" min="1" max="8" step="0.5" value="6.0"
                                    style="width: 100%;" onchange="updateUSGSFilters()" oninput="document.getElementById('mag-value').textContent = this.value">
                         </div>
                         <div class="form-group">
-                            <label class="form-label">Max Depth: <span id="depth-value">30</span> km</label>
-                            <input type="range" id="depth-slider" min="10" max="300" step="10" value="30"
+                            <label class="form-label">Max Depth: <span id="depth-value">35</span> km</label>
+                            <input type="range" id="depth-slider" min="10" max="300" step="5" value="35"
                                    style="width: 100%;" onchange="updateUSGSFilters()" oninput="document.getElementById('depth-value').textContent = this.value">
-                        </div>
-                        <div class="form-group">
-                            <label class="form-label">Start Year</label>
-                            <select id="year-select" onchange="updateUSGSFilters()">
-                                <option value="2026" selected>2026</option>
-                                <option value="2025">2025</option>
-                                <option value="2024">2024</option>
-                                <option value="2023">2023</option>
-                                <option value="2022">2022</option>
-                                <option value="2021">2021</option>
-                                <option value="2020">2020</option>
-                                <option value="2019">2019</option>
-                                <option value="2018">2018</option>
-                                <option value="2017">2017</option>
-                                <option value="2016">2016</option>
-                                <option value="2015">2015</option>
-                                <option value="2014">2014</option>
-                            </select>
                         </div>
                         <div class="form-group">
                             <label class="form-label">Custom Date Range</label>
@@ -1390,10 +1372,10 @@
                 const select = document.getElementById('event-select');
                 select.innerHTML = '';
 
-                // Add "Latest Large and Shallow Earthquake Events" as default option
+                // Add "Significant Earthquakes (2014-now)" as default option
                 const allOption = document.createElement('option');
                 allOption.value = '';
-                allOption.textContent = 'Latest Large and Shallow Earthquake Events';
+                allOption.textContent = 'Significant Earthquakes (2014-now)';
                 allOption.selected = !currentEventId;
                 select.appendChild(allOption);
 
@@ -1514,7 +1496,7 @@
             const select = document.getElementById('event-select');
             currentEventId = select.value;
 
-            // If "Latest Large and Shallow Earthquake Events" is selected,
+            // If "Significant Earthquakes (2014-now)" is selected,
             // reload to revert everything (including USGS filters) to default.
             if (!currentEventId) {
                 location.reload();
@@ -2018,29 +2000,24 @@
             return filtered;
         }
 
-        // A custom start/end date range takes over from the Start Year dropdown
-        // once both fields are filled in; clearing either one hands control
-        // back to Start Year.
+        // A custom start/end date range takes over from the default 2014-present
+        // range once both fields are filled in.
         function onUSGSDateRangeChange() {
-            const startDateInput = document.getElementById('start-date').value;
-            const endDateInput = document.getElementById('end-date').value;
-            const useCustomRange = !!(startDateInput && endDateInput);
-
-            document.getElementById('year-select').disabled = useCustomRange;
             updateUSGSFilters();
         }
+
+        const USGS_DEFAULT_START_DATE = '2014-01-01';
 
         async function loadUSGSEarthquakes() {
             const minMag = parseFloat(document.getElementById('mag-slider').value);
             const maxDepth = parseInt(document.getElementById('depth-slider').value);
-            const startYear = document.getElementById('year-select').value;
             const landBufferEnabled = document.getElementById('land-buffer-toggle').checked;
 
             const startDateInput = document.getElementById('start-date').value;
             const endDateInput = document.getElementById('end-date').value;
             const useCustomRange = !!(startDateInput && endDateInput);
 
-            const startDate = useCustomRange ? startDateInput : `${startYear}-01-01`;
+            const startDate = useCustomRange ? startDateInput : USGS_DEFAULT_START_DATE;
             const endDate = useCustomRange ? endDateInput : new Date().toISOString().split('T')[0];
 
             // Show loading indicator
