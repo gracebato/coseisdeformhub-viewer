@@ -1060,31 +1060,31 @@
                     <div id="viz-los" class="viz-content active">
                         <div class="loading">
                             <div class="loading-spinner"></div>
-                            <span>Choose an event under Event Selection to view data</span>
+                            <span>Choose an event under Event Selection, or click a point on the map, to view data</span>
                         </div>
                     </div>
                     <div id="viz-wrapped" class="viz-content">
                         <div class="loading">
                             <div class="loading-spinner"></div>
-                            <span>Choose an event under Event Selection to view data</span>
+                            <span>Choose an event under Event Selection, or click a point on the map, to view data</span>
                         </div>
                     </div>
                     <div id="viz-range" class="viz-content">
                         <div class="loading">
                             <div class="loading-spinner"></div>
-                            <span>Choose an event under Event Selection to view data</span>
+                            <span>Choose an event under Event Selection, or click a point on the map, to view data</span>
                         </div>
                     </div>
                     <div id="viz-azimuth" class="viz-content">
                         <div class="loading">
                             <div class="loading-spinner"></div>
-                            <span>Choose an event under Event Selection to view data</span>
+                            <span>Choose an event under Event Selection, or click a point on the map, to view data</span>
                         </div>
                     </div>
                     <div id="viz-model" class="viz-content">
                         <div class="loading">
                             <div class="loading-spinner"></div>
-                            <span>Choose an event under Event Selection to view data</span>
+                            <span>Choose an event under Event Selection, or click a point on the map, to view data</span>
                         </div>
                     </div>
                 </div>
@@ -1468,7 +1468,7 @@
                 const container = document.getElementById(`viz-${type}`);
                 container.innerHTML = `
                     <div class="loading">
-                        <span style="color: var(--text-muted);">Choose an event under Event Selection to view data</span>
+                        <span style="color: var(--text-muted);">Choose an event under Event Selection, or click a point on the map, to view data</span>
                     </div>
                 `;
             });
@@ -1492,6 +1492,13 @@
         }
 
         // Event selection changed
+        // Jump from a live USGS earthquake marker straight to its matching
+        // ARIA COSEIS event in the Earthquake Event dropdown, if one exists.
+        function goToCOSEISEvent(eventId) {
+            document.getElementById('event-select').value = eventId;
+            onEventChange();
+        }
+
         async function onEventChange() {
             const select = document.getElementById('event-select');
             currentEventId = select.value;
@@ -1663,7 +1670,7 @@
                 ${currentDataset.orbit_direction ? `
                 <div class="info-row">
                     <span class="info-label">Orbit</span>
-                    <span class="info-value">${currentDataset.orbit_direction}</span>
+                    <span class="info-value">${currentDataset.orbit_direction.charAt(0).toUpperCase() + currentDataset.orbit_direction.slice(1)}</span>
                 </div>
                 ` : ''}
                 ${dateHTML}
@@ -2108,6 +2115,15 @@
                             usgsHoverPopup = null;
                         }
 
+                        // If this USGS earthquake also has an ARIA COSEIS displacement
+                        // product in our catalog (matched by USGS event id), offer a
+                        // direct link into that event.
+                        const usgsEventId = (props.url || '').replace(/\/$/, '').split('/').pop();
+                        const coseisEvent = fullCatalog && fullCatalog.events.find(ev => ev.event_id === usgsEventId);
+                        const coseisLink = coseisEvent
+                            ? `<br><a href="#" onclick="goToCOSEISEvent('${usgsEventId}'); return false;" style="color: var(--accent);">ARIA COSEIS</a>`
+                            : '';
+
                         new maplibregl.Popup({ offset: 10 })
                             .setLngLat([coords[0], coords[1]])
                             .setHTML(`
@@ -2115,7 +2131,7 @@
                                 <span style="color: var(--text-muted);">${date}</span><br>
                                 Depth: ${depth.toFixed(1)} km<br>
                                 USGS PAGER: <span style="color: ${alertColor === 'none' ? '#888' : alertColor}; font-weight: 600;">${alertColor.toUpperCase()}</span><br>
-                                <a href="${props.url}" target="_blank" style="color: var(--accent);">USGS Details</a>
+                                <a href="${props.url}" target="_blank" style="color: var(--accent);">USGS Details</a>${coseisLink}
                             `)
                             .addTo(map);
                     });
