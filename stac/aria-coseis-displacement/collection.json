@@ -3127,6 +3127,16 @@
     },
     {
       "rel": "item",
+      "href": "./m_64_2_km_wsw_of_petrinja_croatia-D022/m_64_2_km_wsw_of_petrinja_croatia-D022.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_64_2_km_wsw_of_petrinja_croatia-D124/m_64_2_km_wsw_of_petrinja_croatia-D124.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./m_67_29_km_ssw_of_turt_mongolia-D004/m_67_29_km_ssw_of_turt_mongolia-D004.json",
       "type": "application/geo+json"
     },

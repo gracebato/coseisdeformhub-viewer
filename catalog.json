@@ -11421,7 +11421,7 @@
         "lon": 16.2573
       },
       "bounds": {
-        "lon_min": 13.553094887,
+        "lon_min": 12.553372665000001,
         "lon_max": 19.650042609000003,
         "lat_min": 43.940513419000006,
         "lat_max": 47.303293887
@@ -11446,6 +11446,26 @@
           "orbit_direction": "ascending",
           "date_range": "20201230 - 20201224",
           "description": "Ascending Track 146"
+        },
+        {
+          "dataset_id": "m_64_2_km_wsw_of_petrinja_croatia-D022",
+          "name": "Descending Track 022",
+          "url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_64_2_km_wsw_of_petrinja_croatia/S1-COSEIS_SAR-D-R-022-tops-20210103_20201228-051109-00013E_00045N-PP-5da5-v1_0_0/S1-COSEIS_SAR-D-R-022-tops-20210103_20201228-051109-00013E_00045N-PP-5da5-v1_0_0.nc",
+          "satellite": "Sentinel-1A_Sentinel-1B",
+          "track": "022",
+          "orbit_direction": "descending",
+          "date_range": "20210103 - 20201228",
+          "description": "Descending Track 022"
+        },
+        {
+          "dataset_id": "m_64_2_km_wsw_of_petrinja_croatia-D124",
+          "name": "Descending Track 124",
+          "url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_64_2_km_wsw_of_petrinja_croatia/S1-COSEIS_SAR-D-R-124-tops-20210104_20201229-050214-00015E_00044N-PP-3bed-v1_0_0/S1-COSEIS_SAR-D-R-124-tops-20210104_20201229-050214-00015E_00044N-PP-3bed-v1_0_0.nc",
+          "satellite": "Sentinel-1B_Sentinel-1A",
+          "track": "124",
+          "orbit_direction": "descending",
+          "date_range": "20210104 - 20201229",
+          "description": "Descending Track 124"
         }
       ],
       "metadata": {
@@ -20722,5 +20742,5 @@
     }
   ],
   "total_events": 386,
-  "total_datasets": 1107
+  "total_datasets": 1109
 }
