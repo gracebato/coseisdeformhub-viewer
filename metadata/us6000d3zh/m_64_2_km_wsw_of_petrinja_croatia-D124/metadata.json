@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000d3zh",
+  "job_id": "m_64_2_km_wsw_of_petrinja_croatia-D124",
+  "event_title": "M 6.4 - 2 km WSW of Petrinja, Croatia",
+  "orbit": "descending",
+  "track": "124",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_64_2_km_wsw_of_petrinja_croatia/S1-COSEIS_SAR-D-R-124-tops-20210104_20201229-050214-00015E_00044N-PP-3bed-v1_0_0/S1-COSEIS_SAR-D-R-124-tops-20210104_20201229-050214-00015E_00044N-PP-3bed-v1_0_0.nc",
+  "stats": {
+    "min": -0.22362302243709564,
+    "max": 0.32979950308799744,
+    "mean": -0.004908101633191109,
+    "std": 0.021775849163532257
+  },
+  "bounds": {
+    "lon_min": 14.633094951,
+    "lon_max": 18.355875707,
+    "lat_min": 44.445792401000006,
+    "lat_max": 46.415238421000005
+  }
+}
