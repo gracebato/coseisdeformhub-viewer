@@ -4,7 +4,7 @@
   "event_title": "M 6.1 - 99 km WNW of Mantua, Cuba",
   "orbit": "descending",
   "track": "055",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2026/m_61_99_km_wnw_of_mantua_cuba/S1-COSEIS_SAR-D-R-055-tops-20260620_20260608-113602-00087W_00021N-PP-a5ea-v1_0_0/S1-COSEIS_SAR-D-R-055-tops-20260620_20260608-113602-00087W_00021N-PP-a5ea-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2026/m_61_99_km_wnw_of_mantua_cuba_us7000srjx/S1-COSEIS_SAR-D-R-055-tops-20260620_20260608-113602-00087W_00021N-PP-a5ea-v1_0_0/S1-COSEIS_SAR-D-R-055-tops-20260620_20260608-113602-00087W_00021N-PP-a5ea-v1_0_0.nc",
   "stats": {
     "min": -0.1473318189382553,
     "max": 0.01700052246451378,

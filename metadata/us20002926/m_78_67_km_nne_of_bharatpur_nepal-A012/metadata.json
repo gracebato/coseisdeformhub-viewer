@@ -1,0 +1,20 @@
+{
+  "event_id": "us20002926",
+  "job_id": "m_78_67_km_nne_of_bharatpur_nepal-A012",
+  "event_title": "M 7.8 - 67 km NNE of Bharatpur, Nepal",
+  "orbit": "ascending",
+  "track": "012",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_78_67_km_nne_of_bharatpur_nepal_us20002926/S1-COSEIS_SAR-A-R-012-tops-20150428_20150416-121332-00086E_00027N-PP-adef-v1_0_0/S1-COSEIS_SAR-A-R-012-tops-20150428_20150416-121332-00086E_00027N-PP-adef-v1_0_0.nc",
+  "stats": {
+    "min": -0.18804334104061127,
+    "max": 0.2660697400569916,
+    "mean": 0.05142037781016649,
+    "std": 0.0758951750991779
+  },
+  "bounds": {
+    "lon_min": 85.891706269,
+    "lon_max": 88.948930937,
+    "lat_min": 26.900236408999998,
+    "lat_max": 29.453016229
+  }
+}

@@ -4,7 +4,7 @@
   "event_title": "M 7.0 - 128 km WNW of Aykol, China",
   "orbit": "descending",
   "track": "034",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2024/m_70_128_km_wnw_of_aykol_china/S1-COSEIS_SAR-D-R-034-tops-20240125_20240113-005727-00076E_00040N-PP-64b5-v1_0_0/S1-COSEIS_SAR-D-R-034-tops-20240125_20240113-005727-00076E_00040N-PP-64b5-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2024/m_70_128_km_wnw_of_aykol_china_us7000lsze/S1-COSEIS_SAR-D-R-034-tops-20240125_20240113-005727-00076E_00040N-PP-64b5-v1_0_0/S1-COSEIS_SAR-D-R-034-tops-20240125_20240113-005727-00076E_00040N-PP-64b5-v1_0_0.nc",
   "stats": {
     "min": -0.15764236450195312,
     "max": 0.48262110352516174,

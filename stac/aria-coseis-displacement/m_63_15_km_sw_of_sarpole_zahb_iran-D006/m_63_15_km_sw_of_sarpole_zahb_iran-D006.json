@@ -39,11 +39,11 @@
     35.569960767000005
   ],
   "properties": {
-    "title": "2018 M 6.3 - 15 km SW of Sarpol-e Z?ah?b, Iran \u2014 Descending Track 006",
+    "title": "2018 M 6.3 - 15 km SW of Sarpol-e Z\u0304ah\u0101b, Iran \u2014 Descending Track 006",
     "start_datetime": "2018-11-20T00:00:00+00:00",
     "end_datetime": "2018-11-26T00:00:00+00:00",
     "coseis:event_id": "us1000hwdw",
-    "coseis:event_name": "2018 M 6.3 - 15 km SW of Sarpol-e Z?ah?b, Iran",
+    "coseis:event_name": "2018 M 6.3 - 15 km SW of Sarpol-e Z\u0304ah\u0101b, Iran",
     "coseis:magnitude": 6.3,
     "coseis:event_date": "2018-11-25",
     "coseis:pager_alert": "yellow",
@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_63_15_km_sw_of_sarpole_zahb_iran/S1-COSEIS_SAR-D-R-006-tops-20181126_20181120-025420-00045E_00032N-PP-66eb-v1_0_0/S1-COSEIS_SAR-D-R-006-tops-20181126_20181120-025420-00045E_00032N-PP-66eb-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_63_15_km_sw_of_sarpole_zahab_iran_us1000hwdw/S1-COSEIS_SAR-D-R-006-tops-20181126_20181120-025420-00045E_00032N-PP-66eb-v1_0_0/S1-COSEIS_SAR-D-R-006-tops-20181126_20181120-025420-00045E_00032N-PP-66eb-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

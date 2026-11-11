@@ -4,7 +4,7 @@
   "event_title": "M 6.1 - 30 km SSE of Hualien City, Taiwan",
   "orbit": "descending",
   "track": "105",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2024/m_61_30_km_sse_of_hualien_city_taiwan/S1-COSEIS_SAR-D-R-105-tops-20240820_20240808-215257-00119E_00022N-PP-eadd-v1_0_0/S1-COSEIS_SAR-D-R-105-tops-20240820_20240808-215257-00119E_00022N-PP-eadd-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2024/m_61_30_km_sse_of_hualien_city_taiwan_us7000n7b8/S1-COSEIS_SAR-D-R-105-tops-20240820_20240808-215257-00119E_00022N-PP-eadd-v1_0_0/S1-COSEIS_SAR-D-R-105-tops-20240820_20240808-215257-00119E_00022N-PP-eadd-v1_0_0.nc",
   "stats": {
     "min": -0.09913162887096405,
     "max": 0.17656712234020233,

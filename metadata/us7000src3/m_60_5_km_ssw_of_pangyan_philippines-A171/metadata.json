@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000src3",
+  "job_id": "m_60_5_km_ssw_of_pangyan_philippines-A171",
+  "event_title": "M 6.0 - 5 km SSW of Pangyan, Philippines",
+  "orbit": "ascending",
+  "track": "171",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2026/m_60_5_km_ssw_of_pangyan_philippines_us7000src3/S1-COSEIS_SAR-A-R-171-tops-20260629_20260529-094730-00125E_00006N-PP-b1b4-v1_0_0/S1-COSEIS_SAR-A-R-171-tops-20260629_20260529-094730-00125E_00006N-PP-b1b4-v1_0_0.nc",
+  "stats": {
+    "min": -0.4540233314037323,
+    "max": 0.04881201684474945,
+    "mean": -0.21785194564996152,
+    "std": 0.0587682952229588
+  },
+  "bounds": {
+    "lon_min": 125.390695557,
+    "lon_max": 128.059308803,
+    "lat_min": 5.638053977,
+    "lat_max": 7.912500241000001
+  }
+}

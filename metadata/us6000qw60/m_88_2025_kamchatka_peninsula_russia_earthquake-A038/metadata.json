@@ -4,7 +4,7 @@
   "event_title": "M 8.8 - 2025 Kamchatka Peninsula, Russia Earthquake",
   "orbit": "ascending",
   "track": "038",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_88_2025_kamchatka_peninsula_russia_earthquake/S1-COSEIS_SAR-A-R-038-tops-20250730_20250718-070847-00157E_00053N-PP-bf30-v1_0_0/S1-COSEIS_SAR-A-R-038-tops-20250730_20250718-070847-00157E_00053N-PP-bf30-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_88_2025_kamchatka_peninsula_russia_earthquake_us6000qw60/S1-COSEIS_SAR-A-R-038-tops-20250730_20250718-070847-00157E_00053N-PP-bf30-v1_0_0/S1-COSEIS_SAR-A-R-038-tops-20250730_20250718-070847-00157E_00053N-PP-bf30-v1_0_0.nc",
   "stats": {
     "min": -0.06774631887674332,
     "max": 0.3478441536426544,

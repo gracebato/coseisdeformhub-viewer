@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2024/m_62_59_km_nne_of_angoram_papua_new_guinea/S1-COSEIS_SAR-D-R-133-tops-20240915_20240903-200531-00143E_00005S-PP-d41c-v1_0_0/S1-COSEIS_SAR-D-R-133-tops-20240915_20240903-200531-00143E_00005S-PP-d41c-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2024/m_62_59_km_nne_of_angoram_papua_new_guinea_us6000nps8/S1-COSEIS_SAR-D-R-133-tops-20240915_20240903-200531-00143E_00005S-PP-d41c-v1_0_0/S1-COSEIS_SAR-D-R-133-tops-20240915_20240903-200531-00143E_00005S-PP-d41c-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

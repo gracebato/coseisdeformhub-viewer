@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_63_278_km_se_of_hotan_china/S1-COSEIS_SAR-A-R-158-tops-20200704_20200622-123234-00080E_00033N-PP-b356-v1_0_0/S1-COSEIS_SAR-A-R-158-tops-20200704_20200622-123234-00080E_00033N-PP-b356-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_63_278_km_se_of_hotan_china_us7000abmk/S1-COSEIS_SAR-A-R-158-tops-20200704_20200622-123234-00080E_00033N-PP-b356-v1_0_0/S1-COSEIS_SAR-A-R-158-tops-20200704_20200622-123234-00080E_00033N-PP-b356-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

@@ -4,7 +4,7 @@
   "event_title": "M 6.0 - 76 km ENE of Namie, Japan",
   "orbit": "ascending",
   "track": "068",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_60_76_km_ene_of_namie_japan/S1-COSEIS_SAR-A-R-068-tops-20210524_20210512-082600-00141E_00037N-PP-058e-v1_0_0/S1-COSEIS_SAR-A-R-068-tops-20210524_20210512-082600-00141E_00037N-PP-058e-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_60_76_km_ene_of_namie_japan_us7000e2xd/S1-COSEIS_SAR-A-R-068-tops-20210524_20210512-082600-00141E_00037N-PP-058e-v1_0_0/S1-COSEIS_SAR-A-R-068-tops-20210524_20210512-082600-00141E_00037N-PP-058e-v1_0_0.nc",
   "stats": {
     "min": 0.11221172660589218,
     "max": 0.25117143988609314,

@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000qe51",
+  "job_id": "m_62_91_km_sse_of_sand_point_alaska-A153",
+  "event_title": "M 6.2 - 91 km SSE of Sand Point, Alaska",
+  "orbit": "ascending",
+  "track": "153",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_62_91_km_sse_of_sand_point_alaska_us7000qe51/S1-COSEIS_SAR-A-R-153-tops-20250801_20250720-042345-00163W_00055N-PP-60d4-v1_0_0/S1-COSEIS_SAR-A-R-153-tops-20250801_20250720-042345-00163W_00055N-PP-60d4-v1_0_0.nc",
+  "stats": {
+    "min": -0.4072665274143219,
+    "max": 0.25727057456970215,
+    "mean": -0.061151852031020144,
+    "std": 0.0613576609510913
+  },
+  "bounds": {
+    "lon_min": -162.492916261,
+    "lon_max": -157.644856827,
+    "lat_min": 54.591625051,
+    "lat_max": 57.444405111
+  }
+}

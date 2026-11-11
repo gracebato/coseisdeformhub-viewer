@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_60_99_km_s_of_waingapu_indonesia/S1-COSEIS_SAR-A-R-010-tops-20181009_20180927-102450-00119E_00011S-PP-6801-v1_0_0/S1-COSEIS_SAR-A-R-010-tops-20181009_20180927-102450-00119E_00011S-PP-6801-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_60_99_km_s_of_waingapu_indonesia_us1000h5eg/S1-COSEIS_SAR-A-R-010-tops-20181009_20180927-102450-00119E_00011S-PP-6801-v1_0_0/S1-COSEIS_SAR-A-R-010-tops-20181009_20180927-102450-00119E_00011S-PP-6801-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

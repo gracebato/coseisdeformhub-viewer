@@ -4,7 +4,7 @@
   "event_title": "M 6.0 - 33 km NW of Valpara\u00edso, Chile",
   "orbit": "ascending",
   "track": "018",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2026/m_60_33_km_nw_of_valparaiso_chile/S1-COSEIS_SAR-A-R-018-tops-20260605_20260530-232833-00073W_00034S-PP-c6aa-v1_0_0/S1-COSEIS_SAR-A-R-018-tops-20260605_20260530-232833-00073W_00034S-PP-c6aa-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2026/m_60_33_km_nw_of_valparaiso_chile_us7000spqc/S1-COSEIS_SAR-A-R-018-tops-20260605_20260530-232833-00073W_00034S-PP-c6aa-v1_0_0/S1-COSEIS_SAR-A-R-018-tops-20260605_20260530-232833-00073W_00034S-PP-c6aa-v1_0_0.nc",
   "stats": {
     "min": 0.17012609541416168,
     "max": 0.5293096899986267,

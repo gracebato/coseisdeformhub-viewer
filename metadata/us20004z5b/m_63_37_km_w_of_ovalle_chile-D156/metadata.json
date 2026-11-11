@@ -4,7 +4,7 @@
   "event_title": "M 6.3 - 37 km W of Ovalle, Chile",
   "orbit": "descending",
   "track": "156",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_63_37_km_w_of_ovalle_chile/S1-COSEIS_SAR-D-R-156-tops-20160303_20160115-100318-00072W_00032S-PP-af6b-v1_0_0/S1-COSEIS_SAR-D-R-156-tops-20160303_20160115-100318-00072W_00032S-PP-af6b-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_63_37_km_w_of_ovalle_chile_us20004z5b/S1-COSEIS_SAR-D-R-156-tops-20160303_20160115-100318-00072W_00032S-PP-af6b-v1_0_0/S1-COSEIS_SAR-D-R-156-tops-20160303_20160115-100318-00072W_00032S-PP-af6b-v1_0_0.nc",
   "stats": {
     "min": -0.18223586678504944,
     "max": 0.20769070088863373,

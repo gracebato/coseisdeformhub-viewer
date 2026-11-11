@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_75_20_km_w_of_catia_la_mar_venezuela-D098",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -70.58551633500001,
+          8.664124308999998
+        ],
+        [
+          -67.64884731900001,
+          8.664124308999998
+        ],
+        [
+          -67.64884731900001,
+          12.196904913
+        ],
+        [
+          -70.58551633500001,
+          12.196904913
+        ],
+        [
+          -70.58551633500001,
+          8.664124308999998
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -70.58551633500001,
+    8.664124308999998,
+    -67.64884731900001,
+    12.196904913
+  ],
+  "properties": {
+    "title": "2026 M 7.5 - 20 km W of Catia La Mar, Venezuela \u2014 Descending Track 098",
+    "start_datetime": "2026-06-05T00:00:00+00:00",
+    "end_datetime": "2026-06-30T00:00:00+00:00",
+    "coseis:event_id": "us6000t7zp",
+    "coseis:event_name": "2026 M 7.5 - 20 km W of Catia La Mar, Venezuela",
+    "coseis:magnitude": 7.5,
+    "coseis:event_date": "2026-06-24",
+    "coseis:pager_alert": "red",
+    "coseis:depth_km": 10,
+    "sat:orbit_state": "descending",
+    "coseis:track": "098",
+    "coseis:satellites": "Sentinel-1D_Sentinel-1C",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2026-06-30T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t7zp",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us6000t7zp/m_75_20_km_w_of_catia_la_mar_venezuela-D098/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2026/m_75_20_km_w_of_catia_la_mar_venezuela_us6000t7zp/S1-COSEIS_SAR-D-R-098-tops-20260630_20260605-102432-00071W_00009N-PP-08b4-v1_0_0/S1-COSEIS_SAR-D-R-098-tops-20260630_20260605-102432-00071W_00009N-PP-08b4-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

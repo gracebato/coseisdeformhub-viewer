@@ -4,7 +4,7 @@
   "event_title": "M 6.0 - 29 km W of Arica, Chile",
   "orbit": "ascending",
   "track": "149",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_60_29_km_w_of_arica_chile/S1-COSEIS_SAR-A-R-149-tops-20191206_20191130-230702-00071W_00020S-PP-65c1-v1_0_0/S1-COSEIS_SAR-A-R-149-tops-20191206_20191130-230702-00071W_00020S-PP-65c1-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_60_29_km_w_of_arica_chile_us70006fh7/S1-COSEIS_SAR-A-R-149-tops-20191206_20191130-230702-00071W_00020S-PP-65c1-v1_0_0/S1-COSEIS_SAR-A-R-149-tops-20191206_20191130-230702-00071W_00020S-PP-65c1-v1_0_0.nc",
   "stats": {
     "min": -0.05870617926120758,
     "max": 0.3083270788192749,

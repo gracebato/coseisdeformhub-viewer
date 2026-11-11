@@ -10,38 +10,38 @@
     "coordinates": [
       [
         [
-          103.144028693,
-          31.572457569000008
+          103.167362045,
+          31.576624239000004
         ],
         [
-          106.568753655,
-          31.572457569000008
+          106.557364757,
+          31.576624239000004
         ],
         [
-          106.568753655,
-          35.11384929100001
+          106.557364757,
+          35.113293735000006
         ],
         [
-          103.144028693,
-          35.11384929100001
+          103.167362045,
+          35.113293735000006
         ],
         [
-          103.144028693,
-          31.572457569000008
+          103.167362045,
+          31.576624239000004
         ]
       ]
     ]
   },
   "bbox": [
-    103.144028693,
-    31.572457569000008,
-    106.568753655,
-    35.11384929100001
+    103.167362045,
+    31.576624239000004,
+    106.557364757,
+    35.113293735000006
   ],
   "properties": {
     "title": "2017 M 6.5 - 168 km SW of Mawu, China \u2014 Ascending Track 055",
     "start_datetime": "2017-08-06T00:00:00+00:00",
-    "end_datetime": "2017-08-18T00:00:00+00:00",
+    "end_datetime": "2017-08-12T00:00:00+00:00",
     "coseis:event_id": "us2000a5x1",
     "coseis:event_name": "2017 M 6.5 - 168 km SW of Mawu, China",
     "coseis:magnitude": 6.5,
@@ -50,7 +50,7 @@
     "coseis:depth_km": 9,
     "sat:orbit_state": "ascending",
     "coseis:track": "055",
-    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "coseis:satellites": "Sentinel-1B_Sentinel-1A",
     "sar:instrument_mode": "IW",
     "sar:frequency_band": "C",
     "sar:polarizations": [
@@ -58,7 +58,7 @@
     ],
     "sar:product_type": "COSEIS_DISPLACEMENT",
     "sar:observation_direction": "right",
-    "datetime": "2017-08-18T00:00:00Z"
+    "datetime": "2017-08-12T00:00:00Z"
   },
   "links": [
     {
@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_65_168_km_sw_of_mawu_china/S1-COSEIS_SAR-A-R-055-tops-20170818_20170806-110120-00103E_00032N-PP-8495-v1_0_0/S1-COSEIS_SAR-A-R-055-tops-20170818_20170806-110120-00103E_00032N-PP-8495-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_65_168_km_sw_of_mawu_china_us2000a5x1/S1-COSEIS_SAR-A-R-055-tops-20170812_20170806-110035-00103E_00032N-PP-dc75-v1_0_0/S1-COSEIS_SAR-A-R-055-tops-20170812_20170806-110035-00103E_00032N-PP-dc75-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_65_80_km_sw_of_jiquilillo_nicaragua/S1-COSEIS_SAR-A-R-165-tops-20211003_20210921-235741-00088W_00011N-PP-814a-v1_0_0/S1-COSEIS_SAR-A-R-165-tops-20211003_20210921-235741-00088W_00011N-PP-814a-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_65_80_km_sw_of_jiquilillo_nicaragua_us7000fdds/S1-COSEIS_SAR-A-R-165-tops-20211003_20210921-235741-00088W_00011N-PP-814a-v1_0_0/S1-COSEIS_SAR-A-R-165-tops-20211003_20210921-235741-00088W_00011N-PP-814a-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

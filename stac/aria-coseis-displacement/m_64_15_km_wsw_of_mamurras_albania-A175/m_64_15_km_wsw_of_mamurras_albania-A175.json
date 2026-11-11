@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_64_15_km_wsw_of_mamurras_albania/S1-COSEIS_SAR-A-R-175-tops-20191126_20191120-163218-00019E_00041N-PP-bba7-v1_0_0/S1-COSEIS_SAR-A-R-175-tops-20191126_20191120-163218-00019E_00041N-PP-bba7-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_64_15_km_wsw_of_mamurras_albania_us70006d0m/S1-COSEIS_SAR-A-R-175-tops-20191126_20191120-163218-00019E_00041N-PP-bba7-v1_0_0/S1-COSEIS_SAR-A-R-175-tops-20191126_20191120-163218-00019E_00041N-PP-bba7-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

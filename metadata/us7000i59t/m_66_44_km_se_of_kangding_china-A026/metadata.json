@@ -4,7 +4,7 @@
   "event_title": "M 6.6 - 44 km SE of Kangding, China",
   "orbit": "ascending",
   "track": "026",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_66_44_km_se_of_kangding_china/S1-COSEIS_SAR-A-R-026-tops-20220907_20220826-111713-00100E_00028N-PP-c935-v1_0_0/S1-COSEIS_SAR-A-R-026-tops-20220907_20220826-111713-00100E_00028N-PP-c935-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_66_44_km_se_of_kangding_china_us7000i59t/S1-COSEIS_SAR-A-R-026-tops-20220907_20220826-111713-00100E_00028N-PP-c935-v1_0_0/S1-COSEIS_SAR-A-R-026-tops-20220907_20220826-111713-00100E_00028N-PP-c935-v1_0_0.nc",
   "stats": {
     "min": -0.13671007752418518,
     "max": 0.2115345001220703,

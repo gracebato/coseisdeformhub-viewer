@@ -4,7 +4,7 @@
   "event_title": "M 6.2 - 28 km SW of Las Brisas, Mexico",
   "orbit": "descending",
   "track": "173",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_62_28_km_sw_of_las_brisas_mexico/S1-COSEIS_SAR-D-R-173-tops-20221128_20221116-134544-00118W_00029N-PP-2b77-v1_0_0/S1-COSEIS_SAR-D-R-173-tops-20221128_20221116-134544-00118W_00029N-PP-2b77-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_62_28_km_sw_of_las_brisas_mexico_us7000irjd/S1-COSEIS_SAR-D-R-173-tops-20221128_20221116-134544-00118W_00029N-PP-2b77-v1_0_0/S1-COSEIS_SAR-D-R-173-tops-20221128_20221116-134544-00118W_00029N-PP-2b77-v1_0_0.nc",
   "stats": {
     "min": -0.9664286971092224,
     "max": 0.04873858764767647,

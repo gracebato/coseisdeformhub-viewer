@@ -4,7 +4,7 @@
   "event_title": "M 6.4 - 56 km S of Panguna, Papua New Guinea",
   "orbit": "ascending",
   "track": "169",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2024/m_64_56_km_s_of_panguna_papua_new_guinea/S1-COSEIS_SAR-A-R-169-tops-20240906_20240825-080623-00153E_00007S-PP-ba72-v1_0_0/S1-COSEIS_SAR-A-R-169-tops-20240906_20240825-080623-00153E_00007S-PP-ba72-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2024/m_64_56_km_s_of_panguna_papua_new_guinea_us6000np3z/S1-COSEIS_SAR-A-R-169-tops-20240906_20240825-080623-00153E_00007S-PP-ba72-v1_0_0/S1-COSEIS_SAR-A-R-169-tops-20240906_20240825-080623-00153E_00007S-PP-ba72-v1_0_0.nc",
   "stats": {
     "min": -0.1882629096508026,
     "max": 0.2943181097507477,

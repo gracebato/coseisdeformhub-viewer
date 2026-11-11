@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_76_41_km_sw_of_quellon_chile-A062",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -75.74607201900001,
+          -45.91226584099999
+        ],
+        [
+          -70.63773459900001,
+          -45.91226584099999
+        ],
+        [
+          -70.63773459900001,
+          -40.824483992999994
+        ],
+        [
+          -75.74607201900001,
+          -40.824483992999994
+        ],
+        [
+          -75.74607201900001,
+          -45.91226584099999
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -75.74607201900001,
+    -45.91226584099999,
+    -70.63773459900001,
+    -40.824483992999994
+  ],
+  "properties": {
+    "title": "2016 M 7.6 - 41 km SW of Quell\u00f3n, Chile \u2014 Ascending Track 062",
+    "start_datetime": "2016-12-21T00:00:00+00:00",
+    "end_datetime": "2017-01-14T00:00:00+00:00",
+    "coseis:event_id": "us10007mn3",
+    "coseis:event_name": "2016 M 7.6 - 41 km SW of Quell\u00f3n, Chile",
+    "coseis:magnitude": 7.6,
+    "coseis:event_date": "2016-12-25",
+    "coseis:pager_alert": "yellow",
+    "coseis:depth_km": 38,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "062",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2017-01-14T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us10007mn3",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us10007mn3/m_76_41_km_sw_of_quellon_chile-A062/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_76_41_km_sw_of_quellon_chile_us10007mn3/S1-COSEIS_SAR-A-R-062-tops-20170114_20161221-234951-00076W_00046S-PP-e658-v1_0_0/S1-COSEIS_SAR-A-R-062-tops-20170114_20161221-234951-00076W_00046S-PP-e658-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

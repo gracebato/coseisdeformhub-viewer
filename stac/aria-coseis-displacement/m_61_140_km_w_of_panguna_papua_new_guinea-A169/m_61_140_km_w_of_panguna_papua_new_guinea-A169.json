@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_61_140_km_w_of_panguna_papua_new_guinea/S1-COSEIS_SAR-A-R-169-tops-20200506_20200424-080603-00153E_00007S-PP-a819-v1_0_0/S1-COSEIS_SAR-A-R-169-tops-20200506_20200424-080603-00153E_00007S-PP-a819-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_61_140_km_w_of_panguna_papua_new_guinea_us60009c06/S1-COSEIS_SAR-A-R-169-tops-20200506_20200424-080603-00153E_00007S-PP-a819-v1_0_0/S1-COSEIS_SAR-A-R-169-tops-20200506_20200424-080603-00153E_00007S-PP-a819-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

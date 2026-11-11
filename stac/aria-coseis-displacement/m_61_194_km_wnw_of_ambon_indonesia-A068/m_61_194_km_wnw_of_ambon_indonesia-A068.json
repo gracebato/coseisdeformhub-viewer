@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_61_194_km_wnw_of_ambon_indonesia/S1-COSEIS_SAR-A-R-068-tops-20180227_20180215-095347-00125E_00005S-PP-cb0f-v1_0_0/S1-COSEIS_SAR-A-R-068-tops-20180227_20180215-095347-00125E_00005S-PP-cb0f-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_61_194_km_wnw_of_ambon_indonesia_us2000d855/S1-COSEIS_SAR-A-R-068-tops-20180227_20180215-095347-00125E_00005S-PP-cb0f-v1_0_0/S1-COSEIS_SAR-A-R-068-tops-20180227_20180215-095347-00125E_00005S-PP-cb0f-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

@@ -1,0 +1,20 @@
+{
+  "event_id": "us20004ft7",
+  "job_id": "m_69_107_km_se_of_amahai_indonesia-A170",
+  "event_title": "M 6.9 - 107 km SE of Amahai, Indonesia",
+  "orbit": "ascending",
+  "track": "170",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_69_107_km_se_of_amahai_indonesia_us20004ft7/S1-COSEIS_SAR-A-R-170-tops-20160104_20151117-094509-00128E_00004S-PP-b912-v1_0_0/S1-COSEIS_SAR-A-R-170-tops-20160104_20151117-094509-00128E_00004S-PP-b912-v1_0_0.nc",
+  "stats": {
+    "min": -0.7378172874450684,
+    "max": 0.022698450833559036,
+    "mean": -0.4448690410324128,
+    "std": 0.13657785100867154
+  },
+  "bounds": {
+    "lon_min": 127.631528283,
+    "lon_max": 130.121530275,
+    "lat_min": -4.201111761,
+    "lat_max": -2.564166007
+  }
+}

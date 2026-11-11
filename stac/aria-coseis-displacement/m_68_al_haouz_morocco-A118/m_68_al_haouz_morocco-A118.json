@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_68_al_haouz_morocco/S1-COSEIS_SAR-A-R-118-tops-20231002_20230908-184201-00011W_00030N-PP-f8c2-v1_0_0/S1-COSEIS_SAR-A-R-118-tops-20231002_20230908-184201-00011W_00030N-PP-f8c2-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_68_al_haouz_morocco_us7000kufc/S1-COSEIS_SAR-A-R-118-tops-20231002_20230908-184201-00011W_00030N-PP-f8c2-v1_0_0/S1-COSEIS_SAR-A-R-118-tops-20231002_20230908-184201-00011W_00030N-PP-f8c2-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

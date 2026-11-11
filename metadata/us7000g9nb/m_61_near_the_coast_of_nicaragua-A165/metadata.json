@@ -4,7 +4,7 @@
   "event_title": "M 6.1 - near the coast of Nicaragua",
   "orbit": "ascending",
   "track": "165",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_61_near_the_coast_of_nicaragua/S1-COSEIS_SAR-A-R-165-tops-20220107_20211226-235726-00088W_00010N-PP-0412-v1_0_0/S1-COSEIS_SAR-A-R-165-tops-20220107_20211226-235726-00088W_00010N-PP-0412-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_61_near_the_coast_of_nicaragua_us7000g9nb/S1-COSEIS_SAR-A-R-165-tops-20220107_20211226-235726-00088W_00010N-PP-0412-v1_0_0/S1-COSEIS_SAR-A-R-165-tops-20220107_20211226-235726-00088W_00010N-PP-0412-v1_0_0.nc",
   "stats": {
     "min": -0.8599684238433838,
     "max": -0.2607056796550751,

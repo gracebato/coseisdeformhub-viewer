@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_61_82_km_ssw_of_bahia_de_kino_mexico/S1-COSEIS_SAR-D-R-129-tops-20221113_20221101-132150-00112W_00026N-PP-95bc-v1_0_0/S1-COSEIS_SAR-D-R-129-tops-20221113_20221101-132150-00112W_00026N-PP-95bc-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_61_82_km_ssw_of_bahia_de_kino_mexico_us7000imgl/S1-COSEIS_SAR-D-R-129-tops-20221113_20221101-132150-00112W_00026N-PP-95bc-v1_0_0/S1-COSEIS_SAR-D-R-129-tops-20221113_20221101-132150-00112W_00026N-PP-95bc-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

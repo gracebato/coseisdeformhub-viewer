@@ -4,7 +4,7 @@
   "event_title": "M 6.1 - 176 km ENE of Angoram, Papua New Guinea",
   "orbit": "ascending",
   "track": "111",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_61_176_km_ene_of_angoram_papua_new_guinea/S1-COSEIS_SAR-A-R-111-tops-20210509_20210415-083926-00144E_00006S-PP-8b22-v1_0_0/S1-COSEIS_SAR-A-R-111-tops-20210509_20210415-083926-00144E_00006S-PP-8b22-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_61_176_km_ene_of_angoram_papua_new_guinea_us7000dxsy/S1-COSEIS_SAR-A-R-111-tops-20210509_20210415-083926-00144E_00006S-PP-8b22-v1_0_0/S1-COSEIS_SAR-A-R-111-tops-20210509_20210415-083926-00144E_00006S-PP-8b22-v1_0_0.nc",
   "stats": {
     "min": -0.4854634702205658,
     "max": 0.2941652834415436,

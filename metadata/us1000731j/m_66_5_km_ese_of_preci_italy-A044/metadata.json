@@ -4,7 +4,7 @@
   "event_title": "M 6.6 - 5 km ESE of Preci, Italy",
   "orbit": "ascending",
   "track": "044",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_66_5_km_ese_of_preci_italy/S1-COSEIS_SAR-A-R-044-tops-20161102_20161027-165743-00012E_00041N-PP-9a04-v1_0_0/S1-COSEIS_SAR-A-R-044-tops-20161102_20161027-165743-00012E_00041N-PP-9a04-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_66_5_km_ese_of_preci_italy_us1000731j/S1-COSEIS_SAR-A-R-044-tops-20161102_20161027-165743-00012E_00041N-PP-9a04-v1_0_0/S1-COSEIS_SAR-A-R-044-tops-20161102_20161027-165743-00012E_00041N-PP-9a04-v1_0_0.nc",
   "stats": {
     "min": -0.5749586820602417,
     "max": 0.15534453094005585,

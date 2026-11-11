@@ -1,10 +1,10 @@
 {
   "event_id": "us60007ewc",
   "job_id": "m_67_13_km_n_of_doanyol_turkey-A043",
-  "event_title": "M 6.7 - 13 km N of Do?anyol, Turkey",
+  "event_title": "M 6.7 - 13 km N of Do\u011fanyol, Turkey",
   "orbit": "ascending",
   "track": "043",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_67_13_km_n_of_doanyol_turkey/S1-COSEIS_SAR-A-R-043-tops-20200128_20200122-151714-00038E_00037N-PP-66ef-v1_0_0/S1-COSEIS_SAR-A-R-043-tops-20200128_20200122-151714-00038E_00037N-PP-66ef-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_67_13_km_n_of_doganyol_turkey_us60007ewc/S1-COSEIS_SAR-A-R-043-tops-20200128_20200122-151714-00038E_00037N-PP-66ef-v1_0_0/S1-COSEIS_SAR-A-R-043-tops-20200128_20200122-151714-00038E_00037N-PP-66ef-v1_0_0.nc",
   "stats": {
     "min": -0.13159728050231934,
     "max": 0.2596231698989868,

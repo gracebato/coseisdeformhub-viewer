@@ -4,7 +4,7 @@
   "event_title": "M 6.5 - Monte Cristo Range, NV Earthquake",
   "orbit": "ascending",
   "track": "064",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_65_monte_cristo_range_nv_earthquake/S1-COSEIS_SAR-A-R-064-tops-20200517_20200511-015053-00120W_00037N-PP-5088-v1_0_0/S1-COSEIS_SAR-A-R-064-tops-20200517_20200511-015053-00120W_00037N-PP-5088-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_65_monte_cristo_range_nv_earthquake_nn00725272/S1-COSEIS_SAR-A-R-064-tops-20200517_20200511-015053-00120W_00037N-PP-5088-v1_0_0/S1-COSEIS_SAR-A-R-064-tops-20200517_20200511-015053-00120W_00037N-PP-5088-v1_0_0.nc",
   "stats": {
     "min": -0.30502986907958984,
     "max": 0.11925087869167328,

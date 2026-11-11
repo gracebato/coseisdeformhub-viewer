@@ -4,7 +4,7 @@
   "event_title": "M 6.0 - 19 km W of Do\u011fanyol, Turkey",
   "orbit": "ascending",
   "track": "116",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2024/m_60_19_km_w_of_doganyol_turkey/S1-COSEIS_SAR-A-R-116-tops-20241020_20241008-152638-00036E_00037N-PP-5647-v1_0_0/S1-COSEIS_SAR-A-R-116-tops-20241020_20241008-152638-00036E_00037N-PP-5647-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2024/m_60_19_km_w_of_doganyol_turkey_us6000nyzk/S1-COSEIS_SAR-A-R-116-tops-20241020_20241008-152638-00036E_00037N-PP-5647-v1_0_0/S1-COSEIS_SAR-A-R-116-tops-20241020_20241008-152638-00036E_00037N-PP-5647-v1_0_0.nc",
   "stats": {
     "min": -0.10717759281396866,
     "max": 0.0442604161798954,

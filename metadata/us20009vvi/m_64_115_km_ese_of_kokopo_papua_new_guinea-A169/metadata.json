@@ -4,7 +4,7 @@
   "event_title": "M 6.4 - 115 km ESE of Kokopo, Papua New Guinea",
   "orbit": "ascending",
   "track": "169",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_64_115_km_ese_of_kokopo_papua_new_guinea/S1-COSEIS_SAR-A-R-169-tops-20170721_20170709-080615-00153E_00006S-PP-eb00-v1_0_0/S1-COSEIS_SAR-A-R-169-tops-20170721_20170709-080615-00153E_00006S-PP-eb00-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_64_115_km_ese_of_kokopo_papua_new_guinea_us20009vvi/S1-COSEIS_SAR-A-R-169-tops-20170721_20170709-080615-00153E_00006S-PP-eb00-v1_0_0/S1-COSEIS_SAR-A-R-169-tops-20170721_20170709-080615-00153E_00006S-PP-eb00-v1_0_0.nc",
   "stats": {
     "min": -0.07347983121871948,
     "max": 0.481656014919281,

@@ -11,32 +11,32 @@
       [
         [
           -73.071072279,
-          -33.739764903
+          -33.739765702999996
         ],
         [
-          -69.286902585,
-          -33.739764903
+          -68.85245779300001,
+          -33.739765702999996
         ],
         [
-          -69.286902585,
-          -30.049761951
-        ],
-        [
-          -73.071072279,
-          -30.049761951
+          -68.85245779300001,
+          -28.575317126999998
         ],
         [
           -73.071072279,
-          -33.739764903
+          -28.575317126999998
+        ],
+        [
+          -73.071072279,
+          -33.739765702999996
         ]
       ]
     ]
   },
   "bbox": [
     -73.071072279,
-    -33.739764903,
-    -69.286902585,
-    -30.049761951
+    -33.739765702999996,
+    -68.85245779300001,
+    -28.575317126999998
   ],
   "properties": {
     "title": "2015 M 6.6 - 22 km WSW of Illapel, Chile \u2014 Descending Track 156",
@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_66_22_km_wsw_of_illapel_chile/S1-COSEIS_SAR-D-R-156-tops-20151011_20150917-100339-00073W_00034S-PP-5bc0-v1_0_0/S1-COSEIS_SAR-D-R-156-tops-20151011_20150917-100339-00073W_00034S-PP-5bc0-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_66_22_km_wsw_of_illapel_chile_us20003mi0/S1-COSEIS_SAR-D-R-156-tops-20151011_20150917-100327-00073W_00034S-PP-640e-v1_0_0/S1-COSEIS_SAR-D-R-156-tops-20151011_20150917-100327-00073W_00034S-PP-640e-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

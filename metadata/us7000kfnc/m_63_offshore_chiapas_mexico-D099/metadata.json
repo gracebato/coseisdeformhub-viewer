@@ -4,7 +4,7 @@
   "event_title": "M 6.3 - Offshore Chiapas, Mexico",
   "orbit": "descending",
   "track": "099",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_63_offshore_chiapas_mexico/S1-COSEIS_SAR-D-R-099-tops-20230721_20230627-120300-00094W_00014N-PP-757c-v1_0_0/S1-COSEIS_SAR-D-R-099-tops-20230721_20230627-120300-00094W_00014N-PP-757c-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_63_offshore_chiapas_mexico_us7000kfnc/S1-COSEIS_SAR-D-R-099-tops-20230721_20230627-120300-00094W_00014N-PP-757c-v1_0_0/S1-COSEIS_SAR-D-R-099-tops-20230721_20230627-120300-00094W_00014N-PP-757c-v1_0_0.nc",
   "stats": {
     "min": -0.6431764960289001,
     "max": 0.005025727208703756,

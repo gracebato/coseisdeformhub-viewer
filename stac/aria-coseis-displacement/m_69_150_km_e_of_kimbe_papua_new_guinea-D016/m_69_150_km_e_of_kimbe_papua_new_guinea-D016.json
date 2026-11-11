@@ -10,38 +10,38 @@
     "coordinates": [
       [
         [
-          150.228195427,
-          -7.529167578999999
+          150.228473205,
+          -7.528613623
         ],
         [
-          152.868197539,
-          -7.529167578999999
+          153.227642271,
+          -7.528613623
         ],
         [
-          152.868197539,
-          -5.444165911
+          153.227642271,
+          -3.948332981
         ],
         [
-          150.228195427,
-          -5.444165911
+          150.228473205,
+          -3.948332981
         ],
         [
-          150.228195427,
-          -7.529167578999999
+          150.228473205,
+          -7.528613623
         ]
       ]
     ]
   },
   "bbox": [
-    150.228195427,
-    -7.529167578999999,
-    152.868197539,
-    -5.444165911
+    150.228473205,
+    -7.528613623,
+    153.227642271,
+    -3.948332981
   ],
   "properties": {
     "title": "2018 M 6.9 - 150 km E of Kimbe, Papua New Guinea \u2014 Descending Track 016",
     "start_datetime": "2018-03-07T00:00:00+00:00",
-    "end_datetime": "2018-03-31T00:00:00+00:00",
+    "end_datetime": "2018-04-12T00:00:00+00:00",
     "coseis:event_id": "us1000db40",
     "coseis:event_name": "2018 M 6.9 - 150 km E of Kimbe, Papua New Guinea",
     "coseis:magnitude": 6.9,
@@ -58,7 +58,7 @@
     ],
     "sar:product_type": "COSEIS_DISPLACEMENT",
     "sar:observation_direction": "right",
-    "datetime": "2018-03-31T00:00:00Z"
+    "datetime": "2018-04-12T00:00:00Z"
   },
   "links": [
     {
@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_69_150_km_e_of_kimbe_papua_new_guinea/S1-COSEIS_SAR-D-R-016-tops-20180331_20180307-193243-00150E_00008S-PP-5098-v1_0_0/S1-COSEIS_SAR-D-R-016-tops-20180331_20180307-193243-00150E_00008S-PP-5098-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_69_150_km_e_of_kimbe_papua_new_guinea_us1000db40/S1-COSEIS_SAR-D-R-016-tops-20180412_20180307-193231-00150E_00008S-PP-fac3-v1_0_0/S1-COSEIS_SAR-D-R-016-tops-20180412_20180307-193231-00150E_00008S-PP-fac3-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

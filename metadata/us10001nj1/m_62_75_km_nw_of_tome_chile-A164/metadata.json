@@ -4,7 +4,7 @@
   "event_title": "M 6.2 - 75 km NW of Tom\u00e9, Chile",
   "orbit": "ascending",
   "track": "164",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_62_75_km_nw_of_tome_chile/S1-COSEIS_SAR-A-R-164-tops-20150321_20150225-234324-00076W_00037S-PP-0876-v1_0_0/S1-COSEIS_SAR-A-R-164-tops-20150321_20150225-234324-00076W_00037S-PP-0876-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_62_75_km_nw_of_tome_chile_us10001nj1/S1-COSEIS_SAR-A-R-164-tops-20150321_20150225-234324-00076W_00037S-PP-0876-v1_0_0/S1-COSEIS_SAR-A-R-164-tops-20150321_20150225-234324-00076W_00037S-PP-0876-v1_0_0.nc",
   "stats": {
     "min": 0.8863769769668579,
     "max": 1.0580542087554932,

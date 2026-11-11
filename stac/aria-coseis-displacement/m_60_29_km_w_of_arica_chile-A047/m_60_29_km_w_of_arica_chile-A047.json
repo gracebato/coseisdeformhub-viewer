@@ -11,14 +11,14 @@
       [
         [
           -72.728015649,
-          -18.986430166999998
+          -20.646153716999997
         ],
         [
-          -69.999957911,
-          -18.986430166999998
+          -69.51801308099999,
+          -20.646153716999997
         ],
         [
-          -69.999957911,
+          -69.51801308099999,
           -16.960595212999998
         ],
         [
@@ -27,20 +27,20 @@
         ],
         [
           -72.728015649,
-          -18.986430166999998
+          -20.646153716999997
         ]
       ]
     ]
   },
   "bbox": [
     -72.728015649,
-    -18.986430166999998,
-    -69.999957911,
+    -20.646153716999997,
+    -69.51801308099999,
     -16.960595212999998
   ],
   "properties": {
     "title": "2019 M 6.0 - 29 km W of Arica, Chile \u2014 Ascending Track 047",
-    "start_datetime": "2019-11-29T00:00:00+00:00",
+    "start_datetime": "2019-11-23T00:00:00+00:00",
     "end_datetime": "2019-12-05T00:00:00+00:00",
     "coseis:event_id": "us70006fh7",
     "coseis:event_name": "2019 M 6.0 - 29 km W of Arica, Chile",
@@ -50,7 +50,7 @@
     "coseis:depth_km": 38,
     "sat:orbit_state": "ascending",
     "coseis:track": "047",
-    "coseis:satellites": "Sentinel-1A_Sentinel-1B",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
     "sar:instrument_mode": "IW",
     "sar:frequency_band": "C",
     "sar:polarizations": [
@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_60_29_km_w_of_arica_chile/S1-COSEIS_SAR-A-R-047-tops-20191205_20191129-231556-00073W_00019S-PP-8e29-v1_0_0/S1-COSEIS_SAR-A-R-047-tops-20191205_20191129-231556-00073W_00019S-PP-8e29-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_60_29_km_w_of_arica_chile_us70006fh7/S1-COSEIS_SAR-A-R-047-tops-20191205_20191123-231556-00073W_00021S-PP-df86-v1_0_0/S1-COSEIS_SAR-A-R-047-tops-20191205_20191123-231556-00073W_00021S-PP-df86-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

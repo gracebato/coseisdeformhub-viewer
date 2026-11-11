@@ -1,0 +1,20 @@
+{
+  "event_id": "us2000dus5",
+  "job_id": "m_60_43_km_ese_of_tarragona_philippines-A171",
+  "event_title": "M 6.0 - 43 km ESE of Tarragona, Philippines",
+  "orbit": "ascending",
+  "track": "171",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_60_43_km_ese_of_tarragona_philippines_us2000dus5/S1-COSEIS_SAR-A-R-171-tops-20180405_20180324-094729-00125E_00005N-PP-3057-v1_0_0/S1-COSEIS_SAR-A-R-171-tops-20180405_20180324-094729-00125E_00005N-PP-3057-v1_0_0.nc",
+  "stats": {
+    "min": -1.5228592157363892,
+    "max": 0.7874617576599121,
+    "mean": -0.545151892470346,
+    "std": 0.5361326353070327
+  },
+  "bounds": {
+    "lon_min": 125.21875097499999,
+    "lon_max": 128.19375335499998,
+    "lat_min": 4.9716237549999995,
+    "lat_max": 8.745515662999999
+  }
+}

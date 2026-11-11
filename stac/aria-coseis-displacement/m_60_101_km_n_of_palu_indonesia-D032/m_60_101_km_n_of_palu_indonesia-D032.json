@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_60_101_km_n_of_palu_indonesia/S1-COSEIS_SAR-D-R-032-tops-20230914_20230902-215116-00117E_00000S-PP-772a-v1_0_0/S1-COSEIS_SAR-D-R-032-tops-20230914_20230902-215116-00117E_00000S-PP-772a-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_60_101_km_n_of_palu_indonesia_us7000kulj/S1-COSEIS_SAR-D-R-032-tops-20230914_20230902-215116-00117E_00000S-PP-772a-v1_0_0/S1-COSEIS_SAR-D-R-032-tops-20230914_20230902-215116-00117E_00000S-PP-772a-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

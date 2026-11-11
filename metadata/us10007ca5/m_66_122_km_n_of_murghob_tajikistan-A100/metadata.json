@@ -4,17 +4,17 @@
   "event_title": "M 6.6 - 122 km N of Murghob, Tajikistan",
   "orbit": "ascending",
   "track": "100",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_66_122_km_n_of_murghob_tajikistan/S1-COSEIS_SAR-A-R-100-tops-20161130_20161118-130618-00071E_00039N-PP-c8c4-v1_0_0/S1-COSEIS_SAR-A-R-100-tops-20161130_20161118-130618-00071E_00039N-PP-c8c4-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_66_122_km_n_of_murghob_tajikistan_us10007ca5/S1-COSEIS_SAR-A-R-100-tops-20161130_20161106-130618-00071E_00038N-PP-17a6-v1_0_0/S1-COSEIS_SAR-A-R-100-tops-20161130_20161106-130618-00071E_00038N-PP-17a6-v1_0_0.nc",
   "stats": {
-    "min": -0.0035845988895744085,
-    "max": 0.43616342544555664,
-    "mean": 0.20749707520008087,
-    "std": 0.04883836954832077
+    "min": -0.27092236280441284,
+    "max": 0.5345255732536316,
+    "mean": 0.09808308237713122,
+    "std": 0.10099337254326672
   },
   "bounds": {
     "lon_min": 71.038373053,
-    "lon_max": 74.243097839,
-    "lat_min": 38.919403891,
+    "lon_max": 74.412820197,
+    "lat_min": 38.256347805000004,
     "lat_max": 40.128015969
   }
 }

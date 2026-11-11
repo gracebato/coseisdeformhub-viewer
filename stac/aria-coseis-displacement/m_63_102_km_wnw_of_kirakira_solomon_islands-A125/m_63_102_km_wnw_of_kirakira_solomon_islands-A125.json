@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_63_102_km_wnw_of_kirakira_solomon_islands/S1-COSEIS_SAR-A-R-125-tops-20200203_20200122-073946-00160E_00012S-PP-01d3-v1_0_0/S1-COSEIS_SAR-A-R-125-tops-20200203_20200122-073946-00160E_00012S-PP-01d3-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_63_102_km_wnw_of_kirakira_solomon_islands_us60007gyx/S1-COSEIS_SAR-A-R-125-tops-20200203_20200122-073946-00160E_00012S-PP-01d3-v1_0_0/S1-COSEIS_SAR-A-R-125-tops-20200203_20200122-073946-00160E_00012S-PP-01d3-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

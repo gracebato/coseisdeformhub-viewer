@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_62_30_km_se_of_mazare_sharif_afghanistan/S1-COSEIS_SAR-D-R-151-tops-20251111_20251030-013134-00066E_00035N-PP-7bd7-v1_0_0/S1-COSEIS_SAR-D-R-151-tops-20251111_20251030-013134-00066E_00035N-PP-7bd7-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_62_30_km_se_of_mazare_sharif_afghanistan_us6000rl31/S1-COSEIS_SAR-D-R-151-tops-20251111_20251030-013134-00066E_00035N-PP-7bd7-v1_0_0/S1-COSEIS_SAR-D-R-151-tops-20251111_20251030-013134-00066E_00035N-PP-7bd7-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_60_40_km_n_of_santa_monica_philippines/S1-COSEIS_SAR-D-R-061-tops-20190311_20190227-213044-00123E_00010N-PP-e58c-v1_0_0/S1-COSEIS_SAR-D-R-061-tops-20190311_20190227-213044-00123E_00010N-PP-e58c-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_60_40_km_n_of_santa_monica_philippines_us1000jccx/S1-COSEIS_SAR-D-R-061-tops-20190311_20190227-213044-00123E_00010N-PP-e58c-v1_0_0/S1-COSEIS_SAR-D-R-061-tops-20190311_20190227-213044-00123E_00010N-PP-e58c-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_64_4_km_sw_of_palekastro_greece/S1-COSEIS_SAR-D-R-109-tops-20211018_20211012-042407-00023E_00034N-PP-c66d-v1_0_0/S1-COSEIS_SAR-D-R-109-tops-20211018_20211012-042407-00023E_00034N-PP-c66d-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_64_4_km_sw_of_palekastro_greece_us6000ftxu/S1-COSEIS_SAR-D-R-109-tops-20211018_20211012-042407-00023E_00034N-PP-c66d-v1_0_0/S1-COSEIS_SAR-D-R-109-tops-20211018_20211012-042407-00023E_00034N-PP-c66d-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

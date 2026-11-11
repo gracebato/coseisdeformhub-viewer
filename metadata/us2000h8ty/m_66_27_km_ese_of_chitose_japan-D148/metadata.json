@@ -4,7 +4,7 @@
   "event_title": "M 6.6 - 27 km ESE of Chitose, Japan",
   "orbit": "descending",
   "track": "148",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_66_27_km_ese_of_chitose_japan/S1-COSEIS_SAR-D-R-148-tops-20180912_20180831-203319-00142E_00041N-PP-cd4a-v1_0_0/S1-COSEIS_SAR-D-R-148-tops-20180912_20180831-203319-00142E_00041N-PP-cd4a-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_66_27_km_ese_of_chitose_japan_us2000h8ty/S1-COSEIS_SAR-D-R-148-tops-20180912_20180831-203319-00142E_00041N-PP-cd4a-v1_0_0/S1-COSEIS_SAR-D-R-148-tops-20180912_20180831-203319-00142E_00041N-PP-cd4a-v1_0_0.nc",
   "stats": {
     "min": 0.06501343101263046,
     "max": 0.338787704706192,

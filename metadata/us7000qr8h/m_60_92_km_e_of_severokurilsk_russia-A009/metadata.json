@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000qr8h",
+  "job_id": "m_60_92_km_e_of_severokurilsk_russia-A009",
+  "event_title": "M 6.0 - 92 km E of Severo-Kuril\u2019sk, Russia",
+  "orbit": "ascending",
+  "track": "009",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_60_92_km_e_of_severokurilsk_russia_us7000qr8h/S1-COSEIS_SAR-A-R-009-tops-20250827_20250815-072313-00154E_00049N-PP-6b57-v1_0_0/S1-COSEIS_SAR-A-R-009-tops-20250827_20250815-072313-00154E_00049N-PP-6b57-v1_0_0.nc",
+  "stats": {
+    "min": -0.3943459689617157,
+    "max": 1.174514651298523,
+    "mean": 0.4340988197958795,
+    "std": 0.30571677912551637
+  },
+  "bounds": {
+    "lon_min": 154.243750995,
+    "lon_max": 158.479587717,
+    "lat_min": 48.92523562900001,
+    "lat_max": 51.773571241000006
+  }
+}

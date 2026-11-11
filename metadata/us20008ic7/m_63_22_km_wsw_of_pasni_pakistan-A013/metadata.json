@@ -4,7 +4,7 @@
   "event_title": "M 6.3 - 22 km WSW of Pasni, Pakistan",
   "orbit": "ascending",
   "track": "013",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_63_22_km_wsw_of_pasni_pakistan/S1-COSEIS_SAR-A-R-013-tops-20170216_20170204-135153-00062E_00025N-PP-1962-v1_0_0/S1-COSEIS_SAR-A-R-013-tops-20170216_20170204-135153-00062E_00025N-PP-1962-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_63_22_km_wsw_of_pasni_pakistan_us20008ic7/S1-COSEIS_SAR-A-R-013-tops-20170216_20170204-135153-00062E_00025N-PP-1962-v1_0_0/S1-COSEIS_SAR-A-R-013-tops-20170216_20170204-135153-00062E_00025N-PP-1962-v1_0_0.nc",
   "stats": {
     "min": 0.0671335831284523,
     "max": 0.3067317008972168,

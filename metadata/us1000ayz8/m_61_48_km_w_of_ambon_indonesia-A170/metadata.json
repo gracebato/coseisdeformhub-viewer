@@ -4,7 +4,7 @@
   "event_title": "M 6.1 - 48 km W of Ambon, Indonesia",
   "orbit": "ascending",
   "track": "170",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_61_48_km_w_of_ambon_indonesia/S1-COSEIS_SAR-A-R-170-tops-20171106_20171013-094529-00127E_00004S-PP-8624-v1_0_0/S1-COSEIS_SAR-A-R-170-tops-20171106_20171013-094529-00127E_00004S-PP-8624-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_61_48_km_w_of_ambon_indonesia_us1000ayz8/S1-COSEIS_SAR-A-R-170-tops-20171106_20171013-094529-00127E_00004S-PP-8624-v1_0_0/S1-COSEIS_SAR-A-R-170-tops-20171106_20171013-094529-00127E_00004S-PP-8624-v1_0_0.nc",
   "stats": {
     "min": -0.38480260968208313,
     "max": -0.0718131735920906,

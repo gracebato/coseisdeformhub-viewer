@@ -4,7 +4,7 @@
   "event_title": "M 6.0 - Hokkaido, Japan region",
   "orbit": "descending",
   "track": "046",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_60_hokkaido_japan_region/S1-COSEIS_SAR-D-R-046-tops-20230331_20230319-204210-00139E_00040N-PP-cd72-v1_0_0/S1-COSEIS_SAR-D-R-046-tops-20230331_20230319-204210-00139E_00040N-PP-cd72-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_60_hokkaido_japan_region_us6000k09q/S1-COSEIS_SAR-D-R-046-tops-20230331_20230319-204210-00139E_00040N-PP-cd72-v1_0_0/S1-COSEIS_SAR-D-R-046-tops-20230331_20230319-204210-00139E_00040N-PP-cd72-v1_0_0.nc",
   "stats": {
     "min": -0.03677810728549957,
     "max": 0.24448934197425842,

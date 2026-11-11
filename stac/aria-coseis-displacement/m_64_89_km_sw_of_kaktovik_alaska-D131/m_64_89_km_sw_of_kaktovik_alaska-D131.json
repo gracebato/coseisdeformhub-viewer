@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_64_89_km_sw_of_kaktovik_alaska/S1-COSEIS_SAR-D-R-131-tops-20180818_20180806-162714-00151W_00068N-PP-c712-v1_0_0/S1-COSEIS_SAR-D-R-131-tops-20180818_20180806-162714-00151W_00068N-PP-c712-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_64_89_km_sw_of_kaktovik_alaska_ak018aap2cqu/S1-COSEIS_SAR-D-R-131-tops-20180818_20180806-162714-00151W_00068N-PP-c712-v1_0_0/S1-COSEIS_SAR-D-R-131-tops-20180818_20180806-162714-00151W_00068N-PP-c712-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

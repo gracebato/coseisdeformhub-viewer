@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2024/m_63_239_km_wnw_of_cochrane_chile/S1-COSEIS_SAR-D-R-083-tops-20241111_20241030-100008-00077W_00047S-PP-0d55-v1_0_0/S1-COSEIS_SAR-D-R-083-tops-20241111_20241030-100008-00077W_00047S-PP-0d55-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2024/m_63_239_km_wnw_of_cochrane_chile_us7000nql2/S1-COSEIS_SAR-D-R-083-tops-20241111_20241030-100008-00077W_00047S-PP-0d55-v1_0_0/S1-COSEIS_SAR-D-R-083-tops-20241111_20241030-100008-00077W_00047S-PP-0d55-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

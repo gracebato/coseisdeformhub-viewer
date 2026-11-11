@@ -1,0 +1,20 @@
+{
+  "event_id": "ak0219neiszm",
+  "job_id": "m_82_alaska_peninsula-A007",
+  "event_title": "M 8.2 - 2021 Chignik, Alaska Earthquake",
+  "orbit": "ascending",
+  "track": "007",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_82_2021_chignik_alaska_earthquake_ak0219neiszm/S1-COSEIS_SAR-A-R-007-tops-20210731_20210719-040745-00158W_00055N-PP-bad0-v1_0_0/S1-COSEIS_SAR-A-R-007-tops-20210731_20210719-040745-00158W_00055N-PP-bad0-v1_0_0.nc",
+  "stats": {
+    "min": -0.21961736679077148,
+    "max": 0.25245794653892517,
+    "mean": 0.049704558198015315,
+    "std": 0.06061883058473145
+  },
+  "bounds": {
+    "lon_min": -158.344582809,
+    "lon_max": -153.649579053,
+    "lat_min": 55.16106995100001,
+    "lat_max": 57.35968282100001
+  }
+}

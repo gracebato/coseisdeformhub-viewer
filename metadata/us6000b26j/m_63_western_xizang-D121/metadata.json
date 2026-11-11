@@ -4,7 +4,7 @@
   "event_title": "M 6.3 - western Xizang",
   "orbit": "descending",
   "track": "121",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_63_western_xizang/S1-COSEIS_SAR-D-R-121-tops-20200726_20200714-001018-00086E_00031N-PP-33fd-v1_0_0/S1-COSEIS_SAR-D-R-121-tops-20200726_20200714-001018-00086E_00031N-PP-33fd-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_63_western_xizang_us6000b26j/S1-COSEIS_SAR-D-R-121-tops-20200726_20200714-001018-00086E_00031N-PP-33fd-v1_0_0/S1-COSEIS_SAR-D-R-121-tops-20200726_20200714-001018-00086E_00031N-PP-33fd-v1_0_0.nc",
   "stats": {
     "min": -0.26191070675849915,
     "max": 0.06846801191568375,

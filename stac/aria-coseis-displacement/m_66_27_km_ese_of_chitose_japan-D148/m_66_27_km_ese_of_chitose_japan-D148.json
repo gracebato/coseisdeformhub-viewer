@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_66_27_km_ese_of_chitose_japan/S1-COSEIS_SAR-D-R-148-tops-20180912_20180831-203319-00142E_00041N-PP-cd4a-v1_0_0/S1-COSEIS_SAR-D-R-148-tops-20180912_20180831-203319-00142E_00041N-PP-cd4a-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_66_27_km_ese_of_chitose_japan_us2000h8ty/S1-COSEIS_SAR-D-R-148-tops-20180912_20180831-203319-00142E_00041N-PP-cd4a-v1_0_0/S1-COSEIS_SAR-D-R-148-tops-20180912_20180831-203319-00142E_00041N-PP-cd4a-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

@@ -4,7 +4,7 @@
   "event_title": "M 6.4 - 72 km W of Coquimbo, Chile",
   "orbit": "ascending",
   "track": "018",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_64_72_km_w_of_coquimbo_chile/S1-COSEIS_SAR-A-R-018-tops-20190618_20190606-232853-00073W_00032S-PP-d328-v1_0_0/S1-COSEIS_SAR-A-R-018-tops-20190618_20190606-232853-00073W_00032S-PP-d328-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_64_72_km_w_of_coquimbo_chile_us600040ja/S1-COSEIS_SAR-A-R-018-tops-20190618_20190606-232853-00073W_00032S-PP-d328-v1_0_0/S1-COSEIS_SAR-A-R-018-tops-20190618_20190606-232853-00073W_00032S-PP-d328-v1_0_0.nc",
   "stats": {
     "min": 0.05161634832620621,
     "max": 0.3608677089214325,

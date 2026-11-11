@@ -4,7 +4,7 @@
   "event_title": "M 6.0 - Antelope Valley, CA",
   "orbit": "ascending",
   "track": "137",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_60_antelope_valley_ca/S1-COSEIS_SAR-A-R-137-tops-20210710_20210628-020001-00122W_00037N-PP-ff5d-v1_0_0/S1-COSEIS_SAR-A-R-137-tops-20210710_20210628-020001-00122W_00037N-PP-ff5d-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_60_antelope_valley_ca_nc73584926/S1-COSEIS_SAR-A-R-137-tops-20210710_20210628-020001-00122W_00037N-PP-ff5d-v1_0_0/S1-COSEIS_SAR-A-R-137-tops-20210710_20210628-020001-00122W_00037N-PP-ff5d-v1_0_0.nc",
   "stats": {
     "min": -0.06205454468727112,
     "max": 0.1330350786447525,

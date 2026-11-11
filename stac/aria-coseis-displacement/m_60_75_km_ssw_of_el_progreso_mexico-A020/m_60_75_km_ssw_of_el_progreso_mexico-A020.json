@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_60_75_km_ssw_of_el_progreso_mexico-A020",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -110.91624913300001,
+          22.666346533000002
+        ],
+        [
+          -107.65680208100001,
+          22.666346533000002
+        ],
+        [
+          -107.65680208100001,
+          26.402460633
+        ],
+        [
+          -110.91624913300001,
+          26.402460633
+        ],
+        [
+          -110.91624913300001,
+          22.666346533000002
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -110.91624913300001,
+    22.666346533000002,
+    -107.65680208100001,
+    26.402460633
+  ],
+  "properties": {
+    "title": "2026 M 6.0 - 75 km SSW of El Progreso, Mexico \u2014 Ascending Track 020",
+    "start_datetime": "2026-05-31T00:00:00+00:00",
+    "end_datetime": "2026-07-01T00:00:00+00:00",
+    "coseis:event_id": "us6000t99j",
+    "coseis:event_name": "2026 M 6.0 - 75 km SSW of El Progreso, Mexico",
+    "coseis:magnitude": 6.0,
+    "coseis:event_date": "2026-06-30",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 10,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "020",
+    "coseis:satellites": "Sentinel-1C_Sentinel-1C",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2026-07-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t99j",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us6000t99j/m_60_75_km_ssw_of_el_progreso_mexico-A020/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2026/m_60_75_km_ssw_of_el_progreso_mexico_us6000t99j/S1-COSEIS_SAR-A-R-020-tops-20260701_20260531-012214-00111W_00023N-PP-8cfa-v1_0_0/S1-COSEIS_SAR-A-R-020-tops-20260701_20260531-012214-00111W_00023N-PP-8cfa-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

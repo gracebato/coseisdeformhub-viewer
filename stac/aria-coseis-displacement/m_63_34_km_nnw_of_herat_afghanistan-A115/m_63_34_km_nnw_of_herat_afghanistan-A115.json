@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_63_34_km_nnw_of_herat_afghanistan/S1-COSEIS_SAR-A-R-115-tops-20231107_20231014-134658-00062E_00033N-PP-5871-v1_0_0/S1-COSEIS_SAR-A-R-115-tops-20231107_20231014-134658-00062E_00033N-PP-5871-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_63_34_km_nnw_of_herat_afghanistan_us6000lfn5/S1-COSEIS_SAR-A-R-115-tops-20231107_20231014-134658-00062E_00033N-PP-5871-v1_0_0/S1-COSEIS_SAR-A-R-115-tops-20231107_20231014-134658-00062E_00033N-PP-5871-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

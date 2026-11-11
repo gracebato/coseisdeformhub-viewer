@@ -1,0 +1,20 @@
+{
+  "event_id": "us10005i9n",
+  "job_id": "m_69_24_km_nw_of_rosa_zarate_ecuador-A018",
+  "event_title": "M 6.9 - 24 km NW of Rosa Zarate, Ecuador",
+  "orbit": "ascending",
+  "track": "018",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_69_24_km_nw_of_rosa_zarate_ecuador_us10005i9n/S1-COSEIS_SAR-A-R-018-tops-20160528_20160516-233720-00081W_00001S-PP-15c3-v1_0_0/S1-COSEIS_SAR-A-R-018-tops-20160528_20160516-233720-00081W_00001S-PP-15c3-v1_0_0.nc",
+  "stats": {
+    "min": -1.2951416969299316,
+    "max": 0.09086761623620987,
+    "mean": -0.5860305985536896,
+    "std": 0.3302395468780307
+  },
+  "bounds": {
+    "lon_min": -81.026904777,
+    "lon_max": -78.39773600699999,
+    "lat_min": -0.5294453570000002,
+    "lat_max": 1.596945233
+  }
+}

@@ -4,7 +4,7 @@
   "event_title": "M 6.2 - 27 km SSE of Naalehu, Hawaii",
   "orbit": "descending",
   "track": "087",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_62_27_km_sse_of_naalehu_hawaii/S1-COSEIS_SAR-D-R-087-tops-20211016_20211010-161615-00157W_00017N-PP-60cb-v1_0_0/S1-COSEIS_SAR-D-R-087-tops-20211016_20211010-161615-00157W_00017N-PP-60cb-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_62_27_km_sse_of_naalehu_hawaii_hv72748782/S1-COSEIS_SAR-D-R-087-tops-20211016_20211010-161615-00157W_00017N-PP-60cb-v1_0_0/S1-COSEIS_SAR-D-R-087-tops-20211016_20211010-161615-00157W_00017N-PP-60cb-v1_0_0.nc",
   "stats": {
     "min": -0.3667066991329193,
     "max": 0.11471650749444962,

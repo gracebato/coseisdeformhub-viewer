@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_61_3_km_wsw_of_san_francisco_philippines/S1-COSEIS_SAR-D-R-105-tops-20190425_20190413-215500-00118E_00014N-PP-4806-v1_0_0/S1-COSEIS_SAR-D-R-105-tops-20190425_20190413-215500-00118E_00014N-PP-4806-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_61_3_km_wsw_of_san_francisco_philippines_us70003a63/S1-COSEIS_SAR-D-R-105-tops-20190425_20190413-215500-00118E_00014N-PP-4806-v1_0_0/S1-COSEIS_SAR-D-R-105-tops-20190425_20190413-215500-00118E_00014N-PP-4806-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

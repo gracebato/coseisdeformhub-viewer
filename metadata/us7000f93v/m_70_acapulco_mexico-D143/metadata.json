@@ -4,7 +4,7 @@
   "event_title": "M 7.0 - Acapulco, Mexico",
   "orbit": "descending",
   "track": "143",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_70_acapulco_mexico/S1-COSEIS_SAR-D-R-143-tops-20210908_20210902-122705-00100W_00016N-PP-b2cc-v1_0_0/S1-COSEIS_SAR-D-R-143-tops-20210908_20210902-122705-00100W_00016N-PP-b2cc-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_70_acapulco_mexico_us7000f93v/S1-COSEIS_SAR-D-R-143-tops-20210908_20210902-122705-00100W_00016N-PP-b2cc-v1_0_0/S1-COSEIS_SAR-D-R-143-tops-20210908_20210902-122705-00100W_00016N-PP-b2cc-v1_0_0.nc",
   "stats": {
     "min": -0.057835254818201065,
     "max": 0.31266745924949646,

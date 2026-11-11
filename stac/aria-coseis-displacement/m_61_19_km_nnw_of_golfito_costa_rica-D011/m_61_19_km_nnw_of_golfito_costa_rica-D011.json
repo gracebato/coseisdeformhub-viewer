@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_61_19_km_nnw_of_golfito_costa_rica/S1-COSEIS_SAR-D-R-011-tops-20180822_20180810-111505-00083W_00006N-PP-47ba-v1_0_0/S1-COSEIS_SAR-D-R-011-tops-20180822_20180810-111505-00083W_00006N-PP-47ba-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_61_19_km_nnw_of_golfito_costa_rica_us1000gc0k/S1-COSEIS_SAR-D-R-011-tops-20180822_20180810-111505-00083W_00006N-PP-47ba-v1_0_0/S1-COSEIS_SAR-D-R-011-tops-20180822_20180810-111505-00083W_00006N-PP-47ba-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

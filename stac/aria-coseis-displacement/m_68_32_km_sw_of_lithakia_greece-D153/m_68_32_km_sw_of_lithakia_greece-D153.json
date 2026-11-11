@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_68_32_km_sw_of_lithakia_greece/S1-COSEIS_SAR-D-R-153-tops-20181031_20181019-044835-00017E_00036N-PP-f279-v1_0_0/S1-COSEIS_SAR-D-R-153-tops-20181031_20181019-044835-00017E_00036N-PP-f279-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_68_32_km_sw_of_lithakia_greece_us1000hhb1/S1-COSEIS_SAR-D-R-153-tops-20181031_20181019-044835-00017E_00036N-PP-f279-v1_0_0/S1-COSEIS_SAR-D-R-153-tops-20181031_20181019-044835-00017E_00036N-PP-f279-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

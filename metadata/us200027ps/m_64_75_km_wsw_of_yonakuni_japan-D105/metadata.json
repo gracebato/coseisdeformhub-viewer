@@ -4,7 +4,7 @@
   "event_title": "M 6.4 - 75 km WSW of Yonakuni, Japan",
   "orbit": "descending",
   "track": "105",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_64_75_km_wsw_of_yonakuni_japan/S1-COSEIS_SAR-D-R-105-tops-20150422_20150329-215202-00120E_00023N-PP-f6ba-v1_0_0/S1-COSEIS_SAR-D-R-105-tops-20150422_20150329-215202-00120E_00023N-PP-f6ba-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_64_75_km_wsw_of_yonakuni_japan_us200027ps/S1-COSEIS_SAR-D-R-105-tops-20150422_20150329-215202-00120E_00023N-PP-f6ba-v1_0_0/S1-COSEIS_SAR-D-R-105-tops-20150422_20150329-215202-00120E_00023N-PP-f6ba-v1_0_0.nc",
   "stats": {
     "min": 0.5179089307785034,
     "max": 0.8504868745803833,

@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_63_195_km_wnw_of_abepura_indonesia/S1-COSEIS_SAR-D-R-104-tops-20250815_20250803-202123-00139E_00004S-PP-534e-v1_0_0/S1-COSEIS_SAR-D-R-104-tops-20250815_20250803-202123-00139E_00004S-PP-534e-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_63_195_km_wnw_of_abepura_indonesia_us6000r01m/S1-COSEIS_SAR-D-R-104-tops-20250815_20250803-202123-00139E_00004S-PP-534e-v1_0_0/S1-COSEIS_SAR-D-R-104-tops-20250815_20250803-202123-00139E_00004S-PP-534e-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

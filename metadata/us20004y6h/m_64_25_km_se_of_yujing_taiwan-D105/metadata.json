@@ -4,17 +4,17 @@
   "event_title": "M 6.4 - 25 km SE of Yujing, Taiwan",
   "orbit": "descending",
   "track": "105",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_64_25_km_se_of_yujing_taiwan/S1-COSEIS_SAR-D-R-105-tops-20160228_20160204-215231-00119E_00022N-PP-fb82-v1_0_0/S1-COSEIS_SAR-D-R-105-tops-20160228_20160204-215231-00119E_00022N-PP-fb82-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_64_25_km_se_of_yujing_taiwan_us20004y6h/S1-COSEIS_SAR-D-R-105-tops-20160216_20160204-215231-00119E_00022N-PP-1a5c-v1_0_0/S1-COSEIS_SAR-D-R-105-tops-20160216_20160204-215231-00119E_00022N-PP-1a5c-v1_0_0.nc",
   "stats": {
-    "min": 0.023387478664517403,
-    "max": 0.3043516278266907,
-    "mean": 0.17609086632728577,
-    "std": 0.04081704095005989
+    "min": -0.09119698405265808,
+    "max": 1.4800341129302979,
+    "mean": 0.6754350713993879,
+    "std": 0.21896660963842832
   },
   "bounds": {
-    "lon_min": 119.126528679,
-    "lon_max": 122.060975471,
-    "lat_min": 21.755236293000003,
-    "lat_max": 24.088293715000002
+    "lon_min": 119.126806457,
+    "lon_max": 122.061253249,
+    "lat_min": 21.754402959,
+    "lat_max": 24.087460381
   }
 }

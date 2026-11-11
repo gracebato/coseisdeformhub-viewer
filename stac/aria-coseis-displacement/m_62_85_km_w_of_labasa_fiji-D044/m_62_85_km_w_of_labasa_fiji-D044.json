@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_62_85_km_w_of_labasa_fiji/S1-COSEIS_SAR-D-R-044-tops-20211230_20211218-174049-00177E_00018S-PP-98ac-v1_0_0/S1-COSEIS_SAR-D-R-044-tops-20211230_20211218-174049-00177E_00018S-PP-98ac-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_62_85_km_w_of_labasa_fiji_us6000gdma/S1-COSEIS_SAR-D-R-044-tops-20211230_20211218-174049-00177E_00018S-PP-98ac-v1_0_0/S1-COSEIS_SAR-D-R-044-tops-20211230_20211218-174049-00177E_00018S-PP-98ac-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

@@ -39,11 +39,11 @@
     34.211627147
   ],
   "properties": {
-    "title": "2022 M 6.0 - 55 km SW of Kh?st, Afghanistan \u2014 Descending Track 078",
+    "title": "2022 M 6.0 - 55 km SW of Kh\u014dst, Afghanistan \u2014 Descending Track 078",
     "start_datetime": "2022-06-19T00:00:00+00:00",
     "end_datetime": "2022-07-01T00:00:00+00:00",
     "coseis:event_id": "us7000hj3u",
-    "coseis:event_name": "2022 M 6.0 - 55 km SW of Kh?st, Afghanistan",
+    "coseis:event_name": "2022 M 6.0 - 55 km SW of Kh\u014dst, Afghanistan",
     "coseis:magnitude": 6.0,
     "coseis:event_date": "2022-06-21",
     "coseis:pager_alert": "orange",
@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_60_55_km_sw_of_khst_afghanistan/S1-COSEIS_SAR-D-R-078-tops-20220701_20220619-012419-00068E_00032N-PP-a38e-v1_0_0/S1-COSEIS_SAR-D-R-078-tops-20220701_20220619-012419-00068E_00032N-PP-a38e-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_60_55_km_sw_of_khost_afghanistan_us7000hj3u/S1-COSEIS_SAR-D-R-078-tops-20220701_20220619-012419-00068E_00032N-PP-a38e-v1_0_0/S1-COSEIS_SAR-D-R-078-tops-20220701_20220619-012419-00068E_00032N-PP-a38e-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

@@ -4,7 +4,7 @@
   "event_title": "M 6.2 - 78 km SSW of Acajutla, El Salvador",
   "orbit": "ascending",
   "track": "063",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_62_78_km_ssw_of_acajutla_el_salvador/S1-COSEIS_SAR-A-R-063-tops-20170515_20170503-000535-00090W_00012N-PP-273b-v1_0_0/S1-COSEIS_SAR-A-R-063-tops-20170515_20170503-000535-00090W_00012N-PP-273b-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_62_78_km_ssw_of_acajutla_el_salvador_us10008rtu/S1-COSEIS_SAR-A-R-063-tops-20170515_20170503-000535-00090W_00012N-PP-273b-v1_0_0/S1-COSEIS_SAR-A-R-063-tops-20170515_20170503-000535-00090W_00012N-PP-273b-v1_0_0.nc",
   "stats": {
     "min": -0.6444637775421143,
     "max": -0.3389745056629181,

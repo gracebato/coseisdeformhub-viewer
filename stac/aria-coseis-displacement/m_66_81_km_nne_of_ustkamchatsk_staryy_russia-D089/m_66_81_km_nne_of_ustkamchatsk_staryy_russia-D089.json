@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_66_81_km_nne_of_ustkamchatsk_staryy_russia/S1-COSEIS_SAR-D-R-089-tops-20170329_20170317-192314-00161E_00055N-PP-8132-v1_0_0/S1-COSEIS_SAR-D-R-089-tops-20170329_20170317-192314-00161E_00055N-PP-8132-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_66_81_km_nne_of_ustkamchatsk_staryy_russia_us20008vhl/S1-COSEIS_SAR-D-R-089-tops-20170329_20170317-192314-00161E_00055N-PP-8132-v1_0_0/S1-COSEIS_SAR-D-R-089-tops-20170329_20170317-192314-00161E_00055N-PP-8132-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

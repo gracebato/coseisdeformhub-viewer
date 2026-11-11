@@ -39,11 +39,11 @@
     -0.333333289
   ],
   "properties": {
-    "title": "2026 M 6.7 - 42 km SE of Palu, Indonesia \u2014 Descending Track 061",
+    "title": "2026 M 6.7 - 40 km SE of Palu, Indonesia \u2014 Descending Track 061",
     "start_datetime": "2026-06-08T00:00:00+00:00",
     "end_datetime": "2026-06-20T00:00:00+00:00",
     "coseis:event_id": "us7000st95",
-    "coseis:event_name": "2026 M 6.7 - 42 km SE of Palu, Indonesia",
+    "coseis:event_name": "2026 M 6.7 - 40 km SE of Palu, Indonesia",
     "coseis:magnitude": 6.7,
     "coseis:event_date": "2026-06-16",
     "coseis:pager_alert": "yellow",
@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2026/m_67_42_km_se_of_palu_indonesia/S1-COSEIS_SAR-D-R-061-tops-20260620_20260608-213500-00121E_00002S-PP-4c4d-v1_0_0/S1-COSEIS_SAR-D-R-061-tops-20260620_20260608-213500-00121E_00002S-PP-4c4d-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2026/m_67_40_km_se_of_palu_indonesia_us7000st95/S1-COSEIS_SAR-D-R-061-tops-20260620_20260608-213500-00121E_00002S-PP-4c4d-v1_0_0/S1-COSEIS_SAR-D-R-061-tops-20260620_20260608-213500-00121E_00002S-PP-4c4d-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

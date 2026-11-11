@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000qixr",
+  "job_id": "m_63_15_km_ne_of_paratebueno_colombia-D069",
+  "event_title": "M 6.3 - 15 km NE of Paratebueno, Colombia",
+  "orbit": "descending",
+  "track": "069",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_63_15_km_ne_of_paratebueno_colombia_us6000qixr/S1-COSEIS_SAR-D-R-069-tops-20250614_20250602-104321-00076W_00003N-PP-7881-v1_0_0/S1-COSEIS_SAR-D-R-069-tops-20250614_20250602-104321-00076W_00003N-PP-7881-v1_0_0.nc",
+  "stats": {
+    "min": -0.1571739912033081,
+    "max": 0.20773744583129883,
+    "mean": -0.016878533730777943,
+    "std": 0.023251954751199108
+  },
+  "bounds": {
+    "lon_min": -75.79051569900001,
+    "lon_max": -72.85718001900001,
+    "lat_min": 3.338330715,
+    "lat_max": 6.889444667
+  }
+}

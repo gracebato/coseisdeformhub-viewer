@@ -4,7 +4,7 @@
   "event_title": "M 6.4 - 31 km WSW of Tsuruoka, Japan",
   "orbit": "ascending",
   "track": "039",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_64_31_km_wsw_of_tsuruoka_japan/S1-COSEIS_SAR-A-R-039-tops-20190626_20190427-084220-00137E_00037N-PP-716b-v1_0_0/S1-COSEIS_SAR-A-R-039-tops-20190626_20190427-084220-00137E_00037N-PP-716b-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_64_31_km_wsw_of_tsuruoka_japan_us600042fx/S1-COSEIS_SAR-A-R-039-tops-20190626_20190427-084220-00137E_00037N-PP-716b-v1_0_0/S1-COSEIS_SAR-A-R-039-tops-20190626_20190427-084220-00137E_00037N-PP-716b-v1_0_0.nc",
   "stats": {
     "min": -0.40091797709465027,
     "max": 0.44706007838249207,

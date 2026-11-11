@@ -4,7 +4,7 @@
   "event_title": "M 7.0 - 175 km NE of Gisborne, New Zealand",
   "orbit": "descending",
   "track": "175",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_70_175_km_ne_of_gisborne_new_zealand/S1-COSEIS_SAR-D-R-175-tops-20160912_20160819-172139-00176E_00039S-PP-a36e-v1_0_0/S1-COSEIS_SAR-D-R-175-tops-20160912_20160819-172139-00176E_00039S-PP-a36e-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_70_175_km_ne_of_gisborne_new_zealand_us10006jbi/S1-COSEIS_SAR-D-R-175-tops-20160912_20160819-172139-00176E_00039S-PP-a36e-v1_0_0/S1-COSEIS_SAR-D-R-175-tops-20160912_20160819-172139-00176E_00039S-PP-a36e-v1_0_0.nc",
   "stats": {
     "min": -0.06557700783014297,
     "max": 0.173660546541214,

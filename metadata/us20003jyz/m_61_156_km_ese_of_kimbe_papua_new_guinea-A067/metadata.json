@@ -4,7 +4,7 @@
   "event_title": "M 6.1 - 156 km ESE of Kimbe, Papua New Guinea",
   "orbit": "ascending",
   "track": "067",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_61_156_km_ese_of_kimbe_papua_new_guinea/S1-COSEIS_SAR-A-R-067-tops-20151005_20150911-081414-00151E_00006S-PP-50bf-v1_0_0/S1-COSEIS_SAR-A-R-067-tops-20151005_20150911-081414-00151E_00006S-PP-50bf-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_61_156_km_ese_of_kimbe_papua_new_guinea_us20003jyz/S1-COSEIS_SAR-A-R-067-tops-20151005_20150911-081414-00151E_00006S-PP-50bf-v1_0_0/S1-COSEIS_SAR-A-R-067-tops-20151005_20150911-081414-00151E_00006S-PP-50bf-v1_0_0.nc",
   "stats": {
     "min": 0.01369837112724781,
     "max": 0.2885779142379761,

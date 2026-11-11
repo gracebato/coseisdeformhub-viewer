@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_64_chukotskiy_avtonomnyy_okrug_russia/S1-COSEIS_SAR-A-R-154-tops-20200118_20200106-060510-00170E_00061N-PP-111c-v1_0_0/S1-COSEIS_SAR-A-R-154-tops-20200118_20200106-060510-00170E_00061N-PP-111c-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_64_chukotskiy_avtonomnyy_okrug_russia_us70006wuf/S1-COSEIS_SAR-A-R-154-tops-20200118_20200106-060510-00170E_00061N-PP-111c-v1_0_0/S1-COSEIS_SAR-A-R-154-tops-20200118_20200106-060510-00170E_00061N-PP-111c-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

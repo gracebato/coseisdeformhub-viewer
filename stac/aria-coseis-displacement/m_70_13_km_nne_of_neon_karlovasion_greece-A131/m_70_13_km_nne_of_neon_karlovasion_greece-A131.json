@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_70_13_km_nne_of_neon_karlovasion_greece/S1-COSEIS_SAR-A-R-131-tops-20201030_20201024-160722-00026E_00037N-PP-d813-v1_0_0/S1-COSEIS_SAR-A-R-131-tops-20201030_20201024-160722-00026E_00037N-PP-d813-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_70_13_km_nne_of_neon_karlovasion_greece_us7000c7y0/S1-COSEIS_SAR-A-R-131-tops-20201030_20201024-160722-00026E_00037N-PP-d813-v1_0_0/S1-COSEIS_SAR-A-R-131-tops-20201030_20201024-160722-00026E_00037N-PP-d813-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

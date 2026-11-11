@@ -308,6 +308,203 @@
             height: 14px;
         }
 
+        /* Download menu: the full netCDF or one layer as a COG (assets/layer_download.js) */
+        .download-menu {
+            margin-top: 8px;
+        }
+
+        .download-panel {
+            display: flex;
+            flex-direction: column;
+            gap: 1px;
+            margin-top: 6px;
+            padding: 4px;
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            background: var(--panel);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .download-panel[hidden],
+        .download-progress[hidden] {
+            display: none;
+        }
+
+        .download-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 8px;
+            width: 100%;
+            padding: 6px 8px;
+            font-family: inherit;
+            font-size: 12px;
+            text-align: left;
+            color: var(--text);
+            background: none;
+            border: 0;
+            border-radius: var(--radius);
+            cursor: pointer;
+        }
+
+        .download-item:hover:not(:disabled),
+        .download-item:focus-visible {
+            background: var(--inset);
+            color: var(--accent-dark);
+        }
+
+        .download-item:disabled {
+            opacity: 0.45;
+            cursor: not-allowed;
+        }
+
+        .download-size {
+            color: var(--text-muted);
+            font-variant-numeric: tabular-nums;
+            white-space: nowrap;
+        }
+
+        .download-subhead {
+            padding: 8px 8px 2px;
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-muted);
+        }
+
+        .download-note {
+            padding: 6px 8px 4px;
+            font-size: 11px;
+            line-height: 1.4;
+            color: var(--text-muted);
+        }
+
+        .download-link {
+            padding: 0;
+            font: inherit;
+            color: var(--accent-dark);
+            background: none;
+            border: 0;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        .download-progress {
+            margin-top: 6px;
+            font-size: 11px;
+            color: var(--text-muted);
+        }
+
+        .download-bar {
+            height: 4px;
+            margin: 4px 0;
+            overflow: hidden;
+            border-radius: 2px;
+            background: var(--inset);
+        }
+
+        .download-bar > div {
+            width: 0;
+            height: 100%;
+            background: var(--accent);
+            transition: width 0.2s ease;
+        }
+
+        /* Earthquake sequences (doublets, foreshocks, aftershocks) */
+        .seq-box {
+            margin-top: 6px;
+            padding: 8px;
+            background: var(--panel2);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+        }
+
+        .seq-title {
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+            color: var(--text-muted);
+            margin-bottom: 4px;
+        }
+
+        .seq-row {
+            display: flex;
+            gap: 8px;
+            align-items: flex-start;
+            padding: 5px 6px;
+            border-radius: var(--radius);
+            cursor: pointer;
+            font-size: 12px;
+            border: 1px solid transparent;
+        }
+
+        .seq-row:hover { background: var(--inset); }
+        .seq-row.highlight { background: #e7f5ff; border-color: var(--accent); }
+        .seq-row.absent .seq-icon, .seq-row.absent .seq-name { opacity: 0.45; }
+        .seq-icon { flex-shrink: 0; padding-top: 1px; }
+        .seq-text { display: flex; flex-direction: column; min-width: 0; }
+        .seq-name { line-height: 1.35; }
+        .seq-sub { color: var(--text-muted); font-size: 11px; }
+        .seq-absent { color: #c92a2a; font-size: 11px; }
+
+        .seq-foot {
+            margin-top: 4px;
+            color: var(--text-muted);
+            font-size: 10.5px;
+            line-height: 1.4;
+        }
+
+        .seq-note {
+            display: flex;
+            gap: 6px;
+            align-items: flex-start;
+            margin-top: 6px;
+            padding: 8px;
+            font-size: 11.5px;
+            background: #e7f5ff;
+            border: 1px solid #a5d8ff;
+            border-radius: var(--radius);
+        }
+
+        .seq-note svg { flex-shrink: 0; margin-top: 2px; }
+
+        .seq-contains { font-size: 12px; }
+
+        .seq-chip {
+            display: inline-flex;
+            align-items: center;
+            gap: 3px;
+            margin: 2px 4px 0 0;
+            padding: 1px 6px;
+            font-size: 11px;
+            background: var(--panel2);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+        }
+
+        .seq-missing .seq-chip { opacity: 0.55; }
+
+        .related-marker {
+            display: flex;
+            align-items: center;
+            gap: 3px;
+            cursor: pointer;
+            filter: drop-shadow(0 1px 2px rgba(0,0,0,0.4));
+        }
+
+        .related-marker.absent { opacity: 0.4; }
+
+        .related-label {
+            font-size: 11px;
+            font-weight: 700;
+            color: #212529;
+            text-shadow: 0 0 2px #fff, 0 0 2px #fff, 0 0 3px #fff;
+        }
+
+        .related-marker.highlight .related-label { font-size: 13px; }
+
         /* Warning */
         .warning-box {
             display: flex;
@@ -878,12 +1075,30 @@
                                 <span>Select dataset...</span>
                             </div>
                         </div>
-                        <button class="btn btn-primary" id="download-btn" onclick="downloadDataset()" disabled style="margin-top: 8px; width: 100%;">
-                            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/>
-                            </svg>
-                            Download COSEIS Data
-                        </button>
+                        <div class="download-menu" id="download-menu">
+                            <button class="btn btn-primary" id="download-btn" onclick="toggleDownloadMenu()" disabled
+                                    aria-haspopup="true" aria-expanded="false" aria-controls="download-panel" style="width: 100%;">
+                                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/>
+                                </svg>
+                                Download COSEIS Data
+                                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M6 9l6 6 6-6"/>
+                                </svg>
+                            </button>
+                            <div class="download-panel" id="download-panel" hidden>
+                                <button class="download-item" onclick="downloadDataset()">
+                                    <span>Full product (netCDF)</span>
+                                    <span class="download-size" id="download-full-size"></span>
+                                </button>
+                                <div id="download-layers"></div>
+                            </div>
+                            <div class="download-progress" id="download-progress" role="status" hidden>
+                                <div id="download-progress-text"></div>
+                                <div class="download-bar"><div id="download-progress-bar"></div></div>
+                                <button class="download-link" id="download-cancel" onclick="cancelLayerDownload()">Cancel</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -1129,6 +1344,11 @@
 
     <!-- MapLibre GL JS -->
     <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+    <script type="module">
+        // Single-layer downloads; used by downloadLayer() below.
+        import * as layerDownload from './layer_download.js';
+        window.layerDownload = layerDownload;
+    </script>
 
     <script>
         // Static-hosting config: this page has no backend. Point these at wherever
@@ -1145,6 +1365,12 @@
             // these can stay on the production data host.
             imageBaseUrl: 'https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/deformhub-viewer/pngs',
         };
+        // Served from a local checkout (python3 -m http.server): read catalog.json and metadata/ from
+        // the checkout, so changes can be tried before they are deployed.
+        if (['localhost', '127.0.0.1'].includes(window.location.hostname)) {
+            DEFORMHUB_CONFIG.catalogUrl = new URL('../catalog.json', window.location.href).href;
+            DEFORMHUB_CONFIG.metadataBaseUrl = new URL('../metadata', window.location.href).href;
+        }
         let fullCatalog = null;  // populated once from catalogUrl, reused for all lookups
 
         // CARTO retired free/keyless raster basemap tiles, so this needs a key
@@ -1180,6 +1406,64 @@
         let coverageBoxId = 'coverage-box';
         let currentDataBounds = null;
         let currentBasemap = 'dark';
+
+        // Earthquake sequences. An event's products can also contain other earthquakes (catalog.json
+        // related_events: doublet partner, foreshock or aftershock, relative to the event), and each
+        // dataset lists the ones its interferogram contains (contains_events).
+        let relatedMarkers = [];
+        let highlightedRelatedId = null;  // the related earthquake chosen in the dropdown or panel
+        let relatedIndex = new Map();     // related event id -> [{ event, rel }] of the events containing it
+        const RELATION_STYLE = {
+            'mainshock': { label: 'Mainshock', short: 'mainshock' },
+            'doublet partner': { label: 'Doublet partner', short: 'doublet' },
+            'foreshock': { label: 'Foreshock', short: 'foreshock' },
+            'aftershock': { label: 'Aftershock', short: 'aftershock' },
+        };
+
+        function relationIcon(relation, size = 16) {
+            const s = size, h = s / 2;
+            const stroke = 'stroke="#212529" stroke-width="1.5" stroke-linejoin="round"';
+            const shapes = {
+                'mainshock': `<polygon points="${[[0.5,0.04],[0.6,0.37],[0.94,0.37],[0.67,0.57],[0.77,0.9],[0.5,0.7],[0.23,0.9],[0.33,0.57],[0.06,0.37],[0.4,0.37]].map(p => p.map(v => (v * s).toFixed(1)).join(',')).join(' ')}" fill="#fcc419" ${stroke}/>`,
+                'doublet partner': `<polygon points="${h},1 ${s - 1},${h} ${h},${s - 1} 1,${h}" fill="#e64980" ${stroke}/>`,
+                'foreshock': `<polygon points="${h},1.5 ${s - 1.5},${s - 2} 1.5,${s - 2}" fill="#9775fa" ${stroke}/>`,
+                'aftershock': `<circle cx="${h}" cy="${h}" r="${h - 2}" fill="#ffffff" ${stroke}/>`,
+            };
+            return `<svg width="${s}" height="${s}" viewBox="0 0 ${s} ${s}" aria-hidden="true">${shapes[relation] || shapes.aftershock}</svg>`;
+        }
+
+        const fmtMag = m => Number(m).toFixed(1);
+
+        function formatOffset(hours) {
+            const sign = hours < 0 ? '−' : '+';
+            const a = Math.abs(hours);
+            return a < 48 ? `${sign}${a.toFixed(1)} h` : `${sign}${(a / 24).toFixed(1)} days`;
+        }
+
+        // "with M7.5 doublet, 4 aftershocks" for the dropdown
+        function sequenceSummary(ev) {
+            const rel = ev.related_events || [];
+            if (!rel.length) return '';
+            const parts = rel.filter(r => r.relation === 'doublet partner').map(r => `M${fmtMag(r.magnitude)} doublet`);
+            for (const kind of ['foreshock', 'aftershock']) {
+                const n = rel.filter(r => r.relation === kind).length;
+                if (n) parts.push(`${n} ${kind}${n > 1 ? 's' : ''}`);
+            }
+            return `with ${parts.join(', ')}`;
+        }
+
+        // The mainshock and its related earthquakes, in time order, each with how many tracks contain it
+        function sequenceMembers(ev) {
+            const main = { event_id: ev.event_id, name: ev.location, magnitude: ev.magnitude, relation: 'mainshock',
+                           hours_from_mainshock: 0, distance_km: 0, epicenter: ev.epicenter, has_own_entry: true };
+            return [main, ...(ev.related_events || [])]
+                .map(m => ({ ...m, tracks: ev.datasets.filter(d => (d.contains_events || [ev.event_id]).includes(m.event_id)).length }))
+                .sort((a, b) => a.hours_from_mainshock - b.hours_from_mainshock);
+        }
+
+        function datasetContains(ds, eventId) {
+            return !ds || !ds.contains_events || ds.contains_events.includes(eventId);
+        }
 
         // Basemap tile URLs
         const basemapTiles = {
@@ -1400,10 +1684,17 @@
                     `<span style="color: #ffd43b;">${pagerCounts.yellow}</span>` + pagerSlash +
                     `<span style="color: #51cf66;">${pagerCounts.green}</span>`;
 
+                relatedIndex = new Map();
+                fullCatalog.events.forEach(ev => (ev.related_events || []).forEach(rel => {
+                    if (!relatedIndex.has(rel.event_id)) relatedIndex.set(rel.event_id, []);
+                    relatedIndex.get(rel.event_id).push({ event: ev, rel });
+                }));
+
                 const events = fullCatalog.events
                     .map(e => ({
                         event_id: e.event_id, name: e.name, date: e.date,
-                        depth_km: e.metadata ? e.metadata.depth_km : null
+                        depth_km: e.metadata ? e.metadata.depth_km : null,
+                        summary: sequenceSummary(e), related: e.related_events || []
                     }))
                     .sort((a, b) => (b.date || '').localeCompare(a.date || ''));
 
@@ -1417,18 +1708,35 @@
                 allOption.selected = !currentEventId;
                 select.appendChild(allOption);
 
-                const eventLabel = (event) => event.depth_km != null
+                const eventLabel = (event) => (event.depth_km != null
                     ? `${event.name} (depth=${event.depth_km}km)`
-                    : event.name;
+                    : event.name) + (event.summary ? ` · ${event.summary}` : '');
+
+                // A related earthquake (doublet partner, foreshock, aftershock) gets its own row right
+                // under the event whose products contain it; its value is "<event id>#<related id>".
+                const relatedOption = (event, rel) => {
+                    const option = document.createElement('option');
+                    option.value = `${event.event_id}#${rel.event_id}`;
+                    option.textContent = `   ↳ ${rel.name} — ${RELATION_STYLE[rel.relation].short}, `
+                        + `${formatOffset(rel.hours_from_mainshock)}; in this event's products`;
+                    option.style.color = '#6c757d';
+                    return option;
+                };
 
                 // Featured events (PAGER red-alert) pinned right below the default
                 // option in FEATURED_EVENT_IDS order, then a separator, then the
-                // rest sorted by date as usual.
+                // rest sorted by date as usual. A featured earthquake that is only inside another
+                // event's products (e.g. a doublet partner) is listed as that related row.
                 const featuredById = new Map(events.map(e => [e.event_id, e]));
-                const featured = FEATURED_EVENT_IDS.map(id => featuredById.get(id)).filter(Boolean);
+                const featured = FEATURED_EVENT_IDS.map(id => featuredById.get(id)
+                    || (relatedIndex.get(id) || []).map(x => ({ related_row: x }))[0]).filter(Boolean);
 
                 if (featured.length) {
                     featured.forEach(event => {
+                        if (event.related_row) {
+                            select.appendChild(relatedOption(event.related_row.event, event.related_row.rel));
+                            return;
+                        }
                         const option = document.createElement('option');
                         option.value = event.event_id;
                         option.textContent = eventLabel(event);
@@ -1450,6 +1758,7 @@
                         option.selected = true;
                     }
                     select.appendChild(option);
+                    event.related.forEach(rel => select.appendChild(relatedOption(event, rel)));
                 });
 
                 if (currentEventId) {
@@ -1496,6 +1805,7 @@
             // Hide placeholder warning and disable download
             document.getElementById('placeholder-warning').style.display = 'none';
             document.getElementById('download-btn').disabled = true;
+            closeDownloadMenu();
 
             // Clear map overlays
             clearMapOverlays();
@@ -1518,6 +1828,8 @@
                 epicenterMarker.remove();
                 epicenterMarker = null;
             }
+            relatedMarkers.forEach(m => m.remove());
+            relatedMarkers = [];
             if (map.getLayer(wrappedOverlayId)) map.removeLayer(wrappedOverlayId);
             if (map.getSource(wrappedOverlayId)) map.removeSource(wrappedOverlayId);
             if (map.getLayer(coverageBoxId)) map.removeLayer(coverageBoxId);
@@ -1532,14 +1844,25 @@
         // Event selection changed
         // Jump from a live USGS earthquake marker straight to its matching
         // ARIA COSEIS event in the Earthquake Event dropdown, if one exists.
-        function goToCOSEISEvent(eventId) {
-            document.getElementById('event-select').value = eventId;
+        // relatedId: a related earthquake inside that event's products, to highlight.
+        function goToCOSEISEvent(eventId, relatedId) {
+            document.getElementById('event-select').value = relatedId ? `${eventId}#${relatedId}` : eventId;
             onEventChange();
         }
 
         async function onEventChange() {
             const select = document.getElementById('event-select');
-            currentEventId = select.value;
+            const [eventId, relatedId] = select.value.split('#');
+            const changed = eventId !== currentEventId;
+            currentEventId = eventId;
+            highlightedRelatedId = relatedId || null;
+            if (currentEventId && !changed && currentEvent) {  // another row of the same sequence
+                updateEventInfo();
+                updateDatasetInfo();
+                drawRelatedMarkers();
+                focusHighlighted();
+                return;
+            }
 
             // If "Significant Earthquakes (2014-now)" is selected,
             // reload to revert everything (including USGS filters) to default.
@@ -1560,11 +1883,14 @@
                 const datasetSelect = document.getElementById('dataset-select');
                 datasetSelect.innerHTML = '';
 
+                // With a related earthquake chosen, start on the first track that contains it.
+                const first = datasetsData.datasets.find(ds => datasetContains(ds, highlightedRelatedId || currentEventId))
+                    || datasetsData.datasets[0];
                 datasetsData.datasets.forEach((ds, index) => {
                     const option = document.createElement('option');
                     option.value = ds.dataset_id;
                     option.textContent = ds.name;
-                    if (index === 0 || ds.dataset_id === currentDatasetId) {
+                    if (ds === first) {
                         option.selected = true;
                         currentDatasetId = ds.dataset_id;
                     }
@@ -1574,6 +1900,7 @@
                 datasetSelect.disabled = false;
                 updateMap();
                 await onDatasetChange();
+                focusHighlighted();
 
             } catch (error) {
                 console.error('Error loading event:', error);
@@ -1591,9 +1918,13 @@
 
             const isPlaceholder = currentDataset.url === '#';
             document.getElementById('placeholder-warning').style.display = isPlaceholder ? 'flex' : 'none';
-            document.getElementById('download-btn').disabled = isPlaceholder;
+            document.getElementById('download-btn').disabled = isPlaceholder || layerAbort !== null;
+            closeDownloadMenu();
+            loadLayerIndex();
 
+            updateEventInfo();  // the sequence list marks what this track contains
             updateDatasetInfo();
+            drawRelatedMarkers();
 
             if (!isPlaceholder) {
                 // Load visualizations immediately for faster display
@@ -1654,7 +1985,108 @@
                     <span class="info-value"><a href="${currentEvent.metadata.usgs_event_url}" target="_blank" rel="noopener">link</a></span>
                 </div>
                 ` : ''}
+                ${sequenceHTML()}
             `;
+        }
+
+        // The event's sequence: every earthquake inside its products, which of them the selected
+        // track contains, and the other events whose products contain this one.
+        function sequenceHTML() {
+            let html = '';
+            if (currentEvent.related_events && currentEvent.related_events.length) {
+                const n = currentEvent.datasets.length;
+                const rows = sequenceMembers(currentEvent).map(m => {
+                    const style = RELATION_STYLE[m.relation];
+                    const inTrack = datasetContains(currentDataset, m.event_id);
+                    const sub = m.relation === 'mainshock'
+                        ? `${style.label} · this event · in ${m.tracks}/${n} tracks`
+                        : `${style.label} · ${formatOffset(m.hours_from_mainshock)} · ${m.distance_km} km away · in ${m.tracks}/${n} tracks`;
+                    const own = m.relation !== 'mainshock' && m.has_own_entry
+                        ? ` · <a href="#" onclick="event.stopPropagation(); goToCOSEISEvent('${m.event_id}'); return false;">its own products</a>` : '';
+                    const cls = ['seq-row', m.event_id === highlightedRelatedId ? 'highlight' : '', inTrack ? '' : 'absent'].join(' ');
+                    return `
+                        <div class="${cls}" onclick="selectRelated('${m.relation === 'mainshock' ? '' : m.event_id}')"
+                             title="${m.note ? m.note.replace(/"/g, '&quot;') : 'Show on the map'}">
+                            <span class="seq-icon">${relationIcon(m.relation)}</span>
+                            <span class="seq-text">
+                                <span class="seq-name"><b>M${fmtMag(m.magnitude)}</b> ${m.name.replace(/^M \d+(\.\d+)? - /, '')}</span>
+                                <span class="seq-sub">${sub}${own}</span>
+                                ${inTrack ? '' : '<span class="seq-absent">not in the selected track</span>'}
+                            </span>
+                        </div>`;
+                }).join('');
+                html += `
+                    <div class="seq-box">
+                        <div class="seq-title">Earthquakes in these products</div>
+                        ${rows}
+                        <div class="seq-foot">Each interferogram contains all deformation between its two dates, so
+                            these earthquakes cannot be separated in it. A track can miss one when its
+                            dates or footprint do not span it.</div>
+                    </div>`;
+            }
+            (currentEvent.included_in || []).forEach(inc => {
+                html += `
+                    <div class="seq-note">
+                        ${relationIcon(inc.relation, 14)}
+                        <span>This earthquake is also inside ${inc.datasets} track${inc.datasets === 1 ? '' : 's'} of
+                        <a href="#" onclick="goToCOSEISEvent('${inc.event_id}', '${currentEvent.event_id}'); return false;">${inc.name}</a>,
+                        as its ${inc.relation}.</span>
+                    </div>`;
+            });
+            return html;
+        }
+
+        // Highlight a related earthquake (or none: the mainshock) and show it on the map.
+        function selectRelated(eventId) {
+            highlightedRelatedId = eventId || null;
+            const select = document.getElementById('event-select');
+            select.value = eventId ? `${currentEventId}#${eventId}` : currentEventId;
+            updateEventInfo();
+            updateDatasetInfo();
+            drawRelatedMarkers();
+            focusHighlighted(true);
+        }
+
+        function focusHighlighted(always = false) {
+            const rel = highlightedRelatedId && (currentEvent.related_events || []).find(r => r.event_id === highlightedRelatedId);
+            const target = rel || (always ? currentEvent : null);
+            if (!target || !map) return;
+            const marker = rel ? relatedMarkers.find(m => m._coseisId === rel.event_id) : epicenterMarker;
+            if (marker) {
+                map.once('moveend', () => { if (!marker.getPopup().isOpen()) marker.togglePopup(); });
+            }
+            map.easeTo({ center: [target.epicenter.lon, target.epicenter.lat], duration: 800 });
+        }
+
+        // Markers for the related earthquakes; faded where the selected track does not contain one.
+        function drawRelatedMarkers() {
+            relatedMarkers.forEach(m => m.remove());
+            relatedMarkers = [];
+            if (!currentEvent || !map) return;
+            (currentEvent.related_events || []).forEach(rel => {
+                const inTrack = datasetContains(currentDataset, rel.event_id);
+                const big = rel.event_id === highlightedRelatedId;
+                const el = document.createElement('div');
+                el.className = 'related-marker' + (inTrack ? '' : ' absent') + (big ? ' highlight' : '');
+                el.innerHTML = `${relationIcon(rel.relation, big ? 22 : 16)}<span class="related-label">M${fmtMag(rel.magnitude)}</span>`;
+                const popup = new maplibregl.Popup({ offset: 10 }).setHTML(
+                    `<strong>${rel.name}</strong><br>${RELATION_STYLE[rel.relation].label} of M${fmtMag(currentEvent.magnitude)}, `
+                    + `${formatOffset(rel.hours_from_mainshock)}, ${rel.distance_km} km away<br>`
+                    + (inTrack ? 'Contained in this track' : '<span style="color:#c92a2a">Not in this track</span>')
+                    + (rel.note ? `<br><span style="color: var(--text-muted); font-size: 11px;">${rel.note}</span>` : '')
+                    + `<br><a href="${rel.usgs_event_url}" target="_blank" rel="noopener">USGS event page</a>`
+                    + (rel.has_own_entry ? ` · <a href="#" onclick="goToCOSEISEvent('${rel.event_id}'); return false;">its own products</a>` : ''));
+                const marker = new maplibregl.Marker({ element: el, anchor: 'left', offset: [-(big ? 11 : 8), 0] })
+                    .setLngLat([rel.epicenter.lon, rel.epicenter.lat])
+                    .setPopup(popup)
+                    .addTo(map);
+                marker._coseisId = rel.event_id;
+                relatedMarkers.push(marker);
+            });
+            if (epicenterMarker) {  // keep the mainshock's star on top
+                const el = epicenterMarker.getElement();
+                el.parentNode.appendChild(el);
+            }
         }
 
         function pagerAlertColor(level) {
@@ -1712,7 +2144,23 @@
                 </div>
                 ` : ''}
                 ${dateHTML}
+                ${containsHTML()}
             `;
+        }
+
+        // Which earthquakes of the sequence this track's interferogram contains
+        function containsHTML() {
+            if (!currentEvent.related_events || !currentEvent.related_events.length || !currentDataset) return '';
+            const members = sequenceMembers(currentEvent);
+            const chip = m => `<span class="seq-chip" title="${m.name}">${relationIcon(m.relation, 11)} M${fmtMag(m.magnitude)} ${RELATION_STYLE[m.relation].short}</span>`;
+            const yes = members.filter(m => datasetContains(currentDataset, m.event_id));
+            const no = members.filter(m => !datasetContains(currentDataset, m.event_id));
+            return `
+                <div class="seq-contains">
+                    <div class="info-label">Contains</div>
+                    <div>${yes.map(chip).join('')}</div>
+                    ${no.length ? `<div class="info-label" style="margin-top: 4px;">Not in this track</div><div class="seq-missing">${no.map(chip).join('')}</div>` : ''}
+                </div>`;
         }
 
         // Update map with event location
@@ -1824,8 +2272,10 @@
                 .setLngLat([currentEvent.epicenter.lon, currentEvent.epicenter.lat])
                 .setPopup(new maplibregl.Popup({ offset: 10 }).setHTML(
                     `<strong>${currentEvent.name}</strong><br>M${currentEvent.magnitude}<br>${currentEvent.date}`
+                    + (currentEvent.related_events ? `<br>Mainshock, ${sequenceSummary(currentEvent)}` : '')
                 ))
                 .addTo(map);
+            drawRelatedMarkers();
 
             map.fitBounds(boundsCoords, { padding: 50 });
         }
@@ -1907,7 +2357,194 @@
         // Download the source dataset (NetCDF product)
         function downloadDataset() {
             if (!currentDataset || !currentDataset.url || currentDataset.url === '#') return;
+            closeDownloadMenu();
             window.location.href = currentDataset.url;
+        }
+
+        // Single layers: metadata/<event>/<dataset>/layers.json (ops/viewer/build_layer_index.py in cmspeed/coseis-sar) says where each
+        // layer's bytes are in the netCDF; assets/layer_download.js fetches only those and writes a COG.
+        // The menu groups the layers as the netCDF does (/science/grids/<group>/...); layers.json also holds
+        // the product's bounding box (productBoundingBox), offered as GeoJSON.
+        let currentLayerIndex = null;
+        let layerAbort = null;
+
+        function escapeHtml(s) {
+            return String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
+        }
+
+        function formatBytes(n) {
+            if (n >= 1e9) return `${(n / 1e9).toFixed(1)} GB`;
+            if (n >= 1e6) return `${Math.round(n / 1e6)} MB`;
+            return `${Math.max(1, Math.round(n / 1e3))} kB`;
+        }
+
+        function productFile(url) {
+            return url.split('/').pop();
+        }
+
+        async function loadLayerIndex() {
+            currentLayerIndex = null;
+            renderDownloadMenu();
+            if (!currentDataset || currentDataset.url === '#') return;
+            const eventId = currentEventId;
+            const datasetId = currentDatasetId;
+            try {
+                const response = await fetch(`${DEFORMHUB_CONFIG.metadataBaseUrl}/${eventId}/${datasetId}/layers.json`);
+                if (!response.ok) return;  // no index yet: full netCDF only
+                const index = await response.json();
+                // Use it only for the dataset still selected, and only if it describes the same file.
+                if (eventId === currentEventId && datasetId === currentDatasetId
+                        && productFile(index.url) === productFile(currentDataset.url)) {
+                    currentLayerIndex = index;
+                    renderDownloadMenu();
+                }
+            } catch (error) {
+                console.warn('No layer index for', datasetId, error);
+            }
+        }
+
+        // Groups of the netCDF, in its order: /science/grids/<key>/...
+        const LAYER_GROUPS = [['data', 'Data'], ['corrections', 'Corrections'], ['imagingGeometry', 'Imaging geometry']];
+
+        function layerGroup(layer) {
+            const key = layer.path.split('/')[3];
+            return LAYER_GROUPS.some(([k]) => k === key) ? key : 'other';
+        }
+
+        function footprintText() {
+            return window.layerDownload.footprintGeoJSON(currentDataset.url, currentLayerIndex.footprint,
+                { event_id: currentEventId, dataset_id: currentDatasetId });
+        }
+
+        function renderDownloadMenu() {
+            document.getElementById('download-full-size').textContent =
+                currentLayerIndex ? formatBytes(currentLayerIndex.file_bytes) : '';
+            const box = document.getElementById('download-layers');
+            if (!currentLayerIndex || !currentLayerIndex.layers.length) {
+                box.innerHTML = '<div class="download-note">Single-layer downloads are not available for this dataset yet.</div>';
+                return;
+            }
+            const units = l => ` (${escapeHtml(l.units || 'unitless')})`;  // no units attribute: unitless
+            const heights = l => (l.bands ? `; ${l.bands.values.length} bands, one per height` : '');
+            const item = (l, i) => `
+                    <button class="download-item layer-item" onclick="downloadLayer(${i})" title="${escapeHtml((l.description || l.label) + heights(l))}">
+                        <span>${escapeHtml(l.label)}${units(l)}</span>
+                        <span class="download-size">${formatBytes(l.bytes)}</span>
+                    </button>`;
+            const layers = currentLayerIndex.layers.map((l, i) => [l, i]);
+            const groups = [...LAYER_GROUPS, ['other', 'Other layers']]
+                .map(([key, title]) => [title, layers.filter(([l]) => layerGroup(l) === key)])
+                .filter(([, members]) => members.length);
+            const cubes = currentLayerIndex.layers.filter(l => l.bands);
+            const cubeGroups = [...new Set(cubes.map(l => (l.name.startsWith('solidEarthTide') ? 'solid earth tides'
+                : (LAYER_GROUPS.find(([k]) => k === layerGroup(l)) || [, 'other layers'])[1].toLowerCase())))];
+            const footprint = currentLayerIndex.footprint && window.layerDownload ? `
+                <div class="download-subhead">Product bounding box</div>
+                <button class="download-item" id="download-footprint" onclick="downloadFootprint()" title="productBoundingBox of the netCDF">
+                    <span>Bounding box (GeoJSON)</span>
+                    <span class="download-size">${formatBytes(new Blob([footprintText()]).size)}</span>
+                </button>` : '';
+            box.innerHTML = groups.map(([title, members]) => `<div class="download-subhead">${escapeHtml(title)}</div>`
+                    + members.map(([l, i]) => item(l, i)).join('')).join('')
+                + footprint
+                + `<div class="download-note">Layers download as Cloud-Optimized GeoTIFFs${cubes.length
+                    ? `; ${escapeHtml(cubeGroups.join(' and '))} have one band per height (${cubes[0].bands.values.join(', ')} ${escapeHtml(cubes[0].bands.units || '')})` : ''}.
+                    Sizes are what gets fetched: only that layer's data, converted in your browser.
+                    Scripting? <button class="download-link" id="download-gdal" onclick="copyGdalCommands()">Copy GDAL commands</button></div>`;
+        }
+
+        function downloadFootprint() {
+            if (!currentLayerIndex || !currentLayerIndex.footprint) return;
+            const name = window.layerDownload.footprintFileName(currentDataset.url);
+            closeDownloadMenu();
+            const link = document.createElement('a');
+            link.href = URL.createObjectURL(new Blob([footprintText()], { type: 'application/geo+json' }));
+            link.download = name;
+            document.body.appendChild(link);
+            link.click();
+            link.remove();
+            setTimeout(() => URL.revokeObjectURL(link.href), 60000);
+        }
+
+        function closeDownloadMenu() {
+            document.getElementById('download-panel').hidden = true;
+            document.getElementById('download-btn').setAttribute('aria-expanded', 'false');
+        }
+
+        function toggleDownloadMenu() {
+            const panel = document.getElementById('download-panel');
+            panel.hidden = !panel.hidden;
+            document.getElementById('download-btn').setAttribute('aria-expanded', String(!panel.hidden));
+        }
+
+        document.addEventListener('click', event => {
+            const menu = document.getElementById('download-menu');
+            if (menu && !menu.contains(event.target)) closeDownloadMenu();
+        });
+
+        async function copyGdalCommands() {
+            const button = document.getElementById('download-gdal');
+            const lines = currentLayerIndex.layers.map(l => window.layerDownload.gdalCommand(currentDataset.url, l));
+            if (currentLayerIndex.footprint) lines.push(window.layerDownload.footprintCommand(currentDataset.url));
+            try {
+                await navigator.clipboard.writeText(lines.join('\n') + '\n');
+                button.textContent = 'Copied';
+            } catch (error) {
+                window.prompt('GDAL commands (one per layer, then the bounding box):', lines.join(' ; '));
+            }
+            setTimeout(() => { button.textContent = 'Copy GDAL commands'; }, 2000);
+        }
+
+        function showLayerProgress(text, fraction) {
+            document.getElementById('download-progress').hidden = false;
+            document.getElementById('download-progress-text').textContent = text;
+            document.getElementById('download-progress-bar').style.width = `${Math.round(fraction * 100)}%`;
+        }
+
+        function cancelLayerDownload() {
+            if (layerAbort) layerAbort.abort();
+        }
+
+        async function downloadLayer(i) {
+            if (!currentLayerIndex || layerAbort || !window.layerDownload) return;
+            const layer = currentLayerIndex.layers[i];
+            const url = currentDataset.url;
+            const name = window.layerDownload.fileName(url, layer);
+            closeDownloadMenu();
+            document.getElementById('download-btn').disabled = true;
+            document.getElementById('download-cancel').hidden = false;
+            layerAbort = new AbortController();
+            let done = false;
+            try {
+                // Fetching is most of the time; writing the GeoTIFF is the last fifth of the bar.
+                const parts = await window.layerDownload.layerToCOG(url, layer, {
+                    signal: layerAbort.signal,
+                    onProgress: (phase, f) => showLayerProgress(phase === 'fetch'
+                        ? `${layer.label}: fetching ${Math.round(f * 100)}% of ${formatBytes(layer.bytes)}`
+                        : `${layer.label}: writing GeoTIFF ${Math.round(f * 100)}%`, phase === 'fetch' ? 0.8 * f : 0.8 + 0.2 * f),
+                });
+                const link = document.createElement('a');
+                link.href = URL.createObjectURL(new Blob(parts, { type: 'image/tiff' }));
+                link.download = name;
+                document.body.appendChild(link);
+                link.click();
+                link.remove();
+                setTimeout(() => URL.revokeObjectURL(link.href), 60000);
+                showLayerProgress(`Saved ${name}`, 1);
+                done = true;
+            } catch (error) {
+                const message = error.name === 'AbortError' ? 'Cancelled.'
+                    : error instanceof window.layerDownload.StaleIndexError
+                        ? 'This product changed since its layer index was built; please download the full netCDF.'
+                        : `The layer could not be downloaded (${error.message}); the full netCDF is still available.`;
+                showLayerProgress(message, 0);
+                console.error('Layer download failed:', error);
+            } finally {
+                layerAbort = null;
+                document.getElementById('download-cancel').hidden = true;
+                document.getElementById('download-btn').disabled = !currentDataset || currentDataset.url === '#';
+                if (done) setTimeout(() => { if (!layerAbort) document.getElementById('download-progress').hidden = true; }, 6000);
+            }
         }
 
         // Active faults (GEM Global Active Faults Database, CC-BY 4.0), loaded
@@ -2158,9 +2795,13 @@
                         // direct link into that event.
                         const usgsEventId = (props.url || '').replace(/\/$/, '').split('/').pop();
                         const coseisEvent = fullCatalog && fullCatalog.events.find(ev => ev.event_id === usgsEventId);
-                        const coseisLink = coseisEvent
+                        // An earthquake inside another event's products links to that event.
+                        const containing = relatedIndex.get(usgsEventId) || [];
+                        const coseisLink = (coseisEvent
                             ? `<br><a href="#" onclick="goToCOSEISEvent('${usgsEventId}'); return false;" style="color: var(--accent);">ARIA COSEIS</a>`
-                            : '';
+                            : '') + containing.map(({ event, rel }) =>
+                            `<br><a href="#" onclick="goToCOSEISEvent('${event.event_id}', '${usgsEventId}'); return false;" style="color: var(--accent);">`
+                            + `ARIA COSEIS: in the products of M${fmtMag(event.magnitude)} ${event.location.replace(/^M \d+(\.\d+)? - /, '')}</a> (${rel.relation})`).join('');
 
                         new maplibregl.Popup({ offset: 10 })
                             .setLngLat([coords[0], coords[1]])

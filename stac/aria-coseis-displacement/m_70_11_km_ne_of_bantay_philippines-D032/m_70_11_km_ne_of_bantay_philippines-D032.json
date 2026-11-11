@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_70_11_km_ne_of_bantay_philippines/S1-COSEIS_SAR-D-R-032-tops-20220802_20220721-214634-00120E_00016N-PP-9c70-v1_0_0/S1-COSEIS_SAR-D-R-032-tops-20220802_20220721-214634-00120E_00016N-PP-9c70-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_70_11_km_ne_of_bantay_philippines_us6000i5rd/S1-COSEIS_SAR-D-R-032-tops-20220802_20220721-214634-00120E_00016N-PP-9c70-v1_0_0/S1-COSEIS_SAR-D-R-032-tops-20220802_20220721-214634-00120E_00016N-PP-9c70-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

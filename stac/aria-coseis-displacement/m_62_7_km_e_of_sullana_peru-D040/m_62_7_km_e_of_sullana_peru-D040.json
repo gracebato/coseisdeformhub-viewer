@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_62_7_km_e_of_sullana_peru-D040",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -81.875516567,
+          -5.986667945
+        ],
+        [
+          -79.238014457,
+          -5.986667945
+        ],
+        [
+          -79.238014457,
+          -3.9049996129999998
+        ],
+        [
+          -81.875516567,
+          -3.9049996129999998
+        ],
+        [
+          -81.875516567,
+          -5.986667945
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -81.875516567,
+    -5.986667945,
+    -79.238014457,
+    -3.9049996129999998
+  ],
+  "properties": {
+    "title": "2021 M 6.2 - 7 km E of Sullana, Peru \u2014 Descending Track 040",
+    "start_datetime": "2021-07-21T00:00:00+00:00",
+    "end_datetime": "2021-08-02T00:00:00+00:00",
+    "coseis:event_id": "us6000f0qr",
+    "coseis:event_name": "2021 M 6.2 - 7 km E of Sullana, Peru",
+    "coseis:magnitude": 6.2,
+    "coseis:event_date": "2021-07-30",
+    "coseis:pager_alert": "yellow",
+    "coseis:depth_km": 34,
+    "sat:orbit_state": "descending",
+    "coseis:track": "040",
+    "coseis:satellites": "Sentinel-1B_Sentinel-1B",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2021-08-02T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000f0qr",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us6000f0qr/m_62_7_km_e_of_sullana_peru-D040/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_62_7_km_e_of_sullana_peru_us6000f0qr/S1-COSEIS_SAR-D-R-040-tops-20210802_20210721-110152-00082W_00006S-PP-7680-v1_0_0/S1-COSEIS_SAR-D-R-040-tops-20210802_20210721-110152-00082W_00006S-PP-7680-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

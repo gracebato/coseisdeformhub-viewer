@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_69_18_km_ssw_of_leilani_estates_hawaii/S1-COSEIS_SAR-A-R-124-tops-20180508_20180502-043005-00157W_00018N-PP-154c-v1_0_0/S1-COSEIS_SAR-A-R-124-tops-20180508_20180502-043005-00157W_00018N-PP-154c-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_69_18_km_ssw_of_leilani_estates_hawaii_hv70116556/S1-COSEIS_SAR-A-R-124-tops-20180508_20180502-043005-00157W_00018N-PP-154c-v1_0_0/S1-COSEIS_SAR-A-R-124-tops-20180508_20180502-043005-00157W_00018N-PP-154c-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_63_79_km_nne_of_loreto_mexico/S1-COSEIS_SAR-A-R-020-tops-20180125_20180113-012250-00111W_00026N-PP-7128-v1_0_0/S1-COSEIS_SAR-A-R-020-tops-20180125_20180113-012250-00111W_00026N-PP-7128-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_63_79_km_nne_of_loreto_mexico_us2000cl83/S1-COSEIS_SAR-A-R-020-tops-20180125_20180113-012250-00111W_00026N-PP-7128-v1_0_0/S1-COSEIS_SAR-A-R-020-tops-20180125_20180113-012250-00111W_00026N-PP-7128-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

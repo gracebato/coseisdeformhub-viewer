@@ -4,17 +4,17 @@
   "event_title": "M 7.8 - Pazarcik earthquake, Kahramanmaras earthquake sequence",
   "orbit": "ascending",
   "track": "116",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_78_pazarcik_earthquake_kahramanmaras_earthquake_sequence/S1-COSEIS_SAR-A-R-116-tops-20230216_20230204-152555-00037E_00035N-PP-2914-v1_0_0/S1-COSEIS_SAR-A-R-116-tops-20230216_20230204-152555-00037E_00035N-PP-2914-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_78_pazarcik_earthquake_kahramanmaras_earthquake_sequence_us6000jllz/S1-COSEIS_SAR-A-R-116-tops-20230228_20230204-152621-00036E_00035N-PP-01b8-v1_0_0/S1-COSEIS_SAR-A-R-116-tops-20230228_20230204-152621-00036E_00035N-PP-01b8-v1_0_0.nc",
   "stats": {
-    "min": -0.21489638090133667,
-    "max": 0.03656501695513725,
-    "mean": -0.058765288442373276,
-    "std": 0.03593439608812332
+    "min": -1.8656291961669922,
+    "max": 0.043047644197940826,
+    "mean": -0.8354824361439976,
+    "std": 0.670324693770373
   },
   "bounds": {
-    "lon_min": 36.79809508299999,
-    "lon_max": 40.05365324299999,
-    "lat_min": 35.295792281000004,
-    "lat_max": 37.173571561
+    "lon_min": 36.057261956999994,
+    "lon_max": 40.05170959699999,
+    "lat_min": 35.295789881000005,
+    "lat_max": 40.155793769000006
   }
 }

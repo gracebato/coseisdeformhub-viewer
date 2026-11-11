@@ -4,7 +4,7 @@
   "event_title": "M 6.4 - 156 km NNE of Shi Yomi, India",
   "orbit": "descending",
   "track": "004",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_64_156_km_nne_of_shi_yomi_india/S1-COSEIS_SAR-D-R-004-tops-20171118_20171106-233753-00094E_00028N-PP-6f3c-v1_0_0/S1-COSEIS_SAR-D-R-004-tops-20171118_20171106-233753-00094E_00028N-PP-6f3c-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_64_156_km_nne_of_shi_yomi_india_us2000bqsn/S1-COSEIS_SAR-D-R-004-tops-20171118_20171106-233753-00094E_00028N-PP-6f3c-v1_0_0/S1-COSEIS_SAR-D-R-004-tops-20171118_20171106-233753-00094E_00028N-PP-6f3c-v1_0_0.nc",
   "stats": {
     "min": -0.11155824363231659,
     "max": 0.12240878492593765,

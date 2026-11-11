@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_66_22_km_wsw_of_illapel_chile/S1-COSEIS_SAR-A-R-018-tops-20151001_20150919-232827-00073W_00033S-PP-d6a0-v1_0_0/S1-COSEIS_SAR-A-R-018-tops-20151001_20150919-232827-00073W_00033S-PP-d6a0-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_66_22_km_wsw_of_illapel_chile_us20003mi0/S1-COSEIS_SAR-A-R-018-tops-20151001_20150919-232827-00073W_00033S-PP-d6a0-v1_0_0/S1-COSEIS_SAR-A-R-018-tops-20151001_20150919-232827-00073W_00033S-PP-d6a0-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_65_44_km_e_of_wewak_papua_new_guinea/S1-COSEIS_SAR-D-R-133-tops-20231202_20231120-200534-00143E_00005S-PP-cf40-v1_0_0/S1-COSEIS_SAR-D-R-133-tops-20231202_20231120-200534-00143E_00005S-PP-cf40-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_65_44_km_e_of_wewak_papua_new_guinea_us7000le6w/S1-COSEIS_SAR-D-R-133-tops-20231202_20231120-200534-00143E_00005S-PP-cf40-v1_0_0/S1-COSEIS_SAR-D-R-133-tops-20231202_20231120-200534-00143E_00005S-PP-cf40-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

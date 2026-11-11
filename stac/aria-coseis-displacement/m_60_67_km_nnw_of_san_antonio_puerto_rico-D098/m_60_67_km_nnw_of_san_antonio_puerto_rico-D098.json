@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_60_67_km_nnw_of_san_antonio_puerto_rico/S1-COSEIS_SAR-D-R-098-tops-20190928_20190916-102256-00069W_00017N-PP-37d2-v1_0_0/S1-COSEIS_SAR-D-R-098-tops-20190928_20190916-102256-00069W_00017N-PP-37d2-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_60_67_km_nnw_of_san_antonio_puerto_rico_pr2019267000/S1-COSEIS_SAR-D-R-098-tops-20190928_20190916-102256-00069W_00017N-PP-37d2-v1_0_0/S1-COSEIS_SAR-D-R-098-tops-20190928_20190916-102256-00069W_00017N-PP-37d2-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

@@ -4,7 +4,7 @@
   "event_title": "M 7.2 - Nippes, Haiti",
   "orbit": "descending",
   "track": "142",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_72_nippes_haiti/S1-COSEIS_SAR-D-R-142-tops-20210815_20210803-104749-00075W_00018N-PP-8bb8-v1_0_0/S1-COSEIS_SAR-D-R-142-tops-20210815_20210803-104749-00075W_00018N-PP-8bb8-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_72_nippes_haiti_us6000f65h/S1-COSEIS_SAR-D-R-142-tops-20210815_20210803-104749-00075W_00018N-PP-8bb8-v1_0_0/S1-COSEIS_SAR-D-R-142-tops-20210815_20210803-104749-00075W_00018N-PP-8bb8-v1_0_0.nc",
   "stats": {
     "min": -0.0792653039097786,
     "max": 0.4278806746006012,

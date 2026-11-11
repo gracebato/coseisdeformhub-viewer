@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_73_52_km_w_of_puerto_madero_mexico-A034",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -94.28079386900001,
+          13.498569421
+        ],
+        [
+          -91.52912500100001,
+          13.498569421
+        ],
+        [
+          -91.52912500100001,
+          15.756626783
+        ],
+        [
+          -94.28079386900001,
+          15.756626783
+        ],
+        [
+          -94.28079386900001,
+          13.498569421
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -94.28079386900001,
+    13.498569421,
+    -91.52912500100001,
+    15.756626783
+  ],
+  "properties": {
+    "title": "2026 M 7.3 - 52 km W of Puerto Madero, Mexico \u2014 Ascending Track 034",
+    "start_datetime": "2026-07-14T00:00:00+00:00",
+    "end_datetime": "2026-07-20T00:00:00+00:00",
+    "coseis:event_id": "us7000t1bu",
+    "coseis:event_name": "2026 M 7.3 - 52 km W of Puerto Madero, Mexico",
+    "coseis:magnitude": 7.3,
+    "coseis:event_date": "2026-07-17",
+    "coseis:pager_alert": "yellow",
+    "coseis:depth_km": 22,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "034",
+    "coseis:satellites": "Sentinel-1D_Sentinel-1C",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2026-07-20T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t1bu",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us7000t1bu/m_73_52_km_w_of_puerto_madero_mexico-A034/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2026/m_73_60_km_wsw_of_puerto_madero_mexico_us7000t1bu/S1-COSEIS_SAR-A-R-034-tops-20260720_20260714-002201-00094W_00014N-PP-cc74-v1_0_0/S1-COSEIS_SAR-A-R-034-tops-20260720_20260714-002201-00094W_00014N-PP-cc74-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

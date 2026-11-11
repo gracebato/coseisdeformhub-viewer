@@ -4,7 +4,7 @@
   "event_title": "M 6.2 - Near the coast of Bio-Bio, Chile",
   "orbit": "ascending",
   "track": "091",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_62_near_the_coast_of_biobio_chile/S1-COSEIS_SAR-A-R-091-tops-20221122_20221110-233559-00074W_00038S-PP-c92c-v1_0_0/S1-COSEIS_SAR-A-R-091-tops-20221122_20221110-233559-00074W_00038S-PP-c92c-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_62_near_the_coast_of_biobio_chile_us7000ipe4/S1-COSEIS_SAR-A-R-091-tops-20221122_20221110-233559-00074W_00038S-PP-c92c-v1_0_0/S1-COSEIS_SAR-A-R-091-tops-20221122_20221110-233559-00074W_00038S-PP-c92c-v1_0_0.nc",
   "stats": {
     "min": -0.08520428091287613,
     "max": 0.1180989071726799,

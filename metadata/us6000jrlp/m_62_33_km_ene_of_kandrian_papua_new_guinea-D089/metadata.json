@@ -4,7 +4,7 @@
   "event_title": "M 6.2 - 33 km ENE of Kandrian, Papua New Guinea",
   "orbit": "descending",
   "track": "089",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_62_33_km_ene_of_kandrian_papua_new_guinea/S1-COSEIS_SAR-D-R-089-tops-20230226_20230214-194119-00148E_00007S-PP-c9cf-v1_0_0/S1-COSEIS_SAR-D-R-089-tops-20230226_20230214-194119-00148E_00007S-PP-c9cf-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_62_33_km_ene_of_kandrian_papua_new_guinea_us6000jrlp/S1-COSEIS_SAR-D-R-089-tops-20230226_20230214-194119-00148E_00007S-PP-c9cf-v1_0_0/S1-COSEIS_SAR-D-R-089-tops-20230226_20230214-194119-00148E_00007S-PP-c9cf-v1_0_0.nc",
   "stats": {
     "min": -1.0662446022033691,
     "max": -0.1437935084104538,

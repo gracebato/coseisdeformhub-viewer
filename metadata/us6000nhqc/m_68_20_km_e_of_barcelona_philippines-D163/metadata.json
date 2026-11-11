@@ -4,7 +4,7 @@
   "event_title": "M 6.8 - 20 km E of Barcelona, Philippines",
   "orbit": "descending",
   "track": "163",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2024/m_68_20_km_e_of_barcelona_philippines/S1-COSEIS_SAR-D-R-163-tops-20240812_20240731-212415-00125E_00007N-PP-04de-v1_0_0/S1-COSEIS_SAR-D-R-163-tops-20240812_20240731-212415-00125E_00007N-PP-04de-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2024/m_68_20_km_e_of_barcelona_philippines_us6000nhqc/S1-COSEIS_SAR-D-R-163-tops-20240812_20240731-212415-00125E_00007N-PP-04de-v1_0_0/S1-COSEIS_SAR-D-R-163-tops-20240812_20240731-212415-00125E_00007N-PP-04de-v1_0_0.nc",
   "stats": {
     "min": 0.037221282720565796,
     "max": 0.4599699079990387,

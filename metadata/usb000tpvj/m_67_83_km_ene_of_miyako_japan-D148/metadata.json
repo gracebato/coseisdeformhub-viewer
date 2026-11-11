@@ -4,7 +4,7 @@
   "event_title": "M 6.7 - 83 km ENE of Miyako, Japan",
   "orbit": "descending",
   "track": "148",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_67_83_km_ene_of_miyako_japan/S1-COSEIS_SAR-D-R-148-tops-20150224_20150212-203346-00141E_00038N-PP-617e-v1_0_0/S1-COSEIS_SAR-D-R-148-tops-20150224_20150212-203346-00141E_00038N-PP-617e-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_67_83_km_ene_of_miyako_japan_usb000tpvj/S1-COSEIS_SAR-D-R-148-tops-20150224_20150212-203346-00141E_00038N-PP-617e-v1_0_0/S1-COSEIS_SAR-D-R-148-tops-20150224_20150212-203346-00141E_00038N-PP-617e-v1_0_0.nc",
   "stats": {
     "min": -0.3391571342945099,
     "max": -0.08026435971260071,

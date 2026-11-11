@@ -4,7 +4,7 @@
   "event_title": "M 6.2 - 119 km NE of Angoram, Papua New Guinea",
   "orbit": "ascending",
   "track": "111",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_62_119_km_ne_of_angoram_papua_new_guinea/S1-COSEIS_SAR-A-R-111-tops-20160417_20160324-083900-00144E_00006S-PP-987e-v1_0_0/S1-COSEIS_SAR-A-R-111-tops-20160417_20160324-083900-00144E_00006S-PP-987e-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_62_119_km_ne_of_angoram_papua_new_guinea_us20005e01/S1-COSEIS_SAR-A-R-111-tops-20160417_20160324-083900-00144E_00006S-PP-987e-v1_0_0/S1-COSEIS_SAR-A-R-111-tops-20160417_20160324-083900-00144E_00006S-PP-987e-v1_0_0.nc",
   "stats": {
     "min": -0.13463535904884338,
     "max": 0.04247914254665375,

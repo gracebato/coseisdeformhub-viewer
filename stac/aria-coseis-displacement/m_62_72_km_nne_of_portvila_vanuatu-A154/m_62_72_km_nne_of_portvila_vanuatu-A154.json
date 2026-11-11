@@ -10,33 +10,33 @@
     "coordinates": [
       [
         [
-          165.694860867,
-          -18.370597140999998
+          165.340138361,
+          -18.370597941
         ],
         [
           168.500140889,
-          -18.370597140999998
+          -18.370597941
         ],
         [
           168.500140889,
-          -16.346151077
+          -14.857261797000001
         ],
         [
-          165.694860867,
-          -16.346151077
+          165.340138361,
+          -14.857261797000001
         ],
         [
-          165.694860867,
-          -18.370597140999998
+          165.340138361,
+          -18.370597941
         ]
       ]
     ]
   },
   "bbox": [
-    165.694860867,
-    -18.370597140999998,
+    165.340138361,
+    -18.370597941,
     168.500140889,
-    -16.346151077
+    -14.857261797000001
   ],
   "properties": {
     "title": "2020 M 6.2 - 72 km NNE of Port-Vila, Vanuatu \u2014 Ascending Track 154",
@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_62_72_km_nne_of_portvila_vanuatu/S1-COSEIS_SAR-A-R-154-tops-20200914_20200902-072156-00166E_00018S-PP-3bc8-v1_0_0/S1-COSEIS_SAR-A-R-154-tops-20200914_20200902-072156-00166E_00018S-PP-3bc8-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_62_72_km_nne_of_portvila_vanuatu_us7000bj6y/S1-COSEIS_SAR-A-R-154-tops-20200914_20200902-072209-00165E_00018S-PP-001f-v1_0_0/S1-COSEIS_SAR-A-R-154-tops-20200914_20200902-072209-00165E_00018S-PP-001f-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

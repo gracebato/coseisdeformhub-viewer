@@ -11,32 +11,32 @@
       [
         [
           124.198473181,
-          5.544998347
+          5.544957547
         ],
         [
-          126.82736417299999,
-          5.544998347
+          127.136253309,
+          5.544957547
         ],
         [
-          126.82736417299999,
-          7.591944429000001
-        ],
-        [
-          124.198473181,
-          7.591944429000001
+          127.136253309,
+          9.089127049
         ],
         [
           124.198473181,
-          5.544998347
+          9.089127049
+        ],
+        [
+          124.198473181,
+          5.544957547
         ]
       ]
     ]
   },
   "bbox": [
     124.198473181,
-    5.544998347,
-    126.82736417299999,
-    7.591944429000001
+    5.544957547,
+    127.136253309,
+    9.089127049
   ],
   "properties": {
     "title": "2019 M 6.6 - 10 km NE of Columbio, Philippines \u2014 Descending Track 163",
@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_66_10_km_ne_of_columbio_philippines/S1-COSEIS_SAR-D-R-163-tops-20191107_20191026-212435-00124E_00006N-PP-70ca-v1_0_0/S1-COSEIS_SAR-D-R-163-tops-20191107_20191026-212435-00124E_00006N-PP-70ca-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_66_10_km_ne_of_columbio_philippines_us6000645n/S1-COSEIS_SAR-D-R-163-tops-20191107_20191026-212423-00124E_00006N-PP-6df8-v1_0_0/S1-COSEIS_SAR-D-R-163-tops-20191107_20191026-212423-00124E_00006N-PP-6df8-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

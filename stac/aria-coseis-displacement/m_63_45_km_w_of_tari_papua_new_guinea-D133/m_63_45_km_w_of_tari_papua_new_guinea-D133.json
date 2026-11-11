@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_63_45_km_w_of_tari_papua_new_guinea/S1-COSEIS_SAR-D-R-133-tops-20180408_20180327-200535-00142E_00008S-PP-71f9-v1_0_0/S1-COSEIS_SAR-D-R-133-tops-20180408_20180327-200535-00142E_00008S-PP-71f9-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_63_45_km_w_of_tari_papua_new_guinea_us2000dvwq/S1-COSEIS_SAR-D-R-133-tops-20180408_20180327-200535-00142E_00008S-PP-71f9-v1_0_0/S1-COSEIS_SAR-D-R-133-tops-20180408_20180327-200535-00142E_00008S-PP-71f9-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

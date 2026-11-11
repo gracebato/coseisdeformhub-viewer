@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_70_119_km_e_of_kimbe_papua_new_guinea/S1-COSEIS_SAR-D-R-016-tops-20181021_20181009-193240-00150E_00008S-PP-97ab-v1_0_0/S1-COSEIS_SAR-D-R-016-tops-20181021_20181009-193240-00150E_00008S-PP-97ab-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_70_119_km_e_of_kimbe_papua_new_guinea_us1000haa3/S1-COSEIS_SAR-D-R-016-tops-20181021_20181009-193240-00150E_00008S-PP-97ab-v1_0_0/S1-COSEIS_SAR-D-R-016-tops-20181021_20181009-193240-00150E_00008S-PP-97ab-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

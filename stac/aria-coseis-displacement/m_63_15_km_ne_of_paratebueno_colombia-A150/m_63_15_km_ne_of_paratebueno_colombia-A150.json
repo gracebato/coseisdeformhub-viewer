@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_63_15_km_ne_of_paratebueno_colombia-A150",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -75.778849023,
+          2.379164081
+        ],
+        [
+          -72.782457737,
+          2.379164081
+        ],
+        [
+          -72.782457737,
+          5.840833517
+        ],
+        [
+          -75.778849023,
+          5.840833517
+        ],
+        [
+          -75.778849023,
+          2.379164081
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -75.778849023,
+    2.379164081,
+    -72.782457737,
+    5.840833517
+  ],
+  "properties": {
+    "title": "2025 M 6.3 - 15 km NE of Paratebueno, Colombia \u2014 Ascending Track 150",
+    "start_datetime": "2025-06-01T00:00:00+00:00",
+    "end_datetime": "2025-06-13T00:00:00+00:00",
+    "coseis:event_id": "us6000qixr",
+    "coseis:event_name": "2025 M 6.3 - 15 km NE of Paratebueno, Colombia",
+    "coseis:magnitude": 6.3,
+    "coseis:event_date": "2025-06-08",
+    "coseis:pager_alert": "yellow",
+    "coseis:depth_km": 9,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "150",
+    "coseis:satellites": "Sentinel-1C_Sentinel-1C",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2025-06-13T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000qixr",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us6000qixr/m_63_15_km_ne_of_paratebueno_colombia-A150/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_63_15_km_ne_of_paratebueno_colombia_us6000qixr/S1-COSEIS_SAR-A-R-150-tops-20250613_20250601-231307-00076W_00002N-PP-e604-v1_0_0/S1-COSEIS_SAR-A-R-150-tops-20250613_20250601-231307-00076W_00002N-PP-e604-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

@@ -1,0 +1,20 @@
+{
+  "event_id": "us10005iyk",
+  "job_id": "m_60_116_km_wsw_of_yulara_australia-D148",
+  "event_title": "M 6.0 - 116 km WSW of Yulara, Australia",
+  "orbit": "descending",
+  "track": "148",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_60_116_km_wsw_of_yulara_australia_us10005iyk/S1-COSEIS_SAR-D-R-148-tops-20160525_20160314-205150-00127E_00026S-PP-194a-v1_0_0/S1-COSEIS_SAR-D-R-148-tops-20160525_20160314-205150-00127E_00026S-PP-194a-v1_0_0.nc",
+  "stats": {
+    "min": -0.04708806425333023,
+    "max": 0.07407743483781815,
+    "mean": 0.006654033330340006,
+    "std": 0.017907047596499484
+  },
+  "bounds": {
+    "lon_min": 126.872639587,
+    "lon_max": 129.850141969,
+    "lat_min": -26.372819365,
+    "lat_max": -24.218928753
+  }
+}

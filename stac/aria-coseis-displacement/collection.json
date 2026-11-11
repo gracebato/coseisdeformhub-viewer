@@ -57,6 +57,16 @@
     },
     {
       "rel": "item",
+      "href": "./m_61_122_km_nnw_of_siocon_philippines-A142/m_61_122_km_nnw_of_siocon_philippines-A142.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_61_122_km_nnw_of_siocon_philippines-D134/m_61_122_km_nnw_of_siocon_philippines-D134.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./m_62_taiwan_region-A069/m_62_taiwan_region-A069.json",
       "type": "application/geo+json"
     },
@@ -117,6 +127,11 @@
     },
     {
       "rel": "item",
+      "href": "./m_78_67_km_nne_of_bharatpur_nepal-A012/m_78_67_km_nne_of_bharatpur_nepal-A012.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./m_78_67_km_nne_of_bharatpur_nepal-A085/m_78_67_km_nne_of_bharatpur_nepal-A085.json",
       "type": "application/geo+json"
     },
@@ -142,32 +157,7 @@
     },
     {
       "rel": "item",
-      "href": "./m_61_0_km_nnw_of_dhulikhel_nepal-A085/m_61_0_km_nnw_of_dhulikhel_nepal-A085.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_61_0_km_nnw_of_dhulikhel_nepal-D019/m_61_0_km_nnw_of_dhulikhel_nepal-D019.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_61_0_km_nnw_of_dhulikhel_nepal-D121/m_61_0_km_nnw_of_dhulikhel_nepal-D121.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_67_21_km_sse_of_kodri_nepal-A085/m_67_21_km_sse_of_kodri_nepal-A085.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_67_21_km_sse_of_kodri_nepal-D019/m_67_21_km_sse_of_kodri_nepal-D019.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_67_21_km_sse_of_kodri_nepal-D121/m_67_21_km_sse_of_kodri_nepal-D121.json",
+      "href": "./m_67_126_km_ssw_of_kokopo_papua_new_guinea-A067/m_67_126_km_ssw_of_kokopo_papua_new_guinea-A067.json",
       "type": "application/geo+json"
     },
     {
@@ -218,6 +208,16 @@
     {
       "rel": "item",
       "href": "./m_60_14_km_wnw_of_ranau_malaysia-D003/m_60_14_km_wnw_of_ranau_malaysia-D003.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_64_74_km_wnw_of_talcahuano_chile-A091/m_64_74_km_wnw_of_talcahuano_chile-A091.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_64_74_km_wnw_of_talcahuano_chile-D156/m_64_74_km_wnw_of_talcahuano_chile-D156.json",
       "type": "application/geo+json"
     },
     {
@@ -307,47 +307,7 @@
     },
     {
       "rel": "item",
-      "href": "./m_70_25_km_wnw_of_illapel_chile-A018/m_70_25_km_wnw_of_illapel_chile-A018.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_70_25_km_wnw_of_illapel_chile-A120/m_70_25_km_wnw_of_illapel_chile-A120.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_70_25_km_wnw_of_illapel_chile-D156/m_70_25_km_wnw_of_illapel_chile-D156.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_62_92_km_nw_of_valparaiso_chile-A018/m_62_92_km_nw_of_valparaiso_chile-A018.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_62_92_km_nw_of_valparaiso_chile-D156/m_62_92_km_nw_of_valparaiso_chile-D156.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_61_79_km_wnw_of_coquimbo_chile-A120/m_61_79_km_wnw_of_coquimbo_chile-A120.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_61_79_km_wnw_of_coquimbo_chile-D156/m_61_79_km_wnw_of_coquimbo_chile-D156.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
       "href": "./m_66_22_km_wsw_of_illapel_chile-A018/m_66_22_km_wsw_of_illapel_chile-A018.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_66_22_km_wsw_of_illapel_chile-A120/m_66_22_km_wsw_of_illapel_chile-A120.json",
       "type": "application/geo+json"
     },
     {
@@ -377,17 +337,22 @@
     },
     {
       "rel": "item",
-      "href": "./m_69_81_km_nw_of_coquimbo_chile-A018/m_69_81_km_nw_of_coquimbo_chile-A018.json",
+      "href": "./m_65_47_km_nw_of_maubara_timor_leste-A039/m_65_47_km_nw_of_maubara_timor_leste-A039.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./m_69_81_km_nw_of_coquimbo_chile-A120/m_69_81_km_nw_of_coquimbo_chile-A120.json",
+      "href": "./m_65_47_km_nw_of_maubara_timor_leste-A141/m_65_47_km_nw_of_maubara_timor_leste-A141.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./m_69_81_km_nw_of_coquimbo_chile-D156/m_69_81_km_nw_of_coquimbo_chile-D156.json",
+      "href": "./m_65_47_km_nw_of_maubara_timor_leste-D017/m_65_47_km_nw_of_maubara_timor_leste-D017.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_65_47_km_nw_of_maubara_timor_leste-D090/m_65_47_km_nw_of_maubara_timor_leste-D090.json",
       "type": "application/geo+json"
     },
     {
@@ -403,6 +368,11 @@
     {
       "rel": "item",
       "href": "./m_69_85_km_nw_of_coquimbo_chile-D156/m_69_85_km_nw_of_coquimbo_chile-D156.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_65_19_km_ssw_of_lefkada_greece-A073/m_65_19_km_ssw_of_lefkada_greece-A073.json",
       "type": "application/geo+json"
     },
     {
@@ -457,6 +427,21 @@
     },
     {
       "rel": "item",
+      "href": "./m_69_107_km_se_of_amahai_indonesia-A170/m_69_107_km_se_of_amahai_indonesia-A170.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_61_37_km_n_of_tarakan_indonesia-D032/m_61_37_km_n_of_tarakan_indonesia-D032.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_61_37_km_n_of_tarakan_indonesia-D105/m_61_37_km_n_of_tarakan_indonesia-D105.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./m_63_49_km_nne_of_al_hoceima_morocco-A001/m_63_49_km_nne_of_al_hoceima_morocco-A001.json",
       "type": "application/geo+json"
     },
@@ -507,6 +492,11 @@
     },
     {
       "rel": "item",
+      "href": "./m_63_37_km_w_of_ovalle_chile-A018/m_63_37_km_w_of_ovalle_chile-A018.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./m_63_37_km_w_of_ovalle_chile-A120/m_63_37_km_w_of_ovalle_chile-A120.json",
       "type": "application/geo+json"
     },
@@ -548,11 +538,6 @@
     {
       "rel": "item",
       "href": "./m_60_105_km_wsw_of_coquimbo_chile-A018/m_60_105_km_wsw_of_coquimbo_chile-A018.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_60_105_km_wsw_of_coquimbo_chile-D156/m_60_105_km_wsw_of_coquimbo_chile-D156.json",
       "type": "application/geo+json"
     },
     {
@@ -622,6 +607,11 @@
     },
     {
       "rel": "item",
+      "href": "./m_60_75_km_wsw_of_puerto_madero_mexico-A034/m_60_75_km_wsw_of_puerto_madero_mexico-A034.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./m_61_110_km_ssw_of_champerico_guatemala-A136/m_61_110_km_ssw_of_champerico_guatemala-A136.json",
       "type": "application/geo+json"
     },
@@ -647,12 +637,42 @@
     },
     {
       "rel": "item",
-      "href": "./m_60_75_km_wsw_of_puerto_madero_mexico-A034/m_60_75_km_wsw_of_puerto_madero_mexico-A034.json",
+      "href": "./m_78_27_km_sse_of_muisne_ecuador-A018/m_78_27_km_sse_of_muisne_ecuador-A018.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_78_27_km_sse_of_muisne_ecuador-A121/m_78_27_km_sse_of_muisne_ecuador-A121.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_78_27_km_sse_of_muisne_ecuador-D040/m_78_27_km_sse_of_muisne_ecuador-D040.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
       "href": "./m_60_75_km_wsw_of_puerto_madero_mexico-D099/m_60_75_km_wsw_of_puerto_madero_mexico-D099.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_67_32_km_se_of_muisne_ecuador-D040/m_67_32_km_se_of_muisne_ecuador-D040.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_69_24_km_nw_of_rosa_zarate_ecuador-A018/m_69_24_km_nw_of_rosa_zarate_ecuador-A018.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_69_24_km_nw_of_rosa_zarate_ecuador-D040/m_69_24_km_nw_of_rosa_zarate_ecuador-D040.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_60_116_km_wsw_of_yulara_australia-D148/m_60_116_km_wsw_of_yulara_australia-D148.json",
       "type": "application/geo+json"
     },
     {
@@ -692,6 +712,16 @@
     },
     {
       "rel": "item",
+      "href": "./m_63_33_km_nnw_of_rosa_zarate_ecuador-A018/m_63_33_km_nnw_of_rosa_zarate_ecuador-A018.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_63_33_km_nnw_of_rosa_zarate_ecuador-D040/m_63_33_km_nnw_of_rosa_zarate_ecuador-D040.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./m_62_5_km_wnw_of_accumoli_italy-A044/m_62_5_km_wnw_of_accumoli_italy-A044.json",
       "type": "application/geo+json"
     },
@@ -718,16 +748,6 @@
     {
       "rel": "item",
       "href": "./m_70_175_km_ne_of_gisborne_new_zealand-D175/m_70_175_km_ne_of_gisborne_new_zealand-D175.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_61_179_km_ne_of_opotiki_new_zealand-A008/m_61_179_km_ne_of_opotiki_new_zealand-A008.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_61_179_km_ne_of_opotiki_new_zealand-D175/m_61_179_km_ne_of_opotiki_new_zealand-D175.json",
       "type": "application/geo+json"
     },
     {
@@ -788,21 +808,6 @@
     {
       "rel": "item",
       "href": "./m_61_2_km_nnw_of_visso_italy-A044/m_61_2_km_nnw_of_visso_italy-A044.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_61_2_km_nnw_of_visso_italy-A117/m_61_2_km_nnw_of_visso_italy-A117.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_61_2_km_nnw_of_visso_italy-D022/m_61_2_km_nnw_of_visso_italy-D022.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_61_2_km_nnw_of_visso_italy-D095/m_61_2_km_nnw_of_visso_italy-D095.json",
       "type": "application/geo+json"
     },
     {
@@ -883,31 +888,6 @@
     {
       "rel": "item",
       "href": "./m_78_53_km_nne_of_amberley_new_zealand-D175/m_78_53_km_nne_of_amberley_new_zealand-D175.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_65_74_km_ne_of_amberley_new_zealand-A052/m_65_74_km_ne_of_amberley_new_zealand-A052.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_65_74_km_ne_of_amberley_new_zealand-A125/m_65_74_km_ne_of_amberley_new_zealand-A125.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_65_74_km_ne_of_amberley_new_zealand-A154/m_65_74_km_ne_of_amberley_new_zealand-A154.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_65_74_km_ne_of_amberley_new_zealand-D073/m_65_74_km_ne_of_amberley_new_zealand-D073.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_65_74_km_ne_of_amberley_new_zealand-D146/m_65_74_km_ne_of_amberley_new_zealand-D146.json",
       "type": "application/geo+json"
     },
     {
@@ -997,7 +977,32 @@
     },
     {
       "rel": "item",
+      "href": "./m_60_175_km_se_of_kokopo_papua_new_guinea-A067/m_60_175_km_se_of_kokopo_papua_new_guinea-A067.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_60_175_km_se_of_kokopo_papua_new_guinea-A169/m_60_175_km_se_of_kokopo_papua_new_guinea-A169.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_60_175_km_se_of_kokopo_papua_new_guinea-D016/m_60_175_km_se_of_kokopo_papua_new_guinea-D016.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_76_41_km_sw_of_quellon_chile-A062/m_76_41_km_sw_of_quellon_chile-A062.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./m_76_41_km_sw_of_quellon_chile-A135/m_76_41_km_sw_of_quellon_chile-A135.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_76_41_km_sw_of_quellon_chile-D083/m_76_41_km_sw_of_quellon_chile-D083.json",
       "type": "application/geo+json"
     },
     {
@@ -1247,6 +1252,21 @@
     },
     {
       "rel": "item",
+      "href": "./m_60_35_km_nnw_of_bahia_de_caraquez_ecuador-A018/m_60_35_km_nnw_of_bahia_de_caraquez_ecuador-A018.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_60_35_km_nnw_of_bahia_de_caraquez_ecuador-A091/m_60_35_km_nnw_of_bahia_de_caraquez_ecuador-A091.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_60_35_km_nnw_of_bahia_de_caraquez_ecuador-D040/m_60_35_km_nnw_of_bahia_de_caraquez_ecuador-D040.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./m_65_2_km_s_of_limoo_philippines-D061/m_65_2_km_s_of_limoo_philippines-D061.json",
       "type": "application/geo+json"
     },
@@ -1343,21 +1363,6 @@
     {
       "rel": "item",
       "href": "./m_64_71_km_w_of_bengkulu_indonesia-D091/m_64_71_km_w_of_bengkulu_indonesia-D091.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_63_nuclear_explosion_21_km_ene_of_sngjibaegam_north_korea-A156/m_63_nuclear_explosion_21_km_ene_of_sngjibaegam_north_korea-A156.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_63_nuclear_explosion_21_km_ene_of_sngjibaegam_north_korea-D061/m_63_nuclear_explosion_21_km_ene_of_sngjibaegam_north_korea-D061.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_63_nuclear_explosion_21_km_ene_of_sngjibaegam_north_korea-D134/m_63_nuclear_explosion_21_km_ene_of_sngjibaegam_north_korea-D134.json",
       "type": "application/geo+json"
     },
     {
@@ -1487,6 +1492,21 @@
     },
     {
       "rel": "item",
+      "href": "./m_61_18_km_ne_of_bahia_de_caraquez_ecuador-A018/m_61_18_km_ne_of_bahia_de_caraquez_ecuador-A018.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_61_18_km_ne_of_bahia_de_caraquez_ecuador-A091/m_61_18_km_ne_of_bahia_de_caraquez_ecuador-A091.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_61_18_km_ne_of_bahia_de_caraquez_ecuador-D040/m_61_18_km_ne_of_bahia_de_caraquez_ecuador-D040.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./m_60_63_km_nne_of_kerman_iran-A057/m_60_63_km_nne_of_kerman_iran-A057.json",
       "type": "application/geo+json"
     },
@@ -1553,16 +1573,6 @@
     {
       "rel": "item",
       "href": "./m_63_99_km_ene_of_misawa_japan-D148/m_63_99_km_ene_of_misawa_japan-D148.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_61_22_km_nne_of_hualien_city_taiwan-A069/m_61_22_km_nne_of_hualien_city_taiwan-A069.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_61_22_km_nne_of_hualien_city_taiwan-A171/m_61_22_km_nne_of_hualien_city_taiwan-A171.json",
       "type": "application/geo+json"
     },
     {
@@ -1637,32 +1647,7 @@
     },
     {
       "rel": "item",
-      "href": "./m_63_59_km_sw_of_mendi_papua_new_guinea-A009/m_63_59_km_sw_of_mendi_papua_new_guinea-A009.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_63_59_km_sw_of_mendi_papua_new_guinea-A082/m_63_59_km_sw_of_mendi_papua_new_guinea-A082.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_63_59_km_sw_of_mendi_papua_new_guinea-D133/m_63_59_km_sw_of_mendi_papua_new_guinea-D133.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_67_62_km_sw_of_tari_papua_new_guinea-A009/m_67_62_km_sw_of_tari_papua_new_guinea-A009.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
       "href": "./m_67_62_km_sw_of_tari_papua_new_guinea-A082/m_67_62_km_sw_of_tari_papua_new_guinea-A082.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_67_62_km_sw_of_tari_papua_new_guinea-D031/m_67_62_km_sw_of_tari_papua_new_guinea-D031.json",
       "type": "application/geo+json"
     },
     {
@@ -1687,22 +1672,7 @@
     },
     {
       "rel": "item",
-      "href": "./m_67_140_km_e_of_kimbe_papua_new_guinea-A067/m_67_140_km_e_of_kimbe_papua_new_guinea-A067.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
       "href": "./m_67_140_km_e_of_kimbe_papua_new_guinea-A140/m_67_140_km_e_of_kimbe_papua_new_guinea-A140.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_67_140_km_e_of_kimbe_papua_new_guinea-D016/m_67_140_km_e_of_kimbe_papua_new_guinea-D016.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_67_140_km_e_of_kimbe_papua_new_guinea-D089/m_67_140_km_e_of_kimbe_papua_new_guinea-D089.json",
       "type": "application/geo+json"
     },
     {
@@ -1723,6 +1693,16 @@
     {
       "rel": "item",
       "href": "./m_69_150_km_e_of_kimbe_papua_new_guinea-D089/m_69_150_km_e_of_kimbe_papua_new_guinea-D089.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_60_43_km_ese_of_tarragona_philippines-A171/m_60_43_km_ese_of_tarragona_philippines-A171.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_60_43_km_ese_of_tarragona_philippines-D163/m_60_43_km_ese_of_tarragona_philippines-D163.json",
       "type": "application/geo+json"
     },
     {
@@ -2062,6 +2042,21 @@
     },
     {
       "rel": "item",
+      "href": "./m_60_87_km_se_of_king_cove_alaska-A124/m_60_87_km_se_of_king_cove_alaska-A124.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_60_87_km_se_of_king_cove_alaska-A153/m_60_87_km_se_of_king_cove_alaska-A153.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_60_87_km_se_of_king_cove_alaska-D073/m_60_87_km_se_of_king_cove_alaska-D073.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./m_63_16_km_sse_of_nishinoomote_japan-A156/m_63_16_km_sse_of_nishinoomote_japan-A156.json",
       "type": "application/geo+json"
     },
@@ -2282,21 +2277,6 @@
     },
     {
       "rel": "item",
-      "href": "./m_61_230_km_w_of_abepura_indonesia-A155/m_61_230_km_w_of_abepura_indonesia-A155.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_61_230_km_w_of_abepura_indonesia-D002/m_61_230_km_w_of_abepura_indonesia-D002.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_61_230_km_w_of_abepura_indonesia-D104/m_61_230_km_w_of_abepura_indonesia-D104.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
       "href": "./m_62_4_km_se_of_aserrio_de_gariche_panama-A092/m_62_4_km_se_of_aserrio_de_gariche_panama-A092.json",
       "type": "application/geo+json"
     },
@@ -2312,22 +2292,7 @@
     },
     {
       "rel": "item",
-      "href": "./m_64_ridgecrest_earthquake_sequence-A064/m_64_ridgecrest_earthquake_sequence-A064.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
       "href": "./m_64_ridgecrest_earthquake_sequence-A166/m_64_ridgecrest_earthquake_sequence-A166.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_64_ridgecrest_earthquake_sequence-D071/m_64_ridgecrest_earthquake_sequence-D071.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_64_ridgecrest_earthquake_sequence-D144/m_64_ridgecrest_earthquake_sequence-D144.json",
       "type": "application/geo+json"
     },
     {
@@ -2452,26 +2417,6 @@
     },
     {
       "rel": "item",
-      "href": "./m_65_2_km_ene_of_bulatukan_philippines-A069/m_65_2_km_ene_of_bulatukan_philippines-A069.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_65_2_km_ene_of_bulatukan_philippines-A171/m_65_2_km_ene_of_bulatukan_philippines-A171.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_65_2_km_ene_of_bulatukan_philippines-D061/m_65_2_km_ene_of_bulatukan_philippines-D061.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_65_2_km_ene_of_bulatukan_philippines-D163/m_65_2_km_ene_of_bulatukan_philippines-D163.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
       "href": "./m_62_43_km_wnw_of_sainyabuli_laos-A099/m_62_43_km_wnw_of_sainyabuli_laos-A099.json",
       "type": "application/geo+json"
     },
@@ -2558,6 +2503,11 @@
     {
       "rel": "item",
       "href": "./m_60_1_km_ne_of_lejanias_colombia-D069/m_60_1_km_ne_of_lejanias_colombia-D069.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_60_1_km_ne_of_lejanias_colombia-D171/m_60_1_km_ne_of_lejanias_colombia-D171.json",
       "type": "application/geo+json"
     },
     {
@@ -2997,21 +2947,6 @@
     },
     {
       "rel": "item",
-      "href": "./m_62_104_km_nw_of_portvila_vanuatu-A081/m_62_104_km_nw_of_portvila_vanuatu-A081.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_62_104_km_nw_of_portvila_vanuatu-A154/m_62_104_km_nw_of_portvila_vanuatu-A154.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_62_104_km_nw_of_portvila_vanuatu-D059/m_62_104_km_nw_of_portvila_vanuatu-D059.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
       "href": "./m_62_72_km_nne_of_portvila_vanuatu-A081/m_62_72_km_nne_of_portvila_vanuatu-A081.json",
       "type": "application/geo+json"
     },
@@ -3108,11 +3043,6 @@
     {
       "rel": "item",
       "href": "./m_63_100_km_ene_of_hachinohe_japan-D148/m_63_100_km_ene_of_hachinohe_japan-D148.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_67_146_km_wnw_of_corral_chile-A164/m_67_146_km_wnw_of_corral_chile-A164.json",
       "type": "application/geo+json"
     },
     {
@@ -3427,6 +3357,36 @@
     },
     {
       "rel": "item",
+      "href": "./m_82_alaska_peninsula-A007/m_82_alaska_peninsula-A007.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_82_2021_chignik_alaska_earthquake-A153/m_82_2021_chignik_alaska_earthquake-A153.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_82_2021_chignik_alaska_earthquake-D073/m_82_2021_chignik_alaska_earthquake-D073.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_82_2021_chignik_alaska_earthquake-D102/m_82_2021_chignik_alaska_earthquake-D102.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_82_alaska_peninsula-D131/m_82_alaska_peninsula-D131.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_62_7_km_e_of_sullana_peru-D040/m_62_7_km_e_of_sullana_peru-D040.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./m_60_182_km_ne_of_tual_indonesia-A024/m_60_182_km_ne_of_tual_indonesia-A024.json",
       "type": "application/geo+json"
     },
@@ -3697,6 +3657,11 @@
     },
     {
       "rel": "item",
+      "href": "./m_62_66_km_e_of_hualien_city_taiwan-D105/m_62_66_km_e_of_hualien_city_taiwan-D105.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./m_61_near_the_coast_of_nicaragua-A063/m_61_near_the_coast_of_nicaragua-A063.json",
       "type": "application/geo+json"
     },
@@ -3803,11 +3768,6 @@
     {
       "rel": "item",
       "href": "./m_60_56_km_wnw_of_portvila_vanuatu-A081/m_60_56_km_wnw_of_portvila_vanuatu-A081.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_60_56_km_wnw_of_portvila_vanuatu-A154/m_60_56_km_wnw_of_portvila_vanuatu-A154.json",
       "type": "application/geo+json"
     },
     {
@@ -3968,26 +3928,6 @@
     {
       "rel": "item",
       "href": "./m_68_55_km_ssw_of_aguililla_mexico-A049/m_68_55_km_ssw_of_aguililla_mexico-A049.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_68_55_km_ssw_of_aguililla_mexico-A151/m_68_55_km_ssw_of_aguililla_mexico-A151.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_68_55_km_ssw_of_aguililla_mexico-D012/m_68_55_km_ssw_of_aguililla_mexico-D012.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_68_55_km_ssw_of_aguililla_mexico-D114/m_68_55_km_ssw_of_aguililla_mexico-D114.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_61_156_km_wnw_of_ancud_chile-D156/m_61_156_km_wnw_of_ancud_chile-D156.json",
       "type": "application/geo+json"
     },
     {
@@ -4163,71 +4103,6 @@
     {
       "rel": "item",
       "href": "./m_78_pazarcik_earthquake_kahramanmaras_earthquake_sequence-D123/m_78_pazarcik_earthquake_kahramanmaras_earthquake_sequence-D123.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_67_14_km_e_of_nurda_turkey-A014/m_67_14_km_e_of_nurda_turkey-A014.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_67_14_km_e_of_nurda_turkey-A116/m_67_14_km_e_of_nurda_turkey-A116.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_67_14_km_e_of_nurda_turkey-D021/m_67_14_km_e_of_nurda_turkey-D021.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_67_14_km_e_of_nurda_turkey-D094/m_67_14_km_e_of_nurda_turkey-D094.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_75_elbistan_earthquake_kahramanmaras_earthquake_sequence-A014/m_75_elbistan_earthquake_kahramanmaras_earthquake_sequence-A014.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_75_elbistan_earthquake_kahramanmaras_earthquake_sequence-A116/m_75_elbistan_earthquake_kahramanmaras_earthquake_sequence-A116.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_75_elbistan_earthquake_kahramanmaras_earthquake_sequence-D021/m_75_elbistan_earthquake_kahramanmaras_earthquake_sequence-D021.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_75_elbistan_earthquake_kahramanmaras_earthquake_sequence-D094/m_75_elbistan_earthquake_kahramanmaras_earthquake_sequence-D094.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_75_elbistan_earthquake_kahramanmaras_earthquake_sequence-D123/m_75_elbistan_earthquake_kahramanmaras_earthquake_sequence-D123.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_60_12_km_w_of_celikhan_turkey-A043/m_60_12_km_w_of_celikhan_turkey-A043.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_60_12_km_w_of_celikhan_turkey-A116/m_60_12_km_w_of_celikhan_turkey-A116.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_60_12_km_w_of_celikhan_turkey-D021/m_60_12_km_w_of_celikhan_turkey-D021.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_60_12_km_w_of_celikhan_turkey-D123/m_60_12_km_w_of_celikhan_turkey-D123.json",
       "type": "application/geo+json"
     },
     {
@@ -4492,32 +4367,12 @@
     },
     {
       "rel": "item",
-      "href": "./m_63_25_km_nne_of_zindah_jan_afghanistan-A115/m_63_25_km_nne_of_zindah_jan_afghanistan-A115.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
       "href": "./m_63_25_km_nne_of_zindah_jan_afghanistan-D020/m_63_25_km_nne_of_zindah_jan_afghanistan-D020.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
-      "href": "./m_63_25_km_nne_of_zindah_jan_afghanistan-D122/m_63_25_km_nne_of_zindah_jan_afghanistan-D122.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_63_24_km_nnw_of_herat_afghanistan-A013/m_63_24_km_nnw_of_herat_afghanistan-A013.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
       "href": "./m_63_24_km_nnw_of_herat_afghanistan-A115/m_63_24_km_nnw_of_herat_afghanistan-A115.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_63_24_km_nnw_of_herat_afghanistan-D020/m_63_24_km_nnw_of_herat_afghanistan-D020.json",
       "type": "application/geo+json"
     },
     {
@@ -4597,6 +4452,26 @@
     },
     {
       "rel": "item",
+      "href": "./m_63_146_km_wsw_of_abepura_indonesia-A082/m_63_146_km_wsw_of_abepura_indonesia-A082.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_63_146_km_wsw_of_abepura_indonesia-A155/m_63_146_km_wsw_of_abepura_indonesia-A155.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_63_146_km_wsw_of_abepura_indonesia-D002/m_63_146_km_wsw_of_abepura_indonesia-D002.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_63_146_km_wsw_of_abepura_indonesia-D104/m_63_146_km_wsw_of_abepura_indonesia-D104.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./m_75_2024_noto_peninsula_japan_earthquake-D017/m_75_2024_noto_peninsula_japan_earthquake-D017.json",
       "type": "application/geo+json"
     },
@@ -4647,17 +4522,12 @@
     },
     {
       "rel": "item",
-      "href": "./m_64_15_km_nne_of_hualien_city_taiwan-A069/m_64_15_km_nne_of_hualien_city_taiwan-A069.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_64_15_km_nne_of_hualien_city_taiwan-D105/m_64_15_km_nne_of_hualien_city_taiwan-D105.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
       "href": "./m_61_77_km_e_of_minamisoma_japan-D046/m_61_77_km_e_of_minamisoma_japan-D046.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_64_150_km_nw_of_tobelo_indonesia-D090/m_64_150_km_nw_of_tobelo_indonesia-D090.json",
       "type": "application/geo+json"
     },
     {
@@ -4733,26 +4603,6 @@
     {
       "rel": "item",
       "href": "./m_72_10_km_wsw_of_atiquipa_peru-D098/m_72_10_km_wsw_of_atiquipa_peru-D098.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_61_34_km_sw_of_atiquipa_peru-A018/m_61_34_km_sw_of_atiquipa_peru-A018.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_61_34_km_sw_of_atiquipa_peru-A120/m_61_34_km_sw_of_atiquipa_peru-A120.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_61_34_km_sw_of_atiquipa_peru-D025/m_61_34_km_sw_of_atiquipa_peru-D025.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_61_34_km_sw_of_atiquipa_peru-D098/m_61_34_km_sw_of_atiquipa_peru-D098.json",
       "type": "application/geo+json"
     },
     {
@@ -5027,26 +4877,6 @@
     },
     {
       "rel": "item",
-      "href": "./m_67_burma_myanmar-A070/m_67_burma_myanmar-A070.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_67_burma_myanmar-A143/m_67_burma_myanmar-A143.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_67_burma_myanmar-D033/m_67_burma_myanmar-D033.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_67_burma_myanmar-D106/m_67_burma_myanmar-D106.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
       "href": "./m_61_56_km_ene_of_nishinoomote_japan-D163/m_61_56_km_ene_of_nishinoomote_japan-D163.json",
       "type": "application/geo+json"
     },
@@ -5078,6 +4908,16 @@
     {
       "rel": "item",
       "href": "./m_62_24_km_se_of_marmara_ereglisi_turkey-D138/m_62_24_km_se_of_marmara_ereglisi_turkey-D138.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_63_19_km_ne_of_esmeraldas_ecuador-A018/m_63_19_km_ne_of_esmeraldas_ecuador-A018.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_63_19_km_ne_of_esmeraldas_ecuador-D040/m_63_19_km_ne_of_esmeraldas_ecuador-D040.json",
       "type": "application/geo+json"
     },
     {
@@ -5117,6 +4957,26 @@
     },
     {
       "rel": "item",
+      "href": "./m_63_15_km_ne_of_paratebueno_colombia-A077/m_63_15_km_ne_of_paratebueno_colombia-A077.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_63_15_km_ne_of_paratebueno_colombia-A150/m_63_15_km_ne_of_paratebueno_colombia-A150.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_63_15_km_ne_of_paratebueno_colombia-D069/m_63_15_km_ne_of_paratebueno_colombia-D069.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_63_15_km_ne_of_paratebueno_colombia-D171/m_63_15_km_ne_of_paratebueno_colombia-D171.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./m_60_82_km_se_of_nemuro_japan-A024/m_60_82_km_se_of_nemuro_japan-A024.json",
       "type": "application/geo+json"
     },
@@ -5152,7 +5012,12 @@
     },
     {
       "rel": "item",
-      "href": "./m_74_2025_eastern_kamchatka_russia_earthquake-D060/m_74_2025_eastern_kamchatka_russia_earthquake-D060.json",
+      "href": "./m_62_91_km_sse_of_sand_point_alaska-A153/m_62_91_km_sse_of_sand_point_alaska-A153.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_62_91_km_sse_of_sand_point_alaska-D073/m_62_91_km_sse_of_sand_point_alaska-D073.json",
       "type": "application/geo+json"
     },
     {
@@ -5192,51 +5057,6 @@
     },
     {
       "rel": "item",
-      "href": "./m_60_124_km_ene_of_ozernovskiy_russia-A009/m_60_124_km_ene_of_ozernovskiy_russia-A009.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_60_124_km_ene_of_ozernovskiy_russia-A111/m_60_124_km_ene_of_ozernovskiy_russia-A111.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_60_124_km_ene_of_ozernovskiy_russia-D060/m_60_124_km_ene_of_ozernovskiy_russia-D060.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_60_124_km_ene_of_ozernovskiy_russia-D133/m_60_124_km_ene_of_ozernovskiy_russia-D133.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_60_165_km_sse_of_vilyuchinsk_russia-A111/m_60_165_km_sse_of_vilyuchinsk_russia-A111.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_60_165_km_sse_of_vilyuchinsk_russia-D060/m_60_165_km_sse_of_vilyuchinsk_russia-D060.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_68_123_km_e_of_severokurilsk_russia-A009/m_68_123_km_e_of_severokurilsk_russia-A009.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_68_123_km_e_of_severokurilsk_russia-A111/m_68_123_km_e_of_severokurilsk_russia-A111.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_68_123_km_e_of_severokurilsk_russia-D133/m_68_123_km_e_of_severokurilsk_russia-D133.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
       "href": "./m_61_10_km_wsw_of_bigadic_turkey-A058/m_61_10_km_wsw_of_bigadic_turkey-A058.json",
       "type": "application/geo+json"
     },
@@ -5272,6 +5092,56 @@
     },
     {
       "rel": "item",
+      "href": "./m_60_88_km_sw_of_acajutla_el_salvador-A136/m_60_88_km_sw_of_acajutla_el_salvador-A136.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_60_88_km_sw_of_acajutla_el_salvador-D026/m_60_88_km_sw_of_acajutla_el_salvador-D026.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_60_81_km_sw_of_acajutla_el_salvador-D128/m_60_81_km_sw_of_acajutla_el_salvador-D128.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_60_92_km_e_of_severokurilsk_russia-A009/m_60_92_km_e_of_severokurilsk_russia-A009.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_60_92_km_e_of_severokurilsk_russia-A111/m_60_92_km_e_of_severokurilsk_russia-A111.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_60_37_km_wsw_of_asadabad_afghanistan-A071/m_60_37_km_wsw_of_asadabad_afghanistan-A071.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_60_37_km_wsw_of_asadabad_afghanistan-A173/m_60_37_km_wsw_of_asadabad_afghanistan-A173.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_60_37_km_wsw_of_asadabad_afghanistan-D005/m_60_37_km_wsw_of_asadabad_afghanistan-D005.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_60_37_km_wsw_of_asadabad_afghanistan-D078/m_60_37_km_wsw_of_asadabad_afghanistan-D078.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_60_208_km_se_of_kokopo_papua_new_guinea-A169/m_60_208_km_se_of_kokopo_papua_new_guinea-A169.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./m_60_26_km_s_of_nabire_indonesia-A053/m_60_26_km_s_of_nabire_indonesia-A053.json",
       "type": "application/geo+json"
     },
@@ -5287,27 +5157,17 @@
     },
     {
       "rel": "item",
+      "href": "./m_78_140_km_e_of_petropavlovskkamchatsky_russia-A038/m_78_140_km_e_of_petropavlovskkamchatsky_russia-A038.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./m_78_140_km_e_of_petropavlovskkamchatsky_russia-A111/m_78_140_km_e_of_petropavlovskkamchatsky_russia-A111.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
       "href": "./m_78_140_km_e_of_petropavlovskkamchatsky_russia-D060/m_78_140_km_e_of_petropavlovskkamchatsky_russia-D060.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_62_5_km_ene_of_mene_grande_venezuela-A004/m_62_5_km_ene_of_mene_grande_venezuela-A004.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_62_5_km_ene_of_mene_grande_venezuela-D098/m_62_5_km_ene_of_mene_grande_venezuela-D098.json",
-      "type": "application/geo+json"
-    },
-    {
-      "rel": "item",
-      "href": "./m_62_5_km_ene_of_mene_grande_venezuela-D171/m_62_5_km_ene_of_mene_grande_venezuela-D171.json",
       "type": "application/geo+json"
     },
     {
@@ -5447,6 +5307,11 @@
     },
     {
       "rel": "item",
+      "href": "./m_60_2025_taitung_taiwan_earthquake-A069/m_60_2025_taitung_taiwan_earthquake-A069.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./m_60_2025_taitung_taiwan_earthquake-D105/m_60_2025_taitung_taiwan_earthquake-D105.json",
       "type": "application/geo+json"
     },
@@ -5512,6 +5377,16 @@
     },
     {
       "rel": "item",
+      "href": "./m_60_5_km_ssw_of_pangyan_philippines-A069/m_60_5_km_ssw_of_pangyan_philippines-A069.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_60_5_km_ssw_of_pangyan_philippines-A171/m_60_5_km_ssw_of_pangyan_philippines-A171.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./m_60_5_km_ssw_of_pangyan_philippines-D163/m_60_5_km_ssw_of_pangyan_philippines-D163.json",
       "type": "application/geo+json"
     },
@@ -5522,7 +5397,32 @@
     },
     {
       "rel": "item",
+      "href": "./m_67_40_km_se_of_palu_indonesia-A112/m_67_40_km_se_of_palu_indonesia-A112.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./m_67_42_km_se_of_palu_indonesia-D061/m_67_42_km_se_of_palu_indonesia-D061.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_67_40_km_se_of_palu_indonesia-D134/m_67_40_km_se_of_palu_indonesia-D134.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_63_262_km_sse_of_dunhuang_china-A070/m_63_262_km_sse_of_dunhuang_china-A070.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_63_262_km_sse_of_dunhuang_china-A172/m_63_262_km_sse_of_dunhuang_china-A172.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_63_262_km_sse_of_dunhuang_china-D077/m_63_262_km_sse_of_dunhuang_china-D077.json",
       "type": "application/geo+json"
     },
     {
@@ -5537,7 +5437,7 @@
     },
     {
       "rel": "item",
-      "href": "./m_72_20_km_e_of_san_felipe_venezuela-A106/m_72_20_km_e_of_san_felipe_venezuela-A106.json",
+      "href": "./m_75_20_km_w_of_catia_la_mar_venezuela-A033/m_75_20_km_w_of_catia_la_mar_venezuela-A033.json",
       "type": "application/geo+json"
     },
     {
@@ -5547,12 +5447,97 @@
     },
     {
       "rel": "item",
+      "href": "./m_75_20_km_w_of_catia_la_mar_venezuela-A135/m_75_20_km_w_of_catia_la_mar_venezuela-A135.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_75_20_km_w_of_catia_la_mar_venezuela-D025/m_75_20_km_w_of_catia_la_mar_venezuela-D025.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_75_20_km_w_of_catia_la_mar_venezuela-D098/m_75_20_km_w_of_catia_la_mar_venezuela-D098.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_69_35_km_ene_of_noda_japan-A068/m_69_35_km_ene_of_noda_japan-A068.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_69_35_km_ene_of_noda_japan-A141/m_69_35_km_ene_of_noda_japan-A141.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_69_35_km_ene_of_noda_japan-D046/m_69_35_km_ene_of_noda_japan-D046.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_60_75_km_ssw_of_el_progreso_mexico-A020/m_60_75_km_ssw_of_el_progreso_mexico-A020.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_60_75_km_ssw_of_el_progreso_mexico-D056/m_60_75_km_ssw_of_el_progreso_mexico-D056.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_60_75_km_ssw_of_el_progreso_mexico-D158/m_60_75_km_ssw_of_el_progreso_mexico-D158.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./m_60_54_km_ene_of_noda_japan-A141/m_60_54_km_ene_of_noda_japan-A141.json",
       "type": "application/geo+json"
     },
     {
       "rel": "item",
+      "href": "./m_60_54_km_ene_of_noda_japan-D046/m_60_54_km_ene_of_noda_japan-D046.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_73_52_km_w_of_puerto_madero_mexico-A034/m_73_52_km_w_of_puerto_madero_mexico-A034.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
       "href": "./m_73_52_km_w_of_puerto_madero_mexico-D099/m_73_52_km_w_of_puerto_madero_mexico-D099.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_60_55_km_w_of_sola_vanuatu-A081/m_60_55_km_w_of_sola_vanuatu-A081.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_60_55_km_w_of_sola_vanuatu-A154/m_60_55_km_w_of_sola_vanuatu-A154.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_60_55_km_w_of_sola_vanuatu-D059/m_60_55_km_w_of_sola_vanuatu-D059.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_68_the_2026_kumamoto_region_japan_earthquake-A054/m_68_the_2026_kumamoto_region_japan_earthquake-A054.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_68_the_2026_kumamoto_region_japan_earthquake-A156/m_68_the_2026_kumamoto_region_japan_earthquake-A156.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./m_68_the_2026_kumamoto_region_japan_earthquake-D163/m_68_the_2026_kumamoto_region_japan_earthquake-D163.json",
       "type": "application/geo+json"
     },
     {
@@ -5567,7 +5552,7 @@
     "spatial": {
       "bbox": [
         [
-          -164.366527271,
+          -166.042360345,
           -49.101431059,
           179.71819821900002,
           71.173294583
@@ -5578,7 +5563,7 @@
       "interval": [
         [
           "2014-10-09T00:00:00Z",
-          "2026-07-21T00:00:00Z"
+          "2026-08-08T00:00:00Z"
         ]
       ]
     }

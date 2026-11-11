@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_60_29_km_nnw_of_karakenja_tajikistan/S1-COSEIS_SAR-D-R-078-tops-20170504_20170422-012153-00069E_00038N-PP-fee0-v1_0_0/S1-COSEIS_SAR-D-R-078-tops-20170504_20170422-012153-00069E_00038N-PP-fee0-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_60_29_km_nnw_of_karakenja_tajikistan_us10008npq/S1-COSEIS_SAR-D-R-078-tops-20170504_20170422-012153-00069E_00038N-PP-fee0-v1_0_0/S1-COSEIS_SAR-D-R-078-tops-20170504_20170422-012153-00069E_00038N-PP-fee0-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

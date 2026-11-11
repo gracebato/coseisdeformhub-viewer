@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_73_nepal/S1-COSEIS_SAR-A-R-012-tops-20150522_20150428-121333-00086E_00026N-PP-f06b-v1_0_0/S1-COSEIS_SAR-A-R-012-tops-20150522_20150428-121333-00086E_00026N-PP-f06b-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_73_nepal_us20002ejl/S1-COSEIS_SAR-A-R-012-tops-20150522_20150428-121333-00086E_00026N-PP-f06b-v1_0_0/S1-COSEIS_SAR-A-R-012-tops-20150522_20150428-121333-00086E_00026N-PP-f06b-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

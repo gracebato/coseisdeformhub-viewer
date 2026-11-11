@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000t7zp",
+  "job_id": "m_75_20_km_w_of_catia_la_mar_venezuela-A033",
+  "event_title": "M 7.5 - 20 km W of Catia La Mar, Venezuela",
+  "orbit": "ascending",
+  "track": "033",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2026/m_75_20_km_w_of_catia_la_mar_venezuela_us6000t7zp/S1-COSEIS_SAR-A-R-033-tops-20260625_20260618-224236-00069W_00010N-PP-4449-v1_0_0/S1-COSEIS_SAR-A-R-033-tops-20260625_20260618-224236-00069W_00010N-PP-4449-v1_0_0.nc",
+  "stats": {
+    "min": -0.8608391284942627,
+    "max": 0.5815335512161255,
+    "mean": -0.04282801570585987,
+    "std": 0.25611529956159335
+  },
+  "bounds": {
+    "lon_min": -69.184404903,
+    "lon_max": -66.179124721,
+    "lat_min": 9.983292031,
+    "lat_max": 13.743850595
+  }
+}

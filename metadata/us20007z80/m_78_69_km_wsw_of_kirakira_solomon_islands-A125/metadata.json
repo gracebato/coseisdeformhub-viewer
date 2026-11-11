@@ -4,7 +4,7 @@
   "event_title": "M 7.8 - 69 km WSW of Kirakira, Solomon Islands",
   "orbit": "ascending",
   "track": "125",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_78_69_km_wsw_of_kirakira_solomon_islands/S1-COSEIS_SAR-A-R-125-tops-20161220_20161126-073907-00160E_00012S-PP-950a-v1_0_0/S1-COSEIS_SAR-A-R-125-tops-20161220_20161126-073907-00160E_00012S-PP-950a-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_78_69_km_wsw_of_kirakira_solomon_islands_us20007z80/S1-COSEIS_SAR-A-R-125-tops-20161220_20161126-073907-00160E_00012S-PP-950a-v1_0_0/S1-COSEIS_SAR-A-R-125-tops-20161220_20161126-073907-00160E_00012S-PP-950a-v1_0_0.nc",
   "stats": {
     "min": 0.08671131730079651,
     "max": 0.6990448832511902,

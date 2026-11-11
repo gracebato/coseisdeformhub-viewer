@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_60_76_km_ene_of_namie_japan/S1-COSEIS_SAR-D-R-046-tops-20210516_20210504-204304-00139E_00036N-PP-ebfc-v1_0_0/S1-COSEIS_SAR-D-R-046-tops-20210516_20210504-204304-00139E_00036N-PP-ebfc-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_60_76_km_ene_of_namie_japan_us7000e2xd/S1-COSEIS_SAR-D-R-046-tops-20210516_20210504-204304-00139E_00036N-PP-ebfc-v1_0_0/S1-COSEIS_SAR-D-R-046-tops-20210516_20210504-204304-00139E_00036N-PP-ebfc-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

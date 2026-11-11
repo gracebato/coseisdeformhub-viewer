@@ -10,32 +10,32 @@
     "coordinates": [
       [
         [
-          148.606528263,
-          -5.573890637
+          148.273751019,
+          -7.0736140590000005
         ],
         [
-          151.268474837,
-          -5.573890637
+          151.268475637,
+          -7.0736140590000005
         ],
         [
-          151.268474837,
+          151.268475637,
           -3.495277863
         ],
         [
-          148.606528263,
+          148.273751019,
           -3.495277863
         ],
         [
-          148.606528263,
-          -5.573890637
+          148.273751019,
+          -7.0736140590000005
         ]
       ]
     ]
   },
   "bbox": [
-    148.606528263,
-    -5.573890637,
-    151.268474837,
+    148.273751019,
+    -7.0736140590000005,
+    151.268475637,
     -3.495277863
   ],
   "properties": {
@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_69_150_km_e_of_kimbe_papua_new_guinea/S1-COSEIS_SAR-D-R-089-tops-20180405_20180324-194025-00149E_00006S-PP-0043-v1_0_0/S1-COSEIS_SAR-D-R-089-tops-20180405_20180324-194025-00149E_00006S-PP-0043-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_69_150_km_e_of_kimbe_papua_new_guinea_us1000db40/S1-COSEIS_SAR-D-R-089-tops-20180405_20180324-194037-00148E_00007S-PP-6ebb-v1_0_0/S1-COSEIS_SAR-D-R-089-tops-20180405_20180324-194037-00148E_00007S-PP-6ebb-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

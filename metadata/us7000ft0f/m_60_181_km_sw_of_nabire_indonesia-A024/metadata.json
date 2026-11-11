@@ -4,7 +4,7 @@
   "event_title": "M 6.0 - 181 km SW of Nabire, Indonesia",
   "orbit": "ascending",
   "track": "024",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_60_181_km_sw_of_nabire_indonesia/S1-COSEIS_SAR-A-R-024-tops-20211111_20211030-092906-00132E_00006S-PP-05a2-v1_0_0/S1-COSEIS_SAR-A-R-024-tops-20211111_20211030-092906-00132E_00006S-PP-05a2-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_60_181_km_sw_of_nabire_indonesia_us7000ft0f/S1-COSEIS_SAR-A-R-024-tops-20211111_20211030-092906-00132E_00006S-PP-05a2-v1_0_0/S1-COSEIS_SAR-A-R-024-tops-20211111_20211030-092906-00132E_00006S-PP-05a2-v1_0_0.nc",
   "stats": {
     "min": -0.6326867341995239,
     "max": -0.05721574276685715,

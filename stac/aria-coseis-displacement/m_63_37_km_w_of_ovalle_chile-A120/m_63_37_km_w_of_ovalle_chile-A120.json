@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_63_37_km_w_of_ovalle_chile/S1-COSEIS_SAR-A-R-120-tops-20160217_20160124-232033-00072W_00032S-PP-70ca-v1_0_0/S1-COSEIS_SAR-A-R-120-tops-20160217_20160124-232033-00072W_00032S-PP-70ca-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_63_37_km_w_of_ovalle_chile_us20004z5b/S1-COSEIS_SAR-A-R-120-tops-20160217_20160124-232033-00072W_00032S-PP-70ca-v1_0_0/S1-COSEIS_SAR-A-R-120-tops-20160217_20160124-232033-00072W_00032S-PP-70ca-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

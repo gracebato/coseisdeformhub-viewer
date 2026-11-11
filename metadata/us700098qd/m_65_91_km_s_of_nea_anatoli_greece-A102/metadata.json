@@ -4,7 +4,7 @@
   "event_title": "M 6.5 - 91 km S of N\u00e9a Anatol\u00ed, Greece",
   "orbit": "ascending",
   "track": "102",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_65_91_km_s_of_nea_anatoli_greece/S1-COSEIS_SAR-A-R-102-tops-20200507_20200501-162152-00023E_00032N-PP-a5bb-v1_0_0/S1-COSEIS_SAR-A-R-102-tops-20200507_20200501-162152-00023E_00032N-PP-a5bb-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_65_91_km_s_of_nea_anatoli_greece_us700098qd/S1-COSEIS_SAR-A-R-102-tops-20200507_20200501-162152-00023E_00032N-PP-a5bb-v1_0_0/S1-COSEIS_SAR-A-R-102-tops-20200507_20200501-162152-00023E_00032N-PP-a5bb-v1_0_0.nc",
   "stats": {
     "min": -1.641120195388794,
     "max": 0.04844161495566368,

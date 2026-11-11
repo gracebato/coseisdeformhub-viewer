@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_73_182_km_ne_of_gisborne_new_zealand/S1-COSEIS_SAR-A-R-008-tops-20210309_20210225-065842-00176E_00040S-PP-a30b-v1_0_0/S1-COSEIS_SAR-A-R-008-tops-20210309_20210225-065842-00176E_00040S-PP-a30b-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_73_182_km_ne_of_gisborne_new_zealand_us7000dffl/S1-COSEIS_SAR-A-R-008-tops-20210309_20210225-065842-00176E_00040S-PP-a30b-v1_0_0/S1-COSEIS_SAR-A-R-008-tops-20210309_20210225-065842-00176E_00040S-PP-a30b-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

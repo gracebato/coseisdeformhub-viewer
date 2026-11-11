@@ -4,7 +4,7 @@
   "event_title": "M 6.1 - 110 km SSW of Champerico, Guatemala",
   "orbit": "descending",
   "track": "026",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_61_110_km_ssw_of_champerico_guatemala/S1-COSEIS_SAR-D-R-026-tops-20160423_20160330-115409-00092W_00013N-PP-cf79-v1_0_0/S1-COSEIS_SAR-D-R-026-tops-20160423_20160330-115409-00092W_00013N-PP-cf79-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_61_110_km_ssw_of_champerico_guatemala_us20005ih9/S1-COSEIS_SAR-D-R-026-tops-20160423_20160330-115409-00092W_00013N-PP-cf79-v1_0_0/S1-COSEIS_SAR-D-R-026-tops-20160423_20160330-115409-00092W_00013N-PP-cf79-v1_0_0.nc",
   "stats": {
     "min": -0.14930853247642517,
     "max": 0.11401917040348053,

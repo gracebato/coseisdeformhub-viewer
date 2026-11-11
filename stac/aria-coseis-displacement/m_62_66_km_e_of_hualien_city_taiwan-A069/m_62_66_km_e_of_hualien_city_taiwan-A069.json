@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_62_66_km_e_of_hualien_city_taiwan/S1-COSEIS_SAR-A-R-069-tops-20220125_20220101-100121-00120E_00021N-PP-fd29-v1_0_0/S1-COSEIS_SAR-A-R-069-tops-20220125_20220101-100121-00120E_00021N-PP-fd29-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_62_66_km_e_of_hualien_city_taiwan_us7000g8n3/S1-COSEIS_SAR-A-R-069-tops-20220125_20220101-100121-00120E_00021N-PP-fd29-v1_0_0/S1-COSEIS_SAR-A-R-069-tops-20220125_20220101-100121-00120E_00021N-PP-fd29-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

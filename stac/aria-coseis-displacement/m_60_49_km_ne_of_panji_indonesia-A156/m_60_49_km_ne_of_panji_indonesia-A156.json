@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_60_49_km_ne_of_panji_indonesia/S1-COSEIS_SAR-A-R-156-tops-20181019_20181007-104203-00114E_00008S-PP-a57d-v1_0_0/S1-COSEIS_SAR-A-R-156-tops-20181019_20181007-104203-00114E_00008S-PP-a57d-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_60_49_km_ne_of_panji_indonesia_us1000ha6q/S1-COSEIS_SAR-A-R-156-tops-20181019_20181007-104203-00114E_00008S-PP-a57d-v1_0_0/S1-COSEIS_SAR-A-R-156-tops-20181019_20181007-104203-00114E_00008S-PP-a57d-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

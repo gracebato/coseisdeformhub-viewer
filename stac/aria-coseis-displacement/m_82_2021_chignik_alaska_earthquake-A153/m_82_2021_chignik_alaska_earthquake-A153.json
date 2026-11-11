@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_82_2021_chignik_alaska_earthquake-A153",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -162.755415671,
+          54.262179543
+        ],
+        [
+          -157.529022601,
+          54.262179543
+        ],
+        [
+          -157.529022601,
+          57.940515819000005
+        ],
+        [
+          -162.755415671,
+          57.940515819000005
+        ],
+        [
+          -162.755415671,
+          54.262179543
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -162.755415671,
+    54.262179543,
+    -157.529022601,
+    57.940515819000005
+  ],
+  "properties": {
+    "title": "2021 M 8.2 - 2021 Chignik, Alaska Earthquake \u2014 Ascending Track 153",
+    "start_datetime": "2021-07-29T00:00:00+00:00",
+    "end_datetime": "2021-08-10T00:00:00+00:00",
+    "coseis:event_id": "ak0219neiszm",
+    "coseis:event_name": "2021 M 8.2 - 2021 Chignik, Alaska Earthquake",
+    "coseis:magnitude": 8.2,
+    "coseis:event_date": "2021-07-29",
+    "coseis:pager_alert": "yellow",
+    "coseis:depth_km": 35,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "153",
+    "coseis:satellites": "Sentinel-1B_Sentinel-1B",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2021-08-10T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/ak0219neiszm",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/ak0219neiszm/m_82_2021_chignik_alaska_earthquake-A153/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_82_2021_chignik_alaska_earthquake_ak0219neiszm/S1-COSEIS_SAR-A-R-153-tops-20210810_20210729-042410-00163W_00054N-PP-98ee-v1_0_0/S1-COSEIS_SAR-A-R-153-tops-20210810_20210729-042410-00163W_00054N-PP-98ee-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

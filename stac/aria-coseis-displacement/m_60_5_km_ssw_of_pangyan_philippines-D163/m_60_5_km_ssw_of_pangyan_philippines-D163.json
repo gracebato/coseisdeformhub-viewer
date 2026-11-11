@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2026/m_60_5_km_ssw_of_pangyan_philippines/S1-COSEIS_SAR-D-R-163-tops-20260615_20260603-212447-00124E_00004N-PP-f654-v1_0_0/S1-COSEIS_SAR-D-R-163-tops-20260615_20260603-212447-00124E_00004N-PP-f654-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2026/m_60_5_km_ssw_of_pangyan_philippines_us7000src3/S1-COSEIS_SAR-D-R-163-tops-20260615_20260603-212447-00124E_00004N-PP-f654-v1_0_0/S1-COSEIS_SAR-D-R-163-tops-20260615_20260603-212447-00124E_00004N-PP-f654-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

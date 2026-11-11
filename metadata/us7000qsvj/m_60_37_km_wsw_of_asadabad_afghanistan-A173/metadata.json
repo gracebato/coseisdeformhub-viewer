@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000qsvj",
+  "job_id": "m_60_37_km_wsw_of_asadabad_afghanistan-A173",
+  "event_title": "M 6.0 - 35 km WSW of Asad\u0101b\u0101d, Afghanistan",
+  "orbit": "ascending",
+  "track": "173",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_60_35_km_wsw_of_asadabad_afghanistan_us7000qsvj/S1-COSEIS_SAR-A-R-173-tops-20250901_20250820-131342-00070E_00033N-PP-d2da-v1_0_0/S1-COSEIS_SAR-A-R-173-tops-20250901_20250820-131342-00070E_00033N-PP-d2da-v1_0_0.nc",
+  "stats": {
+    "min": -0.20737797021865845,
+    "max": 0.22806555032730103,
+    "mean": -0.024223818373820934,
+    "std": 0.0312012070041736
+  },
+  "bounds": {
+    "lon_min": 69.938928529,
+    "lon_max": 73.450042449,
+    "lat_min": 32.821346657,
+    "lat_max": 36.194960467
+  }
+}

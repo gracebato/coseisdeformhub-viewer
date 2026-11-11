@@ -39,11 +39,11 @@
     37.158571549
   ],
   "properties": {
-    "title": "2023 M 6.3 - 2 km NNW of Uzunba?, Turkey \u2014 Ascending Track 087",
+    "title": "2023 M 6.3 - 2 km NNW of Uzunba\u011f, Turkey \u2014 Ascending Track 087",
     "start_datetime": "2023-02-14T00:00:00+00:00",
     "end_datetime": "2023-02-26T00:00:00+00:00",
     "coseis:event_id": "us6000jqcn",
-    "coseis:event_name": "2023 M 6.3 - 2 km NNW of Uzunba?, Turkey",
+    "coseis:event_name": "2023 M 6.3 - 2 km NNW of Uzunba\u011f, Turkey",
     "coseis:magnitude": 6.3,
     "coseis:event_date": "2023-02-20",
     "coseis:pager_alert": "red",
@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_63_2_km_nnw_of_uzunba_turkey/S1-COSEIS_SAR-A-R-087-tops-20230226_20230214-154210-00033E_00034N-PP-3d3f-v1_0_0/S1-COSEIS_SAR-A-R-087-tops-20230226_20230214-154210-00033E_00034N-PP-3d3f-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_63_2_km_nnw_of_uzunbag_turkey_us6000jqcn/S1-COSEIS_SAR-A-R-087-tops-20230226_20230214-154210-00033E_00034N-PP-3d3f-v1_0_0/S1-COSEIS_SAR-A-R-087-tops-20230226_20230214-154210-00033E_00034N-PP-3d3f-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

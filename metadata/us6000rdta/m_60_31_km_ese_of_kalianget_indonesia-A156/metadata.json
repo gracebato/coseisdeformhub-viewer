@@ -4,7 +4,7 @@
   "event_title": "M 6.0 - 31 km ESE of Kalianget, Indonesia",
   "orbit": "ascending",
   "track": "156",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_60_31_km_ese_of_kalianget_indonesia/S1-COSEIS_SAR-A-R-156-tops-20251006_20250924-104219-00114E_00008S-PP-375a-v1_0_0/S1-COSEIS_SAR-A-R-156-tops-20251006_20250924-104219-00114E_00008S-PP-375a-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_60_31_km_ese_of_kalianget_indonesia_us6000rdta/S1-COSEIS_SAR-A-R-156-tops-20251006_20250924-104219-00114E_00008S-PP-375a-v1_0_0/S1-COSEIS_SAR-A-R-156-tops-20251006_20250924-104219-00114E_00008S-PP-375a-v1_0_0.nc",
   "stats": {
     "min": -0.4011853039264679,
     "max": 0.05513223260641098,

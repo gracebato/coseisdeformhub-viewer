@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_61_115_km_sse_of_panguna_papua_new_guinea/S1-COSEIS_SAR-A-R-096-tops-20170312_20170228-075621-00155E_00010S-PP-496c-v1_0_0/S1-COSEIS_SAR-A-R-096-tops-20170312_20170228-075621-00155E_00010S-PP-496c-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_61_115_km_sse_of_panguna_papua_new_guinea_us100086x7/S1-COSEIS_SAR-A-R-096-tops-20170312_20170228-075621-00155E_00010S-PP-496c-v1_0_0/S1-COSEIS_SAR-A-R-096-tops-20170312_20170228-075621-00155E_00010S-PP-496c-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

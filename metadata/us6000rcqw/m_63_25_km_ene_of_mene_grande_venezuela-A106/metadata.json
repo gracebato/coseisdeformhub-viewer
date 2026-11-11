@@ -4,7 +4,7 @@
   "event_title": "M 6.3 - 25 km ENE of Mene Grande, Venezuela",
   "orbit": "ascending",
   "track": "106",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_63_25_km_ene_of_mene_grande_venezuela/S1-COSEIS_SAR-A-R-106-tops-20250926_20250914-225000-00071W_00008N-PP-4021-v1_0_0/S1-COSEIS_SAR-A-R-106-tops-20250926_20250914-225000-00071W_00008N-PP-4021-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_63_25_km_ene_of_mene_grande_venezuela_us6000rcqw/S1-COSEIS_SAR-A-R-106-tops-20250926_20250914-225000-00071W_00008N-PP-4021-v1_0_0/S1-COSEIS_SAR-A-R-106-tops-20250926_20250914-225000-00071W_00008N-PP-4021-v1_0_0.nc",
   "stats": {
     "min": -0.14720676839351654,
     "max": 0.41502729058265686,

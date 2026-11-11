@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000t9ej",
+  "job_id": "m_60_54_km_ene_of_noda_japan-D046",
+  "event_title": "M 6.0 - 54 km ENE of Noda, Japan",
+  "orbit": "descending",
+  "track": "046",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2026/m_60_54_km_ene_of_noda_japan_us6000t9ej/S1-COSEIS_SAR-D-R-046-tops-20260708_20260626-204139-00139E_00039N-PP-ba21-v1_0_0/S1-COSEIS_SAR-D-R-046-tops-20260708_20260626-204139-00139E_00039N-PP-ba21-v1_0_0.nc",
+  "stats": {
+    "min": -0.12514299154281616,
+    "max": 1.1093398332595825,
+    "mean": 0.6146621112860162,
+    "std": 0.1795112744037914
+  },
+  "bounds": {
+    "lon_min": 138.887639599,
+    "lon_max": 142.634587041,
+    "lat_min": 38.590513139,
+    "lat_max": 42.052182575
+  }
+}

@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_62_24_km_se_of_marmara_ereglisi_turkey/S1-COSEIS_SAR-D-R-138-tops-20250502_20250420-040643-00028E_00039N-PP-ef59-v1_0_0/S1-COSEIS_SAR-D-R-138-tops-20250502_20250420-040643-00028E_00039N-PP-ef59-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_62_24_km_se_of_marmara_ereglisi_turkey_us7000pufs/S1-COSEIS_SAR-D-R-138-tops-20250502_20250420-040643-00028E_00039N-PP-ef59-v1_0_0/S1-COSEIS_SAR-D-R-138-tops-20250502_20250420-040643-00028E_00039N-PP-ef59-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

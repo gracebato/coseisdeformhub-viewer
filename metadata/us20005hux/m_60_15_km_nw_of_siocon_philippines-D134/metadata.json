@@ -4,7 +4,7 @@
   "event_title": "M 6.0 - 15 km NW of Siocon, Philippines",
   "orbit": "descending",
   "track": "134",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_60_15_km_nw_of_siocon_philippines/S1-COSEIS_SAR-D-R-134-tops-20160418_20160406-214018-00120E_00006N-PP-2f25-v1_0_0/S1-COSEIS_SAR-D-R-134-tops-20160418_20160406-214018-00120E_00006N-PP-2f25-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_60_15_km_nw_of_siocon_philippines_us20005hux/S1-COSEIS_SAR-D-R-134-tops-20160418_20160406-214018-00120E_00006N-PP-2f25-v1_0_0/S1-COSEIS_SAR-D-R-134-tops-20160418_20160406-214018-00120E_00006N-PP-2f25-v1_0_0.nc",
   "stats": {
     "min": 0.059714946895837784,
     "max": 0.41522759199142456,

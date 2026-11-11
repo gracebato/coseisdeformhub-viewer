@@ -4,7 +4,7 @@
   "event_title": "M 6.2 - 70 km SW of Yonakuni, Japan",
   "orbit": "ascending",
   "track": "069",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_62_70_km_sw_of_yonakuni_japan/S1-COSEIS_SAR-A-R-069-tops-20220513_20220501-100122-00120E_00021N-PP-5141-v1_0_0/S1-COSEIS_SAR-A-R-069-tops-20220513_20220501-100122-00120E_00021N-PP-5141-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_62_70_km_sw_of_yonakuni_japan_us7000h82f/S1-COSEIS_SAR-A-R-069-tops-20220513_20220501-100122-00120E_00021N-PP-5141-v1_0_0/S1-COSEIS_SAR-A-R-069-tops-20220513_20220501-100122-00120E_00021N-PP-5141-v1_0_0.nc",
   "stats": {
     "min": -1.077160120010376,
     "max": -0.45938125252723694,

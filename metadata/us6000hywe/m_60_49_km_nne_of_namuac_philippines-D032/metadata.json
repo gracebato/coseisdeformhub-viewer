@@ -4,7 +4,7 @@
   "event_title": "M 6.0 - 49 km NNE of Namuac, Philippines",
   "orbit": "descending",
   "track": "032",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_60_49_km_nne_of_namuac_philippines/S1-COSEIS_SAR-D-R-032-tops-20220721_20220627-214607-00121E_00018N-PP-eb19-v1_0_0/S1-COSEIS_SAR-D-R-032-tops-20220721_20220627-214607-00121E_00018N-PP-eb19-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_60_49_km_nne_of_namuac_philippines_us6000hywe/S1-COSEIS_SAR-D-R-032-tops-20220721_20220627-214607-00121E_00018N-PP-eb19-v1_0_0/S1-COSEIS_SAR-D-R-032-tops-20220721_20220627-214607-00121E_00018N-PP-eb19-v1_0_0.nc",
   "stats": {
     "min": 0.5021152496337891,
     "max": 0.9191064238548279,

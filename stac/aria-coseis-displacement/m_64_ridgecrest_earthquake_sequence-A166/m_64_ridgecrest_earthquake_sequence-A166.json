@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_64_ridgecrest_earthquake_sequence/S1-COSEIS_SAR-A-R-166-tops-20190705_20190623-014156-00118W_00034N-PP-73f5-v1_0_0/S1-COSEIS_SAR-A-R-166-tops-20190705_20190623-014156-00118W_00034N-PP-73f5-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_64_ridgecrest_earthquake_sequence_ci38443183/S1-COSEIS_SAR-A-R-166-tops-20190705_20190623-014156-00118W_00034N-PP-73f5-v1_0_0/S1-COSEIS_SAR-A-R-166-tops-20190705_20190623-014156-00118W_00034N-PP-73f5-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

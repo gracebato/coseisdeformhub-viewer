@@ -4,7 +4,7 @@
   "event_title": "M 6.4 - 35 km E of Santiago, Philippines",
   "orbit": "ascending",
   "track": "171",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2026/m_64_35_km_e_of_santiago_philippines/S1-COSEIS_SAR-A-R-171-tops-20260117_20260105-094741-00125E_00006N-PP-7d56-v1_0_0/S1-COSEIS_SAR-A-R-171-tops-20260117_20260105-094741-00125E_00006N-PP-7d56-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2026/m_64_35_km_e_of_santiago_philippines_us7000rn2z/S1-COSEIS_SAR-A-R-171-tops-20260117_20260105-094741-00125E_00006N-PP-7d56-v1_0_0/S1-COSEIS_SAR-A-R-171-tops-20260117_20260105-094741-00125E_00006N-PP-7d56-v1_0_0.nc",
   "stats": {
     "min": 0.04532044380903244,
     "max": 0.2634265720844269,

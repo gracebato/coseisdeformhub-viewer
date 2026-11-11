@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_60_104_km_ene_of_kashgar_china/S1-COSEIS_SAR-D-R-034-tops-20200122_20200110-005735-00075E_00038N-PP-c039-v1_0_0/S1-COSEIS_SAR-D-R-034-tops-20200122_20200110-005735-00075E_00038N-PP-c039-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_60_104_km_ene_of_kashgar_china_us60007anp/S1-COSEIS_SAR-D-R-034-tops-20200122_20200110-005735-00075E_00038N-PP-c039-v1_0_0/S1-COSEIS_SAR-D-R-034-tops-20200122_20200110-005735-00075E_00038N-PP-c039-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

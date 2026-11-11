@@ -10,38 +10,38 @@
     "coordinates": [
       [
         [
-          -71.996905553,
-          -30.756429982999997
+          -72.010794453,
+          -30.775041109
         ],
         [
-          -68.92690309700001,
-          -30.756429982999997
+          -68.853291927,
+          -30.775041109
         ],
         [
-          -68.92690309700001,
-          -28.579483796999998
+          -68.853291927,
+          -28.576706017
         ],
         [
-          -71.996905553,
-          -28.579483796999998
+          -72.010794453,
+          -28.576706017
         ],
         [
-          -71.996905553,
-          -30.756429982999997
+          -72.010794453,
+          -30.775041109
         ]
       ]
     ]
   },
   "bbox": [
-    -71.996905553,
-    -30.756429982999997,
-    -68.92690309700001,
-    -28.579483796999998
+    -72.010794453,
+    -30.775041109,
+    -68.853291927,
+    -28.576706017
   ],
   "properties": {
     "title": "2015 M 6.9 - 85 km NW of Coquimbo, Chile \u2014 Descending Track 156",
     "start_datetime": "2015-11-04T00:00:00+00:00",
-    "end_datetime": "2015-11-16T00:00:00+00:00",
+    "end_datetime": "2015-11-28T00:00:00+00:00",
     "coseis:event_id": "us10003x9g",
     "coseis:event_name": "2015 M 6.9 - 85 km NW of Coquimbo, Chile",
     "coseis:magnitude": 6.9,
@@ -58,7 +58,7 @@
     ],
     "sar:product_type": "COSEIS_DISPLACEMENT",
     "sar:observation_direction": "right",
-    "datetime": "2015-11-16T00:00:00Z"
+    "datetime": "2015-11-28T00:00:00Z"
   },
   "links": [
     {
@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_69_85_km_nw_of_coquimbo_chile/S1-COSEIS_SAR-D-R-156-tops-20151116_20151104-100301-00072W_00031S-PP-7722-v1_0_0/S1-COSEIS_SAR-D-R-156-tops-20151116_20151104-100301-00072W_00031S-PP-7722-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_69_85_km_nw_of_coquimbo_chile_us10003x9g/S1-COSEIS_SAR-D-R-156-tops-20151128_20151104-100308-00072W_00031S-PP-7f1e-v1_0_0/S1-COSEIS_SAR-D-R-156-tops-20151128_20151104-100308-00072W_00031S-PP-7f1e-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

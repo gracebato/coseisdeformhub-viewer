@@ -4,7 +4,7 @@
   "event_title": "M 6.3 - 62 km S of Masachapa, Nicaragua",
   "orbit": "descending",
   "track": "157",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_63_62_km_s_of_masachapa_nicaragua/S1-COSEIS_SAR-D-R-157-tops-20211120_20211108-113106-00087W_00010N-PP-9d25-v1_0_0/S1-COSEIS_SAR-D-R-157-tops-20211120_20211108-113106-00087W_00010N-PP-9d25-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_63_62_km_s_of_masachapa_nicaragua_us7000fskw/S1-COSEIS_SAR-D-R-157-tops-20211120_20211108-113106-00087W_00010N-PP-9d25-v1_0_0/S1-COSEIS_SAR-D-R-157-tops-20211120_20211108-113106-00087W_00010N-PP-9d25-v1_0_0.nc",
   "stats": {
     "min": -0.1288338005542755,
     "max": 0.08861923217773438,

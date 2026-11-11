@@ -4,7 +4,7 @@
   "event_title": "M 6.2 - 7km N of Petrolia, CA",
   "orbit": "ascending",
   "track": "108",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_62_7km_n_of_petrolia_ca/S1-COSEIS_SAR-A-R-108-tops-20211223_20211217-021712-00127W_00039N-PP-4ba2-v1_0_0/S1-COSEIS_SAR-A-R-108-tops-20211223_20211217-021712-00127W_00039N-PP-4ba2-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_62_7km_n_of_petrolia_ca_nc73666231/S1-COSEIS_SAR-A-R-108-tops-20211223_20211217-021712-00127W_00039N-PP-4ba2-v1_0_0/S1-COSEIS_SAR-A-R-108-tops-20211223_20211217-021712-00127W_00039N-PP-4ba2-v1_0_0.nc",
   "stats": {
     "min": 0.2726762294769287,
     "max": 0.4108862280845642,

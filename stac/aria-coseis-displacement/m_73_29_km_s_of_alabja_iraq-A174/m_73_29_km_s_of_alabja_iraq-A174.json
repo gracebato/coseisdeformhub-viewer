@@ -39,11 +39,11 @@
     36.703848963000006
   ],
   "properties": {
-    "title": "2017 M 7.3 - 29 km S of ?alabja, Iraq \u2014 Ascending Track 174",
+    "title": "2017 M 7.3 - 29 km S of \u1e28alabja, Iraq \u2014 Ascending Track 174",
     "start_datetime": "2017-11-06T00:00:00+00:00",
     "end_datetime": "2017-11-18T00:00:00+00:00",
     "coseis:event_id": "us2000bmcg",
-    "coseis:event_name": "2017 M 7.3 - 29 km S of ?alabja, Iraq",
+    "coseis:event_name": "2017 M 7.3 - 29 km S of \u1e28alabja, Iraq",
     "coseis:magnitude": 7.3,
     "coseis:event_date": "2017-11-12",
     "coseis:pager_alert": "red",
@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_73_29_km_s_of_alabja_iraq/S1-COSEIS_SAR-A-R-174-tops-20171118_20171106-145212-00045E_00033N-PP-2775-v1_0_0/S1-COSEIS_SAR-A-R-174-tops-20171118_20171106-145212-00045E_00033N-PP-2775-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_73_29_km_s_of_halabja_iraq_us2000bmcg/S1-COSEIS_SAR-A-R-174-tops-20171118_20171106-145212-00045E_00033N-PP-2775-v1_0_0/S1-COSEIS_SAR-A-R-174-tops-20171118_20171106-145212-00045E_00033N-PP-2775-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

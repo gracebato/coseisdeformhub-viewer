@@ -4,7 +4,7 @@
   "event_title": "M 8.3 - 48 km W of Illapel, Chile",
   "orbit": "ascending",
   "track": "018",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_83_48_km_w_of_illapel_chile/S1-COSEIS_SAR-A-R-018-tops-20150919_20150826-232823-00073W_00034S-PP-1e7a-v1_0_0/S1-COSEIS_SAR-A-R-018-tops-20150919_20150826-232823-00073W_00034S-PP-1e7a-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_83_48_km_w_of_illapel_chile_us20003k7a/S1-COSEIS_SAR-A-R-018-tops-20150919_20150826-232823-00073W_00034S-PP-1e7a-v1_0_0/S1-COSEIS_SAR-A-R-018-tops-20150919_20150826-232823-00073W_00034S-PP-1e7a-v1_0_0.nc",
   "stats": {
     "min": -0.06781051307916641,
     "max": 1.5425769090652466,

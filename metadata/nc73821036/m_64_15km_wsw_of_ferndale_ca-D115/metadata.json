@@ -4,7 +4,7 @@
   "event_title": "M 6.4 - 15km WSW of Ferndale, CA",
   "orbit": "descending",
   "track": "115",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_64_15km_wsw_of_ferndale_ca/S1-COSEIS_SAR-D-R-115-tops-20221230_20221218-141551-00124W_00039N-PP-1a57-v1_0_0/S1-COSEIS_SAR-D-R-115-tops-20221230_20221218-141551-00124W_00039N-PP-1a57-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_64_15km_wsw_of_ferndale_ca_nc73821036/S1-COSEIS_SAR-D-R-115-tops-20221230_20221218-141551-00124W_00039N-PP-1a57-v1_0_0/S1-COSEIS_SAR-D-R-115-tops-20221230_20221218-141551-00124W_00039N-PP-1a57-v1_0_0.nc",
   "stats": {
     "min": -0.05317073315382004,
     "max": 0.1426037698984146,

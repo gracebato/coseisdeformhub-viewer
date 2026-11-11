@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_63_102_km_nnw_of_xinyuan_china/S1-COSEIS_SAR-A-R-012-tops-20170815_20170803-121831-00082E_00043N-PP-21f6-v1_0_0/S1-COSEIS_SAR-A-R-012-tops-20170815_20170803-121831-00082E_00043N-PP-21f6-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_63_102_km_nnw_of_xinyuan_china_us2000a65e/S1-COSEIS_SAR-A-R-012-tops-20170815_20170803-121831-00082E_00043N-PP-21f6-v1_0_0/S1-COSEIS_SAR-A-R-012-tops-20170815_20170803-121831-00082E_00043N-PP-21f6-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

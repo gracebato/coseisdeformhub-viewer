@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_61_126_km_wnw_of_rabaul_papua_new_guinea/S1-COSEIS_SAR-A-R-140-tops-20231121_20231109-082308-00149E_00007S-PP-7546-v1_0_0/S1-COSEIS_SAR-A-R-140-tops-20231121_20231109-082308-00149E_00007S-PP-7546-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_61_126_km_wnw_of_rabaul_papua_new_guinea_us7000lali/S1-COSEIS_SAR-A-R-140-tops-20231121_20231109-082308-00149E_00007S-PP-7546-v1_0_0/S1-COSEIS_SAR-A-R-140-tops-20231121_20231109-082308-00149E_00007S-PP-7546-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

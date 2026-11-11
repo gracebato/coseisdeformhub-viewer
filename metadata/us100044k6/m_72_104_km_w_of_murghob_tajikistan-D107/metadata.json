@@ -4,7 +4,7 @@
   "event_title": "M 7.2 - 104 km W of Murghob, Tajikistan",
   "orbit": "descending",
   "track": "107",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_72_104_km_w_of_murghob_tajikistan/S1-COSEIS_SAR-D-R-107-tops-20151231_20151207-010551-00073E_00036N-PP-94e7-v1_0_0/S1-COSEIS_SAR-D-R-107-tops-20151231_20151207-010551-00073E_00036N-PP-94e7-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_72_104_km_w_of_murghob_tajikistan_us100044k6/S1-COSEIS_SAR-D-R-107-tops-20151231_20151207-010551-00073E_00036N-PP-94e7-v1_0_0/S1-COSEIS_SAR-D-R-107-tops-20151231_20151207-010551-00073E_00036N-PP-94e7-v1_0_0.nc",
   "stats": {
     "min": -0.4867783486843109,
     "max": 0.8091794848442078,

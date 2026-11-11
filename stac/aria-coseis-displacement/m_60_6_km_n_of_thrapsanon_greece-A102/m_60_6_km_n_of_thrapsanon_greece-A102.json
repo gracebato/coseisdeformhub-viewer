@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_60_6_km_n_of_thrapsanon_greece/S1-COSEIS_SAR-A-R-102-tops-20210929_20210923-162311-00022E_00033N-PP-99c8-v1_0_0/S1-COSEIS_SAR-A-R-102-tops-20210929_20210923-162311-00022E_00033N-PP-99c8-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_60_6_km_n_of_thrapsanon_greece_us7000fes8/S1-COSEIS_SAR-A-R-102-tops-20210929_20210923-162311-00022E_00033N-PP-99c8-v1_0_0/S1-COSEIS_SAR-A-R-102-tops-20210929_20210923-162311-00022E_00033N-PP-99c8-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

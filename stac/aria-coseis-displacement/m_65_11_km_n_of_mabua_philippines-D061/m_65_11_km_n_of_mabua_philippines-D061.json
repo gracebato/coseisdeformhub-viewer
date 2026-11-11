@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_65_11_km_n_of_mabua_philippines/S1-COSEIS_SAR-D-R-061-tops-20170219_20170207-213131-00123E_00008N-PP-490c-v1_0_0/S1-COSEIS_SAR-D-R-061-tops-20170219_20170207-213131-00123E_00008N-PP-490c-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_65_11_km_n_of_mabua_philippines_us20008ixa/S1-COSEIS_SAR-D-R-061-tops-20170219_20170207-213131-00123E_00008N-PP-490c-v1_0_0/S1-COSEIS_SAR-D-R-061-tops-20170219_20170207-213131-00123E_00008N-PP-490c-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

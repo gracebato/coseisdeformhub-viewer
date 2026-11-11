@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_66_13_km_e_of_san_pedro_philippines/S1-COSEIS_SAR-D-R-134-tops-20200819_20200807-213939-00121E_00010N-PP-d5a3-v1_0_0/S1-COSEIS_SAR-D-R-134-tops-20200819_20200807-213939-00121E_00010N-PP-d5a3-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_66_13_km_e_of_san_pedro_philippines_us6000bgbr/S1-COSEIS_SAR-D-R-134-tops-20200819_20200807-213939-00121E_00010N-PP-d5a3-v1_0_0/S1-COSEIS_SAR-D-R-134-tops-20200819_20200807-213939-00121E_00010N-PP-d5a3-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

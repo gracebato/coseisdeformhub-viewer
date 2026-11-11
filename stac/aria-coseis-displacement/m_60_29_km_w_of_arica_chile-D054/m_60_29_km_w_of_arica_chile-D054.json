@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_60_29_km_w_of_arica_chile/S1-COSEIS_SAR-D-R-054-tops-20191206_20191130-100835-00071W_00020S-PP-7898-v1_0_0/S1-COSEIS_SAR-D-R-054-tops-20191206_20191130-100835-00071W_00020S-PP-7898-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_60_29_km_w_of_arica_chile_us70006fh7/S1-COSEIS_SAR-D-R-054-tops-20191206_20191130-100835-00071W_00020S-PP-7898-v1_0_0/S1-COSEIS_SAR-D-R-054-tops-20191206_20191130-100835-00071W_00020S-PP-7898-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

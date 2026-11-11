@@ -11,11 +11,11 @@
       [
         [
           -70.735237877,
-          9.359681220999999
+          9.193292199
         ],
         [
           -68.079402419,
-          9.359681220999999
+          9.193292199
         ],
         [
           -68.079402419,
@@ -27,23 +27,23 @@
         ],
         [
           -70.735237877,
-          9.359681220999999
+          9.193292199
         ]
       ]
     ]
   },
   "bbox": [
     -70.735237877,
-    9.359681220999999,
+    9.193292199,
     -68.079402419,
     11.291627211
   ],
   "properties": {
-    "title": "2026 M 7.5 - 17 km W of Catia La Mar, Venezuela \u2014 Ascending Track 106",
+    "title": "2026 M 7.5 - 20 km W of Catia La Mar, Venezuela \u2014 Ascending Track 106",
     "start_datetime": "2026-06-23T00:00:00+00:00",
     "end_datetime": "2026-06-24T00:00:00+00:00",
     "coseis:event_id": "us6000t7zp",
-    "coseis:event_name": "2026 M 7.5 - 17 km W of Catia La Mar, Venezuela",
+    "coseis:event_name": "2026 M 7.5 - 20 km W of Catia La Mar, Venezuela",
     "coseis:magnitude": 7.5,
     "coseis:event_date": "2026-06-24",
     "coseis:pager_alert": "red",
@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2026/m_75_17_km_w_of_catia_la_mar_venezuela/S1-COSEIS_SAR-A-R-106-tops-20260624_20260623-225011-00071W_00009N-PP-1d97-v1_0_0/S1-COSEIS_SAR-A-R-106-tops-20260624_20260623-225011-00071W_00009N-PP-1d97-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2026/m_75_20_km_w_of_catia_la_mar_venezuela_us6000t7zp/S1-COSEIS_SAR-A-R-106-tops-20260624_20260623-224958-00071W_00009N-PP-77f0-v1_0_0/S1-COSEIS_SAR-A-R-106-tops-20260624_20260623-224958-00071W_00009N-PP-77f0-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

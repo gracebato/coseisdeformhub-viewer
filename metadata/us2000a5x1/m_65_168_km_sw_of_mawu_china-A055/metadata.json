@@ -4,17 +4,17 @@
   "event_title": "M 6.5 - 168 km SW of Mawu, China",
   "orbit": "ascending",
   "track": "055",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_65_168_km_sw_of_mawu_china/S1-COSEIS_SAR-A-R-055-tops-20170818_20170806-110120-00103E_00032N-PP-8495-v1_0_0/S1-COSEIS_SAR-A-R-055-tops-20170818_20170806-110120-00103E_00032N-PP-8495-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_65_168_km_sw_of_mawu_china_us2000a5x1/S1-COSEIS_SAR-A-R-055-tops-20170812_20170806-110035-00103E_00032N-PP-dc75-v1_0_0/S1-COSEIS_SAR-A-R-055-tops-20170812_20170806-110035-00103E_00032N-PP-dc75-v1_0_0.nc",
   "stats": {
-    "min": -0.15988735854625702,
-    "max": 0.13666550815105438,
-    "mean": 0.007362786214798689,
-    "std": 0.026976197957992554
+    "min": -0.3960796594619751,
+    "max": 0.2078104317188263,
+    "mean": -0.12862635958489518,
+    "std": 0.10472982905414743
   },
   "bounds": {
-    "lon_min": 103.144028693,
-    "lon_max": 106.568753655,
-    "lat_min": 31.572457569000008,
-    "lat_max": 35.11384929100001
+    "lon_min": 103.167362045,
+    "lon_max": 106.557364757,
+    "lat_min": 31.576624239000004,
+    "lat_max": 35.113293735000006
   }
 }

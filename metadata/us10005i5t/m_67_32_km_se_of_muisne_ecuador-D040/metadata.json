@@ -1,0 +1,20 @@
+{
+  "event_id": "us10005i5t",
+  "job_id": "m_67_32_km_se_of_muisne_ecuador-D040",
+  "event_title": "M 6.7 - 32 km SE of Muisne, Ecuador",
+  "orbit": "descending",
+  "track": "040",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_67_32_km_se_of_muisne_ecuador_us10005i5t/S1-COSEIS_SAR-D-R-040-tops-20160518_20160506-110031-00081W_00002S-PP-d166-v1_0_0/S1-COSEIS_SAR-D-R-040-tops-20160518_20160506-110031-00081W_00002S-PP-d166-v1_0_0.nc",
+  "stats": {
+    "min": -0.3379962146282196,
+    "max": 1.0706441402435303,
+    "mean": 0.5566569506557899,
+    "std": 0.29222804205022695
+  },
+  "bounds": {
+    "lon_min": -80.901071343,
+    "lon_max": -77.96995788699999,
+    "lat_min": -1.484724699,
+    "lat_max": 1.912222463
+  }
+}

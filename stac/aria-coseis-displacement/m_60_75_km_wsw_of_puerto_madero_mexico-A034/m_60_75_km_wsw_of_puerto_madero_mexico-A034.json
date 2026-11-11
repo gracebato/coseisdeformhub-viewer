@@ -39,15 +39,15 @@
     15.751626778999999
   ],
   "properties": {
-    "title": "2016 M 6.0 - 75 km WSW of Puerto Madero, Mexico \u2014 Ascending Track 034",
+    "title": "2016 M 6.1 - 110 km SSW of Champerico, Guatemala \u2014 Ascending Track 034",
     "start_datetime": "2016-04-12T00:00:00+00:00",
     "end_datetime": "2016-05-06T00:00:00+00:00",
-    "coseis:event_id": "us10005bxb",
-    "coseis:event_name": "2016 M 6.0 - 75 km WSW of Puerto Madero, Mexico",
-    "coseis:magnitude": 6.0,
-    "coseis:event_date": "2016-04-27",
+    "coseis:event_id": "us20005ih9",
+    "coseis:event_name": "2016 M 6.1 - 110 km SSW of Champerico, Guatemala",
+    "coseis:magnitude": 6.1,
+    "coseis:event_date": "2016-04-15",
     "coseis:pager_alert": "green",
-    "coseis:depth_km": 16,
+    "coseis:depth_km": 22.41,
     "sat:orbit_state": "ascending",
     "coseis:track": "034",
     "coseis:satellites": "Sentinel-1A_Sentinel-1A",
@@ -63,7 +63,7 @@
   "links": [
     {
       "rel": "via",
-      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us10005bxb",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us20005ih9",
       "title": "USGS event page"
     },
     {
@@ -87,7 +87,7 @@
   ],
   "assets": {
     "metadata": {
-      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us10005bxb/m_60_75_km_wsw_of_puerto_madero_mexico-A034/metadata.json",
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us20005ih9/m_60_75_km_wsw_of_puerto_madero_mexico-A034/metadata.json",
       "type": "application/json",
       "title": "Statistics and bounds",
       "roles": [
@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_60_75_km_wsw_of_puerto_madero_mexico/S1-COSEIS_SAR-A-R-034-tops-20160506_20160412-002218-00094W_00014N-PP-d89d-v1_0_0/S1-COSEIS_SAR-A-R-034-tops-20160506_20160412-002218-00094W_00014N-PP-d89d-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_61_110_km_ssw_of_champerico_guatemala_us20005ih9/S1-COSEIS_SAR-A-R-034-tops-20160506_20160412-002218-00094W_00014N-PP-d89d-v1_0_0/S1-COSEIS_SAR-A-R-034-tops-20160506_20160412-002218-00094W_00014N-PP-d89d-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

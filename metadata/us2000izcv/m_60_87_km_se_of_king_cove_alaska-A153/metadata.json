@@ -1,0 +1,20 @@
+{
+  "event_id": "us2000izcv",
+  "job_id": "m_60_87_km_se_of_king_cove_alaska-A153",
+  "event_title": "M 6.0 - 87 km SE of King Cove, Alaska",
+  "orbit": "ascending",
+  "track": "153",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_60_87_km_se_of_king_cove_alaska_us2000izcv/S1-COSEIS_SAR-A-R-153-tops-20190129_20181212-042339-00162W_00054N-PP-0600-v1_0_0/S1-COSEIS_SAR-A-R-153-tops-20190129_20181212-042339-00162W_00054N-PP-0600-v1_0_0.nc",
+  "stats": {
+    "min": -0.05390410125255585,
+    "max": 0.514414370059967,
+    "mean": 0.3130859279845771,
+    "std": 0.0728214660126985
+  },
+  "bounds": {
+    "lon_min": -162.114027069,
+    "lon_max": -157.532634515,
+    "lat_min": 54.26357003300001,
+    "lat_max": 56.459127345000006
+  }
+}

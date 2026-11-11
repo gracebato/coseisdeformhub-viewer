@@ -4,7 +4,7 @@
   "event_title": "M 6.0 - 182 km NE of Tual, Indonesia",
   "orbit": "descending",
   "track": "075",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_60_182_km_ne_of_tual_indonesia/S1-COSEIS_SAR-D-R-075-tops-20210810_20210729-203829-00134E_00006S-PP-fc98-v1_0_0/S1-COSEIS_SAR-D-R-075-tops-20210810_20210729-203829-00134E_00006S-PP-fc98-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_60_182_km_ne_of_tual_indonesia_us6000f1ea/S1-COSEIS_SAR-D-R-075-tops-20210810_20210729-203829-00134E_00006S-PP-fc98-v1_0_0/S1-COSEIS_SAR-D-R-075-tops-20210810_20210729-203829-00134E_00006S-PP-fc98-v1_0_0.nc",
   "stats": {
     "min": -0.1178741306066513,
     "max": 0.08580240607261658,

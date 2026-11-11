@@ -39,11 +39,11 @@
     40.499959911000005
   ],
   "properties": {
-    "title": "2015 M 6.8 - 32 km SE of ?funato, Japan \u2014 Descending Track 148",
+    "title": "2015 M 6.8 - 32 km SE of \u014cfunato, Japan \u2014 Descending Track 148",
     "start_datetime": "2015-04-25T00:00:00+00:00",
     "end_datetime": "2015-05-19T00:00:00+00:00",
     "coseis:event_id": "us20002et4",
-    "coseis:event_name": "2015 M 6.8 - 32 km SE of ?funato, Japan",
+    "coseis:event_name": "2015 M 6.8 - 32 km SE of \u014cfunato, Japan",
     "coseis:magnitude": 6.8,
     "coseis:event_date": "2015-05-12",
     "coseis:pager_alert": "green",
@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_68_32_km_se_of_funato_japan/S1-COSEIS_SAR-D-R-148-tops-20150519_20150425-203402-00141E_00037N-PP-c0b1-v1_0_0/S1-COSEIS_SAR-D-R-148-tops-20150519_20150425-203402-00141E_00037N-PP-c0b1-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_68_32_km_se_of_ofunato_japan_us20002et4/S1-COSEIS_SAR-D-R-148-tops-20150519_20150425-203402-00141E_00037N-PP-c0b1-v1_0_0/S1-COSEIS_SAR-D-R-148-tops-20150519_20150425-203402-00141E_00037N-PP-c0b1-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

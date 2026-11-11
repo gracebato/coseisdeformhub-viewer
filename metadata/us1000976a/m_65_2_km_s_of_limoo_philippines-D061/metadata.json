@@ -4,7 +4,7 @@
   "event_title": "M 6.5 - 2 km S of Lim-oo, Philippines",
   "orbit": "descending",
   "track": "061",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_65_2_km_s_of_limoo_philippines/S1-COSEIS_SAR-D-R-061-tops-20170707_20170701-213027-00123E_00010N-PP-96c0-v1_0_0/S1-COSEIS_SAR-D-R-061-tops-20170707_20170701-213027-00123E_00010N-PP-96c0-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_65_2_km_s_of_limoo_philippines_us1000976a/S1-COSEIS_SAR-D-R-061-tops-20170707_20170701-213027-00123E_00010N-PP-96c0-v1_0_0/S1-COSEIS_SAR-D-R-061-tops-20170707_20170701-213027-00123E_00010N-PP-96c0-v1_0_0.nc",
   "stats": {
     "min": -0.3434459865093231,
     "max": 0.018749060109257698,

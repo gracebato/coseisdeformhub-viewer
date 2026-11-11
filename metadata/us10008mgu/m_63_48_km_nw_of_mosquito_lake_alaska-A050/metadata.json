@@ -4,7 +4,7 @@
   "event_title": "M 6.3 - 48 km NW of Mosquito Lake, Alaska",
   "orbit": "ascending",
   "track": "050",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_63_48_km_nw_of_mosquito_lake_alaska/S1-COSEIS_SAR-A-R-050-tops-20170502_20170408-025451-00141W_00059N-PP-ba9f-v1_0_0/S1-COSEIS_SAR-A-R-050-tops-20170502_20170408-025451-00141W_00059N-PP-ba9f-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_63_48_km_nw_of_mosquito_lake_alaska_us10008mgu/S1-COSEIS_SAR-A-R-050-tops-20170502_20170408-025451-00141W_00059N-PP-ba9f-v1_0_0/S1-COSEIS_SAR-A-R-050-tops-20170502_20170408-025451-00141W_00059N-PP-ba9f-v1_0_0.nc",
   "stats": {
     "min": -0.39096176624298096,
     "max": 0.5024259686470032,

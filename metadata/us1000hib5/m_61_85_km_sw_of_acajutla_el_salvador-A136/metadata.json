@@ -4,7 +4,7 @@
   "event_title": "M 6.1 - 85 km SW of Acajutla, El Salvador",
   "orbit": "ascending",
   "track": "136",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_61_85_km_sw_of_acajutla_el_salvador/S1-COSEIS_SAR-A-R-136-tops-20181030_20181024-001356-00092W_00011N-PP-483c-v1_0_0/S1-COSEIS_SAR-A-R-136-tops-20181030_20181024-001356-00092W_00011N-PP-483c-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_61_85_km_sw_of_acajutla_el_salvador_us1000hib5/S1-COSEIS_SAR-A-R-136-tops-20181030_20181024-001356-00092W_00011N-PP-483c-v1_0_0/S1-COSEIS_SAR-A-R-136-tops-20181030_20181024-001356-00092W_00011N-PP-483c-v1_0_0.nc",
   "stats": {
     "min": 1.3026143312454224,
     "max": 1.5378434658050537,

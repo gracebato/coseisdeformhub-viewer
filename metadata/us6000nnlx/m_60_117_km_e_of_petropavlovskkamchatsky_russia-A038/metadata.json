@@ -4,7 +4,7 @@
   "event_title": "M 6.0 - 117 km E of Petropavlovsk-Kamchatsky, Russia",
   "orbit": "ascending",
   "track": "038",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2024/m_60_117_km_e_of_petropavlovskkamchatsky_russia/S1-COSEIS_SAR-A-R-038-tops-20240909_20240828-070857-00157E_00053N-PP-b197-v1_0_0/S1-COSEIS_SAR-A-R-038-tops-20240909_20240828-070857-00157E_00053N-PP-b197-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2024/m_60_117_km_e_of_petropavlovskkamchatsky_russia_us6000nnlx/S1-COSEIS_SAR-A-R-038-tops-20240909_20240828-070857-00157E_00053N-PP-b197-v1_0_0/S1-COSEIS_SAR-A-R-038-tops-20240909_20240828-070857-00157E_00053N-PP-b197-v1_0_0.nc",
   "stats": {
     "min": -0.06860169023275375,
     "max": 0.11372426897287369,

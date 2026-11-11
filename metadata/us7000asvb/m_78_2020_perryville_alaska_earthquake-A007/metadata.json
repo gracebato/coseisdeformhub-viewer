@@ -4,7 +4,7 @@
   "event_title": "M 7.8 - 2020 Perryville, Alaska Earthquake",
   "orbit": "ascending",
   "track": "007",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_78_2020_perryville_alaska_earthquake/S1-COSEIS_SAR-A-R-007-tops-20200724_20200712-040739-00158W_00055N-PP-c718-v1_0_0/S1-COSEIS_SAR-A-R-007-tops-20200724_20200712-040739-00158W_00055N-PP-c718-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_78_2020_perryville_alaska_earthquake_us7000asvb/S1-COSEIS_SAR-A-R-007-tops-20200724_20200712-040739-00158W_00055N-PP-c718-v1_0_0/S1-COSEIS_SAR-A-R-007-tops-20200724_20200712-040739-00158W_00055N-PP-c718-v1_0_0.nc",
   "stats": {
     "min": -0.688602864742279,
     "max": -0.18975511193275452,

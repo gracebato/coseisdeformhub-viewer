@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_65_stanley_idaho/S1-COSEIS_SAR-A-R-093-tops-20200401_20200326-013605-00117W_00043N-PP-a7ba-v1_0_0/S1-COSEIS_SAR-A-R-093-tops-20200401_20200326-013605-00117W_00043N-PP-a7ba-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_65_stanley_idaho_us70008jr5/S1-COSEIS_SAR-A-R-093-tops-20200401_20200326-013605-00117W_00043N-PP-a7ba-v1_0_0/S1-COSEIS_SAR-A-R-093-tops-20200401_20200326-013605-00117W_00043N-PP-a7ba-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

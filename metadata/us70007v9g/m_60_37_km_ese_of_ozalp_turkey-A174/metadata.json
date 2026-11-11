@@ -4,7 +4,7 @@
   "event_title": "M 6.0 - 37 km ESE of \u00d6zalp, Turkey",
   "orbit": "ascending",
   "track": "174",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_60_37_km_ese_of_ozalp_turkey/S1-COSEIS_SAR-A-R-174-tops-20200224_20200212-145324-00044E_00038N-PP-1ca3-v1_0_0/S1-COSEIS_SAR-A-R-174-tops-20200224_20200212-145324-00044E_00038N-PP-1ca3-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_60_37_km_ese_of_ozalp_turkey_us70007v9g/S1-COSEIS_SAR-A-R-174-tops-20200224_20200212-145324-00044E_00038N-PP-1ca3-v1_0_0/S1-COSEIS_SAR-A-R-174-tops-20200224_20200212-145324-00044E_00038N-PP-1ca3-v1_0_0.nc",
   "stats": {
     "min": -0.05411853268742561,
     "max": 0.09462390840053558,

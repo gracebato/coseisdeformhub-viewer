@@ -1,0 +1,20 @@
+{
+  "event_id": "us10007mn3",
+  "job_id": "m_76_41_km_sw_of_quellon_chile-A062",
+  "event_title": "M 7.6 - 41 km SW of Quell\u00f3n, Chile",
+  "orbit": "ascending",
+  "track": "062",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_76_41_km_sw_of_quellon_chile_us10007mn3/S1-COSEIS_SAR-A-R-062-tops-20170114_20161221-234951-00076W_00046S-PP-e658-v1_0_0/S1-COSEIS_SAR-A-R-062-tops-20170114_20161221-234951-00076W_00046S-PP-e658-v1_0_0.nc",
+  "stats": {
+    "min": -0.4309609532356262,
+    "max": 0.4675506353378296,
+    "mean": 0.0034564510489298672,
+    "std": 0.08551616660967079
+  },
+  "bounds": {
+    "lon_min": -75.74607201900001,
+    "lon_max": -70.63773459900001,
+    "lat_min": -45.91226584099999,
+    "lat_max": -40.824483992999994
+  }
+}

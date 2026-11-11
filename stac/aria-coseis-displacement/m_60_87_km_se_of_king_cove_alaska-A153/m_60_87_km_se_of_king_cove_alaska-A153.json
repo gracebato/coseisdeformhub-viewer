@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_60_87_km_se_of_king_cove_alaska-A153",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -162.114027069,
+          54.26357003300001
+        ],
+        [
+          -157.532634515,
+          54.26357003300001
+        ],
+        [
+          -157.532634515,
+          56.459127345000006
+        ],
+        [
+          -162.114027069,
+          56.459127345000006
+        ],
+        [
+          -162.114027069,
+          54.26357003300001
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -162.114027069,
+    54.26357003300001,
+    -157.532634515,
+    56.459127345000006
+  ],
+  "properties": {
+    "title": "2018 M 6.0 - 87 km SE of King Cove, Alaska \u2014 Ascending Track 153",
+    "start_datetime": "2018-12-12T00:00:00+00:00",
+    "end_datetime": "2019-01-29T00:00:00+00:00",
+    "coseis:event_id": "us2000izcv",
+    "coseis:event_name": "2018 M 6.0 - 87 km SE of King Cove, Alaska",
+    "coseis:magnitude": 6.0,
+    "coseis:event_date": "2018-12-31",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 31,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "153",
+    "coseis:satellites": "Sentinel-1B_Sentinel-1B",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2019-01-29T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us2000izcv",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us2000izcv/m_60_87_km_se_of_king_cove_alaska-A153/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_60_87_km_se_of_king_cove_alaska_us2000izcv/S1-COSEIS_SAR-A-R-153-tops-20190129_20181212-042339-00162W_00054N-PP-0600-v1_0_0/S1-COSEIS_SAR-A-R-153-tops-20190129_20181212-042339-00162W_00054N-PP-0600-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

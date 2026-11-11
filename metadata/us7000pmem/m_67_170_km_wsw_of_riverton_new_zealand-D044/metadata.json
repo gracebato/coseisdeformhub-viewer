@@ -4,7 +4,7 @@
   "event_title": "M 6.7 - 170 km WSW of Riverton, New Zealand",
   "orbit": "descending",
   "track": "044",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_67_170_km_wsw_of_riverton_new_zealand/S1-COSEIS_SAR-D-R-044-tops-20250413_20250320-174916-00166E_00048S-PP-5dce-v1_0_0/S1-COSEIS_SAR-D-R-044-tops-20250413_20250320-174916-00166E_00048S-PP-5dce-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_67_170_km_wsw_of_riverton_new_zealand_us7000pmem/S1-COSEIS_SAR-D-R-044-tops-20250413_20250320-174916-00166E_00048S-PP-5dce-v1_0_0/S1-COSEIS_SAR-D-R-044-tops-20250413_20250320-174916-00166E_00048S-PP-5dce-v1_0_0.nc",
   "stats": {
     "min": -0.07442288845777512,
     "max": 0.14966484904289246,

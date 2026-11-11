@@ -4,7 +4,7 @@
   "event_title": "M 6.1 - 82 km SSW of Bah\u00eda de Kino, Mexico",
   "orbit": "descending",
   "track": "027",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_61_82_km_ssw_of_bahia_de_kino_mexico/S1-COSEIS_SAR-D-R-027-tops-20221106_20221025-132951-00114W_00027N-PP-3c83-v1_0_0/S1-COSEIS_SAR-D-R-027-tops-20221106_20221025-132951-00114W_00027N-PP-3c83-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_61_82_km_ssw_of_bahia_de_kino_mexico_us7000imgl/S1-COSEIS_SAR-D-R-027-tops-20221106_20221025-132951-00114W_00027N-PP-3c83-v1_0_0/S1-COSEIS_SAR-D-R-027-tops-20221106_20221025-132951-00114W_00027N-PP-3c83-v1_0_0.nc",
   "stats": {
     "min": -0.07854737341403961,
     "max": 0.16492219269275665,

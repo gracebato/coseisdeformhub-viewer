@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_63_33_km_nnw_of_rosa_zarate_ecuador-D040",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -80.902460233,
+          -1.482780253
+        ],
+        [
+          -78.010791253,
+          -1.482780253
+        ],
+        [
+          -78.010791253,
+          1.746944553
+        ],
+        [
+          -80.902460233,
+          1.746944553
+        ],
+        [
+          -80.902460233,
+          -1.482780253
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -80.902460233,
+    -1.482780253,
+    -78.010791253,
+    1.746944553
+  ],
+  "properties": {
+    "title": "2016 M 6.3 - 33 km NNW of Rosa Zarate, Ecuador \u2014 Descending Track 040",
+    "start_datetime": "2016-07-05T00:00:00+00:00",
+    "end_datetime": "2016-07-17T00:00:00+00:00",
+    "coseis:event_id": "us100062hg",
+    "coseis:event_name": "2016 M 6.3 - 33 km NNW of Rosa Zarate, Ecuador",
+    "coseis:magnitude": 6.3,
+    "coseis:event_date": "2016-07-11",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 21,
+    "sat:orbit_state": "descending",
+    "coseis:track": "040",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2016-07-17T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us100062hg",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us100062hg/m_63_33_km_nnw_of_rosa_zarate_ecuador-D040/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_63_33_km_nnw_of_rosa_zarate_ecuador_us100062hg/S1-COSEIS_SAR-D-R-040-tops-20160717_20160705-110041-00081W_00002S-PP-18d2-v1_0_0/S1-COSEIS_SAR-D-R-040-tops-20160717_20160705-110041-00081W_00002S-PP-18d2-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

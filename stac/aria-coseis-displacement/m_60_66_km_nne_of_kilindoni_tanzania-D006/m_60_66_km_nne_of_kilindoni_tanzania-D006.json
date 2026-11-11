@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_60_66_km_nne_of_kilindoni_tanzania/S1-COSEIS_SAR-D-R-006-tops-20200817_20200805-030510-00037E_00009S-PP-499e-v1_0_0/S1-COSEIS_SAR-D-R-006-tops-20200817_20200805-030510-00037E_00009S-PP-499e-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_60_66_km_nne_of_kilindoni_tanzania_us6000bdg8/S1-COSEIS_SAR-D-R-006-tops-20200817_20200805-030510-00037E_00009S-PP-499e-v1_0_0/S1-COSEIS_SAR-D-R-006-tops-20200817_20200805-030510-00037E_00009S-PP-499e-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

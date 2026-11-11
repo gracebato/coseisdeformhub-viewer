@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_63_38_km_ssw_of_coquimbo_chile/S1-COSEIS_SAR-D-R-156-tops-20230911_20230830-100403-00072W_00032S-PP-cb6d-v1_0_0/S1-COSEIS_SAR-D-R-156-tops-20230911_20230830-100403-00072W_00032S-PP-cb6d-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_63_38_km_ssw_of_coquimbo_chile_us7000ktti/S1-COSEIS_SAR-D-R-156-tops-20230911_20230830-100403-00072W_00032S-PP-cb6d-v1_0_0/S1-COSEIS_SAR-D-R-156-tops-20230911_20230830-100403-00072W_00032S-PP-cb6d-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

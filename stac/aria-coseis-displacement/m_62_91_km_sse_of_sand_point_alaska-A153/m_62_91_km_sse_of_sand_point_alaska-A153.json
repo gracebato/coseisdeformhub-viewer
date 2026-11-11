@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_62_91_km_sse_of_sand_point_alaska-A153",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -162.492916261,
+          54.591625051
+        ],
+        [
+          -157.644856827,
+          54.591625051
+        ],
+        [
+          -157.644856827,
+          57.444405111
+        ],
+        [
+          -162.492916261,
+          57.444405111
+        ],
+        [
+          -162.492916261,
+          54.591625051
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -162.492916261,
+    54.591625051,
+    -157.644856827,
+    57.444405111
+  ],
+  "properties": {
+    "title": "2025 M 6.2 - 91 km SSE of Sand Point, Alaska \u2014 Ascending Track 153",
+    "start_datetime": "2025-07-20T00:00:00+00:00",
+    "end_datetime": "2025-08-01T00:00:00+00:00",
+    "coseis:event_id": "us7000qe51",
+    "coseis:event_name": "2025 M 6.2 - 91 km SSE of Sand Point, Alaska",
+    "coseis:magnitude": 6.2,
+    "coseis:event_date": "2025-07-20",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 40,
+    "sat:orbit_state": "ascending",
+    "coseis:track": "153",
+    "coseis:satellites": "Sentinel-1C_Sentinel-1C",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2025-08-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000qe51",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us7000qe51/m_62_91_km_sse_of_sand_point_alaska-A153/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_62_91_km_sse_of_sand_point_alaska_us7000qe51/S1-COSEIS_SAR-A-R-153-tops-20250801_20250720-042345-00163W_00055N-PP-60d4-v1_0_0/S1-COSEIS_SAR-A-R-153-tops-20250801_20250720-042345-00163W_00055N-PP-60d4-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

@@ -4,7 +4,7 @@
   "event_title": "M 6.5 - 132 km WSW of Moijabana, Botswana",
   "orbit": "ascending",
   "track": "014",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_65_132_km_wsw_of_moijabana_botswana/S1-COSEIS_SAR-A-R-014-tops-20170411_20170330-165507-00023E_00025S-PP-9fe9-v1_0_0/S1-COSEIS_SAR-A-R-014-tops-20170411_20170330-165507-00023E_00025S-PP-9fe9-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_65_132_km_wsw_of_moijabana_botswana_us10008e3k/S1-COSEIS_SAR-A-R-014-tops-20170411_20170330-165507-00023E_00025S-PP-9fe9-v1_0_0/S1-COSEIS_SAR-A-R-014-tops-20170411_20170330-165507-00023E_00025S-PP-9fe9-v1_0_0.nc",
   "stats": {
     "min": -0.09001766890287399,
     "max": 0.07405459135770798,

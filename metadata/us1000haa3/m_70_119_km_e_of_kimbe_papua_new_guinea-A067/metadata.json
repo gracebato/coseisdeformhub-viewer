@@ -4,7 +4,7 @@
   "event_title": "M 7.0 - 119 km E of Kimbe, Papua New Guinea",
   "orbit": "ascending",
   "track": "067",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_70_119_km_e_of_kimbe_papua_new_guinea/S1-COSEIS_SAR-A-R-067-tops-20181013_20181001-081424-00151E_00007S-PP-d5f9-v1_0_0/S1-COSEIS_SAR-A-R-067-tops-20181013_20181001-081424-00151E_00007S-PP-d5f9-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_70_119_km_e_of_kimbe_papua_new_guinea_us1000haa3/S1-COSEIS_SAR-A-R-067-tops-20181013_20181001-081424-00151E_00007S-PP-d5f9-v1_0_0/S1-COSEIS_SAR-A-R-067-tops-20181013_20181001-081424-00151E_00007S-PP-d5f9-v1_0_0.nc",
   "stats": {
     "min": -0.23128528892993927,
     "max": 0.05966353788971901,

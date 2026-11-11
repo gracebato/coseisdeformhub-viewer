@@ -4,7 +4,7 @@
   "event_title": "M 7.8 - Pazarcik earthquake, Kahramanmaras earthquake sequence",
   "orbit": "descending",
   "track": "021",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_78_pazarcik_earthquake_kahramanmaras_earthquake_sequence/S1-COSEIS_SAR-D-R-021-tops-20230210_20230129-033452-00035E_00035N-PP-d956-v1_0_0/S1-COSEIS_SAR-D-R-021-tops-20230210_20230129-033452-00035E_00035N-PP-d956-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_78_pazarcik_earthquake_kahramanmaras_earthquake_sequence_us6000jllz/S1-COSEIS_SAR-D-R-021-tops-20230210_20230129-033452-00035E_00035N-PP-d956-v1_0_0/S1-COSEIS_SAR-D-R-021-tops-20230210_20230129-033452-00035E_00035N-PP-d956-v1_0_0.nc",
   "stats": {
     "min": -1.2348880767822266,
     "max": 0.8275771737098694,

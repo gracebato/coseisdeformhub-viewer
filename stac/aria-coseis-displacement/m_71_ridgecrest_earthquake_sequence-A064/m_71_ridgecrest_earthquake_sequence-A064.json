@@ -11,14 +11,14 @@
       [
         [
           -119.464860683,
-          35.005236493000005
+          33.843013341
         ],
         [
-          -116.216246973,
-          35.005236493000005
+          -116.01819125899999,
+          33.843013341
         ],
         [
-          -116.216246973,
+          -116.01819125899999,
           36.884682441
         ],
         [
@@ -27,15 +27,15 @@
         ],
         [
           -119.464860683,
-          35.005236493000005
+          33.843013341
         ]
       ]
     ]
   },
   "bbox": [
     -119.464860683,
-    35.005236493000005,
-    -116.216246973,
+    33.843013341,
+    -116.01819125899999,
     36.884682441
   ],
   "properties": {
@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_71_ridgecrest_earthquake_sequence/S1-COSEIS_SAR-A-R-064-tops-20190710_20190704-015012-00119W_00035N-PP-6e22-v1_0_0/S1-COSEIS_SAR-A-R-064-tops-20190710_20190704-015012-00119W_00035N-PP-6e22-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_71_ridgecrest_earthquake_sequence_ci38457511/S1-COSEIS_SAR-A-R-064-tops-20190710_20190704-015000-00119W_00034N-PP-c223-v1_0_0/S1-COSEIS_SAR-A-R-064-tops-20190710_20190704-015000-00119W_00034N-PP-c223-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

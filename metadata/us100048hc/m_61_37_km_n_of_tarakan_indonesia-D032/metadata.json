@@ -1,0 +1,20 @@
+{
+  "event_id": "us100048hc",
+  "job_id": "m_61_37_km_n_of_tarakan_indonesia-D032",
+  "event_title": "M 6.1 - 37 km N of Tarakan, Indonesia",
+  "orbit": "descending",
+  "track": "032",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_61_37_km_n_of_tarakan_indonesia_us100048hc/S1-COSEIS_SAR-D-R-032-tops-20160106_20151213-214942-00117E_00002N-PP-daee-v1_0_0/S1-COSEIS_SAR-D-R-032-tops-20160106_20151213-214942-00117E_00002N-PP-daee-v1_0_0.nc",
+  "stats": {
+    "min": -0.07386898249387741,
+    "max": 1.5802751779556274,
+    "mean": 0.8199763097604571,
+    "std": 0.341211099390901
+  },
+  "bounds": {
+    "lon_min": 117.373472521,
+    "lon_max": 120.015696857,
+    "lat_min": 2.2838878270000005,
+    "lat_max": 4.337222803
+  }
+}

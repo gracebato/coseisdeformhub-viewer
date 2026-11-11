@@ -4,7 +4,7 @@
   "event_title": "M 6.0 - 27 km NNE of Siglufj\u00f6r\u00f0ur, Iceland",
   "orbit": "ascending",
   "track": "118",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_60_27_km_nne_of_siglufjorur_iceland/S1-COSEIS_SAR-A-R-118-tops-20200625_20200619-185048-00024W_00064N-PP-11cb-v1_0_0/S1-COSEIS_SAR-A-R-118-tops-20200625_20200619-185048-00024W_00064N-PP-11cb-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_60_27_km_nne_of_siglufjorur_iceland_us6000ag18/S1-COSEIS_SAR-A-R-118-tops-20200625_20200619-185048-00024W_00064N-PP-11cb-v1_0_0/S1-COSEIS_SAR-A-R-118-tops-20200625_20200619-185048-00024W_00064N-PP-11cb-v1_0_0.nc",
   "stats": {
     "min": -0.2876702845096588,
     "max": 0.17631319165229797,

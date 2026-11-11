@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000f0qr",
+  "job_id": "m_62_7_km_e_of_sullana_peru-D040",
+  "event_title": "M 6.2 - 7 km E of Sullana, Peru",
+  "orbit": "descending",
+  "track": "040",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_62_7_km_e_of_sullana_peru_us6000f0qr/S1-COSEIS_SAR-D-R-040-tops-20210802_20210721-110152-00082W_00006S-PP-7680-v1_0_0/S1-COSEIS_SAR-D-R-040-tops-20210802_20210721-110152-00082W_00006S-PP-7680-v1_0_0.nc",
+  "stats": {
+    "min": -0.1902499943971634,
+    "max": 0.11701727658510208,
+    "mean": -0.012297002488285705,
+    "std": 0.027833271601700554
+  },
+  "bounds": {
+    "lon_min": -81.875516567,
+    "lon_max": -79.238014457,
+    "lat_min": -5.986667945,
+    "lat_max": -3.9049996129999998
+  }
+}

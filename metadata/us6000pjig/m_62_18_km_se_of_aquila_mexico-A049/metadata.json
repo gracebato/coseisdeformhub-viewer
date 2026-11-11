@@ -4,7 +4,7 @@
   "event_title": "M 6.2 - 18 km SE of Aquila, Mexico",
   "orbit": "ascending",
   "track": "049",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_62_18_km_se_of_aquila_mexico/S1-COSEIS_SAR-A-R-049-tops-20250120_20250108-010521-00106W_00017N-PP-3cac-v1_0_0/S1-COSEIS_SAR-A-R-049-tops-20250120_20250108-010521-00106W_00017N-PP-3cac-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_62_18_km_se_of_aquila_mexico_us6000pjig/S1-COSEIS_SAR-A-R-049-tops-20250120_20250108-010521-00106W_00017N-PP-3cac-v1_0_0/S1-COSEIS_SAR-A-R-049-tops-20250120_20250108-010521-00106W_00017N-PP-3cac-v1_0_0.nc",
   "stats": {
     "min": -0.46211692690849304,
     "max": -0.23105910420417786,

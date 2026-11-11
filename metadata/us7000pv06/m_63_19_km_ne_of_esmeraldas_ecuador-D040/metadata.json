@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000pv06",
+  "job_id": "m_63_19_km_ne_of_esmeraldas_ecuador-D040",
+  "event_title": "M 6.3 - 19 km NE of Esmeraldas, Ecuador",
+  "orbit": "descending",
+  "track": "040",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2025/m_63_19_km_ne_of_esmeraldas_ecuador_us7000pv06/S1-COSEIS_SAR-D-R-040-tops-20250525_20250401-105948-00081W_00000S-PP-e416-v1_0_0/S1-COSEIS_SAR-D-R-040-tops-20250525_20250401-105948-00081W_00000S-PP-e416-v1_0_0.nc",
+  "stats": {
+    "min": -0.33084434270858765,
+    "max": 1.310724139213562,
+    "mean": 0.4804216671342934,
+    "std": 0.39386192847507356
+  },
+  "bounds": {
+    "lon_min": -80.619405251,
+    "lon_max": -78.004958715,
+    "lat_min": -0.14889029700000012,
+    "lat_max": 1.913055797
+  }
+}

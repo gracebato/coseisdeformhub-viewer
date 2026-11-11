@@ -4,7 +4,7 @@
   "event_title": "M 7.6 - 2020 Sand Point, Alaska Earthquake",
   "orbit": "descending",
   "track": "102",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_76_2020_sand_point_alaska_earthquake/S1-COSEIS_SAR-D-R-102-tops-20201028_20201016-164751-00160W_00054N-PP-acf3-v1_0_0/S1-COSEIS_SAR-D-R-102-tops-20201028_20201016-164751-00160W_00054N-PP-acf3-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_76_2020_sand_point_alaska_earthquake_us6000c9hg/S1-COSEIS_SAR-D-R-102-tops-20201028_20201016-164751-00160W_00054N-PP-acf3-v1_0_0/S1-COSEIS_SAR-D-R-102-tops-20201028_20201016-164751-00160W_00054N-PP-acf3-v1_0_0.nc",
   "stats": {
     "min": -0.0018281482625752687,
     "max": 0.4458472728729248,

@@ -4,7 +4,7 @@
   "event_title": "M 6.3 - 94 km W of Waingapu, Indonesia",
   "orbit": "descending",
   "track": "061",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_63_94_km_w_of_waingapu_indonesia/S1-COSEIS_SAR-D-R-061-tops-20160225_20160201-213636-00119E_00010S-PP-fdc3-v1_0_0/S1-COSEIS_SAR-D-R-061-tops-20160225_20160201-213636-00119E_00010S-PP-fdc3-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_63_94_km_w_of_waingapu_indonesia_us20004zp9/S1-COSEIS_SAR-D-R-061-tops-20160225_20160201-213636-00119E_00010S-PP-fdc3-v1_0_0/S1-COSEIS_SAR-D-R-061-tops-20160225_20160201-213636-00119E_00010S-PP-fdc3-v1_0_0.nc",
   "stats": {
     "min": 0.055600252002477646,
     "max": 0.27239468693733215,

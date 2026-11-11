@@ -4,7 +4,7 @@
   "event_title": "M 6.8 - Al Haouz, Morocco",
   "orbit": "ascending",
   "track": "118",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_68_al_haouz_morocco/S1-COSEIS_SAR-A-R-118-tops-20231002_20230908-184201-00011W_00030N-PP-f8c2-v1_0_0/S1-COSEIS_SAR-A-R-118-tops-20231002_20230908-184201-00011W_00030N-PP-f8c2-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_68_al_haouz_morocco_us7000kufc/S1-COSEIS_SAR-A-R-118-tops-20231002_20230908-184201-00011W_00030N-PP-f8c2-v1_0_0/S1-COSEIS_SAR-A-R-118-tops-20231002_20230908-184201-00011W_00030N-PP-f8c2-v1_0_0.nc",
   "stats": {
     "min": -0.12728793919086456,
     "max": 0.7194011807441711,

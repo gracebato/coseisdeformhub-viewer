@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_68_86_km_nw_of_vallenar_chile/S1-COSEIS_SAR-D-R-156-tops-20200908_20200827-100222-00072W_00030S-PP-420f-v1_0_0/S1-COSEIS_SAR-D-R-156-tops-20200908_20200827-100222-00072W_00030S-PP-420f-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_68_86_km_nw_of_vallenar_chile_us7000bfjr/S1-COSEIS_SAR-D-R-156-tops-20200908_20200827-100222-00072W_00030S-PP-420f-v1_0_0/S1-COSEIS_SAR-D-R-156-tops-20200908_20200827-100222-00072W_00030S-PP-420f-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

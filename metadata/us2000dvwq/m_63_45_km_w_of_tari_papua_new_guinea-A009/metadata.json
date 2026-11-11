@@ -4,7 +4,7 @@
   "event_title": "M 6.3 - 45 km W of Tari, Papua New Guinea",
   "orbit": "ascending",
   "track": "009",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_63_45_km_w_of_tari_papua_new_guinea/S1-COSEIS_SAR-A-R-009-tops-20180412_20180331-084708-00142E_00007S-PP-adc7-v1_0_0/S1-COSEIS_SAR-A-R-009-tops-20180412_20180331-084708-00142E_00007S-PP-adc7-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_63_45_km_w_of_tari_papua_new_guinea_us2000dvwq/S1-COSEIS_SAR-A-R-009-tops-20180412_20180331-084708-00142E_00007S-PP-adc7-v1_0_0/S1-COSEIS_SAR-A-R-009-tops-20180412_20180331-084708-00142E_00007S-PP-adc7-v1_0_0.nc",
   "stats": {
     "min": -0.18433550000190735,
     "max": 0.05831942334771156,

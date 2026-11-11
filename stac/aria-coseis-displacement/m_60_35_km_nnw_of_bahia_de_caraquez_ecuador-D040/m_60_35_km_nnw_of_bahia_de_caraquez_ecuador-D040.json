@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_60_35_km_nnw_of_bahia_de_caraquez_ecuador-D040",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -80.901904677,
+          -1.4836127870000002
+        ],
+        [
+          -78.284680361,
+          -1.4836127870000002
+        ],
+        [
+          -78.284680361,
+          0.583055533
+        ],
+        [
+          -80.901904677,
+          0.583055533
+        ],
+        [
+          -80.901904677,
+          -1.4836127870000002
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -80.901904677,
+    -1.4836127870000002,
+    -78.284680361,
+    0.583055533
+  ],
+  "properties": {
+    "title": "2017 M 6.0 - 35 km NNW of Bah\u00eda de Car\u00e1quez, Ecuador \u2014 Descending Track 040",
+    "start_datetime": "2017-06-24T00:00:00+00:00",
+    "end_datetime": "2017-07-18T00:00:00+00:00",
+    "coseis:event_id": "us100095nr",
+    "coseis:event_name": "2017 M 6.0 - 35 km NNW of Bah\u00eda de Car\u00e1quez, Ecuador",
+    "coseis:magnitude": 6.0,
+    "coseis:event_date": "2017-06-30",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 13,
+    "sat:orbit_state": "descending",
+    "coseis:track": "040",
+    "coseis:satellites": "Sentinel-1B_Sentinel-1B",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2017-07-18T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us100095nr",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us100095nr/m_60_35_km_nnw_of_bahia_de_caraquez_ecuador-D040/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_60_35_km_nnw_of_bahia_de_caraquez_ecuador_us100095nr/S1-COSEIS_SAR-D-R-040-tops-20170718_20170624-110011-00081W_00002S-PP-de51-v1_0_0/S1-COSEIS_SAR-D-R-040-tops-20170718_20170624-110011-00081W_00002S-PP-de51-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

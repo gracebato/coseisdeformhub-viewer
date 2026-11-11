@@ -1,0 +1,20 @@
+{
+  "event_id": "us7000maxr",
+  "job_id": "m_64_150_km_nw_of_tobelo_indonesia-D090",
+  "event_title": "M 6.4 - 150 km NW of Tobelo, Indonesia",
+  "orbit": "descending",
+  "track": "090",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2024/m_64_150_km_nw_of_tobelo_indonesia_us7000maxr/S1-COSEIS_SAR-D-R-090-tops-20240409_20240328-211746-00125E_00002N-PP-058c-v1_0_0/S1-COSEIS_SAR-D-R-090-tops-20240409_20240328-211746-00125E_00002N-PP-058c-v1_0_0.nc",
+  "stats": {
+    "min": -0.07162418961524963,
+    "max": 3.0234363079071045,
+    "mean": 1.4671176083634834,
+    "std": 0.6668563631489475
+  },
+  "bounds": {
+    "lon_min": 125.43152812299999,
+    "lon_max": 128.099585813,
+    "lat_min": 1.584998379,
+    "lat_max": 3.646944473
+  }
+}

@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_60_52_km_nnw_of_jayapura_indonesia/S1-COSEIS_SAR-A-R-082-tops-20160930_20160813-085610-00140E_00004S-PP-ef46-v1_0_0/S1-COSEIS_SAR-A-R-082-tops-20160930_20160813-085610-00140E_00004S-PP-ef46-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_60_52_km_nnw_of_jayapura_indonesia_us10006qas/S1-COSEIS_SAR-A-R-082-tops-20160930_20160813-085610-00140E_00004S-PP-ef46-v1_0_0/S1-COSEIS_SAR-A-R-082-tops-20160930_20160813-085610-00140E_00004S-PP-ef46-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

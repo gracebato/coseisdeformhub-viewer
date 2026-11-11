@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_64_4_km_sse_of_indios_puerto_rico/S1-COSEIS_SAR-D-R-098-tops-20200114_20200102-102306-00069W_00017N-PP-2699-v1_0_0/S1-COSEIS_SAR-D-R-098-tops-20200114_20200102-102306-00069W_00017N-PP-2699-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_64_4_km_sse_of_indios_puerto_rico_pr2020007007/S1-COSEIS_SAR-D-R-098-tops-20200114_20200102-102306-00069W_00017N-PP-2699-v1_0_0/S1-COSEIS_SAR-D-R-098-tops-20200114_20200102-102306-00069W_00017N-PP-2699-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

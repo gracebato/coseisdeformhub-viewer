@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000t99j",
+  "job_id": "m_60_75_km_ssw_of_el_progreso_mexico-A020",
+  "event_title": "M 6.0 - 75 km SSW of El Progreso, Mexico",
+  "orbit": "ascending",
+  "track": "020",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2026/m_60_75_km_ssw_of_el_progreso_mexico_us6000t99j/S1-COSEIS_SAR-A-R-020-tops-20260701_20260531-012214-00111W_00023N-PP-8cfa-v1_0_0/S1-COSEIS_SAR-A-R-020-tops-20260701_20260531-012214-00111W_00023N-PP-8cfa-v1_0_0.nc",
+  "stats": {
+    "min": -0.6110783219337463,
+    "max": 0.20879752933979034,
+    "mean": -0.2246660698723902,
+    "std": 0.1550608685893334
+  },
+  "bounds": {
+    "lon_min": -110.91624913300001,
+    "lon_max": -107.65680208100001,
+    "lat_min": 22.666346533000002,
+    "lat_max": 26.402460633
+  }
+}

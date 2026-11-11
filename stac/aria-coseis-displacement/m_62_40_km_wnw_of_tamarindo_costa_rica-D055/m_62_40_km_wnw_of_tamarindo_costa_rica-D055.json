@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2024/m_62_40_km_wnw_of_tamarindo_costa_rica/S1-COSEIS_SAR-D-R-055-tops-20241016_20241004-113914-00089W_00011N-PP-9f48-v1_0_0/S1-COSEIS_SAR-D-R-055-tops-20241016_20241004-113914-00089W_00011N-PP-9f48-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2024/m_62_40_km_wnw_of_tamarindo_costa_rica_us6000nyau/S1-COSEIS_SAR-D-R-055-tops-20241016_20241004-113914-00089W_00011N-PP-9f48-v1_0_0/S1-COSEIS_SAR-D-R-055-tops-20241016_20241004-113914-00089W_00011N-PP-9f48-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

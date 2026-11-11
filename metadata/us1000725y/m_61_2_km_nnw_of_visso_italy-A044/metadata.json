@@ -4,7 +4,7 @@
   "event_title": "M 6.1 - 2 km NNW of Visso, Italy",
   "orbit": "ascending",
   "track": "044",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_61_2_km_nnw_of_visso_italy/S1-COSEIS_SAR-A-R-044-tops-20161027_20161021-165656-00012E_00041N-PP-5f9d-v1_0_0/S1-COSEIS_SAR-A-R-044-tops-20161027_20161021-165656-00012E_00041N-PP-5f9d-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_61_2_km_nnw_of_visso_italy_us1000725y/S1-COSEIS_SAR-A-R-044-tops-20161027_20161021-165656-00012E_00041N-PP-5f9d-v1_0_0/S1-COSEIS_SAR-A-R-044-tops-20161027_20161021-165656-00012E_00041N-PP-5f9d-v1_0_0.nc",
   "stats": {
     "min": -0.09940896183252335,
     "max": 0.8315147161483765,

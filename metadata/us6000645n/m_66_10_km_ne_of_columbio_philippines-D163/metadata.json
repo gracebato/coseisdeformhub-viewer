@@ -4,17 +4,17 @@
   "event_title": "M 6.6 - 10 km NE of Columbio, Philippines",
   "orbit": "descending",
   "track": "163",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_66_10_km_ne_of_columbio_philippines/S1-COSEIS_SAR-D-R-163-tops-20191107_20191026-212435-00124E_00006N-PP-70ca-v1_0_0/S1-COSEIS_SAR-D-R-163-tops-20191107_20191026-212435-00124E_00006N-PP-70ca-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_66_10_km_ne_of_columbio_philippines_us6000645n/S1-COSEIS_SAR-D-R-163-tops-20191107_20191026-212423-00124E_00006N-PP-6df8-v1_0_0/S1-COSEIS_SAR-D-R-163-tops-20191107_20191026-212423-00124E_00006N-PP-6df8-v1_0_0.nc",
   "stats": {
-    "min": -0.5807130932807922,
-    "max": -0.13333317637443542,
-    "mean": -0.40903130173683167,
-    "std": 0.08741667121648788
+    "min": -1.0530521869659424,
+    "max": -0.6982938647270203,
+    "mean": -0.8900983929634094,
+    "std": 0.055075064301490784
   },
   "bounds": {
     "lon_min": 124.198473181,
-    "lon_max": 126.82736417299999,
-    "lat_min": 5.544998347,
-    "lat_max": 7.591944429000001
+    "lon_max": 127.136253309,
+    "lat_min": 5.544957547,
+    "lat_max": 9.089127049
   }
 }

@@ -1,0 +1,20 @@
+{
+  "event_id": "us100095nr",
+  "job_id": "m_60_35_km_nnw_of_bahia_de_caraquez_ecuador-A018",
+  "event_title": "M 6.0 - 35 km NNW of Bah\u00eda de Car\u00e1quez, Ecuador",
+  "orbit": "ascending",
+  "track": "018",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_60_35_km_nnw_of_bahia_de_caraquez_ecuador_us100095nr/S1-COSEIS_SAR-A-R-018-tops-20170704_20170622-233634-00081W_00002S-PP-7c73-v1_0_0/S1-COSEIS_SAR-A-R-018-tops-20170704_20170622-233634-00081W_00002S-PP-7c73-v1_0_0.nc",
+  "stats": {
+    "min": -0.14135673642158508,
+    "max": 0.3617253601551056,
+    "mean": 0.04269719079564065,
+    "std": 0.05809988378314516
+  },
+  "bounds": {
+    "lon_min": -81.028293667,
+    "lon_max": -78.068569077,
+    "lat_min": -2.030002113,
+    "lat_max": 1.434167325
+  }
+}

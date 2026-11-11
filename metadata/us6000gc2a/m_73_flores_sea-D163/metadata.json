@@ -4,7 +4,7 @@
   "event_title": "M 7.3 - Flores Sea",
   "orbit": "descending",
   "track": "163",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_73_flores_sea/S1-COSEIS_SAR-D-R-163-tops-20211214_20211202-212843-00121E_00010S-PP-bb8b-v1_0_0/S1-COSEIS_SAR-D-R-163-tops-20211214_20211202-212843-00121E_00010S-PP-bb8b-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_73_flores_sea_us6000gc2a/S1-COSEIS_SAR-D-R-163-tops-20211214_20211202-212843-00121E_00010S-PP-bb8b-v1_0_0/S1-COSEIS_SAR-D-R-163-tops-20211214_20211202-212843-00121E_00010S-PP-bb8b-v1_0_0.nc",
   "stats": {
     "min": -0.4679124057292938,
     "max": -0.22853559255599976,

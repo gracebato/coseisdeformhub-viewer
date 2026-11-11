@@ -1,0 +1,20 @@
+{
+  "event_id": "us200041ty",
+  "job_id": "m_65_47_km_nw_of_maubara_timor_leste-A039",
+  "event_title": "M 6.5 - 47 km NW of Maubara, Timor Leste",
+  "orbit": "ascending",
+  "track": "039",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_65_47_km_nw_of_maubara_timor_leste_us200041ty/S1-COSEIS_SAR-A-R-039-tops-20151202_20151015-100813-00123E_00010S-PP-2f30-v1_0_0/S1-COSEIS_SAR-A-R-039-tops-20151202_20151015-100813-00123E_00010S-PP-2f30-v1_0_0.nc",
+  "stats": {
+    "min": -0.20644231140613556,
+    "max": 0.8398760557174683,
+    "mean": 0.3082053045147229,
+    "std": 0.244423966972284
+  },
+  "bounds": {
+    "lon_min": 122.607917153,
+    "lon_max": 125.354863795,
+    "lat_min": -10.438612750999999,
+    "lat_max": -7.784999516999999
+  }
+}

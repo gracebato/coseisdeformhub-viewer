@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/sar/v1.0.0/schema.json"
+  ],
+  "id": "m_60_55_km_w_of_sola_vanuatu-D059",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          166.847361789,
+          -15.528097267
+        ],
+        [
+          169.638475133,
+          -15.528097267
+        ],
+        [
+          169.638475133,
+          -13.252817669
+        ],
+        [
+          166.847361789,
+          -13.252817669
+        ],
+        [
+          166.847361789,
+          -15.528097267
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    166.847361789,
+    -15.528097267,
+    169.638475133,
+    -13.252817669
+  ],
+  "properties": {
+    "title": "2026 M 6.0 - 55 km W of Sola, Vanuatu \u2014 Descending Track 059",
+    "start_datetime": "2026-07-15T00:00:00+00:00",
+    "end_datetime": "2026-07-27T00:00:00+00:00",
+    "coseis:event_id": "us7000t37a",
+    "coseis:event_name": "2026 M 6.0 - 55 km W of Sola, Vanuatu",
+    "coseis:magnitude": 6.0,
+    "coseis:event_date": "2026-07-24",
+    "coseis:pager_alert": "green",
+    "coseis:depth_km": 15,
+    "sat:orbit_state": "descending",
+    "coseis:track": "059",
+    "coseis:satellites": "Sentinel-1C_Sentinel-1C",
+    "sar:instrument_mode": "IW",
+    "sar:frequency_band": "C",
+    "sar:polarizations": [
+      "VV"
+    ],
+    "sar:product_type": "COSEIS_DISPLACEMENT",
+    "sar:observation_direction": "right",
+    "datetime": "2026-07-27T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000t37a",
+      "title": "USGS event page"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Coseismic Deformation Hub"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "ARIA COSEIS Coseismic Displacement Products"
+    }
+  ],
+  "assets": {
+    "metadata": {
+      "href": "https://gracebato.github.io/coseisdeformhub-viewer/metadata/us7000t37a/m_60_55_km_w_of_sola_vanuatu-D059/metadata.json",
+      "type": "application/json",
+      "title": "Statistics and bounds",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "source": {
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2026/m_60_63_km_wsw_of_sola_vanuatu_us7000t37a/S1-COSEIS_SAR-D-R-059-tops-20260727_20260715-182013-00167E_00016S-PP-2e09-v1_0_0/S1-COSEIS_SAR-D-R-059-tops-20260727_20260715-182013-00167E_00016S-PP-2e09-v1_0_0.nc",
+      "type": "application/x-netcdf",
+      "title": "Source COSEIS NetCDF product",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "aria-coseis-displacement"
+}

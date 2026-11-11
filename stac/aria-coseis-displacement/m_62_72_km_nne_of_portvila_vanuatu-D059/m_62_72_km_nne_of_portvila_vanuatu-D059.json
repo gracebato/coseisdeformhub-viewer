@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_62_72_km_nne_of_portvila_vanuatu/S1-COSEIS_SAR-D-R-059-tops-20200913_20200901-182109-00166E_00018S-PP-f55c-v1_0_0/S1-COSEIS_SAR-D-R-059-tops-20200913_20200901-182109-00166E_00018S-PP-f55c-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_62_72_km_nne_of_portvila_vanuatu_us7000bj6y/S1-COSEIS_SAR-D-R-059-tops-20200913_20200901-182109-00166E_00018S-PP-f55c-v1_0_0/S1-COSEIS_SAR-D-R-059-tops-20200913_20200901-182109-00166E_00018S-PP-f55c-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

@@ -4,7 +4,7 @@
   "event_title": "M 7.2 - 155 km SSE of Sofifi, Indonesia",
   "orbit": "descending",
   "track": "017",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_72_155_km_sse_of_sofifi_indonesia/S1-COSEIS_SAR-D-R-017-tops-20190724_20190712-210959-00127E_00002S-PP-9fba-v1_0_0/S1-COSEIS_SAR-D-R-017-tops-20190724_20190712-210959-00127E_00002S-PP-9fba-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_72_155_km_sse_of_sofifi_indonesia_us70004jyv/S1-COSEIS_SAR-D-R-017-tops-20190724_20190712-210959-00127E_00002S-PP-9fba-v1_0_0/S1-COSEIS_SAR-D-R-017-tops-20190724_20190712-210959-00127E_00002S-PP-9fba-v1_0_0.nc",
   "stats": {
     "min": -0.5880064368247986,
     "max": -0.19102822244167328,

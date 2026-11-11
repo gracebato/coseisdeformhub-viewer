@@ -4,7 +4,7 @@
   "event_title": "M 6.2 - 42 km E of Port Heiden, Alaska",
   "orbit": "ascending",
   "track": "153",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_62_42_km_e_of_port_heiden_alaska/S1-COSEIS_SAR-A-R-153-tops-20160420_20160327-042411-00162W_00054N-PP-02b5-v1_0_0/S1-COSEIS_SAR-A-R-153-tops-20160420_20160327-042411-00162W_00054N-PP-02b5-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_62_42_km_e_of_port_heiden_alaska_ak01649w95tp/S1-COSEIS_SAR-A-R-153-tops-20160420_20160327-042411-00162W_00054N-PP-02b5-v1_0_0/S1-COSEIS_SAR-A-R-153-tops-20160420_20160327-042411-00162W_00054N-PP-02b5-v1_0_0.nc",
   "stats": {
     "min": -0.18326924741268158,
     "max": 0.15068374574184418,

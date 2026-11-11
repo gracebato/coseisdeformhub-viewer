@@ -4,7 +4,7 @@
   "event_title": "M 6.9 - 90 km E of Yujing, Taiwan",
   "orbit": "ascending",
   "track": "069",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_69_90_km_e_of_yujing_taiwan/S1-COSEIS_SAR-A-R-069-tops-20220922_20220910-100129-00120E_00021N-PP-25c0-v1_0_0/S1-COSEIS_SAR-A-R-069-tops-20220922_20220910-100129-00120E_00021N-PP-25c0-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_69_90_km_e_of_yujing_taiwan_us7000i90q/S1-COSEIS_SAR-A-R-069-tops-20220922_20220910-100129-00120E_00021N-PP-25c0-v1_0_0/S1-COSEIS_SAR-A-R-069-tops-20220922_20220910-100129-00120E_00021N-PP-25c0-v1_0_0.nc",
   "stats": {
     "min": 0.6435474157333374,
     "max": 1.5073163509368896,

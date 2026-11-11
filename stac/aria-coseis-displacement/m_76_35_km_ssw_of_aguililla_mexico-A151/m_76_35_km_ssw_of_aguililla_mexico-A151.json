@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_76_35_km_ssw_of_aguililla_mexico/S1-COSEIS_SAR-A-R-151-tops-20220928_20220916-005707-00103W_00017N-PP-31dd-v1_0_0/S1-COSEIS_SAR-A-R-151-tops-20220928_20220916-005707-00103W_00017N-PP-31dd-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_76_35_km_ssw_of_aguililla_mexico_us7000i9bw/S1-COSEIS_SAR-A-R-151-tops-20220928_20220916-005707-00103W_00017N-PP-31dd-v1_0_0/S1-COSEIS_SAR-A-R-151-tops-20220928_20220916-005707-00103W_00017N-PP-31dd-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

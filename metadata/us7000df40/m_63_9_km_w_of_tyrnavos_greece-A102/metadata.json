@@ -4,7 +4,7 @@
   "event_title": "M 6.3 - 9 km W of T\u00fdrnavos, Greece",
   "orbit": "ascending",
   "track": "102",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_63_9_km_w_of_tyrnavos_greece/S1-COSEIS_SAR-A-R-102-tops-20210303_20210225-162335-00021E_00038N-PP-4d07-v1_0_0/S1-COSEIS_SAR-A-R-102-tops-20210303_20210225-162335-00021E_00038N-PP-4d07-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_63_9_km_w_of_tyrnavos_greece_us7000df40/S1-COSEIS_SAR-A-R-102-tops-20210303_20210225-162335-00021E_00038N-PP-4d07-v1_0_0/S1-COSEIS_SAR-A-R-102-tops-20210303_20210225-162335-00021E_00038N-PP-4d07-v1_0_0.nc",
   "stats": {
     "min": -0.3508265018463135,
     "max": 0.17849044501781464,

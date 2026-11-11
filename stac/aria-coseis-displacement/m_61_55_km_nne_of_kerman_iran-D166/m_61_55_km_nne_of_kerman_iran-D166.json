@@ -10,38 +10,38 @@
     "coordinates": [
       [
         [
-          54.90281738899999,
-          30.009125385000004
+          54.924484072999995,
+          30.011069831000004
         ],
         [
-          57.94059759699999,
-          30.009125385000004
+          57.929486477,
+          30.011069831000004
         ],
         [
-          57.94059759699999,
-          31.997182531000004
+          57.929486477,
+          31.993015861000003
         ],
         [
-          54.90281738899999,
-          31.997182531000004
+          54.924484072999995,
+          31.993015861000003
         ],
         [
-          54.90281738899999,
-          30.009125385000004
+          54.924484072999995,
+          30.011069831000004
         ]
       ]
     ]
   },
   "bbox": [
-    54.90281738899999,
-    30.009125385000004,
-    57.94059759699999,
-    31.997182531000004
+    54.924484072999995,
+    30.011069831000004,
+    57.929486477,
+    31.993015861000003
   ],
   "properties": {
     "title": "2017 M 6.1 - 55 km NNE of Kerman, Iran \u2014 Descending Track 166",
     "start_datetime": "2017-11-30T00:00:00+00:00",
-    "end_datetime": "2017-12-12T00:00:00+00:00",
+    "end_datetime": "2017-12-06T00:00:00+00:00",
     "coseis:event_id": "us1000bjnz",
     "coseis:event_name": "2017 M 6.1 - 55 km NNE of Kerman, Iran",
     "coseis:magnitude": 6.1,
@@ -50,7 +50,7 @@
     "coseis:depth_km": 9,
     "sat:orbit_state": "descending",
     "coseis:track": "166",
-    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
+    "coseis:satellites": "Sentinel-1B_Sentinel-1A",
     "sar:instrument_mode": "IW",
     "sar:frequency_band": "C",
     "sar:polarizations": [
@@ -58,7 +58,7 @@
     ],
     "sar:product_type": "COSEIS_DISPLACEMENT",
     "sar:observation_direction": "right",
-    "datetime": "2017-12-12T00:00:00Z"
+    "datetime": "2017-12-06T00:00:00Z"
   },
   "links": [
     {
@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_61_55_km_nne_of_kerman_iran/S1-COSEIS_SAR-D-R-166-tops-20171212_20171130-021351-00055E_00030N-PP-5a90-v1_0_0/S1-COSEIS_SAR-D-R-166-tops-20171212_20171130-021351-00055E_00030N-PP-5a90-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_61_55_km_nne_of_kerman_iran_us1000bjnz/S1-COSEIS_SAR-D-R-166-tops-20171206_20171130-021314-00055E_00030N-PP-314f-v1_0_0/S1-COSEIS_SAR-D-R-166-tops-20171206_20171130-021314-00055E_00030N-PP-314f-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

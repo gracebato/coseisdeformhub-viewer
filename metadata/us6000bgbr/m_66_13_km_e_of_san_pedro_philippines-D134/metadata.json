@@ -4,7 +4,7 @@
   "event_title": "M 6.6 - 13 km E of San Pedro, Philippines",
   "orbit": "descending",
   "track": "134",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_66_13_km_e_of_san_pedro_philippines/S1-COSEIS_SAR-D-R-134-tops-20200819_20200807-213939-00121E_00010N-PP-d5a3-v1_0_0/S1-COSEIS_SAR-D-R-134-tops-20200819_20200807-213939-00121E_00010N-PP-d5a3-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_66_13_km_e_of_san_pedro_philippines_us6000bgbr/S1-COSEIS_SAR-D-R-134-tops-20200819_20200807-213939-00121E_00010N-PP-d5a3-v1_0_0/S1-COSEIS_SAR-D-R-134-tops-20200819_20200807-213939-00121E_00010N-PP-d5a3-v1_0_0.nc",
   "stats": {
     "min": 0.0346563383936882,
     "max": 1.0894646644592285,

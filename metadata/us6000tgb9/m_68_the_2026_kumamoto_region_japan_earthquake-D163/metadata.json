@@ -1,0 +1,20 @@
+{
+  "event_id": "us6000tgb9",
+  "job_id": "m_68_the_2026_kumamoto_region_japan_earthquake-D163",
+  "event_title": "M 6.8 - The 2026 Kumamoto Region, Japan Earthquake",
+  "orbit": "descending",
+  "track": "163",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2026/m_68_the_2026_kumamoto_region_japan_earthquake_us6000tgb9/S1-COSEIS_SAR-D-R-163-tops-20260728_20260716-211642-00129E_00032N-PP-650f-v1_0_0/S1-COSEIS_SAR-D-R-163-tops-20260728_20260716-211642-00129E_00032N-PP-650f-v1_0_0.nc",
+  "stats": {
+    "min": -0.10093804448843002,
+    "max": 0.35028180480003357,
+    "mean": 0.10669097731792408,
+    "std": 0.04054668788710761
+  },
+  "bounds": {
+    "lon_min": 129.305695489,
+    "lon_max": 132.371253497,
+    "lat_min": 31.71023625700001,
+    "lat_max": 33.68996006300001
+  }
+}

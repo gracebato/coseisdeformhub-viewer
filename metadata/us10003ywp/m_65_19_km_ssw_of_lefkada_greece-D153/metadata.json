@@ -4,7 +4,7 @@
   "event_title": "M 6.5 - 19 km SSW of Lefk\u00e1da, Greece",
   "orbit": "descending",
   "track": "153",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_65_19_km_ssw_of_lefkada_greece/S1-COSEIS_SAR-D-R-153-tops-20151128_20151116-044748-00017E_00038N-PP-ce61-v1_0_0/S1-COSEIS_SAR-D-R-153-tops-20151128_20151116-044748-00017E_00038N-PP-ce61-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_65_19_km_ssw_of_lefkada_greece_us10003ywp/S1-COSEIS_SAR-D-R-153-tops-20151128_20151116-044748-00017E_00038N-PP-ce61-v1_0_0/S1-COSEIS_SAR-D-R-153-tops-20151128_20151116-044748-00017E_00038N-PP-ce61-v1_0_0.nc",
   "stats": {
     "min": -0.1326736956834793,
     "max": 0.047247812151908875,

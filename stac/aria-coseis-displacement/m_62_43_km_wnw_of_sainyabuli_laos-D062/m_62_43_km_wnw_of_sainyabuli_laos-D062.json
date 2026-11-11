@@ -11,36 +11,36 @@
       [
         [
           99.85615068499999,
-          17.936625327
+          17.936624527
         ],
         [
-          102.608375109,
-          17.936625327
+          102.95781983299999,
+          17.936624527
         ],
         [
-          102.608375109,
-          19.619404451
-        ],
-        [
-          99.85615068499999,
-          19.619404451
+          102.95781983299999,
+          21.282182759
         ],
         [
           99.85615068499999,
-          17.936625327
+          21.282182759
+        ],
+        [
+          99.85615068499999,
+          17.936624527
         ]
       ]
     ]
   },
   "bbox": [
     99.85615068499999,
-    17.936625327,
-    102.608375109,
-    19.619404451
+    17.936624527,
+    102.95781983299999,
+    21.282182759
   ],
   "properties": {
     "title": "2019 M 6.2 - 43 km WNW of Sainyabuli, Laos \u2014 Descending Track 062",
-    "start_datetime": "2019-11-18T00:00:00+00:00",
+    "start_datetime": "2019-11-12T00:00:00+00:00",
     "end_datetime": "2019-11-24T00:00:00+00:00",
     "coseis:event_id": "us70006ara",
     "coseis:event_name": "2019 M 6.2 - 43 km WNW of Sainyabuli, Laos",
@@ -50,7 +50,7 @@
     "coseis:depth_km": 10,
     "sat:orbit_state": "descending",
     "coseis:track": "062",
-    "coseis:satellites": "Sentinel-1A_Sentinel-1B",
+    "coseis:satellites": "Sentinel-1A_Sentinel-1A",
     "sar:instrument_mode": "IW",
     "sar:frequency_band": "C",
     "sar:polarizations": [
@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_62_43_km_wnw_of_sainyabuli_laos/S1-COSEIS_SAR-D-R-062-tops-20191124_20191118-230758-00100E_00018N-PP-3a1f-v1_0_0/S1-COSEIS_SAR-D-R-062-tops-20191124_20191118-230758-00100E_00018N-PP-3a1f-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_62_43_km_wnw_of_sainyabuli_laos_us70006ara/S1-COSEIS_SAR-D-R-062-tops-20191124_20191112-230758-00100E_00018N-PP-e2fd-v1_0_0/S1-COSEIS_SAR-D-R-062-tops-20191124_20191112-230758-00100E_00018N-PP-e2fd-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

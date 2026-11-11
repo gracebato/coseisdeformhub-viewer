@@ -4,7 +4,7 @@
   "event_title": "M 6.5 - 45 km NE of Puerto Obald\u00eda, Panama",
   "orbit": "ascending",
   "track": "048",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_65_45_km_ne_of_puerto_obaldia_panama/S1-COSEIS_SAR-A-R-048-tops-20230530_20230518-232357-00079W_00008N-PP-d876-v1_0_0/S1-COSEIS_SAR-A-R-048-tops-20230530_20230518-232357-00079W_00008N-PP-d876-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_65_45_km_ne_of_puerto_obaldia_panama_us7000k3n3/S1-COSEIS_SAR-A-R-048-tops-20230530_20230518-232357-00079W_00008N-PP-d876-v1_0_0/S1-COSEIS_SAR-A-R-048-tops-20230530_20230518-232357-00079W_00008N-PP-d876-v1_0_0.nc",
   "stats": {
     "min": -0.034956250339746475,
     "max": 0.1786392629146576,

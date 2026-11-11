@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_67_60_km_ssw_of_boca_chica_panama/S1-COSEIS_SAR-D-R-011-tops-20221024_20221012-111532-00083W_00006N-PP-6be0-v1_0_0/S1-COSEIS_SAR-D-R-011-tops-20221024_20221012-111532-00083W_00006N-PP-6be0-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2022/m_67_60_km_ssw_of_boca_chica_panama_us6000iv6c/S1-COSEIS_SAR-D-R-011-tops-20221024_20221012-111532-00083W_00006N-PP-6be0-v1_0_0/S1-COSEIS_SAR-D-R-011-tops-20221024_20221012-111532-00083W_00006N-PP-6be0-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_76_48_km_ne_of_kokopo_papua_new_guinea/S1-COSEIS_SAR-A-R-067-tops-20190517_20190505-081448-00150E_00005S-PP-cdd9-v1_0_0/S1-COSEIS_SAR-A-R-067-tops-20190517_20190505-081448-00150E_00005S-PP-cdd9-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2019/m_76_48_km_ne_of_kokopo_papua_new_guinea_us70003kyy/S1-COSEIS_SAR-A-R-067-tops-20190517_20190505-081448-00150E_00005S-PP-cdd9-v1_0_0/S1-COSEIS_SAR-A-R-067-tops-20190517_20190505-081448-00150E_00005S-PP-cdd9-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

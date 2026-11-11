@@ -4,7 +4,7 @@
   "event_title": "M 6.0 - 63 km NNE of Kerman, Iran",
   "orbit": "descending",
   "track": "093",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_60_63_km_nne_of_kerman_iran/S1-COSEIS_SAR-D-R-093-tops-20171213_20171207-020457-00057E_00030N-PP-0722-v1_0_0/S1-COSEIS_SAR-D-R-093-tops-20171213_20171207-020457-00057E_00030N-PP-0722-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2017/m_60_63_km_nne_of_kerman_iran_us2000c3mi/S1-COSEIS_SAR-D-R-093-tops-20171213_20171207-020457-00057E_00030N-PP-0722-v1_0_0/S1-COSEIS_SAR-D-R-093-tops-20171213_20171207-020457-00057E_00030N-PP-0722-v1_0_0.nc",
   "stats": {
     "min": -0.18012581765651703,
     "max": 0.8213496804237366,

@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_64_96_km_ene_of_portolry_vanuatu/S1-COSEIS_SAR-A-R-154-tops-20230806_20230725-072248-00165E_00016S-PP-a82f-v1_0_0/S1-COSEIS_SAR-A-R-154-tops-20230806_20230725-072248-00165E_00016S-PP-a82f-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_64_96_km_ene_of_portolry_vanuatu_us6000kvmq/S1-COSEIS_SAR-A-R-154-tops-20230806_20230725-072248-00165E_00016S-PP-a82f-v1_0_0/S1-COSEIS_SAR-A-R-154-tops-20230806_20230725-072248-00165E_00016S-PP-a82f-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

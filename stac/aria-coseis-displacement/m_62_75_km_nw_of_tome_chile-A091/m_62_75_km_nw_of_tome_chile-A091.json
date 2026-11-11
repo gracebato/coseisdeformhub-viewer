@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_62_75_km_nw_of_tome_chile/S1-COSEIS_SAR-A-R-091-tops-20150409_20150316-233522-00074W_00038S-PP-8d87-v1_0_0/S1-COSEIS_SAR-A-R-091-tops-20150409_20150316-233522-00074W_00038S-PP-8d87-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2015/m_62_75_km_nw_of_tome_chile_us10001nj1/S1-COSEIS_SAR-A-R-091-tops-20150409_20150316-233522-00074W_00038S-PP-8d87-v1_0_0/S1-COSEIS_SAR-A-R-091-tops-20150409_20150316-233522-00074W_00038S-PP-8d87-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

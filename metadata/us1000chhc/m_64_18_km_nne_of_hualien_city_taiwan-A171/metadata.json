@@ -4,7 +4,7 @@
   "event_title": "M 6.4 - 18 km NNE of Hualien City, Taiwan",
   "orbit": "ascending",
   "track": "171",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_64_18_km_nne_of_hualien_city_taiwan/S1-COSEIS_SAR-A-R-171-tops-20180216_20180204-095222-00122E_00023N-PP-8924-v1_0_0/S1-COSEIS_SAR-A-R-171-tops-20180216_20180204-095222-00122E_00023N-PP-8924-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2018/m_64_18_km_nne_of_hualien_city_taiwan_us1000chhc/S1-COSEIS_SAR-A-R-171-tops-20180216_20180204-095222-00122E_00023N-PP-8924-v1_0_0/S1-COSEIS_SAR-A-R-171-tops-20180216_20180204-095222-00122E_00023N-PP-8924-v1_0_0.nc",
   "stats": {
     "min": -0.17873907089233398,
     "max": 0.05361568555235863,

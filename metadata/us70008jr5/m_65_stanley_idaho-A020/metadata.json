@@ -4,7 +4,7 @@
   "event_title": "M 6.5 - Stanley, Idaho",
   "orbit": "ascending",
   "track": "020",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_65_stanley_idaho/S1-COSEIS_SAR-A-R-020-tops-20200408_20200327-012803-00116W_00044N-PP-9103-v1_0_0/S1-COSEIS_SAR-A-R-020-tops-20200408_20200327-012803-00116W_00044N-PP-9103-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2020/m_65_stanley_idaho_us70008jr5/S1-COSEIS_SAR-A-R-020-tops-20200408_20200327-012803-00116W_00044N-PP-9103-v1_0_0/S1-COSEIS_SAR-A-R-020-tops-20200408_20200327-012803-00116W_00044N-PP-9103-v1_0_0.nc",
   "stats": {
     "min": -0.16002321243286133,
     "max": -0.020312665030360222,

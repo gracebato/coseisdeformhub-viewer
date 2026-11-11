@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_60_181_km_sw_of_nabire_indonesia/S1-COSEIS_SAR-D-R-148-tops-20211119_20211107-204637-00132E_00005S-PP-0b85-v1_0_0/S1-COSEIS_SAR-D-R-148-tops-20211119_20211107-204637-00132E_00005S-PP-0b85-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_60_181_km_sw_of_nabire_indonesia_us7000ft0f/S1-COSEIS_SAR-D-R-148-tops-20211119_20211107-204637-00132E_00005S-PP-0b85-v1_0_0/S1-COSEIS_SAR-D-R-148-tops-20211119_20211107-204637-00132E_00005S-PP-0b85-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

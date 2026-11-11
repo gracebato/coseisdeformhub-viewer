@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_63_62_km_s_of_masachapa_nicaragua/S1-COSEIS_SAR-A-R-063-tops-20211114_20211102-000528-00090W_00009N-PP-2f52-v1_0_0/S1-COSEIS_SAR-A-R-063-tops-20211114_20211102-000528-00090W_00009N-PP-2f52-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_63_62_km_s_of_masachapa_nicaragua_us7000fskw/S1-COSEIS_SAR-A-R-063-tops-20211114_20211102-000528-00090W_00009N-PP-2f52-v1_0_0/S1-COSEIS_SAR-A-R-063-tops-20211114_20211102-000528-00090W_00009N-PP-2f52-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

@@ -10,38 +10,38 @@
     "coordinates": [
       [
         [
-          119.126528679,
-          21.755236293000003
+          119.126806457,
+          21.754402959
         ],
         [
-          122.060975471,
-          21.755236293000003
+          122.061253249,
+          21.754402959
         ],
         [
-          122.060975471,
-          24.088293715000002
+          122.061253249,
+          24.087460381
         ],
         [
-          119.126528679,
-          24.088293715000002
+          119.126806457,
+          24.087460381
         ],
         [
-          119.126528679,
-          21.755236293000003
+          119.126806457,
+          21.754402959
         ]
       ]
     ]
   },
   "bbox": [
-    119.126528679,
-    21.755236293000003,
-    122.060975471,
-    24.088293715000002
+    119.126806457,
+    21.754402959,
+    122.061253249,
+    24.087460381
   ],
   "properties": {
     "title": "2016 M 6.4 - 25 km SE of Yujing, Taiwan \u2014 Descending Track 105",
     "start_datetime": "2016-02-04T00:00:00+00:00",
-    "end_datetime": "2016-02-28T00:00:00+00:00",
+    "end_datetime": "2016-02-16T00:00:00+00:00",
     "coseis:event_id": "us20004y6h",
     "coseis:event_name": "2016 M 6.4 - 25 km SE of Yujing, Taiwan",
     "coseis:magnitude": 6.4,
@@ -58,7 +58,7 @@
     ],
     "sar:product_type": "COSEIS_DISPLACEMENT",
     "sar:observation_direction": "right",
-    "datetime": "2016-02-28T00:00:00Z"
+    "datetime": "2016-02-16T00:00:00Z"
   },
   "links": [
     {
@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_64_25_km_se_of_yujing_taiwan/S1-COSEIS_SAR-D-R-105-tops-20160228_20160204-215231-00119E_00022N-PP-fb82-v1_0_0/S1-COSEIS_SAR-D-R-105-tops-20160228_20160204-215231-00119E_00022N-PP-fb82-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_64_25_km_se_of_yujing_taiwan_us20004y6h/S1-COSEIS_SAR-D-R-105-tops-20160216_20160204-215231-00119E_00022N-PP-1a5c-v1_0_0/S1-COSEIS_SAR-D-R-105-tops-20160216_20160204-215231-00119E_00022N-PP-1a5c-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [

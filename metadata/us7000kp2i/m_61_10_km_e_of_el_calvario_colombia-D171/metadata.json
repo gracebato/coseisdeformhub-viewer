@@ -4,7 +4,7 @@
   "event_title": "M 6.1 - 10 km E of El Calvario, Colombia",
   "orbit": "descending",
   "track": "171",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_61_10_km_e_of_el_calvario_colombia/S1-COSEIS_SAR-D-R-171-tops-20230819_20230807-103536-00074W_00003N-PP-1968-v1_0_0/S1-COSEIS_SAR-D-R-171-tops-20230819_20230807-103536-00074W_00003N-PP-1968-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2023/m_61_10_km_e_of_el_calvario_colombia_us7000kp2i/S1-COSEIS_SAR-D-R-171-tops-20230819_20230807-103536-00074W_00003N-PP-1968-v1_0_0/S1-COSEIS_SAR-D-R-171-tops-20230819_20230807-103536-00074W_00003N-PP-1968-v1_0_0.nc",
   "stats": {
     "min": -0.038736045360565186,
     "max": 0.11915217339992523,

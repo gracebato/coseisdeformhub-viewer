@@ -4,7 +4,7 @@
   "event_title": "M 6.3 - 99 km WNW of Luwuk, Indonesia",
   "orbit": "descending",
   "track": "061",
-  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_63_99_km_wnw_of_luwuk_indonesia/S1-COSEIS_SAR-D-R-061-tops-20210728_20210716-213458-00121E_00002S-PP-6d85-v1_0_0/S1-COSEIS_SAR-D-R-061-tops-20210728_20210716-213458-00121E_00002S-PP-6d85-v1_0_0.nc",
+  "nc_url": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2021/m_63_99_km_wnw_of_luwuk_indonesia_us6000ez5x/S1-COSEIS_SAR-D-R-061-tops-20210728_20210716-213458-00121E_00002S-PP-6d85-v1_0_0/S1-COSEIS_SAR-D-R-061-tops-20210728_20210716-213458-00121E_00002S-PP-6d85-v1_0_0.nc",
   "stats": {
     "min": -0.06278432160615921,
     "max": 1.0808030366897583,

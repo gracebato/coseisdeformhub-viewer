@@ -95,7 +95,7 @@
       ]
     },
     "source": {
-      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_63_49_km_nne_of_al_hoceima_morocco/S1-COSEIS_SAR-D-R-081-tops-20160215_20160110-061902-00006W_00034N-PP-4b86-v1_0_0/S1-COSEIS_SAR-D-R-081-tops-20160215_20160110-061902-00006W_00034N-PP-4b86-v1_0_0.nc",
+      "href": "https://aria-share.jpl.nasa.gov/COSEIS-ONE_STOP_SHOP/HISTORIC_EVENTS/2016/m_63_49_km_nne_of_al_hoceima_morocco_us10004gy9/S1-COSEIS_SAR-D-R-081-tops-20160215_20160110-061902-00006W_00034N-PP-4b86-v1_0_0/S1-COSEIS_SAR-D-R-081-tops-20160215_20160110-061902-00006W_00034N-PP-4b86-v1_0_0.nc",
       "type": "application/x-netcdf",
       "title": "Source COSEIS NetCDF product",
       "roles": [
